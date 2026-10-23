@@ -1,0 +1,67 @@
+#EXTM3U
+# Separate trial playlist - 3 requested channel targets; alternatives numbered 01-07.
+# UNVERIFIED ON LINK3. Remote GitHub checks cannot certify real IPTV Pro playback.
+# Main playlist.m3u is not modified by this test playlist.
+# Disney Hindi 01: Independent catalogue labels India HD; 720p/1080p and audio not verified
+#EXTINF:-1 tvg-name="Disney Hindi TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 01
+http://66.102.126.10:8000/play/a013/index.m3u8
+# Disney Hindi 02: 2026 catalogue labels Disney Channel India; quality not verified
+#EXTINF:-1 tvg-name="Disney Hindi TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 02
+http://202.70.146.135:8000/play/a01q/index.m3u8
+# Disney Hindi 03: Public relay patterned after user-working Discovery Bangla origin; no valid segment remotely
+#EXTINF:-1 tvg-name="Disney Hindi TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 03
+https://app-re.sm-monirul-islam-rs.workers.dev/disney-channel-hindi/index.m3u8
+# Disney Hindi 04: Listed as Disney Channel India in a public family playlist
+#EXTINF:-1 tvg-name="Disney Hindi TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 04
+https://yowaimo.in/Sflex-ArtlPVT0719/DISNEY_CHANNEL.m3u8
+# Disney Hindi 05: Approved iptv-org India feed; only SD 576p with English/Hindi audio
+#EXTINF:-1 tvg-name="Disney Hindi TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 05
+http://ptu.ridsys.in/riptv/live/DISNEY_CHANNEL/index.m3u8
+# Disney Hindi 06: Independent alternative of the approved Disney SD feed
+#EXTINF:-1 tvg-name="Disney Hindi TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 06
+http://ajkiptv.ridsys.in/riptv/live/DISNEY_CHANNEL/index.m3u8
+# Disney Hindi 07: Akamai-branded Hindi candidate; old and unverified
+#EXTINF:-1 tvg-name="Disney Hindi TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 07
+https://disneyhindi-lh.akamaihd.net/i/disneyhindi_1@174991/master.m3u8
+# Sonic Hindi 01: iptv-org South Asia SONIC feed; likely SD; language unverified
+#EXTINF:-1 tvg-name="Sonic Hindi TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 01
+http://103.185.24.134:3001/SONIC/index.m3u8
+# Sonic Hindi 02: Public September 2026 catalogue SONIC India entry
+#EXTINF:-1 tvg-name="Sonic Hindi TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 02
+http://202.70.146.135:8000/play/a02t/index.m3u8
+# Sonic Hindi 03: Public sonic-hindi labelled JioTV relay; access may be restricted
+#EXTINF:-1 tvg-name="Sonic Hindi TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 03
+https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8
+# Sonic Hindi 04: Published Hindi SONIC feed
+#EXTINF:-1 tvg-name="Sonic Hindi TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 04
+http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8
+# Sonic Hindi 05: Public channel ID 815 labelled Sonic Hindi
+#EXTINF:-1 tvg-name="Sonic Hindi TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 05
+http://103.68.28.58:5001/live/815.m3u8
+# Sonic Hindi 06: Bangladesh-domain Sonic source; exact audio unknown
+#EXTINF:-1 tvg-name="Sonic Hindi TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 06
+https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8
+# Sonic Hindi 07: JioCinema CDN Sonic feed; likely geo/account limited
+#EXTINF:-1 tvg-name="Sonic Hindi TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 07
+https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8
+# Sonic Bangla 01: GitHub runner manifest successful; media segment unverified
+#EXTINF:-1 tvg-name="Sonic Bangla TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 - Sonic Bangla TEST",Sonic Bangla TEST 01
+http://103.17.193.159:5001/live/1345.m3u8
+# Sonic Bangla 02: Public Bangladesh-oriented cartoon list explicitly labels Sonic Bangla
+#EXTINF:-1 tvg-name="Sonic Bangla TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 - Sonic Bangla TEST",Sonic Bangla TEST 02
+http://live.balajibroadband.com:3500/live/1345.m3u8
+# Sonic Bangla 03: Public Sonic Bangla ID 1345 alternative server
+#EXTINF:-1 tvg-name="Sonic Bangla TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 - Sonic Bangla TEST",Sonic Bangla TEST 03
+http://103.180.212.191:3500/live/1345.m3u8
+# Sonic Bangla 04: September 2026 public source explicitly labels Sonic Bangla
+#EXTINF:-1 tvg-name="Sonic Bangla TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 - Sonic Bangla TEST",Sonic Bangla TEST 04
+http://198.195.239.50:8095/sonic/index.m3u8
+# Sonic Bangla 05: Alternative Sonic Bangla ID 1345 upstream
+#EXTINF:-1 tvg-name="Sonic Bangla TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 - Sonic Bangla TEST",Sonic Bangla TEST 05
+http://14.102.123.50:5001/live/1345.m3u8
+# Sonic Bangla 06: Bangladesh provider CDN labelled Sonic; access rights may be required
+#EXTINF:-1 tvg-name="Sonic Bangla TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 - Sonic Bangla TEST",Sonic Bangla TEST 06
+https://edge01.iptv.digijadoo.net/live/sonic/playlist.m3u8
+# Sonic Bangla 07: Alternate Bangladesh-domain Sonic source, audio unverified
+#EXTINF:-1 tvg-name="Sonic Bangla TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 - Sonic Bangla TEST",Sonic Bangla TEST 07
+https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8
