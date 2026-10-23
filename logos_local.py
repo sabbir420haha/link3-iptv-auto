@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a locally hosted 512x288 PNG for every IPTV channel.
+"""Build a locally hosted, evenly padded square 512x512 PNG for every IPTV channel.
 Never changes stream URLs. Prefer exact Indian broadcaster logos and provider image
 sources; otherwise use a clearly labelled custom channel-name placeholder.
 """
@@ -42,6 +42,7 @@ INDIAN={
 # Avoid substituting incorrect logos from similarly named foreign channels.
 OTHER={
     "Discovery Bangla":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/India/Discovery-Bangla.png",
+    "Disney HD Hindi":"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL_HD/images/LOGO_HD/image.png",
 }
 def slug(name):
     return re.sub(r"[^a-z0-9]+","-",name.lower()).strip("-") or "channel"
@@ -76,26 +77,47 @@ def font(size):
             continue
     return ImageFont.load_default()
 
-def card(name,img):
-    background=Image.new("RGBA",(512,288),(21,30,47,255))
-    p=ImageDraw.Draw(background)
-    p.rounded_rectangle((5,5,506,282),radius=22,outline=(76,93,123,255),width=2)
+def card(name, img):
+    """Center the *entire* broadcaster artwork in a safe square logo area.
+
+    Artwork occupies the middle 420x248 region, so even an IPTV client's
+    horizontal center crop keeps all important logo pixels visible. Source
+    alpha-margin is removed before resizing; aspect ratios are never stretched.
+    """
+    canvas = Image.new("RGBA", (512, 512), (21, 30, 47, 255))
+    painter = ImageDraw.Draw(canvas)
+    # Subtle edge, not a frame around the logo: prevents a clipped-card look.
+    painter.rounded_rectangle((7, 7, 504, 504), radius=28,
+                              outline=(57, 71, 94, 255), width=2)
     if img is not None:
-        img.thumbnail((445,227),Image.Resampling.LANCZOS)
-        x=(512-img.width)//2
-        y=(277-img.height)//2
-        background.alpha_composite(img,(x,y))
-        return background.convert("RGB"),"brand"
-    # A visible placeholder is preferable to a broken logo, but not falsely official.
-    group_lines=textwrap.wrap(name,width=15,break_long_words=False)
-    group_lines=group_lines[:3]
-    display="\n".join(group_lines)
-    chosen=font(45 if len(name)<20 else 33)
-    box=p.multiline_textbbox((0,0),display,font=chosen,spacing=10,align="center")
-    yy=124-(box[3]-box[1])/2
-    p.multiline_text((256,yy),display,font=chosen,fill=(248,250,255),anchor="ma",spacing=10,align="center")
-    p.text((256,259),"CHANNEL NAME · LOGO UNAVAILABLE",font=font(15),fill=(166,187,211),anchor="mm")
-    return background.convert("RGB"),"fallback"
+        work = img.convert("RGBA")
+        # Trim only genuinely transparent margins; do not guess opaque
+        # brand background colors or accidentally crop trademark details.
+        alpha = work.getchannel("A")
+        if alpha.getextrema()[0] < 240:
+            mask = alpha.point(lambda x: 255 if x >= 24 else 0)
+            bounds = mask.getbbox()
+            if bounds and (bounds[2] - bounds[0]) > 12 and (bounds[3] - bounds[1]) > 12:
+                work = work.crop(bounds)
+        work.thumbnail((418, 248), Image.Resampling.LANCZOS)
+        x, y = (512-work.width)//2, (512-work.height)//2
+        canvas.alpha_composite(work, (x, y))
+        return canvas.convert("RGB"), "brand"
+    # Avoid clipped placeholders when artwork is not available.
+    parts = textwrap.wrap(name, width=17, break_long_words=False)
+    parts = parts[:3]
+    if len(parts) == 3 and len(name) > 47:
+        parts[2] = parts[2][:13] + "..."
+    display = "\\n".join(parts)
+    chosen = font(43 if len(name) < 20 else 34 if len(name) < 31 else 27)
+    bounds = painter.multiline_textbbox((0, 0), display, font=chosen,
+                                        spacing=8, align="center")
+    height = bounds[3] - bounds[1]
+    top = 250 - height // 2
+    painter.multiline_text((256, top), display, font=chosen,
+                           fill=(245, 249, 255, 255), anchor="ma",
+                           spacing=8, align="center")
+    return canvas.convert("RGB"), "fallback"
 
 def process(line):
     name_match=re.search(r'tvg-name="([^"]+)"',line)
@@ -149,8 +171,8 @@ def main():
     if STATUS.exists():
         status=json.loads(STATUS.read_text(encoding="utf-8"))
         status["local_logos"]={"total":len(result),"from_image_sources":statuses["brand"],
-                "clear_name_fallbacks":statuses["fallback"],"size":"512x288 PNG",
-                "note":"Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."}
+                "clear_name_fallbacks":statuses["fallback"],"size":"512x512 PNG; centered, contain-fit with safe margins",
+                "note":"Every M3U logo points to a centered locally cached image. Brand marks keep original proportions; fallback names are not broadcaster originals."}
         STATUS.write_text(json.dumps(status,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     print("Local channel logos:",dict(statuses),"total",len(result))
 
