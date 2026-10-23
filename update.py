@@ -58,6 +58,12 @@ EXTRA_CANDIDATES = {
     # New candidates from published GitHub playlists; none are claimed working.
     # Segment testing from GitHub Actions determines if they are published.
     "Discovery Bangla": [
+        # Pattern-only probes on the server that already plays the user's
+        # Hungama, Duronto, Nick Bangla and Nat Geo Bangla. Not sourced links
+        # and never published unless the server returns a valid video segment.
+        "http://103.135.253.32:8080/DISCOVERY-BANGLA/index.m3u8",
+        "http://103.135.253.32:8080/DISCOVERY-BENGALI/index.m3u8",
+        "http://103.135.253.32:8080/DISCOVERY-HD-BANGLA/index.m3u8",
         # AirtelXstream's explicitly named Bengali channel; HLS variant is
         # a candidate, not confirmed public/open or DRM-free.
         "https://load.airtelxstream.in/discoverychannelbengali/smil:common.smil/playlist.m3u8?DVR",
