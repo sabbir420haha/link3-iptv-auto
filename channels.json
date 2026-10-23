@@ -1,0 +1,754 @@
+[
+  {
+    "name": "Channel 24",
+    "group": "01 | BD News",
+    "aliases": [
+      "Channel24"
+    ],
+    "locked": true,
+    "last_known_url": "https://drk6xq0vhn.gpcdn.net/live/channel_24_abr/index.m3u8"
+  },
+  {
+    "name": "Independent TV",
+    "group": "01 | BD News",
+    "aliases": [],
+    "locked": true,
+    "last_known_url": "https://drk6xq0vhn.gpcdn.net/live/independent_tv_abr/index.m3u8"
+  },
+  {
+    "name": "Somoy TV",
+    "group": "01 | BD News",
+    "aliases": [
+      "Somoy Tv HD"
+    ],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Jamuna TV",
+    "group": "01 | BD News",
+    "aliases": [
+      "Jamuna Tv"
+    ],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Ekattor TV",
+    "group": "01 | BD News",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "News 24",
+    "group": "01 | BD News",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "DBC News",
+    "group": "01 | BD News",
+    "aliases": [
+      "DBC"
+    ],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "BTV News",
+    "group": "01 | BD News",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Desh TV",
+    "group": "01 | BD News",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "ATN News",
+    "group": "01 | BD News",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Ekhon TV",
+    "group": "01 | BD News",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Jago News 24",
+    "group": "01 | BD News",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Bijoy TV",
+    "group": "01 | BD News",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Ekushey TV",
+    "group": "01 | BD News",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Channel 1 News",
+    "group": "01 | BD News",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "News 21 Bangla TV",
+    "group": "01 | BD News",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "TBN24",
+    "group": "01 | BD News",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Star News BD",
+    "group": "01 | BD News",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "BTV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "BTV Chattogram",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "ATN Bangla",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [
+      "ATN Bangla D2H"
+    ],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "BanglaVision",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [
+      "Bangla Vision",
+      "Bangla Vision D2H"
+    ],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Boishakhi TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Channel i",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [
+      "Channel I HD",
+      "Channel i HD D2H"
+    ],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Deepto TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "NTV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [
+      "NTV D2H"
+    ],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "RTV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Maasranga TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [
+      "Machranga Tv",
+      "Machranga Tv D2H"
+    ],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Gazi TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Green TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "My TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Asian TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "SA TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Ananda TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Nexus TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Rajdhani TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Vokta TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "NAN TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "ATN Music",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Deshi TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Rupashi Bangla TV BD",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Enter TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Channel S",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Deshe Bideshe TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Islamic TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Iqra Bangla",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "BTV World",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Mohona TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Global TV BD",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "NRB TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Thikana TV",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Channel 9 BD",
+    "group": "02 | BD General & Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Sony Aath",
+    "group": "03 | Indian Bangla",
+    "aliases": [
+      "Sony AATH",
+      "Sony Aath D2H"
+    ],
+    "locked": true,
+    "last_known_url": "https://stream.ottplus.live/live/sony_aath_abr/index.m3u8"
+  },
+  {
+    "name": "Zee Bangla",
+    "group": "03 | Indian Bangla",
+    "aliases": [
+      "Zee Bangla HD"
+    ],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Star Jalsha",
+    "group": "03 | Indian Bangla",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Colors Bangla",
+    "group": "03 | Indian Bangla",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Aakaash Aath",
+    "group": "03 | Indian Bangla",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Sun Bangla",
+    "group": "03 | Indian Bangla",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Bangla Jago TV",
+    "group": "03 | Indian Bangla",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "DD Bangla",
+    "group": "03 | Indian Bangla",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "TV9 Bangla",
+    "group": "03 | Indian Bangla",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Zee 24 Ghanta",
+    "group": "03 | Indian Bangla",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Kolkata TV",
+    "group": "03 | Indian Bangla",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Ruposhi Bangla",
+    "group": "03 | Indian Bangla",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Amar Bangla",
+    "group": "03 | Indian Bangla",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "R Plus Gold",
+    "group": "03 | Indian Bangla",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Enterr10 Bangla",
+    "group": "03 | Indian Bangla",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Sananda TV",
+    "group": "03 | Indian Bangla",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Bangla Plus",
+    "group": "03 | Indian Bangla",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Zee Bangla SD",
+    "group": "03 | Indian Bangla",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Hungama",
+    "group": "04 | Kids",
+    "aliases": [
+      "Hungama TV"
+    ],
+    "locked": true,
+    "last_known_url": "http://103.135.253.32:8080/HUNGAMA/index.m3u8"
+  },
+  {
+    "name": "Sony Yay",
+    "group": "04 | Kids",
+    "aliases": [
+      "Sony YAY"
+    ],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Super Hungama",
+    "group": "04 | Kids",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Pogo",
+    "group": "04 | Kids",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Cartoon Network",
+    "group": "04 | Kids",
+    "aliases": [
+      "Cartoon Net HD Hindi",
+      "Cartoon Network HD Hindi"
+    ],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Discovery Kids",
+    "group": "04 | Kids",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Disney Channel India",
+    "group": "04 | Kids",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Nick Jr India",
+    "group": "04 | Kids",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Disney HD Hindi",
+    "group": "04 | Kids",
+    "aliases": [
+      "Disney Channel HD Hindi"
+    ],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Disney SD",
+    "group": "04 | Kids",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Nick Hindi",
+    "group": "04 | Kids",
+    "aliases": [
+      "Nickelodeon Hindi"
+    ],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Sonic Hindi",
+    "group": "04 | Kids",
+    "aliases": [
+      "Nick Sonic Hindi"
+    ],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Duronto TV",
+    "group": "05 | BD Kids",
+    "aliases": [
+      "Duranto TV"
+    ],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "T Sports",
+    "group": "06 | Sports",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "DD Sports",
+    "group": "06 | Sports",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "PTV Sports",
+    "group": "06 | Sports",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "A Sports",
+    "group": "06 | Sports",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "beIN Sports XTRA",
+    "group": "06 | Sports",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Sports First TV",
+    "group": "06 | Sports",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Red Bull TV",
+    "group": "06 | Sports",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Star Sports 1 Hindi",
+    "group": "06 | Sports",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Star Sports 2",
+    "group": "06 | Sports",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Goal TV",
+    "group": "06 | Sports",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Cricket Gold",
+    "group": "06 | Sports",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "FITE 24/7",
+    "group": "06 | Sports",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "T Sports (ALT CDN)",
+    "group": "06 | Sports",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Sony Ten 1 HD",
+    "group": "06 | Sports",
+    "aliases": [
+      "Sony Sports Ten 1"
+    ],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Sony Ten 3 HD",
+    "group": "06 | Sports",
+    "aliases": [
+      "Sony Sports Ten 3"
+    ],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Discovery Bangla",
+    "group": "07 | Documentaries",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Nat Geo Bangla",
+    "group": "07 | Documentaries",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  },
+  {
+    "name": "Sony MAX HD",
+    "group": "08 | Hindi Entertainment",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": ""
+  }
+]
