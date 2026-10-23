@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T16:06:59.845807+00:00",
+  "updated_utc": "2026-10-23T16:18:55.729612+00:00",
   "channels": 77,
   "target_channels": 98,
   "groups": {
@@ -455,7 +455,7 @@
     },
     {
       "name": "Gazi TV",
-      "state": "FALLBACK_NOT_REVERIFIED",
+      "state": "REMOTE_MANIFEST_REACHABLE",
       "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -504,7 +504,7 @@
     },
     {
       "name": "NAN TV",
-      "state": "FALLBACK_NOT_REVERIFIED",
+      "state": "REMOTE_MANIFEST_REACHABLE",
       "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -764,7 +764,7 @@
     {
       "name": "Cartoon Network",
       "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8",
+      "stream": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -970,8 +970,8 @@
   },
   "local_logos": {
     "total": 77,
-    "from_image_sources": 66,
-    "clear_name_fallbacks": 11,
+    "from_image_sources": 67,
+    "clear_name_fallbacks": 10,
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },

@@ -46,7 +46,7 @@ https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8
 #EXTVLCOPT:live-caching=2500
 #EXTVLCOPT:http-reconnect=true
 https://tvsen6.aynaott.com/pF66Tkz0qFwP2aMMqHyt/index.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Discovery Bangla
+#EXTINF:-1 tvg-name="Discovery Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png?v=contrast-brand-20261023" group-title="00 | MY FAVORITES",Discovery Bangla
 #EXTVLCOPT:network-caching=2500
 #EXTVLCOPT:live-caching=2500
 #EXTVLCOPT:http-reconnect=true
@@ -72,7 +72,7 @@ http://103.135.253.32:8080/HUNGAMA/index.m3u8
 #EXTVLCOPT:live-caching=2500
 #EXTVLCOPT:http-reconnect=true
 https://stream.ottplus.live/live/max_hd_abr/index.m3u8
-#EXTINF:-1 tvg-name="Jamuna TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Jamuna TV
+#EXTINF:-1 tvg-name="Jamuna TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="00 | MY FAVORITES",Jamuna TV
 #EXTVLCOPT:network-caching=2500
 #EXTVLCOPT:live-caching=2500
 #EXTVLCOPT:http-reconnect=true
@@ -82,7 +82,7 @@ https://tvsen6.aynaott.com/KGdZEdA7qQ43dmPkgk1j/index.m3u8
 #EXTVLCOPT:live-caching=2500
 #EXTVLCOPT:http-reconnect=true
 https://tvsen5.aynaott.com/maasrangatv/index.m3u8
-#EXTINF:-1 tvg-name="Nat Geo HD Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Nat Geo HD Bangla
+#EXTINF:-1 tvg-name="Nat Geo HD Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png?v=contrast-brand-20261023" group-title="00 | MY FAVORITES",Nat Geo HD Bangla
 #EXTVLCOPT:network-caching=2500
 #EXTVLCOPT:live-caching=2500
 #EXTVLCOPT:http-reconnect=true
