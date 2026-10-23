@@ -8,6 +8,7 @@ on:
       - logos.py
       - logos_local.py
       - geo_trial.py
+      - tv_playback_health.py
       - .github/workflows/update.yml
   workflow_dispatch:
   schedule:
@@ -38,11 +39,13 @@ jobs:
         run: python logos_local.py
       - name: Generate separate optional BD-region test playlist
         run: python geo_trial.py
+      - name: Check current video-source stability from runner without replacing streams
+        run: python tv_playback_health.py
       - name: Commit updated playlist and status
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add playlist.m3u geo_trials.m3u status.json logos/
+          git add playlist.m3u geo_trials.m3u status.json tv_stream_health.json logos/
           if ! git diff --cached --quiet; then
             git commit -m 'Update curated Link3 IPTV playlist'
             for attempt in 1 2 3; do
