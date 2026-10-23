@@ -449,6 +449,13 @@ def main():
         segments = dict(zip(priority_urls, pool.map(segment_probe, priority_urls)))
 
     used = set()
+    verified_backups = []
+    # Backup URLs are from the same public server as user-tested Hungama.
+    # Publish ONLY if a distinct, real video segment is independently readable.
+    backups_by_name = {
+        "Duronto TV": "http://103.135.253.32:8080/DORONTU-TV/index.m3u8",
+        "Nat Geo HD Bangla": "http://103.135.253.32:8080/NATGEO-HD/index.m3u8",
+    }
     experimental_count = 0
     output = ["#EXTM3U", "# Curated IPTV Pro: refreshed by GitHub Actions every 6 hours.",
               "# Manifest checks occur on GitHub, not the user's Link3 Wi-Fi."]
@@ -494,6 +501,17 @@ def main():
             logo = clean(chosen.get("logo", ""))
             output.append(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}')
             output.append(chosen["url"])
+            alternate = backups_by_name.get(item["name"])
+            if (alternate and alternate not in used and alternate != chosen["url"]
+                    and allowed(alternate) and health.get(alternate) and segments.get(alternate)
+                    and alternate not in item.get("exclude_urls", [])):
+                used.add(alternate)
+                alt_title = name + " (Backup - Hungama IP)"
+                output.append(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="" group-title="{group}",{alt_title}')
+                output.append(alternate)
+                verified_backups.append({"name": item["name"], "url": alternate,
+                                         "media_segment_checked": True,
+                                         "label": "Alternate video source, user playback not yet checked"})
         report.append({"name": item["name"], "state": state,
                        "stream": chosen["url"] if chosen else None,
                        "manifest_height": heights.get(chosen["url"], 0) if chosen else 0,
@@ -526,6 +544,7 @@ def main():
                "groups": dict(Counter(x["group"] for x in channels)),
                "remote_manifests_probed": len(health), "media_segments_probed": len(segments),
                "experimental_unverified": experimental_count,
+               "backup_streams": verified_backups,
                "candidate_audit": candidate_audit, "sources": source_stats,
                "channel_status": report,
                "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering"}
