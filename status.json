@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T11:00:26.723955+00:00",
+  "updated_utc": "2026-10-23T11:01:40.573128+00:00",
   "channels": 73,
   "target_channels": 98,
   "groups": {
@@ -90,7 +90,7 @@
       "name": "Nick Bangla",
       "candidates": [
         {
-          "source": "seed",
+          "source": "previous",
           "url": "http://103.135.253.32:8080/NICK/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -665,7 +665,7 @@
     },
     {
       "name": "Gazi TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "FALLBACK_NOT_REVERIFIED",
       "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -714,7 +714,7 @@
     },
     {
       "name": "NAN TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "FALLBACK_NOT_REVERIFIED",
       "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -1180,8 +1180,8 @@
   },
   "local_logos": {
     "total": 73,
-    "from_image_sources": 62,
-    "clear_name_fallbacks": 11,
+    "from_image_sources": 63,
+    "clear_name_fallbacks": 10,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
   },
