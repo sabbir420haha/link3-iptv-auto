@@ -490,19 +490,19 @@ def main():
             if c["url"] not in seen_urls:
                 dedup.append(c)
                 seen_urls.add(c["url"])
-        limit = 24 if item["name"] == "Discovery Bangla" else 9
+        limit = 24 if item["name"] in {"Disney HD Hindi", "Sonic Hindi", "Sonic Bangla", "Discovery Bangla"} else 9
         tasks.append((item, current, dedup[:limit]))
 
     candidates = []
     for item, old, choices in tasks:
         if not item.get("locked"):
-            limit = 24 if item["name"] == "Discovery Bangla" else 6
+            limit = 24 if item["name"] in {"Disney HD Hindi", "Sonic Hindi", "Sonic Bangla", "Discovery Bangla"} else 6
             candidates += [c["url"] for c in choices[:limit]]
     candidates = list(dict.fromkeys(candidates))
     with concurrent.futures.ThreadPoolExecutor(max_workers=20) as pool:
         health = dict(zip(candidates, pool.map(probe, candidates)))
     hd_urls = list(dict.fromkeys(c["url"] for item, old, choices in tasks
-                   if item.get("quality") == "hd" for c in choices[:6] if health.get(c["url"])))
+                   if item.get("quality") == "hd" for c in choices[:24 if item["name"] in {"Disney HD Hindi", "Sonic Hindi", "Sonic Bangla", "Discovery Bangla"} else 6] if health.get(c["url"])))
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
         heights = dict(zip(hd_urls, pool.map(hd_resolution, hd_urls)))
     priority_urls = list(dict.fromkeys(c["url"] for item, old, choices in tasks
@@ -598,7 +598,7 @@ def main():
                  "manifest_ok": bool(health.get(e["url"])),
                  "segment_ok": bool(segments.get(e["url"])),
                  "manifest_height": heights.get(e["url"], 0)}
-                for e in alternatives[:24 if target["name"] == "Discovery Bangla" else 9]
+                for e in alternatives[:24 if target["name"] in {"Disney HD Hindi", "Sonic Hindi", "Sonic Bangla", "Discovery Bangla"} else 9]
             ],
             "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
         })
