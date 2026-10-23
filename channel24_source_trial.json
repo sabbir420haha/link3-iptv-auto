@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-23T18:51:24.198213+00:00",
+  "checked_utc": "2026-10-23T18:54:39.011246+00:00",
   "purpose": "Channel24 candidates only; never changes main 77-channel playlist",
   "scope": "GitHub Actions network only; do not infer Link3",
   "sample_window_seconds": 64,
@@ -7,9 +7,113 @@
     {
       "label": "existing_gpcdn",
       "source": "https://drk6xq0vhn.gpcdn.net/live/channel_24_abr/index.m3u8",
-      "eligible_from_github": false,
-      "error": "ValueError: Encrypted/protected feed not selected",
-      "manifest_polls_ok": 0
+      "selected_media_url": "(signed URL hidden)",
+      "available_variants": [
+        {
+          "bandwidth_kbps": 1767,
+          "height": 720,
+          "source_path": "chunks.m3u8"
+        }
+      ],
+      "initial_request_sec": 0.79,
+      "manifest_polls_ok": 9,
+      "manifest_polls_total": 9,
+      "advances": 7,
+      "sequence_reversals": 0,
+      "unchanged_adjacent_polls": 1,
+      "manifest_latency_max_sec": 0.82,
+      "video_samples": [
+        {
+          "video_segment_bytes_ok": true,
+          "aes128_segment": true,
+          "segment_sample_bytes": 8192,
+          "segment_first_bytes": "803caabc14abd550",
+          "segment_download_sec": 1.41
+        },
+        {
+          "video_segment_bytes_ok": true,
+          "aes128_segment": true,
+          "segment_sample_bytes": 8192,
+          "segment_first_bytes": "803caabc14abd550",
+          "segment_download_sec": 1.22
+        }
+      ],
+      "eligible_from_github": true,
+      "windows": [
+        {
+          "at_seconds": 2.0,
+          "seq": 6,
+          "hash": "4507533d35ad9647",
+          "ok": true,
+          "request_sec": 0.82,
+          "endlist": false
+        },
+        {
+          "at_seconds": 8.3,
+          "seq": 6,
+          "hash": "4507533d35ad9647",
+          "ok": true,
+          "request_sec": 0.25,
+          "endlist": false
+        },
+        {
+          "at_seconds": 16.2,
+          "seq": 8,
+          "hash": "305f391f5c9f9377",
+          "ok": true,
+          "request_sec": 0.25,
+          "endlist": false
+        },
+        {
+          "at_seconds": 24.3,
+          "seq": 10,
+          "hash": "957e8ca2ff98b7bc",
+          "ok": true,
+          "request_sec": 0.25,
+          "endlist": false
+        },
+        {
+          "at_seconds": 32.4,
+          "seq": 11,
+          "hash": "6ffa079e9312f29f",
+          "ok": true,
+          "request_sec": 0.37,
+          "endlist": false
+        },
+        {
+          "at_seconds": 40.3,
+          "seq": 13,
+          "hash": "076f27693a1bde62",
+          "ok": true,
+          "request_sec": 0.25,
+          "endlist": false
+        },
+        {
+          "at_seconds": 48.2,
+          "seq": 15,
+          "hash": "b097207a232804fb",
+          "ok": true,
+          "request_sec": 0.25,
+          "endlist": false
+        },
+        {
+          "at_seconds": 56.2,
+          "seq": 17,
+          "hash": "66a3be1c05167e99",
+          "ok": true,
+          "request_sec": 0.25,
+          "endlist": false
+        },
+        {
+          "at_seconds": 64.3,
+          "seq": 19,
+          "hash": "7909595f8698d6f2",
+          "ok": true,
+          "request_sec": 0.34,
+          "endlist": false
+        }
+      ],
+      "warning": "Server tests only, Link3/IPTV Pro playback NOT independently confirmed"
     },
     {
       "label": "akash_gpcdn",
@@ -23,6 +127,138 @@
       "source": "https://tvsen6.aynaott.com/YrVDF8gu/index.m3u8",
       "eligible_from_github": false,
       "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found",
+      "manifest_polls_ok": 0
+    },
+    {
+      "label": "ottplus",
+      "source": "https://stream.ottplus.live/live/channel_24_abr/index.m3u8",
+      "selected_media_url": "(signed URL hidden)",
+      "available_variants": [
+        {
+          "bandwidth_kbps": 1817,
+          "height": 720,
+          "source_path": "chunks.m3u8"
+        }
+      ],
+      "initial_request_sec": 2.03,
+      "manifest_polls_ok": 9,
+      "manifest_polls_total": 9,
+      "advances": 8,
+      "sequence_reversals": 0,
+      "unchanged_adjacent_polls": 0,
+      "manifest_latency_max_sec": 1.55,
+      "video_samples": [
+        {
+          "video_segment_bytes_ok": true,
+          "aes128_segment": true,
+          "segment_sample_bytes": 8192,
+          "segment_first_bytes": "80d532b573f88758",
+          "segment_download_sec": 1.12
+        },
+        {
+          "video_segment_bytes_ok": true,
+          "aes128_segment": true,
+          "segment_sample_bytes": 8192,
+          "segment_first_bytes": "c8ffd96c55a0e649",
+          "segment_download_sec": 1.33
+        }
+      ],
+      "eligible_from_github": true,
+      "windows": [
+        {
+          "at_seconds": 4.2,
+          "seq": 7,
+          "hash": "a913f68505c58722",
+          "ok": true,
+          "request_sec": 1.08,
+          "endlist": false
+        },
+        {
+          "at_seconds": 9.6,
+          "seq": 8,
+          "hash": "508794b881d817dc",
+          "ok": true,
+          "request_sec": 1.55,
+          "endlist": false
+        },
+        {
+          "at_seconds": 17.1,
+          "seq": 10,
+          "hash": "25e9f1212a719c53",
+          "ok": true,
+          "request_sec": 1.11,
+          "endlist": false
+        },
+        {
+          "at_seconds": 25.1,
+          "seq": 12,
+          "hash": "19e658ffeb5a0926",
+          "ok": true,
+          "request_sec": 1.07,
+          "endlist": false
+        },
+        {
+          "at_seconds": 33.1,
+          "seq": 13,
+          "hash": "df24a94b1470cce6",
+          "ok": true,
+          "request_sec": 1.1,
+          "endlist": false
+        },
+        {
+          "at_seconds": 41.1,
+          "seq": 15,
+          "hash": "5752d72e579a40fd",
+          "ok": true,
+          "request_sec": 1.12,
+          "endlist": false
+        },
+        {
+          "at_seconds": 49.1,
+          "seq": 17,
+          "hash": "0e7247940c2200d0",
+          "ok": true,
+          "request_sec": 1.06,
+          "endlist": false
+        },
+        {
+          "at_seconds": 57.2,
+          "seq": 19,
+          "hash": "73733139e8548975",
+          "ok": true,
+          "request_sec": 1.23,
+          "endlist": false
+        },
+        {
+          "at_seconds": 65.2,
+          "seq": 21,
+          "hash": "99f448f6e2037f3e",
+          "ok": true,
+          "request_sec": 1.16,
+          "endlist": false
+        }
+      ],
+      "warning": "Server tests only, Link3/IPTV Pro playback NOT independently confirmed"
+    },
+    {
+      "label": "digijadoo_edge",
+      "source": "https://edge01.iptv.digijadoo.net/live/channel_24/chunks.m3u8",
+      "eligible_from_github": false,
+      "error": "ValueError: No readable HLS data: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>",
+      "manifest_polls_ok": 0
+    },
+    {
+      "label": "digijadoo_bol",
+      "source": "https://bol.iptv.digijadoo.net/live/channel_24/chunks.m3u8",
+      "eligible_from_github": false,
+      "error": "ValueError: No readable HLS data: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'bol.iptv.dig",
+      "manifest_polls_ok": 0
+    },
+    {
+      "label": "ayna_scope",
+      "source": "https://tvsen6.aynascope.net/channel24/index.m3u8",
+      "eligible_from_github": false,
+      "error": "ValueError: No readable HLS data: <urlopen error timed out>",
       "manifest_polls_ok": 0
     },
     {
