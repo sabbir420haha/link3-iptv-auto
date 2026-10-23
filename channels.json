@@ -628,7 +628,9 @@
     "user_reported_wrong_channel": [
       "http://181.119.215.61:8000/play/a0g1/index.m3u8"
     ],
-    "identity_must_match": "Disney Channel Hindi, NOT Disney Junior"
+    "identity_must_match": "Disney Channel Hindi, NOT Disney Junior",
+    "strict_hd_manifest": true,
+    "quality_note": "Never show unknown-resolution or Disney Junior feed under Disney Hindi HD. Require an HLS master advertising >=720p and confirmed channel identity by the viewer."
   },
   {
     "name": "Disney SD",
@@ -866,7 +868,8 @@
     ],
     "user_verified_link3": true,
     "user_confirmed_at": "2026-10-23",
-    "user_quality_feedback": "User confirms channel plays on Link3 but perceived image sharpness/resolution is low. Do not replace working URL. Try alternate high-quality stream separately."
+    "user_quality_feedback": "User confirms channel plays on Link3 but perceived image sharpness/resolution is low. Do not replace working URL. Try alternate high-quality stream separately.",
+    "quality_note": "Plays on Link3 according to user, picture appears soft despite 1080p height reported by GitHub; preserve current URL."
   },
   {
     "name": "Discovery Bangla",
