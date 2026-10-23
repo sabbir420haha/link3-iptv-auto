@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T12:11:39.642151+00:00",
+  "updated_utc": "2026-10-23T12:14:52.331404+00:00",
   "channels": 77,
   "target_channels": 98,
   "groups": {
@@ -12,9 +12,9 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 331,
-  "media_segments_probed": 2,
-  "experimental_unverified": 2,
+  "remote_manifests_probed": 330,
+  "media_segments_probed": 0,
+  "experimental_unverified": 3,
   "backup_streams": [],
   "candidate_audit": [
     {
@@ -32,13 +32,6 @@
           "url": "http://103.135.253.32:8080/DISNEY-CHANNEL/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0406/master.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
           "manifest_height": 0
         },
         {
@@ -187,6 +180,13 @@
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://70.39.83.58:8278/disneychannelhindikdin/playlist.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
         }
       ],
       "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
@@ -219,13 +219,6 @@
           "url": "http://103.135.253.32:8080/SONIC-HD/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0407/master.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
           "manifest_height": 0
         },
         {
@@ -374,6 +367,13 @@
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.72.101.252:8080/live/815.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
         }
       ],
       "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
@@ -384,13 +384,6 @@
         {
           "source": "curated-candidate",
           "url": "http://103.135.253.32:8080/SONIC-BANGLA/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.182.170.32:8888/play/a02s",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -1261,9 +1254,9 @@
     {
       "name": "Disney HD Hindi",
       "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
-      "stream": "http://iptvcasomsapi.jprdigital.in/x-media/C0406/master.m3u8",
+      "stream": "https://kingkohli.pages.dev/Play/DisneyHD_Watch_index.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": true
+      "media_segment_checked": false
     },
     {
       "name": "Disney SD",
@@ -1281,15 +1274,15 @@
     },
     {
       "name": "Sonic Hindi",
-      "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "http://iptvcasomsapi.jprdigital.in/x-media/C0407/master.m3u8",
+      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
+      "stream": "https://sflex07.fun:443/07/jio/app/ts_live_815.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": true
+      "media_segment_checked": false
     },
     {
       "name": "Sonic Bangla",
       "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
-      "stream": "http://103.182.170.32:8888/play/a02s",
+      "stream": "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=1345",
       "manifest_height": 0,
       "media_segment_checked": false
     },
