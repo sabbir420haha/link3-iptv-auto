@@ -58,6 +58,9 @@ EXTRA_CANDIDATES = {
     # New candidates from published GitHub playlists; none are claimed working.
     # Segment testing from GitHub Actions determines if they are published.
     "Discovery Bangla": [
+        # AirtelXstream's explicitly named Bengali channel; HLS variant is
+        # a candidate, not confirmed public/open or DRM-free.
+        "https://load.airtelxstream.in/discoverychannelbengali/smil:common.smil/playlist.m3u8?DVR",
         # Publicly published explicitly as Bengali/Bangla, not generic Discovery HD.
         "https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8",
         "http://103.89.248.130:8082/DISCOVERY-BANGLA/index.m3u8",
@@ -465,12 +468,14 @@ def main():
             if c["url"] not in seen_urls:
                 dedup.append(c)
                 seen_urls.add(c["url"])
-        tasks.append((item, current, dedup[:9]))
+        limit = 24 if item["name"] == "Discovery Bangla" else 9
+        tasks.append((item, current, dedup[:limit]))
 
     candidates = []
     for item, old, choices in tasks:
         if not item.get("locked"):
-            candidates += [c["url"] for c in choices[:6]]
+            limit = 24 if item["name"] == "Discovery Bangla" else 6
+            candidates += [c["url"] for c in choices[:limit]]
     candidates = list(dict.fromkeys(candidates))
     with concurrent.futures.ThreadPoolExecutor(max_workers=20) as pool:
         health = dict(zip(candidates, pool.map(probe, candidates)))
@@ -571,7 +576,7 @@ def main():
                  "manifest_ok": bool(health.get(e["url"])),
                  "segment_ok": bool(segments.get(e["url"])),
                  "manifest_height": heights.get(e["url"], 0)}
-                for e in alternatives[:9]
+                for e in alternatives[:24 if target["name"] == "Discovery Bangla" else 9]
             ],
             "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
         })
