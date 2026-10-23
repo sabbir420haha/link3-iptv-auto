@@ -655,6 +655,20 @@
       "Sonic Bangla"
     ],
     "locked": false,
+    "last_known_url": "https://sar.pages.dev/sonic.m3u8",
+    "requires_media_segment": true,
+    "skip_unverified_fallback": false,
+    "preserve_previous": true
+  },
+  {
+    "name": "Sonic Bangla",
+    "group": "04 | Kids",
+    "aliases": [
+      "Nick Sonic Bangla",
+      "Sonic Bengali",
+      "Sonic Nickelodeon Bengali"
+    ],
+    "locked": false,
     "last_known_url": "",
     "requires_media_segment": true,
     "skip_unverified_fallback": true
