@@ -62,6 +62,6 @@ http://14.102.123.50:5001/live/1345.m3u8
 # Sonic Bangla 06: Bangladesh provider CDN labelled Sonic; access rights may be required
 #EXTINF:-1 tvg-name="Sonic Bangla TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 - Sonic Bangla TEST",Sonic Bangla TEST 06
 https://edge01.iptv.digijadoo.net/live/sonic/playlist.m3u8
-# Sonic Bangla 07: Alternate Bangladesh-domain Sonic source, audio unverified
+# Sonic Bangla 07: Explicitly labelled Sonic Bangla in a 2026 public collection, stream not yet verified
 #EXTINF:-1 tvg-name="Sonic Bangla TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 - Sonic Bangla TEST",Sonic Bangla TEST 07
-https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8
+http://103.204.43.87:8080/live/1/1/274.m3u8
