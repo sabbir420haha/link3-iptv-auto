@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T09:25:47.046297+00:00",
-  "channels": 71,
+  "updated_utc": "2026-10-23T09:28:28.950801+00:00",
+  "channels": 73,
   "target_channels": 104,
   "groups": {
     "01 | BD News": 18,
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 293,
+  "remote_manifests_probed": 319,
   "media_segments_probed": 1,
   "experimental_unverified": 0,
   "candidate_audit": [
@@ -186,6 +186,13 @@
         {
           "source": "public-Indian-family-candidates",
           "url": "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sony_ten1_hd",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "Zaman-Active",
+          "url": "http://103.49.168.172:8081/ebox/ten1/chunks.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -561,8 +568,8 @@
     },
     {
       "name": "News 21 Bangla TV",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "http://103.190.133.68:1935/news21live/live/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -862,8 +869,8 @@
     },
     {
       "name": "Sun Bangla",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "http://27.124.71.27/Sun_Bangla/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1185,17 +1192,17 @@
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 71,
+    "logo_count": 73,
     "methods": {
-      "current-broadcaster": 44,
+      "current-broadcaster": 46,
       "verified-recent-provider-logo": 18,
       "text-fallback": 9
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 71,
-    "from_image_sources": 62,
+    "total": 73,
+    "from_image_sources": 64,
     "clear_name_fallbacks": 9,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
