@@ -79,3 +79,11 @@ The current playlist includes three newly found replacements in `98 | TEST - Unv
 - Sonic Bangla: `https://madanitv.assadikb.workers.dev/live.php?id=1345&e=.m3u8` — separately labeled Bengali channel-ID relay.
 
 **All 3 failed or could not complete remote GitHub-runner media-fragment verification. They have NOT been demonstrated to work on Link3.** They exist only so the user can attempt an ISP-local trial. Never claim these are active or user verified until playback is reported. The prior wrong Disney Junior URL remains excluded.
+
+### 2026-10-23 Link3 TEST playback rejection
+The viewer tested the three streams manually and reported **none play**:
+- Disney HD Hindi `http://66.102.120.18:8000/play/a013/index.m3u8`
+- Sonic Hindi `https://madanitv.assadikb.workers.dev/live.php?id=815&e=.m3u8`
+- Sonic Bangla `https://madanitv.assadikb.workers.dev/live.php?id=1345&e=.m3u8`
+
+Each stream is now in its channel `exclude_urls` and `user_reported_failures`. The updater has `allow_unverified=false` and empty `experimental_urls` for those channels; the TEST group is intentionally empty. Those **three channels remain unfulfilled** until a genuinely usable replacement is discovered and checked. The viewer confirmed Discovery Bangla works, and its relay is pinned alongside 10 other Link3-tested streams. The original pinned URLs remain unchanged.
