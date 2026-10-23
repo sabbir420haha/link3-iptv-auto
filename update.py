@@ -113,6 +113,20 @@ def probe(url):
     except Exception:
         return False
 
+def matches_channel(item, url):
+    """Reject known false positives from worldwide channel lists."""
+    label = item["name"]
+    url_low = url.lower()
+    wrong = {
+        "News 24": ("balkanweb.com",),  # News24 Albania is NOT Bangladesh News24
+        "R Plus Gold": ("rplusnews24x7",),  # R Plus News is a different channel
+        "Sony Ten 1 HD": ("dropbox.com", "badminton1.m3u8"),
+        "Sony Ten 3 HD": ("dropbox.com",),
+        "Star Sports 1 Hindi": ("pages.dev",),
+        "Colors Bangla": ("/preview/",),
+    }
+    return not any(x in url_low for x in wrong.get(label, ()))
+
 def score(item, entry, old):
     url = entry["url"]
     host = urllib.parse.urlsplit(url).hostname or ""
@@ -165,7 +179,7 @@ def main():
             choices.append({"url": current, "logo": "", "source": "previous"})
         if pinned:
             choices.append({"url": pinned, "logo": "", "source": "seed"})
-        choices = [c for c in choices if allowed(c["url"], locked and c["url"] == pinned)]
+        choices = [c for c in choices if allowed(c["url"], locked and c["url"] == pinned) and matches_channel(item, c["url"])]
         if locked:
             choices = [c for c in choices if c["url"] == pinned]
         choices.sort(key=lambda c: score(item, c, current), reverse=True)
@@ -201,7 +215,7 @@ def main():
                 state = "REMOTE_MANIFEST_REACHABLE"
             else:
                 old = current or item.get("last_known_url", "")
-                if old and allowed(old) and old not in used:
+                if old and allowed(old) and matches_channel(item, old) and old not in used:
                     chosen = {"url": old, "logo": "", "source": "fallback"}
                     state = "FALLBACK_NOT_REVERIFIED"
         if chosen and chosen["url"] not in used:
