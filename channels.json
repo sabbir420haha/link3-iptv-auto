@@ -619,11 +619,11 @@
     "min_height": 720,
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
-    "allow_unverified": true,
-    "experimental_urls": [
+    "allow_unverified": false,
+    "experimental_urls": [],
+    "exclude_urls": [
       "http://lifetvbd.xyz:8080/play/c-CHSxllrYcCvZWsMzkBPCAqqAmRUCilgdGzNSaDHFQ/m3u8"
-    ],
-    "experiment_note": "Public playlist candidate only. Not confirmed playable or true HD; may require subscription or regional access."
+    ]
   },
   {
     "name": "Disney SD",
@@ -647,11 +647,11 @@
     "last_known_url": "",
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
-    "allow_unverified": true,
-    "experimental_urls": [
+    "allow_unverified": false,
+    "experimental_urls": [],
+    "exclude_urls": [
       "https://jiotvmblive.cdn.jio.com/bpk-tv/Nick_voot_MOB/output03/index.m3u8"
-    ],
-    "experiment_note": "Public playlist candidate only. Not confirmed playable or true HD; may require subscription or regional access."
+    ]
   },
   {
     "name": "Sonic Hindi",
@@ -668,13 +668,11 @@
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
     "exclude_urls": [
-      "https://sar.pages.dev/sonic.m3u8"
-    ],
-    "allow_unverified": true,
-    "experimental_urls": [
+      "https://sar.pages.dev/sonic.m3u8",
       "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8"
     ],
-    "experiment_note": "Public playlist candidate only. Not confirmed playable or true HD; may require subscription or regional access."
+    "allow_unverified": false,
+    "experimental_urls": []
   },
   {
     "name": "Sonic Bangla",
@@ -688,11 +686,11 @@
     "last_known_url": "",
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
-    "allow_unverified": true,
-    "experimental_urls": [
+    "allow_unverified": false,
+    "experimental_urls": [],
+    "exclude_urls": [
       "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sonic"
-    ],
-    "experiment_note": "Public playlist candidate only. Not confirmed playable or true HD; may require subscription or regional access."
+    ]
   },
   {
     "name": "Duronto TV",
@@ -808,11 +806,11 @@
     "min_height": 720,
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
-    "allow_unverified": true,
-    "experimental_urls": [
+    "allow_unverified": false,
+    "experimental_urls": [],
+    "exclude_urls": [
       "https://dai.google.com/linear/hls/event/wG75n5U8RrOKiFzaWObXbA/master.m3u8"
-    ],
-    "experiment_note": "Public playlist candidate only. Not confirmed playable or true HD; may require subscription or regional access."
+    ]
   },
   {
     "name": "Sony Ten 3 HD",
@@ -828,11 +826,11 @@
     "min_height": 720,
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
-    "allow_unverified": true,
-    "experimental_urls": [
+    "allow_unverified": false,
+    "experimental_urls": [],
+    "exclude_urls": [
       "https://dai.google.com/linear/hls/event/ltsCG7TBSCSDmyq0rQtvSA/master.m3u8"
-    ],
-    "experiment_note": "Public playlist candidate only. Not confirmed playable or true HD; may require subscription or regional access."
+    ]
   },
   {
     "name": "Discovery Bangla",
@@ -847,13 +845,11 @@
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
     "exclude_urls": [
-      "https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8"
-    ],
-    "allow_unverified": true,
-    "experimental_urls": [
+      "https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8",
       "https://streamitv.multitvsolution.in/idvo/discoverybengali.m3u8"
     ],
-    "experiment_note": "Public playlist candidate only. Not confirmed playable or true HD; may require subscription or regional access."
+    "allow_unverified": false,
+    "experimental_urls": []
   },
   {
     "name": "Nat Geo HD Bangla",
@@ -867,11 +863,11 @@
     "last_known_url": "",
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
-    "allow_unverified": true,
-    "experimental_urls": [
+    "allow_unverified": false,
+    "experimental_urls": [],
+    "exclude_urls": [
       "http://tv.pmcon.net/hls/stream13.m3u8"
-    ],
-    "experiment_note": "Public playlist candidate only. Not confirmed playable or true HD; may require subscription or regional access."
+    ]
   },
   {
     "name": "Sony MAX HD",
@@ -885,10 +881,10 @@
     "min_height": 720,
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
-    "allow_unverified": true,
-    "experimental_urls": [
+    "allow_unverified": false,
+    "experimental_urls": [],
+    "exclude_urls": [
       "https://dai.google.com/linear/hls/event/UcjHNJmCQ1WRlGKlZm73QA/master.m3u8"
-    ],
-    "experiment_note": "Public playlist candidate only. Not confirmed playable or true HD; may require subscription or regional access."
+    ]
   }
 ]
