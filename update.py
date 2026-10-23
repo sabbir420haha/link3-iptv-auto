@@ -27,8 +27,6 @@ SOURCES = [
     ("iptv-entertainment", "https://iptv-org.github.io/iptv/categories/entertainment.m3u"),
     ("iptv-documentary", "https://iptv-org.github.io/iptv/categories/documentary.m3u"),
     ("Zaman-Active", "https://raw.githubusercontent.com/Zaman-Topu/Ip-tv-Collection/main/FINAL_IPTV_ACTIVE.m3u"),
-    ("Saeid-Mixed-BDIX", "https://raw.githubusercontent.com/saeidrahmanbd/BDIX-IPTV/main/IPTV-Playlist.m3u"),
-    ("Mrgify-Mixed-BDIX", "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u"),
     ("SM-IPTV", "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/Combined_Live_TV.m3u"),
     ("iptv-org-india-raw", "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in.m3u"),
     ("indian-kids-special", "https://raw.githubusercontent.com/arshdeep1112/Indian-IPTV/main/channels/iptv_kids.m3u8"),
@@ -428,11 +426,29 @@ def main():
     temp = OUTPUT.with_suffix(".tmp")
     temp.write_text(final, encoding="utf-8")
     temp.replace(OUTPUT)
+    # Keep per-candidate diagnostics for the channels the user specifically wants.
+    # An HTTP HLS manifest is NOT equivalent to a playable video segment.
+    candidate_audit = []
+    for target, old, alternatives in tasks:
+        if not target.get("requires_media_segment"):
+            continue
+        candidate_audit.append({
+            "name": target["name"],
+            "candidates": [
+                {"source": e["source"], "url": e["url"],
+                 "manifest_ok": bool(health.get(e["url"])),
+                 "segment_ok": bool(segments.get(e["url"])),
+                 "manifest_height": heights.get(e["url"], 0)}
+                for e in alternatives[:9]
+            ],
+            "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
+        })
     summary = {"updated_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
                "channels": len(used), "target_channels": len(channels),
                "groups": dict(Counter(x["group"] for x in channels)),
                "remote_manifests_probed": len(health), "media_segments_probed": len(segments),
-               "experimental_unverified": experimental_count, "sources": source_stats,
+               "experimental_unverified": experimental_count,
+               "candidate_audit": candidate_audit, "sources": source_stats,
                "channel_status": report,
                "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering"}
     REPORT.write_text(json.dumps(summary, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
