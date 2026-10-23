@@ -37,6 +37,9 @@ SOURCES = [
 EXTRA_CANDIDATES = {
     "Hungama HD": [
         "http://ajkiptv.ridsys.in/riptv/live/HUNGAMA/index.m3u8",
+        "http://103.185.24.134:3001/HUNGAMA/index.m3u8",
+        "http://66.102.126.10:8000/play/a023/index.m3u8",
+        "http://111.88.78.21:8000/play/a0z1/index.m3u8",
     ],
     "Zee Bangla HD": [
         "https://stream.ottplus.bd/live/zee_bangla_abr/live/zee_bangla_720/chunks.m3u8",
@@ -70,6 +73,10 @@ def key(value):
     name = re.sub(r"\s*\[(geo-blocked|not 24/7)\]\s*", "", name, flags=re.I)
     return re.sub(r"[^a-z0-9]+", "", name.lower().replace("&", "and"))
 
+# Public IP addresses explicitly appearing in the iptv-org Hungama TV catalogue.
+# All private, loopback and link-local IPs remain blocked.
+PUBLIC_HUNGAMA_IPS = {"103.185.24.134", "66.102.126.10", "111.88.78.21"}
+
 def allowed(url, locked=False):
     try:
         p = urllib.parse.urlsplit(url)
@@ -87,7 +94,7 @@ def allowed(url, locked=False):
             if not address.is_global:
                 return False
             # Only the explicitly user-confirmed Hungama URL may use numeric IP.
-            if not locked:
+            if not locked and host not in PUBLIC_HUNGAMA_IPS:
                 return False
         except ValueError:
             pass
