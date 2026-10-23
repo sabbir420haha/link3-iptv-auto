@@ -21,6 +21,10 @@ CANDIDATES = {
     "existing_gpcdn": "https://drk6xq0vhn.gpcdn.net/live/channel_24_abr/index.m3u8",
     "akash_gpcdn": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
     "aynaott": "https://tvsen6.aynaott.com/YrVDF8gu/index.m3u8",
+    "ottplus": "https://stream.ottplus.live/live/channel_24_abr/index.m3u8",
+    "digijadoo_edge": "https://edge01.iptv.digijadoo.net/live/channel_24/chunks.m3u8",
+    "digijadoo_bol": "https://bol.iptv.digijadoo.net/live/channel_24/chunks.m3u8",
+    "ayna_scope": "https://tvsen6.aynascope.net/channel24/index.m3u8",
     "jagobd": "https://bdsl.jagobd.com:444/c2VydmVyX6RpbEU8Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/channel24-sg-e8e.stream/chunks.m3u8",
 }
 STEPS = 9
@@ -39,8 +43,12 @@ def resolve_variant(uri):
     manifest_text, latency = manifest(uri)
     variants = []
     for depth in range(3):
-        if "#EXT-X-KEY:" in manifest_text or "#EXT-X-SESSION-KEY:" in manifest_text:
-            raise ValueError("Encrypted/protected feed not selected")
+        # Ordinary HLS AES-128 can be handled by standard IPTV players.
+        # Never attempt protected SAMPLE-AES, DRM key formats or decryption.
+        if ("METHOD=SAMPLE-AES" in manifest_text or
+                "#EXT-X-SESSION-KEY:" in manifest_text or
+                "KEYFORMAT=" in manifest_text):
+            raise ValueError("DRM/protected feed cannot be examined")
         lines = [line.strip() for line in manifest_text.splitlines() if line.strip()]
         if "#EXT-X-STREAM-INF" not in manifest_text:
             return uri, variants, latency
@@ -69,8 +77,10 @@ def resolve_variant(uri):
 
 def snapshot(uri):
     text, load_seconds = manifest(uri)
-    if "#EXT-X-KEY:" in text or "#EXT-X-MAP:" in text:
-        raise ValueError("Protected/fMP4 rendition not supported by trial")
+    if ("METHOD=SAMPLE-AES" in text or "KEYFORMAT=" in text or
+            "#EXT-X-MAP:" in text):
+        raise ValueError("DRM/fMP4 rendition not supported by trial")
+    aes128 = ("#EXT-X-KEY:" in text and "METHOD=AES-128" in text)
     lines=[line.strip() for line in text.splitlines() if line.strip()]
     segments=[line for line in lines if not line.startswith("#")]
     if "#EXTINF:" not in text or not segments:
@@ -84,13 +94,19 @@ def snapshot(uri):
         "latest_url":latest,
         "target_duration":int(tm.group(1)) if tm else None,
         "request_sec":load_seconds,
+        "aes128":aes128,
         "endlist":"#EXT-X-ENDLIST" in text
     }
 
-def segment_bytes(uri):
+def segment_bytes(uri, aes128=False):
     t=time.monotonic()
     data,_=fetch_hls_bytes(uri,24576,9)
-    return {"video_segment_bytes_ok":direct_media_ok(data),
+    # HLS AES-128 segments are encrypted MPEG-TS, so TS sync bytes cannot
+    # be seen without decrypting; validate plausible binary only.
+    plausible_encrypted=(aes128 and len(data)>=1880 and
+                        not data[:100].lstrip().startswith((b"<",b"#EXTM3U",b"{")))
+    return {"video_segment_bytes_ok":direct_media_ok(data) or plausible_encrypted,
+            "aes128_segment":aes128,
             "segment_sample_bytes":len(data),
             "segment_first_bytes":data[:8].hex(),
             "segment_download_sec":round(time.monotonic()-t,2)}
@@ -136,7 +152,7 @@ def inspect(item):
         for s in (initial if "initial" in locals() else None,
                   snapshot(media) if good else None):
             if s:
-                try:video_test.append(segment_bytes(s["latest_url"]))
+                try:video_test.append(segment_bytes(s["latest_url"], s["aes128"]))
                 except Exception as e:video_test.append({"video_segment_bytes_ok":False,"error":str(e)[:120]})
         valid_segment=bool(video_test) and all(x.get("video_segment_bytes_ok") for x in video_test)
         return {
@@ -158,7 +174,7 @@ def inspect(item):
                 "manifest_polls_ok":0}
 
 def main():
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
         results=list(pool.map(inspect,CANDIDATES.items()))
     report={"checked_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),
             "purpose":"Channel24 candidates only; never changes main 77-channel playlist",
