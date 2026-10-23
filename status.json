@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T10:34:13.319864+00:00",
-  "channels": 80,
+  "updated_utc": "2026-10-23T10:43:13.245803+00:00",
+  "channels": 79,
   "target_channels": 104,
   "groups": {
     "01 | BD News": 18,
@@ -12,21 +12,14 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 315,
-  "media_segments_probed": 3,
+  "remote_manifests_probed": 309,
+  "media_segments_probed": 1,
   "experimental_unverified": 0,
   "backup_streams": [],
   "candidate_audit": [
     {
       "name": "Disney HD Hindi",
       "candidates": [
-        {
-          "source": "curated-candidate",
-          "url": "http://181.119.215.61:8000/play/a0g1/index.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
-          "manifest_height": 0
-        },
         {
           "source": "curated-candidate",
           "url": "https://tvsen7.aynaott.com/disney/index.m3u8",
@@ -79,6 +72,13 @@
         {
           "source": "curated-candidate",
           "url": "http://202.70.146.135:8000/play/a01q/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/8f3e6367117c923.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -234,62 +234,6 @@
         {
           "source": "curated-candidate",
           "url": "http://103.135.253.32:8080/TEN-3/index.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
-          "manifest_height": 1080
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://feed.play.mv/live/10005200/RG2fKR6d9p/master.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://cloudplay-sonyliv.pages.dev/ten3.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://66.102.120.18:8000/play/a00z/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.84.57.155:8000/play/a02q/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.162.136.235:4500/play/a01d/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.122.74.6:8888/hls/SONY.SPORTS.3.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "Zaman-Active",
-          "url": "https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "public-Indian-family-candidates",
-          "url": "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sony_ten3_hd",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -1078,10 +1022,10 @@
     },
     {
       "name": "Disney HD Hindi",
-      "state": "REMOTE_HLS_SEGMENT_RESOLUTION_UNVERIFIED",
-      "stream": "http://181.119.215.61:8000/play/a0g1/index.m3u8",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
       "manifest_height": 0,
-      "media_segment_checked": true
+      "media_segment_checked": false
     },
     {
       "name": "Disney SD",
@@ -1218,10 +1162,10 @@
     },
     {
       "name": "Sony Ten 3 HD",
-      "state": "REMOTE_HD_MANIFEST",
+      "state": "PINNED_USER_WORKING",
       "stream": "http://103.135.253.32:8080/TEN-3/index.m3u8",
-      "manifest_height": 1080,
-      "media_segment_checked": true
+      "manifest_height": 0,
+      "media_segment_checked": false
     },
     {
       "name": "Discovery Bangla",
@@ -1247,18 +1191,18 @@
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 80,
+    "logo_count": 79,
     "methods": {
       "current-broadcaster": 51,
       "verified-recent-provider-logo": 18,
-      "text-fallback": 11
+      "text-fallback": 10
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 80,
+    "total": 79,
     "from_image_sources": 69,
-    "clear_name_fallbacks": 11,
+    "clear_name_fallbacks": 10,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
   },
