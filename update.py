@@ -58,6 +58,8 @@ EXTRA_CANDIDATES = {
     # New candidates from published GitHub playlists; none are claimed working.
     # Segment testing from GitHub Actions determines if they are published.
     "Discovery Bangla": [
+        "http://103.107.79.87:8080/CH8110HD08/tracks-v1a1/mono.m3u8",
+        "https://cdn1-freeiptv25.vercel.app/m3u/discoverybengali.m3u8",
         "https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_19.m3u8",
         "https://starplay2.netlify.app/m3u/discoverybengali.m3u8",
         "http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/61.ts",
@@ -142,6 +144,10 @@ EXTRA_CANDIDATES = {
         "http://103.185.24.134:3001/SonyTenSports1/index.m3u8",
     ],
     "Sony Ten 3 HD": [
+        # Same exact public IP as the 3 Link3-verified Hungama/Nick/Duronto streams.
+        # Publicly listed as Sony Ten 3 (resolution not established).
+        "http://103.135.253.32:8080/TEN-3/index.m3u8",
+        "http://66.102.120.18:8000/play/a00z/index.m3u8",
         "http://103.122.74.6:8888/hls/SONY.SPORTS.3.m3u8",
         "http://103.84.57.155:8000/play/a02q/index.m3u8",
         "http://103.162.136.235:4500/play/a01d/index.m3u8",
