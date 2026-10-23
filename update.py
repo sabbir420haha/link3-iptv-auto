@@ -490,7 +490,7 @@ def main():
             if item.get("quality") == "hd":
                 minimum = int(item.get("min_height", 720))
                 chosen = next((c for c in choices
-                               if health.get(c["url"]) and (not item.get("requires_media_segment") or segments.get(c["url"])) and (heights.get(c["url"], 0) >= minimum or (item.get("requires_media_segment") and heights.get(c["url"], 0) == 0))
+                               if health.get(c["url"]) and (not item.get("requires_media_segment") or segments.get(c["url"])) and (heights.get(c["url"], 0) >= minimum or (item.get("requires_media_segment") and not item.get("strict_hd_manifest") and heights.get(c["url"], 0) == 0))
                                and c["url"] not in used), None)
             elif item.get("prefer_current") and current and health.get(current) and (not item.get("requires_media_segment") or segments.get(current)) and current not in used:
                 chosen = next((c for c in choices if c["url"] == current), None)
