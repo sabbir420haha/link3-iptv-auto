@@ -1,0 +1,33 @@
+name: Check separate HLS relay code
+on:
+  push:
+    branches: [main]
+    paths:
+      - "relay/**"
+      - "Dockerfile.relay"
+      - ".github/workflows/relay-check.yml"
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Syntax check
+        run: python -m py_compile relay/server.py
+      - name: Safe configuration smoke test without external requests
+        run: |
+          RELAY_TOKEN=only-for-ci-test-234567890abcdef python - <<'PY'
+          import importlib.util
+          s = importlib.util.spec_from_file_location('relay', 'relay/server.py')
+          m = importlib.util.module_from_spec(s)
+          s.loader.exec_module(m)
+          assert set(m.load_channels()) == {'channel24','hungama','zeebangla'}
+          assert m.DELAY == 15
+          assert len(m.TOKEN) >= 24
+          print('Relay configuration valid; no streams contacted or published')
+          PY
