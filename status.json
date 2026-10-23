@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T09:28:28.950801+00:00",
-  "channels": 73,
+  "updated_utc": "2026-10-23T09:38:46.048838+00:00",
+  "channels": 77,
   "target_channels": 104,
   "groups": {
     "01 | BD News": 18,
@@ -12,8 +12,8 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 319,
-  "media_segments_probed": 1,
+  "remote_manifests_probed": 340,
+  "media_segments_probed": 5,
   "experimental_unverified": 0,
   "candidate_audit": [
     {
@@ -35,6 +35,27 @@
         },
         {
           "source": "curated-candidate",
+          "url": "http://66.102.126.10:8000/play/a013/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://116.90.120.151:8000/play/a0hp/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.162.136.235:4500/play/a01g/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "http://202.70.146.135:8000/play/a01q/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -43,13 +64,6 @@
         {
           "source": "curated-candidate",
           "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/8f3e6367117c923.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "iptv-org-india-raw",
-          "url": "http://66.102.126.10:8000/play/a013/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -70,6 +84,20 @@
         {
           "source": "curated-candidate",
           "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Nick_Hindi&q=800&e=junk.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.162.136.235:4500/play/a01f/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://149.71.34.166:8000/play/a00u/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -101,6 +129,13 @@
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
+        },
+        {
+          "source": "2026-India-experimental",
+          "url": "http://103.72.101.252:8080/live/545.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
         }
       ],
       "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
@@ -110,7 +145,35 @@
       "candidates": [
         {
           "source": "curated-candidate",
+          "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.229.254.25:7001/play/a0dl/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.162.136.235:4500/play/a01k/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.72.101.252:8080/live/815.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -135,6 +198,20 @@
     {
       "name": "Sonic Bangla",
       "candidates": [
+        {
+          "source": "curated-candidate",
+          "url": "https://edge01.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://edge01.iptv.digijadoo.net/live/sonic/playlist.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
         {
           "source": "curated-candidate",
           "url": "http://live.balajibroadband.com:3500/live/1345.m3u8",
@@ -165,6 +242,20 @@
         {
           "source": "curated-candidate",
           "url": "https://feed.play.mv/live/10005200/fMLTkj4OJC/master.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.162.136.235:4500/play/a018/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -212,7 +303,21 @@
         },
         {
           "source": "curated-candidate",
+          "url": "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://cloudplay-sonyliv.pages.dev/ten3.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.162.136.235:4500/play/a01d/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -239,6 +344,13 @@
       "candidates": [
         {
           "source": "curated-candidate",
+          "url": "https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_21.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://khulnalive.anytv.live/discoverybangla/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -247,6 +359,13 @@
         {
           "source": "curated-candidate",
           "url": "https://ccntv.anytv.live/discoverybangla/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/61.ts",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -264,6 +383,13 @@
     {
       "name": "Nat Geo HD Bangla",
       "candidates": [
+        {
+          "source": "curated-candidate",
+          "url": "http://103.167.167.5:8111/play/a036/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
         {
           "source": "curated-candidate",
           "url": "http://103.89.248.130:8082/National-geo-graphy-bangla/index.m3u8",
@@ -321,6 +447,13 @@
         },
         {
           "source": "curated-candidate",
+          "url": "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://cdn.rangdhanu.live/SonyMaxHD/video.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -343,13 +476,6 @@
         {
           "source": "curated-candidate",
           "url": "http://103.185.24.134:3001/SonyMAX/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "Zaman-Active",
-          "url": "https://cloudplay-sonyliv.pages.dev/maxhd.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -457,6 +583,21 @@
     {
       "source": "recent-BD-India",
       "count": 86,
+      "error": null
+    },
+    {
+      "source": "2026-India-experimental",
+      "count": 736,
+      "error": null
+    },
+    {
+      "source": "public-cartoon-2026",
+      "count": 134,
+      "error": null
+    },
+    {
+      "source": "regional-sports-2026",
+      "count": 74,
       "error": null
     }
   ],
@@ -1044,10 +1185,10 @@
     },
     {
       "name": "Sonic Hindi",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": false
+      "media_segment_checked": true
     },
     {
       "name": "Sonic Bangla",
@@ -1156,17 +1297,17 @@
     },
     {
       "name": "Sony Ten 1 HD",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "REMOTE_HLS_SEGMENT_RESOLUTION_UNVERIFIED",
+      "stream": "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": false
+      "media_segment_checked": true
     },
     {
       "name": "Sony Ten 3 HD",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "REMOTE_HLS_SEGMENT_RESOLUTION_UNVERIFIED",
+      "stream": "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": false
+      "media_segment_checked": true
     },
     {
       "name": "Discovery Bangla",
@@ -1184,25 +1325,25 @@
     },
     {
       "name": "Sony MAX HD",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "REMOTE_HLS_SEGMENT_RESOLUTION_UNVERIFIED",
+      "stream": "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": false
+      "media_segment_checked": true
     }
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 73,
+    "logo_count": 77,
     "methods": {
-      "current-broadcaster": 46,
+      "current-broadcaster": 49,
       "verified-recent-provider-logo": 18,
-      "text-fallback": 9
+      "text-fallback": 10
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 73,
-    "from_image_sources": 64,
+    "total": 77,
+    "from_image_sources": 68,
     "clear_name_fallbacks": 9,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
