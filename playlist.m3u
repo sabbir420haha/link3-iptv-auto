@@ -2,388 +2,388 @@
 # Curated IPTV Pro: refreshed by GitHub Actions every 6 hours.
 # Manifest checks occur on GitHub, not the user's Link3 Wi-Fi.
 #EXTINF:-1 tvg-name="Zee Bangla HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="00 | MY FAVORITES",Zee Bangla HD
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen6.aynaott.com/ZeeBangla/index.m3u8
 #EXTINF:-1 tvg-name="Zee Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="00 | MY FAVORITES",Zee Bangla
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://drk6xq0vhn.gpcdn.net/live/zee_bangla_720/index.m3u8
 #EXTINF:-1 tvg-name="ATN Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",ATN Bangla
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen5.aynaott.com/atnbangla/index.m3u8
 #EXTINF:-1 tvg-name="ATN News" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",ATN News
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen6.aynaott.com/da6WMXAk/index.m3u8
 #EXTINF:-1 tvg-name="BanglaVision" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",BanglaVision
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen5.aynaott.com/banglavision/index.m3u8
 #EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Cartoon Network
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8
 #EXTINF:-1 tvg-name="Channel 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Channel 24
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://drk6xq0vhn.gpcdn.net/live/channel_24_abr/index.m3u8
 #EXTINF:-1 tvg-name="Channel i" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-i.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Channel i
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8
 #EXTINF:-1 tvg-name="DBC News" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",DBC News
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen6.aynaott.com/pF66Tkz0qFwP2aMMqHyt/index.m3u8
 #EXTINF:-1 tvg-name="Discovery Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png?v=contrast-brand-20261023" group-title="00 | MY FAVORITES",Discovery Bangla
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8
 #EXTINF:-1 tvg-name="Disney HD Hindi" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Disney HD Hindi
 #EXTVLCOPT:http-user-agent=RANAPK
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 http://ranapkz.site/TATABD/play.php?id=167551&format=.m3u8
 #EXTINF:-1 tvg-name="Duronto TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Duronto TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 http://103.135.253.32:8080/DORONTU-TV/index.m3u8
 #EXTINF:-1 tvg-name="Hungama" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Hungama
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 http://103.135.253.32:8080/HUNGAMA/index.m3u8
 #EXTINF:-1 tvg-name="Sony MAX HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Sony MAX HD
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://stream.ottplus.live/live/max_hd_abr/index.m3u8
 #EXTINF:-1 tvg-name="Jamuna TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="00 | MY FAVORITES",Jamuna TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen6.aynaott.com/KGdZEdA7qQ43dmPkgk1j/index.m3u8
 #EXTINF:-1 tvg-name="Maasranga TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Maasranga TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen5.aynaott.com/maasrangatv/index.m3u8
 #EXTINF:-1 tvg-name="Nat Geo HD Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png?v=contrast-brand-20261023" group-title="00 | MY FAVORITES",Nat Geo HD Bangla
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 http://103.135.253.32:8080/NATGEO-HD/index.m3u8
 #EXTINF:-1 tvg-name="Nick Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Nick Bangla
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 http://103.135.253.32:8080/NICK/index.m3u8
 #EXTINF:-1 tvg-name="NTV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",NTV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/chunklist.m3u8
 #EXTINF:-1 tvg-name="Somoy TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Somoy TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://drk6xq0vhn.gpcdn.net/live/somoy_tv_abr/index.m3u8
 #EXTINF:-1 tvg-name="Sonic Hindi" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Sonic Hindi
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8
 #EXTINF:-1 tvg-name="Sony Aath" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Sony Aath
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://stream.ottplus.live/live/sony_aath_abr/index.m3u8
 #EXTINF:-1 tvg-name="Sony Ten 1 HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Sony Ten 1 HD
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_abr/index.m3u8
 #EXTINF:-1 tvg-name="Sony Ten 3 HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Sony Ten 3 HD
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 http://103.135.253.32:8080/TEN-3/index.m3u8
 #EXTINF:-1 tvg-name="Independent TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/independent-tv.png?v=iptv-tightfit-20261023" group-title="01 | BD News",Independent TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://drk6xq0vhn.gpcdn.net/live/independent_tv_abr/index.m3u8
 #EXTINF:-1 tvg-name="Ekattor TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ekattor-tv.png?v=iptv-tightfit-20261023" group-title="01 | BD News",Ekattor TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/index.m3u8
 #EXTINF:-1 tvg-name="News 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/news-24.png?v=iptv-tightfit-20261023" group-title="01 | BD News",News 24
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen6.aynaott.com/cdgr3tw6WoG7JyRnLbi0/index.m3u8
 #EXTINF:-1 tvg-name="BTV News" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/btv-news.png?v=iptv-tightfit-20261023" group-title="01 | BD News",BTV News
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://btv.hridoytv-channel.workers.dev/news.m3u8
 #EXTINF:-1 tvg-name="Desh TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/desh-tv.png?v=iptv-tightfit-20261023" group-title="01 | BD News",Desh TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8
 #EXTINF:-1 tvg-name="Ekhon TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ekhon-tv.png?v=iptv-tightfit-20261023" group-title="01 | BD News",Ekhon TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://drk6xq0vhn.gpcdn.net/live/ekhon_tv_abr/index.m3u8
 #EXTINF:-1 tvg-name="Bijoy TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/bijoy-tv.png?v=iptv-tightfit-20261023" group-title="01 | BD News",Bijoy TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://drk6xq0vhn.gpcdn.net/live/bijoy_tv_abr/index.m3u8
 #EXTINF:-1 tvg-name="Ekushey TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ekushey-tv.png?v=iptv-tightfit-20261023" group-title="01 | BD News",Ekushey TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen5.aynaott.com/SyQuXz8sC3TB/index.m3u8
 #EXTINF:-1 tvg-name="News 21 Bangla TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/news-21-bangla-tv.png?v=iptv-tightfit-20261023" group-title="01 | BD News",News 21 Bangla TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 http://103.190.133.68:1935/news21live/live/playlist.m3u8
 #EXTINF:-1 tvg-name="BTV Chattogram" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/btv-chattogram.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",BTV Chattogram
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/index.m3u8
 #EXTINF:-1 tvg-name="Boishakhi TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/boishakhi-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Boishakhi TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
 #EXTINF:-1 tvg-name="Deepto TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/deepto-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Deepto TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8
 #EXTINF:-1 tvg-name="RTV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/rtv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",RTV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen5.aynaott.com/RtvHD/index.m3u8
 #EXTINF:-1 tvg-name="Gazi TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/gazi-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Gazi TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="My TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/my-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",My TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen6.aynaott.com/XMpHaEf0ANBhv8w6NWR7/index.m3u8
 #EXTINF:-1 tvg-name="Asian TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/asian-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Asian TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen6.aynaott.com/pKb5k6NnzxsKpWUs6E8M/index.m3u8
 #EXTINF:-1 tvg-name="SA TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sa-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",SA TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://j6nfugukcl.gpcdn.net/tile_5/master.m3u8
 #EXTINF:-1 tvg-name="Ananda TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ananda-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Ananda TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8
 #EXTINF:-1 tvg-name="Rajdhani TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/rajdhani-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Rajdhani TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://drk6xq0vhn.gpcdn.net/live/rajdhani_tv/index.m3u8
 #EXTINF:-1 tvg-name="NAN TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nan-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",NAN TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Deshi TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/deshi-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Deshi TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
 #EXTINF:-1 tvg-name="Enter TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/enter-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Enter TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://live1.entertv.com.bd/entertv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="Channel S" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-s.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Channel S
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Deshe Bideshe TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/deshe-bideshe-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Deshe Bideshe TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8
 #EXTINF:-1 tvg-name="Islamic TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/islamic-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Islamic TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://drk6xq0vhn.gpcdn.net/live/islamic_tv/index.m3u8
 #EXTINF:-1 tvg-name="Iqra Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/iqra-bangla.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Iqra Bangla
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/iqrabanglatvoffice.stream/live-orgin/iqrabanglatvoffice.stream/chunks.m3u8
 #EXTINF:-1 tvg-name="Mohona TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/mohona-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Mohona TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen6.aynaott.com/AkyX5dunzju4cpo26dr7/index.m3u8
 #EXTINF:-1 tvg-name="NRB TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nrb-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",NRB TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://app.ncare.live/live-orgin/nrb-eu.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="Star Jalsha" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/star-jalsha.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Star Jalsha
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8
 #EXTINF:-1 tvg-name="Sun Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sun-bangla.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Sun Bangla
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 http://27.124.71.27/Sun_Bangla/index.m3u8
 #EXTINF:-1 tvg-name="Bangla Jago TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/bangla-jago-tv.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Bangla Jago TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 http://banglajagotv.livebox.co.in/banglajagohls/24x7.m3u8
 #EXTINF:-1 tvg-name="DD Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dd-bangla.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",DD Bangla
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index_3.m3u8
 #EXTINF:-1 tvg-name="TV9 Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/tv9-bangla.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",TV9 Bangla
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/pub-iotv9banaen8yq/live_480p/chunks.m3u8
 #EXTINF:-1 tvg-name="Zee 24 Ghanta" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-24-ghanta.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Zee 24 Ghanta
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zee24ghantaa-xiaomi/playlist.m3u8
 #EXTINF:-1 tvg-name="Kolkata TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/kolkata-tv.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Kolkata TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen6.aynaott.com/kolkatatv/index.m3u8
 #EXTINF:-1 tvg-name="Ruposhi Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ruposhi-bangla.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Ruposhi Bangla
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:rupashibangla.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Amar Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/amar-bangla.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Amar Bangla
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="R Plus Gold" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/r-plus-gold.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",R Plus Gold
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cf883da3-f9f5-4c70-b0ef-b3ac2e2ad1e3/index.m3u8
 #EXTINF:-1 tvg-name="Enterr10 Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/enterr10-bangla.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Enterr10 Bangla
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
 #EXTINF:-1 tvg-name="Sananda TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sananda-tv.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Sananda TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 http://live-stream.amarbanglatv.in:8080/hls/sanandatv/index.m3u8
 #EXTINF:-1 tvg-name="Bangla Plus" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/bangla-plus.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Bangla Plus
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8
 #EXTINF:-1 tvg-name="Sony Yay" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Sony Yay
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://drk6xq0vhn.gpcdn.net/live/sony_yay_abr/index.m3u8
 #EXTINF:-1 tvg-name="Pogo" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/pogo.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Pogo
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://drk6xq0vhn.gpcdn.net/live/pogo_sd_abr/index.m3u8
 #EXTINF:-1 tvg-name="Discovery Kids" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-kids.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Discovery Kids
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://drk6xq0vhn.gpcdn.net/live/discovery_kids_abr/index.m3u8
 #EXTINF:-1 tvg-name="Sonic Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Sonic Bangla
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 http://103.17.193.159:5001/live/1345.m3u8
 #EXTINF:-1 tvg-name="DD Sports" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dd-sports.png?v=iptv-tightfit-20261023" group-title="06 | Sports",DD Sports
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index_3.m3u8
 #EXTINF:-1 tvg-name="A Sports" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/a-sports.png?v=iptv-tightfit-20261023" group-title="06 | Sports",A Sports
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8
 #EXTINF:-1 tvg-name="beIN Sports XTRA" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/bein-sports-xtra.png?v=iptv-tightfit-20261023" group-title="06 | Sports",beIN Sports XTRA
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 #EXTINF:-1 tvg-name="Sports First TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sports-first-tv.png?v=iptv-tightfit-20261023" group-title="06 | Sports",Sports First TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8
 #EXTINF:-1 tvg-name="Red Bull TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/red-bull-tv.png?v=iptv-tightfit-20261023" group-title="06 | Sports",Red Bull TV
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
 #EXTINF:-1 tvg-name="Star Sports 2" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/star-sports-2.png?v=iptv-tightfit-20261023" group-title="06 | Sports",Star Sports 2
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 http://103.151.60.162:2122/play/a00v/index.m3u8?hls
 #EXTINF:-1 tvg-name="Cricket Gold" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cricket-gold.png?v=iptv-tightfit-20261023" group-title="06 | Sports",Cricket Gold
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://d1nj4u39ja4cn0.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/FLS-MuxIP-CricketGold/418.m3u8
 #EXTINF:-1 tvg-name="FITE 24/7" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/fite-24-7.png?v=iptv-tightfit-20261023" group-title="06 | Sports",FITE 24/7
-#EXTVLCOPT:network-caching=2500
-#EXTVLCOPT:live-caching=2500
+#EXTVLCOPT:network-caching=15000
+#EXTVLCOPT:live-caching=15000
 #EXTVLCOPT:http-reconnect=true
 https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8
