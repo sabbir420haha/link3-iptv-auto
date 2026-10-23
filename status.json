@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T13:47:27.205096+00:00",
+  "updated_utc": "2026-10-23T13:50:18.653232+00:00",
   "channels": 77,
   "target_channels": 98,
   "groups": {
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 265,
+  "remote_manifests_probed": 264,
   "media_segments_probed": 0,
   "experimental_unverified": 0,
   "backup_streams": [],
