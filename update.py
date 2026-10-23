@@ -40,7 +40,11 @@ EXTRA_CANDIDATES = {
         "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBanglaHD.m3u8",
         "https://tvsen6.aynaott.com/ZeeBangla/index.m3u8",
     ],
-    "Discovery Bangla": ["https://ccntv.anytv.live/discoverybangla/index.m3u8"],
+    "Discovery Bangla": [
+        "https://ccntv.anytv.live/discoverybangla/index.m3u8",
+        "https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_21.m3u8",
+        "https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8",
+    ],
     "Nick Hindi": ["https://jiotvmblive.cdn.jio.com/bpk-tv/Nick_voot_MOB/output03/index.m3u8"],
     "Sonic Hindi": ["https://sar.pages.dev/sonic.m3u8"],
     "Sony MAX HD": [
