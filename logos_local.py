@@ -160,7 +160,8 @@ def main():
             name_match=re.search(r'tvg-name="([^"]+)"',line)
             name=name_match.group(1) if name_match else line.rsplit(",",1)[-1].strip()
             filename,_=mapping[name]
-            uri=ROOT_URL+filename
+            # Versioned URL refreshes IPTV Pro logo cache when image layout changes.
+            uri=ROOT_URL+filename+"?v=20261023-centered2"
             if 'tvg-logo="' in line:
                 line=re.sub(r'tvg-logo="[^"]*"',f'tvg-logo="{uri}"',line,count=1)
             else:
