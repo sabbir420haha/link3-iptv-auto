@@ -599,7 +599,25 @@
       "https://yowaimo.in/Sflex-ArtlPVT0719/DISNEY_CHANNEL.m3u8",
       "http://ptu.ridsys.in/riptv/live/DISNEY_CHANNEL/index.m3u8",
       "http://ajkiptv.ridsys.in/riptv/live/DISNEY_CHANNEL/index.m3u8",
-      "https://disneyhindi-lh.akamaihd.net/i/disneyhindi_1@174991/master.m3u8"
+      "https://disneyhindi-lh.akamaihd.net/i/disneyhindi_1@174991/master.m3u8",
+      "http://103.135.253.32:8080/DISNEY-CHANNEL-HD/index.m3u8",
+      "http://103.135.253.32:8080/DISNEY-CHANNEL/index.m3u8",
+      "http://70.39.83.58:8278/disneychannelhindikdin/playlist.m3u8",
+      "http://103.89.248.130:8082/DISNEY-HINDI/index.m3u8",
+      "http://103.153.39.34:8000/play/a04m/index.m3u8",
+      "http://103.161.153.165:8000/play/a012/index.m3u8",
+      "https://tvsen7.aynaott.com/disney/index.m3u8",
+      "http://mygoodstream.pw/proxy.php/http://70.39.83.58:8278/disneychannelhindikdin/playlist.m3u8",
+      "https://feed.play.mv/live/10005200/QjZ4g9TmAa/1.m3u8",
+      "https://feed.play.mv/live/10005200/QjZ4g9TmAa/master.m3u8",
+      "http://103.157.237.18:8000/play/404",
+      "http://38.96.178.201/live/Disney/index.m3u8",
+      "http://team-shonamia.gotdns.ch/disney/index.m3u8",
+      "http://103.84.57.155:8000/play/a03u/index.m3u8",
+      "http://117.102.16.2:34567/play/a09d/index.m3u8",
+      "http://103.162.136.235:4500/play/a01g/index.m3u8",
+      "http://103.174.5.43:8000/play/a06m/index.m3u8",
+      "https://prox.assadikb.workers.dev/watch/1373JP"
     ],
     "user_reported_wrong_channel": [
       "http://181.119.215.61:8000/play/a0g1/index.m3u8"
@@ -607,7 +625,7 @@
     "identity_must_match": "Disney Channel Hindi, NOT Disney Junior",
     "strict_hd_manifest": true,
     "quality_note": "Never show unknown-resolution or Disney Junior feed under Disney Hindi HD. Require an HLS master advertising >=720p and confirmed channel identity by the viewer.",
-    "experiment_note": "2026-10-23: Viewer says ALL Disney test candidates from the previous two test playlists failed. Do not reuse any. Await independently tested Disney Channel Hindi, ideally HD >=720p, not Junior.",
+    "experiment_note": "2026-10-23: Link3 viewer confirms none of the prior 18 Disney Hindi TEST alternatives play, in addition to 20 older failures. Never reuse any viewer-failed URL, never change the 13 pinned working channels, and do not call Disney International HD or Junior 'Disney Hindi'.",
     "user_reported_failures": [
       "http://66.102.120.18:8000/play/a013/index.m3u8",
       "http://iptvcasomsapi.jprdigital.in/x-media/C0406/master.m3u8",
@@ -626,7 +644,25 @@
       "https://yowaimo.in/Sflex-ArtlPVT0719/DISNEY_CHANNEL.m3u8",
       "http://ptu.ridsys.in/riptv/live/DISNEY_CHANNEL/index.m3u8",
       "http://ajkiptv.ridsys.in/riptv/live/DISNEY_CHANNEL/index.m3u8",
-      "https://disneyhindi-lh.akamaihd.net/i/disneyhindi_1@174991/master.m3u8"
+      "https://disneyhindi-lh.akamaihd.net/i/disneyhindi_1@174991/master.m3u8",
+      "http://103.135.253.32:8080/DISNEY-CHANNEL-HD/index.m3u8",
+      "http://103.135.253.32:8080/DISNEY-CHANNEL/index.m3u8",
+      "http://70.39.83.58:8278/disneychannelhindikdin/playlist.m3u8",
+      "http://103.89.248.130:8082/DISNEY-HINDI/index.m3u8",
+      "http://103.153.39.34:8000/play/a04m/index.m3u8",
+      "http://103.161.153.165:8000/play/a012/index.m3u8",
+      "https://tvsen7.aynaott.com/disney/index.m3u8",
+      "http://mygoodstream.pw/proxy.php/http://70.39.83.58:8278/disneychannelhindikdin/playlist.m3u8",
+      "https://feed.play.mv/live/10005200/QjZ4g9TmAa/1.m3u8",
+      "https://feed.play.mv/live/10005200/QjZ4g9TmAa/master.m3u8",
+      "http://103.157.237.18:8000/play/404",
+      "http://38.96.178.201/live/Disney/index.m3u8",
+      "http://team-shonamia.gotdns.ch/disney/index.m3u8",
+      "http://103.84.57.155:8000/play/a03u/index.m3u8",
+      "http://117.102.16.2:34567/play/a09d/index.m3u8",
+      "http://103.162.136.235:4500/play/a01g/index.m3u8",
+      "http://103.174.5.43:8000/play/a06m/index.m3u8",
+      "https://prox.assadikb.workers.dev/watch/1373JP"
     ]
   },
   {
