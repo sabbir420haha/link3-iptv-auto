@@ -88,6 +88,16 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        # 2026-10-23 third Disney trial: public source-backed alternatives, viewer unverified.
+        # The strict HD + media-segment filter remains in force; preserve every pinned stream.
+        "http://51.75.127.199:3141/disneychannel/index.m3u8",
+        "https://s1.itcnbd.live/Disney-D/index.m3u8",
+        "https://s1.itcnbd.live/Disney-D/tracks-v1a1/mono.m3u8",
+        "https://stream.kliv.in/ROPX/opp233/167551.m3u8",
+        "http://ranapkz.site/TATABD/play.php?id=167551&format=.m3u8",
+        "https://hls-coolxtream.vercel.app/channel/167551&format=.m3u8",
+        "http://103.167.255.18:8085/play/a0kq/index.m3u8",
+        "https://shahakshay938.github.io/backups/streams/2026-05-09/disneychannel-in-sd.m3u8",
         # Source-backed trials: 2026 community IPTV lists; never auto-publish without segment and quality checks.
         "https://hey-lookme.shop/live.php?id=1373",
         # Not India/Hindi-identified: generic Disney 720p feed not valid for this target.
@@ -442,6 +452,12 @@ def request_headers(uri, cap):
         h["User-Agent"] = "oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1"
     if hostname == "playyonogames.in":
         h["Referer"] = "https://playyonogames.in/"
+    if hostname == "app-re.sm-monirul-islam-rs.workers.dev" and "/disny-channel-hindi/" in uri.lower():
+        # Public playlist specifies this user agent for the exact Worker URL.
+        h["User-Agent"] = "OTT-KING TV 1.0"
+    if hostname == "ranapkz.site":
+        # Only the publicly declared User-Agent; no token or DRM bypass.
+        h["User-Agent"] = "RANAPK"
     if hostname == "hey-lookme.shop":
         # This public playlist explicitly declares this HTTP Referer.
         h["Referer"] = "https://hey-lookme.shop/"
