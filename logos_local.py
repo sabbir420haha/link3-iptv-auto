@@ -32,7 +32,7 @@ INDIAN={
     "Sony Ten 3 HD":"sony-ten-3-hd-in.png",
     "Hungama":"hungama-in.png",
     "Hungama HD":"hungama-in.png",
-    "Nick Hindi":"nick-in.png",
+    "Nick Bangla":"nick-in.png",
     "Sonic Hindi":"nickelodeon-sonic-in.png",
     "Sonic Bangla":"nickelodeon-sonic-in.png",
     "Super Hungama":"super-hungama-in.png",
