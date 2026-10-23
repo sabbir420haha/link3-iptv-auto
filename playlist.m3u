@@ -1,9 +1,9 @@
 #EXTM3U
 # Curated IPTV Pro: refreshed by GitHub Actions every 6 hours.
 # Manifest checks occur on GitHub, not the user's Link3 Wi-Fi.
-#EXTINF:-1 tvg-name="Zee Bangla HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-hd.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Zee Bangla HD
+#EXTINF:-1 tvg-name="Zee Bangla HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-red-legacy-20261023" group-title="00 | MY FAVORITES",Zee Bangla HD
 https://tvsen6.aynaott.com/ZeeBangla/index.m3u8
-#EXTINF:-1 tvg-name="Zee Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Zee Bangla
+#EXTINF:-1 tvg-name="Zee Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-red-legacy-20261023" group-title="00 | MY FAVORITES",Zee Bangla
 https://drk6xq0vhn.gpcdn.net/live/zee_bangla_720/index.m3u8
 #EXTINF:-1 tvg-name="ATN Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",ATN Bangla
 https://tvsen5.aynaott.com/atnbangla/index.m3u8
