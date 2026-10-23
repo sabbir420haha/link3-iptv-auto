@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T08:54:59.487609+00:00",
-  "channels": 71,
+  "updated_utc": "2026-10-23T08:55:46.391599+00:00",
+  "channels": 79,
   "target_channels": 104,
   "groups": {
     "01 | BD News": 18,
@@ -12,8 +12,9 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 328,
+  "remote_manifests_probed": 284,
   "media_segments_probed": 0,
+  "experimental_unverified": 9,
   "sources": [
     {
       "source": "iptv-bd",
@@ -62,13 +63,13 @@
     },
     {
       "source": "Saeid-Mixed-BDIX",
-      "count": 1330,
-      "error": null
+      "count": 0,
+      "error": "Refusing unsafe playlist/source URL"
     },
     {
       "source": "Mrgify-Mixed-BDIX",
-      "count": 346,
-      "error": null
+      "count": 0,
+      "error": "Refusing unsafe playlist/source URL"
     },
     {
       "source": "SM-IPTV",
@@ -78,6 +79,26 @@
     {
       "source": "iptv-org-india-raw",
       "count": 1287,
+      "error": null
+    },
+    {
+      "source": "indian-kids-special",
+      "count": 37,
+      "error": null
+    },
+    {
+      "source": "Bengali-public-collection",
+      "count": 104,
+      "error": null
+    },
+    {
+      "source": "public-SonyLIV-candidates",
+      "count": 61,
+      "error": null
+    },
+    {
+      "source": "public-Indian-family-candidates",
+      "count": 64,
       "error": null
     }
   ],
@@ -644,8 +665,8 @@
     },
     {
       "name": "Disney HD Hindi",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
+      "stream": "http://lifetvbd.xyz:8080/play/c-CHSxllrYcCvZWsMzkBPCAqqAmRUCilgdGzNSaDHFQ/m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -658,22 +679,22 @@
     },
     {
       "name": "Nick Hindi",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
+      "stream": "https://jiotvmblive.cdn.jio.com/bpk-tv/Nick_voot_MOB/output03/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Sonic Hindi",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
+      "stream": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Sonic Bangla",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
+      "stream": "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sonic",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -749,8 +770,8 @@
     },
     {
       "name": "Goal TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://streams2.sofast.tv/sofastplayout/WiseM3U8_1/master.m3u8",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -777,47 +798,47 @@
     },
     {
       "name": "Sony Ten 1 HD",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
+      "stream": "https://dai.google.com/linear/hls/event/wG75n5U8RrOKiFzaWObXbA/master.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Sony Ten 3 HD",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
+      "stream": "https://dai.google.com/linear/hls/event/ltsCG7TBSCSDmyq0rQtvSA/master.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Discovery Bangla",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
+      "stream": "https://streamitv.multitvsolution.in/idvo/discoverybengali.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Nat Geo HD Bangla",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
+      "stream": "http://tv.pmcon.net/hls/stream13.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Sony MAX HD",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
+      "stream": "https://dai.google.com/linear/hls/event/UcjHNJmCQ1WRlGKlZm73QA/master.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     }
   ],
-  "warning": "Remote HLS check does not guarantee Link3 playback, picture quality, buffering or access rights",
+  "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 71,
+    "logo_count": 79,
     "methods": {
-      "current-broadcaster": 43,
+      "current-broadcaster": 47,
       "verified-recent-provider-logo": 18,
-      "text-fallback": 10
+      "text-fallback": 14
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   }
