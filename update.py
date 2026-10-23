@@ -718,11 +718,15 @@ def main():
                 ua = str(item["stream_user_agent"]).replace("\\r", "").replace("\\n", "").strip()
                 if ua:
                     output.append(f"#EXTVLCOPT:http-user-agent={ua}")
-            # Best-effort VLC-family reconnect hint for the three sources
-            # which failed at least one repeated remote HLS check.
-            # NUHASH IPTV may ignore this metadata; no stream URL is altered.
-            if item["name"] in {"Sony Ten 1 HD", "Sonic Hindi", "Sonic Bangla"}:
-                output.append("#EXTVLCOPT:http-reconnect=true")
+            # TV playback tuning applies to ALL channels, since the viewer
+            # reported pauses throughout the TV app but not on mobile.
+            # These are VLC-specific hints; Android ExoPlayer-based apps may
+            # ignore them. 2.5 s is a moderate compromise: better resilience
+            # without excessively delaying channel start or channel switching.
+            # Do not touch HLS URLs, referers, stream user agents, or bitrate.
+            output.append("#EXTVLCOPT:network-caching=2500")
+            output.append("#EXTVLCOPT:live-caching=2500")
+            output.append("#EXTVLCOPT:http-reconnect=true")
             output.append(chosen["url"])
             alternate = backups_by_name.get(item["name"])
             if (alternate and alternate not in used and alternate != chosen["url"]
