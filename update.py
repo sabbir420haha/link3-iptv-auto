@@ -678,33 +678,58 @@ def main():
             chosen = {"url": item["last_known_url"], "logo": "", "source": "user-confirmed"}
             state = "PINNED_USER_WORKING"
         else:
-            if item.get("quality") == "hd":
-                minimum = int(item.get("min_height", 720))
-                chosen = next((c for c in choices
-                               if health.get(c["url"]) and (not item.get("requires_media_segment") or segments.get(c["url"])) and (heights.get(c["url"], 0) >= minimum or (item.get("requires_media_segment") and not item.get("strict_hd_manifest") and heights.get(c["url"], 0) == 0))
-                               and c["url"] not in used), None)
-            elif item.get("prefer_current") and current and health.get(current) and (not item.get("requires_media_segment") or segments.get(current)) and current not in used:
-                chosen = next((c for c in choices if c["url"] == current), None)
+            # Link3 stability policy: NEVER auto-replace an already published,
+            # allowed source just because a GitHub runner reached a different
+            # public CDN or could not reach the user's Link3-specific source.
+            # The playlist is not a TV buffer; changing HLS sources can create
+            # playback interruptions on both phones and TVs.
+            if (current and allowed(current) and
+                    matches_channel(item, current) and
+                    current not in item.get("exclude_urls", []) and
+                    current not in used):
+                chosen = {"url": current, "logo": "", "source": "stable-existing"}
+                state = "CURRENT_LINK3_STABLE_RETAINED"
             else:
-                chosen = next((c for c in choices if health.get(c["url"]) and (not item.get("requires_media_segment") or segments.get(c["url"])) and c["url"] not in used), None)
-            if chosen:
-                state = ("REMOTE_HD_MANIFEST" if item.get("quality") == "hd" and heights.get(chosen["url"], 0)>=720
-                         else "REMOTE_HLS_SEGMENT_RESOLUTION_UNVERIFIED" if item.get("quality") == "hd"
-                         else "BEST_AVAILABLE_NOT_VERIFIED_HD" if item.get("quality") == "best_available"
-                         else "REMOTE_MANIFEST_REACHABLE")
-            else:
-                old = current or item.get("last_known_url", "")
-                if old and not item.get("quality") and not item.get("skip_unverified_fallback") and allowed(old) and matches_channel(item, old) and old not in item.get("exclude_urls",[]) and old not in used:
-                    chosen = {"url": old, "logo": "", "source": "fallback"}
-                    state = "FALLBACK_NOT_REVERIFIED"
-            if not chosen and item.get("allow_unverified"):
-                for candidate_url in item.get("experimental_urls", []):
-                    if (allowed(candidate_url) and candidate_url not in item.get("exclude_urls", [])
-                            and candidate_url not in used and matches_channel(item,candidate_url)):
-                        chosen = {"url": candidate_url, "logo": "", "source": "experimental"}
-                        state = "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED"
-                        experimental_count += 1
-                        break
+                # Only newly introduced sources are discovered automatically.
+                # Do not publish an untested mirror in place of a current one.
+                if item.get("quality") == "hd":
+                    minimum = int(item.get("min_height", 720))
+                    chosen = next((c for c in choices
+                                   if health.get(c["url"]) and
+                                   (not item.get("requires_media_segment") or segments.get(c["url"])) and
+                                   (heights.get(c["url"], 0) >= minimum or
+                                    (item.get("requires_media_segment") and
+                                     not item.get("strict_hd_manifest") and
+                                     heights.get(c["url"], 0) == 0)) and
+                                   c["url"] not in used), None)
+                else:
+                    chosen = next((c for c in choices
+                                   if health.get(c["url"]) and
+                                   (not item.get("requires_media_segment") or segments.get(c["url"])) and
+                                   c["url"] not in used), None)
+                if chosen:
+                    state = ("REMOTE_HD_MANIFEST" if item.get("quality") == "hd" and heights.get(chosen["url"], 0) >= 720
+                             else "REMOTE_HLS_SEGMENT_RESOLUTION_UNVERIFIED" if item.get("quality") == "hd"
+                             else "BEST_AVAILABLE_NOT_VERIFIED_HD" if item.get("quality") == "best_available"
+                             else "REMOTE_MANIFEST_REACHABLE")
+                else:
+                    old = item.get("last_known_url", "")
+                    if (old and not item.get("quality") and
+                            not item.get("skip_unverified_fallback") and
+                            allowed(old) and matches_channel(item, old) and
+                            old not in item.get("exclude_urls", []) and old not in used):
+                        chosen = {"url": old, "logo": "", "source": "fallback"}
+                        state = "FALLBACK_NOT_REVERIFIED"
+                if not chosen and item.get("allow_unverified"):
+                    for candidate_url in item.get("experimental_urls", []):
+                        if (allowed(candidate_url) and
+                                candidate_url not in item.get("exclude_urls", []) and
+                                candidate_url not in used and
+                                matches_channel(item, candidate_url)):
+                            chosen = {"url": candidate_url, "logo": "", "source": "experimental"}
+                            state = "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED"
+                            experimental_count += 1
+                            break
         if chosen and chosen["url"] not in used:
             used.add(chosen["url"])
             name = clean(item["name"])
