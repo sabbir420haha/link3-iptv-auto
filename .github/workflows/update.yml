@@ -44,7 +44,7 @@ jobs:
                 exit 0
               fi
               git fetch origin main
-              git rebase origin/main
+              git rebase -X theirs origin/main
               sleep 2
             done
             exit 1
