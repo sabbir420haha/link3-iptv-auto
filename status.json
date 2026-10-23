@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T11:04:27.507924+00:00",
+  "updated_utc": "2026-10-23T11:05:18.953585+00:00",
   "channels": 74,
   "target_channels": 98,
   "groups": {
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 300,
+  "remote_manifests_probed": 303,
   "media_segments_probed": 2,
   "experimental_unverified": 0,
   "backup_streams": [],
@@ -270,6 +270,27 @@
           "url": "https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8",
           "manifest_ok": true,
           "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.135.253.32:8080/DISCOVERY-BANGLA/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.135.253.32:8080/DISCOVERY-BENGALI/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.135.253.32:8080/DISCOVERY-HD-BANGLA/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
           "manifest_height": 0
         },
         {
