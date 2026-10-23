@@ -1,9 +1,0 @@
-# Railway: set Dockerfile path "Dockerfile.relay" and root to repository root.
-# This container intentionally runs the separate relay, not the GitHub updater.
-FROM python:3.12-slim
-ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
-WORKDIR /srv
-COPY relay/server.py /srv/relay/server.py
-COPY playlist.m3u /srv/playlist.m3u
-USER nobody
-CMD ["python", "/srv/relay/server.py"]
