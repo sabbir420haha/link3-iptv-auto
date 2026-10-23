@@ -102,8 +102,8 @@ EXTRA_CANDIDATES = {
         "https://edge01.iptv.digijadoo.net/live/sonic/playlist.m3u8",
         "http://live.balajibroadband.com:3500/live/1345.m3u8",
     ],
-    "Sony MAX SD Alternative": [],
     "Sony MAX HD": [
+        "https://drk6xq0vhn.gpcdn.net/live/max_hd_abr/index.m3u8",
         "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8",
         "https://stream.ottplus.live/live/max_hd_abr/index.m3u8",
         "https://stream.ottplus.live/live/max_hd_abr/live/max_hd_720/chunks.m3u8",
@@ -118,6 +118,9 @@ EXTRA_CANDIDATES = {
         "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=set_max_hd",
     ],
     "Sony Ten 1 HD": [
+        "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_abr/index.m3u8",
+        "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/chunks.m3u8",
+        "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/index.m3u8",
         "http://103.162.136.235:4500/play/a018/index.m3u8",
         "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8",
         "https://feed.play.mv/live/10005200/fMLTkj4OJC/master.m3u8",
