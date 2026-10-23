@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T11:52:04.589926+00:00",
+  "updated_utc": "2026-10-23T12:01:18.348776+00:00",
   "channels": 74,
   "target_channels": 98,
   "groups": {
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 323,
+  "remote_manifests_probed": 327,
   "media_segments_probed": 1,
   "experimental_unverified": 0,
   "backup_streams": [],
@@ -106,6 +106,20 @@
         },
         {
           "source": "curated-candidate",
+          "url": "http://103.174.5.43:8000/play/a06m/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0406/master.m3u8",
+          "manifest_ok": true,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "http://ptu.ridsys.in/riptv/live/DISNEY_CHANNEL/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -173,20 +187,6 @@
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://ott.artmott.com/DisneyChannel/tracks-v1a1/mono.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/8f3e6367117c923.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
         }
       ],
       "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
@@ -217,6 +217,13 @@
         {
           "source": "curated-candidate",
           "url": "http://103.135.253.32:8080/SONIC-HD/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -272,6 +279,13 @@
         },
         {
           "source": "curated-candidate",
+          "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0407/master.m3u8",
+          "manifest_ok": true,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "http://103.83.80.54:6088/play/a0g4/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -301,6 +315,13 @@
         {
           "source": "curated-candidate",
           "url": "http://103.162.136.235:4500/play/a01k/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.140.254.2:3500/live/815.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -412,6 +433,13 @@
         {
           "source": "curated-candidate",
           "url": "https://edge01.iptv.digijadoo.net/live/sonic/playlist.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.182.170.32:8888/play/a02s",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -1036,9 +1064,9 @@
     },
     {
       "name": "Zee Bangla HD",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
-      "manifest_height": 0,
+      "state": "REMOTE_HD_MANIFEST",
+      "stream": "https://tvsen6.aynaott.com/ZeeBangla/index.m3u8",
+      "manifest_height": 720,
       "media_segment_checked": false
     },
     {
@@ -1373,17 +1401,17 @@
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 73,
+    "logo_count": 74,
     "methods": {
-      "current-broadcaster": 46,
+      "current-broadcaster": 47,
       "verified-recent-provider-logo": 15,
       "text-fallback": 12
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 73,
-    "from_image_sources": 62,
+    "total": 74,
+    "from_image_sources": 63,
     "clear_name_fallbacks": 11,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
