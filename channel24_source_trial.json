@@ -1,0 +1,36 @@
+{
+  "checked_utc": "2026-10-23T18:51:24.198213+00:00",
+  "purpose": "Channel24 candidates only; never changes main 77-channel playlist",
+  "scope": "GitHub Actions network only; do not infer Link3",
+  "sample_window_seconds": 64,
+  "results": [
+    {
+      "label": "existing_gpcdn",
+      "source": "https://drk6xq0vhn.gpcdn.net/live/channel_24_abr/index.m3u8",
+      "eligible_from_github": false,
+      "error": "ValueError: Encrypted/protected feed not selected",
+      "manifest_polls_ok": 0
+    },
+    {
+      "label": "akash_gpcdn",
+      "source": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
+      "eligible_from_github": false,
+      "error": "ValueError: No readable HLS data: HTTP Error 403: Forbidden",
+      "manifest_polls_ok": 0
+    },
+    {
+      "label": "aynaott",
+      "source": "https://tvsen6.aynaott.com/YrVDF8gu/index.m3u8",
+      "eligible_from_github": false,
+      "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found",
+      "manifest_polls_ok": 0
+    },
+    {
+      "label": "jagobd",
+      "source": "https://bdsl.jagobd.com:444/c2VydmVyX6RpbEU8Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/channel24-sg-e8e.stream/chunks.m3u8",
+      "eligible_from_github": false,
+      "error": "ValueError: No readable HLS data: <urlopen error [Errno -5] No address associated with hostname>",
+      "manifest_polls_ok": 0
+    }
+  ]
+}
