@@ -64,6 +64,9 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        "https://tvsen7.aynaott.com/disney/index.m3u8",
+        "https://yowaimo.in/Sflex-ArtlPVT0719/DISNEY_CHANNEL.m3u8",
+        "http://181.119.215.61:8000/play/a0g1/index.m3u8",
         "http://66.102.126.10:8000/play/a013/index.m3u8",
         "http://116.90.120.151:8000/play/a0hp/index.m3u8",
         "http://103.162.136.235:4500/play/a01g/index.m3u8",
@@ -73,6 +76,10 @@ EXTRA_CANDIDATES = {
         "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/8f3e6367117c923.m3u8",
     ],
     "Nick Hindi": [
+        # Published Indian Nick from the identical Hungama IP, audio unverified.
+        "http://103.135.253.32:8080/NICK/index.m3u8",
+        "https://tvsen7.aynaott.com/nicklodean/index.m3u8",
+        "http://103.185.24.134:3001/NICK/index.m3u8",
         "http://103.162.136.235:4500/play/a01f/index.m3u8",
         "http://149.71.34.166:8000/play/a00u/index.m3u8",
         "http://103.153.175.254:8080/hls/stream23.m3u8",
@@ -80,6 +87,10 @@ EXTRA_CANDIDATES = {
         "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Nick_Hindi&q=800&e=junk.m3u8",
     ],
     "Duronto TV": [
+        # Same public host as user-confirmed Hungama: strongest untried candidate.
+        "http://103.135.253.32:8080/DORONTU-TV/index.m3u8",
+        "https://tvsen5.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.fmp4.m3u8",
+        "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/tracks-v1a1/mono.ts.m3u8",
         "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/duronto.stream/tracks-v1a1/mono.m3u8",
         "https://tvsen4.aynaott.com/durontotv/index.m3u8",
         "https://tvsen5.aynaott.com/durontotv/index.m3u8",
@@ -98,6 +109,7 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        "https://snehjiotv.in1.bitmana.io/snehjioox.php?c=Sonic_Bangla&q=1200&e=junk.m3u8",
         "https://edge01.iptv.digijadoo.net/live/sonic/chunks.m3u8",
         "https://edge01.iptv.digijadoo.net/live/sonic/playlist.m3u8",
         "http://live.balajibroadband.com:3500/live/1345.m3u8",
@@ -133,6 +145,9 @@ EXTRA_CANDIDATES = {
         "https://cloudplay-sonyliv.pages.dev/ten3.m3u8",
     ],
     "Nat Geo HD Bangla": [
+        # India/English audio is possible; not asserted Bangla unless confirmed.
+        "http://103.135.253.32:8080/NATGEO-HD/index.m3u8",
+        "https://tvsen6.aynaott.com/natgeo/index.m3u8",
         "http://103.167.167.5:8111/play/a036/index.m3u8",
         "http://103.89.248.130:8082/National-geo-graphy-bangla/index.m3u8",
         "http://103.55.144.46/hls/ngohd.m3u8",
