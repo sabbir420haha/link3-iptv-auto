@@ -88,6 +88,9 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        "https://feed.play.mv/live/10005200/QjZ4g9TmAa/master.m3u8",
+        "http://70.39.83.58:8278/disneychannelhindikdin/playlist.m3u8",
+        "https://app-re.sm-monirul-islam-rs.workers.dev/disney-channel-hindi/index.m3u8",
         # New public directory matches; unconfirmed until segment and viewer checks.
         "https://app-re.sm-monirul-islam-rs.workers.dev/Disny-Channel-Hindi/index.m3u8",
         "https://raw.githubusercontent.com/Hasanmahmud000/Yt/main/Disney_Channel_HD.index.m3u8",
@@ -149,6 +152,8 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        "https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8",
+        "https://playyonogames.in/live.php?id=815&format=.m3u8",
         # New public directory matches; unconfirmed until segment and viewer checks.
         "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
         "http://103.68.28.58:5001/live/815.m3u8",
@@ -175,6 +180,8 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        "https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8",
+        "https://playyonogames.in/live.php?id=1345&format=.m3u8",
         # New public directory matches; unconfirmed until segment and viewer checks.
         "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
         "http://103.68.28.58:5001/live/1345.m3u8",
