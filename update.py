@@ -443,7 +443,7 @@ def hd_resolution(url):
         body=raw.decode("utf-8-sig",errors="replace")
         if "#EXTM3U" not in body:
             return 0
-        heights=[int(m.group(1)) for m in re.finditer(r'RESOLUTION=\\d+x(\\d+)',body,re.I)]
+        heights=[int(m.group(1)) for m in re.finditer(r'RESOLUTION=\d+x(\d+)',body,re.I)]
         return max(heights) if heights else 0
     except Exception:
         return 0
