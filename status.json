@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T11:15:26.352546+00:00",
+  "updated_utc": "2026-10-23T11:21:42.093223+00:00",
   "channels": 74,
   "target_channels": 98,
   "groups": {
@@ -12,8 +12,8 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 330,
-  "media_segments_probed": 2,
+  "remote_manifests_probed": 309,
+  "media_segments_probed": 1,
   "experimental_unverified": 0,
   "backup_streams": [],
   "candidate_audit": [
@@ -415,146 +415,6 @@
         {
           "source": "curated-candidate",
           "url": "https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.135.253.32:8080/DISCOVERY-BANGLA/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.135.253.32:8080/DISCOVERY-BENGALI/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.135.253.32:8080/DISCOVERY-HD-BANGLA/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_19.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_21.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://khulnalive.anytv.live/discoverybangla/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://ccntv.anytv.live/discoverybangla/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://load.airtelxstream.in/discoverychannelbengali/smil:common.smil/playlist.m3u8?DVR",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://cdn1-freeiptv25.vercel.app/m3u/discoverybengali.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://starplay2.netlify.app/m3u/discoverybengali.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.89.248.130:8082/DISCOVERY-BANGLA/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://175.107.244.52:4455/play/a01v/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.229.254.25:7001/play/a03g/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.180.212.191:3500/live/573.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.17.193.159:5001/live/573.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.107.79.87:8080/CH8110HD08/video.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.159.180.34:5001/live/573.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.107.79.87:8080/CH8110HD08/tracks-v1a1/mono.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/61.ts",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "Zaman-Active",
-          "url": "http://202.70.146.135:8000/play/a05z/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -1379,10 +1239,10 @@
     },
     {
       "name": "Discovery Bangla",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "PINNED_USER_WORKING",
       "stream": "https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": true
+      "media_segment_checked": false
     },
     {
       "name": "Nat Geo HD Bangla",
