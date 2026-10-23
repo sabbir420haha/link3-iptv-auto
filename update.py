@@ -50,11 +50,22 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
         "https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_21.m3u8",
         "https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8",
+        "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=573",
     ],
-    "Nick Hindi": ["https://jiotvmblive.cdn.jio.com/bpk-tv/Nick_voot_MOB/output03/index.m3u8"],
-    "Sonic Hindi": ["https://sar.pages.dev/sonic.m3u8"],
+    "Nick Hindi": [
+        "https://jiotvmblive.cdn.jio.com/bpk-tv/Nick_voot_MOB/output03/index.m3u8",
+        "https://madplay.live/jiotv/app/live/545/null/index.m3u8",
+        "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Nick_Hindi&q=800&e=junk.m3u8",
+        "https://fifabangladesh2-xyz-ekkj.spidy.online/VHOD/NEW/go.php?id=Nick_voot_MOB",
+    ],
+    "Sonic Hindi": [
+        "https://sar.pages.dev/sonic.m3u8",
+        "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+        "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+    ],
     "Sony MAX HD": [
-        "https://dai.google.com/linear/hls/event/UcjHNJmCQ1WRlGKlZm73QA/master.m3u8"
+        "https://dai.google.com/linear/hls/event/UcjHNJmCQ1WRlGKlZm73QA/master.m3u8",
+        "https://pubads.g.doubleclick.net/ssai/event/Qyqz40bSQriqSuAC7R8_Fw/master.m3u8",
     ],
     "Sony Ten 1 HD": [
         "https://pubads.g.doubleclick.net/ssai/event/yeYP86THQ4yl7US8Zx5eug/master.m3u8",
@@ -65,6 +76,7 @@ EXTRA_CANDIDATES = {
         "https://pubads.g.doubleclick.net/ssai/event/nmQFuHURTYGQBNdUG-2Qdw/master.m3u8",
         "https://dai.google.com/linear/hls/event/ltsCG7TBSCSDmyq0rQtvSA/master.m3u8",
         "https://sliv.tgaadi.workers.dev/ten3hd.m3u8",
+        "https://ott.bingebd.com/live/ngrp:APNTn-asdt-t1asnd2a-sWgtsrhQW_AQTY1025_sony_ten_3PQRT_98sdfhs0_f36erxty_forsgst63_DH/chunklist.m3u8",
     ],
 }
 
@@ -142,6 +154,65 @@ def fetch_playlist(source):
         return name, parse_m3u(body, name), None
     except Exception as error:
         return name, [], str(error)[:130]
+
+def segment_probe(url):
+    """Two-level HLS check: verify playlist and at least one actual media fragment.
+    Verify HTTP response bytes, not just #EXTM3U or an HTML redirect.
+    Runs from GitHub's network, so Link3 ISP-specific success is not guaranteed.
+    """
+    def get(uri, cap=24576):
+        if not allowed(uri):
+            raise ValueError("filtered remote URL")
+        request=urllib.request.Request(uri,headers={**HEADERS,"Range":"bytes=0-8191"})
+        with urllib.request.urlopen(request,timeout=9) as response:
+            if response.status not in (200,206):
+                raise ValueError("HTTP status " + str(response.status))
+            data=response.read(cap)
+            if not data:
+                raise ValueError("empty response")
+            return data,response.headers.get("Content-Type","").lower()
+
+    try:
+        current=url
+        for depth in range(3):
+            body,_=get(current,24000)
+            text=body.decode("utf-8-sig",errors="replace")
+            if "#EXTM3U" not in text[:500]:
+                return False
+            if "#EXT-X-KEY" in text and ("METHOD=SAMPLE-AES" in text or "KEYFORMAT=" in text):
+                return False  # no protected/DRM stream support
+            lines=[line.strip() for line in text.splitlines() if line.strip()]
+            if "#EXT-X-STREAM-INF" in text:
+                variants=[]
+                for i,line in enumerate(lines[:-1]):
+                    if line.startswith("#EXT-X-STREAM-INF") and not lines[i+1].startswith("#"):
+                        match=re.search(r'RESOLUTION=\d+x(\d+)',line)
+                        variants.append((int(match.group(1)) if match else 0,lines[i+1]))
+                if not variants:
+                    return False
+                # Highest advertised quality. Test an actual segment at that rendition.
+                current=urllib.parse.urljoin(current,max(variants,key=lambda v:v[0])[1])
+                continue
+            if "#EXTINF" not in text:
+                return False
+            uris=[line for line in lines if not line.startswith("#")]
+            # Probe a recent segment, not an old expired segment.
+            for target in reversed(uris[-3:]):
+                fragment=urllib.parse.urljoin(current,target)
+                try:
+                    data,ctype=get(fragment,4096)
+                    if data.startswith((b"<!DOCTYPE",b"<html",b"<?xml",b"#EXTM3U")):
+                        continue
+                    if b"mpegurl" in ctype.encode() or "text/html" in ctype or "application/json" in ctype:
+                        continue
+                    if len(data)>188:  # real transport/MP4 segment, not empty placeholder
+                        return True
+                except Exception:
+                    continue
+            return False
+    except Exception:
+        return False
+    return False
 
 def probe(url):
     if not allowed(url):
@@ -270,6 +341,11 @@ def main():
                    if item.get("quality") == "hd" for c in choices[:6] if health.get(c["url"])))
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
         heights = dict(zip(hd_urls, pool.map(hd_resolution, hd_urls)))
+    priority_urls = list(dict.fromkeys(c["url"] for item, old, choices in tasks
+                    if item.get("requires_media_segment") for c in choices[:9]
+                    if health.get(c["url"])))
+    with concurrent.futures.ThreadPoolExecutor(max_workers=14) as pool:
+        segments = dict(zip(priority_urls, pool.map(segment_probe, priority_urls)))
 
     used = set()
     output = ["#EXTM3U", "# Curated IPTV Pro: refreshed by GitHub Actions every 6 hours.",
@@ -285,19 +361,19 @@ def main():
             if item.get("quality") == "hd":
                 minimum = int(item.get("min_height", 720))
                 chosen = next((c for c in choices
-                               if health.get(c["url"]) and heights.get(c["url"], 0) >= minimum
+                               if health.get(c["url"]) and (not item.get("requires_media_segment") or segments.get(c["url"])) and heights.get(c["url"], 0) >= minimum
                                and c["url"] not in used), None)
-            elif item.get("prefer_current") and current and health.get(current) and current not in used:
+            elif item.get("prefer_current") and current and health.get(current) and (not item.get("requires_media_segment") or segments.get(current)) and current not in used:
                 chosen = next((c for c in choices if c["url"] == current), None)
             else:
-                chosen = next((c for c in choices if health.get(c["url"]) and c["url"] not in used), None)
+                chosen = next((c for c in choices if health.get(c["url"]) and (not item.get("requires_media_segment") or segments.get(c["url"])) and c["url"] not in used), None)
             if chosen:
                 state = ("REMOTE_HD_MANIFEST" if item.get("quality") == "hd"
                          else "BEST_AVAILABLE_NOT_VERIFIED_HD" if item.get("quality") == "best_available"
                          else "REMOTE_MANIFEST_REACHABLE")
             else:
                 old = current or item.get("last_known_url", "")
-                if old and not item.get("quality") and allowed(old) and matches_channel(item, old) and old not in used:
+                if old and not item.get("quality") and not item.get("skip_unverified_fallback") and allowed(old) and matches_channel(item, old) and old not in item.get("exclude_urls",[]) and old not in used:
                     chosen = {"url": old, "logo": "", "source": "fallback"}
                     state = "FALLBACK_NOT_REVERIFIED"
         if chosen and chosen["url"] not in used:
@@ -309,7 +385,8 @@ def main():
             output.append(chosen["url"])
         report.append({"name": item["name"], "state": state,
                        "stream": chosen["url"] if chosen else None,
-                       "manifest_height": heights.get(chosen["url"], 0) if chosen else 0})
+                       "manifest_height": heights.get(chosen["url"], 0) if chosen else 0,
+                       "media_segment_checked": bool(segments.get(chosen["url"],False)) if chosen else False})
     if len(used) < 4:
         raise ValueError("Refusing to overwrite playlist with fewer than 4 streams")
     final = "\n".join(output) + "\n"
@@ -319,7 +396,7 @@ def main():
     summary = {"updated_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
                "channels": len(used), "target_channels": len(channels),
                "groups": dict(Counter(x["group"] for x in channels)),
-               "remote_manifests_probed": len(health), "sources": source_stats,
+               "remote_manifests_probed": len(health), "media_segments_probed": len(segments), "sources": source_stats,
                "channel_status": report,
                "warning": "Remote HLS check does not guarantee Link3 playback, picture quality, buffering or access rights"}
     REPORT.write_text(json.dumps(summary, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
