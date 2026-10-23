@@ -397,11 +397,24 @@
   {
     "name": "Zee Bangla",
     "group": "03 | Indian Bangla",
+    "aliases": [],
+    "locked": false,
+    "last_known_url": "",
+    "prefer_current": true
+  },
+  {
+    "name": "Zee Bangla HD",
+    "group": "03 | Indian Bangla",
     "aliases": [
       "Zee Bangla HD"
     ],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "quality": "hd",
+    "min_height": 720,
+    "exclude_urls": [
+      "https://drk6xq0vhn.gpcdn.net/live/zee_bangla_720/index.m3u8"
+    ]
   },
   {
     "name": "Star Jalsha",
@@ -525,6 +538,20 @@
     "last_known_url": "http://103.135.253.32:8080/HUNGAMA/index.m3u8"
   },
   {
+    "name": "Hungama HD",
+    "group": "04 | Kids",
+    "aliases": [
+      "Hungama TV HD"
+    ],
+    "locked": false,
+    "last_known_url": "",
+    "quality": "hd",
+    "min_height": 720,
+    "exclude_urls": [
+      "http://103.135.253.32:8080/HUNGAMA/index.m3u8"
+    ]
+  },
+  {
     "name": "Sony Yay",
     "group": "04 | Kids",
     "aliases": [
@@ -582,10 +609,13 @@
     "name": "Disney HD Hindi",
     "group": "04 | Kids",
     "aliases": [
-      "Disney Channel HD Hindi"
+      "Disney Channel HD Hindi",
+      "Disney Channel HD"
     ],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "quality": "hd",
+    "min_height": 720
   },
   {
     "name": "Disney SD",
@@ -598,7 +628,9 @@
     "name": "Nick Hindi",
     "group": "04 | Kids",
     "aliases": [
-      "Nickelodeon Hindi"
+      "Nickelodeon Hindi",
+      "Nick Hindi",
+      "Nick SD Hindi"
     ],
     "locked": false,
     "last_known_url": ""
@@ -607,7 +639,9 @@
     "name": "Sonic Hindi",
     "group": "04 | Kids",
     "aliases": [
-      "Nick Sonic Hindi"
+      "Nick Sonic Hindi",
+      "Sonic Nickelodeon HD",
+      "Sonic Hindi"
     ],
     "locked": false,
     "last_known_url": ""
@@ -716,39 +750,58 @@
     "name": "Sony Ten 1 HD",
     "group": "06 | Sports",
     "aliases": [
-      "Sony Sports Ten 1"
+      "Sony Sports Ten 1 HD",
+      "Sony Ten 1 HD",
+      "Sony Ten 1 Hd"
     ],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "quality": "hd",
+    "min_height": 720
   },
   {
     "name": "Sony Ten 3 HD",
     "group": "06 | Sports",
     "aliases": [
-      "Sony Sports Ten 3"
+      "Sony Sports Ten 3 HD",
+      "Sony Sports Ten 3 Hindi HD",
+      "Sony Ten 3 Hd"
+    ],
+    "locked": false,
+    "last_known_url": "",
+    "quality": "hd",
+    "min_height": 720
+  },
+  {
+    "name": "Discovery Bangla",
+    "group": "07 | Documentaries",
+    "aliases": [
+      "Discovery Bangla",
+      "Discovery Bangla HD"
     ],
     "locked": false,
     "last_known_url": ""
   },
   {
-    "name": "Discovery Bangla",
+    "name": "Nat Geo HD Bangla",
     "group": "07 | Documentaries",
-    "aliases": [],
-    "locked": false,
-    "last_known_url": ""
-  },
-  {
-    "name": "Nat Geo Bangla",
-    "group": "07 | Documentaries",
-    "aliases": [],
+    "aliases": [
+      "Nat Geo Bangla HD",
+      "National Geographic Bangla HD",
+      "Nat Geo Bangla"
+    ],
     "locked": false,
     "last_known_url": ""
   },
   {
     "name": "Sony MAX HD",
     "group": "08 | Hindi Entertainment",
-    "aliases": [],
+    "aliases": [
+      "Sony Max HD"
+    ],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "quality": "hd",
+    "min_height": 720
   }
 ]
