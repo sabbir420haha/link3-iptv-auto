@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T10:00:18.675346+00:00",
-  "channels": 74,
+  "updated_utc": "2026-10-23T10:01:16.481550+00:00",
+  "channels": 75,
   "target_channels": 104,
   "groups": {
     "01 | BD News": 18,
@@ -13,7 +13,7 @@
     "08 | Hindi Entertainment": 1
   },
   "remote_manifests_probed": 339,
-  "media_segments_probed": 3,
+  "media_segments_probed": 7,
   "experimental_unverified": 0,
   "candidate_audit": [
     {
@@ -303,6 +303,27 @@
       "candidates": [
         {
           "source": "curated-candidate",
+          "url": "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_abr/index.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 720
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/chunks.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/index.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 720
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://feed.play.mv/live/10005200/fMLTkj4OJC/master.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -474,6 +495,13 @@
         },
         {
           "source": "curated-candidate",
+          "url": "https://drk6xq0vhn.gpcdn.net/live/max_hd_abr/index.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 720
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://stream.ottplus.live/live/max_hd_abr/live/max_hd_720/chunks.m3u8",
           "manifest_ok": true,
           "segment_ok": true,
@@ -517,13 +545,6 @@
         {
           "source": "curated-candidate",
           "url": "http://208.86.19.13:81/7066.stream/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://dx3.gcdn.co/hindi-SONYMAXHD/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -1112,7 +1133,7 @@
     },
     {
       "name": "Amar Bangla",
-      "state": "FALLBACK_NOT_REVERIFIED",
+      "state": "REMOTE_MANIFEST_REACHABLE",
       "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -1350,10 +1371,10 @@
     },
     {
       "name": "Sony Ten 1 HD",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
-      "manifest_height": 0,
-      "media_segment_checked": false
+      "state": "REMOTE_HD_MANIFEST",
+      "stream": "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_abr/index.m3u8",
+      "manifest_height": 720,
+      "media_segment_checked": true
     },
     {
       "name": "Sony Ten 3 HD",
@@ -1386,17 +1407,17 @@
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 74,
+    "logo_count": 75,
     "methods": {
-      "current-broadcaster": 48,
+      "current-broadcaster": 49,
       "verified-recent-provider-logo": 17,
       "text-fallback": 9
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 74,
-    "from_image_sources": 65,
+    "total": 75,
+    "from_image_sources": 66,
     "clear_name_fallbacks": 9,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."

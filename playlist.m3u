@@ -147,5 +147,7 @@ http://103.151.60.162:2122/play/a00v/index.m3u8?hls
 https://d1nj4u39ja4cn0.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/FLS-MuxIP-CricketGold/418.m3u8
 #EXTINF:-1 tvg-name="FITE 24/7" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/fite-24-7.png" group-title="06 | Sports",FITE 24/7
 https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8
+#EXTINF:-1 tvg-name="Sony Ten 1 HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png" group-title="06 | Sports",Sony Ten 1 HD
+https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_abr/index.m3u8
 #EXTINF:-1 tvg-name="Sony MAX HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png" group-title="08 | Hindi Entertainment",Sony MAX HD
 https://stream.ottplus.live/live/max_hd_abr/index.m3u8
