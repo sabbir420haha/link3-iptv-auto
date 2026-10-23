@@ -346,16 +346,7 @@ def segment_probe(url):
     Runs from GitHub's network, so Link3 ISP-specific success is not guaranteed.
     """
     def get(uri, cap=24576):
-        if not allowed(uri):
-            raise ValueError("filtered remote URL")
-        request=urllib.request.Request(uri,headers={**HEADERS,"Range":"bytes=0-8191"})
-        with urllib.request.urlopen(request,timeout=9) as response:
-            if response.status not in (200,206):
-                raise ValueError("HTTP status " + str(response.status))
-            data=response.read(cap)
-            if not data:
-                raise ValueError("empty response")
-            return data,response.headers.get("Content-Type","").lower()
+        return fetch_hls_bytes(uri,cap,9)
 
     try:
         current=url
@@ -399,37 +390,60 @@ def segment_probe(url):
         return False
     return False
 
+def request_headers(uri, cap):
+    """Use headers declared by public source; retry without Range for picky HLS origins."""
+    h = dict(HEADERS)
+    hostname = (urllib.parse.urlsplit(uri).hostname or "").lower()
+    if hostname == "madanitv.assadikb.workers.dev":
+        h["User-Agent"] = "oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1"
+    if hostname == "playyonogames.in":
+        h["Referer"] = "https://playyonogames.in/"
+    return h
+
+
+def fetch_hls_bytes(uri, cap=24000, timeout=9):
+    """Try standard HLS byte Range then ordinary GET. Never download more than cap."""
+    if not allowed(uri):
+        raise ValueError("filtered remote URL")
+    h = request_headers(uri, cap)
+    last_error = None
+    for use_range in (True, False):
+        hdr = dict(h)
+        if use_range:
+            hdr["Range"] = "bytes=0-8191"
+        request = urllib.request.Request(uri, headers=hdr)
+        try:
+            with urllib.request.urlopen(request, timeout=timeout) as response:
+                if response.status not in (200,206):
+                    continue
+                data = response.read(cap)
+                if not data:
+                    continue
+                return data, response.headers.get("Content-Type", "").lower()
+        except Exception as exc:
+            last_error = exc
+            continue
+    raise ValueError("No readable HLS data: " + str(last_error)[:180])
+
+
 def probe(url):
     if not allowed(url):
         return False
     try:
-        request = urllib.request.Request(url, headers={**HEADERS, "Range": "bytes=0-4095"})
-        with urllib.request.urlopen(request, timeout=8) as response:
-            if response.status not in (200, 206):
-                return False
-            chunk = response.read(4096)
-        return ("#EXTM3U" in chunk.decode("utf-8-sig", errors="replace")
-                and ("#EXT-X-" in chunk.decode("utf-8-sig", errors="replace")
-                     or "#EXTINF" in chunk.decode("utf-8-sig", errors="replace"))) or direct_media_ok(chunk)
+        chunk,_=fetch_hls_bytes(url,4096,8)
+        body=chunk.decode("utf-8-sig",errors="replace")
+        return ("#EXTM3U" in body and ("#EXT-X-" in body or "#EXTINF" in body)) or direct_media_ok(chunk)
     except Exception:
         return False
 
 def hd_resolution(url):
-    """Return best height advertised by an HLS variant manifest.
-    For a direct media playlist, an explicit /720/ or _720/ path is a hint,
-    not a verified resolution; such streams are not considered HD here.
-    """
-    if not allowed(url):
-        return 0
+    """Use explicit variant RESOLUTION only; path numbers do not prove real HD."""
     try:
-        request = urllib.request.Request(url, headers={**HEADERS, "Range": "bytes=0-16383"})
-        with urllib.request.urlopen(request, timeout=9) as response:
-            if response.status not in (200, 206):
-                return 0
-            body = response.read(16384).decode("utf-8-sig", errors="replace")
+        raw,_=fetch_hls_bytes(url,16384,9)
+        body=raw.decode("utf-8-sig",errors="replace")
         if "#EXTM3U" not in body:
             return 0
-        heights = [int(m.group(1)) for m in re.finditer(r'RESOLUTION=\d+x(\d+)', body, re.I)]
+        heights=[int(m.group(1)) for m in re.finditer(r'RESOLUTION=\\d+x(\\d+)',body,re.I)]
         return max(heights) if heights else 0
     except Exception:
         return 0
