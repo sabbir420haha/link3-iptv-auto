@@ -62,7 +62,8 @@ EXTRA_CANDIDATES = {
     ],
     "Sonic Bangla": ["http://live.balajibroadband.com:3500/live/1345.m3u8"],
     "Sonic Hindi": [
-        "https://sar.pages.dev/sonic.m3u8",
+        "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+        "http://103.83.80.54:6088/play/a0g4/index.m3u8",
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
         "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
     ],
