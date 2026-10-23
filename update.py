@@ -835,10 +835,14 @@ def main():
             continue
         blocked = set(item.get("exclude_urls", [])) | set(item.get("user_reported_failures", []))
         pin = item.get("last_known_url", "")
+        checked = 0
         for url in EXTRA_CANDIDATES.get(item["name"], []):
             if url != pin and url not in blocked and allowed(url) and matches_channel(item, url):
                 audit_tasks.append((item["name"], url))
-        # Limit per-channel work to preserve the six-hour workflow budget.
+                checked += 1
+                if checked >= 8:
+                    break
+        # Rotate/add priority candidates in EXTRA_CANDIDATES to keep the runner audit bounded.
     audit_tasks = list(dict.fromkeys(audit_tasks))
     def audit_candidate(pair):
         name, url = pair
