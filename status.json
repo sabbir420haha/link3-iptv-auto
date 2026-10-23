@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T13:18:50.779887+00:00",
+  "updated_utc": "2026-10-23T13:31:23.936138+00:00",
   "channels": 76,
   "target_channels": 98,
   "groups": {
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 285,
+  "remote_manifests_probed": 277,
   "media_segments_probed": 1,
   "experimental_unverified": 0,
   "backup_streams": [],
@@ -20,27 +20,6 @@
     {
       "name": "Disney HD Hindi",
       "candidates": [
-        {
-          "source": "curated-candidate",
-          "url": "http://103.135.253.32:8080/DISNEY-CHANNEL-HD/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.135.253.32:8080/DISNEY-CHANNEL/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://tvsen7.aynaott.com/disney/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
         {
           "source": "curated-candidate",
           "url": "https://app-re.sm-monirul-islam-rs.workers.dev/disney-hd-hindi/index.m3u8",
@@ -58,13 +37,6 @@
         {
           "source": "curated-candidate",
           "url": "https://stream.ottplus.live/live/disney_hd_abr/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://feed.play.mv/live/10005200/QjZ4g9TmAa/master.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -99,20 +71,6 @@
         },
         {
           "source": "curated-candidate",
-          "url": "https://prox.assadikb.workers.dev/watch/1373JP",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.174.5.43:8000/play/a06m/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
           "url": "http://116.90.120.151:8000/play/a0hp/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -120,21 +78,7 @@
         },
         {
           "source": "curated-candidate",
-          "url": "http://103.162.136.235:4500/play/a01g/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
           "url": "http://88.212.15.19/live/test_disney/playlist.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://70.39.83.58:8278/disneychannelhindikdin/playlist.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
