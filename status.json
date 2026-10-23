@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T08:21:46.766000+00:00",
+  "updated_utc": "2026-10-23T08:35:17.184604+00:00",
   "channels": 73,
   "target_channels": 103,
   "groups": {
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 311,
+  "remote_manifests_probed": 312,
   "sources": [
     {
       "source": "iptv-bd",
@@ -497,7 +497,7 @@
     },
     {
       "name": "Bangla Plus",
-      "state": "FALLBACK_NOT_REVERIFIED",
+      "state": "REMOTE_MANIFEST_REACHABLE",
       "stream": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8",
       "manifest_height": 0
     },
@@ -683,7 +683,7 @@
     },
     {
       "name": "Discovery Bangla",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "FALLBACK_NOT_REVERIFIED",
       "stream": "https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8",
       "manifest_height": 0
     },
