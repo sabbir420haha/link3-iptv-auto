@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T15:37:37.330890+00:00",
+  "updated_utc": "2026-10-23T16:05:26.494900+00:00",
   "channels": 77,
   "target_channels": 98,
   "groups": {
@@ -764,7 +764,7 @@
     {
       "name": "Cartoon Network",
       "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8",
+      "stream": "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
