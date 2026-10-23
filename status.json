@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T14:12:42.953122+00:00",
+  "updated_utc": "2026-10-23T14:40:55.541879+00:00",
   "channels": 77,
   "target_channels": 98,
   "groups": {
@@ -972,8 +972,8 @@
     "total": 77,
     "from_image_sources": 66,
     "clear_name_fallbacks": 11,
-    "size": "320x220 PNG; white background, centered original-proportion brand marks",
-    "note": "Every M3U logo points to a centered locally cached image. Brand marks keep original proportions; fallback names are not broadcaster originals."
+    "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
+    "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
     "entries": 0,

@@ -1,158 +1,158 @@
 #EXTM3U
 # Curated IPTV Pro: refreshed by GitHub Actions every 6 hours.
 # Manifest checks occur on GitHub, not the user's Link3 Wi-Fi.
-#EXTINF:-1 tvg-name="Channel 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png?v=whitecard20261023" group-title="01 | BD News",Channel 24
+#EXTINF:-1 tvg-name="Channel 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png?v=iptv-tightfit-20261023" group-title="01 | BD News",Channel 24
 https://drk6xq0vhn.gpcdn.net/live/channel_24_abr/index.m3u8
-#EXTINF:-1 tvg-name="Independent TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/independent-tv.png?v=whitecard20261023" group-title="01 | BD News",Independent TV
+#EXTINF:-1 tvg-name="Independent TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/independent-tv.png?v=iptv-tightfit-20261023" group-title="01 | BD News",Independent TV
 https://drk6xq0vhn.gpcdn.net/live/independent_tv_abr/index.m3u8
-#EXTINF:-1 tvg-name="Somoy TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=whitecard20261023" group-title="01 | BD News",Somoy TV
+#EXTINF:-1 tvg-name="Somoy TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="01 | BD News",Somoy TV
 https://drk6xq0vhn.gpcdn.net/live/somoy_tv_abr/index.m3u8
-#EXTINF:-1 tvg-name="Jamuna TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=whitecard20261023" group-title="01 | BD News",Jamuna TV
+#EXTINF:-1 tvg-name="Jamuna TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=iptv-tightfit-20261023" group-title="01 | BD News",Jamuna TV
 https://tvsen6.aynaott.com/KGdZEdA7qQ43dmPkgk1j/index.m3u8
-#EXTINF:-1 tvg-name="Ekattor TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ekattor-tv.png?v=whitecard20261023" group-title="01 | BD News",Ekattor TV
+#EXTINF:-1 tvg-name="Ekattor TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ekattor-tv.png?v=iptv-tightfit-20261023" group-title="01 | BD News",Ekattor TV
 https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/index.m3u8
-#EXTINF:-1 tvg-name="News 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/news-24.png?v=whitecard20261023" group-title="01 | BD News",News 24
+#EXTINF:-1 tvg-name="News 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/news-24.png?v=iptv-tightfit-20261023" group-title="01 | BD News",News 24
 https://tvsen6.aynaott.com/cdgr3tw6WoG7JyRnLbi0/index.m3u8
-#EXTINF:-1 tvg-name="DBC News" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=whitecard20261023" group-title="01 | BD News",DBC News
+#EXTINF:-1 tvg-name="DBC News" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="01 | BD News",DBC News
 https://tvsen6.aynaott.com/pF66Tkz0qFwP2aMMqHyt/index.m3u8
-#EXTINF:-1 tvg-name="BTV News" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/btv-news.png?v=whitecard20261023" group-title="01 | BD News",BTV News
+#EXTINF:-1 tvg-name="BTV News" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/btv-news.png?v=iptv-tightfit-20261023" group-title="01 | BD News",BTV News
 https://btv.hridoytv-channel.workers.dev/news.m3u8
-#EXTINF:-1 tvg-name="Desh TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/desh-tv.png?v=whitecard20261023" group-title="01 | BD News",Desh TV
+#EXTINF:-1 tvg-name="Desh TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/desh-tv.png?v=iptv-tightfit-20261023" group-title="01 | BD News",Desh TV
 https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8
-#EXTINF:-1 tvg-name="ATN News" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=whitecard20261023" group-title="01 | BD News",ATN News
+#EXTINF:-1 tvg-name="ATN News" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="01 | BD News",ATN News
 https://tvsen6.aynaott.com/da6WMXAk/index.m3u8
-#EXTINF:-1 tvg-name="Ekhon TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ekhon-tv.png?v=whitecard20261023" group-title="01 | BD News",Ekhon TV
+#EXTINF:-1 tvg-name="Ekhon TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ekhon-tv.png?v=iptv-tightfit-20261023" group-title="01 | BD News",Ekhon TV
 https://drk6xq0vhn.gpcdn.net/live/ekhon_tv_abr/index.m3u8
-#EXTINF:-1 tvg-name="Bijoy TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/bijoy-tv.png?v=whitecard20261023" group-title="01 | BD News",Bijoy TV
+#EXTINF:-1 tvg-name="Bijoy TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/bijoy-tv.png?v=iptv-tightfit-20261023" group-title="01 | BD News",Bijoy TV
 https://drk6xq0vhn.gpcdn.net/live/bijoy_tv_abr/index.m3u8
-#EXTINF:-1 tvg-name="Ekushey TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ekushey-tv.png?v=whitecard20261023" group-title="01 | BD News",Ekushey TV
+#EXTINF:-1 tvg-name="Ekushey TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ekushey-tv.png?v=iptv-tightfit-20261023" group-title="01 | BD News",Ekushey TV
 https://tvsen5.aynaott.com/SyQuXz8sC3TB/index.m3u8
-#EXTINF:-1 tvg-name="News 21 Bangla TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/news-21-bangla-tv.png?v=whitecard20261023" group-title="01 | BD News",News 21 Bangla TV
+#EXTINF:-1 tvg-name="News 21 Bangla TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/news-21-bangla-tv.png?v=iptv-tightfit-20261023" group-title="01 | BD News",News 21 Bangla TV
 http://103.190.133.68:1935/news21live/live/playlist.m3u8
-#EXTINF:-1 tvg-name="BTV Chattogram" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/btv-chattogram.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",BTV Chattogram
+#EXTINF:-1 tvg-name="BTV Chattogram" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/btv-chattogram.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",BTV Chattogram
 https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/index.m3u8
-#EXTINF:-1 tvg-name="ATN Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",ATN Bangla
+#EXTINF:-1 tvg-name="ATN Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",ATN Bangla
 https://tvsen5.aynaott.com/atnbangla/index.m3u8
-#EXTINF:-1 tvg-name="BanglaVision" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",BanglaVision
+#EXTINF:-1 tvg-name="BanglaVision" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",BanglaVision
 https://tvsen5.aynaott.com/banglavision/index.m3u8
-#EXTINF:-1 tvg-name="Boishakhi TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/boishakhi-tv.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",Boishakhi TV
+#EXTINF:-1 tvg-name="Boishakhi TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/boishakhi-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Boishakhi TV
 https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
-#EXTINF:-1 tvg-name="Channel i" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-i.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",Channel i
+#EXTINF:-1 tvg-name="Channel i" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-i.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Channel i
 https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8
-#EXTINF:-1 tvg-name="Deepto TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/deepto-tv.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",Deepto TV
+#EXTINF:-1 tvg-name="Deepto TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/deepto-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Deepto TV
 https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8
-#EXTINF:-1 tvg-name="NTV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",NTV
+#EXTINF:-1 tvg-name="NTV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",NTV
 https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/chunklist.m3u8
-#EXTINF:-1 tvg-name="RTV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/rtv.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",RTV
+#EXTINF:-1 tvg-name="RTV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/rtv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",RTV
 https://tvsen5.aynaott.com/RtvHD/index.m3u8
-#EXTINF:-1 tvg-name="Maasranga TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",Maasranga TV
+#EXTINF:-1 tvg-name="Maasranga TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Maasranga TV
 https://tvsen5.aynaott.com/maasrangatv/index.m3u8
-#EXTINF:-1 tvg-name="Gazi TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/gazi-tv.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",Gazi TV
+#EXTINF:-1 tvg-name="Gazi TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/gazi-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Gazi TV
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="My TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/my-tv.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",My TV
+#EXTINF:-1 tvg-name="My TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/my-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",My TV
 https://tvsen6.aynaott.com/XMpHaEf0ANBhv8w6NWR7/index.m3u8
-#EXTINF:-1 tvg-name="Asian TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/asian-tv.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",Asian TV
+#EXTINF:-1 tvg-name="Asian TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/asian-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Asian TV
 https://tvsen6.aynaott.com/pKb5k6NnzxsKpWUs6E8M/index.m3u8
-#EXTINF:-1 tvg-name="SA TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sa-tv.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",SA TV
+#EXTINF:-1 tvg-name="SA TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sa-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",SA TV
 https://j6nfugukcl.gpcdn.net/tile_5/master.m3u8
-#EXTINF:-1 tvg-name="Ananda TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ananda-tv.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",Ananda TV
+#EXTINF:-1 tvg-name="Ananda TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ananda-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Ananda TV
 https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8
-#EXTINF:-1 tvg-name="Rajdhani TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/rajdhani-tv.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",Rajdhani TV
+#EXTINF:-1 tvg-name="Rajdhani TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/rajdhani-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Rajdhani TV
 https://drk6xq0vhn.gpcdn.net/live/rajdhani_tv/index.m3u8
-#EXTINF:-1 tvg-name="NAN TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nan-tv.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",NAN TV
+#EXTINF:-1 tvg-name="NAN TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nan-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",NAN TV
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Deshi TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/deshi-tv.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",Deshi TV
+#EXTINF:-1 tvg-name="Deshi TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/deshi-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Deshi TV
 https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Enter TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/enter-tv.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",Enter TV
+#EXTINF:-1 tvg-name="Enter TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/enter-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Enter TV
 https://live1.entertv.com.bd/entertv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="Channel S" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-s.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",Channel S
+#EXTINF:-1 tvg-name="Channel S" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-s.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Channel S
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Deshe Bideshe TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/deshe-bideshe-tv.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",Deshe Bideshe TV
+#EXTINF:-1 tvg-name="Deshe Bideshe TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/deshe-bideshe-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Deshe Bideshe TV
 https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8
-#EXTINF:-1 tvg-name="Islamic TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/islamic-tv.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",Islamic TV
+#EXTINF:-1 tvg-name="Islamic TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/islamic-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Islamic TV
 https://drk6xq0vhn.gpcdn.net/live/islamic_tv/index.m3u8
-#EXTINF:-1 tvg-name="Iqra Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/iqra-bangla.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",Iqra Bangla
+#EXTINF:-1 tvg-name="Iqra Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/iqra-bangla.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Iqra Bangla
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/iqrabanglatvoffice.stream/live-orgin/iqrabanglatvoffice.stream/chunks.m3u8
-#EXTINF:-1 tvg-name="Mohona TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/mohona-tv.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",Mohona TV
+#EXTINF:-1 tvg-name="Mohona TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/mohona-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",Mohona TV
 https://tvsen6.aynaott.com/AkyX5dunzju4cpo26dr7/index.m3u8
-#EXTINF:-1 tvg-name="NRB TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nrb-tv.png?v=whitecard20261023" group-title="02 | BD General & Entertainment",NRB TV
+#EXTINF:-1 tvg-name="NRB TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nrb-tv.png?v=iptv-tightfit-20261023" group-title="02 | BD General & Entertainment",NRB TV
 https://app.ncare.live/live-orgin/nrb-eu.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Sony Aath" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=whitecard20261023" group-title="03 | Indian Bangla",Sony Aath
+#EXTINF:-1 tvg-name="Sony Aath" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Sony Aath
 https://stream.ottplus.live/live/sony_aath_abr/index.m3u8
-#EXTINF:-1 tvg-name="Zee Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla.png?v=whitecard20261023" group-title="03 | Indian Bangla",Zee Bangla
+#EXTINF:-1 tvg-name="Zee Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Zee Bangla
 https://drk6xq0vhn.gpcdn.net/live/zee_bangla_720/index.m3u8
-#EXTINF:-1 tvg-name="Zee Bangla HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-hd.png?v=whitecard20261023" group-title="03 | Indian Bangla",Zee Bangla HD
+#EXTINF:-1 tvg-name="Zee Bangla HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-hd.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Zee Bangla HD
 https://tvsen6.aynaott.com/ZeeBangla/index.m3u8
-#EXTINF:-1 tvg-name="Star Jalsha" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/star-jalsha.png?v=whitecard20261023" group-title="03 | Indian Bangla",Star Jalsha
+#EXTINF:-1 tvg-name="Star Jalsha" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/star-jalsha.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Star Jalsha
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8
-#EXTINF:-1 tvg-name="Sun Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sun-bangla.png?v=whitecard20261023" group-title="03 | Indian Bangla",Sun Bangla
+#EXTINF:-1 tvg-name="Sun Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sun-bangla.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Sun Bangla
 http://27.124.71.27/Sun_Bangla/index.m3u8
-#EXTINF:-1 tvg-name="Bangla Jago TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/bangla-jago-tv.png?v=whitecard20261023" group-title="03 | Indian Bangla",Bangla Jago TV
+#EXTINF:-1 tvg-name="Bangla Jago TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/bangla-jago-tv.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Bangla Jago TV
 http://banglajagotv.livebox.co.in/banglajagohls/24x7.m3u8
-#EXTINF:-1 tvg-name="DD Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dd-bangla.png?v=whitecard20261023" group-title="03 | Indian Bangla",DD Bangla
+#EXTINF:-1 tvg-name="DD Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dd-bangla.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",DD Bangla
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index_3.m3u8
-#EXTINF:-1 tvg-name="TV9 Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/tv9-bangla.png?v=whitecard20261023" group-title="03 | Indian Bangla",TV9 Bangla
+#EXTINF:-1 tvg-name="TV9 Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/tv9-bangla.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",TV9 Bangla
 https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/pub-iotv9banaen8yq/live_480p/chunks.m3u8
-#EXTINF:-1 tvg-name="Zee 24 Ghanta" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-24-ghanta.png?v=whitecard20261023" group-title="03 | Indian Bangla",Zee 24 Ghanta
+#EXTINF:-1 tvg-name="Zee 24 Ghanta" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-24-ghanta.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Zee 24 Ghanta
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zee24ghantaa-xiaomi/playlist.m3u8
-#EXTINF:-1 tvg-name="Kolkata TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/kolkata-tv.png?v=whitecard20261023" group-title="03 | Indian Bangla",Kolkata TV
+#EXTINF:-1 tvg-name="Kolkata TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/kolkata-tv.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Kolkata TV
 https://tvsen6.aynaott.com/kolkatatv/index.m3u8
-#EXTINF:-1 tvg-name="Ruposhi Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ruposhi-bangla.png?v=whitecard20261023" group-title="03 | Indian Bangla",Ruposhi Bangla
+#EXTINF:-1 tvg-name="Ruposhi Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ruposhi-bangla.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Ruposhi Bangla
 https://da86m1sqpm3o0.cloudfront.net/28072023/smil:rupashibangla.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Amar Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/amar-bangla.png?v=whitecard20261023" group-title="03 | Indian Bangla",Amar Bangla
+#EXTINF:-1 tvg-name="Amar Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/amar-bangla.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Amar Bangla
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="R Plus Gold" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/r-plus-gold.png?v=whitecard20261023" group-title="03 | Indian Bangla",R Plus Gold
+#EXTINF:-1 tvg-name="R Plus Gold" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/r-plus-gold.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",R Plus Gold
 https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cf883da3-f9f5-4c70-b0ef-b3ac2e2ad1e3/index.m3u8
-#EXTINF:-1 tvg-name="Enterr10 Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/enterr10-bangla.png?v=whitecard20261023" group-title="03 | Indian Bangla",Enterr10 Bangla
+#EXTINF:-1 tvg-name="Enterr10 Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/enterr10-bangla.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Enterr10 Bangla
 https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
-#EXTINF:-1 tvg-name="Sananda TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sananda-tv.png?v=whitecard20261023" group-title="03 | Indian Bangla",Sananda TV
+#EXTINF:-1 tvg-name="Sananda TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sananda-tv.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Sananda TV
 http://live-stream.amarbanglatv.in:8080/hls/sanandatv/index.m3u8
-#EXTINF:-1 tvg-name="Bangla Plus" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/bangla-plus.png?v=whitecard20261023" group-title="03 | Indian Bangla",Bangla Plus
+#EXTINF:-1 tvg-name="Bangla Plus" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/bangla-plus.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Bangla Plus
 https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8
-#EXTINF:-1 tvg-name="Hungama" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=whitecard20261023" group-title="04 | Kids",Hungama
+#EXTINF:-1 tvg-name="Hungama" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Hungama
 http://103.135.253.32:8080/HUNGAMA/index.m3u8
-#EXTINF:-1 tvg-name="Sony Yay" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png?v=whitecard20261023" group-title="04 | Kids",Sony Yay
+#EXTINF:-1 tvg-name="Sony Yay" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Sony Yay
 https://drk6xq0vhn.gpcdn.net/live/sony_yay_abr/index.m3u8
-#EXTINF:-1 tvg-name="Pogo" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/pogo.png?v=whitecard20261023" group-title="04 | Kids",Pogo
+#EXTINF:-1 tvg-name="Pogo" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/pogo.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Pogo
 https://drk6xq0vhn.gpcdn.net/live/pogo_sd_abr/index.m3u8
-#EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=whitecard20261023" group-title="04 | Kids",Cartoon Network
+#EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Cartoon Network
 https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8
-#EXTINF:-1 tvg-name="Discovery Kids" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-kids.png?v=whitecard20261023" group-title="04 | Kids",Discovery Kids
+#EXTINF:-1 tvg-name="Discovery Kids" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-kids.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Discovery Kids
 https://drk6xq0vhn.gpcdn.net/live/discovery_kids_abr/index.m3u8
-#EXTINF:-1 tvg-name="Disney HD Hindi" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=whitecard20261023" group-title="04 | Kids",Disney HD Hindi
+#EXTINF:-1 tvg-name="Disney HD Hindi" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Disney HD Hindi
 #EXTVLCOPT:http-user-agent=RANAPK
 http://ranapkz.site/TATABD/play.php?id=167551&format=.m3u8
-#EXTINF:-1 tvg-name="Nick Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=whitecard20261023" group-title="04 | Kids",Nick Bangla
+#EXTINF:-1 tvg-name="Nick Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Nick Bangla
 http://103.135.253.32:8080/NICK/index.m3u8
-#EXTINF:-1 tvg-name="Sonic Hindi" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png?v=whitecard20261023" group-title="04 | Kids",Sonic Hindi
+#EXTINF:-1 tvg-name="Sonic Hindi" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Sonic Hindi
 https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8
-#EXTINF:-1 tvg-name="Sonic Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png?v=whitecard20261023" group-title="04 | Kids",Sonic Bangla
+#EXTINF:-1 tvg-name="Sonic Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Sonic Bangla
 http://103.17.193.159:5001/live/1345.m3u8
-#EXTINF:-1 tvg-name="Duronto TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=whitecard20261023" group-title="05 | BD Kids",Duronto TV
+#EXTINF:-1 tvg-name="Duronto TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="05 | BD Kids",Duronto TV
 http://103.135.253.32:8080/DORONTU-TV/index.m3u8
-#EXTINF:-1 tvg-name="DD Sports" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dd-sports.png?v=whitecard20261023" group-title="06 | Sports",DD Sports
+#EXTINF:-1 tvg-name="DD Sports" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dd-sports.png?v=iptv-tightfit-20261023" group-title="06 | Sports",DD Sports
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index_3.m3u8
-#EXTINF:-1 tvg-name="A Sports" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/a-sports.png?v=whitecard20261023" group-title="06 | Sports",A Sports
+#EXTINF:-1 tvg-name="A Sports" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/a-sports.png?v=iptv-tightfit-20261023" group-title="06 | Sports",A Sports
 https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8
-#EXTINF:-1 tvg-name="beIN Sports XTRA" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/bein-sports-xtra.png?v=whitecard20261023" group-title="06 | Sports",beIN Sports XTRA
+#EXTINF:-1 tvg-name="beIN Sports XTRA" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/bein-sports-xtra.png?v=iptv-tightfit-20261023" group-title="06 | Sports",beIN Sports XTRA
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
-#EXTINF:-1 tvg-name="Sports First TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sports-first-tv.png?v=whitecard20261023" group-title="06 | Sports",Sports First TV
+#EXTINF:-1 tvg-name="Sports First TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sports-first-tv.png?v=iptv-tightfit-20261023" group-title="06 | Sports",Sports First TV
 https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8
-#EXTINF:-1 tvg-name="Red Bull TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/red-bull-tv.png?v=whitecard20261023" group-title="06 | Sports",Red Bull TV
+#EXTINF:-1 tvg-name="Red Bull TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/red-bull-tv.png?v=iptv-tightfit-20261023" group-title="06 | Sports",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
-#EXTINF:-1 tvg-name="Star Sports 2" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/star-sports-2.png?v=whitecard20261023" group-title="06 | Sports",Star Sports 2
+#EXTINF:-1 tvg-name="Star Sports 2" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/star-sports-2.png?v=iptv-tightfit-20261023" group-title="06 | Sports",Star Sports 2
 http://103.151.60.162:2122/play/a00v/index.m3u8?hls
-#EXTINF:-1 tvg-name="Cricket Gold" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cricket-gold.png?v=whitecard20261023" group-title="06 | Sports",Cricket Gold
+#EXTINF:-1 tvg-name="Cricket Gold" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cricket-gold.png?v=iptv-tightfit-20261023" group-title="06 | Sports",Cricket Gold
 https://d1nj4u39ja4cn0.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/FLS-MuxIP-CricketGold/418.m3u8
-#EXTINF:-1 tvg-name="FITE 24/7" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/fite-24-7.png?v=whitecard20261023" group-title="06 | Sports",FITE 24/7
+#EXTINF:-1 tvg-name="FITE 24/7" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/fite-24-7.png?v=iptv-tightfit-20261023" group-title="06 | Sports",FITE 24/7
 https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8
-#EXTINF:-1 tvg-name="Sony Ten 1 HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=whitecard20261023" group-title="06 | Sports",Sony Ten 1 HD
+#EXTINF:-1 tvg-name="Sony Ten 1 HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="06 | Sports",Sony Ten 1 HD
 https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_abr/index.m3u8
-#EXTINF:-1 tvg-name="Sony Ten 3 HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=whitecard20261023" group-title="06 | Sports",Sony Ten 3 HD
+#EXTINF:-1 tvg-name="Sony Ten 3 HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="06 | Sports",Sony Ten 3 HD
 http://103.135.253.32:8080/TEN-3/index.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png?v=whitecard20261023" group-title="07 | Documentaries",Discovery Bangla
+#EXTINF:-1 tvg-name="Discovery Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png?v=iptv-tightfit-20261023" group-title="07 | Documentaries",Discovery Bangla
 https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8
-#EXTINF:-1 tvg-name="Nat Geo HD Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png?v=whitecard20261023" group-title="07 | Documentaries",Nat Geo HD Bangla
+#EXTINF:-1 tvg-name="Nat Geo HD Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png?v=iptv-tightfit-20261023" group-title="07 | Documentaries",Nat Geo HD Bangla
 http://103.135.253.32:8080/NATGEO-HD/index.m3u8
-#EXTINF:-1 tvg-name="Sony MAX HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=whitecard20261023" group-title="08 | Hindi Entertainment",Sony MAX HD
+#EXTINF:-1 tvg-name="Sony MAX HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="08 | Hindi Entertainment",Sony MAX HD
 https://stream.ottplus.live/live/max_hd_abr/index.m3u8
