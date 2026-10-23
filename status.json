@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T10:19:34.904715+00:00",
-  "channels": 79,
+  "updated_utc": "2026-10-23T10:22:22.604509+00:00",
+  "channels": 81,
   "target_channels": 104,
   "groups": {
     "01 | BD News": 18,
@@ -15,6 +15,20 @@
   "remote_manifests_probed": 333,
   "media_segments_probed": 8,
   "experimental_unverified": 0,
+  "backup_streams": [
+    {
+      "name": "Duronto TV",
+      "url": "http://103.135.253.32:8080/DORONTU-TV/index.m3u8",
+      "media_segment_checked": true,
+      "label": "Alternate video source, user playback not yet checked"
+    },
+    {
+      "name": "Nat Geo HD Bangla",
+      "url": "http://103.135.253.32:8080/NATGEO-HD/index.m3u8",
+      "media_segment_checked": true,
+      "label": "Alternate video source, user playback not yet checked"
+    }
+  ],
   "candidate_audit": [
     {
       "name": "Disney HD Hindi",
@@ -1126,7 +1140,7 @@
     },
     {
       "name": "Bangla Plus",
-      "state": "FALLBACK_NOT_REVERIFIED",
+      "state": "REMOTE_MANIFEST_REACHABLE",
       "stream": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -1372,18 +1386,18 @@
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 79,
+    "logo_count": 81,
     "methods": {
       "current-broadcaster": 50,
-      "verified-recent-provider-logo": 18,
-      "text-fallback": 11
+      "verified-recent-provider-logo": 19,
+      "text-fallback": 12
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 79,
-    "from_image_sources": 68,
-    "clear_name_fallbacks": 11,
+    "total": 81,
+    "from_image_sources": 69,
+    "clear_name_fallbacks": 12,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
   },
