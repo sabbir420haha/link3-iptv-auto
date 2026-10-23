@@ -108,7 +108,7 @@ def card(name, img):
     parts = parts[:3]
     if len(parts) == 3 and len(name) > 47:
         parts[2] = parts[2][:13] + "..."
-    display = "\\n".join(parts)
+    display = "\n".join(parts)
     chosen = font(43 if len(name) < 20 else 34 if len(name) < 31 else 27)
     bounds = painter.multiline_textbbox((0, 0), display, font=chosen,
                                         spacing=8, align="center")
