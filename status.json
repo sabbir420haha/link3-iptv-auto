@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T08:13:08.666385+00:00",
-  "channels": 72,
+  "updated_utc": "2026-10-23T08:15:25.070215+00:00",
+  "channels": 73,
   "target_channels": 103,
   "groups": {
     "01 | BD News": 18,
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 299,
+  "remote_manifests_probed": 301,
   "sources": [
     {
       "source": "iptv-bd",
@@ -683,8 +683,8 @@
     },
     {
       "name": "Discovery Bangla",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8",
       "manifest_height": 0
     },
     {
@@ -702,10 +702,10 @@
   ],
   "warning": "Remote HLS check does not guarantee Link3 playback, picture quality, buffering or access rights",
   "logos": {
-    "logo_count": 72,
+    "logo_count": 73,
     "methods": {
       "current-broadcaster": 43,
-      "text-fallback": 29
+      "text-fallback": 30
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   }
