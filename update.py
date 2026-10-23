@@ -80,6 +80,9 @@ EXTRA_CANDIDATES = {
         "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Nick_Hindi&q=800&e=junk.m3u8",
     ],
     "Duronto TV": [
+        "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/duronto.stream/tracks-v1a1/mono.m3u8",
+        "https://tvsen4.aynaott.com/durontotv/index.m3u8",
+        "https://tvsen5.aynaott.com/durontotv/index.m3u8",
         "https://box.bbaria.net/DurontoTV/index.m3u8",
         "http://103.106.243.163:8989/duronto-tv/index.m3u8",
         "http://27.147.156.14:1935/Durunto-TV/Duronto-TV.stream/playlist.m3u8",
