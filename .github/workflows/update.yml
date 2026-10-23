@@ -5,6 +5,7 @@ on:
     paths:
       - channels.json
       - update.py
+      - logos.py
       - .github/workflows/update.yml
   workflow_dispatch:
   schedule:
