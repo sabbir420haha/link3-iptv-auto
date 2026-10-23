@@ -58,6 +58,8 @@ EXTRA_CANDIDATES = {
     # New candidates from published GitHub playlists; none are claimed working.
     # Segment testing from GitHub Actions determines if they are published.
     "Discovery Bangla": [
+        "https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_19.m3u8",
+        "https://starplay2.netlify.app/m3u/discoverybengali.m3u8",
         "http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/61.ts",
         "https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_21.m3u8",
         "https://khulnalive.anytv.live/discoverybangla/index.m3u8",
@@ -101,6 +103,7 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        "http://103.151.60.162:2122/play/a02v/index.m3u8?hls",
         "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
         "http://103.229.254.25:7001/play/a0dl/index.m3u8",
         "http://103.72.101.252:8080/live/815.m3u8",
@@ -139,12 +142,15 @@ EXTRA_CANDIDATES = {
         "http://103.185.24.134:3001/SonyTenSports1/index.m3u8",
     ],
     "Sony Ten 3 HD": [
+        "http://103.122.74.6:8888/hls/SONY.SPORTS.3.m3u8",
+        "http://103.84.57.155:8000/play/a02q/index.m3u8",
         "http://103.162.136.235:4500/play/a01d/index.m3u8",
         "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8",
         "https://feed.play.mv/live/10005200/RG2fKR6d9p/master.m3u8",
         "https://cloudplay-sonyliv.pages.dev/ten3.m3u8",
     ],
     "Nat Geo HD Bangla": [
+        "http://103.81.104.222/live/national-geographic/index.m3u8",
         # India/English audio is possible; not asserted Bangla unless confirmed.
         "http://103.135.253.32:8080/NATGEO-HD/index.m3u8",
         "https://tvsen6.aynaott.com/natgeo/index.m3u8",
