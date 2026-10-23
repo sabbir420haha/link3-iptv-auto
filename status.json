@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T10:46:48.344574+00:00",
+  "updated_utc": "2026-10-23T10:47:44.979329+00:00",
   "channels": 79,
   "target_channels": 104,
   "groups": {
@@ -181,6 +181,13 @@
         {
           "source": "curated-candidate",
           "url": "https://edge01.iptv.digijadoo.net/live/sonic/playlist.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.204.43.87:8080/live/1/1/274.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -553,7 +560,7 @@
     },
     {
       "name": "Jago News 24",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "FALLBACK_NOT_REVERIFIED",
       "stream": "https://app.ncare.live/live-orgin/jagonews24.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
