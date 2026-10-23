@@ -35,62 +35,65 @@ SOURCES = [
     ("Bengali-public-collection", "https://raw.githubusercontent.com/skmasum98/IPTV/master/myiptv.m3u8"),
     ("public-SonyLIV-candidates", "https://raw.githubusercontent.com/PrattoySaha/IPTV/main/Not%20working.m3u8"),
     ("public-Indian-family-candidates", "https://raw.githubusercontent.com/anasselkadii/jcartoondashboard/main/epesodes/toffee.m3u8"),
+    ("fresh-India-weekly-verified", "https://raw.githubusercontent.com/gnaidu05/iptv/main/playlists/india-active.m3u"),
+    ("fresh-India-public-geo", "https://raw.githubusercontent.com/gnaidu05/iptv/main/playlists/india-geo.m3u"),
+    ("updated-Hindi-streams", "https://raw.githubusercontent.com/wizakorhd/iptv/main/playlist-hindi.m3u"),
+    ("updated-Hindi-top", "https://raw.githubusercontent.com/wizakorhd/iptv/main/playlist-top.m3u"),
+    ("recent-BD-India", "https://raw.githubusercontent.com/md-sayem-hossain/My-BD-IPTV-Playlist/main/playlist.m3u"),
 ]
 
 # These are candidate public URLs only, not a guarantee of rights or playback.
 EXTRA_CANDIDATES = {
+    # The original user-confirmed Hungama is pinned separately and never replaced.
     "Hungama HD": [
-        "http://ajkiptv.ridsys.in/riptv/live/HUNGAMA/index.m3u8",
         "http://103.185.24.134:3001/HUNGAMA/index.m3u8",
         "http://66.102.126.10:8000/play/a023/index.m3u8",
-        "http://111.88.78.21:8000/play/a0z1/index.m3u8",
     ],
     "Zee Bangla HD": [
-        "https://stream.ottplus.bd/live/zee_bangla_abr/live/zee_bangla_720/chunks.m3u8",
-        "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBanglaHD.m3u8",
         "https://tvsen6.aynaott.com/ZeeBangla/index.m3u8",
+        "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBanglaHD.m3u8",
     ],
+    # New candidates from published GitHub playlists; none are claimed working.
+    # Segment testing from GitHub Actions determines if they are published.
     "Discovery Bangla": [
-        "http://103.180.212.191:3500/live/573.m3u8",
-        "http://202.70.146.135:8000/play/a05z/index.m3u8",
+        "https://khulnalive.anytv.live/discoverybangla/index.m3u8",
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
-        "https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_21.m3u8",
-        "https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8",
-        "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=573",
+    ],
+    "Disney HD Hindi": [
+        "https://kingkohli.pages.dev/Play/DisneyHD_Watch_index.m3u8",
+        "https://disneyhindi-lh.akamaihd.net/i/disneyhindi_1@174991/master.m3u8",
+        "http://202.70.146.135:8000/play/a01q/index.m3u8",
+        "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/8f3e6367117c923.m3u8",
     ],
     "Nick Hindi": [
-        "https://jiotvmblive.cdn.jio.com/bpk-tv/Nick_voot_MOB/output03/index.m3u8",
+        "http://103.153.175.254:8080/hls/stream23.m3u8",
         "https://madplay.live/jiotv/app/live/545/null/index.m3u8",
         "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Nick_Hindi&q=800&e=junk.m3u8",
-        "https://fifabangladesh2-xyz-ekkj.spidy.online/VHOD/NEW/go.php?id=Nick_voot_MOB",
     ],
-    "Sonic Bangla": ["http://live.balajibroadband.com:3500/live/1345.m3u8"],
     "Sonic Hindi": [
-        "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
-        "http://103.83.80.54:6088/play/a0g4/index.m3u8",
+        "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8",
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
-        "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+    ],
+    "Sonic Bangla": [
+        "http://live.balajibroadband.com:3500/live/1345.m3u8",
     ],
     "Sony MAX HD": [
-        "https://dai.google.com/linear/hls/event/UcjHNJmCQ1WRlGKlZm73QA/master.m3u8",
-        "https://pubads.g.doubleclick.net/ssai/event/Qyqz40bSQriqSuAC7R8_Fw/master.m3u8",
+        "http://103.185.24.134:3001/SonyMAX/index.m3u8",
+        "http://103.151.60.162:2122/play/a014/index.m3u8?hls",
+        "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=set_max_hd",
     ],
     "Sony Ten 1 HD": [
-        "http://103.83.80.54:6088/play/a0ol/index.m3u8",
-        "http://103.214.202.218:8081/live/ten1hd/chunks.m3u8",
-        "https://pubads.g.doubleclick.net/ssai/event/yeYP86THQ4yl7US8Zx5eug/master.m3u8",
-        "https://dai.google.com/linear/hls/event/wG75n5U8RrOKiFzaWObXbA/master.m3u8",
-        "https://sliv.tgaadi.workers.dev/ten1hd.m3u8",
+        "https://feed.play.mv/live/10005200/fMLTkj4OJC/master.m3u8",
+        "http://103.185.24.134:3001/SonyTenSports1/index.m3u8",
     ],
-    "Nat Geo HD Bangla": ["http://tv.pmcon.net/hls/stream13.m3u8"],
     "Sony Ten 3 HD": [
-        "http://103.83.80.54:6088/play/a0om/index.m3u8",
-        "http://103.214.202.218:8081/live/ten3hd/chunks.m3u8",
-        "http://103.99.249.139/sonyten3/index.m3u8",
-        "https://pubads.g.doubleclick.net/ssai/event/nmQFuHURTYGQBNdUG-2Qdw/master.m3u8",
-        "https://dai.google.com/linear/hls/event/ltsCG7TBSCSDmyq0rQtvSA/master.m3u8",
-        "https://sliv.tgaadi.workers.dev/ten3hd.m3u8",
-        "https://ott.bingebd.com/live/ngrp:APNTn-asdt-t1asnd2a-sWgtsrhQW_AQTY1025_sony_ten_3PQRT_98sdfhs0_f36erxty_forsgst63_DH/chunklist.m3u8",
+        "https://feed.play.mv/live/10005200/RG2fKR6d9p/master.m3u8",
+        "https://cloudplay-sonyliv.pages.dev/ten3.m3u8",
+    ],
+    "Nat Geo HD Bangla": [
+        "http://103.89.248.130:8082/National-geo-graphy-bangla/index.m3u8",
+        "http://103.55.144.46/hls/ngohd.m3u8",
+        "http://103.153.175.254:8080/hls/stream13.m3u8",
     ],
 }
 
@@ -101,8 +104,13 @@ def key(value):
 
 # Public IP addresses explicitly appearing in the iptv-org Hungama TV catalogue.
 # All private, loopback and link-local IPs remain blocked.
-PUBLIC_HUNGAMA_IPS = {"103.185.24.134", "66.102.126.10", "111.88.78.21",
-    "103.180.212.191", "202.70.146.135", "103.83.80.54", "103.214.202.218", "103.99.249.139"}
+# Only these PUBLIC numeric IPs from named public M3U catalogues are eligible.
+# BDIX-named/private hosts remain blocked. GitHub then checks actual HLS bytes.
+ALLOWED_PUBLIC_NUMERIC_IPS = {
+    "103.185.24.134", "66.102.126.10", "103.151.60.162",
+    "103.153.175.254", "103.89.248.130", "103.55.144.46",
+    "202.70.146.135",
+}
 
 def allowed(url, locked=False):
     try:
@@ -120,8 +128,8 @@ def allowed(url, locked=False):
             address = ipaddress.ip_address(host)
             if not address.is_global:
                 return False
-            # Only the explicitly user-confirmed Hungama URL may use numeric IP.
-            if not locked and host not in PUBLIC_HUNGAMA_IPS:
+            # Reject unknown public IPs, known internal IPs, and ISP-only numeric streams.
+            if not locked and host not in ALLOWED_PUBLIC_NUMERIC_IPS:
                 return False
         except ValueError:
             pass
@@ -280,6 +288,8 @@ def score(item, entry, old):
     url = entry["url"]
     host = urllib.parse.urlsplit(url).hostname or ""
     value = 15 if url.startswith("https:") else 0
+    if item.get("requires_media_segment") and entry["source"] == "curated-candidate":
+        value += 65  # Check newly discovered replacements before old aliases.
     if entry["source"].startswith("iptv-"):
         value += 20
     elif entry["source"] == "Zaman-Active":
@@ -377,14 +387,15 @@ def main():
             if item.get("quality") == "hd":
                 minimum = int(item.get("min_height", 720))
                 chosen = next((c for c in choices
-                               if health.get(c["url"]) and (not item.get("requires_media_segment") or segments.get(c["url"])) and heights.get(c["url"], 0) >= minimum
+                               if health.get(c["url"]) and (not item.get("requires_media_segment") or segments.get(c["url"])) and (heights.get(c["url"], 0) >= minimum or (item.get("requires_media_segment") and heights.get(c["url"], 0) == 0))
                                and c["url"] not in used), None)
             elif item.get("prefer_current") and current and health.get(current) and (not item.get("requires_media_segment") or segments.get(current)) and current not in used:
                 chosen = next((c for c in choices if c["url"] == current), None)
             else:
                 chosen = next((c for c in choices if health.get(c["url"]) and (not item.get("requires_media_segment") or segments.get(c["url"])) and c["url"] not in used), None)
             if chosen:
-                state = ("REMOTE_HD_MANIFEST" if item.get("quality") == "hd"
+                state = ("REMOTE_HD_MANIFEST" if item.get("quality") == "hd" and heights.get(chosen["url"], 0)>=720
+                         else "REMOTE_HLS_SEGMENT_RESOLUTION_UNVERIFIED" if item.get("quality") == "hd"
                          else "BEST_AVAILABLE_NOT_VERIFIED_HD" if item.get("quality") == "best_available"
                          else "REMOTE_MANIFEST_REACHABLE")
             else:
