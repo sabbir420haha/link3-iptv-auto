@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T09:44:05.206959+00:00",
-  "channels": 78,
+  "updated_utc": "2026-10-23T09:57:04.345506+00:00",
+  "channels": 73,
   "target_channels": 104,
   "groups": {
     "01 | BD News": 18,
@@ -12,8 +12,8 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 340,
-  "media_segments_probed": 5,
+  "remote_manifests_probed": 338,
+  "media_segments_probed": 1,
   "experimental_unverified": 0,
   "candidate_audit": [
     {
@@ -145,13 +145,6 @@
       "candidates": [
         {
           "source": "curated-candidate",
-          "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
           "url": "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -237,15 +230,42 @@
       "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
     },
     {
-      "name": "Sony Ten 1 HD",
+      "name": "Duronto TV",
       "candidates": [
         {
-          "source": "curated-candidate",
-          "url": "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
+          "source": "Zaman-Active",
+          "url": "https://tvsen5.aynaott.com/durontotv/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
           "manifest_height": 0
         },
+        {
+          "source": "fresh-India-public-geo",
+          "url": "https://trs1.aynaott.com/duronto/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "Bengali-public-collection",
+          "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_duronto_tvPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "SM-IPTV",
+          "url": "http://premiumtvs.space:80/live/PeH5kPWFfG/infamous7funny/433.ts",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        }
+      ],
+      "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
+    },
+    {
+      "name": "Sony Ten 1 HD",
+      "candidates": [
         {
           "source": "curated-candidate",
           "url": "https://feed.play.mv/live/10005200/fMLTkj4OJC/master.m3u8",
@@ -294,13 +314,6 @@
     {
       "name": "Sony Ten 3 HD",
       "candidates": [
-        {
-          "source": "curated-candidate",
-          "url": "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
-          "manifest_height": 0
-        },
         {
           "source": "curated-candidate",
           "url": "https://feed.play.mv/live/10005200/RG2fKR6d9p/master.m3u8",
@@ -419,13 +432,6 @@
       "candidates": [
         {
           "source": "curated-candidate",
-          "url": "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
           "url": "https://stream.ottplus.bd/live/max_hd_abr/live/max_hd_720/chunks.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -476,6 +482,13 @@
         {
           "source": "curated-candidate",
           "url": "http://103.185.24.134:3001/SonyMAX/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "Zaman-Active",
+          "url": "https://cloudplay-sonyliv.pages.dev/maxhd.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -996,7 +1009,7 @@
     },
     {
       "name": "Colors Bangla",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "FALLBACK_NOT_REVERIFIED",
       "stream": "http://flowutc.com:80/live/MAGTF8AV71/bUiJLEJKG5/76179.ts",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -1087,7 +1100,7 @@
     },
     {
       "name": "Bangla Plus",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "FALLBACK_NOT_REVERIFIED",
       "stream": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -1185,10 +1198,10 @@
     },
     {
       "name": "Sonic Hindi",
-      "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
       "manifest_height": 0,
-      "media_segment_checked": true
+      "media_segment_checked": false
     },
     {
       "name": "Sonic Bangla",
@@ -1199,8 +1212,8 @@
     },
     {
       "name": "Duronto TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1297,17 +1310,17 @@
     },
     {
       "name": "Sony Ten 1 HD",
-      "state": "REMOTE_HLS_SEGMENT_RESOLUTION_UNVERIFIED",
-      "stream": "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
       "manifest_height": 0,
-      "media_segment_checked": true
+      "media_segment_checked": false
     },
     {
       "name": "Sony Ten 3 HD",
-      "state": "REMOTE_HLS_SEGMENT_RESOLUTION_UNVERIFIED",
-      "stream": "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
       "manifest_height": 0,
-      "media_segment_checked": true
+      "media_segment_checked": false
     },
     {
       "name": "Discovery Bangla",
@@ -1325,25 +1338,25 @@
     },
     {
       "name": "Sony MAX HD",
-      "state": "REMOTE_HLS_SEGMENT_RESOLUTION_UNVERIFIED",
-      "stream": "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
       "manifest_height": 0,
-      "media_segment_checked": true
+      "media_segment_checked": false
     }
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 78,
+    "logo_count": 73,
     "methods": {
-      "current-broadcaster": 50,
-      "verified-recent-provider-logo": 18,
-      "text-fallback": 10
+      "current-broadcaster": 47,
+      "verified-recent-provider-logo": 17,
+      "text-fallback": 9
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 78,
-    "from_image_sources": 69,
+    "total": 73,
+    "from_image_sources": 64,
     "clear_name_fallbacks": 9,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
