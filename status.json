@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T08:45:12.468570+00:00",
+  "updated_utc": "2026-10-23T08:54:59.487609+00:00",
   "channels": 71,
   "target_channels": 104,
   "groups": {
@@ -62,7 +62,7 @@
     },
     {
       "source": "Saeid-Mixed-BDIX",
-      "count": 1265,
+      "count": 1330,
       "error": null
     },
     {
@@ -379,7 +379,7 @@
     {
       "name": "Channel S",
       "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8",
+      "stream": "https://iptvlive.ahmed-bd-org.workers.dev/channel-s-1/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -567,7 +567,7 @@
     },
     {
       "name": "Bangla Plus",
-      "state": "FALLBACK_NOT_REVERIFIED",
+      "state": "REMOTE_MANIFEST_REACHABLE",
       "stream": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
