@@ -678,6 +678,12 @@ def main():
             group = clean("98 | TEST - Unverified Non-BDIX" if state == "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED" else item["group"])
             logo = clean(chosen.get("logo", ""))
             output.append(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}')
+            # Preserve exact IPTV Pro player header if a stream was user-confirmed
+            # with that header. Ordinary channel URLs/headers remain untouched.
+            if item.get("locked") and item.get("stream_user_agent"):
+                ua = str(item["stream_user_agent"]).replace("\\r", "").replace("\\n", "").strip()
+                if ua:
+                    output.append(f"#EXTVLCOPT:http-user-agent={ua}")
             output.append(chosen["url"])
             alternate = backups_by_name.get(item["name"])
             if (alternate and alternate not in used and alternate != chosen["url"]
