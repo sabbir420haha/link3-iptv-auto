@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T10:11:44.417382+00:00",
-  "channels": 75,
+  "updated_utc": "2026-10-23T10:16:32.174046+00:00",
+  "channels": 79,
   "target_channels": 104,
   "groups": {
     "01 | BD News": 18,
@@ -12,13 +12,20 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 327,
-  "media_segments_probed": 1,
+  "remote_manifests_probed": 331,
+  "media_segments_probed": 7,
   "experimental_unverified": 0,
   "candidate_audit": [
     {
       "name": "Disney HD Hindi",
       "candidates": [
+        {
+          "source": "curated-candidate",
+          "url": "https://tvsen7.aynaott.com/disney/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
         {
           "source": "curated-candidate",
           "url": "https://disneyhindi-lh.akamaihd.net/i/disneyhindi_1@174991/master.m3u8",
@@ -28,9 +35,23 @@
         },
         {
           "source": "curated-candidate",
+          "url": "https://yowaimo.in/Sflex-ArtlPVT0719/DISNEY_CHANNEL.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://kingkohli.pages.dev/Play/DisneyHD_Watch_index.m3u8",
           "manifest_ok": true,
           "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://181.119.215.61:8000/play/a0g1/index.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
           "manifest_height": 0
         },
         {
@@ -60,13 +81,6 @@
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/8f3e6367117c923.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
         }
       ],
       "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
@@ -74,6 +88,13 @@
     {
       "name": "Nick Hindi",
       "candidates": [
+        {
+          "source": "curated-candidate",
+          "url": "https://tvsen7.aynaott.com/nicklodean/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
         {
           "source": "curated-candidate",
           "url": "https://madplay.live/jiotv/app/live/545/null/index.m3u8",
@@ -84,6 +105,20 @@
         {
           "source": "curated-candidate",
           "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Nick_Hindi&q=800&e=junk.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.135.253.32:8080/NICK/index.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.185.24.134:3001/NICK/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -111,28 +146,7 @@
         },
         {
           "source": "iptv-org-india-raw",
-          "url": "http://103.185.24.134:3001/NICK/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "iptv-org-india-raw",
           "url": "http://202.70.146.135:8000/play/a04c/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "indian-kids-special",
-          "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Nickelodeon&q=800&e=junk.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "2026-India-experimental",
-          "url": "http://103.72.101.252:8080/live/545.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -193,6 +207,13 @@
       "candidates": [
         {
           "source": "curated-candidate",
+          "url": "https://snehjiotv.in1.bitmana.io/snehjioox.php?c=Sonic_Bangla&q=1200&e=junk.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://edge01.iptv.digijadoo.net/live/sonic/chunks.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -248,6 +269,20 @@
         },
         {
           "source": "curated-candidate",
+          "url": "https://tvsen5.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.fmp4.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/tracks-v1a1/mono.ts.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://box.bbaria.net/DurontoTV/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -262,6 +297,13 @@
         },
         {
           "source": "curated-candidate",
+          "url": "http://103.135.253.32:8080/DORONTU-TV/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "http://103.106.243.163:8989/duronto-tv/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -270,27 +312,6 @@
         {
           "source": "curated-candidate",
           "url": "http://89.187.185.89:3232/ban-duronto/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://27.147.156.14:1935/Durunto-TV/Duronto-TV.stream/playlist.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "fresh-India-public-geo",
-          "url": "https://trs1.aynaott.com/duronto/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -396,6 +417,20 @@
     {
       "name": "Nat Geo HD Bangla",
       "candidates": [
+        {
+          "source": "curated-candidate",
+          "url": "https://tvsen6.aynaott.com/natgeo/index.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.135.253.32:8080/NATGEO-HD/index.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
         {
           "source": "curated-candidate",
           "url": "http://103.167.167.5:8111/play/a036/index.m3u8",
@@ -1126,10 +1161,10 @@
     },
     {
       "name": "Disney HD Hindi",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "REMOTE_HLS_SEGMENT_RESOLUTION_UNVERIFIED",
+      "stream": "http://181.119.215.61:8000/play/a0g1/index.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": false
+      "media_segment_checked": true
     },
     {
       "name": "Disney SD",
@@ -1140,10 +1175,10 @@
     },
     {
       "name": "Nick Hindi",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "http://103.135.253.32:8080/NICK/index.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": false
+      "media_segment_checked": true
     },
     {
       "name": "Sonic Hindi",
@@ -1161,10 +1196,10 @@
     },
     {
       "name": "Duronto TV",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen5.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.fmp4.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": false
+      "media_segment_checked": true
     },
     {
       "name": "T Sports",
@@ -1280,10 +1315,10 @@
     },
     {
       "name": "Nat Geo HD Bangla",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen6.aynaott.com/natgeo/index.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": false
+      "media_segment_checked": true
     },
     {
       "name": "Sony MAX HD",
@@ -1295,18 +1330,18 @@
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 75,
+    "logo_count": 79,
     "methods": {
-      "current-broadcaster": 49,
-      "verified-recent-provider-logo": 17,
-      "text-fallback": 9
+      "current-broadcaster": 50,
+      "verified-recent-provider-logo": 18,
+      "text-fallback": 11
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 75,
-    "from_image_sources": 66,
-    "clear_name_fallbacks": 9,
+    "total": 79,
+    "from_image_sources": 68,
+    "clear_name_fallbacks": 11,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
   },
