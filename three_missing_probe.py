@@ -82,7 +82,7 @@ def test(entry):
                 variants = []
                 for i, line in enumerate(lines[:-1]):
                     if line.startswith("#EXT-X-STREAM-INF") and not lines[i+1].startswith("#"):
-                        m = re.search(r'RESOLUTION=\\d+x(\\d+)', line, re.I)
+                        m = re.search(r'RESOLUTION=\d+x(\d+)', line, re.I)
                         height = int(m.group(1)) if m else 0
                         variants.append((height, urllib.parse.urljoin(current, lines[i+1])))
                 if not variants:
