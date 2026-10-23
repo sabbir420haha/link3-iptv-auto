@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T11:05:18.953585+00:00",
+  "updated_utc": "2026-10-23T11:11:54.396701+00:00",
   "channels": 74,
   "target_channels": 98,
   "groups": {
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 303,
+  "remote_manifests_probed": 304,
   "media_segments_probed": 2,
   "experimental_unverified": 0,
   "backup_streams": [],
@@ -57,28 +57,28 @@
         },
         {
           "source": "curated-candidate",
+          "url": "http://66.102.120.18:8000/play/a013/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://ptu.ridsys.in/riptv/live/DISNEY_CHANNEL/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://ajkiptv.ridsys.in/riptv/live/DISNEY_CHANNEL/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "http://116.90.120.149:8000/play/a0bx/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://66.102.126.10:8000/play/a013/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://116.90.120.151:8000/play/a0hp/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.162.136.235:4500/play/a01g/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -104,7 +104,28 @@
       "candidates": [
         {
           "source": "curated-candidate",
+          "url": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.185.24.134:3001/SONIC/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -132,28 +153,14 @@
         },
         {
           "source": "curated-candidate",
+          "url": "http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.72.101.252:8080/live/815.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "indian-kids-special",
-          "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -187,6 +194,27 @@
         },
         {
           "source": "curated-candidate",
+          "url": "http://103.180.212.191:3500/live/1345.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.17.193.159:5001/live/1345.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://14.102.123.50:5001/live/1345.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "http://103.204.43.87:8080/live/1/1/274.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -202,20 +230,6 @@
         {
           "source": "curated-candidate",
           "url": "http://live.balajibroadband.com:3500/live/1345.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "indian-kids-special",
-          "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Sonic_Bangla&q=800&e=junk.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "Bengali-public-collection",
-          "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sonicPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -749,7 +763,7 @@
     },
     {
       "name": "Gazi TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "FALLBACK_NOT_REVERIFIED",
       "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -798,7 +812,7 @@
     },
     {
       "name": "NAN TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "FALLBACK_NOT_REVERIFIED",
       "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
