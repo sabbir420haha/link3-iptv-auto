@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T12:07:10.033329+00:00",
+  "updated_utc": "2026-10-23T12:11:39.642151+00:00",
   "channels": 77,
   "target_channels": 98,
   "groups": {
@@ -12,9 +12,9 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 327,
-  "media_segments_probed": 1,
-  "experimental_unverified": 3,
+  "remote_manifests_probed": 331,
+  "media_segments_probed": 2,
+  "experimental_unverified": 2,
   "backup_streams": [],
   "candidate_audit": [
     {
@@ -36,7 +36,35 @@
         },
         {
           "source": "curated-candidate",
+          "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0406/master.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://tvsen7.aynaott.com/disney/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://app-re.sm-monirul-islam-rs.workers.dev/disney-hd-hindi/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://stream.ottplus.live/live/disney_channel_hd_abr/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://stream.ottplus.live/live/disney_hd_abr/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -113,13 +141,6 @@
         },
         {
           "source": "curated-candidate",
-          "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0406/master.m3u8",
-          "manifest_ok": true,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
           "url": "http://ptu.ridsys.in/riptv/live/DISNEY_CHANNEL/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -166,27 +187,6 @@
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://70.39.83.58:8278/disneychannelhindikdin/playlist.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.182.170.32:8888/play/a04g",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://139.23.241.38:8088/602/tracks-v1a1/mono.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
         }
       ],
       "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
@@ -223,6 +223,27 @@
         },
         {
           "source": "curated-candidate",
+          "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0407/master.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://app-re.sm-monirul-islam-rs.workers.dev/sonic-hindi/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://stream.ottplus.live/live/sonic_abr/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -245,6 +266,20 @@
         {
           "source": "curated-candidate",
           "url": "https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://sflex07.fun:443/07/jio/app/ts_live_815.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=815",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -274,13 +309,6 @@
           "source": "curated-candidate",
           "url": "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
           "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0407/master.m3u8",
-          "manifest_ok": true,
           "segment_ok": false,
           "manifest_height": 0
         },
@@ -346,27 +374,6 @@
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.72.101.252:8080/live/815.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "indian-kids-special",
-          "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
         }
       ],
       "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
@@ -383,7 +390,35 @@
         },
         {
           "source": "curated-candidate",
+          "url": "http://103.182.170.32:8888/play/a02s",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://app-re.sm-monirul-islam-rs.workers.dev/sonic-bangla/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://stream.ottplus.live/live/sonic_bangla_abr/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://sflex07.fun:443/07/jio/app/ts_live_1345.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -433,13 +468,6 @@
         {
           "source": "curated-candidate",
           "url": "https://edge01.iptv.digijadoo.net/live/sonic/playlist.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.182.170.32:8888/play/a02s",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -1235,7 +1263,7 @@
       "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
       "stream": "http://iptvcasomsapi.jprdigital.in/x-media/C0406/master.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": false
+      "media_segment_checked": true
     },
     {
       "name": "Disney SD",
@@ -1253,10 +1281,10 @@
     },
     {
       "name": "Sonic Hindi",
-      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
+      "state": "REMOTE_MANIFEST_REACHABLE",
       "stream": "http://iptvcasomsapi.jprdigital.in/x-media/C0407/master.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": false
+      "media_segment_checked": true
     },
     {
       "name": "Sonic Bangla",
