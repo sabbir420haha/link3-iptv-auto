@@ -85,13 +85,6 @@
     "last_known_url": ""
   },
   {
-    "name": "Jago News 24",
-    "group": "01 | BD News",
-    "aliases": [],
-    "locked": false,
-    "last_known_url": ""
-  },
-  {
     "name": "Bijoy TV",
     "group": "01 | BD News",
     "aliases": [],
@@ -114,13 +107,6 @@
   },
   {
     "name": "News 21 Bangla TV",
-    "group": "01 | BD News",
-    "aliases": [],
-    "locked": false,
-    "last_known_url": ""
-  },
-  {
-    "name": "TBN24",
     "group": "01 | BD News",
     "aliases": [],
     "locked": false,
@@ -224,13 +210,6 @@
     "last_known_url": ""
   },
   {
-    "name": "Green TV",
-    "group": "02 | BD General & Entertainment",
-    "aliases": [],
-    "locked": false,
-    "last_known_url": ""
-  },
-  {
     "name": "My TV",
     "group": "02 | BD General & Entertainment",
     "aliases": [],
@@ -253,13 +232,6 @@
   },
   {
     "name": "Ananda TV",
-    "group": "02 | BD General & Entertainment",
-    "aliases": [],
-    "locked": false,
-    "last_known_url": ""
-  },
-  {
-    "name": "Nexus TV",
     "group": "02 | BD General & Entertainment",
     "aliases": [],
     "locked": false,
@@ -418,20 +390,6 @@
   },
   {
     "name": "Star Jalsha",
-    "group": "03 | Indian Bangla",
-    "aliases": [],
-    "locked": false,
-    "last_known_url": ""
-  },
-  {
-    "name": "Colors Bangla",
-    "group": "03 | Indian Bangla",
-    "aliases": [],
-    "locked": false,
-    "last_known_url": ""
-  },
-  {
-    "name": "Aakaash Aath",
     "group": "03 | Indian Bangla",
     "aliases": [],
     "locked": false,
@@ -640,15 +598,13 @@
     "last_known_url": ""
   },
   {
-    "name": "Nick Hindi",
+    "name": "Nick Bangla",
     "group": "04 | Kids",
     "aliases": [
-      "Nickelodeon Hindi",
-      "Nick Hindi",
-      "Nick SD Hindi",
-      "Nickelodeon",
-      "Nickelodeon SD Hindi",
-      "Nick HD Hindi"
+      "Nick Bangla",
+      "Nick Bengali",
+      "Nickelodeon Bangla",
+      "Nickelodeon Bengali"
     ],
     "locked": true,
     "last_known_url": "http://103.135.253.32:8080/NICK/index.m3u8",
@@ -661,7 +617,9 @@
     ],
     "user_verified_link3": true,
     "user_confirmed_at": "2026-10-23",
-    "user_quality_feedback": "User confirms smooth playback on Link3; channel language/HD resolution not independently measured"
+    "user_quality_feedback": "User confirms smooth playback on Link3 and explicitly reports Bangla audio, not Hindi. Preserve original pinned stream.",
+    "user_confirmed_audio_language": "bn",
+    "corrected_channel_name_from": "Nick Hindi"
   },
   {
     "name": "Sonic Hindi",
