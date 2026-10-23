@@ -119,8 +119,14 @@ https://drk6xq0vhn.gpcdn.net/live/pogo_sd_abr/index.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8
 #EXTINF:-1 tvg-name="Discovery Kids" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-kids.png" group-title="04 | Kids",Discovery Kids
 https://live20.bozztv.com/giatvplayout7/giatv-209633/index.m3u8
+#EXTINF:-1 tvg-name="Disney HD Hindi" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="98 | TEST - Unverified Non-BDIX",Disney HD Hindi
+http://iptvcasomsapi.jprdigital.in/x-media/C0406/master.m3u8
 #EXTINF:-1 tvg-name="Nick Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png" group-title="04 | Kids",Nick Bangla
 http://103.135.253.32:8080/NICK/index.m3u8
+#EXTINF:-1 tvg-name="Sonic Hindi" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="98 | TEST - Unverified Non-BDIX",Sonic Hindi
+http://iptvcasomsapi.jprdigital.in/x-media/C0407/master.m3u8
+#EXTINF:-1 tvg-name="Sonic Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="98 | TEST - Unverified Non-BDIX",Sonic Bangla
+http://103.182.170.32:8888/play/a02s
 #EXTINF:-1 tvg-name="Duronto TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png" group-title="05 | BD Kids",Duronto TV
 http://103.135.253.32:8080/DORONTU-TV/index.m3u8
 #EXTINF:-1 tvg-name="DD Sports" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dd-sports.png" group-title="06 | Sports",DD Sports

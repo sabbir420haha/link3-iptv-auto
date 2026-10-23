@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T12:01:18.348776+00:00",
-  "channels": 74,
+  "updated_utc": "2026-10-23T12:07:10.033329+00:00",
+  "channels": 77,
   "target_channels": 98,
   "groups": {
     "01 | BD News": 16,
@@ -14,7 +14,7 @@
   },
   "remote_manifests_probed": 327,
   "media_segments_probed": 1,
-  "experimental_unverified": 0,
+  "experimental_unverified": 3,
   "backup_streams": [],
   "candidate_audit": [
     {
@@ -1232,8 +1232,8 @@
     },
     {
       "name": "Disney HD Hindi",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
+      "stream": "http://iptvcasomsapi.jprdigital.in/x-media/C0406/master.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1253,15 +1253,15 @@
     },
     {
       "name": "Sonic Hindi",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
+      "stream": "http://iptvcasomsapi.jprdigital.in/x-media/C0407/master.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Sonic Bangla",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
+      "stream": "http://103.182.170.32:8888/play/a02s",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1401,18 +1401,18 @@
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 74,
+    "logo_count": 77,
     "methods": {
       "current-broadcaster": 47,
       "verified-recent-provider-logo": 15,
-      "text-fallback": 12
+      "text-fallback": 15
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 74,
-    "from_image_sources": 63,
-    "clear_name_fallbacks": 11,
+    "total": 77,
+    "from_image_sources": 65,
+    "clear_name_fallbacks": 12,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
   },
