@@ -69,3 +69,13 @@ If you once had a free playlist where the nine channels played, provide its orig
 - Discovery Bangla now has a new public relay feed `https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8` (origin identified in the public sarsx3/tv-api channel list). A remote GitHub runner successfully fetched its HLS manifest and actual video segment; **the user has NOT confirmed Link3 playback**. It remains replaceable by auto-update unlike user-locked streams.
 - Updated playlist currently has **74 entries**, each with a linked PNG logo. The 10 user-confirmed Link3-playing streams remain pinned. One of these, Sony Ten 3 HD, plays but the user reports a soft/low-quality picture.
 - Original nine channel requests when Sonic Hindi and Sonic Bangla are counted separately: **six now in the playlist** (Sony MAX HD, Sony Ten 1 HD, Sony Ten 3 HD, Nat Geo Bangla, Nick Bangla as user-corrected, and the unverified-on-Link3 Discovery Bangla); **three absent** (Disney HD Hindi, Sonic Hindi, Sonic Bangla). Disney Junior mistakenly substituted for Disney HD earlier, and that specific URL is permanently blocked.
+
+## 23 Oct 2026 — New Disney/Sonic trial candidates after Link3-verified Discovery
+The user confirms **Discovery Bangla** plays on Link3. The exact user-confirmed URL `https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8` is now locked; **11 user-verified channels** remain pinned.
+
+The current playlist includes three newly found replacements in `98 | TEST - Unverified Non-BDIX`, *not* in the verified collection:
+- Disney HD Hindi: `http://66.102.120.18:8000/play/a013/index.m3u8` — listed as Disney Channel HD by a public catalogue, **Hindi audio, identity, and real 720p/1080p output not user-verified**.
+- Sonic Hindi: `https://madanitv.assadikb.workers.dev/live.php?id=815&e=.m3u8` — newly found public relay by Sonic Hindi channel ID.
+- Sonic Bangla: `https://madanitv.assadikb.workers.dev/live.php?id=1345&e=.m3u8` — separately labeled Bengali channel-ID relay.
+
+**All 3 failed or could not complete remote GitHub-runner media-fragment verification. They have NOT been demonstrated to work on Link3.** They exist only so the user can attempt an ISP-local trial. Never claim these are active or user verified until playback is reported. The prior wrong Disney Junior URL remains excluded.
