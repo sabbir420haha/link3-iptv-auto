@@ -884,7 +884,11 @@
     "allow_unverified": false,
     "experimental_urls": [],
     "exclude_urls": [
-      "https://dai.google.com/linear/hls/event/UcjHNJmCQ1WRlGKlZm73QA/master.m3u8"
+      "https://dai.google.com/linear/hls/event/UcjHNJmCQ1WRlGKlZm73QA/master.m3u8",
+      "http://103.151.60.162:2122/play/a014/index.m3u8?hls"
+    ],
+    "known_user_failures": [
+      "http://103.151.60.162:2122/play/a014/index.m3u8?hls"
     ]
   }
 ]
