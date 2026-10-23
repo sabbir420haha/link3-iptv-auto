@@ -76,6 +76,12 @@ EXTRA_CANDIDATES = {
         "http://live.balajibroadband.com:3500/live/1345.m3u8",
     ],
     "Sony MAX HD": [
+        "https://stream.ottplus.bd/live/max_hd_abr/live/max_hd_720/chunks.m3u8",
+        "https://stream.ottplus.bd/live/max_hd_abr/index.m3u8",
+        "https://stream.ottplus.bd/live/sony_max_sd_abr/live/sony_max_sd_720/chunks.m3u8",
+        "https://cdn.rangdhanu.live/SonyMaxHD/video.m3u8",
+        "http://208.86.19.13:81/7066.stream/index.m3u8",
+        "http://dx3.gcdn.co/hindi-SONYMAXHD/index.m3u8",
         "http://103.185.24.134:3001/SonyMAX/index.m3u8",
         "http://103.151.60.162:2122/play/a014/index.m3u8?hls",
         "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=set_max_hd",
@@ -107,7 +113,7 @@ def key(value):
 ALLOWED_PUBLIC_NUMERIC_IPS = {
     "103.185.24.134", "66.102.126.10", "103.151.60.162",
     "103.153.175.254", "103.89.248.130", "103.55.144.46",
-    "202.70.146.135",
+    "202.70.146.135", "208.86.19.13",
 }
 
 def allowed(url, locked=False):
