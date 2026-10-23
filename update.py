@@ -58,6 +58,8 @@ EXTRA_CANDIDATES = {
     # New candidates from published GitHub playlists; none are claimed working.
     # Segment testing from GitHub Actions determines if they are published.
     "Discovery Bangla": [
+        # Independent 2026 public list, labelled Discovery Bengali.
+        "http://103.159.180.34:5001/live/573.m3u8",
         # Named Discovery Bangla in independent public catalogues.
         "http://103.229.254.25:7001/play/a03g/index.m3u8",
         "http://103.107.79.87:8080/CH8110HD08/tracks-v1a1/mono.m3u8",
@@ -70,6 +72,8 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        # Independently labelled Disney Channel, not Disney Junior; HD/audio unverified.
+        "http://ott.artmott.com/DisneyChannel/tracks-v1a1/mono.m3u8",
         # Listed as Disney CHANNEL (not Junior) by the Indian IPTV catalogues.
         # The first is SD and NOT asserted to be HD or Hindi-audio verified.
         "http://116.90.120.149:8000/play/a0bx/index.m3u8",
@@ -152,6 +156,8 @@ EXTRA_CANDIDATES = {
         "http://103.185.24.134:3001/SonyTenSports1/index.m3u8",
     ],
     "Sony Ten 3 HD": [
+        # Keep user-confirmed TEN-3 SD-looking stream pinned. Check HD origin separately.
+        "https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8",
         # Same exact public IP as the 3 Link3-verified Hungama/Nick/Duronto streams.
         # Publicly listed as Sony Ten 3 (resolution not established).
         "http://103.135.253.32:8080/TEN-3/index.m3u8",
