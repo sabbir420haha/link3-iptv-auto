@@ -29,10 +29,26 @@ SOURCES = [
     ("Zaman-Active", "https://raw.githubusercontent.com/Zaman-Topu/Ip-tv-Collection/main/FINAL_IPTV_ACTIVE.m3u"),
     ("Saeid-Mixed-BDIX", "https://raw.githubusercontent.com/saeidrahmanbd/BDIX-IPTV/main/IPTV-Playlist.m3u"),
     ("Mrgify-Mixed-BDIX", "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u"),
+    ("SM-IPTV", "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/Combined_Live_TV.m3u"),
+    ("iptv-org-india-raw", "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in.m3u"),
 ]
 
+# These are candidate public URLs only, not a guarantee of rights or playback.
+EXTRA_CANDIDATES = {
+    "Zee Bangla HD": [
+        "https://stream.ottplus.bd/live/zee_bangla_abr/live/zee_bangla_720/chunks.m3u8",
+        "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBanglaHD.m3u8",
+        "https://tvsen6.aynaott.com/ZeeBangla/index.m3u8",
+    ],
+    "Discovery Bangla": ["https://ccntv.anytv.live/discoverybangla/index.m3u8"],
+    "Sony Ten 1 HD": ["https://pubads.g.doubleclick.net/ssai/event/yeYP86THQ4yl7US8Zx5eug/master.m3u8"],
+    "Sony Ten 3 HD": ["https://pubads.g.doubleclick.net/ssai/event/nmQFuHURTYGQBNdUG-2Qdw/master.m3u8"],
+}
+
 def key(value):
-    return re.sub(r"[^a-z0-9]+", "", (value or "").lower().replace("&", "and"))
+    name = re.sub(r"\\s*\\(\\d{3,4}p\\)\\s*", "", value or "", flags=re.I)
+    name = re.sub(r"\\s*\\[(geo-blocked|not 24/7)\\]\\s*", "", name, flags=re.I)
+    return re.sub(r"[^a-z0-9]+", "", name.lower().replace("&", "and"))
 
 def allowed(url, locked=False):
     try:
@@ -113,6 +129,26 @@ def probe(url):
     except Exception:
         return False
 
+def hd_resolution(url):
+    """Return best height advertised by an HLS variant manifest.
+    For a direct media playlist, an explicit /720/ or _720/ path is a hint,
+    not a verified resolution; such streams are not considered HD here.
+    """
+    if not allowed(url):
+        return 0
+    try:
+        request = urllib.request.Request(url, headers={**HEADERS, "Range": "bytes=0-16383"})
+        with urllib.request.urlopen(request, timeout=9) as response:
+            if response.status not in (200, 206):
+                return 0
+            body = response.read(16384).decode("utf-8-sig", errors="replace")
+        if "#EXTM3U" not in body:
+            return 0
+        heights = [int(m.group(1)) for m in re.finditer(r'RESOLUTION=\\d+x(\\d+)', body, re.I)]
+        return max(heights) if heights else 0
+    except Exception:
+        return 0
+
 def matches_channel(item, url):
     """Reject known false positives from worldwide channel lists."""
     label = item["name"]
@@ -150,7 +186,7 @@ def clean(value):
 
 def main():
     channels = json.loads(CATALOG.read_text(encoding="utf-8"))
-    if len(channels) != 101 or sum(bool(x.get("locked")) for x in channels) != 4:
+    if len(channels) < 101 or sum(bool(x.get("locked")) for x in channels) != 4:
         raise ValueError("Channel catalog or pinned list unexpectedly changed")
     previous = {}
     if OUTPUT.exists():
@@ -174,12 +210,16 @@ def main():
         choices = []
         for spelling in [item["name"]] + item.get("aliases", []):
             choices.extend(found.get(key(spelling), []))
+        choices.extend({"url": u, "logo": "", "source": "curated-candidate"}
+                       for u in EXTRA_CANDIDATES.get(item["name"], []))
         # Previously selected feeds survive transient source outages.
         if current:
             choices.append({"url": current, "logo": "", "source": "previous"})
         if pinned:
             choices.append({"url": pinned, "logo": "", "source": "seed"})
-        choices = [c for c in choices if allowed(c["url"], locked and c["url"] == pinned) and matches_channel(item, c["url"])]
+        choices = [c for c in choices if allowed(c["url"], locked and c["url"] == pinned)
+                   and matches_channel(item, c["url"])
+                   and c["url"] not in item.get("exclude_urls", [])]
         if locked:
             choices = [c for c in choices if c["url"] == pinned]
         choices.sort(key=lambda c: score(item, c, current), reverse=True)
@@ -198,6 +238,10 @@ def main():
     candidates = list(dict.fromkeys(candidates))
     with concurrent.futures.ThreadPoolExecutor(max_workers=20) as pool:
         health = dict(zip(candidates, pool.map(probe, candidates)))
+    hd_urls = list(dict.fromkeys(c["url"] for item, old, choices in tasks
+                   if item.get("quality") == "hd" for c in choices[:6] if health.get(c["url"])))
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
+        heights = dict(zip(hd_urls, pool.map(hd_resolution, hd_urls)))
 
     used = set()
     output = ["#EXTM3U", "# Curated IPTV Pro: refreshed by GitHub Actions every 6 hours.",
@@ -210,12 +254,21 @@ def main():
             chosen = {"url": item["last_known_url"], "logo": "", "source": "user-confirmed"}
             state = "PINNED_USER_WORKING"
         else:
-            chosen = next((c for c in choices if health.get(c["url"]) and c["url"] not in used), None)
+            if item.get("quality") == "hd":
+                minimum = int(item.get("min_height", 720))
+                chosen = next((c for c in choices
+                               if health.get(c["url"]) and heights.get(c["url"], 0) >= minimum
+                               and c["url"] not in used), None)
+            elif item.get("prefer_current") and current and health.get(current) and current not in used:
+                chosen = next((c for c in choices if c["url"] == current), None)
+            else:
+                chosen = next((c for c in choices if health.get(c["url"]) and c["url"] not in used), None)
             if chosen:
-                state = "REMOTE_MANIFEST_REACHABLE"
+                state = ("REMOTE_HD_MANIFEST" if item.get("quality") == "hd"
+                         else "REMOTE_MANIFEST_REACHABLE")
             else:
                 old = current or item.get("last_known_url", "")
-                if old and allowed(old) and matches_channel(item, old) and old not in used:
+                if old and not item.get("quality") and allowed(old) and matches_channel(item, old) and old not in used:
                     chosen = {"url": old, "logo": "", "source": "fallback"}
                     state = "FALLBACK_NOT_REVERIFIED"
         if chosen and chosen["url"] not in used:
@@ -225,7 +278,9 @@ def main():
             logo = clean(chosen.get("logo", ""))
             output.append(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}')
             output.append(chosen["url"])
-        report.append({"name": item["name"], "state": state, "stream": chosen["url"] if chosen else None})
+        report.append({"name": item["name"], "state": state,
+                       "stream": chosen["url"] if chosen else None,
+                       "manifest_height": heights.get(chosen["url"], 0) if chosen else 0})
     if len(used) < 4:
         raise ValueError("Refusing to overwrite playlist with fewer than 4 streams")
     final = "\n".join(output) + "\n"
