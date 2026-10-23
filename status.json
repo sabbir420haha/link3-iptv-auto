@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T10:44:10.295434+00:00",
+  "updated_utc": "2026-10-23T10:45:08.910158+00:00",
   "channels": 79,
   "target_channels": 104,
   "groups": {
@@ -309,14 +309,14 @@
         },
         {
           "source": "curated-candidate",
-          "url": "http://103.107.79.87:8080/CH8110HD08/tracks-v1a1/mono.m3u8",
+          "url": "http://103.159.180.34:5001/live/573.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
         },
         {
           "source": "curated-candidate",
-          "url": "http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/61.ts",
+          "url": "http://103.107.79.87:8080/CH8110HD08/tracks-v1a1/mono.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
