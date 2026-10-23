@@ -88,6 +88,10 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        # Probe guessed path(s) on the user's already-working public IP; do not
+        # publish unless HLS AND media bytes actually pass tests.
+        "http://103.135.253.32:8080/DISNEY-CHANNEL-HD/index.m3u8",
+        "http://103.135.253.32:8080/DISNEY-CHANNEL/index.m3u8",
         # Disney Channel HD (1080p) named in an independent iptv-org-derived list.
         "http://66.102.120.18:8000/play/a013/index.m3u8",
         # Disney Channel Hindi+English audio per the approved 2026 iptv-org issue;
@@ -140,6 +144,10 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        # Probe guessed path(s) on the user's already-working public IP; do not
+        # publish unless HLS AND media bytes actually pass tests.
+        "http://103.135.253.32:8080/SONIC/index.m3u8",
+        "http://103.135.253.32:8080/SONIC-HD/index.m3u8",
         # Fresh India/Nepal iptv-org Sonic 576p (audio language not yet confirmed).
         "http://103.185.24.134:3001/SONIC/index.m3u8",
         "http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8",
@@ -155,6 +163,9 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # Probe guessed path(s) on the user's already-working public IP; do not
+        # publish unless HLS AND media bytes actually pass tests.
+        "http://103.135.253.32:8080/SONIC-BANGLA/index.m3u8",
         # 2026-08 public M3U specifically labels this stream Sonic Bangla.
         "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=1345",
         # Published as Sonic Bengali in public lists; audio still needs viewer check.
