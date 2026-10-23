@@ -88,6 +88,9 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        # New public directory matches; unconfirmed until segment and viewer checks.
+        "https://app-re.sm-monirul-islam-rs.workers.dev/Disny-Channel-Hindi/index.m3u8",
+        "https://raw.githubusercontent.com/Hasanmahmud000/Yt/main/Disney_Channel_HD.index.m3u8",
         # Public GitHub playlist candidates; not user-confirmed or automatically licensed.
         "https://prox.assadikb.workers.dev/watch/1373JP",
         # Probe guessed path(s) on the user's already-working public IP; do not
@@ -146,6 +149,8 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        # New public directory matches; unconfirmed until segment and viewer checks.
+        "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
         "http://103.68.28.58:5001/live/815.m3u8",
         "https://colorsscreen.com/live.php?id=815&extension=.m3u8",
         # Public GitHub playlist candidates; not user-confirmed or automatically licensed.
@@ -170,6 +175,8 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # New public directory matches; unconfirmed until segment and viewer checks.
+        "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
         "http://103.68.28.58:5001/live/1345.m3u8",
         "https://colorsscreen.com/live.php?id=1345&extension=.m3u8",
         # Public GitHub playlist candidates; not user-confirmed or automatically licensed.
