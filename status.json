@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T11:14:01.054111+00:00",
+  "updated_utc": "2026-10-23T11:15:26.352546+00:00",
   "channels": 74,
   "target_channels": 98,
   "groups": {
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 325,
+  "remote_manifests_probed": 330,
   "media_segments_probed": 2,
   "experimental_unverified": 0,
   "backup_streams": [],
@@ -20,6 +20,20 @@
     {
       "name": "Disney HD Hindi",
       "candidates": [
+        {
+          "source": "curated-candidate",
+          "url": "http://103.135.253.32:8080/DISNEY-CHANNEL-HD/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.135.253.32:8080/DISNEY-CHANNEL/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
         {
           "source": "curated-candidate",
           "url": "https://tvsen7.aynaott.com/disney/index.m3u8",
@@ -160,6 +174,20 @@
       "candidates": [
         {
           "source": "curated-candidate",
+          "url": "http://103.135.253.32:8080/SONIC/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.135.253.32:8080/SONIC-HD/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -248,6 +276,13 @@
     {
       "name": "Sonic Bangla",
       "candidates": [
+        {
+          "source": "curated-candidate",
+          "url": "http://103.135.253.32:8080/SONIC-BANGLA/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
         {
           "source": "curated-candidate",
           "url": "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=1345",
