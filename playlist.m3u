@@ -43,10 +43,12 @@ https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/chunklist.m3u8
 #EXTINF:-1 tvg-name="Somoy TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Somoy TV
 https://drk6xq0vhn.gpcdn.net/live/somoy_tv_abr/index.m3u8
 #EXTINF:-1 tvg-name="Sonic Hindi" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Sonic Hindi
+#EXTVLCOPT:http-reconnect=true
 https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8
 #EXTINF:-1 tvg-name="Sony Aath" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Sony Aath
 https://stream.ottplus.live/live/sony_aath_abr/index.m3u8
 #EXTINF:-1 tvg-name="Sony Ten 1 HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Sony Ten 1 HD
+#EXTVLCOPT:http-reconnect=true
 https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_abr/index.m3u8
 #EXTINF:-1 tvg-name="Sony Ten 3 HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Sony Ten 3 HD
 http://103.135.253.32:8080/TEN-3/index.m3u8
@@ -139,6 +141,7 @@ https://drk6xq0vhn.gpcdn.net/live/pogo_sd_abr/index.m3u8
 #EXTINF:-1 tvg-name="Discovery Kids" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-kids.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Discovery Kids
 https://drk6xq0vhn.gpcdn.net/live/discovery_kids_abr/index.m3u8
 #EXTINF:-1 tvg-name="Sonic Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Sonic Bangla
+#EXTVLCOPT:http-reconnect=true
 http://103.17.193.159:5001/live/1345.m3u8
 #EXTINF:-1 tvg-name="DD Sports" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dd-sports.png?v=iptv-tightfit-20261023" group-title="06 | Sports",DD Sports
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index_3.m3u8
