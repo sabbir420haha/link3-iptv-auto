@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T13:14:27.650630+00:00",
+  "updated_utc": "2026-10-23T13:18:50.779887+00:00",
   "channels": 76,
   "target_channels": 98,
   "groups": {
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 288,
+  "remote_manifests_probed": 285,
   "media_segments_probed": 1,
   "experimental_unverified": 0,
   "backup_streams": [],
@@ -71,13 +71,6 @@
         },
         {
           "source": "curated-candidate",
-          "url": "https://app-re.sm-monirul-islam-rs.workers.dev/disney-channel-hindi/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
           "url": "https://app-re.sm-monirul-islam-rs.workers.dev/Disny-Channel-Hindi/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -86,13 +79,6 @@
         {
           "source": "curated-candidate",
           "url": "https://live.dinesh29.com.np/stream/jiotvplus/disneychannel/master.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://disneyhindi-lh.akamaihd.net/i/disneyhindi_1@174991/master.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -120,42 +106,7 @@
         },
         {
           "source": "curated-candidate",
-          "url": "https://yowaimo.in/Sflex-ArtlPVT0719/DISNEY_CHANNEL.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
           "url": "http://103.174.5.43:8000/play/a06m/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://ptu.ridsys.in/riptv/live/DISNEY_CHANNEL/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://ajkiptv.ridsys.in/riptv/live/DISNEY_CHANNEL/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://116.90.120.149:8000/play/a0bx/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://66.102.126.10:8000/play/a013/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -176,14 +127,35 @@
         },
         {
           "source": "curated-candidate",
-          "url": "http://202.70.146.135:8000/play/a01q/index.m3u8",
+          "url": "http://88.212.15.19/live/test_disney/playlist.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
         },
         {
           "source": "curated-candidate",
-          "url": "http://88.212.15.19/live/test_disney/playlist.m3u8",
+          "url": "http://70.39.83.58:8278/disneychannelhindikdin/playlist.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://139.23.241.38:8088/602/tracks-v1a1/mono.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://ott.artmott.com/DisneyChannel/tracks-v1a1/mono.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/8f3e6367117c923.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -208,7 +180,7 @@
       "name": "Sonic Hindi",
       "candidates": [
         {
-          "source": "seed",
+          "source": "previous",
           "url": "https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -1050,7 +1022,7 @@
     },
     {
       "name": "Star Sports 2",
-      "state": "FALLBACK_NOT_REVERIFIED",
+      "state": "REMOTE_MANIFEST_REACHABLE",
       "stream": "http://103.151.60.162:2122/play/a00v/index.m3u8?hls",
       "manifest_height": 0,
       "media_segment_checked": false
