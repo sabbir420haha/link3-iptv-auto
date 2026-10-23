@@ -58,6 +58,13 @@ EXTRA_CANDIDATES = {
     # New candidates from published GitHub playlists; none are claimed working.
     # Segment testing from GitHub Actions determines if they are published.
     "Discovery Bangla": [
+        # Publicly published explicitly as Bengali/Bangla, not generic Discovery HD.
+        "https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8",
+        "http://103.89.248.130:8082/DISCOVERY-BANGLA/index.m3u8",
+        "http://103.180.212.191:3500/live/573.m3u8",
+        "http://103.17.193.159:5001/live/573.m3u8",
+        "http://103.107.79.87:8080/CH8110HD08/video.m3u8",
+        "http://175.107.244.52:4455/play/a01v/index.m3u8",
         # Independent 2026 public list, labelled Discovery Bengali.
         "http://103.159.180.34:5001/live/573.m3u8",
         # Named Discovery Bangla in independent public catalogues.
