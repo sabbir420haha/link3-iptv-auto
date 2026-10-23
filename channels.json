@@ -577,8 +577,10 @@
     "min_height": 720,
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
-    "allow_unverified": false,
-    "experimental_urls": [],
+    "allow_unverified": true,
+    "experimental_urls": [
+      "http://66.102.120.18:8000/play/a013/index.m3u8"
+    ],
     "exclude_urls": [
       "http://lifetvbd.xyz:8080/play/c-CHSxllrYcCvZWsMzkBPCAqqAmRUCilgdGzNSaDHFQ/m3u8",
       "http://181.119.215.61:8000/play/a0g1/index.m3u8"
@@ -588,7 +590,8 @@
     ],
     "identity_must_match": "Disney Channel Hindi, NOT Disney Junior",
     "strict_hd_manifest": true,
-    "quality_note": "Never show unknown-resolution or Disney Junior feed under Disney Hindi HD. Require an HLS master advertising >=720p and confirmed channel identity by the viewer."
+    "quality_note": "Never show unknown-resolution or Disney Junior feed under Disney Hindi HD. Require an HLS master advertising >=720p and confirmed channel identity by the viewer.",
+    "experiment_note": "New trial candidate independently labelled by public GitHub playlists; live playback on Link3, Hindi/Bangla audio and claimed HD quality UNVERIFIED. Do not mark working until user tests it."
   },
   {
     "name": "Disney SD",
@@ -640,11 +643,14 @@
       "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
       "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8"
     ],
-    "allow_unverified": false,
-    "experimental_urls": [],
+    "allow_unverified": true,
+    "experimental_urls": [
+      "https://madanitv.assadikb.workers.dev/live.php?id=815&e=.m3u8"
+    ],
     "user_reported_failures": [
       "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8"
-    ]
+    ],
+    "experiment_note": "New trial candidate independently labelled by public GitHub playlists; live playback on Link3, Hindi/Bangla audio and claimed HD quality UNVERIFIED. Do not mark working until user tests it."
   },
   {
     "name": "Sonic Bangla",
@@ -658,11 +664,14 @@
     "last_known_url": "",
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
-    "allow_unverified": false,
-    "experimental_urls": [],
+    "allow_unverified": true,
+    "experimental_urls": [
+      "https://madanitv.assadikb.workers.dev/live.php?id=1345&e=.m3u8"
+    ],
     "exclude_urls": [
       "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sonic"
-    ]
+    ],
+    "experiment_note": "New trial candidate independently labelled by public GitHub playlists; live playback on Link3, Hindi/Bangla audio and claimed HD quality UNVERIFIED. Do not mark working until user tests it."
   },
   {
     "name": "Duronto TV",
