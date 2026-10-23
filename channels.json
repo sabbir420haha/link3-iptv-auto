@@ -669,10 +669,14 @@
     "skip_unverified_fallback": true,
     "exclude_urls": [
       "https://sar.pages.dev/sonic.m3u8",
-      "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8"
+      "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8"
     ],
     "allow_unverified": false,
-    "experimental_urls": []
+    "experimental_urls": [],
+    "user_reported_failures": [
+      "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8"
+    ]
   },
   {
     "name": "Sonic Bangla",
@@ -699,7 +703,15 @@
       "Duranto TV"
     ],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "exclude_urls": [
+      "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
+    ],
+    "requires_media_segment": true,
+    "skip_unverified_fallback": true,
+    "user_reported_failures": [
+      "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
+    ]
   },
   {
     "name": "T Sports",
@@ -809,7 +821,11 @@
     "allow_unverified": false,
     "experimental_urls": [],
     "exclude_urls": [
-      "https://dai.google.com/linear/hls/event/wG75n5U8RrOKiFzaWObXbA/master.m3u8"
+      "https://dai.google.com/linear/hls/event/wG75n5U8RrOKiFzaWObXbA/master.m3u8",
+      "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8"
+    ],
+    "user_reported_failures": [
+      "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8"
     ]
   },
   {
@@ -829,7 +845,11 @@
     "allow_unverified": false,
     "experimental_urls": [],
     "exclude_urls": [
-      "https://dai.google.com/linear/hls/event/ltsCG7TBSCSDmyq0rQtvSA/master.m3u8"
+      "https://dai.google.com/linear/hls/event/ltsCG7TBSCSDmyq0rQtvSA/master.m3u8",
+      "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8"
+    ],
+    "user_reported_failures": [
+      "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8"
     ]
   },
   {
@@ -885,10 +905,14 @@
     "experimental_urls": [],
     "exclude_urls": [
       "https://dai.google.com/linear/hls/event/UcjHNJmCQ1WRlGKlZm73QA/master.m3u8",
-      "http://103.151.60.162:2122/play/a014/index.m3u8?hls"
+      "http://103.151.60.162:2122/play/a014/index.m3u8?hls",
+      "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8"
     ],
     "known_user_failures": [
       "http://103.151.60.162:2122/play/a014/index.m3u8?hls"
+    ],
+    "user_reported_failures": [
+      "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8"
     ]
   }
 ]
