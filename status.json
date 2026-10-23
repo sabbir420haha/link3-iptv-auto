@@ -1,12 +1,12 @@
 {
-  "updated_utc": "2026-10-23T08:37:09.797197+00:00",
-  "channels": 71,
-  "target_channels": 103,
+  "updated_utc": "2026-10-23T08:39:13.125206+00:00",
+  "channels": 72,
+  "target_channels": 104,
   "groups": {
     "01 | BD News": 18,
     "02 | BD General & Entertainment": 34,
     "03 | Indian Bangla": 19,
-    "04 | Kids": 13,
+    "04 | Kids": 14,
     "05 | BD Kids": 1,
     "06 | Sports": 15,
     "07 | Documentaries": 2,
@@ -567,7 +567,7 @@
     },
     {
       "name": "Bangla Plus",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "FALLBACK_NOT_REVERIFIED",
       "stream": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -665,6 +665,13 @@
     },
     {
       "name": "Sonic Hindi",
+      "state": "FALLBACK_NOT_REVERIFIED",
+      "stream": "https://sar.pages.dev/sonic.m3u8",
+      "manifest_height": 0,
+      "media_segment_checked": false
+    },
+    {
+      "name": "Sonic Bangla",
       "state": "NO_STREAM_AVAILABLE",
       "stream": null,
       "manifest_height": 0,
@@ -806,11 +813,11 @@
   ],
   "warning": "Remote HLS check does not guarantee Link3 playback, picture quality, buffering or access rights",
   "logos": {
-    "logo_count": 71,
+    "logo_count": 72,
     "methods": {
       "current-broadcaster": 43,
       "verified-recent-provider-logo": 18,
-      "text-fallback": 10
+      "text-fallback": 11
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   }
