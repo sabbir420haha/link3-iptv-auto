@@ -23,6 +23,13 @@ REPO="link3-iptv-auto"
 ROOT_URL=f"https://raw.githubusercontent.com/{OWNER}/{REPO}/main/logos/"
 HEADERS={"User-Agent":"Mozilla/5.0 Link3PlaylistLogoArchive/1.0"}
 INDIAN_LOGOS="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/"
+# Exactly the legacy red-circle Zee artwork cropped from the user's TV photo.
+# They remain static files in the repo; never re-fetch the modern 2025 Z logo.
+ZEE_SCREENSHOT_LOGOS = {
+    "Zee Bangla HD": "zee-bangla-legacy-hd.png",
+    "Zee Bangla": "zee-bangla-legacy-sd.png",
+}
+
 # Hand-selected exact channel identity matches from the logo library.
 INDIAN={
     "Zee Bangla":"zee-bangla-in.png",
@@ -138,6 +145,13 @@ def process(line):
     name=name_match.group(1) if name_match else line.rsplit(",",1)[-1].strip()
     remote=logo_match.group(1) if logo_match else ""
     filename=slug(name)+".png"
+    if name in ZEE_SCREENSHOT_LOGOS:
+        # Preserve hand-matched TV-screen artwork instead of overwriting it.
+        screenshot_filename = ZEE_SCREENSHOT_LOGOS[name]
+        source = IMAGES / screenshot_filename
+        with Image.open(source) as picture:
+            picture.verify()  # Fail safely rather than publishing a broken PNG.
+        return (name, screenshot_filename, "brand")
     targets=[]
     if name in INDIAN:
         targets.append(INDIAN_LOGOS+INDIAN[name])
@@ -176,7 +190,10 @@ def main():
             name=name_match.group(1) if name_match else line.rsplit(",",1)[-1].strip()
             filename,_=mapping[name]
             # Versioned URL refreshes IPTV Pro logo cache when image layout changes.
-            uri=ROOT_URL+filename+"?v=iptv-tightfit-20261023"
+            if name in ZEE_SCREENSHOT_LOGOS:
+                uri=ROOT_URL+filename+"?v=zee-red-legacy-20261023"
+            else:
+                uri=ROOT_URL+filename+"?v=iptv-tightfit-20261023"
             if 'tvg-logo="' in line:
                 line=re.sub(r'tvg-logo="[^"]*"',f'tvg-logo="{uri}"',line,count=1)
             else:
