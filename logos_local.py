@@ -31,6 +31,24 @@ ZEE_ARCHIVE_LOGOS = {
     "Zee Bangla": "zee-bangla-legacy-sd.png",
 }
 
+# Only these three user-requested logos get a stronger TV-visible treatment.
+# Exact brand artwork is preferred to old plain-name fallback images.
+TV_CONTRAST_LOGOS = {
+    "Discovery Bangla": [
+        "https://jiotvimages.cdn.jio.com/dare_images/images/DiscoveryHDBen.png",
+        "https://otapp.store/uploads/tv_image/sm/discovery-channel-bengali.png",
+        "https://upload.wikimedia.org/wikipedia/commons/4/4e/Discovery_Channel.png",
+    ],
+    "Jamuna TV": [
+        "https://jamuna.tv/assets/images/thumbnail.jpg",
+        "https://www.jamuna.tv/uploads/settings/jtv-logo-whitelogo-1-1754573204.png",
+    ],
+    "Nat Geo HD Bangla": [
+        "https://upload.wikimedia.org/wikipedia/commons/2/22/Nat_Geo_HD.png",
+        "https://jiotvimages.cdn.jio.com/dare_images/images/Nat_Geo_HD.png",
+    ],
+}
+
 # Hand-selected exact channel identity matches from the logo library.
 INDIAN={
     "Zee Bangla":"zee-bangla-in.png",
@@ -140,12 +158,76 @@ def card(name, img):
                             stroke_width=0)
     return result, "fallback"
 
+
+def contrast_brand_logo(name, previous_path):
+    """Show real artwork clearly against IPTV app's white logo background.
+
+    This function is ONLY called for Discovery Bangla, Jamuna TV, and
+    Nat Geo HD Bangla. It does not affect any stream or other channel logo.
+    """
+    source = next((pic for uri in TV_CONTRAST_LOGOS[name]
+                   if (pic := read_image(uri)) is not None), None)
+
+    if source is None:
+        if previous_path.exists():
+            # Network image source unavailable? Keep the previous file and
+            # avoid killing the entire auto-generated M3U update.
+            with Image.open(previous_path) as prev:
+                prev.load()
+                source = prev.convert("RGBA")
+        else:
+            source = None
+
+    # The channel's native mark is tightly contained, NEVER stretched.
+    mark,kind = card(name, source)
+    mark = mark.convert("RGBA")
+
+    if name == "Jamuna TV":
+        # White Jamuna lettering disappears on white; its channel's own
+        # deep red brand field is required for readable contrast.
+        backdrop = Image.new("RGBA", (320, 178), (173, 5, 26, 255))
+        mark.thumbnail((308, 165), Image.Resampling.LANCZOS)
+        backdrop.alpha_composite(mark, ((320-mark.width)//2,
+                                        (178-mark.height)//2))
+    elif name == "Nat Geo HD Bangla":
+        # Original Nat Geo artwork has a yellow portal and dark wordmark.
+        # A clean ivory field preserves yellow + black at thumbnail size.
+        backdrop = Image.new("RGBA", (320, 178), (251, 252, 247, 255))
+        mark.thumbnail((300, 150), Image.Resampling.LANCZOS)
+        backdrop.alpha_composite(mark, ((320-mark.width)//2,
+                                        (178-mark.height)//2))
+    else:
+        # A soft pale-blue field lets dark Discovery branding show clearly.
+        # Do not use a giant 512px card or oversized blank margins.
+        backdrop = Image.new("RGBA", (320, 178), (238, 246, 254, 255))
+        mark.thumbnail((306, 158), Image.Resampling.LANCZOS)
+        backdrop.alpha_composite(mark, ((320-mark.width)//2,
+                                        (178-mark.height)//2))
+
+    # A subtle edge avoids the near-white tile merging with TV's white UI.
+    painter = ImageDraw.Draw(backdrop)
+    outline = (185, 199, 216, 255) if name != "Jamuna TV" else (132, 11, 25, 255)
+    painter.rounded_rectangle((1, 1, 318, 176), radius=10,
+                              outline=outline, width=2)
+    return backdrop,kind
+
 def process(line):
     name_match=re.search(r'tvg-name="([^"]+)"',line)
     logo_match=re.search(r'tvg-logo="([^"]*)"',line)
     name=name_match.group(1) if name_match else line.rsplit(",",1)[-1].strip()
     remote=logo_match.group(1) if logo_match else ""
     filename=slug(name)+".png"
+    if name in TV_CONTRAST_LOGOS:
+        path = IMAGES / filename
+        output,kind = contrast_brand_logo(name, path)
+        encoded = io.BytesIO()
+        output.quantize(colors=192, method=Image.Quantize.FASTOCTREE,
+                        dither=Image.Dither.NONE).save(
+                            encoded, format="PNG", optimize=True)
+        content = encoded.getvalue()
+        if not path.exists() or path.read_bytes()!=content:
+            path.write_bytes(content)
+        return name, filename, kind
     if name in ZEE_ARCHIVE_LOGOS:
         filename = ZEE_ARCHIVE_LOGOS[name]
         path = IMAGES / filename
@@ -216,7 +298,9 @@ def main():
             name=name_match.group(1) if name_match else line.rsplit(",",1)[-1].strip()
             filename,_=mapping[name]
             # Versioned URL refreshes IPTV Pro logo cache when image layout changes.
-            if name in ZEE_ARCHIVE_LOGOS:
+            if name in TV_CONTRAST_LOGOS:
+                uri=ROOT_URL+filename+"?v=contrast-brand-20261023"
+            elif name in ZEE_ARCHIVE_LOGOS:
                 uri=ROOT_URL+filename+"?v=zee-original-clear-20261023"
             else:
                 uri=ROOT_URL+filename+"?v=iptv-tightfit-20261023"
