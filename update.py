@@ -88,6 +88,9 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        # Source-backed trials: 2026 community IPTV lists; never auto-publish without segment and quality checks.
+        "https://hey-lookme.shop/live.php?id=1373",
+        "http://206.212.244.63/650/index.m3u8",
         # New independently named source for validator ONLY. Publicly labeled Disney Channel in Sep 2026 channel list; language and resolution unknown, audit only.
         "http://88.212.15.19/live/test_disney/playlist.m3u8",
         # Candidate CDN/relay endpoints under test; never assume a working video feed.
@@ -162,6 +165,10 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        # Source-backed trials: 2026 community IPTV lists; never auto-publish without segment and quality checks.
+        "http://202.70.146.135:8000/play/a02t/index.m3u8",
+        "https://hey-lookme.shop/live.php?id=815",
+        "https://jio.instream.ml/jio.php?c=sonic_Hindi&q=600&e=.m3u8",
         # New independently named source for validator ONLY. Labeled Sonic Hindi channel 815 in public Jio playlist; media validation required.
         "http://hardcore-keldysh.64-227-150-121.plesk.page:80/getm3u8/815/master.m3u8",
         # Candidate CDN/relay endpoints under test; never assume a working video feed.
@@ -201,6 +208,9 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # Source-backed trials: 2026 community IPTV lists; never auto-publish without segment and quality checks.
+        "https://hey-lookme.shop/live.php?id=1345",
+        "https://jio.instream.ml/jio.php?c=Sonic_Bangla&q=600&e=.m3u8",
         # New independently named source for validator ONLY. Labeled Sonic Bangla in public Sep 2026 collection; media validation required.
         "http://198.195.239.50:8095/sonic/index.m3u8",
         # Candidate CDN/relay endpoints under test; never assume a working video feed.
@@ -427,6 +437,9 @@ def request_headers(uri, cap):
         h["User-Agent"] = "oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1"
     if hostname == "playyonogames.in":
         h["Referer"] = "https://playyonogames.in/"
+    if hostname == "hey-lookme.shop":
+        # This public playlist explicitly declares this HTTP Referer.
+        h["Referer"] = "https://hey-lookme.shop/"
     return h
 
 
