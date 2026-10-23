@@ -88,6 +88,13 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        # Disney Channel HD (1080p) named in an independent iptv-org-derived list.
+        "http://66.102.120.18:8000/play/a013/index.m3u8",
+        # Disney Channel Hindi+English audio per the approved 2026 iptv-org issue;
+        # source only lists SD/576p, thus strict HD validation rejects if not HD.
+        "http://ptu.ridsys.in/riptv/live/DISNEY_CHANNEL/index.m3u8",
+        "http://ajkiptv.ridsys.in/riptv/live/DISNEY_CHANNEL/index.m3u8",
+        "http://103.182.170.32:8888/play/a04g",
         # Public directory explicitly identifies this as Disney CHANNEL, not Junior.
         "http://139.23.241.38:8088/602/tracks-v1a1/mono.m3u8",
         # Independently labelled Disney Channel, not Disney Junior; HD/audio unverified.
@@ -133,6 +140,11 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        # Fresh India/Nepal iptv-org Sonic 576p (audio language not yet confirmed).
+        "http://103.185.24.134:3001/SONIC/index.m3u8",
+        "http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8",
+        "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+        "https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8",
         "http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8",
         "http://103.151.60.162:2122/play/a02v/index.m3u8?hls",
         "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
@@ -143,6 +155,10 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # Published as Sonic Bengali in public lists; audio still needs viewer check.
+        "http://103.180.212.191:3500/live/1345.m3u8",
+        "http://103.17.193.159:5001/live/1345.m3u8",
+        "http://14.102.123.50:5001/live/1345.m3u8",
         # Listed as Sonic Bangla in a 2026 channel collection.
         "http://103.204.43.87:8080/live/1/1/274.m3u8",
         "http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8",
