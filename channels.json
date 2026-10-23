@@ -648,8 +648,8 @@
       "Nick Sonic",
       "Nickelodeon Sonic Hindi"
     ],
-    "locked": false,
-    "last_known_url": "",
+    "locked": true,
+    "last_known_url": "https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8",
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
     "exclude_urls": [
@@ -680,7 +680,10 @@
       "http://103.72.101.252:8080/live/815.m3u8",
       "https://jc.drmlive-01.workers.dev/815.m3u8"
     ],
-    "experiment_note": "2026-10-23: User confirmed all alternatives in the second TEST playlist failed on Link3. Do not repeat failed source URLs. Continue searching source-backed, newly identified alternative feeds. Never claim runner verification implies Link3 playback."
+    "experiment_note": "Viewer-tested working Sonic Hindi, pinned exactly and immune to runner transient failure.",
+    "user_verified_link3": true,
+    "user_confirmed_at": "2026-10-23",
+    "user_quality_feedback": "User confirms Sonic Hindi TEST 01 plays in IPTV Pro on Link3. Preserve this exact URL. This supersedes previous failures for other Sonic Hindi URLs."
   },
   {
     "name": "Sonic Bangla",
