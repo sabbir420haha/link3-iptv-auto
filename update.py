@@ -88,6 +88,8 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        # 2026-10-24 public Indian kids playlist labels channel ID 167551 Disney HD; unverified candidate, never replace user pin.
+        "https://www.redbooks.site/x11.php?id=167551.m3u8",
         # 2026-10-23 third Disney trial: public source-backed alternatives, viewer unverified.
         # The strict HD + media-segment filter remains in force; preserve every pinned stream.
         "http://51.75.127.199:3141/disneychannel/index.m3u8",
@@ -807,13 +809,58 @@ def main():
             ],
             "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
         })
+    # Independently audit the THREE pinned target streams and public candidates.
+    # Never change their user-confirmed Link3 URLs from a runner result.
+    # This is separate from the main playlist selection and cannot publish a
+    # feed without independent identity/language and (Disney) >=720p evidence.
+    missing_target_names = {"Disney HD Hindi", "Sonic Hindi", "Sonic Bangla"}
+    pinned_target_audit = []
+    for item in channels:
+        if item["name"] not in missing_target_names:
+            continue
+        url = item.get("last_known_url", "")
+        manifest_ok = probe(url) if url else False
+        segment_ok = segment_probe(url) if manifest_ok else False
+        height = hd_resolution(url) if segment_ok and item["name"] == "Disney HD Hindi" else 0
+        pinned_target_audit.append({
+            "name": item["name"], "url": url, "manifest_ok": manifest_ok,
+            "segment_ok": segment_ok, "manifest_height": height,
+            "viewer_confirmed_link3": bool(item.get("user_verified_link3")),
+            "identity_audio_verified_by_runner": False,
+            "note": "GitHub runner network only; a failure does not invalidate a Link3 user-confirmed pin."
+        })
+    audit_tasks = []
+    for item in channels:
+        if item["name"] not in missing_target_names:
+            continue
+        blocked = set(item.get("exclude_urls", [])) | set(item.get("user_reported_failures", []))
+        pin = item.get("last_known_url", "")
+        for url in EXTRA_CANDIDATES.get(item["name"], []):
+            if url != pin and url not in blocked and allowed(url) and matches_channel(item, url):
+                audit_tasks.append((item["name"], url))
+        # Limit per-channel work to preserve the six-hour workflow budget.
+    audit_tasks = list(dict.fromkeys(audit_tasks))
+    def audit_candidate(pair):
+        name, url = pair
+        manifest_ok = probe(url)
+        segment_ok = segment_probe(url) if manifest_ok else False
+        height = hd_resolution(url) if segment_ok and name == "Disney HD Hindi" else 0
+        return {"name": name, "url": url, "manifest_ok": manifest_ok,
+                "segment_ok": segment_ok, "manifest_height": height,
+                "identity_audio_verified_by_runner": False,
+                "published_as_replacement": False}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=12) as pool:
+        missing_target_candidate_audit = list(pool.map(audit_candidate, audit_tasks))
     summary = {"updated_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
                "channels": len(used), "target_channels": len(channels),
                "groups": dict(Counter(x["group"] for x in channels)),
                "remote_manifests_probed": len(health), "media_segments_probed": len(segments),
                "experimental_unverified": experimental_count,
                "backup_streams": verified_backups,
-               "candidate_audit": candidate_audit, "sources": source_stats,
+               "candidate_audit": candidate_audit,
+               "pinned_target_audit": pinned_target_audit,
+               "missing_target_candidate_audit": missing_target_candidate_audit,
+               "sources": source_stats,
                "channel_status": report,
                "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering"}
     REPORT.write_text(json.dumps(summary, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
