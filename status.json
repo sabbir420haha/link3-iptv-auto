@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T13:46:21.197046+00:00",
+  "updated_utc": "2026-10-23T13:47:27.205096+00:00",
   "channels": 77,
   "target_channels": 98,
   "groups": {
@@ -708,7 +708,7 @@
     {
       "name": "Sananda TV",
       "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://live.sanandatelevision.in/sananda/index.m3u8",
+      "stream": "http://live-stream.amarbanglatv.in:8080/hls/sanandatv/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
