@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T08:15:25.070215+00:00",
+  "updated_utc": "2026-10-23T08:17:53.661959+00:00",
   "channels": 73,
   "target_channels": 103,
   "groups": {
@@ -497,7 +497,7 @@
     },
     {
       "name": "Bangla Plus",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "FALLBACK_NOT_REVERIFIED",
       "stream": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8",
       "manifest_height": 0
     },
