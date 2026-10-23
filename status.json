@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T09:57:04.345506+00:00",
-  "channels": 73,
+  "updated_utc": "2026-10-23T09:58:21.576725+00:00",
+  "channels": 74,
   "target_channels": 104,
   "groups": {
     "01 | BD News": 18,
@@ -12,8 +12,8 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 338,
-  "media_segments_probed": 1,
+  "remote_manifests_probed": 340,
+  "media_segments_probed": 3,
   "experimental_unverified": 0,
   "candidate_audit": [
     {
@@ -233,6 +233,41 @@
       "name": "Duronto TV",
       "candidates": [
         {
+          "source": "curated-candidate",
+          "url": "https://box.bbaria.net/DurontoTV/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.106.243.163:8989/duronto-tv/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://89.187.185.89:3232/ban-duronto/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://27.147.156.14:1935/Durunto-TV/Duronto-TV.stream/playlist.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
           "source": "Zaman-Active",
           "url": "https://tvsen5.aynaott.com/durontotv/index.m3u8",
           "manifest_ok": false,
@@ -432,6 +467,20 @@
       "candidates": [
         {
           "source": "curated-candidate",
+          "url": "https://stream.ottplus.live/live/max_hd_abr/index.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 720
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://stream.ottplus.live/live/max_hd_abr/live/max_hd_720/chunks.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://stream.ottplus.bd/live/max_hd_abr/live/max_hd_720/chunks.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -475,20 +524,6 @@
         {
           "source": "curated-candidate",
           "url": "http://dx3.gcdn.co/hindi-SONYMAXHD/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.185.24.134:3001/SonyMAX/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "Zaman-Active",
-          "url": "https://cloudplay-sonyliv.pages.dev/maxhd.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -547,6 +582,11 @@
       "source": "SM-IPTV",
       "count": 385,
       "error": null
+    },
+    {
+      "source": "fresh-Bangladesh-genre",
+      "count": 0,
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "source": "iptv-org-india-raw",
@@ -820,8 +860,8 @@
     },
     {
       "name": "Green TV",
-      "state": "FALLBACK_NOT_REVERIFIED",
-      "stream": "https://tvsen6.aynaott.com/cLuA3hJR/index.m3u8",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/greentv.stream/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1100,7 +1140,7 @@
     },
     {
       "name": "Bangla Plus",
-      "state": "FALLBACK_NOT_REVERIFIED",
+      "state": "REMOTE_MANIFEST_REACHABLE",
       "stream": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -1338,25 +1378,25 @@
     },
     {
       "name": "Sony MAX HD",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
-      "manifest_height": 0,
-      "media_segment_checked": false
+      "state": "REMOTE_HD_MANIFEST",
+      "stream": "https://stream.ottplus.live/live/max_hd_abr/index.m3u8",
+      "manifest_height": 720,
+      "media_segment_checked": true
     }
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 73,
+    "logo_count": 74,
     "methods": {
-      "current-broadcaster": 47,
+      "current-broadcaster": 48,
       "verified-recent-provider-logo": 17,
       "text-fallback": 9
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 73,
-    "from_image_sources": 64,
+    "total": 74,
+    "from_image_sources": 65,
     "clear_name_fallbacks": 9,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
