@@ -17,7 +17,9 @@ The project publishes a playlist **URL**; it does not provide or host any video 
 
 
 ## Added channel trials (2026-10-23)
-The requested Discovery Bangla, Disney HD Hindi, Sony MAX HD, Nat Geo HD Bangla, Nick Hindi, Sonic Hindi, Sonic Bangla, Sony Ten 1 HD and Sony Ten 3 HD now have **experimental entries** under group `98 | TEST - Unverified Non-BDIX`. These links are publicly listed candidates from other M3U collections, **NOT confirmed live channels**. Some may display errors, be geo-restricted, require access rights or be ISP-only despite using a publicly resolvable hostname. Do **not** treat names ending HD as proof of 720p or 1080p.
+**Correction (2026-10-23):** The user confirmed that all nine experimental streams failed in IPTV Pro, so every old TEST URL has been blacklisted and the TEST group disabled. Sony MAX HD now has a newly sourced public HLS feed which passed a GitHub Actions media-segment check; its true resolution and Link3 playback remain unverified. The other requested premium channels are kept as search targets but are not published with broken/untested URLs. 
+
+For reference, these nine names were previously experimental: Discovery Bangla, Disney HD Hindi, Sony MAX HD, Nat Geo HD Bangla, Nick Hindi, Sonic Hindi, Sonic Bangla, Sony Ten 1 HD and Sony Ten 3 HD. These links are publicly listed candidates from other M3U collections, **NOT confirmed live channels**. Some may display errors, be geo-restricted, require access rights or be ISP-only despite using a publicly resolvable hostname. Do **not** treat names ending HD as proof of 720p or 1080p.
 
 The previously user-confirmed non-playing `sar.pages.dev/sonic.m3u8` and `varun-iptv.netlify.app/m3u/discoverybengali.m3u8` URLs remain blocked. The four user-verified pinned streams and original Zee Bangla are unchanged.
 
@@ -27,3 +29,13 @@ Always inspect `status.json` to distinguish `EXPERIMENTAL_NOT_PLAYBACK_VERIFIED`
 `https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/playlist.m3u`
 
 Logos sourced from [tv-logo/tv-logos](https://github.com/tv-logo/tv-logos), iptv-org's logo API, public provider channel artwork and relevant upstream directories. Trademarks belong to their respective owners. Do not redistribute for commercial use without verifying applicable rights.
+
+
+### Current health checks and source freshness (2026-10-23)
+- 22 public catalogue sources were considered, including weekly actively validated gnaidu05 India lists and updated wizakorhd Hindi playlists. BDIX-labelled sources have now been removed.
+- Published stream entries: 72 after the latest successful run (may vary automatically).
+- A new **Sony MAX HD** candidate `http://103.151.60.162:2122/play/a014/index.m3u8?hls` yielded a readable HLS video segment from the GitHub runner; quality/rights and ISP playback are unverified.
+- `status.json` now includes `candidate_audit` per requested channel, recording whether the playlist manifest and at least one video segment were returned.
+- None of the other eight requested target names had an acceptable remote media segment on the latest run; there is no reason to list them as verified channels.
+- The four user-confirmed links (Hungama, Sony AATH, Channel 24, Independent TV) remain pinned and unchanged.
+- Original channel logos are mirrored into locally hosted `logos/` PNGs; provider artwork and custom placeholders are distinguished. IPTV Pro may need cache refresh.
