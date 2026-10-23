@@ -1,38 +1,66 @@
 #EXTM3U
-# Link3 source-backed Disney/Sonic TEST playlist refreshed on 2026-10-23.
-# All Disney Hindi and Sonic Hindi entries are NEW, unverified on Link3. User already reported prior candidates failed.
-# IMPORTANT: Disney Hindi alternatives listed SD 576p or unknown; NO verified 720p+ Hindi Disney Channel found.
-# Sonic Bangla TEST 01 remains the only user-confirmed working feed; do not change.
-# Disney Hindi TEST 01: 2026 archived Disney Channel India source; source marked 576p SD; HD criterion NOT met
+# Disney Channel India Hindi: fresh viewer-trial sources gathered from public GitHub IPTV collections.
+# Only Sonic Hindi TEST 01 and Sonic Bangla TEST 01 are user-confirmed playing on Link3.
+# Disney entries are UNVERIFIED and might fail, be SD, geo-restricted, or have the wrong audio. HD is NOT confirmed.
+# Disney Junior / Disney International English / Disney XD feeds are excluded. User will identify correct feed after testing.
+# This is an independent test playlist. Main pinned streams are untouched.
+# Disney Hindi TEST 01: Same server as user-working Hungama; marked Disney Channel HD in repo research; quality unverified
 #EXTINF:-1 tvg-name="Disney Hindi TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 01
-http://161.248.38.40:8000/play/a06q/index.m3u8
-# Disney Hindi TEST 02: Different JPRDigital channel ID C0451, listed explicitly Disney Channel India; quality not established
+http://103.135.253.32:8080/DISNEY-CHANNEL-HD/index.m3u8
+# Disney Hindi TEST 02: Same server as user-working Hungama; Disney Channel SD/HD unknown
 #EXTINF:-1 tvg-name="Disney Hindi TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 02
-http://iptvcasomsapi.jprdigital.in/x-media/C0451/master.m3u8
-# Disney Hindi TEST 03: Separate Disney Channel path a070, source labelled 576p and not 24/7; SD only
+http://103.135.253.32:8080/DISNEY-CHANNEL/index.m3u8
+# Disney Hindi TEST 03: Explicit Hindi feed listed in several GitHub IPTV collections
 #EXTINF:-1 tvg-name="Disney Hindi TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 03
-http://66.102.120.18:8000/play/a070/index.m3u8
-# Disney Hindi TEST 04: India public Disney Channel variant; listed 576p, not 24/7; SD only
+http://70.39.83.58:8278/disneychannelhindikdin/playlist.m3u8
+# Disney Hindi TEST 04: Published DISNEY-HINDI path in independent Bangladesh IPTV collection
 #EXTINF:-1 tvg-name="Disney Hindi TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 04
-http://116.90.120.149:8000/play/a0bx/index.m3u8
-# Sonic Hindi TEST 01: Different Jio-origin HLS relay; explicitly Sonic Hindi in published playlist
-#EXTINF:-1 tvg-name="Sonic Hindi TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 01
+http://103.89.248.130:8082/DISNEY-HINDI/index.m3u8
+# Disney Hindi TEST 05: Listed explicitly Disney Channel Hindi 1 in a public IPTV file
+#EXTINF:-1 tvg-name="Disney Hindi TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 05
+http://103.153.39.34:8000/play/a04m/index.m3u8
+# Disney Hindi TEST 06: Named DISNEY Hindi in public Hindi channels playlist
+#EXTINF:-1 tvg-name="Disney Hindi TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 06
+http://103.161.153.165:8000/play/a012/index.m3u8
+# Disney Hindi TEST 07: AynaOTT Disney Channel listed in Bangladesh catalog; availability unknown
+#EXTINF:-1 tvg-name="Disney Hindi TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 07
+https://tvsen7.aynaott.com/disney/index.m3u8
+# Disney Hindi TEST 08: Public Disney Hindi relay for different network routing; same upstream as TEST 03
+#EXTINF:-1 tvg-name="Disney Hindi TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 08
+http://mygoodstream.pw/proxy.php/http://70.39.83.58:8278/disneychannelhindikdin/playlist.m3u8
+# Disney Hindi TEST 09: Listed Disney Hindi (2) in public kids playlist; rendition and quality unknown
+#EXTINF:-1 tvg-name="Disney Hindi TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 09
+https://feed.play.mv/live/10005200/QjZ4g9TmAa/1.m3u8
+# Disney Hindi TEST 10: Separate published Disney Channel Hindi master URL; remote checks previously failed
+#EXTINF:-1 tvg-name="Disney Hindi TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 10
+https://feed.play.mv/live/10005200/QjZ4g9TmAa/master.m3u8
+# Disney Hindi TEST 11: Listed as Disney Channel Hindi 3 in separate public IPTV list
+#EXTINF:-1 tvg-name="Disney Hindi TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 11
+http://103.157.237.18:8000/play/404
+# Disney Hindi TEST 12: Publicly listed as Disney Channel India; channel identity and quality unverified
+#EXTINF:-1 tvg-name="Disney Hindi TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 12
+http://38.96.178.201/live/Disney/index.m3u8
+# Disney Hindi TEST 13: Published under Disney India in a public IPTV playlist
+#EXTINF:-1 tvg-name="Disney Hindi TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 13
+http://team-shonamia.gotdns.ch/disney/index.m3u8
+# Disney Hindi TEST 14: Published as Disney Channel MULTI, verify Hindi track if it plays
+#EXTINF:-1 tvg-name="Disney Hindi TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 14
+http://103.84.57.155:8000/play/a03u/index.m3u8
+# Disney Hindi TEST 15: Published Disney India SD; HD requirement not met
+#EXTINF:-1 tvg-name="Disney Hindi TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 15
+http://117.102.16.2:34567/play/a09d/index.m3u8
+# Disney Hindi TEST 16: Published Disney Channel in an Indian Hindi-and-sports playlist
+#EXTINF:-1 tvg-name="Disney Hindi TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 16
+http://103.162.136.235:4500/play/a01g/index.m3u8
+# Disney Hindi TEST 17: Public Disney Channel candidate from repository research, identity unverified
+#EXTINF:-1 tvg-name="Disney Hindi TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 17
+http://103.174.5.43:8000/play/a06m/index.m3u8
+# Disney Hindi TEST 18: Published relay for Jio Disney Channel ID 1373; not user-tested
+#EXTINF:-1 tvg-name="Disney Hindi TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 18
+https://prox.assadikb.workers.dev/watch/1373JP
+# Sonic Hindi TEST 01: USER VERIFIED PLAYING IN IPTV Pro ON Link3 2026-10-23. NEVER AUTO-REPLACE.
+#EXTINF:-1 tvg-name="Sonic Hindi TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi VERIFIED",Sonic Hindi TEST 01
 https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8
-# Sonic Hindi TEST 02: Independent Cloudflare Workers JioCinema relay labelled Sonic Hindi, channel 815
-#EXTINF:-1 tvg-name="Sonic Hindi TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 02
-https://live.drmlive-02.workers.dev/jc/815.m3u8
-# Sonic Hindi TEST 03: Public Jio FHD playlist channel 815 explicitly Sonic Hindi
-#EXTINF:-1 tvg-name="Sonic Hindi TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 03
-https://snehjiotv.in1.bitmana.io/snehjioox.php?c=sonic_Hindi&q=1200&e=junk.m3u8
-# Sonic Hindi TEST 04: Separate Jio path, listed Sonic in an open Indian M3U; alternate to prior failed live.php route
-#EXTINF:-1 tvg-name="Sonic Hindi TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 04
-https://playyonogames.in/jio/app/ts_live_815.m3u8
-# Sonic Hindi TEST 05: Public iptv-org Sonic India 576p alternate direct source
-#EXTINF:-1 tvg-name="Sonic Hindi TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 05
-http://103.151.60.162:2122/play/a02v/index.m3u8?hls
-# Sonic Hindi TEST 06: Separate published JioTV relay labelled sonic Hindi
-#EXTINF:-1 tvg-name="Sonic Hindi TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 06
-https://tv.googledrivelinks.com/live.php?c=sonic_Hindi&q=1200&e=.m3u8
-# Sonic Bangla TEST 01: UNCHANGED: user-confirmed working Sonic Bangla TEST 01 on Link3 and pinned to main
+# Sonic Bangla TEST 01: USER VERIFIED PLAYING IN IPTV Pro ON Link3 2026-10-23. NEVER AUTO-REPLACE.
 #EXTINF:-1 tvg-name="Sonic Bangla TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 - Sonic Bangla VERIFIED",Sonic Bangla TEST 01
 http://103.17.193.159:5001/live/1345.m3u8
