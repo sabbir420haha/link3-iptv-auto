@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T09:42:04.867682+00:00",
-  "channels": 77,
+  "updated_utc": "2026-10-23T09:44:05.206959+00:00",
+  "channels": 78,
   "target_channels": 104,
   "groups": {
     "01 | BD News": 18,
@@ -996,8 +996,8 @@
     },
     {
       "name": "Colors Bangla",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "http://flowutc.com:80/live/MAGTF8AV71/bUiJLEJKG5/76179.ts",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1333,17 +1333,17 @@
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 77,
+    "logo_count": 78,
     "methods": {
-      "current-broadcaster": 49,
+      "current-broadcaster": 50,
       "verified-recent-provider-logo": 18,
       "text-fallback": 10
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 77,
-    "from_image_sources": 68,
+    "total": 78,
+    "from_image_sources": 69,
     "clear_name_fallbacks": 9,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
