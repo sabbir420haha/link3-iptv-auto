@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T11:01:40.573128+00:00",
-  "channels": 73,
+  "updated_utc": "2026-10-23T11:02:34.625843+00:00",
+  "channels": 74,
   "target_channels": 98,
   "groups": {
     "01 | BD News": 16,
@@ -13,7 +13,7 @@
     "08 | Hindi Entertainment": 1
   },
   "remote_manifests_probed": 288,
-  "media_segments_probed": 1,
+  "media_segments_probed": 2,
   "experimental_unverified": 0,
   "backup_streams": [],
   "candidate_audit": [
@@ -281,6 +281,13 @@
         },
         {
           "source": "curated-candidate",
+          "url": "https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://khulnalive.anytv.live/discoverybangla/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -309,21 +316,14 @@
         },
         {
           "source": "curated-candidate",
-          "url": "http://103.229.254.25:7001/play/a03g/index.m3u8",
+          "url": "http://103.89.248.130:8082/DISCOVERY-BANGLA/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
         },
         {
           "source": "curated-candidate",
-          "url": "http://103.159.180.34:5001/live/573.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.107.79.87:8080/CH8110HD08/tracks-v1a1/mono.m3u8",
+          "url": "http://175.107.244.52:4455/play/a01v/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -1148,10 +1148,10 @@
     },
     {
       "name": "Discovery Bangla",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": false
+      "media_segment_checked": true
     },
     {
       "name": "Nat Geo HD Bangla",
@@ -1170,18 +1170,18 @@
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 73,
+    "logo_count": 74,
     "methods": {
       "current-broadcaster": 47,
       "verified-recent-provider-logo": 15,
-      "text-fallback": 11
+      "text-fallback": 12
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 73,
+    "total": 74,
     "from_image_sources": 63,
-    "clear_name_fallbacks": 10,
+    "clear_name_fallbacks": 11,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
   },
