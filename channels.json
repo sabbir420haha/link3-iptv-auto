@@ -584,7 +584,11 @@
       "http://181.119.215.61:8000/play/a0g1/index.m3u8",
       "http://66.102.120.18:8000/play/a013/index.m3u8",
       "http://iptvcasomsapi.jprdigital.in/x-media/C0406/master.m3u8",
-      "https://kingkohli.pages.dev/Play/DisneyHD_Watch_index.m3u8"
+      "https://kingkohli.pages.dev/Play/DisneyHD_Watch_index.m3u8",
+      "http://103.17.193.159:5001/live/1373.m3u8",
+      "http://103.155.18.186:8000/play/a01q/index.m3u8",
+      "http://103.153.39.36:8000/play/a01y",
+      "http://103.182.170.32:8888/play/a04g"
     ],
     "user_reported_wrong_channel": [
       "http://181.119.215.61:8000/play/a0g1/index.m3u8"
@@ -592,11 +596,15 @@
     "identity_must_match": "Disney Channel Hindi, NOT Disney Junior",
     "strict_hd_manifest": true,
     "quality_note": "Never show unknown-resolution or Disney Junior feed under Disney Hindi HD. Require an HLS master advertising >=720p and confirmed channel identity by the viewer.",
-    "experiment_note": "2026-10-23: Viewer confirmed ALL three prior CDN/relay TEST sources fail on Link3. Do not publish unverified replacements. New sources being checked automatically; only real video-segment verified candidates considered, followed by viewer confirmation.",
+    "experiment_note": "2026-10-23: User confirmed all alternatives in the second TEST playlist failed on Link3. Do not repeat failed source URLs. Continue searching source-backed, newly identified alternative feeds. Never claim runner verification implies Link3 playback.",
     "user_reported_failures": [
       "http://66.102.120.18:8000/play/a013/index.m3u8",
       "http://iptvcasomsapi.jprdigital.in/x-media/C0406/master.m3u8",
-      "https://kingkohli.pages.dev/Play/DisneyHD_Watch_index.m3u8"
+      "https://kingkohli.pages.dev/Play/DisneyHD_Watch_index.m3u8",
+      "http://103.17.193.159:5001/live/1373.m3u8",
+      "http://103.155.18.186:8000/play/a01q/index.m3u8",
+      "http://103.153.39.36:8000/play/a01y",
+      "http://103.182.170.32:8888/play/a04g"
     ]
   },
   {
@@ -650,7 +658,13 @@
       "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
       "https://madanitv.assadikb.workers.dev/live.php?id=815&e=.m3u8",
       "http://iptvcasomsapi.jprdigital.in/x-media/C0407/master.m3u8",
-      "https://sflex07.fun:443/07/jio/app/ts_live_815.m3u8"
+      "https://sflex07.fun:443/07/jio/app/ts_live_815.m3u8",
+      "http://103.17.193.159:5001/live/815.m3u8",
+      "http://14.102.123.50:5001/live/815.m3u8",
+      "http://27.116.22.53:5001/live/815.m3u8",
+      "http://103.180.212.191:3500/live/815.m3u8",
+      "http://103.72.101.252:8080/live/815.m3u8",
+      "https://jc.drmlive-01.workers.dev/815.m3u8"
     ],
     "allow_unverified": false,
     "experimental_urls": [],
@@ -658,9 +672,15 @@
       "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
       "https://madanitv.assadikb.workers.dev/live.php?id=815&e=.m3u8",
       "http://iptvcasomsapi.jprdigital.in/x-media/C0407/master.m3u8",
-      "https://sflex07.fun:443/07/jio/app/ts_live_815.m3u8"
+      "https://sflex07.fun:443/07/jio/app/ts_live_815.m3u8",
+      "http://103.17.193.159:5001/live/815.m3u8",
+      "http://14.102.123.50:5001/live/815.m3u8",
+      "http://27.116.22.53:5001/live/815.m3u8",
+      "http://103.180.212.191:3500/live/815.m3u8",
+      "http://103.72.101.252:8080/live/815.m3u8",
+      "https://jc.drmlive-01.workers.dev/815.m3u8"
     ],
-    "experiment_note": "2026-10-23: Viewer confirmed ALL three prior CDN/relay TEST sources fail on Link3. Do not publish unverified replacements. New sources being checked automatically; only real video-segment verified candidates considered, followed by viewer confirmation."
+    "experiment_note": "2026-10-23: User confirmed all alternatives in the second TEST playlist failed on Link3. Do not repeat failed source URLs. Continue searching source-backed, newly identified alternative feeds. Never claim runner verification implies Link3 playback."
   },
   {
     "name": "Sonic Bangla",
