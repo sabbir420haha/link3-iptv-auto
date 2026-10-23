@@ -5,6 +5,7 @@ do not take country-restricted access as evidence of a healthy stream.
 """
 import json, re, datetime, urllib.parse, ipaddress
 from pathlib import Path
+from logos_local import read_image, card, slug
 ROOT=Path(__file__).resolve().parent
 URL_BASE="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/"
 TRIALS={
@@ -29,7 +30,6 @@ TRIALS={
  ],
 }
 LOGO={
- "Discovery Bangla":"https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/discovery-channel-in.png",
  "Nick Hindi":"https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/nick-in.png",
  "Sonic Bangla":"https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/nickelodeon-sonic-in.png",
 }
@@ -47,6 +47,21 @@ def safe(uri):
         if hostname in ("localhost",) or hostname.endswith((".local",".lan",".internal")):
             return False
     return True
+def local_logo(name):
+    # Keep every trial icon in this repository, not an unstable hotlinked server.
+    uri=LOGO.get(name,"")
+    img=read_image(uri) if uri else None
+    frame,_=card(name,img)
+    target=ROOT/"logos"/("geo-"+slug(name)+".png")
+    target.parent.mkdir(exist_ok=True)
+    import io
+    buf=io.BytesIO()
+    frame.save(buf,format="PNG",optimize=True)
+    raw=buf.getvalue()
+    if not target.exists() or target.read_bytes()!=raw:
+        target.write_bytes(raw)
+    return URL_BASE+"logos/"+target.name
+
 def main():
     catalog={x["name"]:x for x in json.loads((ROOT/"channels.json").read_text())}
     status=json.loads((ROOT/"status.json").read_text())
@@ -59,13 +74,13 @@ def main():
         item=catalog.get(name,{})
         banned=set(item.get("exclude_urls",[]))
         counts=0
+        logo=local_logo(name)
         for label,uri in sources:
             if not safe(uri) or uri in banned: continue
             diagnostics=next((c for c in audit.get(name,{}).get("candidates",[]) if c["url"]==uri),None)
             stat= "manifest-checked" if diagnostics and diagnostics.get("manifest_ok") else "unverified"
-            title=(name+" - "+label).replace('"', "'")
+            title=(name+" - "+label).replace('"', "'").replace(",", " -")
             group="99 | BD-GEO TRIAL - Playback NOT verified"
-            logo=LOGO.get(name,"")
             output.append(f'#EXTINF:-1 tvg-name="{title}" tvg-logo="{logo}" group-title="{group}",{title}')
             output.append(uri)
             counts+=1
