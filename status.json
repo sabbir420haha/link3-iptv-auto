@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T09:58:21.576725+00:00",
+  "updated_utc": "2026-10-23T09:59:17.521423+00:00",
   "channels": 74,
   "target_channels": 104,
   "groups": {
@@ -1112,7 +1112,7 @@
     },
     {
       "name": "Amar Bangla",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "FALLBACK_NOT_REVERIFIED",
       "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -1402,14 +1402,8 @@
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
   },
   "bd_geo_trials": {
-    "entries": 9,
-    "by_name": {
-      "Discovery Bangla": 2,
-      "Disney HD Hindi": 2,
-      "Nat Geo HD Bangla": 1,
-      "Nick Hindi": 2,
-      "Sonic Bangla": 2
-    },
+    "entries": 0,
+    "by_name": {},
     "warning": "These are not certified working or HD and may be ISP-only. Test on your own internet. This is an OPTIONAL playlist, separate from the primary playlist."
   }
 }
