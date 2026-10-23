@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T16:39:24.147939+00:00",
+  "updated_utc": "2026-10-23T17:10:09.540439+00:00",
   "channels": 77,
   "target_channels": 98,
   "groups": {
@@ -287,77 +287,77 @@
     },
     {
       "name": "Somoy TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://drk6xq0vhn.gpcdn.net/live/somoy_tv_abr/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Jamuna TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen6.aynaott.com/KGdZEdA7qQ43dmPkgk1j/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Ekattor TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "News 24",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen6.aynaott.com/cdgr3tw6WoG7JyRnLbi0/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "DBC News",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen6.aynaott.com/pF66Tkz0qFwP2aMMqHyt/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "BTV News",
-      "state": "FALLBACK_NOT_REVERIFIED",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://btv.hridoytv-channel.workers.dev/news.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Desh TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "ATN News",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen6.aynaott.com/da6WMXAk/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Ekhon TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://drk6xq0vhn.gpcdn.net/live/ekhon_tv_abr/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Bijoy TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://drk6xq0vhn.gpcdn.net/live/bijoy_tv_abr/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Ekushey TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen5.aynaott.com/SyQuXz8sC3TB/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -371,7 +371,7 @@
     },
     {
       "name": "News 21 Bangla TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "http://103.190.133.68:1935/news21live/live/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -392,105 +392,105 @@
     },
     {
       "name": "BTV Chattogram",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "ATN Bangla",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen5.aynaott.com/atnbangla/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "BanglaVision",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen5.aynaott.com/banglavision/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Boishakhi TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Channel i",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Deepto TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "NTV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/chunklist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "RTV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen5.aynaott.com/RtvHD/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Maasranga TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen5.aynaott.com/maasrangatv/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Gazi TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "My TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen6.aynaott.com/XMpHaEf0ANBhv8w6NWR7/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Asian TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen6.aynaott.com/pKb5k6NnzxsKpWUs6E8M/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "SA TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://j6nfugukcl.gpcdn.net/tile_5/master.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Ananda TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Rajdhani TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://drk6xq0vhn.gpcdn.net/live/rajdhani_tv/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -504,7 +504,7 @@
     },
     {
       "name": "NAN TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -518,7 +518,7 @@
     },
     {
       "name": "Deshi TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -532,35 +532,35 @@
     },
     {
       "name": "Enter TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://live1.entertv.com.bd/entertv/tracks-v1a1/mono.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Channel S",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Deshe Bideshe TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Islamic TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://drk6xq0vhn.gpcdn.net/live/islamic_tv/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Iqra Bangla",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/iqrabanglatvoffice.stream/live-orgin/iqrabanglatvoffice.stream/chunks.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -574,7 +574,7 @@
     },
     {
       "name": "Mohona TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen6.aynaott.com/AkyX5dunzju4cpo26dr7/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -588,7 +588,7 @@
     },
     {
       "name": "NRB TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://app.ncare.live/live-orgin/nrb-eu.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -616,105 +616,105 @@
     },
     {
       "name": "Zee Bangla",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://drk6xq0vhn.gpcdn.net/live/zee_bangla_720/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Zee Bangla HD",
-      "state": "REMOTE_HD_MANIFEST",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen6.aynaott.com/ZeeBangla/index.m3u8",
       "manifest_height": 720,
       "media_segment_checked": false
     },
     {
       "name": "Star Jalsha",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Sun Bangla",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "http://27.124.71.27/Sun_Bangla/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Bangla Jago TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "http://banglajagotv.livebox.co.in/banglajagohls/24x7.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "DD Bangla",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index_3.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "TV9 Bangla",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/pub-iotv9banaen8yq/live_480p/chunks.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Zee 24 Ghanta",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zee24ghantaa-xiaomi/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Kolkata TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen6.aynaott.com/kolkatatv/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Ruposhi Bangla",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:rupashibangla.smil/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Amar Bangla",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "R Plus Gold",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cf883da3-f9f5-4c70-b0ef-b3ac2e2ad1e3/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Enterr10 Bangla",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Sananda TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "http://live-stream.amarbanglatv.in:8080/hls/sanandatv/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Bangla Plus",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -742,7 +742,7 @@
     },
     {
       "name": "Sony Yay",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://drk6xq0vhn.gpcdn.net/live/sony_yay_abr/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -756,21 +756,21 @@
     },
     {
       "name": "Pogo",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://drk6xq0vhn.gpcdn.net/live/pogo_sd_abr/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Cartoon Network",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Discovery Kids",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://drk6xq0vhn.gpcdn.net/live/discovery_kids_abr/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -840,7 +840,7 @@
     },
     {
       "name": "DD Sports",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index_3.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -854,28 +854,28 @@
     },
     {
       "name": "A Sports",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "beIN Sports XTRA",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Sports First TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Red Bull TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -889,7 +889,7 @@
     },
     {
       "name": "Star Sports 2",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "http://103.151.60.162:2122/play/a00v/index.m3u8?hls",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -903,14 +903,14 @@
     },
     {
       "name": "Cricket Gold",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://d1nj4u39ja4cn0.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/FLS-MuxIP-CricketGold/418.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "FITE 24/7",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -970,8 +970,8 @@
   },
   "local_logos": {
     "total": 77,
-    "from_image_sources": 68,
-    "clear_name_fallbacks": 9,
+    "from_image_sources": 67,
+    "clear_name_fallbacks": 10,
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
