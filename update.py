@@ -718,14 +718,15 @@ def main():
                 ua = str(item["stream_user_agent"]).replace("\\r", "").replace("\\n", "").strip()
                 if ua:
                     output.append(f"#EXTVLCOPT:http-user-agent={ua}")
-            # TV playback tuning applies to ALL channels, since the viewer
-            # reported pauses throughout the TV app but not on mobile.
-            # These are VLC-specific hints; Android ExoPlayer-based apps may
-            # ignore them. 2.5 s is a moderate compromise: better resilience
-            # without excessively delaying channel start or channel switching.
-            # Do not touch HLS URLs, referers, stream user agents, or bitrate.
-            output.append("#EXTVLCOPT:network-caching=2500")
-            output.append("#EXTVLCOPT:live-caching=2500")
+            # Requested 15-second VLC live/network buffer target for every
+            # stream. These are PLAYER HINTS, not server-side preloading.
+            # VLC-compatible players may honor them; Android ExoPlayer or
+            # other IPTV apps may ignore them entirely. A 15s buffer may
+            # also delay initial playback/seek by as much as that amount.
+            # Playback continues filling whatever buffer the player permits.
+            # Do NOT alter channel HLS URLs, origin headers, or stream bitrates.
+            output.append("#EXTVLCOPT:network-caching=15000")
+            output.append("#EXTVLCOPT:live-caching=15000")
             output.append("#EXTVLCOPT:http-reconnect=true")
             output.append(chosen["url"])
             alternate = backups_by_name.get(item["name"])
