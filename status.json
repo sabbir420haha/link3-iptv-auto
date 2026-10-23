@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T08:17:53.661959+00:00",
+  "updated_utc": "2026-10-23T08:20:10.910543+00:00",
   "channels": 73,
   "target_channels": 103,
   "groups": {
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 301,
+  "remote_manifests_probed": 302,
   "sources": [
     {
       "source": "iptv-bd",
@@ -705,7 +705,8 @@
     "logo_count": 73,
     "methods": {
       "current-broadcaster": 43,
-      "text-fallback": 30
+      "verified-recent-provider-logo": 18,
+      "text-fallback": 12
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   }
