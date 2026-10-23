@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T08:40:05.553241+00:00",
-  "channels": 72,
+  "updated_utc": "2026-10-23T08:44:07.158129+00:00",
+  "channels": 71,
   "target_channels": 104,
   "groups": {
     "01 | BD News": 18,
@@ -12,8 +12,8 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 327,
-  "media_segments_probed": 1,
+  "remote_manifests_probed": 326,
+  "media_segments_probed": 0,
   "sources": [
     {
       "source": "iptv-bd",
@@ -665,8 +665,8 @@
     },
     {
       "name": "Sonic Hindi",
-      "state": "FALLBACK_NOT_REVERIFIED",
-      "stream": "https://sar.pages.dev/sonic.m3u8",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -813,11 +813,11 @@
   ],
   "warning": "Remote HLS check does not guarantee Link3 playback, picture quality, buffering or access rights",
   "logos": {
-    "logo_count": 72,
+    "logo_count": 71,
     "methods": {
       "current-broadcaster": 43,
       "verified-recent-provider-logo": 18,
-      "text-fallback": 11
+      "text-fallback": 10
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   }
