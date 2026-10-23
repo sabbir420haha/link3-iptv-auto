@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T11:31:35.484144+00:00",
+  "updated_utc": "2026-10-23T11:43:13.957490+00:00",
   "channels": 74,
   "target_channels": 98,
   "groups": {
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 314,
+  "remote_manifests_probed": 317,
   "media_segments_probed": 1,
   "experimental_unverified": 0,
   "backup_streams": [],
@@ -43,6 +43,13 @@
         },
         {
           "source": "curated-candidate",
+          "url": "https://app-re.sm-monirul-islam-rs.workers.dev/Disny-Channel-Hindi/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://live.dinesh29.com.np/stream/jiotvplus/disneychannel/master.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -52,6 +59,13 @@
           "source": "curated-candidate",
           "url": "https://disneyhindi-lh.akamaihd.net/i/disneyhindi_1@174991/master.m3u8",
           "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://raw.githubusercontent.com/Hasanmahmud000/Yt/main/Disney_Channel_HD.index.m3u8",
+          "manifest_ok": true,
           "segment_ok": false,
           "manifest_height": 0
         },
@@ -188,6 +202,13 @@
         },
         {
           "source": "curated-candidate",
+          "url": "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -300,6 +321,13 @@
         {
           "source": "curated-candidate",
           "url": "http://103.135.253.32:8080/SONIC-BANGLA/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
