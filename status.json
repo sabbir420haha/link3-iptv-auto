@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T09:11:36.485073+00:00",
-  "channels": 72,
+  "updated_utc": "2026-10-23T09:21:42.949147+00:00",
+  "channels": 71,
   "target_channels": 104,
   "groups": {
     "01 | BD News": 18,
@@ -12,8 +12,8 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 291,
-  "media_segments_probed": 2,
+  "remote_manifests_probed": 290,
+  "media_segments_probed": 1,
   "experimental_unverified": 0,
   "candidate_audit": [
     {
@@ -299,13 +299,6 @@
           "manifest_height": 0
         },
         {
-          "source": "curated-candidate",
-          "url": "http://103.151.60.162:2122/play/a014/index.m3u8?hls",
-          "manifest_ok": true,
-          "segment_ok": true,
-          "manifest_height": 0
-        },
-        {
           "source": "Zaman-Active",
           "url": "https://cloudplay-sonyliv.pages.dev/maxhd.m3u8",
           "manifest_ok": false,
@@ -498,7 +491,7 @@
     },
     {
       "name": "Jago News 24",
-      "state": "FALLBACK_NOT_REVERIFIED",
+      "state": "REMOTE_MANIFEST_REACHABLE",
       "stream": "https://app.ncare.live/live-orgin/jagonews24.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -764,7 +757,7 @@
     },
     {
       "name": "NRB TV",
-      "state": "FALLBACK_NOT_REVERIFIED",
+      "state": "REMOTE_MANIFEST_REACHABLE",
       "stream": "https://app.ncare.live/live-orgin/nrb-eu.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -1142,25 +1135,25 @@
     },
     {
       "name": "Sony MAX HD",
-      "state": "REMOTE_HLS_SEGMENT_RESOLUTION_UNVERIFIED",
-      "stream": "http://103.151.60.162:2122/play/a014/index.m3u8?hls",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
       "manifest_height": 0,
-      "media_segment_checked": true
+      "media_segment_checked": false
     }
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 72,
+    "logo_count": 71,
     "methods": {
-      "current-broadcaster": 45,
+      "current-broadcaster": 44,
       "verified-recent-provider-logo": 18,
       "text-fallback": 9
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 72,
-    "from_image_sources": 63,
+    "total": 71,
+    "from_image_sources": 62,
     "clear_name_fallbacks": 9,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
