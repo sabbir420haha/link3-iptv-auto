@@ -556,6 +556,37 @@ def clean(value):
 
 def main():
     channels = json.loads(CATALOG.read_text(encoding="utf-8"))
+    # Favorite shortcuts matched against the user's NUHASH IPTV screenshot.
+    # These are M3U channel GROUP entries, not the player's device-local
+    # Favorites tab. Do not duplicate streams, change stream URLs or rename
+    # the source channels. The nearest Nick equivalent here is Nick Bangla.
+    FAVORITES_ORDER = (
+        "Zee Bangla HD",
+        "Zee Bangla",
+        "ATN Bangla",
+        "ATN News",
+        "BanglaVision",
+        "Cartoon Network",
+        "Channel 24",
+        "Channel i",
+        "DBC News",
+        "Discovery Bangla",
+        "Disney HD Hindi",
+        "Duronto TV",
+        "Hungama",
+        "Sony MAX HD",
+        "Jamuna TV",
+        "Maasranga TV",
+        "Nat Geo HD Bangla",
+        "Nick Bangla",
+        "NTV",
+        "Somoy TV",
+        "Sonic Hindi",
+        "Sony Aath",
+        "Sony Ten 1 HD",
+        "Sony Ten 3 HD",
+    )
+    FAVORITES_SET = set(FAVORITES_ORDER)
     required_pins = {"Hungama", "Sony Aath", "Channel 24", "Independent TV"}
     actual_pins = {x["name"] for x in channels if x.get("locked")}
     # User specifically excluded six non-playing channels. Never silently restore them.
@@ -677,7 +708,8 @@ def main():
         if chosen and chosen["url"] not in used:
             used.add(chosen["url"])
             name = clean(item["name"])
-            group = clean("98 | TEST - Unverified Non-BDIX" if state == "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED" else item["group"])
+            group = clean("00 | MY FAVORITES" if item["name"] in FAVORITES_SET else
+                          "98 | TEST - Unverified Non-BDIX" if state == "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED" else item["group"])
             logo = clean(chosen.get("logo", ""))
             output.append(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}')
             # Preserve exact IPTV Pro player header if a stream was user-confirmed
@@ -704,6 +736,26 @@ def main():
                        "media_segment_checked": bool(segments.get(chosen["url"],False)) if chosen else False})
     if len(used) < 4:
         raise ValueError("Refusing to overwrite playlist with fewer than 4 streams")
+    # Show screenshot-matched favorites first in Live TV, with the original
+    # remaining channels afterwards. Stable sorting preserves all stream URLs,
+    # any #EXTVLCOPT player headers and the count of entries (no duplicates).
+    heading = []
+    blocks = []
+    for line in output:
+        if line.startswith("#EXTINF:"):
+            blocks.append([line])
+        elif blocks:
+            blocks[-1].append(line)
+        else:
+            heading.append(line)
+    favorite_rank = {name: i for i, name in enumerate(FAVORITES_ORDER)}
+    def favorite_position(block):
+        title = block[0].rsplit(",", 1)[-1].strip()
+        if title in favorite_rank:
+            return (0, favorite_rank[title])
+        return (1, 0)
+    blocks.sort(key=favorite_position)
+    output = heading + [line for block in blocks for line in block]
     final = "\n".join(output) + "\n"
     temp = OUTPUT.with_suffix(".tmp")
     temp.write_text(final, encoding="utf-8")
