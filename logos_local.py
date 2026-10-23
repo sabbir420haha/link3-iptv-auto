@@ -122,8 +122,8 @@ def card(name, img):
     measure = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
     bbox = measure.multiline_textbbox((0, 0), label, font=chosen,
                                       spacing=5, align="center")
-    w = max(88, min(314, bbox[2]-bbox[0]+14))
-    h = max(38, min(198, bbox[3]-bbox[1]+14))
+    w = int(max(88, min(314, round(bbox[2]-bbox[0]+14))))
+    h = int(max(38, min(198, round(bbox[3]-bbox[1]+14))))
     result = Image.new("RGBA", (w, h), (0, 0, 0, 0))
     painter = ImageDraw.Draw(result)
     painter.multiline_text((w//2, h//2), label, font=chosen,
