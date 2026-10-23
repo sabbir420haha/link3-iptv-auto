@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T13:33:41.281023+00:00",
-  "channels": 76,
+  "updated_utc": "2026-10-23T13:43:46.959801+00:00",
+  "channels": 77,
   "target_channels": 98,
   "groups": {
     "01 | BD News": 16,
@@ -12,8 +12,8 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 285,
-  "media_segments_probed": 4,
+  "remote_manifests_probed": 265,
+  "media_segments_probed": 0,
   "experimental_unverified": 0,
   "backup_streams": [],
   "candidate_audit": [
@@ -22,140 +22,7 @@
       "candidates": [
         {
           "source": "curated-candidate",
-          "url": "https://s1.itcnbd.live/Disney-D/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://app-re.sm-monirul-islam-rs.workers.dev/disney-hd-hindi/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://stream.ottplus.live/live/disney_channel_hd_abr/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://stream.ottplus.live/live/disney_hd_abr/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://app-re.sm-monirul-islam-rs.workers.dev/Disny-Channel-Hindi/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://live.dinesh29.com.np/stream/jiotvplus/disneychannel/master.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://s1.itcnbd.live/Disney-D/tracks-v1a1/mono.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://stream.kliv.in/ROPX/opp233/167551.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://hls-coolxtream.vercel.app/channel/167551&format=.m3u8",
-          "manifest_ok": true,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://shahakshay938.github.io/backups/streams/2026-05-09/disneychannel-in-sd.m3u8",
-          "manifest_ok": true,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://hey-lookme.shop/live.php?id=1373",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://raw.githubusercontent.com/Hasanmahmud000/Yt/main/Disney_Channel_HD.index.m3u8",
-          "manifest_ok": true,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://51.75.127.199:3141/disneychannel/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.167.255.18:8085/play/a0kq/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://116.90.120.151:8000/play/a0hp/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
           "url": "http://ranapkz.site/TATABD/play.php?id=167551&format=.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://88.212.15.19/live/test_disney/playlist.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://139.23.241.38:8088/602/tracks-v1a1/mono.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://ott.artmott.com/DisneyChannel/tracks-v1a1/mono.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/8f3e6367117c923.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -924,8 +791,8 @@
     },
     {
       "name": "Disney HD Hindi",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "PINNED_USER_WORKING",
+      "stream": "http://ranapkz.site/TATABD/play.php?id=167551&format=.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1093,18 +960,18 @@
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 76,
+    "logo_count": 77,
     "methods": {
       "current-broadcaster": 47,
       "verified-recent-provider-logo": 15,
-      "text-fallback": 14
+      "text-fallback": 15
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 76,
+    "total": 77,
     "from_image_sources": 65,
-    "clear_name_fallbacks": 11,
+    "clear_name_fallbacks": 12,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
   },
