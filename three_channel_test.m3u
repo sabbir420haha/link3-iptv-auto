@@ -1,37 +1,38 @@
 #EXTM3U
-# SEPARATE Link3 TEST: same-server Sonic Hindi + Disney Hindi first; user-confirmed Sonic Bangla preserved.
-# Disney Channel TEST 01 is the Hindi feed; its 720p+ resolution is NOT confirmed. Disney Junior is never included.
-# Other entries unverified. When testing tell assistant exact channel TEST number. Main playlist is independent.
-# Disney Hindi TEST 01: SAME SERVER AS WORKING SONIC BANGLA; original source labels Disney Channel (Hindi); HD NOT confirmed
+# Link3 source-backed Disney/Sonic TEST playlist refreshed on 2026-10-23.
+# All Disney Hindi and Sonic Hindi entries are NEW, unverified on Link3. User already reported prior candidates failed.
+# IMPORTANT: Disney Hindi alternatives listed SD 576p or unknown; NO verified 720p+ Hindi Disney Channel found.
+# Sonic Bangla TEST 01 remains the only user-confirmed working feed; do not change.
+# Disney Hindi TEST 01: 2026 archived Disney Channel India source; source marked 576p SD; HD criterion NOT met
 #EXTINF:-1 tvg-name="Disney Hindi TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 01
-http://103.17.193.159:5001/live/1373.m3u8
-# Disney Hindi TEST 02: Listed Disney Channel in another public 2026 India playlist; language/HD not verified
+http://161.248.38.40:8000/play/a06q/index.m3u8
+# Disney Hindi TEST 02: Different JPRDigital channel ID C0451, listed explicitly Disney Channel India; quality not established
 #EXTINF:-1 tvg-name="Disney Hindi TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 02
-http://103.155.18.186:8000/play/a01q/index.m3u8
-# Disney Hindi TEST 03: Listed as Disney Channel in Bangladesh IPTV compilation; quality not verified
+http://iptvcasomsapi.jprdigital.in/x-media/C0451/master.m3u8
+# Disney Hindi TEST 03: Separate Disney Channel path a070, source labelled 576p and not 24/7; SD only
 #EXTINF:-1 tvg-name="Disney Hindi TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 03
-http://103.153.39.36:8000/play/a01y
-# Disney Hindi TEST 04: Catalogued Disney Channel India feed; language/HD not verified
+http://66.102.120.18:8000/play/a070/index.m3u8
+# Disney Hindi TEST 04: India public Disney Channel variant; listed 576p, not 24/7; SD only
 #EXTINF:-1 tvg-name="Disney Hindi TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi TEST",Disney Hindi TEST 04
-http://103.182.170.32:8888/play/a04g
-# Sonic Hindi TEST 01: SAME SERVER AS WORKING SONIC BANGLA; source explicitly identifies Sonic Hindi 815
+http://116.90.120.149:8000/play/a0bx/index.m3u8
+# Sonic Hindi TEST 01: Different Jio-origin HLS relay; explicitly Sonic Hindi in published playlist
 #EXTINF:-1 tvg-name="Sonic Hindi TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 01
-http://103.17.193.159:5001/live/815.m3u8
-# Sonic Hindi TEST 02: Separately published same JioTV Sonic Hindi ID 815 host
+https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8
+# Sonic Hindi TEST 02: Independent Cloudflare Workers JioCinema relay labelled Sonic Hindi, channel 815
 #EXTINF:-1 tvg-name="Sonic Hindi TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 02
-http://14.102.123.50:5001/live/815.m3u8
-# Sonic Hindi TEST 03: Separately published Sonic ID 815 host
+https://live.drmlive-02.workers.dev/jc/815.m3u8
+# Sonic Hindi TEST 03: Public Jio FHD playlist channel 815 explicitly Sonic Hindi
 #EXTINF:-1 tvg-name="Sonic Hindi TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 03
-http://27.116.22.53:5001/live/815.m3u8
-# Sonic Hindi TEST 04: Published and explicitly labelled Sonic Hindi
+https://snehjiotv.in1.bitmana.io/snehjioox.php?c=sonic_Hindi&q=1200&e=junk.m3u8
+# Sonic Hindi TEST 04: Separate Jio path, listed Sonic in an open Indian M3U; alternate to prior failed live.php route
 #EXTINF:-1 tvg-name="Sonic Hindi TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 04
-http://103.180.212.191:3500/live/815.m3u8
-# Sonic Hindi TEST 05: Published Sonic 576p candidate
+https://playyonogames.in/jio/app/ts_live_815.m3u8
+# Sonic Hindi TEST 05: Public iptv-org Sonic India 576p alternate direct source
 #EXTINF:-1 tvg-name="Sonic Hindi TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 05
-http://103.72.101.252:8080/live/815.m3u8
-# Sonic Hindi TEST 06: Public playlist labels Nickelodeon Sonic Hindi; Cloudflare relay; validation unconfirmed
+http://103.151.60.162:2122/play/a02v/index.m3u8?hls
+# Sonic Hindi TEST 06: Separate published JioTV relay labelled sonic Hindi
 #EXTINF:-1 tvg-name="Sonic Hindi TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi TEST",Sonic Hindi TEST 06
-https://jc.drmlive-01.workers.dev/815.m3u8
-# Sonic Bangla TEST 01: USER CONFIRMED: plays on Link3 in IPTV Pro on October 23, 2026; pinned in main playlist
+https://tv.googledrivelinks.com/live.php?c=sonic_Hindi&q=1200&e=.m3u8
+# Sonic Bangla TEST 01: UNCHANGED: user-confirmed working Sonic Bangla TEST 01 on Link3 and pinned to main
 #EXTINF:-1 tvg-name="Sonic Bangla TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 - Sonic Bangla VERIFIED",Sonic Bangla TEST 01
 http://103.17.193.159:5001/live/1345.m3u8
