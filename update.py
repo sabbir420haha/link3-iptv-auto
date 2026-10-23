@@ -28,6 +28,7 @@ SOURCES = [
     ("iptv-documentary", "https://iptv-org.github.io/iptv/categories/documentary.m3u"),
     ("Zaman-Active", "https://raw.githubusercontent.com/Zaman-Topu/Ip-tv-Collection/main/FINAL_IPTV_ACTIVE.m3u"),
     ("SM-IPTV", "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/Combined_Live_TV.m3u"),
+    ("fresh-Bangladesh-genre", "https://raw.githubusercontent.com/tahsinulmohsin/jagobd-m3u8-scraper/master/playlist.m3u8"),
     ("iptv-org-india-raw", "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in.m3u"),
     ("indian-kids-special", "https://raw.githubusercontent.com/arshdeep1112/Indian-IPTV/main/channels/iptv_kids.m3u8"),
     ("Bengali-public-collection", "https://raw.githubusercontent.com/skmasum98/IPTV/master/myiptv.m3u8"),
@@ -78,6 +79,13 @@ EXTRA_CANDIDATES = {
         "https://madplay.live/jiotv/app/live/545/null/index.m3u8",
         "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Nick_Hindi&q=800&e=junk.m3u8",
     ],
+    "Duronto TV": [
+        "https://box.bbaria.net/DurontoTV/index.m3u8",
+        "http://103.106.243.163:8989/duronto-tv/index.m3u8",
+        "http://27.147.156.14:1935/Durunto-TV/Duronto-TV.stream/playlist.m3u8",
+        "http://89.187.185.89:3232/ban-duronto/index.m3u8",
+        "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
+    ],
     "Sonic Hindi": [
         "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
         "http://103.229.254.25:7001/play/a0dl/index.m3u8",
@@ -91,8 +99,11 @@ EXTRA_CANDIDATES = {
         "https://edge01.iptv.digijadoo.net/live/sonic/playlist.m3u8",
         "http://live.balajibroadband.com:3500/live/1345.m3u8",
     ],
+    "Sony MAX SD Alternative": [],
     "Sony MAX HD": [
         "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8",
+        "https://stream.ottplus.live/live/max_hd_abr/index.m3u8",
+        "https://stream.ottplus.live/live/max_hd_abr/live/max_hd_720/chunks.m3u8",
         "https://stream.ottplus.bd/live/max_hd_abr/live/max_hd_720/chunks.m3u8",
         "https://stream.ottplus.bd/live/max_hd_abr/index.m3u8",
         "https://stream.ottplus.bd/live/sony_max_sd_abr/live/sony_max_sd_720/chunks.m3u8",
