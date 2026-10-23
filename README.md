@@ -57,3 +57,8 @@ There are now **two separate auto-published M3U URLs**.
 The validator now probes direct TS/MPEG-TS data **as well as HLS manifests and segments**, correcting a previous false-negative filter. A network check from the GitHub runner cannot prove that a broadcast plays in Bangladesh.
 
 If you once had a free playlist where the nine channels played, provide its original M3U URL (never share IPTV passwords or private account tokens) to help match the exact feed family and reduce false positives.
+
+### Playback identity corrections confirmed 2026-10-23
+- **Sony Ten 3 HD** `http://103.135.253.32:8080/TEN-3/index.m3u8` plays on the user's Link3 but **looks low-definition despite a prior 1080p master-manifest claim**. It is now PINNED alongside the previous nine confirmed-working entries. Keep it until the viewer explicitly confirms a superior replacement.
+- **Disney HD Hindi** previously selected `http://181.119.215.61:8000/play/a0g1/index.m3u8`; the viewer explicitly identified it as **Disney Junior**, not Disney Channel. It is permanently blacklisted. The Disney HD target now requires an HLS master advertising at least 720p and video-segment success; even these checks alone cannot establish which channel is actually playing. Only the viewer can finally confirm the channel identity and language.
+- Requested **Discovery Bangla**, **Sonic Hindi/Bangla** and a sharper independent **Sony Ten 3 HD** are still being investigated; never publish a dead link or relabel another broadcaster to fill a target.
