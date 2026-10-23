@@ -41,8 +41,21 @@ EXTRA_CANDIDATES = {
         "https://tvsen6.aynaott.com/ZeeBangla/index.m3u8",
     ],
     "Discovery Bangla": ["https://ccntv.anytv.live/discoverybangla/index.m3u8"],
-    "Sony Ten 1 HD": ["https://pubads.g.doubleclick.net/ssai/event/yeYP86THQ4yl7US8Zx5eug/master.m3u8"],
-    "Sony Ten 3 HD": ["https://pubads.g.doubleclick.net/ssai/event/nmQFuHURTYGQBNdUG-2Qdw/master.m3u8"],
+    "Nick Hindi": ["https://jiotvmblive.cdn.jio.com/bpk-tv/Nick_voot_MOB/output03/index.m3u8"],
+    "Sonic Hindi": ["https://sar.pages.dev/sonic.m3u8"],
+    "Sony MAX HD": [
+        "https://dai.google.com/linear/hls/event/UcjHNJmCQ1WRlGKlZm73QA/master.m3u8"
+    ],
+    "Sony Ten 1 HD": [
+        "https://pubads.g.doubleclick.net/ssai/event/yeYP86THQ4yl7US8Zx5eug/master.m3u8",
+        "https://dai.google.com/linear/hls/event/wG75n5U8RrOKiFzaWObXbA/master.m3u8",
+        "https://sliv.tgaadi.workers.dev/ten1hd.m3u8",
+    ],
+    "Sony Ten 3 HD": [
+        "https://pubads.g.doubleclick.net/ssai/event/nmQFuHURTYGQBNdUG-2Qdw/master.m3u8",
+        "https://dai.google.com/linear/hls/event/ltsCG7TBSCSDmyq0rQtvSA/master.m3u8",
+        "https://sliv.tgaadi.workers.dev/ten3hd.m3u8",
+    ],
 }
 
 def key(value):
