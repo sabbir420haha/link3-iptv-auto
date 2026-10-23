@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T11:47:01.190458+00:00",
-  "channels": 74,
+  "updated_utc": "2026-10-23T11:49:38.296705+00:00",
+  "channels": 73,
   "target_channels": 98,
   "groups": {
     "01 | BD News": 16,
@@ -594,8 +594,8 @@
     },
     {
       "source": "iptv-entertainment",
-      "count": 0,
-      "error": "HTTP Error 503: Service Unavailable"
+      "count": 896,
+      "error": null
     },
     {
       "source": "iptv-documentary",
@@ -1036,9 +1036,9 @@
     },
     {
       "name": "Zee Bangla HD",
-      "state": "REMOTE_HD_MANIFEST",
-      "stream": "https://tvsen6.aynaott.com/ZeeBangla/index.m3u8",
-      "manifest_height": 720,
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
+      "manifest_height": 0,
       "media_segment_checked": false
     },
     {
@@ -1373,17 +1373,17 @@
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 74,
+    "logo_count": 73,
     "methods": {
-      "current-broadcaster": 47,
+      "current-broadcaster": 46,
       "verified-recent-provider-logo": 15,
       "text-fallback": 12
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 74,
-    "from_image_sources": 63,
+    "total": 73,
+    "from_image_sources": 62,
     "clear_name_fallbacks": 11,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
