@@ -643,15 +643,18 @@
       "Nickelodeon SD Hindi",
       "Nick HD Hindi"
     ],
-    "locked": false,
-    "last_known_url": "",
+    "locked": true,
+    "last_known_url": "http://103.135.253.32:8080/NICK/index.m3u8",
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
     "allow_unverified": false,
     "experimental_urls": [],
     "exclude_urls": [
       "https://jiotvmblive.cdn.jio.com/bpk-tv/Nick_voot_MOB/output03/index.m3u8"
-    ]
+    ],
+    "user_verified_link3": true,
+    "user_confirmed_at": "2026-10-23",
+    "user_quality_feedback": "User confirms smooth playback on Link3; channel language/HD resolution not independently measured"
   },
   {
     "name": "Sonic Hindi",
@@ -702,8 +705,8 @@
     "aliases": [
       "Duranto TV"
     ],
-    "locked": false,
-    "last_known_url": "",
+    "locked": true,
+    "last_known_url": "http://103.135.253.32:8080/DORONTU-TV/index.m3u8",
     "exclude_urls": [
       "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
     ],
@@ -711,7 +714,10 @@
     "skip_unverified_fallback": true,
     "user_reported_failures": [
       "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
-    ]
+    ],
+    "user_verified_link3": true,
+    "user_confirmed_at": "2026-10-23",
+    "user_quality_feedback": "User confirms smooth playback on Link3; channel language/HD resolution not independently measured"
   },
   {
     "name": "T Sports",
@@ -881,15 +887,18 @@
       "National Geographic Bangla HD",
       "Nat Geo Bangla"
     ],
-    "locked": false,
-    "last_known_url": "",
+    "locked": true,
+    "last_known_url": "http://103.135.253.32:8080/NATGEO-HD/index.m3u8",
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
     "allow_unverified": false,
     "experimental_urls": [],
     "exclude_urls": [
       "http://tv.pmcon.net/hls/stream13.m3u8"
-    ]
+    ],
+    "user_verified_link3": true,
+    "user_confirmed_at": "2026-10-23",
+    "user_quality_feedback": "User confirms smooth playback on Link3; channel language/HD resolution not independently measured"
   },
   {
     "name": "Sony MAX HD",
