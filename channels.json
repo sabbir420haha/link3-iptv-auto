@@ -6,7 +6,10 @@
       "Channel24"
     ],
     "locked": true,
-    "last_known_url": "https://drk6xq0vhn.gpcdn.net/live/channel_24_abr/index.m3u8"
+    "last_known_url": "https://stream.ottplus.live/live/channel_24_abr/index.m3u8",
+    "backup_previous_url": "https://drk6xq0vhn.gpcdn.net/live/channel_24_abr/index.m3u8",
+    "user_verified_link3": false,
+    "source_quality_note": "Channel 24 only: previous GPCDN source reported frequent rebuffering; new OTTplus Channel 24 HD 720p passed 9/9 GitHub HLS manifest polls, 8 live-segment advancements and two segment-byte checks on 2026-10-24. Link3/IPTV Pro continuous playback remains unverified. Prior link stored for easy rollback."
   },
   {
     "name": "Independent TV",
