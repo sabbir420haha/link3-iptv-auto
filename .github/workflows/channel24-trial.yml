@@ -1,0 +1,41 @@
+name: Compare Channel 24 stable stream candidates
+on:
+  push:
+    branches: [main]
+    paths:
+      - channel24_source_trial.py
+      - .github/workflows/channel24-trial.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: channel24-test-only
+  cancel-in-progress: false
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify Channel 24 diagnostic syntax
+        run: python -m py_compile channel24_source_trial.py
+      - name: Compare public Channel 24 HLS sources and live media bytes
+        run: python channel24_source_trial.py
+      - name: Publish candidate-only diagnostic results (NOT playlist)
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add channel24_source_trial.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update Channel 24 source-only diagnostic'
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git fetch origin main
+              git rebase -X theirs origin/main
+              sleep 2
+            done
+            exit 1
+          fi
