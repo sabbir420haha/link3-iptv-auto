@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a locally hosted, evenly padded square 512x512 PNG for every IPTV channel.
+"""Build a locally hosted, evenly padded square 320x320 PNG for every IPTV channel.
 Never changes stream URLs. Prefer exact Indian broadcaster logos and provider image
 sources; otherwise use a clearly labelled custom channel-name placeholder.
 """
@@ -84,10 +84,10 @@ def card(name, img):
     horizontal center crop keeps all important logo pixels visible. Source
     alpha-margin is removed before resizing; aspect ratios are never stretched.
     """
-    canvas = Image.new("RGBA", (512, 512), (21, 30, 47, 255))
+    canvas = Image.new("RGBA", (320, 320), (21, 30, 47, 255))
     painter = ImageDraw.Draw(canvas)
     # Subtle edge, not a frame around the logo: prevents a clipped-card look.
-    painter.rounded_rectangle((7, 7, 504, 504), radius=28,
+    painter.rounded_rectangle((5, 5, 315, 315), radius=18,
                               outline=(57, 71, 94, 255), width=2)
     if img is not None:
         work = img.convert("RGBA")
@@ -99,8 +99,8 @@ def card(name, img):
             bounds = mask.getbbox()
             if bounds and (bounds[2] - bounds[0]) > 12 and (bounds[3] - bounds[1]) > 12:
                 work = work.crop(bounds)
-        work.thumbnail((418, 248), Image.Resampling.LANCZOS)
-        x, y = (512-work.width)//2, (512-work.height)//2
+        work.thumbnail((260, 154), Image.Resampling.LANCZOS)
+        x, y = (320-work.width)//2, (320-work.height)//2
         canvas.alpha_composite(work, (x, y))
         return canvas.convert("RGB"), "brand"
     # Avoid clipped placeholders when artwork is not available.
@@ -109,12 +109,12 @@ def card(name, img):
     if len(parts) == 3 and len(name) > 47:
         parts[2] = parts[2][:13] + "..."
     display = "\n".join(parts)
-    chosen = font(43 if len(name) < 20 else 34 if len(name) < 31 else 27)
+    chosen = font(28 if len(name) < 20 else 22 if len(name) < 31 else 18)
     bounds = painter.multiline_textbbox((0, 0), display, font=chosen,
                                         spacing=8, align="center")
     height = bounds[3] - bounds[1]
-    top = 250 - height // 2
-    painter.multiline_text((256, top), display, font=chosen,
+    top = 160 - height // 2
+    painter.multiline_text((160, top), display, font=chosen,
                            fill=(245, 249, 255, 255), anchor="ma",
                            spacing=8, align="center")
     return canvas.convert("RGB"), "fallback"
@@ -142,7 +142,7 @@ def process(line):
     result,kind=card(name,selected)
     path=IMAGES/filename
     stream=io.BytesIO()
-    result.save(stream,format="PNG",optimize=True)
+    result.quantize(colors=192, method=Image.Quantize.MEDIANCUT, dither=Image.Dither.NONE).save(stream, format="PNG", optimize=True)
     raw=stream.getvalue()
     if not path.exists() or path.read_bytes()!=raw:
         path.write_bytes(raw)
@@ -161,7 +161,7 @@ def main():
             name=name_match.group(1) if name_match else line.rsplit(",",1)[-1].strip()
             filename,_=mapping[name]
             # Versioned URL refreshes IPTV Pro logo cache when image layout changes.
-            uri=ROOT_URL+filename+"?v=20261023-centered2"
+            uri=ROOT_URL+filename+"?v=20261023-compact3"
             if 'tvg-logo="' in line:
                 line=re.sub(r'tvg-logo="[^"]*"',f'tvg-logo="{uri}"',line,count=1)
             else:
@@ -172,7 +172,7 @@ def main():
     if STATUS.exists():
         status=json.loads(STATUS.read_text(encoding="utf-8"))
         status["local_logos"]={"total":len(result),"from_image_sources":statuses["brand"],
-                "clear_name_fallbacks":statuses["fallback"],"size":"512x512 PNG; centered, contain-fit with safe margins",
+                "clear_name_fallbacks":statuses["fallback"],"size":"320x320 palette-optimized PNG; centered, contain-fit with safe margins",
                 "note":"Every M3U logo points to a centered locally cached image. Brand marks keep original proportions; fallback names are not broadcaster originals."}
         STATUS.write_text(json.dumps(status,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     print("Local channel logos:",dict(statuses),"total",len(result))
