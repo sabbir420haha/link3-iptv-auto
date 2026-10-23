@@ -577,8 +577,10 @@
     "min_height": 720,
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
-    "allow_unverified": false,
-    "experimental_urls": [],
+    "allow_unverified": true,
+    "experimental_urls": [
+      "http://iptvcasomsapi.jprdigital.in/x-media/C0406/master.m3u8"
+    ],
     "exclude_urls": [
       "http://lifetvbd.xyz:8080/play/c-CHSxllrYcCvZWsMzkBPCAqqAmRUCilgdGzNSaDHFQ/m3u8",
       "http://181.119.215.61:8000/play/a0g1/index.m3u8",
@@ -590,7 +592,7 @@
     "identity_must_match": "Disney Channel Hindi, NOT Disney Junior",
     "strict_hd_manifest": true,
     "quality_note": "Never show unknown-resolution or Disney Junior feed under Disney Hindi HD. Require an HLS master advertising >=720p and confirmed channel identity by the viewer.",
-    "experiment_note": "All prior TEST candidates on Link3 reported not playing by the user; do not re-add dead streams without explicit successful user playback.",
+    "experiment_note": "Viewer explicitly requested a main-playlist TEST entry on 2026-10-23. Candidate is NOT verified to play on Link3; preserve all user-locked entries. Revert TEST entry after failed viewer report.",
     "user_reported_failures": [
       "http://66.102.120.18:8000/play/a013/index.m3u8"
     ]
@@ -646,13 +648,15 @@
       "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
       "https://madanitv.assadikb.workers.dev/live.php?id=815&e=.m3u8"
     ],
-    "allow_unverified": false,
-    "experimental_urls": [],
+    "allow_unverified": true,
+    "experimental_urls": [
+      "http://iptvcasomsapi.jprdigital.in/x-media/C0407/master.m3u8"
+    ],
     "user_reported_failures": [
       "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
       "https://madanitv.assadikb.workers.dev/live.php?id=815&e=.m3u8"
     ],
-    "experiment_note": "All prior TEST candidates on Link3 reported not playing by the user; do not re-add dead streams without explicit successful user playback."
+    "experiment_note": "Viewer explicitly requested a main-playlist TEST entry on 2026-10-23. Candidate is NOT verified to play on Link3; preserve all user-locked entries. Revert TEST entry after failed viewer report."
   },
   {
     "name": "Sonic Bangla",
@@ -666,13 +670,15 @@
     "last_known_url": "",
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
-    "allow_unverified": false,
-    "experimental_urls": [],
+    "allow_unverified": true,
+    "experimental_urls": [
+      "http://103.182.170.32:8888/play/a02s"
+    ],
     "exclude_urls": [
       "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sonic",
       "https://madanitv.assadikb.workers.dev/live.php?id=1345&e=.m3u8"
     ],
-    "experiment_note": "All prior TEST candidates on Link3 reported not playing by the user; do not re-add dead streams without explicit successful user playback.",
+    "experiment_note": "Viewer explicitly requested a main-playlist TEST entry on 2026-10-23. Candidate is NOT verified to play on Link3; preserve all user-locked entries. Revert TEST entry after failed viewer report.",
     "user_reported_failures": [
       "https://madanitv.assadikb.workers.dev/live.php?id=1345&e=.m3u8"
     ]
