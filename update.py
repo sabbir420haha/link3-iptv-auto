@@ -35,6 +35,9 @@ SOURCES = [
 
 # These are candidate public URLs only, not a guarantee of rights or playback.
 EXTRA_CANDIDATES = {
+    "Hungama HD": [
+        "http://ajkiptv.ridsys.in/riptv/live/HUNGAMA/index.m3u8",
+    ],
     "Zee Bangla HD": [
         "https://stream.ottplus.bd/live/zee_bangla_abr/live/zee_bangla_720/chunks.m3u8",
         "https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/ZeeBanglaHD.m3u8",
@@ -236,7 +239,8 @@ def main():
             choices.append({"url": pinned, "logo": "", "source": "seed"})
         choices = [c for c in choices if allowed(c["url"], locked and c["url"] == pinned)
                    and matches_channel(item, c["url"])
-                   and c["url"] not in item.get("exclude_urls", [])]
+                   and c["url"] not in item.get("exclude_urls", [])
+                   and (not item.get("only_curated") or c["source"] in ("curated-candidate", "previous"))]
         if locked:
             choices = [c for c in choices if c["url"] == pinned]
         choices.sort(key=lambda c: score(item, c, current), reverse=True)
@@ -282,6 +286,7 @@ def main():
                 chosen = next((c for c in choices if health.get(c["url"]) and c["url"] not in used), None)
             if chosen:
                 state = ("REMOTE_HD_MANIFEST" if item.get("quality") == "hd"
+                         else "BEST_AVAILABLE_NOT_VERIFIED_HD" if item.get("quality") == "best_available"
                          else "REMOTE_MANIFEST_REACHABLE")
             else:
                 old = current or item.get("last_known_url", "")
