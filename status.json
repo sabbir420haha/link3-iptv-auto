@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T10:17:39.492856+00:00",
+  "updated_utc": "2026-10-23T10:19:34.904715+00:00",
   "channels": 79,
   "target_channels": 104,
   "groups": {
@@ -13,7 +13,7 @@
     "08 | Hindi Entertainment": 1
   },
   "remote_manifests_probed": 333,
-  "media_segments_probed": 7,
+  "media_segments_probed": 8,
   "experimental_unverified": 0,
   "candidate_audit": [
     {
@@ -269,6 +269,13 @@
         },
         {
           "source": "curated-candidate",
+          "url": "http://103.135.253.32:8080/DORONTU-TV/index.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://tvsen4.aynaott.com/durontotv/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -298,13 +305,6 @@
         {
           "source": "curated-candidate",
           "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/duronto.stream/tracks-v1a1/mono.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.135.253.32:8080/DORONTU-TV/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -461,16 +461,16 @@
         },
         {
           "source": "curated-candidate",
-          "url": "http://103.81.104.222/live/national-geographic/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
+          "url": "http://103.135.253.32:8080/NATGEO-HD/index.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
           "manifest_height": 0
         },
         {
           "source": "curated-candidate",
-          "url": "http://103.135.253.32:8080/NATGEO-HD/index.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
+          "url": "http://103.81.104.222/live/national-geographic/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
           "manifest_height": 0
         },
         {
@@ -1126,7 +1126,7 @@
     },
     {
       "name": "Bangla Plus",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "FALLBACK_NOT_REVERIFIED",
       "stream": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
