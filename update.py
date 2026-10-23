@@ -108,13 +108,9 @@ def key(value):
 
 # Public IP addresses explicitly appearing in the iptv-org Hungama TV catalogue.
 # All private, loopback and link-local IPs remain blocked.
-# Only these PUBLIC numeric IPs from named public M3U catalogues are eligible.
-# BDIX-named/private hosts remain blocked. GitHub then checks actual HLS bytes.
-ALLOWED_PUBLIC_NUMERIC_IPS = {
-    "103.185.24.134", "66.102.126.10", "103.151.60.162",
-    "103.153.175.254", "103.89.248.130", "103.55.144.46",
-    "202.70.146.135", "208.86.19.13",
-}
+# Accept any truly globally routable public IP. Source hosts explicitly marked
+# BDIX and non-global/private/reserved IP addresses remain filtered.
+# GitHub Actions validates HLS bytes from outside the Bangladesh ISP network.
 
 def allowed(url, locked=False):
     try:
@@ -132,9 +128,8 @@ def allowed(url, locked=False):
             address = ipaddress.ip_address(host)
             if not address.is_global:
                 return False
-            # Reject unknown public IPs, known internal IPs, and ISP-only numeric streams.
-            if not locked and host not in ALLOWED_PUBLIC_NUMERIC_IPS:
-                return False
+            # A globally routable IP is not automatically BDIX-only.
+            # Segment probing still determines whether an offered feed is accessible.
         except ValueError:
             pass
         return True
