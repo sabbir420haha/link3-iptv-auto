@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T07:01:29.237595+00:00",
+  "updated_utc": "2026-10-23T08:13:08.666385+00:00",
   "channels": 72,
   "target_channels": 103,
   "groups": {
@@ -700,5 +700,13 @@
       "manifest_height": 0
     }
   ],
-  "warning": "Remote HLS check does not guarantee Link3 playback, picture quality, buffering or access rights"
+  "warning": "Remote HLS check does not guarantee Link3 playback, picture quality, buffering or access rights",
+  "logos": {
+    "logo_count": 72,
+    "methods": {
+      "current-broadcaster": 43,
+      "text-fallback": 29
+    },
+    "note": "Text fallback logos are custom labels, not official broadcaster logos."
+  }
 }
