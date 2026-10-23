@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T11:11:54.396701+00:00",
+  "updated_utc": "2026-10-23T11:12:51.878046+00:00",
   "channels": 74,
   "target_channels": 98,
   "groups": {
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 304,
+  "remote_manifests_probed": 324,
   "media_segments_probed": 2,
   "experimental_unverified": 0,
   "backup_streams": [],
@@ -79,6 +79,62 @@
         {
           "source": "curated-candidate",
           "url": "http://116.90.120.149:8000/play/a0bx/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://66.102.126.10:8000/play/a013/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://116.90.120.151:8000/play/a0hp/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.162.136.235:4500/play/a01g/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://202.70.146.135:8000/play/a01q/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.182.170.32:8888/play/a04g",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://139.23.241.38:8088/602/tracks-v1a1/mono.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://ott.artmott.com/DisneyChannel/tracks-v1a1/mono.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/8f3e6367117c923.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
