@@ -577,15 +577,14 @@
     "min_height": 720,
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
-    "allow_unverified": true,
-    "experimental_urls": [
-      "https://kingkohli.pages.dev/Play/DisneyHD_Watch_index.m3u8"
-    ],
+    "allow_unverified": false,
+    "experimental_urls": [],
     "exclude_urls": [
       "http://lifetvbd.xyz:8080/play/c-CHSxllrYcCvZWsMzkBPCAqqAmRUCilgdGzNSaDHFQ/m3u8",
       "http://181.119.215.61:8000/play/a0g1/index.m3u8",
       "http://66.102.120.18:8000/play/a013/index.m3u8",
-      "http://iptvcasomsapi.jprdigital.in/x-media/C0406/master.m3u8"
+      "http://iptvcasomsapi.jprdigital.in/x-media/C0406/master.m3u8",
+      "https://kingkohli.pages.dev/Play/DisneyHD_Watch_index.m3u8"
     ],
     "user_reported_wrong_channel": [
       "http://181.119.215.61:8000/play/a0g1/index.m3u8"
@@ -593,10 +592,11 @@
     "identity_must_match": "Disney Channel Hindi, NOT Disney Junior",
     "strict_hd_manifest": true,
     "quality_note": "Never show unknown-resolution or Disney Junior feed under Disney Hindi HD. Require an HLS master advertising >=720p and confirmed channel identity by the viewer.",
-    "experiment_note": "2026-10-23: User says previous 3 test feeds fail on Link3. Replaced with sourced public HTTPS relay/CDN-style viewer trial. Published Disney HD named Cloudflare Pages relay; GitHub manifest check passed but video-segment check did not. Never label these as verified until IPTV Pro playback is confirmed.",
+    "experiment_note": "2026-10-23: Viewer confirmed ALL three prior CDN/relay TEST sources fail on Link3. Do not publish unverified replacements. New sources being checked automatically; only real video-segment verified candidates considered, followed by viewer confirmation.",
     "user_reported_failures": [
       "http://66.102.120.18:8000/play/a013/index.m3u8",
-      "http://iptvcasomsapi.jprdigital.in/x-media/C0406/master.m3u8"
+      "http://iptvcasomsapi.jprdigital.in/x-media/C0406/master.m3u8",
+      "https://kingkohli.pages.dev/Play/DisneyHD_Watch_index.m3u8"
     ]
   },
   {
@@ -649,18 +649,18 @@
       "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
       "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
       "https://madanitv.assadikb.workers.dev/live.php?id=815&e=.m3u8",
-      "http://iptvcasomsapi.jprdigital.in/x-media/C0407/master.m3u8"
-    ],
-    "allow_unverified": true,
-    "experimental_urls": [
+      "http://iptvcasomsapi.jprdigital.in/x-media/C0407/master.m3u8",
       "https://sflex07.fun:443/07/jio/app/ts_live_815.m3u8"
     ],
+    "allow_unverified": false,
+    "experimental_urls": [],
     "user_reported_failures": [
       "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
       "https://madanitv.assadikb.workers.dev/live.php?id=815&e=.m3u8",
-      "http://iptvcasomsapi.jprdigital.in/x-media/C0407/master.m3u8"
+      "http://iptvcasomsapi.jprdigital.in/x-media/C0407/master.m3u8",
+      "https://sflex07.fun:443/07/jio/app/ts_live_815.m3u8"
     ],
-    "experiment_note": "2026-10-23: User says previous 3 test feeds fail on Link3. Replaced with sourced public HTTPS relay/CDN-style viewer trial. Public Jio kids playlist labels channel ID 815 Sonic Hindi; Link3 and runner playback unverified. Never label these as verified until IPTV Pro playback is confirmed."
+    "experiment_note": "2026-10-23: Viewer confirmed ALL three prior CDN/relay TEST sources fail on Link3. Do not publish unverified replacements. New sources being checked automatically; only real video-segment verified candidates considered, followed by viewer confirmation."
   },
   {
     "name": "Sonic Bangla",
@@ -674,19 +674,19 @@
     "last_known_url": "",
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
-    "allow_unverified": true,
-    "experimental_urls": [
-      "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=1345"
-    ],
+    "allow_unverified": false,
+    "experimental_urls": [],
     "exclude_urls": [
       "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sonic",
       "https://madanitv.assadikb.workers.dev/live.php?id=1345&e=.m3u8",
-      "http://103.182.170.32:8888/play/a02s"
+      "http://103.182.170.32:8888/play/a02s",
+      "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=1345"
     ],
-    "experiment_note": "2026-10-23: User says previous 3 test feeds fail on Link3. Replaced with sourced public HTTPS relay/CDN-style viewer trial. Published October 2026 Cloudflare Worker relay for Sonic Bangla ID 1345; Link3 and runner playback unverified. Never label these as verified until IPTV Pro playback is confirmed.",
+    "experiment_note": "2026-10-23: Viewer confirmed ALL three prior CDN/relay TEST sources fail on Link3. Do not publish unverified replacements. New sources being checked automatically; only real video-segment verified candidates considered, followed by viewer confirmation.",
     "user_reported_failures": [
       "https://madanitv.assadikb.workers.dev/live.php?id=1345&e=.m3u8",
-      "http://103.182.170.32:8888/play/a02s"
+      "http://103.182.170.32:8888/play/a02s",
+      "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=1345"
     ]
   },
   {
