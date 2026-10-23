@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T08:57:36.914798+00:00",
-  "channels": 79,
+  "updated_utc": "2026-10-23T09:07:28.939700+00:00",
+  "channels": 70,
   "target_channels": 104,
   "groups": {
     "01 | BD News": 18,
@@ -12,9 +12,9 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 286,
+  "remote_manifests_probed": 280,
   "media_segments_probed": 0,
-  "experimental_unverified": 9,
+  "experimental_unverified": 0,
   "sources": [
     {
       "source": "iptv-bd",
@@ -301,7 +301,7 @@
     },
     {
       "name": "Gazi TV",
-      "state": "FALLBACK_NOT_REVERIFIED",
+      "state": "REMOTE_MANIFEST_REACHABLE",
       "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -665,8 +665,8 @@
     },
     {
       "name": "Disney HD Hindi",
-      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
-      "stream": "http://lifetvbd.xyz:8080/play/c-CHSxllrYcCvZWsMzkBPCAqqAmRUCilgdGzNSaDHFQ/m3u8",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -679,22 +679,22 @@
     },
     {
       "name": "Nick Hindi",
-      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
-      "stream": "https://jiotvmblive.cdn.jio.com/bpk-tv/Nick_voot_MOB/output03/index.m3u8",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Sonic Hindi",
-      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
-      "stream": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Sonic Bangla",
-      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
-      "stream": "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sonic",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -798,54 +798,54 @@
     },
     {
       "name": "Sony Ten 1 HD",
-      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
-      "stream": "https://dai.google.com/linear/hls/event/wG75n5U8RrOKiFzaWObXbA/master.m3u8",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Sony Ten 3 HD",
-      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
-      "stream": "https://dai.google.com/linear/hls/event/ltsCG7TBSCSDmyq0rQtvSA/master.m3u8",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Discovery Bangla",
-      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
-      "stream": "https://streamitv.multitvsolution.in/idvo/discoverybengali.m3u8",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Nat Geo HD Bangla",
-      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
-      "stream": "http://tv.pmcon.net/hls/stream13.m3u8",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Sony MAX HD",
-      "state": "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED",
-      "stream": "https://dai.google.com/linear/hls/event/UcjHNJmCQ1WRlGKlZm73QA/master.m3u8",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null,
       "manifest_height": 0,
       "media_segment_checked": false
     }
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 79,
+    "logo_count": 70,
     "methods": {
-      "current-broadcaster": 47,
+      "current-broadcaster": 43,
       "verified-recent-provider-logo": 18,
-      "text-fallback": 14
+      "text-fallback": 9
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 79,
-    "from_image_sources": 67,
-    "clear_name_fallbacks": 12,
+    "total": 70,
+    "from_image_sources": 61,
+    "clear_name_fallbacks": 9,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
   }
