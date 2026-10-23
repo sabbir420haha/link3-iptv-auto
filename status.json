@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T10:43:13.245803+00:00",
+  "updated_utc": "2026-10-23T10:44:10.295434+00:00",
   "channels": 79,
   "target_channels": 104,
   "groups": {
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 309,
+  "remote_manifests_probed": 308,
   "media_segments_probed": 1,
   "experimental_unverified": 0,
   "backup_streams": [],
@@ -23,6 +23,13 @@
         {
           "source": "curated-candidate",
           "url": "https://tvsen7.aynaott.com/disney/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://live.dinesh29.com.np/stream/jiotvplus/disneychannel/master.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -50,6 +57,13 @@
         },
         {
           "source": "curated-candidate",
+          "url": "http://116.90.120.149:8000/play/a0bx/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "http://66.102.126.10:8000/play/a013/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -65,20 +79,6 @@
         {
           "source": "curated-candidate",
           "url": "http://103.162.136.235:4500/play/a01g/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://202.70.146.135:8000/play/a01q/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/8f3e6367117c923.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -132,6 +132,13 @@
         },
         {
           "source": "curated-candidate",
+          "url": "http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "http://103.72.101.252:8080/live/815.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -174,6 +181,13 @@
         {
           "source": "curated-candidate",
           "url": "https://edge01.iptv.digijadoo.net/live/sonic/playlist.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -288,6 +302,13 @@
         },
         {
           "source": "curated-candidate",
+          "url": "http://103.229.254.25:7001/play/a03g/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "http://103.107.79.87:8080/CH8110HD08/tracks-v1a1/mono.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -296,13 +317,6 @@
         {
           "source": "curated-candidate",
           "url": "http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/61.ts",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "Zaman-Active",
-          "url": "http://202.70.146.135:8000/play/a05z/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
