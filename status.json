@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T11:23:09.905326+00:00",
+  "updated_utc": "2026-10-23T11:24:05.964229+00:00",
   "channels": 74,
   "target_channels": 98,
   "groups": {
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 314,
+  "remote_manifests_probed": 317,
   "media_segments_probed": 1,
   "experimental_unverified": 0,
   "backup_streams": [],
@@ -58,13 +58,6 @@
         {
           "source": "curated-candidate",
           "url": "https://prox.assadikb.workers.dev/watch/1373JP",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/19741.ts",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -216,6 +209,13 @@
         },
         {
           "source": "curated-candidate",
+          "url": "https://colorsscreen.com/live.php?id=815&extension=.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://madanitv.assadikb.workers.dev/live.php?id=815&e=.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -259,6 +259,13 @@
         {
           "source": "curated-candidate",
           "url": "http://103.162.136.235:4500/play/a01k/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.68.28.58:5001/live/815.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -313,6 +320,13 @@
         },
         {
           "source": "curated-candidate",
+          "url": "https://colorsscreen.com/live.php?id=1345&extension=.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://madanitv.assadikb.workers.dev/live.php?id=1345&e=.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -342,6 +356,13 @@
         {
           "source": "curated-candidate",
           "url": "https://edge01.iptv.digijadoo.net/live/sonic/playlist.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.68.28.58:5001/live/1345.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
