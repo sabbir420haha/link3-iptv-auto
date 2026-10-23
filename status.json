@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T11:43:13.957490+00:00",
+  "updated_utc": "2026-10-23T11:47:01.190458+00:00",
   "channels": 74,
   "target_channels": 98,
   "groups": {
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 317,
+  "remote_manifests_probed": 323,
   "media_segments_probed": 1,
   "experimental_unverified": 0,
   "backup_streams": [],
@@ -37,6 +37,20 @@
         {
           "source": "curated-candidate",
           "url": "https://tvsen7.aynaott.com/disney/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://feed.play.mv/live/10005200/QjZ4g9TmAa/master.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://app-re.sm-monirul-islam-rs.workers.dev/disney-channel-hindi/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -141,6 +155,13 @@
         },
         {
           "source": "curated-candidate",
+          "url": "http://70.39.83.58:8278/disneychannelhindikdin/playlist.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "http://103.182.170.32:8888/play/a04g",
           "manifest_ok": false,
           "segment_ok": false,
@@ -217,6 +238,20 @@
         {
           "source": "curated-candidate",
           "url": "https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://playyonogames.in/live.php?id=815&format=.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -328,6 +363,20 @@
         {
           "source": "curated-candidate",
           "url": "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://playyonogames.in/live.php?id=1345&format=.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -545,8 +594,8 @@
     },
     {
       "source": "iptv-entertainment",
-      "count": 896,
-      "error": null
+      "count": 0,
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "source": "iptv-documentary",
