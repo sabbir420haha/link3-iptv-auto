@@ -616,7 +616,9 @@
     "locked": false,
     "last_known_url": "",
     "quality": "hd",
-    "min_height": 720
+    "min_height": 720,
+    "requires_media_segment": true,
+    "skip_unverified_fallback": true
   },
   {
     "name": "Disney SD",
@@ -631,10 +633,15 @@
     "aliases": [
       "Nickelodeon Hindi",
       "Nick Hindi",
-      "Nick SD Hindi"
+      "Nick SD Hindi",
+      "Nickelodeon",
+      "Nickelodeon SD Hindi",
+      "Nick HD Hindi"
     ],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "requires_media_segment": true,
+    "skip_unverified_fallback": true
   },
   {
     "name": "Sonic Hindi",
@@ -642,10 +649,15 @@
     "aliases": [
       "Nick Sonic Hindi",
       "Sonic Nickelodeon HD",
-      "Sonic Hindi"
+      "Sonic Hindi",
+      "Nick Sonic",
+      "Nickelodeon Sonic Hindi",
+      "Sonic Bangla"
     ],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "requires_media_segment": true,
+    "skip_unverified_fallback": true
   },
   {
     "name": "Duronto TV",
@@ -758,7 +770,9 @@
     "locked": false,
     "last_known_url": "",
     "quality": "hd",
-    "min_height": 720
+    "min_height": 720,
+    "requires_media_segment": true,
+    "skip_unverified_fallback": true
   },
   {
     "name": "Sony Ten 3 HD",
@@ -771,7 +785,9 @@
     "locked": false,
     "last_known_url": "",
     "quality": "hd",
-    "min_height": 720
+    "min_height": 720,
+    "requires_media_segment": true,
+    "skip_unverified_fallback": true
   },
   {
     "name": "Discovery Bangla",
@@ -782,7 +798,12 @@
       "Discovery Bangla 2"
     ],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "requires_media_segment": true,
+    "skip_unverified_fallback": true,
+    "exclude_urls": [
+      "https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8"
+    ]
   },
   {
     "name": "Nat Geo HD Bangla",
@@ -793,7 +814,9 @@
       "Nat Geo Bangla"
     ],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "requires_media_segment": true,
+    "skip_unverified_fallback": true
   },
   {
     "name": "Sony MAX HD",
@@ -804,6 +827,8 @@
     "locked": false,
     "last_known_url": "",
     "quality": "hd",
-    "min_height": 720
+    "min_height": 720,
+    "requires_media_segment": true,
+    "skip_unverified_fallback": true
   }
 ]
