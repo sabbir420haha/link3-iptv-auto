@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T12:25:03.649997+00:00",
+  "updated_utc": "2026-10-23T12:36:51.562555+00:00",
   "channels": 74,
   "target_channels": 98,
   "groups": {
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 330,
+  "remote_manifests_probed": 333,
   "media_segments_probed": 2,
   "experimental_unverified": 0,
   "backup_streams": [],
@@ -99,6 +99,13 @@
         },
         {
           "source": "curated-candidate",
+          "url": "https://hey-lookme.shop/live.php?id=1373",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://raw.githubusercontent.com/Hasanmahmud000/Yt/main/Disney_Channel_HD.index.m3u8",
           "manifest_ok": true,
           "segment_ok": false,
@@ -114,6 +121,13 @@
         {
           "source": "curated-candidate",
           "url": "https://yowaimo.in/Sflex-ArtlPVT0719/DISNEY_CHANNEL.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://206.212.244.63/650/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -170,27 +184,6 @@
         {
           "source": "curated-candidate",
           "url": "http://202.70.146.135:8000/play/a01q/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://88.212.15.19/live/test_disney/playlist.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://70.39.83.58:8278/disneychannelhindikdin/playlist.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.182.170.32:8888/play/a04g",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -272,6 +265,20 @@
         },
         {
           "source": "curated-candidate",
+          "url": "https://hey-lookme.shop/live.php?id=815",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://jio.instream.ml/jio.php?c=sonic_Hindi&q=600&e=.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=815",
           "manifest_ok": false,
           "segment_ok": false,
@@ -301,6 +308,13 @@
         {
           "source": "curated-candidate",
           "url": "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://202.70.146.135:8000/play/a02t/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -360,34 +374,6 @@
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.72.101.252:8080/live/815.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
         }
       ],
       "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
@@ -419,6 +405,20 @@
         {
           "source": "curated-candidate",
           "url": "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://hey-lookme.shop/live.php?id=1345",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://jio.instream.ml/jio.php?c=Sonic_Bangla&q=600&e=.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
