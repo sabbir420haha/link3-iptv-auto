@@ -358,8 +358,10 @@ def clean(value):
 
 def main():
     channels = json.loads(CATALOG.read_text(encoding="utf-8"))
-    if len(channels) < 101 or sum(bool(x.get("locked")) for x in channels) != 4:
-        raise ValueError("Channel catalog or pinned list unexpectedly changed")
+    required_pins = {"Hungama", "Sony Aath", "Channel 24", "Independent TV"}
+    actual_pins = {x["name"] for x in channels if x.get("locked")}
+    if len(channels) < 101 or not required_pins.issubset(actual_pins):
+        raise ValueError("Channel catalog or original pinned streams unexpectedly changed")
     previous = {}
     if OUTPUT.exists():
         for c in parse_m3u(OUTPUT.read_text(encoding="utf-8")):
