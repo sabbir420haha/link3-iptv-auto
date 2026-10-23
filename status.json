@@ -1,18 +1,18 @@
 {
-  "updated_utc": "2026-10-23T10:47:44.979329+00:00",
-  "channels": 79,
-  "target_channels": 104,
+  "updated_utc": "2026-10-23T11:00:26.723955+00:00",
+  "channels": 73,
+  "target_channels": 98,
   "groups": {
-    "01 | BD News": 18,
-    "02 | BD General & Entertainment": 34,
-    "03 | Indian Bangla": 19,
+    "01 | BD News": 16,
+    "02 | BD General & Entertainment": 32,
+    "03 | Indian Bangla": 17,
     "04 | Kids": 14,
     "05 | BD Kids": 1,
     "06 | Sports": 15,
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 308,
+  "remote_manifests_probed": 288,
   "media_segments_probed": 1,
   "experimental_unverified": 0,
   "backup_streams": [],
@@ -87,10 +87,10 @@
       "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
     },
     {
-      "name": "Nick Hindi",
+      "name": "Nick Bangla",
       "candidates": [
         {
-          "source": "curated-candidate",
+          "source": "seed",
           "url": "http://103.135.253.32:8080/NICK/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -559,13 +559,6 @@
       "media_segment_checked": false
     },
     {
-      "name": "Jago News 24",
-      "state": "FALLBACK_NOT_REVERIFIED",
-      "stream": "https://app.ncare.live/live-orgin/jagonews24.stream/playlist.m3u8",
-      "manifest_height": 0,
-      "media_segment_checked": false
-    },
-    {
       "name": "Bijoy TV",
       "state": "REMOTE_MANIFEST_REACHABLE",
       "stream": "https://drk6xq0vhn.gpcdn.net/live/bijoy_tv_abr/index.m3u8",
@@ -590,13 +583,6 @@
       "name": "News 21 Bangla TV",
       "state": "REMOTE_MANIFEST_REACHABLE",
       "stream": "http://103.190.133.68:1935/news21live/live/playlist.m3u8",
-      "manifest_height": 0,
-      "media_segment_checked": false
-    },
-    {
-      "name": "TBN24",
-      "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "http://cdn01.palki.tv/live/TBN24-M/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -685,13 +671,6 @@
       "media_segment_checked": false
     },
     {
-      "name": "Green TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/greentv.stream/index.m3u8",
-      "manifest_height": 0,
-      "media_segment_checked": false
-    },
-    {
       "name": "My TV",
       "state": "REMOTE_MANIFEST_REACHABLE",
       "stream": "https://tvsen6.aynaott.com/XMpHaEf0ANBhv8w6NWR7/index.m3u8",
@@ -720,13 +699,6 @@
       "media_segment_checked": false
     },
     {
-      "name": "Nexus TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8",
-      "manifest_height": 0,
-      "media_segment_checked": false
-    },
-    {
       "name": "Rajdhani TV",
       "state": "REMOTE_MANIFEST_REACHABLE",
       "stream": "https://drk6xq0vhn.gpcdn.net/live/rajdhani_tv/index.m3u8",
@@ -742,7 +714,7 @@
     },
     {
       "name": "NAN TV",
-      "state": "FALLBACK_NOT_REVERIFIED",
+      "state": "REMOTE_MANIFEST_REACHABLE",
       "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -870,20 +842,6 @@
       "name": "Star Jalsha",
       "state": "REMOTE_MANIFEST_REACHABLE",
       "stream": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8",
-      "manifest_height": 0,
-      "media_segment_checked": false
-    },
-    {
-      "name": "Colors Bangla",
-      "state": "FALLBACK_NOT_REVERIFIED",
-      "stream": "http://flowutc.com:80/live/MAGTF8AV71/bUiJLEJKG5/76179.ts",
-      "manifest_height": 0,
-      "media_segment_checked": false
-    },
-    {
-      "name": "Aakaash Aath",
-      "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://tvsen5.aynaott.com/Wm9Lv2RjZGT6/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1056,7 +1014,7 @@
       "media_segment_checked": false
     },
     {
-      "name": "Nick Hindi",
+      "name": "Nick Bangla",
       "state": "PINNED_USER_WORKING",
       "stream": "http://103.135.253.32:8080/NICK/index.m3u8",
       "manifest_height": 0,
@@ -1212,18 +1170,18 @@
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 79,
+    "logo_count": 73,
     "methods": {
-      "current-broadcaster": 51,
-      "verified-recent-provider-logo": 18,
-      "text-fallback": 10
+      "current-broadcaster": 47,
+      "verified-recent-provider-logo": 15,
+      "text-fallback": 11
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 79,
-    "from_image_sources": 69,
-    "clear_name_fallbacks": 10,
+    "total": 73,
+    "from_image_sources": 62,
+    "clear_name_fallbacks": 11,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
   },
