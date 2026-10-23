@@ -58,6 +58,8 @@ EXTRA_CANDIDATES = {
     # New candidates from published GitHub playlists; none are claimed working.
     # Segment testing from GitHub Actions determines if they are published.
     "Discovery Bangla": [
+        # Named Discovery Bangla in independent public catalogues.
+        "http://103.229.254.25:7001/play/a03g/index.m3u8",
         "http://103.107.79.87:8080/CH8110HD08/tracks-v1a1/mono.m3u8",
         "https://cdn1-freeiptv25.vercel.app/m3u/discoverybengali.m3u8",
         "https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_19.m3u8",
@@ -68,6 +70,10 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        # Listed as Disney CHANNEL (not Junior) by the Indian IPTV catalogues.
+        # The first is SD and NOT asserted to be HD or Hindi-audio verified.
+        "http://116.90.120.149:8000/play/a0bx/index.m3u8",
+        "https://live.dinesh29.com.np/stream/jiotvplus/disneychannel/master.m3u8",
         "https://tvsen7.aynaott.com/disney/index.m3u8",
         "https://yowaimo.in/Sflex-ArtlPVT0719/DISNEY_CHANNEL.m3u8",
         "http://181.119.215.61:8000/play/a0g1/index.m3u8",
@@ -105,6 +111,7 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        "http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8",
         "http://103.151.60.162:2122/play/a02v/index.m3u8?hls",
         "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
         "http://103.229.254.25:7001/play/a0dl/index.m3u8",
@@ -114,6 +121,7 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        "http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8",
         "https://snehjiotv.in1.bitmana.io/snehjioox.php?c=Sonic_Bangla&q=1200&e=junk.m3u8",
         "https://edge01.iptv.digijadoo.net/live/sonic/chunks.m3u8",
         "https://edge01.iptv.digijadoo.net/live/sonic/playlist.m3u8",
