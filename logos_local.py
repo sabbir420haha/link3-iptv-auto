@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build compact white-card 320x220 PNG for every IPTV channel.
+"""Build tight-fit transparent PNG logos for IPTV Pro (no extra tile).
 Never changes stream URLs. Prefer exact Indian broadcaster logos and provider image
 sources; otherwise use a clearly labelled custom channel-name placeholder.
 """
@@ -78,54 +78,59 @@ def font(size):
     return ImageFont.load_default()
 
 def card(name, img):
-    """Reference-TV look: compact white logo cards with centered, uncropped art.
+    """Export the broadcaster logo itself: no app-within-an-app white card.
 
-    Keep the whole brand mark inside a 320x220 white tile. Crop only genuinely
-    transparent or empty near-white source margins, never the brand artwork.
+    Native-aspect RGBA PNG, closely trimmed, with only four transparent pixels
+    of safety around the mark. IPTV Pro is responsible for its own display tile.
     """
-    canvas = Image.new("RGBA", (320, 220), (255, 255, 255, 255))
-    painter = ImageDraw.Draw(canvas)
-    painter.rounded_rectangle((1, 1, 318, 218), radius=9,
-                              outline=(222, 226, 232, 255), width=2)
     if img is not None:
-        work = img.convert("RGBA")
-        alpha = work.getchannel("A")
-        if alpha.getextrema()[0] < 240:
-            # An alpha threshold protects anti-aliased brand edges.
-            bounds = alpha.point(lambda v: 255 if v >= 16 else 0).getbbox()
-            if bounds and bounds[2]-bounds[0] > 10 and bounds[3]-bounds[1] > 10:
-                work = work.crop(bounds)
-        else:
-            # Trim empty white borders in opaque source logo files.
-            # Only do so when its four outer corners are nearly white.
-            rgb = work.convert("RGB")
-            w, h = rgb.size
-            corners = [rgb.getpixel(xy) for xy in
-                       [(0, 0), (w-1, 0), (0, h-1), (w-1, h-1)]]
-            if all(min(pixel) >= 245 for pixel in corners):
-                from PIL import ImageChops
-                delta = ImageChops.difference(
-                    rgb, Image.new("RGB", rgb.size, (255, 255, 255)))
-                bounds = delta.convert("L").point(
-                    lambda v: 255 if v >= 22 else 0).getbbox()
-                if bounds and bounds[2]-bounds[0] > 10 and bounds[3]-bounds[1] > 10:
-                    work = work.crop(bounds)
-        work.thumbnail((272, 168), Image.Resampling.LANCZOS)
-        x, y = (320-work.width)//2, (220-work.height)//2
-        canvas.alpha_composite(work, (x, y))
-        return canvas.convert("RGB"), "brand"
+        artwork = img.convert("RGBA")
+        # Bound remote image processing; shrink before scanning its edges.
+        artwork.thumbnail((860, 860), Image.Resampling.LANCZOS)
+        alpha = artwork.getchannel("A")
+        if alpha.getextrema()[0] >= 245:
+            # An opaque image can have a large white canvas baked into it.
+            # Remove *only edge-connected* near-white, not white enclosed inside
+            # an actual channel emblem (such as a Sony roundel).
+            w, h = artwork.size
+            corners = [(0, 0), (w-1, 0), (0, h-1), (w-1, h-1)]
+            if all(min(artwork.getpixel(xy)[:3]) >= 240 for xy in corners):
+                for xy in corners:
+                    if artwork.getpixel(xy)[3] > 0:
+                        ImageDraw.floodfill(
+                            artwork, xy, (255, 255, 255, 0), thresh=24)
+        mask = artwork.getchannel("A").point(
+            lambda v: 255 if v >= 13 else 0)
+        bounds = mask.getbbox()
+        if bounds and bounds[2]-bounds[0] >= 12 and bounds[3]-bounds[1] >= 12:
+            artwork = artwork.crop(bounds)
+            # Do not stretch wide logos to square, or make circular marks wide.
+            artwork.thumbnail((308, 188), Image.Resampling.LANCZOS)
+            padding = 4
+            result = Image.new("RGBA",
+                               (artwork.width + 2*padding,
+                                artwork.height + 2*padding),
+                               (0, 0, 0, 0))
+            result.alpha_composite(artwork, (padding, padding))
+            return result, "brand"
 
-    # Clean dark text on white for stations without a genuine brand logo.
-    parts = textwrap.wrap(name, width=19, break_long_words=False)[:3]
-    display = "\n".join(parts)
-    chosen = font(30 if len(name) < 20 else 25 if len(name) < 31 else 21)
-    bounds = painter.multiline_textbbox(
-        (0, 0), display, font=chosen, spacing=6, align="center")
-    height = bounds[3] - bounds[1]
-    painter.multiline_text(
-        (160, 106-height//2), display, font=chosen,
-        fill=(36, 54, 82, 255), anchor="ma", spacing=6, align="center")
-    return canvas.convert("RGB"), "fallback"
+    # No genuine image? Keep an honest readable text fallback, also tightly
+    # cropped and transparent rather than manufacturing a white logo card.
+    rows = textwrap.wrap(name, width=18, break_long_words=False)[:3]
+    label = "\n".join(rows)
+    chosen = font(31 if len(name) < 20 else 24 if len(name) < 31 else 19)
+    measure = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+    bbox = measure.multiline_textbbox((0, 0), label, font=chosen,
+                                      spacing=5, align="center")
+    w = max(88, min(314, bbox[2]-bbox[0]+14))
+    h = max(38, min(198, bbox[3]-bbox[1]+14))
+    result = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    painter = ImageDraw.Draw(result)
+    painter.multiline_text((w//2, h//2), label, font=chosen,
+                            fill=(30, 51, 79, 255), anchor="mm",
+                            spacing=5, align="center",
+                            stroke_width=0)
+    return result, "fallback"
 
 def process(line):
     name_match=re.search(r'tvg-name="([^"]+)"',line)
@@ -150,7 +155,9 @@ def process(line):
     result,kind=card(name,selected)
     path=IMAGES/filename
     stream=io.BytesIO()
-    result.quantize(colors=192, method=Image.Quantize.MEDIANCUT, dither=Image.Dither.NONE).save(stream, format="PNG", optimize=True)
+    # Palette mode keeps transparency while minimizing download weight.
+    result.quantize(colors=192, method=Image.Quantize.FASTOCTREE,
+                    dither=Image.Dither.NONE).save(stream, format="PNG", optimize=True)
     raw=stream.getvalue()
     if not path.exists() or path.read_bytes()!=raw:
         path.write_bytes(raw)
@@ -169,7 +176,7 @@ def main():
             name=name_match.group(1) if name_match else line.rsplit(",",1)[-1].strip()
             filename,_=mapping[name]
             # Versioned URL refreshes IPTV Pro logo cache when image layout changes.
-            uri=ROOT_URL+filename+"?v=whitecard20261023"
+            uri=ROOT_URL+filename+"?v=iptv-tightfit-20261023"
             if 'tvg-logo="' in line:
                 line=re.sub(r'tvg-logo="[^"]*"',f'tvg-logo="{uri}"',line,count=1)
             else:
@@ -180,8 +187,8 @@ def main():
     if STATUS.exists():
         status=json.loads(STATUS.read_text(encoding="utf-8"))
         status["local_logos"]={"total":len(result),"from_image_sources":statuses["brand"],
-                "clear_name_fallbacks":statuses["fallback"],"size":"320x220 PNG; white background, centered original-proportion brand marks",
-                "note":"Every M3U logo points to a centered locally cached image. Brand marks keep original proportions; fallback names are not broadcaster originals."}
+                "clear_name_fallbacks":statuses["fallback"],"size":"variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
+                "note":"Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."}
         STATUS.write_text(json.dumps(status,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     print("Local channel logos:",dict(statuses),"total",len(result))
 
