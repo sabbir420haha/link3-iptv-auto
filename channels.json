@@ -812,8 +812,8 @@
       "Sony Ten 1 HD",
       "Sony Ten 1 Hd"
     ],
-    "locked": false,
-    "last_known_url": "",
+    "locked": true,
+    "last_known_url": "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_abr/index.m3u8",
     "quality": "hd",
     "min_height": 720,
     "requires_media_segment": true,
@@ -826,7 +826,9 @@
     ],
     "user_reported_failures": [
       "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8"
-    ]
+    ],
+    "user_verified_link3": true,
+    "user_confirmed_at": "2026-10-23"
   },
   {
     "name": "Sony Ten 3 HD",
@@ -895,8 +897,8 @@
     "aliases": [
       "Sony Max HD"
     ],
-    "locked": false,
-    "last_known_url": "",
+    "locked": true,
+    "last_known_url": "https://stream.ottplus.live/live/max_hd_abr/index.m3u8",
     "quality": "hd",
     "min_height": 720,
     "requires_media_segment": true,
@@ -913,6 +915,8 @@
     ],
     "user_reported_failures": [
       "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8"
-    ]
+    ],
+    "user_verified_link3": true,
+    "user_confirmed_at": "2026-10-23"
   }
 ]
