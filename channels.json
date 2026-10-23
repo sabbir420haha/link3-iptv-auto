@@ -622,8 +622,13 @@
     "allow_unverified": false,
     "experimental_urls": [],
     "exclude_urls": [
-      "http://lifetvbd.xyz:8080/play/c-CHSxllrYcCvZWsMzkBPCAqqAmRUCilgdGzNSaDHFQ/m3u8"
-    ]
+      "http://lifetvbd.xyz:8080/play/c-CHSxllrYcCvZWsMzkBPCAqqAmRUCilgdGzNSaDHFQ/m3u8",
+      "http://181.119.215.61:8000/play/a0g1/index.m3u8"
+    ],
+    "user_reported_wrong_channel": [
+      "http://181.119.215.61:8000/play/a0g1/index.m3u8"
+    ],
+    "identity_must_match": "Disney Channel Hindi, NOT Disney Junior"
   },
   {
     "name": "Disney SD",
@@ -844,8 +849,8 @@
       "Sony Sports Ten 3 Hindi HD",
       "Sony Ten 3 Hd"
     ],
-    "locked": false,
-    "last_known_url": "",
+    "locked": true,
+    "last_known_url": "http://103.135.253.32:8080/TEN-3/index.m3u8",
     "quality": "hd",
     "min_height": 720,
     "requires_media_segment": true,
@@ -858,7 +863,10 @@
     ],
     "user_reported_failures": [
       "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8"
-    ]
+    ],
+    "user_verified_link3": true,
+    "user_confirmed_at": "2026-10-23",
+    "user_quality_feedback": "User confirms channel plays on Link3 but perceived image sharpness/resolution is low. Do not replace working URL. Try alternate high-quality stream separately."
   },
   {
     "name": "Discovery Bangla",
