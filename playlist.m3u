@@ -156,6 +156,3 @@ https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8
 http://103.135.253.32:8080/NATGEO-HD/index.m3u8
 #EXTINF:-1 tvg-name="Sony MAX HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png" group-title="08 | Hindi Entertainment",Sony MAX HD
 https://stream.ottplus.live/live/max_hd_abr/index.m3u8
-#EXTINF:-1 tvg-name="Disney HD Hindi" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="04 | Kids",Disney HD Hindi
-#EXTVLCOPT:http-user-agent=RANAPK
-http://ranapkz.site/TATABD/play.php?id=167551&format=.m3u8
