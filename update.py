@@ -31,6 +31,10 @@ SOURCES = [
     ("Mrgify-Mixed-BDIX", "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/main/playlist.m3u"),
     ("SM-IPTV", "https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/Combined_Live_TV.m3u"),
     ("iptv-org-india-raw", "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in.m3u"),
+    ("indian-kids-special", "https://raw.githubusercontent.com/arshdeep1112/Indian-IPTV/main/channels/iptv_kids.m3u8"),
+    ("Bengali-public-collection", "https://raw.githubusercontent.com/skmasum98/IPTV/master/myiptv.m3u8"),
+    ("public-SonyLIV-candidates", "https://raw.githubusercontent.com/PrattoySaha/IPTV/main/Not%20working.m3u8"),
+    ("public-Indian-family-candidates", "https://raw.githubusercontent.com/anasselkadii/jcartoondashboard/main/epesodes/toffee.m3u8"),
 ]
 
 # These are candidate public URLs only, not a guarantee of rights or playback.
@@ -108,7 +112,7 @@ def allowed(url, locked=False):
         host = p.hostname.lower().strip(".")
         if host == "localhost" or host.endswith((".local", ".internal", ".lan")):
             return False
-        if any(x in host for x in ("bdix", "tplay", "t-play")):
+        if any(x in url.lower() for x in ("bdix", "tplay", "t-play", "192.168.", "10.0.0.")):
             return False
         if any(x in p.query.lower() for x in ("token=", "auth=", "expires=", "signature=", "hdnea=", "session=")):
             return False
@@ -359,6 +363,7 @@ def main():
         segments = dict(zip(priority_urls, pool.map(segment_probe, priority_urls)))
 
     used = set()
+    experimental_count = 0
     output = ["#EXTM3U", "# Curated IPTV Pro: refreshed by GitHub Actions every 6 hours.",
               "# Manifest checks occur on GitHub, not the user's Link3 Wi-Fi."]
     report = []
@@ -387,10 +392,18 @@ def main():
                 if old and not item.get("quality") and not item.get("skip_unverified_fallback") and allowed(old) and matches_channel(item, old) and old not in item.get("exclude_urls",[]) and old not in used:
                     chosen = {"url": old, "logo": "", "source": "fallback"}
                     state = "FALLBACK_NOT_REVERIFIED"
+            if not chosen and item.get("allow_unverified"):
+                for candidate_url in item.get("experimental_urls", []):
+                    if (allowed(candidate_url) and candidate_url not in item.get("exclude_urls", [])
+                            and candidate_url not in used and matches_channel(item,candidate_url)):
+                        chosen = {"url": candidate_url, "logo": "", "source": "experimental"}
+                        state = "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED"
+                        experimental_count += 1
+                        break
         if chosen and chosen["url"] not in used:
             used.add(chosen["url"])
             name = clean(item["name"])
-            group = clean(item["group"])
+            group = clean("98 | TEST - Unverified Non-BDIX" if state == "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED" else item["group"])
             logo = clean(chosen.get("logo", ""))
             output.append(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}')
             output.append(chosen["url"])
@@ -407,9 +420,10 @@ def main():
     summary = {"updated_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
                "channels": len(used), "target_channels": len(channels),
                "groups": dict(Counter(x["group"] for x in channels)),
-               "remote_manifests_probed": len(health), "media_segments_probed": len(segments), "sources": source_stats,
+               "remote_manifests_probed": len(health), "media_segments_probed": len(segments),
+               "experimental_unverified": experimental_count, "sources": source_stats,
                "channel_status": report,
-               "warning": "Remote HLS check does not guarantee Link3 playback, picture quality, buffering or access rights"}
+               "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering"}
     REPORT.write_text(json.dumps(summary, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print("Published", len(used), "streams from", len(channels), "targets")
 
