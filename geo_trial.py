@@ -8,27 +8,10 @@ from pathlib import Path
 from logos_local import read_image, card, slug
 ROOT=Path(__file__).resolve().parent
 URL_BASE="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/"
-TRIALS={
- "Discovery Bangla":[
-   ("KITV TS (Bangla label, old public source)","http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/61.ts"),
-   ("Discovery Bengali (old public HLS)","https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_21.m3u8"),
- ],
- "Disney HD Hindi":[
-   ("Disney Channel HD IN (Hindi audio NOT confirmed)","http://66.102.126.10:8000/play/a013/index.m3u8"),
-   ("Disney International HD (Hindi audio NOT confirmed)","http://116.90.120.151:8000/play/a0hp/index.m3u8"),
- ],
- "Nat Geo HD Bangla":[
-   ("Nat Geo Bangla HD (old published HLS)","http://103.167.167.5:8111/play/a036/index.m3u8"),
- ],
- "Nick Hindi":[
-   ("Nick India (Hindi audio NOT confirmed)","http://103.162.136.235:4500/play/a01f/index.m3u8"),
-   ("Nick India (second source, audio NOT confirmed)","http://149.71.34.166:8000/play/a00u/index.m3u8"),
- ],
- "Sonic Bangla":[
-   ("Bangladesh Sonic, language NOT confirmed","https://edge01.iptv.digijadoo.net/live/sonic/playlist.m3u8"),
-   ("Sonic Bangla (alternative, language NOT confirmed)","http://live.balajibroadband.com:3500/live/1345.m3u8"),
- ],
-}
+# User has confirmed every previous geo-trial candidate fails on Link3.
+# Publish no misleading old candidates. Populate only after new user-confirmed feeds.
+TRIALS={}
+
 LOGO={
  "Nick Hindi":"https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/nick-in.png",
  "Sonic Bangla":"https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/nickelodeon-sonic-in.png",
@@ -67,7 +50,7 @@ def main():
     status=json.loads((ROOT/"status.json").read_text())
     audit={x["name"]:x for x in status.get("candidate_audit",[])}
     output=["#EXTM3U",
-      "# OPTIONAL Bangladesh/region trial list, NOT confirmed live. Main playlist.m3u is unaffected.",
+      "# Previous 9 trial streams ALL failed user playback; removed. No confirmed alternate sources yet.",
       "# These may be ISP-only, region restricted, wrong language or offline. No DRM/access bypass."]
     summary={}
     for name,sources in TRIALS.items():
