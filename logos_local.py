@@ -23,9 +23,10 @@ REPO="link3-iptv-auto"
 ROOT_URL=f"https://raw.githubusercontent.com/{OWNER}/{REPO}/main/logos/"
 HEADERS={"User-Agent":"Mozilla/5.0 Link3PlaylistLogoArchive/1.0"}
 INDIAN_LOGOS="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/"
-# Exactly the legacy red-circle Zee artwork cropped from the user's TV photo.
-# They remain static files in the repo; never re-fetch the modern 2025 Z logo.
-ZEE_SCREENSHOT_LOGOS = {
+# Use the original 2017-2025 red-circle Zee Bangla logo artwork,
+# rather than tiny screenshot crops (which look blurred on a TV).
+ZEE_ARCHIVE_SOURCE = "https://upload.wikimedia.org/wikipedia/commons/5/5f/Zee_Bangla_logo.png"
+ZEE_ARCHIVE_LOGOS = {
     "Zee Bangla HD": "zee-bangla-legacy-hd.png",
     "Zee Bangla": "zee-bangla-legacy-sd.png",
 }
@@ -145,13 +146,38 @@ def process(line):
     name=name_match.group(1) if name_match else line.rsplit(",",1)[-1].strip()
     remote=logo_match.group(1) if logo_match else ""
     filename=slug(name)+".png"
-    if name in ZEE_SCREENSHOT_LOGOS:
-        # Preserve hand-matched TV-screen artwork instead of overwriting it.
-        screenshot_filename = ZEE_SCREENSHOT_LOGOS[name]
-        source = IMAGES / screenshot_filename
-        with Image.open(source) as picture:
-            picture.verify()  # Fail safely rather than publishing a broken PNG.
-        return (name, screenshot_filename, "brand")
+    if name in ZEE_ARCHIVE_LOGOS:
+        filename = ZEE_ARCHIVE_LOGOS[name]
+        path = IMAGES / filename
+        original = read_image(ZEE_ARCHIVE_SOURCE)
+        if original is None:
+            # A network outage must not destroy the last available logo.
+            if path.exists():
+                with Image.open(path) as old:
+                    old.verify()
+                return (name, filename, "brand")
+            raise RuntimeError("The Zee Bangla archive logo source is unavailable")
+        # Use the authentic higher-resolution artwork, not a photograph crop.
+        result,kind=card(name, original)
+        if name == "Zee Bangla HD":
+            # The source graphic has no HD suffix; add a separate crisp badge.
+            # Do not touch the circular mark or Bengali wordmark.
+            pill_w, pill_h = 74, 42
+            output = Image.new("RGBA", (result.width+pill_w, max(result.height, pill_h+12)), (0,0,0,0))
+            output.alpha_composite(result, (0, (output.height-result.height)//2))
+            drawer = ImageDraw.Draw(output)
+            x = result.width+8
+            y = (output.height-pill_h)//2
+            drawer.rounded_rectangle((x,y,x+54,y+pill_h),radius=10,fill=(181,12,29,255))
+            drawer.text((x+27,y+pill_h//2), "HD", anchor="mm",font=font(23),fill=(255,255,255,255))
+            result = output
+        stream = io.BytesIO()
+        result.quantize(colors=192, method=Image.Quantize.FASTOCTREE,
+                        dither=Image.Dither.NONE).save(stream,format="PNG",optimize=True)
+        data=stream.getvalue()
+        if not path.exists() or path.read_bytes()!=data:
+            path.write_bytes(data)
+        return (name,filename,"brand")
     targets=[]
     if name in INDIAN:
         targets.append(INDIAN_LOGOS+INDIAN[name])
@@ -190,8 +216,8 @@ def main():
             name=name_match.group(1) if name_match else line.rsplit(",",1)[-1].strip()
             filename,_=mapping[name]
             # Versioned URL refreshes IPTV Pro logo cache when image layout changes.
-            if name in ZEE_SCREENSHOT_LOGOS:
-                uri=ROOT_URL+filename+"?v=zee-red-legacy-20261023"
+            if name in ZEE_ARCHIVE_LOGOS:
+                uri=ROOT_URL+filename+"?v=zee-original-clear-20261023"
             else:
                 uri=ROOT_URL+filename+"?v=iptv-tightfit-20261023"
             if 'tvg-logo="' in line:
