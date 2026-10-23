@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T09:59:17.521423+00:00",
+  "updated_utc": "2026-10-23T10:00:18.675346+00:00",
   "channels": 74,
   "target_channels": 104,
   "groups": {
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 340,
+  "remote_manifests_probed": 339,
   "media_segments_probed": 3,
   "experimental_unverified": 0,
   "candidate_audit": [
@@ -234,7 +234,28 @@
       "candidates": [
         {
           "source": "curated-candidate",
+          "url": "https://tvsen4.aynaott.com/durontotv/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://tvsen5.aynaott.com/durontotv/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://box.bbaria.net/DurontoTV/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/duronto.stream/tracks-v1a1/mono.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -268,29 +289,8 @@
           "manifest_height": 0
         },
         {
-          "source": "Zaman-Active",
-          "url": "https://tvsen5.aynaott.com/durontotv/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
           "source": "fresh-India-public-geo",
           "url": "https://trs1.aynaott.com/duronto/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "Bengali-public-collection",
-          "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_duronto_tvPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "SM-IPTV",
-          "url": "http://premiumtvs.space:80/live/PeH5kPWFfG/infamous7funny/433.ts",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -860,7 +860,7 @@
     },
     {
       "name": "Green TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "FALLBACK_NOT_REVERIFIED",
       "stream": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/greentv.stream/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
