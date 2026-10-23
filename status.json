@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T08:55:46.391599+00:00",
+  "updated_utc": "2026-10-23T08:57:36.914798+00:00",
   "channels": 79,
   "target_channels": 104,
   "groups": {
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 284,
+  "remote_manifests_probed": 286,
   "media_segments_probed": 0,
   "experimental_unverified": 9,
   "sources": [
@@ -301,7 +301,7 @@
     },
     {
       "name": "Gazi TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "FALLBACK_NOT_REVERIFIED",
       "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -400,7 +400,7 @@
     {
       "name": "Channel S",
       "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://iptvlive.ahmed-bd-org.workers.dev/channel-s-1/index.m3u8",
+      "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/chsukoff.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -841,5 +841,12 @@
       "text-fallback": 14
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
+  },
+  "local_logos": {
+    "total": 79,
+    "from_image_sources": 67,
+    "clear_name_fallbacks": 12,
+    "size": "512x288 PNG",
+    "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
   }
 }
