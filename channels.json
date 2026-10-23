@@ -840,8 +840,8 @@
       "Discovery HD Bengali",
       "Discovery Channel Bengali"
     ],
-    "locked": false,
-    "last_known_url": "",
+    "locked": true,
+    "last_known_url": "https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8",
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
     "exclude_urls": [
@@ -849,7 +849,10 @@
       "https://streamitv.multitvsolution.in/idvo/discoverybengali.m3u8"
     ],
     "allow_unverified": false,
-    "experimental_urls": []
+    "experimental_urls": [],
+    "user_verified_link3": true,
+    "user_confirmed_at": "2026-10-23",
+    "user_quality_feedback": "User confirms Discovery Bangla plays on Link3; preserve stream across future updates."
   },
   {
     "name": "Nat Geo HD Bangla",
