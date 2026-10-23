@@ -32,4 +32,15 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add playlist.m3u status.json
-          git diff --cached --quiet || (git commit -m 'Update curated Link3 IPTV playlist' && git push)
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update curated Link3 IPTV playlist'
+            for attempt in 1 2 3; do
+              if git push; then
+                exit 0
+              fi
+              git fetch origin main
+              git rebase origin/main
+              sleep 2
+            done
+            exit 1
+          fi
