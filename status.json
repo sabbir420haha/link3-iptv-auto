@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T10:22:22.604509+00:00",
-  "channels": 81,
+  "updated_utc": "2026-10-23T10:33:15.905056+00:00",
+  "channels": 79,
   "target_channels": 104,
   "groups": {
     "01 | BD News": 18,
@@ -12,23 +12,10 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 333,
-  "media_segments_probed": 8,
+  "remote_manifests_probed": 315,
+  "media_segments_probed": 2,
   "experimental_unverified": 0,
-  "backup_streams": [
-    {
-      "name": "Duronto TV",
-      "url": "http://103.135.253.32:8080/DORONTU-TV/index.m3u8",
-      "media_segment_checked": true,
-      "label": "Alternate video source, user playback not yet checked"
-    },
-    {
-      "name": "Nat Geo HD Bangla",
-      "url": "http://103.135.253.32:8080/NATGEO-HD/index.m3u8",
-      "media_segment_checked": true,
-      "label": "Alternate video source, user playback not yet checked"
-    }
-  ],
+  "backup_streams": [],
   "candidate_audit": [
     {
       "name": "Disney HD Hindi",
@@ -105,62 +92,6 @@
         {
           "source": "curated-candidate",
           "url": "http://103.135.253.32:8080/NICK/index.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://tvsen7.aynaott.com/nicklodean/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://madplay.live/jiotv/app/live/545/null/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Nick_Hindi&q=800&e=junk.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.185.24.134:3001/NICK/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.162.136.235:4500/play/a01f/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://149.71.34.166:8000/play/a00u/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.153.175.254:8080/hls/stream23.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "iptv-org-india-raw",
-          "url": "http://202.70.146.135:8000/play/a04c/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -276,63 +207,7 @@
       "candidates": [
         {
           "source": "curated-candidate",
-          "url": "https://tvsen5.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.fmp4.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
           "url": "http://103.135.253.32:8080/DORONTU-TV/index.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://tvsen4.aynaott.com/durontotv/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://tvsen5.aynaott.com/durontotv/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/tracks-v1a1/mono.ts.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://box.bbaria.net/DurontoTV/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/duronto.stream/tracks-v1a1/mono.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.106.243.163:8989/duronto-tv/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://89.187.185.89:3232/ban-duronto/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -468,49 +343,7 @@
       "candidates": [
         {
           "source": "curated-candidate",
-          "url": "https://tvsen6.aynaott.com/natgeo/index.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
           "url": "http://103.135.253.32:8080/NATGEO-HD/index.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.81.104.222/live/national-geographic/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.167.167.5:8111/play/a036/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.89.248.130:8082/National-geo-graphy-bangla/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.55.144.46/hls/ngohd.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.153.175.254:8080/hls/stream13.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -1231,10 +1064,10 @@
     },
     {
       "name": "Nick Hindi",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "PINNED_USER_WORKING",
       "stream": "http://103.135.253.32:8080/NICK/index.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": true
+      "media_segment_checked": false
     },
     {
       "name": "Sonic Hindi",
@@ -1252,10 +1085,10 @@
     },
     {
       "name": "Duronto TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://tvsen5.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.fmp4.m3u8",
+      "state": "PINNED_USER_WORKING",
+      "stream": "http://103.135.253.32:8080/DORONTU-TV/index.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": true
+      "media_segment_checked": false
     },
     {
       "name": "T Sports",
@@ -1371,10 +1204,10 @@
     },
     {
       "name": "Nat Geo HD Bangla",
-      "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://tvsen6.aynaott.com/natgeo/index.m3u8",
+      "state": "PINNED_USER_WORKING",
+      "stream": "http://103.135.253.32:8080/NATGEO-HD/index.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": true
+      "media_segment_checked": false
     },
     {
       "name": "Sony MAX HD",
@@ -1386,18 +1219,18 @@
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 81,
+    "logo_count": 79,
     "methods": {
       "current-broadcaster": 50,
-      "verified-recent-provider-logo": 19,
-      "text-fallback": 12
+      "verified-recent-provider-logo": 18,
+      "text-fallback": 11
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 81,
-    "from_image_sources": 69,
-    "clear_name_fallbacks": 12,
+    "total": 79,
+    "from_image_sources": 68,
+    "clear_name_fallbacks": 11,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
   },
