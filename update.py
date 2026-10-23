@@ -90,7 +90,8 @@ EXTRA_CANDIDATES = {
     "Disney HD Hindi": [
         # Source-backed trials: 2026 community IPTV lists; never auto-publish without segment and quality checks.
         "https://hey-lookme.shop/live.php?id=1373",
-        "http://206.212.244.63/650/index.m3u8",
+        # Not India/Hindi-identified: generic Disney 720p feed not valid for this target.
+        # "http://206.212.244.63/650/index.m3u8",
         # New independently named source for validator ONLY. Publicly labeled Disney Channel in Sep 2026 channel list; language and resolution unknown, audit only.
         "http://88.212.15.19/live/test_disney/playlist.m3u8",
         # Candidate CDN/relay endpoints under test; never assume a working video feed.
@@ -165,6 +166,8 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        # Live PHP proxy URL published explicitly for this language/channel ID in a public playlist; verify actual HLS bytes.
+        "https://sports247.eu.org/api/app/live.php?id=815&e=.m3u8",
         # Source-backed trials: 2026 community IPTV lists; never auto-publish without segment and quality checks.
         "http://202.70.146.135:8000/play/a02t/index.m3u8",
         "https://hey-lookme.shop/live.php?id=815",
@@ -208,6 +211,8 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # Live PHP proxy URL published explicitly for this language/channel ID in a public playlist; verify actual HLS bytes.
+        "https://sports247.eu.org/api/app/live.php?id=1345&e=.m3u8",
         # Source-backed trials: 2026 community IPTV lists; never auto-publish without segment and quality checks.
         "https://hey-lookme.shop/live.php?id=1345",
         "https://jio.instream.ml/jio.php?c=Sonic_Bangla&q=600&e=.m3u8",
