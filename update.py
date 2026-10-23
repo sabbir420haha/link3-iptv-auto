@@ -47,6 +47,8 @@ EXTRA_CANDIDATES = {
         "https://tvsen6.aynaott.com/ZeeBangla/index.m3u8",
     ],
     "Discovery Bangla": [
+        "http://103.180.212.191:3500/live/573.m3u8",
+        "http://202.70.146.135:8000/play/a05z/index.m3u8",
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
         "https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_21.m3u8",
         "https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8",
@@ -58,6 +60,7 @@ EXTRA_CANDIDATES = {
         "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Nick_Hindi&q=800&e=junk.m3u8",
         "https://fifabangladesh2-xyz-ekkj.spidy.online/VHOD/NEW/go.php?id=Nick_voot_MOB",
     ],
+    "Sonic Bangla": ["http://live.balajibroadband.com:3500/live/1345.m3u8"],
     "Sonic Hindi": [
         "https://sar.pages.dev/sonic.m3u8",
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
@@ -68,11 +71,17 @@ EXTRA_CANDIDATES = {
         "https://pubads.g.doubleclick.net/ssai/event/Qyqz40bSQriqSuAC7R8_Fw/master.m3u8",
     ],
     "Sony Ten 1 HD": [
+        "http://103.83.80.54:6088/play/a0ol/index.m3u8",
+        "http://103.214.202.218:8081/live/ten1hd/chunks.m3u8",
         "https://pubads.g.doubleclick.net/ssai/event/yeYP86THQ4yl7US8Zx5eug/master.m3u8",
         "https://dai.google.com/linear/hls/event/wG75n5U8RrOKiFzaWObXbA/master.m3u8",
         "https://sliv.tgaadi.workers.dev/ten1hd.m3u8",
     ],
+    "Nat Geo HD Bangla": ["http://tv.pmcon.net/hls/stream13.m3u8"],
     "Sony Ten 3 HD": [
+        "http://103.83.80.54:6088/play/a0om/index.m3u8",
+        "http://103.214.202.218:8081/live/ten3hd/chunks.m3u8",
+        "http://103.99.249.139/sonyten3/index.m3u8",
         "https://pubads.g.doubleclick.net/ssai/event/nmQFuHURTYGQBNdUG-2Qdw/master.m3u8",
         "https://dai.google.com/linear/hls/event/ltsCG7TBSCSDmyq0rQtvSA/master.m3u8",
         "https://sliv.tgaadi.workers.dev/ten3hd.m3u8",
@@ -87,7 +96,8 @@ def key(value):
 
 # Public IP addresses explicitly appearing in the iptv-org Hungama TV catalogue.
 # All private, loopback and link-local IPs remain blocked.
-PUBLIC_HUNGAMA_IPS = {"103.185.24.134", "66.102.126.10", "111.88.78.21"}
+PUBLIC_HUNGAMA_IPS = {"103.185.24.134", "66.102.126.10", "111.88.78.21",
+    "103.180.212.191", "202.70.146.135", "103.83.80.54", "103.214.202.218", "103.99.249.139"}
 
 def allowed(url, locked=False):
     try:
