@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T10:16:32.174046+00:00",
+  "updated_utc": "2026-10-23T10:17:39.492856+00:00",
   "channels": 79,
   "target_channels": 104,
   "groups": {
@@ -12,13 +12,20 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 331,
+  "remote_manifests_probed": 333,
   "media_segments_probed": 7,
   "experimental_unverified": 0,
   "candidate_audit": [
     {
       "name": "Disney HD Hindi",
       "candidates": [
+        {
+          "source": "curated-candidate",
+          "url": "http://181.119.215.61:8000/play/a0g1/index.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
         {
           "source": "curated-candidate",
           "url": "https://tvsen7.aynaott.com/disney/index.m3u8",
@@ -45,13 +52,6 @@
           "url": "https://kingkohli.pages.dev/Play/DisneyHD_Watch_index.m3u8",
           "manifest_ok": true,
           "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://181.119.215.61:8000/play/a0g1/index.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
           "manifest_height": 0
         },
         {
@@ -90,6 +90,13 @@
       "candidates": [
         {
           "source": "curated-candidate",
+          "url": "http://103.135.253.32:8080/NICK/index.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://tvsen7.aynaott.com/nicklodean/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -107,13 +114,6 @@
           "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Nick_Hindi&q=800&e=junk.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.135.253.32:8080/NICK/index.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
           "manifest_height": 0
         },
         {
@@ -160,6 +160,13 @@
         {
           "source": "curated-candidate",
           "url": "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.151.60.162:2122/play/a02v/index.m3u8?hls",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -255,6 +262,13 @@
       "candidates": [
         {
           "source": "curated-candidate",
+          "url": "https://tvsen5.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.fmp4.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://tvsen4.aynaott.com/durontotv/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -265,13 +279,6 @@
           "url": "https://tvsen5.aynaott.com/durontotv/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://tvsen5.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.fmp4.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
           "manifest_height": 0
         },
         {
@@ -351,7 +358,21 @@
         },
         {
           "source": "curated-candidate",
+          "url": "http://103.84.57.155:8000/play/a02q/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "http://103.162.136.235:4500/play/a01d/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.122.74.6:8888/hls/SONY.SPORTS.3.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -378,6 +399,13 @@
       "candidates": [
         {
           "source": "curated-candidate",
+          "url": "https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_19.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_21.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -393,6 +421,13 @@
         {
           "source": "curated-candidate",
           "url": "https://ccntv.anytv.live/discoverybangla/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://starplay2.netlify.app/m3u/discoverybengali.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -422,6 +457,13 @@
           "url": "https://tvsen6.aynaott.com/natgeo/index.m3u8",
           "manifest_ok": true,
           "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.81.104.222/live/national-geographic/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
           "manifest_height": 0
         },
         {
