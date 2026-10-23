@@ -545,11 +545,12 @@
     ],
     "locked": false,
     "last_known_url": "",
-    "quality": "hd",
-    "min_height": 720,
+    "quality": "best_available",
     "exclude_urls": [
       "http://103.135.253.32:8080/HUNGAMA/index.m3u8"
-    ]
+    ],
+    "only_curated": true,
+    "quality_note": "Testing alternate 576p source; HD title is a user-requested label, NOT verified 720p"
   },
   {
     "name": "Sony Yay",
