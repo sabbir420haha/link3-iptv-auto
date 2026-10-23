@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T09:38:46.048838+00:00",
+  "updated_utc": "2026-10-23T09:42:04.867682+00:00",
   "channels": 77,
   "target_channels": 104,
   "groups": {
@@ -241,16 +241,16 @@
       "candidates": [
         {
           "source": "curated-candidate",
-          "url": "https://feed.play.mv/live/10005200/fMLTkj4OJC/master.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
+          "url": "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
           "manifest_height": 0
         },
         {
           "source": "curated-candidate",
-          "url": "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
+          "url": "https://feed.play.mv/live/10005200/fMLTkj4OJC/master.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
           "manifest_height": 0
         },
         {
@@ -296,16 +296,16 @@
       "candidates": [
         {
           "source": "curated-candidate",
-          "url": "https://feed.play.mv/live/10005200/RG2fKR6d9p/master.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
+          "url": "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
           "manifest_height": 0
         },
         {
           "source": "curated-candidate",
-          "url": "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
+          "url": "https://feed.play.mv/live/10005200/RG2fKR6d9p/master.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
           "manifest_height": 0
         },
         {
@@ -419,6 +419,13 @@
       "candidates": [
         {
           "source": "curated-candidate",
+          "url": "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://stream.ottplus.bd/live/max_hd_abr/live/max_hd_720/chunks.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -443,13 +450,6 @@
           "url": "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=set_max_hd",
           "manifest_ok": false,
           "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
           "manifest_height": 0
         },
         {
@@ -1347,5 +1347,16 @@
     "clear_name_fallbacks": 9,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
+  },
+  "bd_geo_trials": {
+    "entries": 9,
+    "by_name": {
+      "Discovery Bangla": 2,
+      "Disney HD Hindi": 2,
+      "Nat Geo HD Bangla": 1,
+      "Nick Hindi": 2,
+      "Sonic Bangla": 2
+    },
+    "warning": "These are not certified working or HD and may be ISP-only. Test on your own internet. This is an OPTIONAL playlist, separate from the primary playlist."
   }
 }

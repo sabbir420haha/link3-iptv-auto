@@ -1,0 +1,21 @@
+#EXTM3U
+# OPTIONAL Bangladesh/region trial list, NOT confirmed live. Main playlist.m3u is unaffected.
+# These may be ISP-only, region restricted, wrong language or offline. No DRM/access bypass.
+#EXTINF:-1 tvg-name="Discovery Bangla - KITV TS (Bangla label, old public source)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/discovery-channel-in.png" group-title="99 | BD-GEO TRIAL - Playback NOT verified",Discovery Bangla - KITV TS (Bangla label, old public source)
+http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/61.ts
+#EXTINF:-1 tvg-name="Discovery Bangla - Discovery Bengali (old public HLS)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/discovery-channel-in.png" group-title="99 | BD-GEO TRIAL - Playback NOT verified",Discovery Bangla - Discovery Bengali (old public HLS)
+https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_21.m3u8
+#EXTINF:-1 tvg-name="Disney HD Hindi - Disney Channel HD IN (Hindi audio NOT confirmed)" tvg-logo="" group-title="99 | BD-GEO TRIAL - Playback NOT verified",Disney HD Hindi - Disney Channel HD IN (Hindi audio NOT confirmed)
+http://66.102.126.10:8000/play/a013/index.m3u8
+#EXTINF:-1 tvg-name="Disney HD Hindi - Disney International HD (Hindi audio NOT confirmed)" tvg-logo="" group-title="99 | BD-GEO TRIAL - Playback NOT verified",Disney HD Hindi - Disney International HD (Hindi audio NOT confirmed)
+http://116.90.120.151:8000/play/a0hp/index.m3u8
+#EXTINF:-1 tvg-name="Nat Geo HD Bangla - Nat Geo Bangla HD (old published HLS)" tvg-logo="" group-title="99 | BD-GEO TRIAL - Playback NOT verified",Nat Geo HD Bangla - Nat Geo Bangla HD (old published HLS)
+http://103.167.167.5:8111/play/a036/index.m3u8
+#EXTINF:-1 tvg-name="Nick Hindi - Nick India (Hindi audio NOT confirmed)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/nick-in.png" group-title="99 | BD-GEO TRIAL - Playback NOT verified",Nick Hindi - Nick India (Hindi audio NOT confirmed)
+http://103.162.136.235:4500/play/a01f/index.m3u8
+#EXTINF:-1 tvg-name="Nick Hindi - Nick India (second source, audio NOT confirmed)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/nick-in.png" group-title="99 | BD-GEO TRIAL - Playback NOT verified",Nick Hindi - Nick India (second source, audio NOT confirmed)
+http://149.71.34.166:8000/play/a00u/index.m3u8
+#EXTINF:-1 tvg-name="Sonic Bangla - Bangladesh Sonic, language NOT confirmed" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/nickelodeon-sonic-in.png" group-title="99 | BD-GEO TRIAL - Playback NOT verified",Sonic Bangla - Bangladesh Sonic, language NOT confirmed
+https://edge01.iptv.digijadoo.net/live/sonic/playlist.m3u8
+#EXTINF:-1 tvg-name="Sonic Bangla - Sonic Bangla (alternative, language NOT confirmed)" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/nickelodeon-sonic-in.png" group-title="99 | BD-GEO TRIAL - Playback NOT verified",Sonic Bangla - Sonic Bangla (alternative, language NOT confirmed)
+http://live.balajibroadband.com:3500/live/1345.m3u8
