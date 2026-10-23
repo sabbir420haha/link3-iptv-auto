@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T13:08:31.646823+00:00",
-  "channels": 75,
+  "updated_utc": "2026-10-23T13:14:27.650630+00:00",
+  "channels": 76,
   "target_channels": 98,
   "groups": {
     "01 | BD News": 16,
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 312,
+  "remote_manifests_probed": 288,
   "media_segments_probed": 1,
   "experimental_unverified": 0,
   "backup_streams": [],
@@ -208,169 +208,8 @@
       "name": "Sonic Hindi",
       "candidates": [
         {
-          "source": "curated-candidate",
-          "url": "http://103.135.253.32:8080/SONIC/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.135.253.32:8080/SONIC-HD/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://app-re.sm-monirul-islam-rs.workers.dev/sonic-hindi/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://stream.ottplus.live/live/sonic_abr/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://sports247.eu.org/api/app/live.php?id=815&e=.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://hey-lookme.shop/live.php?id=815",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://jio.instream.ml/jio.php?c=sonic_Hindi&q=600&e=.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=815",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://playyonogames.in/live.php?id=815&format=.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://colorsscreen.com/live.php?id=815&extension=.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://202.70.146.135:8000/play/a02t/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://hardcore-keldysh.64-227-150-121.plesk.page:80/getm3u8/815/master.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.83.80.54:6088/play/a0g4/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.185.24.134:3001/SONIC/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.151.60.162:2122/play/a02v/index.m3u8?hls",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.229.254.25:7001/play/a0dl/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.162.136.235:4500/play/a01k/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.140.254.2:3500/live/815.m3u8",
+          "source": "seed",
+          "url": "https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -1093,7 +932,7 @@
     {
       "name": "Discovery Kids",
       "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://live20.bozztv.com/giatvplayout7/giatv-209633/index.m3u8",
+      "stream": "https://drk6xq0vhn.gpcdn.net/live/discovery_kids_abr/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1134,8 +973,8 @@
     },
     {
       "name": "Sonic Hindi",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "PINNED_USER_WORKING",
+      "stream": "https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1211,7 +1050,7 @@
     },
     {
       "name": "Star Sports 2",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "FALLBACK_NOT_REVERIFIED",
       "stream": "http://103.151.60.162:2122/play/a00v/index.m3u8?hls",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -1282,17 +1121,17 @@
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 75,
+    "logo_count": 76,
     "methods": {
       "current-broadcaster": 47,
       "verified-recent-provider-logo": 15,
-      "text-fallback": 13
+      "text-fallback": 14
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 75,
-    "from_image_sources": 64,
+    "total": 76,
+    "from_image_sources": 65,
     "clear_name_fallbacks": 11,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
