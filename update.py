@@ -366,6 +366,10 @@ def score(item, entry, old):
         value += 8
     elif "BDIX" in entry["source"]:
         value -= 12
+    if host == "103.135.253.32" and item.get("requires_media_segment"):
+        # Link3 user plays Hungama from this exact host. Only rank other
+        # channels higher IF their own video segment is independently checked.
+        value += 35
     if host.endswith(("cloudfront.net", "akamaized.net", "gpcdn.net", "aynaott.com", "amagi.tv")):
         value += 10
     if any(x in url for x in ("_abr/", "/master", "/index.m3u8")):
