@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T09:09:07.499530+00:00",
-  "channels": 71,
+  "updated_utc": "2026-10-23T09:11:36.485073+00:00",
+  "channels": 72,
   "target_channels": 104,
   "groups": {
     "01 | BD News": 18,
@@ -15,6 +15,307 @@
   "remote_manifests_probed": 291,
   "media_segments_probed": 2,
   "experimental_unverified": 0,
+  "candidate_audit": [
+    {
+      "name": "Disney HD Hindi",
+      "candidates": [
+        {
+          "source": "curated-candidate",
+          "url": "https://disneyhindi-lh.akamaihd.net/i/disneyhindi_1@174991/master.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://kingkohli.pages.dev/Play/DisneyHD_Watch_index.m3u8",
+          "manifest_ok": true,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://202.70.146.135:8000/play/a01q/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/8f3e6367117c923.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "iptv-org-india-raw",
+          "url": "http://66.102.126.10:8000/play/a013/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        }
+      ],
+      "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
+    },
+    {
+      "name": "Nick Hindi",
+      "candidates": [
+        {
+          "source": "curated-candidate",
+          "url": "https://madplay.live/jiotv/app/live/545/null/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Nick_Hindi&q=800&e=junk.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.153.175.254:8080/hls/stream23.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "iptv-org-india-raw",
+          "url": "http://103.185.24.134:3001/NICK/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "iptv-org-india-raw",
+          "url": "http://202.70.146.135:8000/play/a04c/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "indian-kids-special",
+          "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Nickelodeon&q=800&e=junk.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        }
+      ],
+      "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
+    },
+    {
+      "name": "Sonic Hindi",
+      "candidates": [
+        {
+          "source": "curated-candidate",
+          "url": "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "indian-kids-special",
+          "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        }
+      ],
+      "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
+    },
+    {
+      "name": "Sonic Bangla",
+      "candidates": [
+        {
+          "source": "curated-candidate",
+          "url": "http://live.balajibroadband.com:3500/live/1345.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "indian-kids-special",
+          "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Sonic_Bangla&q=800&e=junk.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "Bengali-public-collection",
+          "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sonicPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        }
+      ],
+      "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
+    },
+    {
+      "name": "Sony Ten 1 HD",
+      "candidates": [
+        {
+          "source": "curated-candidate",
+          "url": "https://feed.play.mv/live/10005200/fMLTkj4OJC/master.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.185.24.134:3001/SonyTenSports1/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "Zaman-Active",
+          "url": "https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "public-Indian-family-candidates",
+          "url": "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sony_ten1_hd",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        }
+      ],
+      "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
+    },
+    {
+      "name": "Sony Ten 3 HD",
+      "candidates": [
+        {
+          "source": "curated-candidate",
+          "url": "https://feed.play.mv/live/10005200/RG2fKR6d9p/master.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://cloudplay-sonyliv.pages.dev/ten3.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "Zaman-Active",
+          "url": "https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "public-Indian-family-candidates",
+          "url": "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sony_ten3_hd",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        }
+      ],
+      "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
+    },
+    {
+      "name": "Discovery Bangla",
+      "candidates": [
+        {
+          "source": "curated-candidate",
+          "url": "https://khulnalive.anytv.live/discoverybangla/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://ccntv.anytv.live/discoverybangla/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "Zaman-Active",
+          "url": "http://202.70.146.135:8000/play/a05z/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        }
+      ],
+      "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
+    },
+    {
+      "name": "Nat Geo HD Bangla",
+      "candidates": [
+        {
+          "source": "curated-candidate",
+          "url": "http://103.89.248.130:8082/National-geo-graphy-bangla/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.55.144.46/hls/ngohd.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.153.175.254:8080/hls/stream13.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        }
+      ],
+      "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
+    },
+    {
+      "name": "Sony MAX HD",
+      "candidates": [
+        {
+          "source": "curated-candidate",
+          "url": "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=set_max_hd",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.185.24.134:3001/SonyMAX/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.151.60.162:2122/play/a014/index.m3u8?hls",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "Zaman-Active",
+          "url": "https://cloudplay-sonyliv.pages.dev/maxhd.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        }
+      ],
+      "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
+    }
+  ],
   "sources": [
     {
       "source": "iptv-bd",
@@ -60,16 +361,6 @@
       "source": "Zaman-Active",
       "count": 10850,
       "error": null
-    },
-    {
-      "source": "Saeid-Mixed-BDIX",
-      "count": 0,
-      "error": "Refusing unsafe playlist/source URL"
-    },
-    {
-      "source": "Mrgify-Mixed-BDIX",
-      "count": 0,
-      "error": "Refusing unsafe playlist/source URL"
     },
     {
       "source": "SM-IPTV",
@@ -207,7 +498,7 @@
     },
     {
       "name": "Jago News 24",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "FALLBACK_NOT_REVERIFIED",
       "stream": "https://app.ncare.live/live-orgin/jagonews24.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -333,7 +624,7 @@
     },
     {
       "name": "Green TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "FALLBACK_NOT_REVERIFIED",
       "stream": "https://tvsen6.aynaott.com/cLuA3hJR/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -473,7 +764,7 @@
     },
     {
       "name": "NRB TV",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "FALLBACK_NOT_REVERIFIED",
       "stream": "https://app.ncare.live/live-orgin/nrb-eu.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -851,25 +1142,25 @@
     },
     {
       "name": "Sony MAX HD",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "REMOTE_HLS_SEGMENT_RESOLUTION_UNVERIFIED",
+      "stream": "http://103.151.60.162:2122/play/a014/index.m3u8?hls",
       "manifest_height": 0,
-      "media_segment_checked": false
+      "media_segment_checked": true
     }
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 71,
+    "logo_count": 72,
     "methods": {
-      "current-broadcaster": 44,
+      "current-broadcaster": 45,
       "verified-recent-provider-logo": 18,
       "text-fallback": 9
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 71,
-    "from_image_sources": 62,
+    "total": 72,
+    "from_image_sources": 63,
     "clear_name_fallbacks": 9,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
