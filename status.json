@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T13:31:23.936138+00:00",
+  "updated_utc": "2026-10-23T13:33:41.281023+00:00",
   "channels": 76,
   "target_channels": 98,
   "groups": {
@@ -12,14 +12,21 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 277,
-  "media_segments_probed": 1,
+  "remote_manifests_probed": 285,
+  "media_segments_probed": 4,
   "experimental_unverified": 0,
   "backup_streams": [],
   "candidate_audit": [
     {
       "name": "Disney HD Hindi",
       "candidates": [
+        {
+          "source": "curated-candidate",
+          "url": "https://s1.itcnbd.live/Disney-D/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
         {
           "source": "curated-candidate",
           "url": "https://app-re.sm-monirul-islam-rs.workers.dev/disney-hd-hindi/index.m3u8",
@@ -57,6 +64,34 @@
         },
         {
           "source": "curated-candidate",
+          "url": "https://s1.itcnbd.live/Disney-D/tracks-v1a1/mono.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://stream.kliv.in/ROPX/opp233/167551.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://hls-coolxtream.vercel.app/channel/167551&format=.m3u8",
+          "manifest_ok": true,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://shahakshay938.github.io/backups/streams/2026-05-09/disneychannel-in-sd.m3u8",
+          "manifest_ok": true,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://hey-lookme.shop/live.php?id=1373",
           "manifest_ok": false,
           "segment_ok": false,
@@ -71,9 +106,30 @@
         },
         {
           "source": "curated-candidate",
+          "url": "http://51.75.127.199:3141/disneychannel/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.167.255.18:8085/play/a0kq/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "http://116.90.120.151:8000/play/a0hp/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://ranapkz.site/TATABD/play.php?id=167551&format=.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
           "manifest_height": 0
         },
         {
