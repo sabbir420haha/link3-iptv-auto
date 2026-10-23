@@ -546,7 +546,9 @@ def score(item, entry, old):
     if any(x in url for x in ("_abr/", "/master", "/index.m3u8")):
         value += 5
     if url == old:
-        value += 30
+        # Stability first: keep the currently selected, healthy URL.
+        # A new mirror must not displace a user-playable stream for score alone.
+        value += 250
     return value
 
 def clean(value):
