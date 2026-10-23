@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T09:07:28.939700+00:00",
-  "channels": 70,
+  "updated_utc": "2026-10-23T09:09:07.499530+00:00",
+  "channels": 71,
   "target_channels": 104,
   "groups": {
     "01 | BD News": 18,
@@ -12,8 +12,8 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 280,
-  "media_segments_probed": 0,
+  "remote_manifests_probed": 291,
+  "media_segments_probed": 2,
   "experimental_unverified": 0,
   "sources": [
     {
@@ -99,6 +99,31 @@
     {
       "source": "public-Indian-family-candidates",
       "count": 64,
+      "error": null
+    },
+    {
+      "source": "fresh-India-weekly-verified",
+      "count": 799,
+      "error": null
+    },
+    {
+      "source": "fresh-India-public-geo",
+      "count": 55,
+      "error": null
+    },
+    {
+      "source": "updated-Hindi-streams",
+      "count": 303,
+      "error": null
+    },
+    {
+      "source": "updated-Hindi-top",
+      "count": 159,
+      "error": null
+    },
+    {
+      "source": "recent-BD-India",
+      "count": 86,
       "error": null
     }
   ],
@@ -763,8 +788,8 @@
     },
     {
       "name": "Star Sports 2",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "http://103.151.60.162:2122/play/a00v/index.m3u8?hls",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -834,17 +859,17 @@
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 70,
+    "logo_count": 71,
     "methods": {
-      "current-broadcaster": 43,
+      "current-broadcaster": 44,
       "verified-recent-provider-logo": 18,
       "text-fallback": 9
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 70,
-    "from_image_sources": 61,
+    "total": 71,
+    "from_image_sources": 62,
     "clear_name_fallbacks": 9,
     "size": "512x288 PNG",
     "note": "Every M3U logo link points to this repository. Placeholder cards are not original broadcaster logos."
