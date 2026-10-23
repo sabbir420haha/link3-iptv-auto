@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-23T06:28:58.070010+00:00",
-  "channels": 72,
+  "updated_utc": "2026-10-23T06:31:35.333049+00:00",
+  "channels": 69,
   "target_channels": 101,
   "groups": {
     "01 | BD News": 18,
@@ -12,7 +12,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 250,
+  "remote_manifests_probed": 243,
   "sources": [
     {
       "source": "iptv-bd",
@@ -99,7 +99,7 @@
     {
       "name": "News 24",
       "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://tv.balkanweb.com/news24/livestream/playlist.m3u8"
+      "stream": "https://tvsen6.aynaott.com/cdgr3tw6WoG7JyRnLbi0/index.m3u8"
     },
     {
       "name": "DBC News",
@@ -348,8 +348,8 @@
     },
     {
       "name": "Colors Bangla",
-      "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8"
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
     },
     {
       "name": "Aakaash Aath",
@@ -399,7 +399,7 @@
     {
       "name": "R Plus Gold",
       "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://thelegitpro.in/pntv/rplusnews24x7/tracks-v1a1/mono.m3u8"
+      "stream": "https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cf883da3-f9f5-4c70-b0ef-b3ac2e2ad1e3/index.m3u8"
     },
     {
       "name": "Enterr10 Bangla",
@@ -523,8 +523,8 @@
     },
     {
       "name": "Star Sports 1 Hindi",
-      "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://starsportshindiii.pages.dev/index.m3u8"
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
     },
     {
       "name": "Star Sports 2",
@@ -553,8 +553,8 @@
     },
     {
       "name": "Sony Ten 1 HD",
-      "state": "REMOTE_MANIFEST_REACHABLE",
-      "stream": "https://dl.dropbox.com/s/96ziqh1ehkhzh81/badminton1.m3u8?dl=0"
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
     },
     {
       "name": "Sony Ten 3 HD",
