@@ -409,8 +409,13 @@ def main():
     channels = json.loads(CATALOG.read_text(encoding="utf-8"))
     required_pins = {"Hungama", "Sony Aath", "Channel 24", "Independent TV"}
     actual_pins = {x["name"] for x in channels if x.get("locked")}
-    if len(channels) < 101 or not required_pins.issubset(actual_pins):
-        raise ValueError("Channel catalog or original pinned streams unexpectedly changed")
+    # User specifically excluded six non-playing channels. Never silently restore them.
+    user_excluded = {"Jago News 24", "TBN24", "Green TV", "Nexus TV",
+                     "Colors Bangla", "Aakaash Aath"}
+    all_names = {x["name"] for x in channels}
+    if (len(channels) < 98 or not required_pins.issubset(actual_pins)
+            or user_excluded.intersection(all_names)):
+        raise ValueError("Channel catalog, excluded names, or original pinned streams unexpectedly changed")
     previous = {}
     if OUTPUT.exists():
         for c in parse_m3u(OUTPUT.read_text(encoding="utf-8")):
