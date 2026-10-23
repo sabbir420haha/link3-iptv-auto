@@ -6,6 +6,7 @@ on:
       - channels.json
       - update.py
       - logos.py
+      - logos_local.py
       - .github/workflows/update.yml
   workflow_dispatch:
   schedule:
@@ -32,6 +33,8 @@ jobs:
         run: python update.py
       - name: Add official/high-resolution logos and clear fallback images
         run: python logos.py
+      - name: Mirror high-quality channel-logo PNGs into this repository
+        run: python logos_local.py
       - name: Commit updated playlist and status
         run: |
           git config user.name 'github-actions[bot]'
