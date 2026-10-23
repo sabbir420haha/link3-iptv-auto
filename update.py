@@ -718,16 +718,11 @@ def main():
                 ua = str(item["stream_user_agent"]).replace("\\r", "").replace("\\n", "").strip()
                 if ua:
                     output.append(f"#EXTVLCOPT:http-user-agent={ua}")
-            # Requested 15-second VLC live/network buffer target for every
-            # stream. These are PLAYER HINTS, not server-side preloading.
-            # VLC-compatible players may honor them; Android ExoPlayer or
-            # other IPTV apps may ignore them entirely. A 15s buffer may
-            # also delay initial playback/seek by as much as that amount.
-            # Playback continues filling whatever buffer the player permits.
-            # Do NOT alter channel HLS URLs, origin headers, or stream bitrates.
-            output.append("#EXTVLCOPT:network-caching=15000")
-            output.append("#EXTVLCOPT:live-caching=15000")
-            output.append("#EXTVLCOPT:http-reconnect=true")
+            # IPTV Pro consumes the M3U channel URL; no verified M3U tag
+            # can enforce a 15-second rolling buffer in its built-in player.
+            # Do not emit misleading VLC-specific caching/reconnect options.
+            # Keep stream URL unchanged and retain independently confirmed
+            # per-channel User-Agent above (Disney Hindi).
             output.append(chosen["url"])
             alternate = backups_by_name.get(item["name"])
             if (alternate and alternate not in used and alternate != chosen["url"]
