@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T12:22:34.855722+00:00",
+  "updated_utc": "2026-10-23T12:25:03.649997+00:00",
   "channels": 74,
   "target_channels": 98,
   "groups": {
@@ -12,8 +12,8 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 329,
-  "media_segments_probed": 0,
+  "remote_manifests_probed": 330,
+  "media_segments_probed": 2,
   "experimental_unverified": 0,
   "backup_streams": [],
   "candidate_audit": [
@@ -176,6 +176,13 @@
         },
         {
           "source": "curated-candidate",
+          "url": "http://88.212.15.19/live/test_disney/playlist.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "http://70.39.83.58:8278/disneychannelhindikdin/playlist.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -294,6 +301,13 @@
         {
           "source": "curated-candidate",
           "url": "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://hardcore-keldysh.64-227-150-121.plesk.page:80/getm3u8/815/master.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -454,6 +468,13 @@
         {
           "source": "curated-candidate",
           "url": "https://edge01.iptv.digijadoo.net/live/sonic/playlist.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://198.195.239.50:8095/sonic/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
