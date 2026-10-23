@@ -89,23 +89,36 @@ def measure(entry):
                                      str(exc))[:120]})
     good = [x for x in checks if x["ok"]]
     changes = 0
+    regressions = 0
+    old_segment_replays = 0
+    seen_fingerprints = set()
     longest_gap = 0.0
     previous = None
     for check in good:
+        current_hash = check["latest_segment_fingerprint"]
         if previous is not None:
-            moved = (check["latest_segment_fingerprint"] !=
-                     previous["latest_segment_fingerprint"])
+            moved = current_hash != previous["latest_segment_fingerprint"]
             if (check["seq"] is not None and previous["seq"] is not None
                     and check["seq"] > previous["seq"]):
                 moved = True
             if moved:
                 changes += 1
+            if (check["seq"] is not None and previous["seq"] is not None
+                    and check["seq"] < previous["seq"]):
+                regressions += 1
+            # A live window must not revert to a media segment seen earlier,
+            # after it has already shown a different, newer segment.
+            if (current_hash in seen_fingerprints and
+                    current_hash != previous["latest_segment_fingerprint"]):
+                old_segment_replays += 1
             longest_gap = max(longest_gap,
                               check["at_seconds"]-previous["at_seconds"]
                               if not moved else 0.0)
+        seen_fingerprints.add(current_hash)
         previous = check
     manifest_progress = changes > 0
     status = ("manifest_unreachable" if not good else
+              "regressed_to_old_segments" if regressions or old_segment_replays else
               "no_new_segments" if not manifest_progress else
               "intermittent_errors" if len(good) != len(checks) else
               "advancing_on_github")
@@ -115,6 +128,8 @@ def measure(entry):
         "successful_polls": len(good),
         "attempted_polls": SAMPLES,
         "observed_changes": changes,
+        "media_sequence_regressions": regressions,
+        "old_segment_replays": old_segment_replays,
         "max_stalled_observation_seconds": round(longest_gap, 1),
         "target_duration_seconds": good[-1]["target_duration_seconds"] if good else None,
         "media_host": good[-1]["media_host"] if good else None,
