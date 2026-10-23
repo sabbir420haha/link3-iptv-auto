@@ -1,0 +1,10 @@
+#EXTM3U
+# Auto-refresh maintained by GitHub Actions; four Link3 user-confirmed streams pinned.
+#EXTINF:-1 tvg-name="Channel 24" group-title="01 | BD News",Channel 24
+https://drk6xq0vhn.gpcdn.net/live/channel_24_abr/index.m3u8
+#EXTINF:-1 tvg-name="Independent TV" group-title="01 | BD News",Independent TV
+https://drk6xq0vhn.gpcdn.net/live/independent_tv_abr/index.m3u8
+#EXTINF:-1 tvg-name="Sony Aath" group-title="03 | Indian Bangla",Sony Aath
+https://stream.ottplus.live/live/sony_aath_abr/index.m3u8
+#EXTINF:-1 tvg-name="Hungama" group-title="04 | Kids",Hungama
+http://103.135.253.32:8080/HUNGAMA/index.m3u8
