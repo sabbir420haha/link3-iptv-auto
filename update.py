@@ -72,6 +72,8 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        # Public directory explicitly identifies this as Disney CHANNEL, not Junior.
+        "http://139.23.241.38:8088/602/tracks-v1a1/mono.m3u8",
         # Independently labelled Disney Channel, not Disney Junior; HD/audio unverified.
         "http://ott.artmott.com/DisneyChannel/tracks-v1a1/mono.m3u8",
         # Listed as Disney CHANNEL (not Junior) by the Indian IPTV catalogues.
@@ -125,6 +127,8 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # Listed as Sonic Bangla in a 2026 channel collection.
+        "http://103.204.43.87:8080/live/1/1/274.m3u8",
         "http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8",
         "https://snehjiotv.in1.bitmana.io/snehjioox.php?c=Sonic_Bangla&q=1200&e=junk.m3u8",
         "https://edge01.iptv.digijadoo.net/live/sonic/chunks.m3u8",
