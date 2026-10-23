@@ -1,0 +1,581 @@
+{
+  "updated_utc": "2026-10-23T06:28:58.070010+00:00",
+  "channels": 72,
+  "target_channels": 101,
+  "groups": {
+    "01 | BD News": 18,
+    "02 | BD General & Entertainment": 34,
+    "03 | Indian Bangla": 18,
+    "04 | Kids": 12,
+    "05 | BD Kids": 1,
+    "06 | Sports": 15,
+    "07 | Documentaries": 2,
+    "08 | Hindi Entertainment": 1
+  },
+  "remote_manifests_probed": 250,
+  "sources": [
+    {
+      "source": "iptv-bd",
+      "count": 46,
+      "error": null
+    },
+    {
+      "source": "iptv-in",
+      "count": 800,
+      "error": null
+    },
+    {
+      "source": "iptv-ben",
+      "count": 103,
+      "error": null
+    },
+    {
+      "source": "iptv-hin",
+      "count": 359,
+      "error": null
+    },
+    {
+      "source": "iptv-kids",
+      "count": 429,
+      "error": null
+    },
+    {
+      "source": "iptv-sports",
+      "count": 468,
+      "error": null
+    },
+    {
+      "source": "iptv-entertainment",
+      "count": 896,
+      "error": null
+    },
+    {
+      "source": "iptv-documentary",
+      "count": 257,
+      "error": null
+    },
+    {
+      "source": "Zaman-Active",
+      "count": 10850,
+      "error": null
+    },
+    {
+      "source": "Saeid-Mixed-BDIX",
+      "count": 1265,
+      "error": null
+    },
+    {
+      "source": "Mrgify-Mixed-BDIX",
+      "count": 349,
+      "error": null
+    }
+  ],
+  "channel_status": [
+    {
+      "name": "Channel 24",
+      "state": "PINNED_USER_WORKING",
+      "stream": "https://drk6xq0vhn.gpcdn.net/live/channel_24_abr/index.m3u8"
+    },
+    {
+      "name": "Independent TV",
+      "state": "PINNED_USER_WORKING",
+      "stream": "https://drk6xq0vhn.gpcdn.net/live/independent_tv_abr/index.m3u8"
+    },
+    {
+      "name": "Somoy TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://drk6xq0vhn.gpcdn.net/live/somoy_tv_abr/index.m3u8"
+    },
+    {
+      "name": "Jamuna TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen6.aynaott.com/KGdZEdA7qQ43dmPkgk1j/index.m3u8"
+    },
+    {
+      "name": "Ekattor TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/index.m3u8"
+    },
+    {
+      "name": "News 24",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tv.balkanweb.com/news24/livestream/playlist.m3u8"
+    },
+    {
+      "name": "DBC News",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen6.aynaott.com/pF66Tkz0qFwP2aMMqHyt/index.m3u8"
+    },
+    {
+      "name": "BTV News",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://btv.hridoytv-channel.workers.dev/news.m3u8"
+    },
+    {
+      "name": "Desh TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen6.aynaott.com/ryFkXfd1a4CQ7mMdc820/index.m3u8"
+    },
+    {
+      "name": "ATN News",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen6.aynaott.com/da6WMXAk/index.m3u8"
+    },
+    {
+      "name": "Ekhon TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://drk6xq0vhn.gpcdn.net/live/ekhon_tv_abr/index.m3u8"
+    },
+    {
+      "name": "Jago News 24",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://app.ncare.live/live-orgin/jagonews24.stream/playlist.m3u8"
+    },
+    {
+      "name": "Bijoy TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://drk6xq0vhn.gpcdn.net/live/bijoy_tv_abr/index.m3u8"
+    },
+    {
+      "name": "Ekushey TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen5.aynaott.com/SyQuXz8sC3TB/index.m3u8"
+    },
+    {
+      "name": "Channel 1 News",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "News 21 Bangla TV",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "TBN24",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "http://cdn01.palki.tv/live/TBN24-M/index.m3u8"
+    },
+    {
+      "name": "Star News BD",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "BTV",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "BTV Chattogram",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen6.aynaott.com/TjGR1GcxKetHNVcMVxbq/index.m3u8"
+    },
+    {
+      "name": "ATN Bangla",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen5.aynaott.com/atnbangla/index.m3u8"
+    },
+    {
+      "name": "BanglaVision",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen5.aynaott.com/banglavision/index.m3u8"
+    },
+    {
+      "name": "Boishakhi TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8"
+    },
+    {
+      "name": "Channel i",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8"
+    },
+    {
+      "name": "Deepto TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8"
+    },
+    {
+      "name": "NTV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://2-fss-1.streamhoster.com/pl_122/201748-1431018-1/chunklist.m3u8"
+    },
+    {
+      "name": "RTV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen5.aynaott.com/RtvHD/index.m3u8"
+    },
+    {
+      "name": "Maasranga TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen5.aynaott.com/maasrangatv/index.m3u8"
+    },
+    {
+      "name": "Gazi TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8"
+    },
+    {
+      "name": "Green TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen6.aynaott.com/cLuA3hJR/index.m3u8"
+    },
+    {
+      "name": "My TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen6.aynaott.com/XMpHaEf0ANBhv8w6NWR7/index.m3u8"
+    },
+    {
+      "name": "Asian TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen6.aynaott.com/pKb5k6NnzxsKpWUs6E8M/index.m3u8"
+    },
+    {
+      "name": "SA TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://j6nfugukcl.gpcdn.net/tile_5/master.m3u8"
+    },
+    {
+      "name": "Ananda TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen6.aynaott.com/LeUAm4F1iixYns3s3Non/index.m3u8"
+    },
+    {
+      "name": "Nexus TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8"
+    },
+    {
+      "name": "Rajdhani TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://drk6xq0vhn.gpcdn.net/live/rajdhani_tv/index.m3u8"
+    },
+    {
+      "name": "Vokta TV",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "NAN TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/nantv.stream/live-orgin/nantv.stream/playlist.m3u8"
+    },
+    {
+      "name": "ATN Music",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Deshi TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8"
+    },
+    {
+      "name": "Rupashi Bangla TV BD",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Enter TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://live1.entertv.com.bd/entertv/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "name": "Channel S",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8"
+    },
+    {
+      "name": "Deshe Bideshe TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8"
+    },
+    {
+      "name": "Islamic TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://drk6xq0vhn.gpcdn.net/live/islamic_tv/index.m3u8"
+    },
+    {
+      "name": "Iqra Bangla",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/iqrabanglatvoffice.stream/live-orgin/iqrabanglatvoffice.stream/chunks.m3u8"
+    },
+    {
+      "name": "BTV World",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Mohona TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen6.aynaott.com/AkyX5dunzju4cpo26dr7/index.m3u8"
+    },
+    {
+      "name": "Global TV BD",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "NRB TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://app.ncare.live/live-orgin/nrb-eu.stream/playlist.m3u8"
+    },
+    {
+      "name": "Thikana TV",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Channel 9 BD",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Sony Aath",
+      "state": "PINNED_USER_WORKING",
+      "stream": "https://stream.ottplus.live/live/sony_aath_abr/index.m3u8"
+    },
+    {
+      "name": "Zee Bangla",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://drk6xq0vhn.gpcdn.net/live/zee_bangla_720/index.m3u8"
+    },
+    {
+      "name": "Star Jalsha",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:starjalsha.smil/chunklist_b1928000.m3u8"
+    },
+    {
+      "name": "Colors Bangla",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8"
+    },
+    {
+      "name": "Aakaash Aath",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen5.aynaott.com/Wm9Lv2RjZGT6/index.m3u8"
+    },
+    {
+      "name": "Sun Bangla",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Bangla Jago TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "http://banglajagotv.livebox.co.in/banglajagohls/24x7.m3u8"
+    },
+    {
+      "name": "DD Bangla",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index_3.m3u8"
+    },
+    {
+      "name": "TV9 Bangla",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/pub-iotv9banaen8yq/live_480p/chunks.m3u8"
+    },
+    {
+      "name": "Zee 24 Ghanta",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-zee24ghantaa-xiaomi/playlist.m3u8"
+    },
+    {
+      "name": "Kolkata TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen6.aynaott.com/kolkatatv/index.m3u8"
+    },
+    {
+      "name": "Ruposhi Bangla",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://da86m1sqpm3o0.cloudfront.net/28072023/smil:rupashibangla.smil/playlist.m3u8"
+    },
+    {
+      "name": "Amar Bangla",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/amarbanglatv.stream/playlist.m3u8"
+    },
+    {
+      "name": "R Plus Gold",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://thelegitpro.in/pntv/rplusnews24x7/tracks-v1a1/mono.m3u8"
+    },
+    {
+      "name": "Enterr10 Bangla",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Sananda TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://live.sanandatelevision.in/sananda/index.m3u8"
+    },
+    {
+      "name": "Bangla Plus",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8"
+    },
+    {
+      "name": "Zee Bangla SD",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Hungama",
+      "state": "PINNED_USER_WORKING",
+      "stream": "http://103.135.253.32:8080/HUNGAMA/index.m3u8"
+    },
+    {
+      "name": "Sony Yay",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://drk6xq0vhn.gpcdn.net/live/sony_yay_abr/index.m3u8"
+    },
+    {
+      "name": "Super Hungama",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Pogo",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://drk6xq0vhn.gpcdn.net/live/pogo_sd_abr/index.m3u8"
+    },
+    {
+      "name": "Cartoon Network",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8"
+    },
+    {
+      "name": "Discovery Kids",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://live20.bozztv.com/giatvplayout7/giatv-209633/index.m3u8"
+    },
+    {
+      "name": "Disney Channel India",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Nick Jr India",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Disney HD Hindi",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Disney SD",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Nick Hindi",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Sonic Hindi",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Duronto TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
+    },
+    {
+      "name": "T Sports",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "DD Sports",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index_3.m3u8"
+    },
+    {
+      "name": "PTV Sports",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "A Sports",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8"
+    },
+    {
+      "name": "beIN Sports XTRA",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8"
+    },
+    {
+      "name": "Sports First TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409.m3u8"
+    },
+    {
+      "name": "Red Bull TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8"
+    },
+    {
+      "name": "Star Sports 1 Hindi",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://starsportshindiii.pages.dev/index.m3u8"
+    },
+    {
+      "name": "Star Sports 2",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Goal TV",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://streams2.sofast.tv/sofastplayout/WiseM3U8_1/master.m3u8"
+    },
+    {
+      "name": "Cricket Gold",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://d1nj4u39ja4cn0.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/FLS-MuxIP-CricketGold/418.m3u8"
+    },
+    {
+      "name": "FITE 24/7",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8"
+    },
+    {
+      "name": "T Sports (ALT CDN)",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Sony Ten 1 HD",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://dl.dropbox.com/s/96ziqh1ehkhzh81/badminton1.m3u8?dl=0"
+    },
+    {
+      "name": "Sony Ten 3 HD",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Discovery Bangla",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Nat Geo Bangla",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    },
+    {
+      "name": "Sony MAX HD",
+      "state": "NO_STREAM_AVAILABLE",
+      "stream": null
+    }
+  ],
+  "warning": "Remote HLS check does not guarantee Link3 playback, picture quality, buffering or access rights"
+}
