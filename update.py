@@ -88,6 +88,8 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        # New independently named source for validator ONLY. Publicly labeled Disney Channel in Sep 2026 channel list; language and resolution unknown, audit only.
+        "http://88.212.15.19/live/test_disney/playlist.m3u8",
         # Candidate CDN/relay endpoints under test; never assume a working video feed.
         "https://app-re.sm-monirul-islam-rs.workers.dev/disney-hd-hindi/index.m3u8",
         "https://stream.ottplus.live/live/disney_channel_hd_abr/index.m3u8",
@@ -160,6 +162,8 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        # New independently named source for validator ONLY. Labeled Sonic Hindi channel 815 in public Jio playlist; media validation required.
+        "http://hardcore-keldysh.64-227-150-121.plesk.page:80/getm3u8/815/master.m3u8",
         # Candidate CDN/relay endpoints under test; never assume a working video feed.
         "https://sflex07.fun:443/07/jio/app/ts_live_815.m3u8",
         "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=815",
@@ -197,6 +201,8 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # New independently named source for validator ONLY. Labeled Sonic Bangla in public Sep 2026 collection; media validation required.
+        "http://198.195.239.50:8095/sonic/index.m3u8",
         # Candidate CDN/relay endpoints under test; never assume a working video feed.
         "https://sflex07.fun:443/07/jio/app/ts_live_1345.m3u8",
         "https://app-re.sm-monirul-islam-rs.workers.dev/sonic-bangla/index.m3u8",
@@ -581,7 +587,7 @@ def main():
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
         heights = dict(zip(hd_urls, pool.map(hd_resolution, hd_urls)))
     priority_urls = list(dict.fromkeys(c["url"] for item, old, choices in tasks
-                    if item.get("requires_media_segment") for c in choices[:9]
+                    if item.get("requires_media_segment") for c in choices[:24 if item["name"] in {"Disney HD Hindi", "Sonic Hindi", "Sonic Bangla"} else 9]
                     if health.get(c["url"])))
     with concurrent.futures.ThreadPoolExecutor(max_workers=14) as pool:
         segments = dict(zip(priority_urls, pool.map(segment_probe, priority_urls)))
