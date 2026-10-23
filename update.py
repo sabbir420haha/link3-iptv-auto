@@ -90,7 +90,6 @@ EXTRA_CANDIDATES = {
     "Disney HD Hindi": [
         # Public GitHub playlist candidates; not user-confirmed or automatically licensed.
         "https://prox.assadikb.workers.dev/watch/1373JP",
-        "https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/19741.ts",
         # Probe guessed path(s) on the user's already-working public IP; do not
         # publish unless HLS AND media bytes actually pass tests.
         "http://103.135.253.32:8080/DISNEY-CHANNEL-HD/index.m3u8",
@@ -147,6 +146,8 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        "http://103.68.28.58:5001/live/815.m3u8",
+        "https://colorsscreen.com/live.php?id=815&extension=.m3u8",
         # Public GitHub playlist candidates; not user-confirmed or automatically licensed.
         "https://madanitv.assadikb.workers.dev/live.php?id=815&e=.m3u8",
         "http://103.83.80.54:6088/play/a0g4/index.m3u8",
@@ -169,6 +170,8 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        "http://103.68.28.58:5001/live/1345.m3u8",
+        "https://colorsscreen.com/live.php?id=1345&extension=.m3u8",
         # Public GitHub playlist candidates; not user-confirmed or automatically licensed.
         "https://madanitv.assadikb.workers.dev/live.php?id=1345&e=.m3u8",
         # Probe guessed path(s) on the user's already-working public IP; do not
