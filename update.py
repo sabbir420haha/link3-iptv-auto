@@ -88,6 +88,10 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        # Candidate CDN/relay endpoints under test; never assume a working video feed.
+        "https://app-re.sm-monirul-islam-rs.workers.dev/disney-hd-hindi/index.m3u8",
+        "https://stream.ottplus.live/live/disney_channel_hd_abr/index.m3u8",
+        "https://stream.ottplus.live/live/disney_hd_abr/index.m3u8",
         # Newly sourced public Disney CHANNEL candidates (not Disney Junior).
         # Keep strict HD master + media-segment validation and no blind publishing.
         "http://103.174.5.43:8000/play/a06m/index.m3u8",
@@ -156,6 +160,11 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        # Candidate CDN/relay endpoints under test; never assume a working video feed.
+        "https://sflex07.fun:443/07/jio/app/ts_live_815.m3u8",
+        "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=815",
+        "https://app-re.sm-monirul-islam-rs.workers.dev/sonic-hindi/index.m3u8",
+        "https://stream.ottplus.live/live/sonic_abr/index.m3u8",
         # Independently labelled Sonic Hindi; runner checks required.
         "http://103.140.254.2:3500/live/815.m3u8",
         "https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
@@ -188,6 +197,10 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # Candidate CDN/relay endpoints under test; never assume a working video feed.
+        "https://sflex07.fun:443/07/jio/app/ts_live_1345.m3u8",
+        "https://app-re.sm-monirul-islam-rs.workers.dev/sonic-bangla/index.m3u8",
+        "https://stream.ottplus.live/live/sonic_bangla_abr/index.m3u8",
         # Publicly listed as Sonic Bangla in a recently updated M3U collection.
         "http://103.182.170.32:8888/play/a02s",
         "https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8",
