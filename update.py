@@ -155,6 +155,8 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # 2026-08 public M3U specifically labels this stream Sonic Bangla.
+        "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=1345",
         # Published as Sonic Bengali in public lists; audio still needs viewer check.
         "http://103.180.212.191:3500/live/1345.m3u8",
         "http://103.17.193.159:5001/live/1345.m3u8",
