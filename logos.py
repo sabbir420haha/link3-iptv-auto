@@ -7,6 +7,8 @@ import re
 import textwrap
 import urllib.request
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor
+from io import BytesIO
 from pathlib import Path
 from urllib.parse import urlsplit
 from PIL import Image, ImageDraw, ImageFont
@@ -79,7 +81,48 @@ def load_india_pngs():
             logos[norm(label)].append(item["download_url"])
     return logos
 
-def best_official_logo(name, group, aliases, api, india):
+def load_updated_playlist_logos():
+    # Supplement newer BD brands absent from the historical IPTV-org logo archive.
+    try:
+        url="https://raw.githubusercontent.com/sm-monirulislam/SM-IPTV/main/Combined_Live_TV.m3u"
+        req=urllib.request.Request(url,headers=AGENT)
+        with urllib.request.urlopen(req,timeout=20) as r:
+            body=r.read(3000000).decode("utf-8-sig",errors="replace")
+    except Exception as exc:
+        print("Supplemental logo source unavailable:",str(exc)[:130])
+        return {}
+    found=defaultdict(list)
+    for line in body.splitlines():
+        if not line.startswith("#EXTINF:"):
+            continue
+        m=re.search(r'tvg-logo="([^"]+)"',line)
+        if not m or "," not in line:
+            continue
+        title=line.rsplit(",",1)[-1].strip()
+        uri=m.group(1).strip()
+        if uri.startswith("https://") and urlsplit(uri).hostname:
+            found[norm(title)].append(uri)
+    return found
+
+def remote_logo_dimensions(url):
+    if not url.startswith("https://"):
+        return 0
+    try:
+        request=urllib.request.Request(url,headers=AGENT)
+        with urllib.request.urlopen(request,timeout=7) as response:
+            ctype=response.headers.get("Content-Type","").lower()
+            if ctype and "image" not in ctype and "octet-stream" not in ctype:
+                return 0
+            data=response.read(2500000)
+        with Image.open(BytesIO(data)) as picture:
+            w,h=picture.size
+            if picture.format not in ("PNG","JPEG","WEBP") or w<160 or h<70:
+                return 0
+            return w
+    except Exception:
+        return 0
+
+def best_official_logo(name, group, aliases, api, india, supplemental, checked):
     names=[name,basename(name)]+list(aliases)
     names=[x for x in names if x]
     expected="BD" if group.startswith(("01","02","05")) else "IN" if group.startswith(("03","04","08")) else ""
@@ -98,6 +141,14 @@ def best_official_logo(name, group, aliases, api, india):
             choices=india.get(norm(n),[])
             if choices:
                 return choices[0],"indian-png-library"
+    # Fallback to a newer independent index, but only after checking image bytes
+    # and minimum dimensions, rather than trusting a random logo URL.
+    for n in names:
+        for uri in supplemental.get(norm(n),[])[:3]:
+            if uri not in checked:
+                checked[uri]=remote_logo_dimensions(uri)
+            if checked[uri]>=225:
+                return uri,"verified-recent-provider-logo"
     return None,"text-fallback"
 
 def slug(name):
@@ -136,6 +187,8 @@ def main():
     known={c["name"]:c for c in json.loads(CATALOG.read_text(encoding="utf-8"))}
     api,_=load_api()
     india=load_india_pngs()
+    supplemental=load_updated_playlist_logos()
+    checked={}
     content=M3U.read_text(encoding="utf-8").splitlines()
     counts=defaultdict(int)
     new=[]
@@ -146,7 +199,7 @@ def main():
         m=re.search(r'tvg-name="([^"]+)"',line)
         name=m.group(1) if m else line.rsplit(",",1)[-1].strip()
         channel=known.get(name,{})
-        url,method=best_official_logo(name,channel.get("group",""),channel.get("aliases",[]),api,india)
+        url,method=best_official_logo(name,channel.get("group",""),channel.get("aliases",[]),api,india,supplemental,checked)
         if not url:
             filename=slug(name)+".png"
             url=generate_fallback(name,channel.get("group",""),filename)
