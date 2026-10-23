@@ -38,6 +38,9 @@ SOURCES = [
     ("updated-Hindi-streams", "https://raw.githubusercontent.com/wizakorhd/iptv/main/playlist-hindi.m3u"),
     ("updated-Hindi-top", "https://raw.githubusercontent.com/wizakorhd/iptv/main/playlist-top.m3u"),
     ("recent-BD-India", "https://raw.githubusercontent.com/md-sayem-hossain/My-BD-IPTV-Playlist/main/playlist.m3u"),
+    ("2026-India-experimental", "https://raw.githubusercontent.com/ttmttm/iptv_2026/master/streams/in.m3u"),
+    ("public-cartoon-2026", "https://raw.githubusercontent.com/hmripon66/cartoon-iptv-by-TechEduByte/main/Cartoon%20by%20techedubyte.m3u8"),
+    ("regional-sports-2026", "https://raw.githubusercontent.com/8figalltimepro/special-train/main/HINDI%26sports%281%29.m3u8"),
 ]
 
 # These are candidate public URLs only, not a guarantee of rights or playback.
@@ -54,28 +57,42 @@ EXTRA_CANDIDATES = {
     # New candidates from published GitHub playlists; none are claimed working.
     # Segment testing from GitHub Actions determines if they are published.
     "Discovery Bangla": [
+        "http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/61.ts",
+        "https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_21.m3u8",
         "https://khulnalive.anytv.live/discoverybangla/index.m3u8",
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        "http://66.102.126.10:8000/play/a013/index.m3u8",
+        "http://116.90.120.151:8000/play/a0hp/index.m3u8",
+        "http://103.162.136.235:4500/play/a01g/index.m3u8",
         "https://kingkohli.pages.dev/Play/DisneyHD_Watch_index.m3u8",
         "https://disneyhindi-lh.akamaihd.net/i/disneyhindi_1@174991/master.m3u8",
         "http://202.70.146.135:8000/play/a01q/index.m3u8",
         "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/8f3e6367117c923.m3u8",
     ],
     "Nick Hindi": [
+        "http://103.162.136.235:4500/play/a01f/index.m3u8",
+        "http://149.71.34.166:8000/play/a00u/index.m3u8",
         "http://103.153.175.254:8080/hls/stream23.m3u8",
         "https://madplay.live/jiotv/app/live/545/null/index.m3u8",
         "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Nick_Hindi&q=800&e=junk.m3u8",
     ],
     "Sonic Hindi": [
+        "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
+        "http://103.229.254.25:7001/play/a0dl/index.m3u8",
+        "http://103.72.101.252:8080/live/815.m3u8",
+        "http://103.162.136.235:4500/play/a01k/index.m3u8",
         "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8",
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        "https://edge01.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+        "https://edge01.iptv.digijadoo.net/live/sonic/playlist.m3u8",
         "http://live.balajibroadband.com:3500/live/1345.m3u8",
     ],
     "Sony MAX HD": [
+        "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8",
         "https://stream.ottplus.bd/live/max_hd_abr/live/max_hd_720/chunks.m3u8",
         "https://stream.ottplus.bd/live/max_hd_abr/index.m3u8",
         "https://stream.ottplus.bd/live/sony_max_sd_abr/live/sony_max_sd_720/chunks.m3u8",
@@ -87,14 +104,19 @@ EXTRA_CANDIDATES = {
         "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=set_max_hd",
     ],
     "Sony Ten 1 HD": [
+        "http://103.162.136.235:4500/play/a018/index.m3u8",
+        "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8",
         "https://feed.play.mv/live/10005200/fMLTkj4OJC/master.m3u8",
         "http://103.185.24.134:3001/SonyTenSports1/index.m3u8",
     ],
     "Sony Ten 3 HD": [
+        "http://103.162.136.235:4500/play/a01d/index.m3u8",
+        "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8",
         "https://feed.play.mv/live/10005200/RG2fKR6d9p/master.m3u8",
         "https://cloudplay-sonyliv.pages.dev/ten3.m3u8",
     ],
     "Nat Geo HD Bangla": [
+        "http://103.167.167.5:8111/play/a036/index.m3u8",
         "http://103.89.248.130:8082/National-geo-graphy-bangla/index.m3u8",
         "http://103.55.144.46/hls/ngohd.m3u8",
         "http://103.153.175.254:8080/hls/stream13.m3u8",
@@ -177,6 +199,15 @@ def fetch_playlist(source):
     except Exception as error:
         return name, [], str(error)[:130]
 
+def direct_media_ok(data):
+    """Accept only MPEG-TS sync bytes or MP4 ftyp, never HTML or fake placeholder."""
+    if len(data) < 564 or data[:1] == b"<":
+        return False
+    if data[0] == 0x47 and data[188] == 0x47 and data[376] == 0x47:
+        return True
+    return b"ftyp" in data[:20] and len(data) >= 1000
+
+
 def segment_probe(url):
     """Two-level HLS check: verify playlist and at least one actual media fragment.
     Verify HTTP response bytes, not just #EXTM3U or an HTML redirect.
@@ -200,7 +231,7 @@ def segment_probe(url):
             body,_=get(current,24000)
             text=body.decode("utf-8-sig",errors="replace")
             if "#EXTM3U" not in text[:500]:
-                return False
+                return direct_media_ok(body) if current == url else False
             if "#EXT-X-KEY" in text and ("METHOD=SAMPLE-AES" in text or "KEYFORMAT=" in text):
                 return False  # no protected/DRM stream support
             lines=[line.strip() for line in text.splitlines() if line.strip()]
@@ -244,8 +275,10 @@ def probe(url):
         with urllib.request.urlopen(request, timeout=8) as response:
             if response.status not in (200, 206):
                 return False
-            chunk = response.read(4096).decode("utf-8-sig", errors="replace")
-        return "#EXTM3U" in chunk and ("#EXT-X-" in chunk or "#EXTINF" in chunk)
+            chunk = response.read(4096)
+        return ("#EXTM3U" in chunk.decode("utf-8-sig", errors="replace")
+                and ("#EXT-X-" in chunk.decode("utf-8-sig", errors="replace")
+                     or "#EXTINF" in chunk.decode("utf-8-sig", errors="replace"))) or direct_media_ok(chunk)
     except Exception:
         return False
 
