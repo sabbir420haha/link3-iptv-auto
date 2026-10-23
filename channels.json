@@ -571,12 +571,12 @@
       "Disney Channel HD Hindi",
       "Disney Channel HD"
     ],
-    "locked": false,
-    "last_known_url": "",
+    "locked": true,
+    "last_known_url": "http://ranapkz.site/TATABD/play.php?id=167551&format=.m3u8",
     "quality": "hd",
     "min_height": 720,
     "requires_media_segment": true,
-    "skip_unverified_fallback": true,
+    "skip_unverified_fallback": false,
     "allow_unverified": false,
     "experimental_urls": [],
     "exclude_urls": [
@@ -625,7 +625,7 @@
     "identity_must_match": "Disney Channel Hindi, NOT Disney Junior",
     "strict_hd_manifest": true,
     "quality_note": "Never show unknown-resolution or Disney Junior feed under Disney Hindi HD. Require an HLS master advertising >=720p and confirmed channel identity by the viewer.",
-    "experiment_note": "2026-10-23: Link3 viewer confirms none of the prior 18 Disney Hindi TEST alternatives play, in addition to 20 older failures. Never reuse any viewer-failed URL, never change the 13 pinned working channels, and do not call Disney International HD or Junior 'Disney Hindi'.",
+    "experiment_note": "Pinned by user: Disney Hindi TEST 06 plays in IPTV Pro on Link3. Never replace automatically even if GitHub runner fails. Include RANAPK user-agent required by public source/test M3U.",
     "user_reported_failures": [
       "http://66.102.120.18:8000/play/a013/index.m3u8",
       "http://iptvcasomsapi.jprdigital.in/x-media/C0406/master.m3u8",
@@ -663,7 +663,11 @@
       "http://103.162.136.235:4500/play/a01g/index.m3u8",
       "http://103.174.5.43:8000/play/a06m/index.m3u8",
       "https://prox.assadikb.workers.dev/watch/1373JP"
-    ]
+    ],
+    "stream_user_agent": "RANAPK",
+    "user_verified_link3": true,
+    "user_confirmed_at": "2026-10-23",
+    "user_quality_feedback": "Viewer confirms Disney Hindi TEST 06 plays on Link3 Wi-Fi in IPTV Pro with EXTVLCOPT:http-user-agent=RANAPK. Identity/audio/resolution not independently checked; preserve exact URL and header."
   },
   {
     "name": "Disney SD",
