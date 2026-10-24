@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-10-24T16:17:07.524544+00:00",
-  "channels": 79,
+  "updated_utc": "2026-10-24T16:21:03.997509+00:00",
+  "channels": 78,
   "target_channels": 100,
   "groups": {
     "01 | BD News": 17,
@@ -539,7 +539,7 @@
     {
       "name": "Channel 24 YouTube TEST",
       "state": "PINNED_USER_WORKING",
-      "stream": "https://www.youtube.com/@Channel24digital/live",
+      "stream": "https://stream.ottplus.live/live/channel_24_abr/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
