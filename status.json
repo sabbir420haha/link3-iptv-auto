@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-24T18:45:49.327618+00:00",
+  "updated_utc": "2026-10-24T18:50:01.868398+00:00",
   "channels": 77,
   "target_channels": 99,
   "groups": {
@@ -1234,9 +1234,9 @@
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-10-24T18:45:59.975733+00:00",
-    "channel_count": 20,
-    "entries": 481,
+    "updated_utc": "2026-10-24T18:50:13.819698+00:00",
+    "channel_count": 25,
+    "entries": 576,
     "by_name": {
       "Zee Bangla HD": 30,
       "Zee Bangla": 30,
@@ -1244,29 +1244,34 @@
       "ATN News": 16,
       "BanglaVision": 30,
       "Cartoon Network": 19,
+      "Channel 24": 19,
       "Channel i": 9,
       "DBC News": 30,
+      "Discovery Bangla": 19,
       "Disney HD Hindi": 25,
       "Duronto TV": 30,
       "Hungama": 16,
       "Sony MAX HD": 29,
       "Jamuna TV": 30,
       "Maasranga TV": 30,
+      "Nat Geo HD Bangla": 6,
       "Nick Bangla": 14,
       "NTV": 21,
       "Somoy TV": 30,
+      "Sonic Hindi": 28,
       "Sony Aath": 30,
       "Sony Ten 1 HD": 16,
-      "Sony Ten 3 HD": 16
+      "Sony Ten 3 HD": 16,
+      "Sonic Bangla": 23
     },
     "max_per_channel": 30,
     "stable_test_numbers": true,
-    "excluded": [
+    "extra_test_groups": [
       "Channel 24",
-      "Discovery Bangla",
-      "Nat Geo HD Bangla",
       "Sonic Bangla",
-      "Sonic Hindi"
+      "Sonic Hindi",
+      "Discovery Bangla",
+      "Nat Geo HD Bangla"
     ],
     "warning": "Testing only; streams not verified on user's Link3. Production playlist is not altered. TEST numbers map to fixed registry URLs."
   }

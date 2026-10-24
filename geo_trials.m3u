@@ -1,7 +1,7 @@
 #EXTM3U
-# Dedicated Favorites TEST playlist. 25 source groups; stable channel test numbers.
-# ATN News previous 30 Link3-failed URLs have been removed. Newly sourced TESTs are unverified.
-# No main-channel URL was changed. Future Favorites Best playlist can use user-chosen winners.
+# Favorites TEST only. Stable source numbers, max 30 distinct URLs per channel.
+# Unverified on Link3; identity, language, rights and no-buffer playback not guaranteed.
+# Now includes Channel 24, Sonic Bangla/Hindi, Discovery and Nat Geo tests.
 #EXTINF:-1 tvg-id="fav-zee-bangla-hd-01" tvg-name="Zee Bangla HD TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 01
 https://padmaonline.duckdns.org:8088/ZeeBanglaHD/index.m3u8
 #EXTINF:-1 tvg-id="fav-zee-bangla-hd-02" tvg-name="Zee Bangla HD TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 02
