@@ -1,0 +1,709 @@
+{
+  "as_of": "2026-10-24",
+  "sources": {
+    "Hungama": [
+      {
+        "url": "http://103.162.136.235:4500/play//a01h/index.m3u8",
+        "source": "https://github.com/8figalltimepro/special-train/blob/bfb62ea901b98e014bf7d650bb4d75cef0c47caf/Freecatv-57.m3u8"
+      }
+    ],
+    "Sony MAX HD": [
+      {
+        "url": "http://tv2.ebox.live:8080/live/sony-max.m3u8",
+        "source": "https://github.com/mahmud31132/bdix-tv/blob/79a6443f6a4a1cece0d7bc9f6ac725a61968b715/:.."
+      },
+      {
+        "url": "http://103.115.126.26:8000/play/a03r/index.m3u8",
+        "source": "https://github.com/rabbyos/rabbyos/blob/81bc074736dc1a568d3abb276b7ddab5e09f4b13/D2H"
+      },
+      {
+        "url": "http://103.55.144.46/hls/sony-maxhd.m3u8",
+        "source": "https://github.com/Efbd/E-fiber/blob/34e42db0d2efa75a19807cd18b78cb79ed7edb03/live-tv"
+      },
+      {
+        "url": "https://legendary-orbit-r44wx4gj9xq6fwxqx-8080.app.github.dev/stream/sony_max_hd/index.m3u8",
+        "source": "https://github.com/Prtstream820894/GitHub/blob/19d22a31f9e45da08ea5cb5afa5dcc318991dc89/UAE.txt"
+      },
+      {
+        "url": "http://bb.thenayeemparvez.xyz/SonyMaxFHD/index.m3u8",
+        "source": "https://github.com/AlahiMajnurOsama/Tv/blob/fec30eecb42189d89caf971745e1a418c207efb5/totaflix"
+      },
+      {
+        "url": "http://AllLiveSportsLinks.hopto.org:80/hls/sony-maxhd.m3u8",
+        "source": "https://github.com/Efbd/E-fiber/blob/34e42db0d2efa75a19807cd18b78cb79ed7edb03/.net"
+      },
+      {
+        "url": "http://103.55.144.46:80/hls/sony-maxhd.m3u8",
+        "source": "https://github.com/Efbd/E-fiber/blob/34e42db0d2efa75a19807cd18b78cb79ed7edb03/IPTV-01"
+      },
+      {
+        "url": "http://humsab.xyz/IN_SonyMaxHD/index.m3u8",
+        "source": "https://github.com/Mpdishtv/MPDISHTV/blob/a66dafaf93c83aef22553b465d5ad0c88141ed39/README.md"
+      },
+      {
+        "url": "http://125.17.105.168/wh7f454c46taw1033387593_346937752/PLTV/88888888/224/3221225776/index.m3u8",
+        "source": "https://github.com/guruvsc/TV/blob/55cdd2c28c6739e0b74c9b42aa7448412abb2be4/README.txt"
+      },
+      {
+        "url": "https://isp.top10bhaluka.com/tv/stream.m3u8?id=SONY-MAX&e=.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Bdix"
+      },
+      {
+        "url": "https://isp.top10bhaluka.com/tv/stream.m3u8?id=MASTI&e=.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Bdix"
+      },
+      {
+        "url": "https://sm-monirul.top/Toffee/live.php?id=6a65854166f1&e=.m3u8",
+        "source": "https://github.com/badalbd53/Rocket-OTV/blob/62205d0667ab00183841aa4eb0708ce8a786b547/toffee"
+      },
+      {
+        "url": "https://ott.bingebd.com/live/ngrp:APNTn-asdt-t1asnd2a-sWgtsrhQW_AQTY1025_sony_maxPQRT_98sdfhs0_f36erxty_forsgst63_DH/chunklist.m3u8",
+        "source": "https://github.com/lolz1990/my/blob/de21d04785c5aa320bc269fd3ecad0c3e0826919/bng2"
+      },
+      {
+        "url": "http://172.19.17.3:8090/hls/sonymaxhd.m3u8",
+        "source": "https://github.com/AbirDattaChandan/abir-make-github/blob/3205b099a5744b45e575a3549af29ca89a1e3341/aug26"
+      },
+      {
+        "url": "https://tataplay.slivcdn.com/hls/live/2011670/SonyMaxhd/master_2000.m3u8",
+        "source": "https://github.com/honarab24/rs/blob/a369be77051850086f118fcc365ed1a57e44ee4a/K"
+      },
+      {
+        "url": "http://208.86.19.13:81/7066.stream/index.m3u8",
+        "source": "https://github.com/Sudiptod2h/Sudiptod2h/blob/63127bf20e866e1840a0866dfda7bb758c68f55b/D2h"
+      },
+      {
+        "url": "http://89.187.177.137:8081/SONYMAX/index.m3u8",
+        "source": "https://github.com/msfata/MyTV/blob/3cf6e67ef87639a5902c099e06c3ad06132b442f/iptv"
+      },
+      {
+        "url": "http://dx3.gcdn.co/hindi-SONYMAXHD/index.m3u8",
+        "source": "https://github.com/mahmud31132/iptv/blob/810b0170f41f8b20b17550d0f5e1f3093c69138f/Mahmud"
+      },
+      {
+        "url": "http://103.151.60.162:2122/play/a014/index.m3u8?hls",
+        "source": "https://github.com/Sonaton11/M3/blob/16254f0db46ba1c6b4207fa5b224e8a8d11e2cb1/Surzotv"
+      },
+      {
+        "url": "http://10.20.30.40:8088/404/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/Diptv24/d531/blob/fb1552b54a3654a13e14575a7ef8ecf53746ecf7/d531"
+      }
+    ],
+    "Jamuna TV": [
+      {
+        "url": "http://172.26.1.3:8089/amrbd/Jamuna-Tv/playlist.m3u8",
+        "source": "https://github.com/msariyan/piyash2024/blob/d88a87796c3a8c7039bdc2e72f5a0f422a43d4b4/piyash.m3u8"
+      },
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
+        "source": "https://github.com/nhnasim333/live_tv/blob/8623d914f6181245d9c4c38a3cce3da5499e0da1/public/playlists/iptv.m3u8"
+      },
+      {
+        "url": "http://tv2.ebox.live:8080/live/ex-jamuna.m3u8",
+        "source": "https://github.com/skmasum98/IPTV/blob/31b2c2cbcd01fb3c6e784bebb5b8d8c976378df7/Tv.ebox.live"
+      },
+      {
+        "url": "https://tempsignature.jagobd.com:444/cZVydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZT00U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/jamuna-test-sample-ok.stream/chunks.m3u8",
+        "source": "https://github.com/skmasum98/IPTV/blob/31b2c2cbcd01fb3c6e784bebb5b8d8c976378df7/myiptv.m3u8"
+      },
+      {
+        "url": "http://tvserver.aliflailabd.com:8989/jamuna-tv/index.m3u8",
+        "source": "https://github.com/Efbd/E-fiber/blob/34e42db0d2efa75a19807cd18b78cb79ed7edb03/live-tv"
+      },
+      {
+        "url": "http://iptvbd.jagobd.com:1931/live-orgin/jamuna-test-sample-ok.stream/chunks.m3u8",
+        "source": "https://github.com/imranemon1/emon/blob/71dbcda09ccbc09efd474ae3cbe2272b2390a17f/freecatv.m3u8"
+      },
+      {
+        "url": "http://iptvbd.jagobd.com:1931/live-orgin/jamuna-test-sample-ok.stream/playlist.m3u8",
+        "source": "https://github.com/softbdteam/BDIX-IPTV/blob/9da344956da6cec3841457d519bc31f7944e40f0/BDIX IPTV 6.m3u8"
+      },
+      {
+        "url": "http://103.102.136.106:8080/cmcltv/jamuna_th.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/CMCL TV."
+      },
+      {
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/jamuna-test-sample-ok.stream/playlist.m3u8",
+        "source": "https://github.com/puttyroot/attempt/blob/9ae119797800c34e6e5fbd66b82fa79c3b15e1de/GitIPTV.m3u8"
+      },
+      {
+        "url": "http://103.49.168.172:8081/ebox/bd_jamuna/chunks.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/Ebox TV 2"
+      },
+      {
+        "url": "http://tv.ebox.live:8080/live/ex-jamuna.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/Tv.ebox.live"
+      },
+      {
+        "url": "http://45.249.187.238:8081/hls/live2.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/tv.mymoviebazar"
+      },
+      {
+        "url": "http://43.230.123.21:8080/live/ex-jamuna.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/TV.ebox.live 2"
+      },
+      {
+        "url": "http://cdn01.palki.tv/live/JamunaTV-M/index.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/Palki.m3u8"
+      },
+      {
+        "url": "http://pgplex.net:8080/JamunaTV/index.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/pgplex.m3u8"
+      },
+      {
+        "url": "http://ctgiptv.kitv.live:1935/live/test/test1/8.m3u8",
+        "source": "https://github.com/Shetara/ab/blob/20b71f74474cba9fd023cb8a7c2ae3cc19dd5ecf/Web-Tv"
+      },
+      {
+        "url": "https://livess.ncare.live/live-orgin/jamuna-test-sample-ok.stream/chunks.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/Jagobd.m3u8"
+      },
+      {
+        "url": "http://172.100.100.100:8088/209/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/cvmmehedy/SHADHIN-TV/blob/5202680519c752ae3c07669563c2fd88f5e80d8f/SHADHIN TV"
+      },
+      {
+        "url": "http://103.107.79.87:8080/1106/video.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/Devilbox.m3u8"
+      },
+      {
+        "url": "https://utube.buddyxiptv.com/@JamunaTVbd.m3u8",
+        "source": "https://github.com/LiKH0N/BDIXTV_1/blob/346523e9b141e38054e926fb1a748646911b0386/youtub3.m3u8"
+      },
+      {
+        "url": "https://livess.ncare.live/live-orgin/jamuna-test-sample-ok.stream/playlist.m3u8",
+        "source": "https://github.com/rana00iptv/rana_iptv/blob/dad7061fc45ab80bcd0cdd74a5bcf44e1f984f9d/BD Tv"
+      },
+      {
+        "url": "https://utube.buddyxiptv.com/@jamunatvbd.m3u8",
+        "source": "https://github.com/rana00iptv/rana_iptv/blob/dad7061fc45ab80bcd0cdd74a5bcf44e1f984f9d/BD Tv"
+      },
+      {
+        "url": "http://tempe.jagobd.com:1934/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/jamuna-test-sample-ok.stream/playlist.m3u8",
+        "source": "https://github.com/asif017/ip-tv-updated-7-02-20/blob/c2dded4d8ecc5f4fd0f0b06ade63b52e720da3ca/Ip tv new update"
+      },
+      {
+        "url": "http://iptv.kitv.live:1935/live/Shari/MTV-P/116.m3u8",
+        "source": "https://github.com/softbdteam/BDIX-IPTV/blob/9da344956da6cec3841457d519bc31f7944e40f0/BDIX IPTV 3.m3u8"
+      },
+      {
+        "url": "https://entezeetv.fun/bdcast/hls/index.m3u8?id=89b4zb3d&e=.m3u8",
+        "source": "https://github.com/puttyroot/attempt/blob/9ae119797800c34e6e5fbd66b82fa79c3b15e1de/Ultra.m3u8"
+      },
+      {
+        "url": "http://172.19.178.39:18190/JS-TV-03/index.m3u8",
+        "source": "https://github.com/badalbd53/Rocket-OTV/blob/62205d0667ab00183841aa4eb0708ce8a786b547/Cloud Tv"
+      },
+      {
+        "url": "http://cdn01.palki.tv/live/JamunaTV-M/index.fmp4.m3u8",
+        "source": "https://github.com/sashagor786/iptv/blob/6c906ecdd3ed6d608a3ab3bb866f5d5610b62c62/Freecatv-07.m3u8"
+      },
+      {
+        "url": "http://103.78.255.178:8080/jamuna/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/sashagor786/iptv/blob/6c906ecdd3ed6d608a3ab3bb866f5d5610b62c62/Freecatv-07.m3u8"
+      },
+      {
+        "url": "https://himel-op.top/Join-Telegram-@HimelOP_Official/yt-op.m3u8?live=@JamunaTVbd",
+        "source": "https://github.com/khankimagi23221/okk-1/blob/96ba0e07d9611ed03c1a1dd20860a349f9c1c040/bd-tv.m3u"
+      },
+      {
+        "url": "https://app.ncare.live/live-orgin/jamuna-test-sample-ok.stream/playlist.m3u8",
+        "source": "https://github.com/Miraz6755/My-tv/blob/51859defc59083c5e27c143f9c0925508d685bd1/mytv.m3u8"
+      }
+    ],
+    "Maasranga TV": [
+      {
+        "url": "http://103.118.79.22:1935/live/maasrangalive/HODMTV/1.m3u8",
+        "source": "https://github.com/robhein/iptv-4/blob/26698aa0053fe7a62d3a9c45607d170a0ba5ff7b/playlist/iptv"
+      },
+      {
+        "url": "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/1.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/Amarnet tv"
+      },
+      {
+        "url": "http://tv2.ebox.live:8080/live/maasranga.m3u8",
+        "source": "https://github.com/skmasum98/IPTV/blob/31b2c2cbcd01fb3c6e784bebb5b8d8c976378df7/Tv.ebox.live"
+      },
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/1722.m3u8",
+        "source": "https://github.com/sksobuj240/Live-TV-BOX/blob/d92071453a64fd2e72c8518be2b9fe2a2a2b405c/TV.m3u8"
+      },
+      {
+        "url": "http://30.30.30.30/live/skyfeed1003/index.m3u8",
+        "source": "https://github.com/skmasum98/IPTV/blob/31b2c2cbcd01fb3c6e784bebb5b8d8c976378df7/myiptv.m3u8"
+      },
+      {
+        "url": "http://iptv.kitv.live:1935/live/maasrangalive/HODMTV/1.m3u8",
+        "source": "https://github.com/hmripon66/BD-India-bangla-mix-by-Techedubyte/blob/d5954a1a6fdedfd3f5951219789bd356f66a97cf/BD&India mix IPTV.m3u8"
+      },
+      {
+        "url": "http://172.32.1.88:1935/tvprogram/MAASRANGA-TV/playlist.m3u8",
+        "source": "https://github.com/fnnaeem1881/tv_broadcast/blob/1c17069e5348345141dd9a345bf4ebfea9063df5/smartiptv-playlist-master/New Playlists/SUN IPTV.m3u8"
+      },
+      {
+        "url": "http://tvserver.aliflailabd.com:8989/maasranga/index.m3u8",
+        "source": "https://github.com/Efbd/E-fiber/blob/34e42db0d2efa75a19807cd18b78cb79ed7edb03/live-tv"
+      },
+      {
+        "url": "http://172.19.178.39:18190/JS-TV-02/index.m3u8",
+        "source": "https://github.com/badalbd53/Rocket-OTV/blob/62205d0667ab00183841aa4eb0708ce8a786b547/Cloud Tv"
+      },
+      {
+        "url": "http://tv.ebox.live:8080/live/maasranga.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/Tv.ebox.live"
+      },
+      {
+        "url": "http://cdn01.palki.tv/live/MaasrangaTV-M/index.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/Palki.m3u8"
+      },
+      {
+        "url": "http://ctgiptv.kitv.live:1935/live/test/test1/1.m3u8",
+        "source": "https://github.com/Shetara/ab/blob/20b71f74474cba9fd023cb8a7c2ae3cc19dd5ecf/Web-Tv"
+      },
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8",
+        "source": "https://github.com/sksobuj240/Live-TV-BOX/blob/d92071453a64fd2e72c8518be2b9fe2a2a2b405c/alltv.m3u8"
+      },
+      {
+        "url": "http://cdn.moviemazic.xyz:8083/Maasranga/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/Md-Shariful-Islam-Himel/btcl_iptv/blob/b04dd6bf1ce5c8a081ff5659713f3ae740ff4f2b/IPTV_v28.m3u8"
+      },
+      {
+        "url": "https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/Rcdexplorer/ujjol01/blob/da3b5d7c4e0e553006fae81bef8e6cc62885c9dd/Personal.m3u8"
+      },
+      {
+        "url": "https://mtv.sunplex.live/MAASRANGA/index.m3u8",
+        "source": "https://github.com/razuahammad55/live-tv-hub/blob/fc81cc4be19cf5b82c14b5df6a29e4cfbce032fb/tv.m3u"
+      },
+      {
+        "url": "http://103.102.27.173:84/Massranga-TV/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/cvmmehedy/SHADHIN-TV/blob/5202680519c752ae3c07669563c2fd88f5e80d8f/SHADHIN TV"
+      },
+      {
+        "url": "https://itpolly.iptv.digijadoo.net/live/maasranga/chunks.m3u8",
+        "source": "https://github.com/Shadmanislam/bdiptv/blob/5bb712d37ac0acb227b8d1ba3cbfc480a1cf0127/BD IPTV.m3u"
+      },
+      {
+        "url": "https://utube.buddyxiptv.com/@MaasrangaNewsbd.m3u8",
+        "source": "https://github.com/LiKH0N/BDIXTV_1/blob/346523e9b141e38054e926fb1a748646911b0386/youtub3.m3u8"
+      },
+      {
+        "url": "http://103.141.2.37:25461/live/web/web/596.m3u8",
+        "source": "https://github.com/imranemon1/emon/blob/71dbcda09ccbc09efd474ae3cbe2272b2390a17f/freecatv.m3u8"
+      },
+      {
+        "url": "http://iptv.kitv.live:1935/live/Shari/MTV-P/104.m3u8",
+        "source": "https://github.com/softbdteam/BDIX-IPTV/blob/9da344956da6cec3841457d519bc31f7944e40f0/BDIX IPTV 3.m3u8"
+      },
+      {
+        "url": "https://tv5.hoichoi24.com/1122/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/rahulsaha28/ss/blob/9bafb0f50a2148510d4ccd7043410574dd0d92fe/L.m3u8"
+      },
+      {
+        "url": "http://100.64.64.11/Masranga_TV_HD/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/Prattoy.m3u8"
+      },
+      {
+        "url": "http://ctgiptv.kitv.live:1935/live/test/test1/1.ts",
+        "source": "https://github.com/zeroflixxyz/livetv/blob/b135cb14ce9d6e207da444c29009cbacf45761f1/livetv/tv_channels.m3u"
+      }
+    ],
+    "Nick Bangla": [
+      {
+        "url": "http://14.102.123.50:5001/live/1341.m3u8",
+        "source": "https://github.com/RhqAB/TV/blob/8c669911e970d06cf0c46adfc8b24b76a480dbd9/playlist.m3u8"
+      },
+      {
+        "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_nickelodeonPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
+        "source": "https://github.com/skmasum98/IPTV/blob/31b2c2cbcd01fb3c6e784bebb5b8d8c976378df7/myiptv.m3u8"
+      },
+      {
+        "url": "http://172.26.1.3:8089/load/nick_bangla/playlist.m3u8",
+        "source": "https://github.com/msariyan/piyash2024/blob/d88a87796c3a8c7039bdc2e72f5a0f422a43d4b4/piyash.m3u8"
+      },
+      {
+        "url": "https://sar.pages.dev/nick_bangla.m3u8",
+        "source": "https://github.com/sadman-al-rafi/sadman-al-rafi.github.io/blob/2cee8c6a97580a87880884225c70e0dcdce180bd/playlist.m3u8"
+      },
+      {
+        "url": "http://103.109.56.116/live/funtime110/index.m3u8",
+        "source": "https://github.com/Sonaton11/M3/blob/16254f0db46ba1c6b4207fa5b224e8a8d11e2cb1/sonaton.m3u8"
+      },
+      {
+        "url": "http://103.229.254.25:7001/play/a07b/index.m3u8",
+        "source": "https://github.com/arafat-anowar/iptv/blob/ca3ef14962c93b93769939818e8dd7fbcd3e242a/ip.m3u8"
+      },
+      {
+        "url": "http://live.balajibroadband.com:3500/live/1341.m3u8",
+        "source": "https://github.com/rabbyos/rabbyos/blob/81bc074736dc1a568d3abb276b7ddab5e09f4b13/Choda"
+      },
+      {
+        "url": "http://172.20.3.1:81/NickBNG/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/rabbyos/rabbyos/blob/81bc074736dc1a568d3abb276b7ddab5e09f4b13/Bdix"
+      },
+      {
+        "url": "http://tv-cdn.ihub.live:8080/j-Nick/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/I Hub"
+      },
+      {
+        "url": "https://live.dinesh29.com.np/stream/jiotv/nickbangla/master.m3u8",
+        "source": "https://github.com/Rapu1/0/blob/67de11dc83b29fa70bbd3f36de9e57f87a8713b9/0"
+      },
+      {
+        "url": "https://edge01.iptv.digijadoo.net/live/nickelodeon/playlist.m3u8",
+        "source": "https://github.com/imranemon1/emon/blob/71dbcda09ccbc09efd474ae3cbe2272b2390a17f/6.8.20"
+      },
+      {
+        "url": "https://tv.googledrivelinks.com/live.php?c=Nick_Bangla&q=1200&e=junk.m3u8",
+        "source": "https://github.com/Nafis495/iptv/blob/3d79891811466dc729c208949e7a67161148324f/WOW"
+      }
+    ],
+    "NTV": [
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8",
+        "source": "https://github.com/arafat-anowar/iptv/blob/ca3ef14962c93b93769939818e8dd7fbcd3e242a/ip.m3u8"
+      },
+      {
+        "url": "http://18.18.18.1:7777/ch14/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/msujoy1495/Live-TV/blob/c8f33973c7b81bbd2447f80f371c29b8d617c888/OrangeTV.m3u8"
+      },
+      {
+        "url": "https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1716/output/index.m3u8",
+        "source": "https://github.com/rflixtop/Toffee-Channels-Link-Headers/blob/6dcdee0340a3b56ca257ccf5d57c10976a3621fc/abcd.m3u8"
+      },
+      {
+        "url": "http://tv.dugdugilive.com:8080/0ne$ky23/NTV/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/Home.m3u8"
+      },
+      {
+        "url": "https://app.ncare.live/live-orgin/ntvuk00332211.stream/playlist.m3u8",
+        "source": "https://github.com/Miraz6755/My-tv/blob/51859defc59083c5e27c143f9c0925508d685bd1/mytv.m3u8"
+      },
+      {
+        "url": "http://10.16.100.245/hindi/nnnnnntv.m3u8",
+        "source": "https://github.com/abak02/m3u8/blob/b29828118eaefe9f11773e89cf6e21759cde948a/Icc.m3u8"
+      },
+      {
+        "url": "https://tv5.hoichoi24.com/1135/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/Sonaton11/M3/blob/16254f0db46ba1c6b4207fa5b224e8a8d11e2cb1/sonaton.m3u8"
+      },
+      {
+        "url": "http://103.205.133.18/hls/ntv.m3u8",
+        "source": "https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/Sonuiptvfree"
+      },
+      {
+        "url": "http://208.86.19.13:81/652.stream/index.m3u8",
+        "source": "https://github.com/sashagor786/iptv/blob/6c906ecdd3ed6d608a3ab3bb866f5d5610b62c62/freecatv-01.m3u8"
+      },
+      {
+        "url": "https://ott.bingebd.com/live/ngrp:APNTn-asdt-t1asnd2a-sWgtsrhQW_AQTY1025_ntvPQRT_98sdfhs0_f36erxty_forsgst63_DH/chunklist.m3u8",
+        "source": "https://github.com/lolz1990/my/blob/de21d04785c5aa320bc269fd3ecad0c3e0826919/all.m3u8"
+      },
+      {
+        "url": "http://example.com/ntv.m3u8",
+        "source": "https://github.com/ta-syn/StreamBD/blob/05122add025824598d902efd2ffbc7c33f5571af/e2e/navigation.spec.ts"
+      },
+      {
+        "url": "http://10.16.100.205/hls/ntv_b_720.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/Icc"
+      }
+    ],
+    "Somoy TV": [
+      {
+        "url": "http://172.26.1.3:8089/load/somoy_tv/playlist.m3u8",
+        "source": "https://github.com/msariyan/piyash2024/blob/d88a87796c3a8c7039bdc2e72f5a0f422a43d4b4/piyash.m3u8"
+      },
+      {
+        "url": "http://172.26.1.3:8089/amrbd/Somoy-TV/playlist.m3u8",
+        "source": "https://github.com/msariyan/piyash2024/blob/d88a87796c3a8c7039bdc2e72f5a0f422a43d4b4/piyash.m3u8"
+      },
+      {
+        "url": "http://iptvbd.jagobd.com:1931/live-orgin/somoyt000011226615544544.stream/chunks.m3u8",
+        "source": "https://github.com/softbdteam/BDIX-IPTV/blob/9da344956da6cec3841457d519bc31f7944e40f0/jago bd.m3u8"
+      },
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
+        "source": "https://github.com/nhnasim333/live_tv/blob/8623d914f6181245d9c4c38a3cce3da5499e0da1/public/playlists/iptv.m3u8"
+      },
+      {
+        "url": "http://103.102.136.106:8080/cmcltv/somoy_th.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/CMCL TV."
+      },
+      {
+        "url": "https://bongohub.pw/bioscope.php?cc=somoy-tv&e=.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Live Tv"
+      },
+      {
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/somoyt000011226615544544.stream/playlist.m3u8",
+        "source": "https://github.com/puttyroot/attempt/blob/9ae119797800c34e6e5fbd66b82fa79c3b15e1de/GitIPTV.m3u8"
+      },
+      {
+        "url": "http://103.175.242.10:8080/55-Andpicture/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/puttyroot/attempt/blob/9ae119797800c34e6e5fbd66b82fa79c3b15e1de/GitIPTV.m3u8"
+      },
+      {
+        "url": "http://103.49.168.172:8081/ebox/bd_somoy/chunks.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/Ebox TV 2"
+      },
+      {
+        "url": "http://45.249.187.238:8081/hls/hdmi2.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/tv.mymoviebazar"
+      },
+      {
+        "url": "http://103.141.2.37:25461/web/web/597.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/BDIX IPTV.m3u8"
+      },
+      {
+        "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
+        "source": "https://github.com/Mitchell-00/FTP-BD/blob/57fed6a692794638ffed11c371dae9cda5d48321/TV 2"
+      },
+      {
+        "url": "http://172.27.27.3:801/01_Gazitv/index.m3u8",
+        "source": "https://github.com/Mitchell-00/FTP-BD/blob/57fed6a692794638ffed11c371dae9cda5d48321/TV 2"
+      },
+      {
+        "url": "http://pgplex.net:8080/SomoyTv/index.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/pgplex.m3u8"
+      },
+      {
+        "url": "https://s1.itcnbd.live/somoy/index.m3u8",
+        "source": "https://github.com/puttyroot/attempt/blob/9ae119797800c34e6e5fbd66b82fa79c3b15e1de/SyncQuery.m3u8"
+      },
+      {
+        "url": "https://s1.itcnbd.live/somoy/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/puttyroot/attempt/blob/9ae119797800c34e6e5fbd66b82fa79c3b15e1de/SyncQuery.m3u8"
+      },
+      {
+        "url": "http://12.1.1.1:8082/Somoy-TV/index.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/Not working.m3u8"
+      },
+      {
+        "url": "http://iptvbd.jagobd.com:1931/live-orgin/somoyt000011226615544544.stream/playlist.m3u8",
+        "source": "https://github.com/imranemon1/emon/blob/71dbcda09ccbc09efd474ae3cbe2272b2390a17f/freecatv.m3u8"
+      },
+      {
+        "url": "http://116.204.149.16/somoytv/index.m3u8",
+        "source": "https://github.com/razuahammad55/live-tv-hub/blob/fc81cc4be19cf5b82c14b5df6a29e4cfbce032fb/tv.m3u"
+      },
+      {
+        "url": "http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/opensourceflix/OpenSourceFlix/blob/3168bd056c3b1173ee3b224514b98dc4a14c5f82/papaos.m3u8"
+      },
+      {
+        "url": "http://172.20.21.22/live/skyfeed1004/index.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/Asiatel.m3u8"
+      },
+      {
+        "url": "https://itpolly.iptv.digijadoo.net/live/somoy_news/chunks.m3u8",
+        "source": "https://github.com/asif017/ip-tv-updated-7-02-20/blob/c2dded4d8ecc5f4fd0f0b06ade63b52e720da3ca/Ip tv new update"
+      },
+      {
+        "url": "http://172.20.2.5:8082/Somoy-TV/index.fmp4.m3u8",
+        "source": "https://github.com/LiKH0N/BDIXTV_1/blob/346523e9b141e38054e926fb1a748646911b0386/BDX-live.m3u8"
+      },
+      {
+        "url": "https://ythls.armelin.one/channel/UCxHoBXkY88Tb8z1Ssj6CWsQ.m3u8",
+        "source": "https://github.com/popularblog/Bd-News/blob/472503eea4e4bce6a544f023b058d7287c14e7d6/tv channel"
+      },
+      {
+        "url": "https://utube.buddyxiptv.com/@somoynews360.m3u8",
+        "source": "https://github.com/MaksBieber/IPTV/blob/ee0d53d19d7b9e7611c21978bdc5df3ceb927ae8/LiveIPTV.m3u8"
+      },
+      {
+        "url": "http://cdn01.palki.tv/live/SomoyTV-M/index.fmp4.m3u8",
+        "source": "https://github.com/sashagor786/iptv/blob/6c906ecdd3ed6d608a3ab3bb866f5d5610b62c62/Freecatv-07.m3u8"
+      },
+      {
+        "url": "http://103.78.255.178:8080/somoy/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/sashagor786/iptv/blob/6c906ecdd3ed6d608a3ab3bb866f5d5610b62c62/Freecatv-07.m3u8"
+      },
+      {
+        "url": "https://himel-op.top/Join-Telegram-@HimelOP_Official/yt-op.m3u8?live=@somoytvbulletin",
+        "source": "https://github.com/khankimagi23221/okk-1/blob/96ba0e07d9611ed03c1a1dd20860a349f9c1c040/bd-tv.m3u"
+      },
+      {
+        "url": "https://app.ncare.live/live-orgin/somoyt000011226615544544.stream/playlist.m3u8",
+        "source": "https://github.com/Miraz6755/My-tv/blob/51859defc59083c5e27c143f9c0925508d685bd1/mytv.m3u8"
+      },
+      {
+        "url": "https://global.ncare.live/live-orgin/somoyt000011226615544544.stream/playlist.m3u8",
+        "source": "https://github.com/Mostak840590/Jagoobd/blob/806d6af59ce9bccd769889db1291b4e5abfa5057/Jagoobd.m3u8"
+      }
+    ],
+    "Sony Aath": [
+      {
+        "url": "https://pubads.g.doubleclick.net/ssai/event/pSVzGmMpQR6jdmwwJg87OQ/master.m3u8",
+        "source": "https://github.com/SArun61/IPTV/blob/61e579feabe3752cb472c132568a65e4b929f01b/SonyLiv.m3u"
+      },
+      {
+        "url": "https://www.drmlive.in/Sonyliv/stream.m3u8?id=sony-aath&e=.m3u8",
+        "source": "https://github.com/Ferdos-Live-Tv/Ferdos-Mostsk-Alex-FREDFLIXTEM.m3u8/blob/1b0ec3973edc798e448623afdf336ca0455339ac/Sony live By:drmlive"
+      },
+      {
+        "url": "http://familyplus.me:8080/live/younes123/123456/216747.ts",
+        "source": "https://github.com/mahmud31132/bdix-tv/blob/79a6443f6a4a1cece0d7bc9f6ac725a61968b715/Not working.m3u8"
+      },
+      {
+        "url": "http://45.127.56.3:9698/live/Corpus-POL/SRV4/1/SONY-AATH/video.m3u8",
+        "source": "https://github.com/mahmud31132/bdix-tv/blob/79a6443f6a4a1cece0d7bc9f6ac725a61968b715/Don't try"
+      },
+      {
+        "url": "http://12.1.1.1:8082/Sonyaath/index.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/Not working.m3u8"
+      },
+      {
+        "url": "http://172.20.21.22/live/skyfeed1016/index.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/Asiatel.m3u8"
+      },
+      {
+        "url": "https://dai.google.com/linear/hls/event/j-YEIDwORxubtP_967VcZg/master.m3u8",
+        "source": "https://github.com/GhostHostBD/tvlink/blob/048834b8f087d8a1a819c94b18746d3c373412f6/Sony TV Proximity"
+      },
+      {
+        "url": "http://14.102.123.50:5001/live/697.m3u8",
+        "source": "https://github.com/RhqAB/TV/blob/8c669911e970d06cf0c46adfc8b24b76a480dbd9/playlist.m3u8"
+      },
+      {
+        "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sony_aathPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
+        "source": "https://github.com/skmasum98/IPTV/blob/31b2c2cbcd01fb3c6e784bebb5b8d8c976378df7/myiptv.m3u8"
+      },
+      {
+        "url": "https://allinonereborn.tech/sliv/sony-aath.m3u8",
+        "source": "https://github.com/Mrlivetv/Fredlix/blob/289601713692bc9c17427030efa4ae05487cfd67/Voot_Sony_Liv_Zee5_M3u.html"
+      },
+      {
+        "url": "http://isstnjz4.megogo.xyz/iptv/SNZC9Z4RPEYGA3/6641/index.m3u8",
+        "source": "https://github.com/rahulsaha28/ss/blob/9bafb0f50a2148510d4ccd7043410574dd0d92fe/L.m3u8"
+      },
+      {
+        "url": "https://cricsters.fun/s/stream.php?id=sony-aath&e=.m3u8",
+        "source": "https://github.com/FREDFLIX-APP/All-channel-php/blob/71f01f35ab0e1a0d76b9b5b24003c1d96c69db0f/Sony live.m3u"
+      },
+      {
+        "url": "http://172.26.1.3:8089/amrbd/Sonyaath/playlist.m3u8",
+        "source": "https://github.com/msariyan/piyash2024/blob/d88a87796c3a8c7039bdc2e72f5a0f422a43d4b4/piyash.m3u8"
+      },
+      {
+        "url": "https://cloudplay-sonyliv.pages.dev/aath.m3u8",
+        "source": "https://github.com/Krishanuk009/Sony/blob/84c25d62e6b1c71f2f3b971a0a51d1edd1148c29/sony.m3u"
+      },
+      {
+        "url": "https://sonyliv.tamilultratv.co.in/stream.m3u8?id=sony-aath&e=.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Sonyliv2"
+      },
+      {
+        "url": "https://tataplay.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Sonyliv"
+      },
+      {
+        "url": "http://rhsbjv7k.tvclub.xyz/iptv/MXUV9GU7KLRNNN/6641/index.m3u8",
+        "source": "https://github.com/alemran0/fors/blob/db96a5daee862df11ce6c75405a586f5c283aef9/bangla.m3u8"
+      },
+      {
+        "url": "https://tataplay.slivcdn.com/hls/live/2011641-b/SonyAathSD/master_3500.m3u8",
+        "source": "https://github.com/crictos99/liv/blob/cda8b864b8264a1b9e7865d6c302d081e9d6459b/sony.m3u"
+      },
+      {
+        "url": "http://103.205.133.19/hls/sony8.m3u8",
+        "source": "https://github.com/vraomoturi/smartiptv-playlist/blob/e5db46abf94f4f8b510fd60791d5d80284ccec0d/New Playlists/6.m3u8"
+      },
+      {
+        "url": "http://198.195.239.50:8095/SonyAath/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/sksobuj240/Live-TV-BOX/blob/d92071453a64fd2e72c8518be2b9fe2a2a2b405c/ALL.M3U8"
+      },
+      {
+        "url": "http://103.205.133.21/hls/sony8.m3u8",
+        "source": "https://github.com/sefatdsi/dth/blob/a8c502e891f9cdf14d60537febcc378978bdc6a0/U002.m3u8"
+      },
+      {
+        "url": "https://tataplay.slivcdn.com/hls/live/2011641/SonyAathSD/master_1300.m3u8",
+        "source": "https://github.com/TarunG78/livetv/blob/4411f7a0d20c9ba1b5e2708103319324293638f9/sony_playlist.m3u"
+      },
+      {
+        "url": "http://tv.cloudcdn.me/live.ts?channelId=44150&uid=13603&deviceMac=00:1A:79:64:B4:A6",
+        "source": "https://github.com/shafiul1050/mytv/blob/9dd3d3e6f280947aca668cf1198d020645b60529/favorite.m3u8"
+      },
+      {
+        "url": "http://tv.cloudcdn.me/live.ts?channelId=44150&uid=8164&deviceMac=00:1A:79:17:D4:A1",
+        "source": "https://github.com/puttyroot/attempt/blob/9ae119797800c34e6e5fbd66b82fa79c3b15e1de/GitIPTV.m3u8"
+      },
+      {
+        "url": "https://live.drmlive-02.workers.dev/sliv/aath.m3u8",
+        "source": "https://github.com/drmlive/mix/blob/5bf80885793a1d889c4814aeef0149041d114635/jsyz.m3u8"
+      },
+      {
+        "url": "https://himel-op.top/portal/cdnop.ts?channelId=44150",
+        "source": "https://github.com/diptosaha007/check/blob/a44a73f18ed14fa183bd99f721fd604653943340/index.m3u8"
+      },
+      {
+        "url": "http://103.109.56.116/live/skyfeed1016/index.m3u8",
+        "source": "https://github.com/Sonaton11/M3/blob/16254f0db46ba1c6b4207fa5b224e8a8d11e2cb1/sonaton.m3u8"
+      },
+      {
+        "url": "https://tvs1.aynaott.com/Sony8/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/sashagor786/iptv/blob/6c906ecdd3ed6d608a3ab3bb866f5d5610b62c62/iptv10.m3u8"
+      },
+      {
+        "url": "http://223.29.212.14:8080/roarzone/33/index.m3u8",
+        "source": "https://github.com/maherhato1986/yalla-azzouzi/blob/d4950ff523f7c0cf2b5c418c78153b795d5b3669/Freecatv41.m3u8"
+      },
+      {
+        "url": "http://103.161.153.165:8000/play/sonyatth/index.m3u8",
+        "source": "https://github.com/IMApurbo/IMApurbo.github.io/blob/fd3c39460632bbb8539e2eb29652235b6f87f884/2.m3u8"
+      }
+    ],
+    "Sony Ten 1 HD": [
+      {
+        "url": "http://103.84.57.155:8000/play/a027/index.m3u8",
+        "source": "https://github.com/jaztv/Asia/blob/b5770183d9708f1065f3aba4f08a7df397ed332c/jazztv1"
+      },
+      {
+        "url": "http://tvserver.aliflailabd.com:8989/sony-ten1-hd/index.m3u8",
+        "source": "https://github.com/Efbd/E-fiber/blob/34e42db0d2efa75a19807cd18b78cb79ed7edb03/live-tv"
+      },
+      {
+        "url": "http://AllLiveSportsLinks.hopto.org:80/hls/sonyten1.m3u8",
+        "source": "https://github.com/Efbd/E-fiber/blob/34e42db0d2efa75a19807cd18b78cb79ed7edb03/.net"
+      },
+      {
+        "url": "http://119.152.240.15:8001/play/a0av/index.m3u8",
+        "source": "https://github.com/rabbyos/rabbyos/blob/81bc074736dc1a568d3abb276b7ddab5e09f4b13/Tplay"
+      }
+    ],
+    "Sony Ten 3 HD": [
+      {
+        "url": "http://live.flixhub.net/hls/sonyten2.m3u8",
+        "source": "https://github.com/Jakir37828/iptv/blob/329dc58ebac5c0607fafd126e7f2f4a10e42acba/saiful"
+      },
+      {
+        "url": "http://tv.dugdugilive.com:8080/0ne$ky23/sonyten3/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/rabbyos/rabbyos/blob/81bc074736dc1a568d3abb276b7ddab5e09f4b13/Bdix"
+      },
+      {
+        "url": "http://103.84.57.155:8000/play/a02q/index.m3u8",
+        "source": "https://github.com/Joyanto005/STRUCTURE/blob/1dbcc32b156c21a0a969d44e374309285ffacb0c/Test"
+      },
+      {
+        "url": "https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master_2000.m3u8",
+        "source": "https://github.com/honarab24/rs/blob/a369be77051850086f118fcc365ed1a57e44ee4a/K"
+      },
+      {
+        "url": "https://serverbackupchannel.xyz/jiotvchannel/app/live/524/Ten_3/index.m3u8",
+        "source": "https://github.com/GhostHostBD/tvlink/blob/048834b8f087d8a1a819c94b18746d3c373412f6/update"
+      },
+      {
+        "url": "http://tv.ebox.live:8080/live/sonyten-3.m3u8",
+        "source": "https://github.com/skmasum98/IPTV/blob/31b2c2cbcd01fb3c6e784bebb5b8d8c976378df7/Ebox"
+      },
+      {
+        "url": "https://otttv.co.in/d2h/livestream/sony-ten-3-hd/master.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Dishtv"
+      },
+      {
+        "url": "http://103.205.133.14/hls/ten3.m3u8",
+        "source": "https://github.com/imranemon1/emon/blob/71dbcda09ccbc09efd474ae3cbe2272b2390a17f/Spor"
+      }
+    ]
+  }
+}
