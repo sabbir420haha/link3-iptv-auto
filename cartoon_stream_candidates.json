@@ -1,0 +1,105 @@
+{
+  "title": "Cartoon Live / FAST candidate sources",
+  "sources": [
+    {
+      "name": "Mr Bean Animated - 24/7 English (UK FAST)",
+      "program": "Mr Bean animated",
+      "language": "English / mainly visual",
+      "type": "FAST dedicated",
+      "url": "https://amg00627-amg00627c28-rakuten-uk-3984.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanukcc-rakutenuk/playlist.m3u8",
+      "origin": "iptv-org/iptv streams/uk_rakuten.m3u, Banijay-Rakuten Amagi FAST",
+      "status": "public HLS listing; Bangladesh playback untested; may be geo-blocked"
+    },
+    {
+      "name": "Mr Bean Animated - 24/7 English (UK Samsung)",
+      "program": "Mr Bean animated",
+      "language": "English / mainly visual",
+      "type": "FAST dedicated",
+      "url": "https://amg00627-amg00627c23-samsung-gb-3927.playouts.now.amagi.tv/playlist.m3u8",
+      "origin": "iptv-org/iptv streams/uk_samsung.m3u",
+      "status": "public HLS listing; Bangladesh playback untested; may be geo-blocked"
+    },
+    {
+      "name": "Mr Bean Animated - 24/7 (AU Samsung)",
+      "program": "Mr Bean animated",
+      "language": "English / mainly visual",
+      "type": "FAST dedicated",
+      "url": "https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8",
+      "origin": "iptv-org/iptv streams/au_samsung.m3u",
+      "status": "public HLS listing; Bangladesh playback untested; may be geo-blocked"
+    },
+    {
+      "name": "Toon Goggles - 24/7 Cartoons",
+      "program": "mixed kids cartoons",
+      "language": "English / mixed",
+      "type": "FAST general cartoons",
+      "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=37",
+      "origin": "iptv-org/iptv streams/us.m3u",
+      "status": "not any of the 6 requested shows specifically; Bangladesh untested"
+    },
+    {
+      "name": "Toon Goggles - 24/7 Backup",
+      "program": "mixed kids cartoons",
+      "language": "English / mixed",
+      "type": "FAST general cartoons",
+      "url": "https://d1eg24xrsfr6kv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-b4b1bzxkt1uzo-prod/tg/tg/tg.m3u8",
+      "origin": "iptv-org/iptv streams/us.m3u",
+      "status": "not any of the 6 requested shows specifically; Bangladesh untested"
+    },
+    {
+      "name": "Gopal Bhar - Sony AATH Live (when broadcast)",
+      "program": "Gopal Bhar",
+      "language": "Bengali",
+      "type": "linear channel; not dedicated to program",
+      "url": "https://stream.ottplus.live/live/sony_aath_abr/index.m3u8",
+      "origin": "user main playlist Sony Aath",
+      "status": "existing user channel; source rehosting rights and current schedule not verified"
+    },
+    {
+      "name": "Bantul the Great - Zee Bangla Live (when broadcast)",
+      "program": "Bantul the Great",
+      "language": "Bengali",
+      "type": "linear channel; not dedicated to program",
+      "url": "http://103.151.60.162:2122/play/a011/index.m3u8?hls",
+      "origin": "user Favorites Best Zee Bangla",
+      "status": "existing user choice; actual program availability and source rights not verified"
+    },
+    {
+      "name": "Shinchan HINDI - Sony YAY Hindi Live (when broadcast)",
+      "program": "Shinchan",
+      "language": "Hindi FEED label; audio NOT verified",
+      "type": "linear channel; not dedicated to program",
+      "url": "https://pubads.g.doubleclick.net/ssai/event/40H5HfwWTZadFGYkBTqagg/master.m3u8",
+      "origin": "GitHub arshdeep1112/Indian-IPTV channels/iptv_sony.m3u8 lists Sony YAY Hindi",
+      "status": "Hindi-labelled feed but stream/audio must be checked; may be geo/DRM restricted"
+    },
+    {
+      "name": "Shinchan HINDI - Hungama Live (when broadcast)",
+      "program": "Shinchan",
+      "language": "Hindi FEED presumed; audio NOT verified",
+      "type": "linear channel; not dedicated to program",
+      "url": "http://103.135.253.32:8080/HUNGAMA/index.m3u8",
+      "origin": "user Favorites Best Hungama",
+      "status": "user main source; language and exact programming currently unverified"
+    },
+    {
+      "name": "Ninja Hattori - Sonic Hindi Live (when broadcast)",
+      "program": "Ninja Hattori",
+      "language": "Hindi channel; audio unverified",
+      "type": "linear channel; not dedicated to program",
+      "url": "https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8",
+      "origin": "user Favorites Best Sonic Hindi",
+      "status": "program scheduling and source rights unverified"
+    },
+    {
+      "name": "Tom and Jerry - Cartoon Network Live (when broadcast)",
+      "program": "Tom and Jerry",
+      "language": "mixed; cartoons often minimal dialogue",
+      "type": "linear channel; not dedicated to program",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8",
+      "origin": "user Favorites Best Cartoon Network",
+      "status": "program scheduling and source rights unverified"
+    }
+  ],
+  "warning": "None individually confirmed to play on Link3. These are live channels, NOT the requested six series' continuous 24/7 episode-only channels. Hindi Shinchan source is Hindi-labelled only, audio not independently verified. No unauthorized URL extraction or DRM bypass."
+}
