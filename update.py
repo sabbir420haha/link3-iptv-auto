@@ -88,6 +88,10 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        # 2026-10-24: New independently labeled public playlist URLs; audit only.
+        "https://allinonereborn.com/oplex.m3u8?id=167551",
+        "https://allinonereborn.com/oplx11.m3u8?id=167551",
+        "https://allinonereborn.com/opplex1991.m3u8?id=167551",
         # 2026-10-24 public Indian kids playlist labels channel ID 167551 Disney HD; unverified candidate, never replace user pin.
         "https://www.redbooks.site/x11.php?id=167551.m3u8",
         # 2026-10-23 third Disney trial: public source-backed alternatives, viewer unverified.
@@ -178,6 +182,8 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        # 2026-10-24: New independently labeled public playlist URLs; audit only.
+        "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
         # Live PHP proxy URL published explicitly for this language/channel ID in a public playlist; verify actual HLS bytes.
         "https://sports247.eu.org/api/app/live.php?id=815&e=.m3u8",
         # Source-backed trials: 2026 community IPTV lists; never auto-publish without segment and quality checks.
@@ -223,6 +229,9 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # 2026-10-24: New independently labeled public playlist URLs; audit only.
+        "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Sonic_Bangla&q=800&e=junk.m3u8",
+        "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sonicPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
         # Live PHP proxy URL published explicitly for this language/channel ID in a public playlist; verify actual HLS bytes.
         "https://sports247.eu.org/api/app/live.php?id=1345&e=.m3u8",
         # Source-backed trials: 2026 community IPTV lists; never auto-publish without segment and quality checks.
