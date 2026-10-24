@@ -7,3 +7,5 @@
 https://live20.bozztv.com/giatvplayout7/giatv-209869/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="cartoon-dedicated-03" tvg-name="Tom and Jerry - 24x7 TEST" group-title="01 | Dedicated Cartoons - TEST",Tom and Jerry - 24x7 TEST
 https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
+#EXTINF:-1 tvg-id="cartoon-bangla-zb-01" tvg-name="ZB Cartoon Bangla Animated 24x7 TEST" group-title="02 | Bangla Animated - TEST",ZB Cartoon Bangla Animated 24x7 TEST
+https://server.zillarbarta.com/zbcatun/video.m3u8
