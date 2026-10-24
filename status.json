@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-23T23:55:05.843976+00:00",
+  "updated_utc": "2026-10-24T01:13:16.722182+00:00",
   "channels": 78,
   "target_channels": 99,
   "groups": {
@@ -406,32 +406,32 @@
     },
     {
       "source": "iptv-in",
-      "count": 800,
+      "count": 822,
       "error": null
     },
     {
       "source": "iptv-ben",
-      "count": 103,
+      "count": 109,
       "error": null
     },
     {
       "source": "iptv-hin",
-      "count": 359,
+      "count": 366,
       "error": null
     },
     {
       "source": "iptv-kids",
-      "count": 429,
+      "count": 430,
       "error": null
     },
     {
       "source": "iptv-sports",
-      "count": 468,
+      "count": 465,
       "error": null
     },
     {
       "source": "iptv-entertainment",
-      "count": 896,
+      "count": 898,
       "error": null
     },
     {
@@ -456,7 +456,7 @@
     },
     {
       "source": "iptv-org-india-raw",
-      "count": 1287,
+      "count": 1309,
       "error": null
     },
     {
