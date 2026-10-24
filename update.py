@@ -750,7 +750,7 @@ def main():
             is_youtube_hls = (host.endswith(".googlevideo.com") and
                               ("/api/manifest/hls_playlist/" in parts.path or
                                parts.path.endswith(".m3u8")))
-            expiry_match = re.search(r"/expire/(\\d+)(?:/|$)", parts.path)
+            expiry_match = re.search(r"/expire/(\d+)(?:/|$)", parts.path)
             query_expiry = urllib.parse.parse_qs(parts.query).get("expire", [])
             expiry = (expiry_match.group(1) if expiry_match else
                       query_expiry[0] if query_expiry else None)
