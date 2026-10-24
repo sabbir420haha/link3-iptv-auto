@@ -26,6 +26,13 @@ CANDIDATES = {
     "digijadoo_bol": "https://bol.iptv.digijadoo.net/live/channel_24/chunks.m3u8",
     "ayna_scope": "https://tvsen6.aynascope.net/channel24/index.m3u8",
     "jagobd": "https://bdsl.jagobd.com:444/c2VydmVyX6RpbEU8Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/channel24-sg-e8e.stream/chunks.m3u8",
+    "bozz_rongo": "https://bozztv.com/rongo/rongo-Channel24HD/index.m3u8",
+    "globalbd_mirror": "http://163.172.29.246:8081/globalbd/channel24/chunks.m3u8",
+    "jagobd_public_legacy": "http://iptvbd.jagobd.com:1931/live-orgin/channel24-sg-e8e.stream/chunks.m3u8",
+    "jagobd_tempskyview": "https://tempskyview.jagobd.com:441/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PT0mdFsaWRtaW51aiPhnPTI/channel24-sg-e8e.stream/chunks.m3u8",
+    "digijadoo_edge_http": "http://edge01.iptv.digijadoo.net/live/channel_24/chunks.m3u8",
+    "ottplus_low_bitrate": "https://stream.ottplus.live/live/channel_24_abr/index.m3u8",
+
 }
 STEPS = 9
 INTERVAL = 8
