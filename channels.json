@@ -21,13 +21,13 @@
     "source_quality_note": "Previous Channel 24 GPCDN source; optional manual fallback only. Earlier user reported buffering. Not verified stable on Link3; preserve main Channel 24 OTTplus feed."
   },
   {
-    "name": "Channel 24 YouTube TEST",
+    "name": "Channel 24 YT HLS TEST",
     "group": "98 | TEST - Unverified Non-BDIX",
     "aliases": [],
     "locked": true,
     "last_known_url": "https://stream.ottplus.live/live/channel_24_abr/index.m3u8",
     "user_verified_link3": false,
-    "source_quality_note": "YouTube Live extraction trial; while no playable extracted HLS is verified, TEST uses OTTplus HLS fallback, NOT YouTube. Main Channel 24 and other channels unchanged."
+    "source_quality_note": "Separate IPTV-internal HLS TEST. Official Channel24 YouTube HLS may replace this ONLY after extractor confirms live HLS. Fallback OTTplus when no YouTube HLS; never use youtube.com/watch or /live webpage. The main Channel 24 is unchanged."
   },
   {
     "name": "Independent TV",
