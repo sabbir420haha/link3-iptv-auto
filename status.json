@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-24T18:26:41.454067+00:00",
+  "updated_utc": "2026-10-24T18:45:49.327618+00:00",
   "channels": 77,
   "target_channels": 99,
   "groups": {
@@ -1228,20 +1228,20 @@
   },
   "local_logos": {
     "total": 77,
-    "from_image_sources": 68,
-    "clear_name_fallbacks": 9,
+    "from_image_sources": 67,
+    "clear_name_fallbacks": 10,
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-10-24T18:26:52.393262+00:00",
+    "updated_utc": "2026-10-24T18:45:59.975733+00:00",
     "channel_count": 20,
-    "entries": 495,
+    "entries": 481,
     "by_name": {
       "Zee Bangla HD": 30,
       "Zee Bangla": 30,
       "ATN Bangla": 30,
-      "ATN News": 30,
+      "ATN News": 16,
       "BanglaVision": 30,
       "Cartoon Network": 19,
       "Channel i": 9,
