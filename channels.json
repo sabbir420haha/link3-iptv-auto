@@ -25,9 +25,9 @@
     "group": "98 | TEST - Unverified Non-BDIX",
     "aliases": [],
     "locked": true,
-    "last_known_url": "https://www.youtube.com/@Channel24digital/live",
+    "last_known_url": "https://stream.ottplus.live/live/channel_24_abr/index.m3u8",
     "user_verified_link3": false,
-    "source_quality_note": "YouTube live page placeholder: IPTV Pro may not support it. Scheduled yt-dlp workflow will replace this URL with temporary HLS when extractable. Main Channel 24 remains unchanged."
+    "source_quality_note": "YouTube Live extraction trial; while no playable extracted HLS is verified, TEST uses OTTplus HLS fallback, NOT YouTube. Main Channel 24 and other channels unchanged."
   },
   {
     "name": "Independent TV",
