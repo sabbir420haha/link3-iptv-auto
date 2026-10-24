@@ -752,15 +752,15 @@ def main():
                            (host.endswith(".googlevideo.com") and
                             "/api/manifest/hls_playlist/" in parsed.path)))
             if not usable_hls:
-                chosen = {"url": "https://stream.ottplus.live/live/channel_24_abr/index.m3u8",
-                          "logo": "", "source": "safe-test-hls-fallback"}
+                chosen = {"url": "https://bd.jagobd.com:444/live-orgin/channel24-sg-e8e.stream/chunks.m3u8",
+                          "logo": "", "source": "distinct-test-hls-fallback"}
                 state = "TEST_YOUTUBE_HLS_NOT_AVAILABLE"
         # A separate Channel 24 YouTube TEST must remain visible even when
         # its safe HLS fallback temporarily matches the main Channel 24 URL.
         if chosen and (chosen["url"] not in used or item["name"] == "Channel 24 YT HLS TEST"):
             used.add(chosen["url"])
             name = clean(item["name"])
-            group = clean("00 | MY FAVORITES" if item["name"] in FAVORITES_SET else
+            group = clean("00 | MY FAVORITES" if item["name"] in (FAVORITES_SET | {"Channel 24 YT HLS TEST"}) else
                           "98 | TEST - Unverified Non-BDIX" if state == "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED" else item["group"])
             logo = clean(chosen.get("logo", ""))
             output.append(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}')
