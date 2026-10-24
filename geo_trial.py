@@ -57,7 +57,7 @@ def main():
         for candidate in candidates[:30]:
             url = candidate["url"]
             num = str(candidate["number"])
-            if not usable(url) or url in seen or not re.fullmatch(r"\\d{2}", num):
+            if not usable(url) or url in seen or not re.fullmatch(r"\d{2}", num):
                 continue
             seen.add(url)
             title = f"{name} TEST {num}"
@@ -69,6 +69,14 @@ def main():
             lines.append(url)
             count += 1
         counts[name] = count
+    # Fail safely: never overwrite a populated test playlist with zero channels.
+    expected = sum(len(registry.get("channels", {}).get(n, {}).get("candidates", [])[:30])
+                   for n in favorites_list)
+    if len(favorites_list) == 0 or sum(counts.values()) != expected:
+        raise RuntimeError(
+            f"Refusing to publish incomplete TEST playlist: {sum(counts.values())} "
+            f"of {expected} registered URLs, {len(favorites_list)} favorites"
+        )
     OUTPUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
     status = json.loads(STATUS.read_text(encoding="utf-8")) if STATUS.exists() else {}
     status["bd_geo_trials"] = {
