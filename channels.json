@@ -25,9 +25,9 @@
     "group": "00 | MY FAVORITES",
     "aliases": [],
     "locked": true,
-    "last_known_url": "https://bd.jagobd.com:444/live-orgin/channel24-sg-e8e.stream/chunks.m3u8",
+    "last_known_url": "",
     "user_verified_link3": false,
-    "source_quality_note": "Separate Channel 24 IPTV visibility and YouTube HLS extraction trial. Distinct public JagoBD HLS fallback is UNVERIFIED on Link3 and is not YouTube. YouTube-origin HLS is used only if yt-dlp confirms it. Main channel is unchanged."
+    "source_quality_note": "YouTube ONLY: TEST appears in published M3U only after yt-dlp extracts a valid, non-expired Googlevideo live HLS URL. YouTube currently blocks unauthenticated GitHub runners; no JagoBD/OTTplus substitute. Playback from Link3 remains unverified. Main Channel 24 unchanged."
   },
   {
     "name": "Independent TV",
