@@ -1,5 +1,10 @@
 name: Channel 24 official YouTube Live refresh
 on:
+  push:
+    branches: [main]
+    paths:
+      - channel24_youtube_refresh.py
+      - .github/workflows/channel24-youtube.yml
   workflow_dispatch:
   schedule:
     - cron: '7,37 * * * *'
@@ -19,7 +24,7 @@ jobs:
           python-version: '3.12'
       - name: Install YouTube stream metadata extractor
         run: python -m pip install --upgrade yt-dlp
-      - name: Check official live and refresh ONLY Channel 24
+      - name: Check official live and refresh ONLY Channel 24 YT HLS TEST
         run: python channel24_youtube_refresh.py
       - name: Commit refreshed playlist or fallback
         run: |
