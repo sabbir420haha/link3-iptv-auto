@@ -16,8 +16,8 @@ REGISTRY = ROOT / "favorites_test_registry.json"
 MAIN = ROOT / "playlist.m3u"
 OUTPUT = ROOT / "geo_trials.m3u"
 STATUS = ROOT / "status.json"
-EXCLUDED = {"Channel 24", "Sonic Bangla", "Sonic Hindi",
-            "Discovery Bangla", "Nat Geo HD Bangla"}
+EXTRA_TEST = ("Channel 24", "Sonic Bangla", "Sonic Hindi",
+              "Discovery Bangla", "Nat Geo HD Bangla")
 
 def favorites():
     result = []
@@ -25,8 +25,13 @@ def favorites():
         if (line.startswith("#EXTINF:") and
                 'group-title="00 | MY FAVORITES"' in line):
             name = line.split(",", 1)[-1].strip()
-            if name not in EXCLUDED:
+            if name not in result:
                 result.append(name)
+    # Sonic Bangla may be absent from the main Favorites M3U; it is an
+    # explicitly requested extra TEST group. Append without changing main.
+    for name in EXTRA_TEST:
+        if name not in result:
+            result.append(name)
     return result
 
 def usable(url):
@@ -43,7 +48,7 @@ def main():
         "#EXTM3U",
         "# Favorites TEST only. Stable source numbers, max 30 distinct URLs per channel.",
         "# Unverified on Link3; identity, language, rights and no-buffer playback not guaranteed.",
-        "# No excluded Channel 24 / Sonic / Discovery Bangla / Nat Geo Bangla tests.",
+        "# Now includes Channel 24, Sonic Bangla/Hindi, Discovery and Nat Geo tests.",
     ]
     counts = {}
     for name in favorites_list:
@@ -72,7 +77,7 @@ def main():
     # Fail safely: never overwrite a populated test playlist with zero channels.
     expected = sum(len(registry.get("channels", {}).get(n, {}).get("candidates", [])[:30])
                    for n in favorites_list)
-    if len(favorites_list) == 0 or sum(counts.values()) != expected:
+    if len(favorites_list) < 25 or sum(counts.values()) != expected:
         raise RuntimeError(
             f"Refusing to publish incomplete TEST playlist: {sum(counts.values())} "
             f"of {expected} registered URLs, {len(favorites_list)} favorites"
@@ -89,7 +94,7 @@ def main():
         "by_name": counts,
         "max_per_channel": 30,
         "stable_test_numbers": True,
-        "excluded": sorted(EXCLUDED),
+        "extra_test_groups": list(EXTRA_TEST),
         "warning": "Testing only; streams not verified on user's Link3. Production playlist is not altered. TEST numbers map to fixed registry URLs.",
     }
     STATUS.write_text(json.dumps(status, indent=2, ensure_ascii=False) + "\n",
