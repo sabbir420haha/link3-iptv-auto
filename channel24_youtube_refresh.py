@@ -15,7 +15,7 @@ PLAYLIST = ROOT / "playlist.m3u"
 REPORT = ROOT / "channel24_youtube_status.json"
 LIVE_PAGE = "https://www.youtube.com/@Channel24digital/live"
 TEST_NAME = "Channel 24 YouTube TEST"
-SAFE_FALLBACK = "https://www.youtube.com/@Channel24digital/live"
+SAFE_FALLBACK = "https://stream.ottplus.live/live/channel_24_abr/index.m3u8"
 
 def extract():
     cmd = ["yt-dlp", "--no-warnings", "--no-playlist", "--dump-single-json",
@@ -54,15 +54,14 @@ def main():
         result.update(status="youtube_hls_extracted", video_id=video_id, expires_unix=expire)
     except Exception as exc:
         result.update(status="youtube_unavailable_fallback", error=str(exc))
-        # Do not keep a previous expired YouTube link. Restore proven-existing
-        # OTTplus source rather than force a dead manifest.
-        url = SAFE_FALLBACK if "googlevideo.com" in previous else previous
+        # Never put a YouTube webpage or expired googlevideo link in an M3U.
+        url = SAFE_FALLBACK
 
     main_channel["last_known_url"] = url
     main_channel["user_verified_link3"] = False
     main_channel["source_quality_note"] = (
         "Automatic official Channel 24 YouTube Live HLS trial; short-lived URL "
-        "and NOT user-verified on Link3. Falls back to official YouTube live page when extraction fails."
+        "and NOT user-verified on Link3. Falls back to an HLS OTTplus test stream when extraction fails."
     )
     old = PLAYLIST.read_text(encoding="utf-8")
     lines = old.splitlines(keepends=True)
