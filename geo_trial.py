@@ -77,7 +77,10 @@ def main():
             f"Refusing to publish incomplete TEST playlist: {sum(counts.values())} "
             f"of {expected} registered URLs, {len(favorites_list)} favorites"
         )
-    OUTPUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    rendered = "\\n".join(lines) + "\\n"
+    OUTPUT.write_text(rendered, encoding="utf-8")
+    # Distinct URL bypasses IPTV Pro caches that retained an older empty geo list.
+    (ROOT / "favorites_tests.m3u").write_text(rendered, encoding="utf-8")
     status = json.loads(STATUS.read_text(encoding="utf-8")) if STATUS.exists() else {}
     status["bd_geo_trials"] = {
         "updated_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
