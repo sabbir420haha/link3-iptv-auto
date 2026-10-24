@@ -135,6 +135,14 @@
       {
         "url": "http://10.20.30.40:8088/404/tracks-v1a1/mono.m3u8",
         "source": "https://github.com/Diptv24/d531/blob/fb1552b54a3654a13e14575a7ef8ecf53746ecf7/d531"
+      },
+      {
+        "url": "http://208.86.19.13:81/706.stream/index.m3u8",
+        "source": "https://github.com/msfata/MyTV/blob/3cf6e67ef87639a5902c099e06c3ad06132b442f/iptv"
+      },
+      {
+        "url": "http://stream.amrbd.com:8082/Sony-Max/index.m3u8",
+        "source": "https://github.com/rudrow/iptv/blob/194bfa7523b3f12fad6085a85f5255f5f789aa30/rudrow"
       }
     ],
     "Jamuna TV": [
@@ -355,6 +363,66 @@
       {
         "url": "http://ctgiptv.kitv.live:1935/live/test/test1/1.ts",
         "source": "https://github.com/zeroflixxyz/livetv/blob/b135cb14ce9d6e207da444c29009cbacf45761f1/livetv/tv_channels.m3u"
+      },
+      {
+        "url": "http://tvsen5.aynascope.net/maasrangatv/index.m3u8",
+        "source": "https://github.com/iptv-org/iptv/blob/37a51365d85fefc456ad0864bae4a1752292cd70/streams/bd.m3u"
+      },
+      {
+        "url": "https://niptv.kitv.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/Hasibfy37/Iptv/blob/856cf8b27da7abf5ba7cb2cffcbce426d54cc8ca/Iptv_m3u_2023_updated_bd.m3u"
+      },
+      {
+        "url": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeStreams/StreamsTV-BD/maasranga_tv_fea2ad24.m3u8",
+        "source": "https://github.com/bugsfreeweb/LiveTVCollector/blob/f9b00885d1978072297948722a21aeb3e914f50e/BugsfreeStreams/Output/StreamLinks-BD.m3u"
+      },
+      {
+        "url": "http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8",
+        "source": "https://github.com/idealclasses/SELF-HOST/blob/ec9ad87d73ddd27c62fc52077479078b58b4e268/working_channels/BD_channels_tv_only.m3u"
+      },
+      {
+        "url": "https://mtv.sunplex.live/MAASRANGA-TV/index.m3u8",
+        "source": "https://github.com/khankimagi23221/okk-2/blob/f16dc261e27beaa028c000139d274cca44f7316a/bd-tv.m3u"
+      },
+      {
+        "url": "https://somoy.appv.jagobd.com:444/somoy/mass.stream/playlist.m3u8?key=thenayeemparvez",
+        "source": "https://github.com/nayeem086/bd-playlist/blob/d675d2aaa7c5a29002d9079897b788ea7995feee/nayeemparvez-bd"
+      },
+      {
+        "url": "http://jupiter.bdcabletv.com/maasranga-sp/video.m3u8",
+        "source": "https://github.com/r0m35h/main/blob/0023bb84fb5f67851e0fca28f73e31dae599d87e/BDCABLETV.m3u"
+      },
+      {
+        "url": "http://iptvbd.jagobd.com:1931/boishakhi/mass.stream/chunks.m3u8",
+        "source": "https://github.com/imranemon1/emon/blob/71dbcda09ccbc09efd474ae3cbe2272b2390a17f/Mumu Benjir_IPTV.m3u8"
+      },
+      {
+        "url": "https://tempx.jagobd.com:441/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PT0mdFsaWRtaW51aiPhnPTI/mass.stream/chunks.m3u8",
+        "source": "https://github.com/cuetbd/bdixiptv/blob/efb795ba9d443e01551793a56b9267ab1e247c48/bdixiptv.m3u"
+      },
+      {
+        "url": "https://tvsen5.aynaott.com/maasrangatv/index.m3u8",
+        "source": "https://github.com/DEvmIb/famelack-channels-m3u/blob/1fbaef9997e6e5134d6cb1d91ad2ede785ae1c53/m3u/bd.m3u"
+      },
+      {
+        "url": "http://iptv.kitv.live:1935/live/Shari/MTV-P/1.m3u8",
+        "source": "https://github.com/apurbo26/iptv/blob/43df8802e32eb9fa9818f5d3d72ab6d4a0b29937/jago tv.m3u"
+      },
+      {
+        "url": "http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/01.ts",
+        "source": "https://github.com/zeroflixxyz/livetv/blob/b135cb14ce9d6e207da444c29009cbacf45761f1/livetv/tv_channels.m3u"
+      },
+      {
+        "url": "http://103.214.202.218:8081/live/maasranga/chunks.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/Amrbd.com +"
+      },
+      {
+        "url": "http://103.55.144.46:80/hls/masranga.m3u8",
+        "source": "https://github.com/Efbd/E-fiber/blob/34e42db0d2efa75a19807cd18b78cb79ed7edb03/IPTV-01"
+      },
+      {
+        "url": "https://ott.bingebd.com:443/live/ngrp:maasranga_all/chunklist_b1228000.m3u8",
+        "source": "https://github.com/imranemon1/emon/blob/71dbcda09ccbc09efd474ae3cbe2272b2390a17f/Bingo_bd.m3u"
       }
     ],
     "Nick Bangla": [
@@ -463,6 +531,26 @@
       {
         "url": "http://10.16.100.205/hls/ntv_b_720.m3u8",
         "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/Icc"
+      },
+      {
+        "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Bangladesh/1c6bf609991a723.m3u8",
+        "source": "https://github.com/mik25/andy/blob/c04eb9b385bb267b4c932d8f12faa9b562039d4c/Playlist-Bangladesh.m3u8"
+      },
+      {
+        "url": "https://ythls.armelin.one/channel/UC0V3IJCnr6ZNjB9t_GLhFFA.m3u8",
+        "source": "https://github.com/popularblog/Bd-News/blob/472503eea4e4bce6a544f023b058d7287c14e7d6/tv channel"
+      },
+      {
+        "url": "https://himel-op.top/Join-Telegram-@HimelOP_Official/yt-op.m3u8?live=@NTVDigitalLive",
+        "source": "https://github.com/khankimagi23221/okk-1/blob/96ba0e07d9611ed03c1a1dd20860a349f9c1c040/bd-tv.m3u"
+      },
+      {
+        "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
+        "source": "https://github.com/sm-monirulislam/SM-IPTV/blob/1820962d0daa6afe309a1ec73de7fca8d303dbe2/SM All TV.m3u"
+      },
+      {
+        "url": "https://a.jsrdn.com/broadcast/22680_3BR3zocwi9/-0800/c.m3u8",
+        "source": "https://github.com/cuetbd/bdixiptv/blob/efb795ba9d443e01551793a56b9267ab1e247c48/bdixiptv.m3u"
       }
     ],
     "Somoy TV": [
