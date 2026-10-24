@@ -77,7 +77,7 @@ def main():
             f"Refusing to publish incomplete TEST playlist: {sum(counts.values())} "
             f"of {expected} registered URLs, {len(favorites_list)} favorites"
         )
-    rendered = "\\n".join(lines) + "\\n"
+    rendered = "\n".join(lines) + "\n"
     OUTPUT.write_text(rendered, encoding="utf-8")
     # Distinct URL bypasses IPTV Pro caches that retained an older empty geo list.
     (ROOT / "favorites_tests.m3u").write_text(rendered, encoding="utf-8")
