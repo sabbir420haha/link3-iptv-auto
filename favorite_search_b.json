@@ -5,6 +5,54 @@
       {
         "url": "http://103.162.136.235:4500/play//a01h/index.m3u8",
         "source": "https://github.com/8figalltimepro/special-train/blob/bfb62ea901b98e014bf7d650bb4d75cef0c47caf/Freecatv-57.m3u8"
+      },
+      {
+        "url": "https://url-conv.vercel.app/play/a023/index.m3u8",
+        "source": "https://github.com/hasan-psl/Leaf-TV/blob/80096b3c5103849f9ebee26ab68ed73bdd135095/resources/stream/Leaf-TV.m3u"
+      },
+      {
+        "url": "http://175.107.244.52:4455/play/a03d/index.m3u8",
+        "source": "https://github.com/robhein/iptv-4/blob/26698aa0053fe7a62d3a9c45607d170a0ba5ff7b/playlist/iptv"
+      },
+      {
+        "url": "http://linear07hun-lh.akamaihd.net/i/dilse_1@673921/index_2128_av-p.m3u8",
+        "source": "https://github.com/aniksarakash/IPTV/blob/1bf273ea9d6edde877637955b9a58c805ec850a6/BDIXI_IPTV.m3u"
+      },
+      {
+        "url": "http://starshare.live:8080/live/7382837374/5003958588/18456.m3u8",
+        "source": "https://github.com/masum1580/masum/blob/6e4988489f2d42db7f2f2725d44dff8bb97cc834/BDIX2 TV"
+      },
+      {
+        "url": "http://119.152.240.15:8001/play/a0cs/index.m3u8",
+        "source": "https://github.com/rabbyos/rabbyos/blob/81bc074736dc1a568d3abb276b7ddab5e09f4b13/Tplay"
+      },
+      {
+        "url": "http://stream-e30453a4b.nmbs.top/m3u/Kids/1f3e9e6679.m3u8",
+        "source": "https://github.com/apurbo26/iptv/blob/43df8802e32eb9fa9818f5d3d72ab6d4a0b29937/jago tv.m3u"
+      },
+      {
+        "url": "https://linear06hun-lh.akamaihd.net/i/dhamaal_1@665243/master.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/gopa iptv"
+      },
+      {
+        "url": "http://xtv.ooo:8080/live/927382370/837382809/150480.m3u8",
+        "source": "https://github.com/labib5556/Labi-h/blob/ef58a735907c6ff70da4e32f68bb532be3b1dcac/watch tv.m3u"
+      },
+      {
+        "url": "https://live.hungama.com/linear/dil-se/playlist.m3u8",
+        "source": "https://github.com/musfikur-rahman/iptv/blob/e1711d9f94c304d86eb72c78e025109719a32236/iptv.m3u"
+      },
+      {
+        "url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/bollywoodhungama_live_https/master.m3u8",
+        "source": "https://github.com/Vikassm73/AjaykRepo/blob/249037a318d750a1c7e062030c2c00e41bff4c0e/Zips/India.m3u"
+      },
+      {
+        "url": "http://103.84.57.155:8000/play/a03t/index.m3u8",
+        "source": "https://github.com/jaztv/Asia/blob/b5770183d9708f1065f3aba4f08a7df397ed332c/jazztv1"
+      },
+      {
+        "url": "http://103.131.214.129:9985/stream/channelid/387666878.ts?ticket=47008A6FE90C547283C25473F330A1A40EA2147F&profile=pass",
+        "source": "https://github.com/humza-hz/iptv-playlist/blob/bc1fdc75f3cb5969e0020d3be99c5f5b2864b0e3/iptv.m3u"
       }
     ],
     "Sony MAX HD": [
@@ -357,6 +405,14 @@
       {
         "url": "https://tv.googledrivelinks.com/live.php?c=Nick_Bangla&q=1200&e=junk.m3u8",
         "source": "https://github.com/Nafis495/iptv/blob/3d79891811466dc729c208949e7a67161148324f/WOW"
+      },
+      {
+        "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Nick_Bangla&q=800&e=junk.m3u8",
+        "source": "https://github.com/arshdeep1112/Indian-IPTV/blob/b0735d0c108d4deba9e93dfe1a0293d29a1798dc/channels/iptv_kids.m3u8"
+      },
+      {
+        "url": "http://103.204.43.87:8080/live/1/1/275.m3u8",
+        "source": "https://github.com/priyoarman/iptv-fetches/blob/00dab09fcd26642c56ecfb1691d424a07df7259d/leastprior.m3u8"
       }
     ],
     "NTV": [
@@ -669,6 +725,22 @@
       {
         "url": "http://119.152.240.15:8001/play/a0av/index.m3u8",
         "source": "https://github.com/rabbyos/rabbyos/blob/81bc074736dc1a568d3abb276b7ddab5e09f4b13/Tplay"
+      },
+      {
+        "url": "http://103.205.133.14/hls/ten1.m3u8",
+        "source": "https://github.com/imranemon1/emon/blob/71dbcda09ccbc09efd474ae3cbe2272b2390a17f/Sports"
+      },
+      {
+        "url": "https://tataplay.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Sonyliv"
+      },
+      {
+        "url": "https://sonyliv.tamilultratv.co.in/stream.m3u8?id=sony-ten-1&e=.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Sonyliv2"
+      },
+      {
+        "url": "https://sm-monirul.top/Toffee/live.php?id=43dcec1011e7&e=.m3u8",
+        "source": "https://github.com/badalbd53/Rocket-OTV/blob/62205d0667ab00183841aa4eb0708ce8a786b547/toffee"
       }
     ],
     "Sony Ten 3 HD": [
@@ -703,6 +775,40 @@
       {
         "url": "http://103.205.133.14/hls/ten3.m3u8",
         "source": "https://github.com/imranemon1/emon/blob/71dbcda09ccbc09efd474ae3cbe2272b2390a17f/Spor"
+      },
+      {
+        "url": "https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Sonyliv"
+      },
+      {
+        "url": "http://sm-monirul.top/RoarZone/play.php?id=ZWRnZTIvc29ueS1zcG9ydHMtMy1oZA==&e=.m3u8",
+        "source": "https://github.com/badalbd53/Rocket-OTV/blob/62205d0667ab00183841aa4eb0708ce8a786b547/roarzone"
+      }
+    ],
+    "Disney HD Hindi": [
+      {
+        "url": "https://feed.play.mv/live/10005200/QjZ4g9TmAa/master.m3u8",
+        "source": "https://github.com/tipslab/indian-bangla-iptv/blob/25921e2d0fa86642d829e3e221c57ab96518ad12/channel.m3u"
+      },
+      {
+        "url": "http://103.84.57.155:8000/play/a03u/index.m3u8",
+        "source": "https://github.com/softonfile/iptv/blob/35559760c7d661f14836cadf2c134dfc5b353021/in-bd.m3u8"
+      },
+      {
+        "url": "https://hqth.me/disneychannel?live/hd.sml/eyJpdiI6IkdaWWpENWlUVzQzWkh1Ri9IMVRrakE9PSIsInZhbHVlIjoiTXZwRFJ5QUs1Mzhpd0hid2lyc09tSWg5SkhlS1R/disneyus.m3u8",
+        "source": "https://github.com/boxkim14/m3u8/blob/6f621570b4ff550f6ad1d47d6d6b6bd3af629b05/vn.m3u8"
+      },
+      {
+        "url": "http://xtv.ooo:8080/live/415663775/826262627/167551.m3u8",
+        "source": "https://github.com/freedish2024/personal-project.sr/blob/329ea35074a5377c36e27fd3e4d4fd198fd38e7e/Kid channel.m3u"
+      },
+      {
+        "url": "http://103.89.248.130:8082/DISNEY-HINDI/index.m3u8",
+        "source": "https://github.com/Farabi-2005/Farabi/blob/3d58455d6b05f8d85e0b5364ba8f8e1b5ccc9751/IPTV XYZ"
+      },
+      {
+        "url": "http://jupiter.bdcabletv.com/Disney_jr-ENC/video.m3u8",
+        "source": "https://github.com/monetareq/iptv1/blob/33323bfb3eda093c7bd7c64221de1435f7c954df/iptv2"
       }
     ]
   }
