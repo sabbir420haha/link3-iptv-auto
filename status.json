@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-24T01:13:16.722182+00:00",
+  "updated_utc": "2026-10-24T05:38:16.063339+00:00",
   "channels": 78,
   "target_channels": 99,
   "groups": {
@@ -183,6 +183,33 @@
   "missing_target_candidate_audit": [
     {
       "name": "Disney HD Hindi",
+      "url": "https://allinonereborn.com/oplex.m3u8?id=167551",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
+      "url": "https://allinonereborn.com/oplx11.m3u8?id=167551",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
+      "url": "https://allinonereborn.com/opplex1991.m3u8?id=167551",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
       "url": "https://www.redbooks.site/x11.php?id=167551.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
@@ -227,27 +254,9 @@
       "published_as_replacement": false
     },
     {
-      "name": "Disney HD Hindi",
-      "url": "https://hls-coolxtream.vercel.app/channel/167551&format=.m3u8",
-      "manifest_ok": true,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Disney HD Hindi",
-      "url": "http://103.167.255.18:8085/play/a0kq/index.m3u8",
+      "name": "Sonic Hindi",
+      "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
       "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Disney HD Hindi",
-      "url": "https://shahakshay938.github.io/backups/streams/2026-05-09/disneychannel-in-sd.m3u8",
-      "manifest_ok": true,
       "segment_ok": false,
       "manifest_height": 0,
       "identity_audio_verified_by_runner": false,
@@ -317,8 +326,17 @@
       "published_as_replacement": false
     },
     {
-      "name": "Sonic Hindi",
-      "url": "https://stream.ottplus.live/live/sonic_abr/index.m3u8",
+      "name": "Sonic Bangla",
+      "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Sonic_Bangla&q=800&e=junk.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sonicPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -373,24 +391,6 @@
     {
       "name": "Sonic Bangla",
       "url": "https://app-re.sm-monirul-islam-rs.workers.dev/sonic-bangla/index.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "https://stream.ottplus.live/live/sonic_bangla_abr/index.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
