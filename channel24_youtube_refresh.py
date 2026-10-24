@@ -6,6 +6,7 @@ YouTube CDN URLs are short-lived and IPTV Pro playback is not guaranteed.
 import datetime
 import json
 import subprocess
+import re
 import urllib.request
 from pathlib import Path
 from urllib.parse import urlsplit, parse_qs
@@ -16,12 +17,28 @@ PLAYLIST = ROOT / "playlist.m3u"
 REPORT = ROOT / "channel24_youtube_status.json"
 LIVE_PAGE = "https://www.youtube.com/@Channel24digital/live"
 TEST_NAME = "Channel 24 YT HLS TEST"
-SAFE_FALLBACK = "https://bd.jagobd.com:444/live-orgin/channel24-sg-e8e.stream/chunks.m3u8"
+YT_FALLBACK_VIDEO = "https://www.youtube.com/watch?v=_UdWf3_N8Ak"
 
 def extract():
-    cmd = ["yt-dlp", "--no-warnings", "--no-playlist", "--dump-single-json",
-           "--skip-download", LIVE_PAGE]
-    data = json.loads(subprocess.check_output(cmd, timeout=100, text=True))
+    errors = []
+    data = None
+    for page in (LIVE_PAGE, YT_FALLBACK_VIDEO):
+        cmd = ["yt-dlp", "--no-warnings", "--no-playlist", "--dump-single-json",
+               "--skip-download", "--js-runtimes", "node",
+               "--extractor-args", "youtube:player_client=tv,web_safari", page]
+        try:
+            data = json.loads(subprocess.check_output(
+                cmd, timeout=38, text=True, stderr=subprocess.PIPE))
+            if data.get("live_status") == "is_live":
+                break
+            errors.append(f"{page}: not an active live broadcast")
+        except (subprocess.CalledProcessError, subprocess.TimeoutExpired, json.JSONDecodeError) as exc:
+            msg = getattr(exc, "stderr", None) or str(exc)
+            if isinstance(msg, bytes):
+                msg = msg.decode("utf-8", "replace")
+            errors.append(f"{page}: {str(msg)[-340:]}")
+    if not data or data.get("live_status") != "is_live":
+        raise RuntimeError("YouTube extraction failed: " + "; ".join(errors))
     if data.get("live_status") != "is_live":
         raise RuntimeError("Official page is not presently reporting an active live broadcast")
     urls = []
@@ -38,7 +55,10 @@ def extract():
     if not (host.endswith(".googlevideo.com") or host == "manifest.googlevideo.com"):
         raise RuntimeError("Extracted HLS host not recognized as Googlevideo")
     exp = parse_qs(urlsplit(url).query).get("expire", [None])[0]
-    if exp and int(exp) < datetime.datetime.now(datetime.timezone.utc).timestamp() + 2400:
+    if not exp:
+        match = re.search(r"/expire/(\d+)(?:/|$)", urlsplit(url).path)
+        exp = match.group(1) if match else None
+    if exp and int(exp) < datetime.datetime.now(datetime.timezone.utc).timestamp() + 1800:
         raise RuntimeError("YouTube URL expires too soon for scheduled playlist updates")
     # A webpage or HTML response is not a stream. Only publish an HLS manifest.
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -59,15 +79,16 @@ def main():
         url, video_id, expire = extract()
         result.update(status="youtube_hls_extracted", video_id=video_id, expires_unix=expire)
     except Exception as exc:
-        result.update(status="youtube_unavailable_fallback", error=str(exc))
-        # Never write a YouTube watch/live webpage or expired URL into IPTV Pro.
-        url = SAFE_FALLBACK
+        result.update(status="youtube_hls_unavailable", error=str(exc))
+        # No JagoBD or OTTplus source is a substitute for requested YouTube HLS.
+        url = ""
 
     main_channel["last_known_url"] = url
     main_channel["user_verified_link3"] = False
     main_channel["source_quality_note"] = (
-        "TEST-only official Channel 24 YouTube Live HLS trial, not Link3 verified. "
-        "Falls back to a distinct public JagoBD HLS source (not YouTube) when extraction fails; Link3 playback not verified."
+        "YouTube-only TEST; publish only if an authentic active Googlevideo HLS "
+        "manifest was extracted, otherwise hide TEST entry. GitHub-derived HLS "
+        "may be restricted to runner IP and fail on Link3; not user verified."
     )
     old = PLAYLIST.read_text(encoding="utf-8")
     lines = old.splitlines(keepends=True)
@@ -78,11 +99,20 @@ def main():
             while j < len(lines) and lines[j].startswith("#"):
                 j += 1
             if j < len(lines):
-                lines[j] = url + "\n"
+                if url:
+                    lines[j] = url + "\n"
+                else:
+                    del lines[i:j + 1]
                 updated = True
             break
-    if not updated:
-        raise RuntimeError("Channel 24 entry not found; refusing to modify any other channel")
+    if not updated and url:
+        # Add new TEST entry only when valid YouTube HLS is available.
+        name = TEST_NAME
+        lines.extend([
+            f'#EXTINF:-1 tvg-id="channel24-yt-hls-test" '
+            f'tvg-name="{name}" group-title="00 | MY FAVORITES",{name}\n',
+            url + "\n",
+        ])
     CATALOG.write_text(json.dumps(channels, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     PLAYLIST.write_text("".join(lines), encoding="utf-8")
     REPORT.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
