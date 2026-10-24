@@ -1,0 +1,136 @@
+{
+  "checked_utc": "2026-10-24T18:48:30.983924+00:00",
+  "sources": 16,
+  "segment_passed": 0,
+  "warning": "GitHub runner != Link3. Test each stream in IPTV Pro. Previously user-rejected 30 links excluded.",
+  "results": [
+    {
+      "test": "01",
+      "manifest": false,
+      "media_segment": false,
+      "link3": "NOT_VERIFIED",
+      "source": "GitHub dhasap/dhanytv (new test, unverified)",
+      "note": "No claim of correct broadcaster or buffer-free playback"
+    },
+    {
+      "test": "02",
+      "manifest": false,
+      "media_segment": false,
+      "link3": "NOT_VERIFIED",
+      "source": "GitHub memevaiya2O/streamobhai (new test, unverified)",
+      "note": "No claim of correct broadcaster or buffer-free playback"
+    },
+    {
+      "test": "03",
+      "manifest": false,
+      "media_segment": false,
+      "link3": "NOT_VERIFIED",
+      "source": "GitHub DEVFTAKBD/cwabdtv (new test, unverified)",
+      "note": "No claim of correct broadcaster or buffer-free playback"
+    },
+    {
+      "test": "04",
+      "manifest": false,
+      "media_segment": false,
+      "link3": "NOT_VERIFIED",
+      "source": "GitHub arif626/OTT.m3u (new test, unverified)",
+      "note": "No claim of correct broadcaster or buffer-free playback"
+    },
+    {
+      "test": "05",
+      "manifest": false,
+      "media_segment": false,
+      "link3": "NOT_VERIFIED",
+      "source": "GitHub coding-A412/JakSmJ (new test, unverified)",
+      "note": "No claim of correct broadcaster or buffer-free playback"
+    },
+    {
+      "test": "06",
+      "manifest": false,
+      "media_segment": false,
+      "link3": "NOT_VERIFIED",
+      "source": "GitHub puttyroot/attempt (new test, unverified)",
+      "note": "No claim of correct broadcaster or buffer-free playback"
+    },
+    {
+      "test": "07",
+      "manifest": false,
+      "media_segment": false,
+      "link3": "NOT_VERIFIED",
+      "source": "GitHub mayaxcn/getM3U8 (new test, unverified)",
+      "note": "No claim of correct broadcaster or buffer-free playback"
+    },
+    {
+      "test": "08",
+      "manifest": false,
+      "media_segment": false,
+      "link3": "NOT_VERIFIED",
+      "source": "GitHub kilirushi/iptv (new test, unverified)",
+      "note": "No claim of correct broadcaster or buffer-free playback"
+    },
+    {
+      "test": "09",
+      "manifest": false,
+      "media_segment": false,
+      "link3": "NOT_VERIFIED",
+      "source": "GitHub fahadskt/IPTV-Playlists (new test, unverified)",
+      "note": "No claim of correct broadcaster or buffer-free playback"
+    },
+    {
+      "test": "10",
+      "manifest": false,
+      "media_segment": false,
+      "link3": "NOT_VERIFIED",
+      "source": "GitHub Sonaton11/M3 (new test, unverified)",
+      "note": "No claim of correct broadcaster or buffer-free playback"
+    },
+    {
+      "test": "11",
+      "manifest": false,
+      "media_segment": false,
+      "link3": "NOT_VERIFIED",
+      "source": "GitHub mrkaday/kaday (new test, unverified)",
+      "note": "No claim of correct broadcaster or buffer-free playback"
+    },
+    {
+      "test": "12",
+      "manifest": false,
+      "media_segment": false,
+      "link3": "NOT_VERIFIED",
+      "source": "GitHub mrkaday/kaday (new test, unverified)",
+      "note": "No claim of correct broadcaster or buffer-free playback"
+    },
+    {
+      "test": "13",
+      "manifest": false,
+      "media_segment": false,
+      "link3": "NOT_VERIFIED",
+      "source": "GitHub Md-Shariful-Islam-Himel/btcl_iptv (new test, unverified)",
+      "note": "No claim of correct broadcaster or buffer-free playback"
+    },
+    {
+      "test": "14",
+      "manifest": false,
+      "media_segment": false,
+      "link3": "NOT_VERIFIED",
+      "source": "GitHub Rihan2044/playlists (new test, unverified)",
+      "note": "No claim of correct broadcaster or buffer-free playback"
+    },
+    {
+      "test": "15",
+      "manifest": false,
+      "media_segment": false,
+      "link3": "NOT_VERIFIED",
+      "source": "GitHub PrattoySaha/IPTV (new test, unverified)",
+      "note": "No claim of correct broadcaster or buffer-free playback"
+    },
+    {
+      "test": "16",
+      "manifest": false,
+      "media_segment": false,
+      "link3": "NOT_VERIFIED",
+      "source": "GitHub Sonuiptvnew/Sonuiptvnew (new test, unverified)",
+      "note": "No claim of correct broadcaster or buffer-free playback"
+    }
+  ]
+}
