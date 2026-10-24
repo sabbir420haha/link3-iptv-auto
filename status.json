@@ -1,9 +1,10 @@
 {
-  "updated_utc": "2026-10-24T13:00:55.531109+00:00",
-  "channels": 78,
-  "target_channels": 99,
+  "updated_utc": "2026-10-24T16:17:07.524544+00:00",
+  "channels": 79,
+  "target_channels": 100,
   "groups": {
     "01 | BD News": 17,
+    "98 | TEST - Unverified Non-BDIX": 1,
     "02 | BD General & Entertainment": 32,
     "03 | Indian Bangla": 17,
     "04 | Kids": 14,
@@ -12,7 +13,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 264,
+  "remote_manifests_probed": 263,
   "media_segments_probed": 0,
   "experimental_unverified": 0,
   "backup_streams": [],
@@ -491,12 +492,12 @@
     },
     {
       "source": "updated-Hindi-streams",
-      "count": 303,
+      "count": 321,
       "error": null
     },
     {
       "source": "updated-Hindi-top",
-      "count": 159,
+      "count": 182,
       "error": null
     },
     {
@@ -532,6 +533,13 @@
       "name": "Channel 24 Backup",
       "state": "PINNED_USER_WORKING",
       "stream": "https://drk6xq0vhn.gpcdn.net/live/channel_24_abr/index.m3u8",
+      "manifest_height": 0,
+      "media_segment_checked": false
+    },
+    {
+      "name": "Channel 24 YouTube TEST",
+      "state": "PINNED_USER_WORKING",
+      "stream": "https://www.youtube.com/@Channel24digital/live",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1217,18 +1225,18 @@
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 78,
+    "logo_count": 79,
     "methods": {
       "current-broadcaster": 47,
       "verified-recent-provider-logo": 15,
-      "text-fallback": 16
+      "text-fallback": 17
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 78,
+    "total": 79,
     "from_image_sources": 68,
-    "clear_name_fallbacks": 10,
+    "clear_name_fallbacks": 11,
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
