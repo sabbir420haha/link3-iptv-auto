@@ -2512,23 +2512,503 @@
     },
     "Channel 24": {
       "logo": "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png",
-      "candidates": []
+      "candidates": [
+        {
+          "number": "01",
+          "url": "https://ch24cdn.ncare.live/channel24/ch24office/index.m3u8",
+          "origin": "GitHub public listing 01 | Ncare Channel24 Office"
+        },
+        {
+          "number": "02",
+          "url": "https://utube.buddyxiptv.com/@channel24digital.m3u8",
+          "origin": "GitHub public listing 02 | YouTube IPTV Relay"
+        },
+        {
+          "number": "03",
+          "url": "https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1703/output/index.m3u8",
+          "origin": "GitHub public listing 04 | Cloudfront Akash Feed"
+        },
+        {
+          "number": "04",
+          "url": "https://aynapubluc.vercel.app/api/stream/89247cb9-3c3e-465c-bbc7-d444b0d65424.m3u8",
+          "origin": "GitHub public listing 05 | Ayna Vercel API"
+        },
+        {
+          "number": "05",
+          "url": "https://livess.ncare.live/live-orgin/channel24-sg-e8e.stream/chunks.m3u8",
+          "origin": "GitHub public listing 06 | Ncare Livess Origin"
+        },
+        {
+          "number": "06",
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channel24-sg-e8e.stream/playlist.m3u8",
+          "origin": "GitHub public listing 07 | Ncare App Origin"
+        },
+        {
+          "number": "07",
+          "url": "https://global.ncare.live/live-orgin/channel24-sg-e8e.stream/playlist.m3u8",
+          "origin": "GitHub public listing 08 | Ncare Global HLS"
+        },
+        {
+          "number": "08",
+          "url": "https://app.jagobd.com.bd/live-orgin/channel24-sg-e8e.stream/playlist.m3u8",
+          "origin": "GitHub public listing 09 | JagoBD App Live"
+        },
+        {
+          "number": "09",
+          "url": "https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/channel24-sg-e8e.stream/playlist.m3u8",
+          "origin": "GitHub public listing 10 | JagoBD CDN AppV"
+        },
+        {
+          "number": "10",
+          "url": "https://us170.jagobd.com:447/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/channel24-sg-e8e.stream/playlist.m3u8",
+          "origin": "GitHub public listing 11 | JagoBD US170"
+        },
+        {
+          "number": "11",
+          "url": "https://tvsen6.aynaott.com/YrVDF8gujkdh/index.m3u8",
+          "origin": "GitHub public listing 12 | AynaOTT Mirror"
+        },
+        {
+          "number": "12",
+          "url": "https://itpolly.iptv.digijadoo.net/live/channel_24/chunks.m3u8",
+          "origin": "GitHub public listing 13 | Digijadoo Itpolly"
+        },
+        {
+          "number": "13",
+          "url": "https://triangle.iptv.digijadoo.net/live/channel_24/chunks.m3u8",
+          "origin": "GitHub public listing 14 | Digijadoo Triangle"
+        },
+        {
+          "number": "14",
+          "url": "http://robi.iptv.digijadoo.net/live/channel_24/chunks.m3u8",
+          "origin": "GitHub public listing 15 | Digijadoo Robi"
+        },
+        {
+          "number": "15",
+          "url": "http://103.205.133.14/hls/channel24.m3u8",
+          "origin": "GitHub public listing 16 | Channel24 IP HLS 14"
+        },
+        {
+          "number": "16",
+          "url": "http://103.205.133.19/hls/channel24.m3u8",
+          "origin": "GitHub public listing 17 | Channel24 IP HLS 19"
+        },
+        {
+          "number": "17",
+          "url": "http://103.141.66.36/bpk-tv/10008/default/index.m3u8",
+          "origin": "GitHub public listing 18 | Channel24 Akash IP"
+        },
+        {
+          "number": "18",
+          "url": "http://103.213.238.70:8080/live/channel_24/chunks.m3u8",
+          "origin": "GitHub public listing 19 | Channel24 Ihub IP"
+        },
+        {
+          "number": "19",
+          "url": "http://cdn01.palki.tv:80/live/Channel24-M/tracks-v1a1/mono.m3u8",
+          "origin": "GitHub public listing 20 | Channel24 Palki"
+        }
+      ]
     },
     "Sonic Bangla": {
       "logo": "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png",
-      "candidates": []
+      "candidates": [
+        {
+          "number": "01",
+          "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Sonic_Bangla&q=800&e=junk.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "02",
+          "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sonicPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "03",
+          "url": "https://sports247.eu.org/api/app/live.php?id=1345&e=.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "04",
+          "url": "https://hey-lookme.shop/live.php?id=1345",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "05",
+          "url": "https://jio.instream.ml/jio.php?c=Sonic_Bangla&q=600&e=.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "06",
+          "url": "http://198.195.239.50:8095/sonic/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "07",
+          "url": "https://sflex07.fun:443/07/jio/app/ts_live_1345.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "08",
+          "url": "https://app-re.sm-monirul-islam-rs.workers.dev/sonic-bangla/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "09",
+          "url": "https://stream.ottplus.live/live/sonic_bangla_abr/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "10",
+          "url": "https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "11",
+          "url": "https://playyonogames.in/live.php?id=1345&format=.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "12",
+          "url": "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "13",
+          "url": "http://103.68.28.58:5001/live/1345.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "14",
+          "url": "https://colorsscreen.com/live.php?id=1345&extension=.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "15",
+          "url": "http://103.135.253.32:8080/SONIC-BANGLA/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "16",
+          "url": "http://103.180.212.191:3500/live/1345.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "17",
+          "url": "http://14.102.123.50:5001/live/1345.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "18",
+          "url": "http://103.204.43.87:8080/live/1/1/274.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "19",
+          "url": "http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "20",
+          "url": "https://snehjiotv.in1.bitmana.io/snehjioox.php?c=Sonic_Bangla&q=1200&e=junk.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "21",
+          "url": "https://edge01.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "22",
+          "url": "https://edge01.iptv.digijadoo.net/live/sonic/playlist.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "23",
+          "url": "http://live.balajibroadband.com:3500/live/1345.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        }
+      ]
     },
     "Sonic Hindi": {
       "logo": "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png",
-      "candidates": []
+      "candidates": [
+        {
+          "number": "01",
+          "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "02",
+          "url": "https://sports247.eu.org/api/app/live.php?id=815&e=.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "03",
+          "url": "http://202.70.146.135:8000/play/a02t/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "04",
+          "url": "https://hey-lookme.shop/live.php?id=815",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "05",
+          "url": "https://jio.instream.ml/jio.php?c=sonic_Hindi&q=600&e=.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "06",
+          "url": "http://hardcore-keldysh.64-227-150-121.plesk.page:80/getm3u8/815/master.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "07",
+          "url": "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=815",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "08",
+          "url": "https://app-re.sm-monirul-islam-rs.workers.dev/sonic-hindi/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "09",
+          "url": "https://stream.ottplus.live/live/sonic_abr/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "10",
+          "url": "http://103.140.254.2:3500/live/815.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "11",
+          "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "12",
+          "url": "https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "13",
+          "url": "https://playyonogames.in/live.php?id=815&format=.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "14",
+          "url": "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "15",
+          "url": "http://103.68.28.58:5001/live/815.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "16",
+          "url": "https://colorsscreen.com/live.php?id=815&extension=.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "17",
+          "url": "http://103.83.80.54:6088/play/a0g4/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "18",
+          "url": "http://103.135.253.32:8080/SONIC/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "19",
+          "url": "http://103.135.253.32:8080/SONIC-HD/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "20",
+          "url": "http://103.185.24.134:3001/SONIC/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "21",
+          "url": "http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "22",
+          "url": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "23",
+          "url": "https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "24",
+          "url": "http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "25",
+          "url": "http://103.229.254.25:7001/play/a0dl/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "26",
+          "url": "http://103.162.136.235:4500/play/a01k/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "27",
+          "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "28",
+          "url": "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        }
+      ]
     },
     "Discovery Bangla": {
       "logo": "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png",
-      "candidates": []
+      "candidates": [
+        {
+          "number": "01",
+          "url": "http://103.135.253.32:8080/DISCOVERY-BANGLA/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "02",
+          "url": "http://103.135.253.32:8080/DISCOVERY-BENGALI/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "03",
+          "url": "http://103.135.253.32:8080/DISCOVERY-HD-BANGLA/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "04",
+          "url": "https://load.airtelxstream.in/discoverychannelbengali/smil:common.smil/playlist.m3u8?DVR",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "05",
+          "url": "http://103.89.248.130:8082/DISCOVERY-BANGLA/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "06",
+          "url": "http://103.180.212.191:3500/live/573.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "07",
+          "url": "http://103.17.193.159:5001/live/573.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "08",
+          "url": "http://103.107.79.87:8080/CH8110HD08/video.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "09",
+          "url": "http://175.107.244.52:4455/play/a01v/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "10",
+          "url": "http://103.159.180.34:5001/live/573.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "11",
+          "url": "http://103.229.254.25:7001/play/a03g/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "12",
+          "url": "http://103.107.79.87:8080/CH8110HD08/tracks-v1a1/mono.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "13",
+          "url": "https://cdn1-freeiptv25.vercel.app/m3u/discoverybengali.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "14",
+          "url": "https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_19.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "15",
+          "url": "https://starplay2.netlify.app/m3u/discoverybengali.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "16",
+          "url": "http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/61.ts",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "17",
+          "url": "https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_21.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "18",
+          "url": "https://khulnalive.anytv.live/discoverybangla/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "19",
+          "url": "https://ccntv.anytv.live/discoverybangla/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        }
+      ]
     },
     "Nat Geo HD Bangla": {
       "logo": "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png",
-      "candidates": []
+      "candidates": [
+        {
+          "number": "01",
+          "url": "http://103.81.104.222/live/national-geographic/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "02",
+          "url": "https://tvsen6.aynaott.com/natgeo/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "03",
+          "url": "http://103.167.167.5:8111/play/a036/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "04",
+          "url": "http://103.89.248.130:8082/National-geo-graphy-bangla/index.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "05",
+          "url": "http://103.55.144.46/hls/ngohd.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "06",
+          "url": "http://103.153.175.254:8080/hls/stream13.m3u8",
+          "origin": "Curated GitHub IPTV stream trial"
+        }
+      ]
     }
   },
   "reported_failures": {
