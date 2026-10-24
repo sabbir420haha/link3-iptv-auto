@@ -474,155 +474,86 @@
       "candidates": [
         {
           "number": "01",
-          "url": "http://tv.dugdugilive.com:8080/0ne$ky23/ATN-News/tracks-v1a1/mono.m3u8",
-          "origin": "https://github.com/rabbyos/rabbyos/blob/81bc074736dc1a568d3abb276b7ddab5e09f4b13/Bdix"
+          "url": "https://bozztv.com/rongo/rongo-ATNNews/index.m3u8",
+          "origin": "GitHub dhasap/dhanytv (new test, unverified)"
         },
         {
           "number": "02",
-          "url": "http://dvrfl05.bozztv.com/gin-atnnews/index.m3u8",
-          "origin": "https://github.com/naresh809/IndianTV/blob/8eca13f65afa22b1bdab22a608b481457fa96ba6/allnews"
+          "url": "https://vimiptv.top/live.php?id=e05cb33b3c3b&e=.m3u8",
+          "origin": "GitHub memevaiya2O/streamobhai (new test, unverified)"
         },
         {
           "number": "03",
-          "url": "http://tv.ebox.live:8080/live/ex-atnae.m3u8",
-          "origin": "https://github.com/skmasum98/IPTV/blob/31b2c2cbcd01fb3c6e784bebb5b8d8c976378df7/Ebox"
+          "url": "https://app.jagobd.com.bd/live-orgin/atnws-sg.stream/playlist.m3u8",
+          "origin": "GitHub DEVFTAKBD/cwabdtv (new test, unverified)"
         },
         {
           "number": "04",
-          "url": "https://bdsatv24.000webhostapp.com/bdaynaa.php?ic=14&e=.m3u8",
-          "origin": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/OrangeTv"
+          "url": "https://cdn.jagobd.com.bd/live-orgin/atnws-sg.stream/playlist.m3u8",
+          "origin": "GitHub arif626/OTT.m3u (new test, unverified)"
         },
         {
           "number": "05",
-          "url": "http://tv2.ebox.live:8080/live/ex-atnae.m3u8",
-          "origin": "https://github.com/skmasum98/IPTV/blob/31b2c2cbcd01fb3c6e784bebb5b8d8c976378df7/Tv.ebox.live"
+          "url": "https://livess.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnws-sg.stream/playlist.m3u8",
+          "origin": "GitHub coding-A412/JakSmJ (new test, unverified)"
         },
         {
           "number": "06",
-          "url": "https://isp.top10bhaluka.com/tv/stream.m3u8?id=ATN-NEWS",
-          "origin": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Bdix"
+          "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnws-sg.stream/playlist.m3u8",
+          "origin": "GitHub puttyroot/attempt (new test, unverified)"
         },
         {
           "number": "07",
-          "url": "https://isp.top10bhaluka.com/tv/stream.m3u8?id=GAN-BANGLA",
-          "origin": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Bdix"
+          "url": "https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnws-sg.stream/playlist.m3u8",
+          "origin": "GitHub mayaxcn/getM3U8 (new test, unverified)"
         },
         {
           "number": "08",
-          "url": "http://cdn01.palki.tv/live/ATNNews-M/index.m3u8",
-          "origin": "https://github.com/diptosaha007/check/blob/a44a73f18ed14fa183bd99f721fd604653943340/index.html"
+          "url": "https://us170.jagobd.com:447/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnws-sg.stream/playlist.m3u8",
+          "origin": "GitHub kilirushi/iptv (new test, unverified)"
         },
         {
           "number": "09",
-          "url": "http://10.16.100.203:8082/bangla/atnnewslondon.m3u8",
-          "origin": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/Ftp"
+          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnws-sg.stream/playlist.m3u8",
+          "origin": "GitHub fahadskt/IPTV-Playlists (new test, unverified)"
         },
         {
           "number": "10",
-          "url": "https://utube.buddyxiptv.com/@ATNNewsLive.m3u8",
-          "origin": "https://github.com/masum1580/masum0/blob/b865968103da393e4cde94f0d232ab46cc0c2d1f/Ayna ott"
+          "url": "https://tv5.hoichoi24.com/1134/tracks-v1a1/mono.m3u8",
+          "origin": "GitHub Sonaton11/M3 (new test, unverified)"
         },
         {
           "number": "11",
-          "url": "http://tvserver.aliflailabd.com:8989/atn-news/index.m3u8",
-          "origin": "https://github.com/Efbd/E-fiber/blob/34e42db0d2efa75a19807cd18b78cb79ed7edb03/live-tv"
+          "url": "https://aynapubluc.vercel.app/api/stream/a0a29f90-f7c2-4cc2-b0b4-667253585b84.m3u8",
+          "origin": "GitHub mrkaday/kaday (new test, unverified)"
         },
         {
           "number": "12",
-          "url": "https://edge01.iptv.digijadoo.net/live/atn_news/chunks.m3u8",
-          "origin": "https://github.com/imranemon1/emon/blob/71dbcda09ccbc09efd474ae3cbe2272b2390a17f/6.8.20"
+          "url": "https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1706/output/index.m3u8",
+          "origin": "GitHub mrkaday/kaday (new test, unverified)"
         },
         {
           "number": "13",
-          "url": "http://103.205.133.19/hls/atnnews.m3u8",
-          "origin": "https://github.com/imranemon1/emon/blob/71dbcda09ccbc09efd474ae3cbe2272b2390a17f/Bangla"
+          "url": "http://cdn.moviemazic.xyz:8083/ATNNews/tracks-v1a1/mono.m3u8",
+          "origin": "GitHub Md-Shariful-Islam-Himel/btcl_iptv (new test, unverified)"
         },
         {
           "number": "14",
-          "url": "http://stvlive.net:8080/atnnews/index.m3u8",
-          "origin": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Bdixtv 3"
+          "url": "http://103.175.242.10:8080/19-Atnnews/tracks-v1a1/mono.m3u8",
+          "origin": "GitHub Rihan2044/playlists (new test, unverified)"
         },
         {
           "number": "15",
-          "url": "http://103.89.248.130:8082/ATN-NEWS/index.m3u8",
-          "origin": "https://github.com/Farabi-2005/Farabi/blob/3d58455d6b05f8d85e0b5364ba8f8e1b5ccc9751/IPTV XYZ"
+          "url": "https://himel-op.top/api/ytop.m3u8?id=c67_sK-EU1g",
+          "origin": "GitHub PrattoySaha/IPTV (new test, unverified)"
         },
         {
           "number": "16",
-          "url": "http://10.16.100.205/hls/news_atn_london720.m3u8",
-          "origin": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/Icc"
-        },
-        {
-          "number": "17",
-          "url": "https://itpolly.iptv.digijadoo.net/live/atn_news/chunks.m3u8",
-          "origin": "https://github.com/imranemon1/emon/blob/71dbcda09ccbc09efd474ae3cbe2272b2390a17f/20.8.20"
-        },
-        {
-          "number": "18",
-          "url": "http://sm-monirul.top/RoarZone/play.php?id=ZWRnZTIvYXRuLW5ld3M=&e=.m3u8",
-          "origin": "https://github.com/badalbd53/Rocket-OTV/blob/62205d0667ab00183841aa4eb0708ce8a786b547/roarzone"
-        },
-        {
-          "number": "19",
-          "url": "http://103.205.133.21/hls/atnnews.m3u8",
-          "origin": "https://github.com/imranemon1/emon/blob/71dbcda09ccbc09efd474ae3cbe2272b2390a17f/IMRAN EMON"
-        },
-        {
-          "number": "20",
-          "url": "http://23.106.120.42:1934/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnws-sg.stream/chunks.m3u8",
-          "origin": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/jagobd"
-        },
-        {
-          "number": "21",
-          "url": "http://tv-cdn.ihub.live:8080/ATNNews/tracks-v1a1/mono.m3u8",
-          "origin": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/I Hub"
-        },
-        {
-          "number": "22",
-          "url": "http://103.49.168.172:8081/ebox/bd_atn_news/chunks.m3u8",
-          "origin": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/Ebox TV 2"
-        },
-        {
-          "number": "23",
-          "url": "http://103.213.238.70:8080/live/atn_news/chunks.m3u8",
-          "origin": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/I Hub FTP"
-        },
-        {
-          "number": "24",
-          "url": "http://172.19.178.59:18190/SN-ST-TV-20/index.m3u8",
-          "origin": "https://github.com/badalbd53/Rocket-OTV/blob/62205d0667ab00183841aa4eb0708ce8a786b547/Cloud Tv"
-        },
-        {
-          "number": "25",
-          "url": "https://sm-monirul.top/Toffee/live.php?id=e05cb33b3c3b&e=.m3u8",
-          "origin": "https://github.com/badalbd53/Rocket-OTV/blob/62205d0667ab00183841aa4eb0708ce8a786b547/toffee"
-        },
-        {
-          "number": "26",
-          "url": "https://entezeetv.fun/bdcast/hls/index.m3u8?id=08edaaca&e=.m3u8",
-          "origin": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Bdcast"
-        },
-        {
-          "number": "27",
-          "url": "http://103.214.202.218:8081/live/atnnews-bd/chunks.m3u8",
-          "origin": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/Amrbd.com +"
-        },
-        {
-          "number": "28",
-          "url": "http://master.beeiptv.com:8081/master/atnnews/playlist.m3u8",
-          "origin": "https://github.com/Shetara/ab/blob/20b71f74474cba9fd023cb8a7c2ae3cc19dd5ecf/Web-Tv"
-        },
-        {
-          "number": "29",
-          "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8",
-          "origin": "https://github.com/pk5002/12345/blob/39e2fcb44bfa222526771af6da8514e7f73aa162/PURNOTA"
-        },
-        {
-          "number": "30",
-          "url": "https://ott.bingebd.com/live/ngrp:APNTn-asdt-t1asnd2a-sWgtsrhQW_AQTY1025_atn_newsPQRT_98sdfhs0_f36erxty_forsgst63_DH/chunklist.m3u8",
-          "origin": "https://github.com/lolz1990/my/blob/de21d04785c5aa320bc269fd3ecad0c3e0826919/bng2"
+          "url": "http://103.205.133.18/hls/atnnews.m3u8",
+          "origin": "GitHub Sonuiptvnew/Sonuiptvnew (new test, unverified)"
         }
-      ]
+      ],
+      "previous_test_status": "All previous 30 streams reported failed by user on Link3; none reused"
     },
     "BanglaVision": {
       "logo": "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023",
@@ -2578,6 +2509,35 @@
           "origin": "existing-automated-discovery"
         }
       ]
+    },
+    "Channel 24": {
+      "logo": "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png",
+      "candidates": []
+    },
+    "Sonic Bangla": {
+      "logo": "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png",
+      "candidates": []
+    },
+    "Sonic Hindi": {
+      "logo": "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png",
+      "candidates": []
+    },
+    "Discovery Bangla": {
+      "logo": "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png",
+      "candidates": []
+    },
+    "Nat Geo HD Bangla": {
+      "logo": "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png",
+      "candidates": []
     }
-  }
+  },
+  "reported_failures": {
+    "ATN News": {
+      "count": 30,
+      "all_urls_rejected": true,
+      "checked_on": "user Link3",
+      "details": "Old TEST 01-30 failed. Do not re-add."
+    }
+  },
+  "last_updated": "2026-10-25"
 }
