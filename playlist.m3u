@@ -52,7 +52,7 @@ https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_abr/index.m3u8
 http://103.135.253.32:8080/TEN-3/index.m3u8
 #EXTINF:-1 tvg-name="Channel 24 Backup" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24-backup.png?v=iptv-tightfit-20261023" group-title="01 | BD News",Channel 24 Backup
 https://drk6xq0vhn.gpcdn.net/live/channel_24_abr/index.m3u8
-#EXTINF:-1 tvg-id="channel24-yt-hls-test" tvg-name="Channel 24 YT HLS TEST" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24-yt-hls-test.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Channel 24 YT HLS TEST
+#EXTINF:-1 tvg-name="Channel 24 YT HLS TEST" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24-yt-hls-test.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Channel 24 YT HLS TEST
 https://bd.jagobd.com:444/live-orgin/channel24-sg-e8e.stream/chunks.m3u8
 #EXTINF:-1 tvg-name="Independent TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/independent-tv.png?v=iptv-tightfit-20261023" group-title="01 | BD News",Independent TV
 https://drk6xq0vhn.gpcdn.net/live/independent_tv_abr/index.m3u8

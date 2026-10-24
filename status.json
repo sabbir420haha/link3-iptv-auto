@@ -1,10 +1,10 @@
 {
-  "updated_utc": "2026-10-24T16:25:19.650121+00:00",
-  "channels": 78,
+  "updated_utc": "2026-10-24T16:32:10.185929+00:00",
+  "channels": 79,
   "target_channels": 100,
   "groups": {
     "01 | BD News": 17,
-    "98 | TEST - Unverified Non-BDIX": 1,
+    "00 | MY FAVORITES": 1,
     "02 | BD General & Entertainment": 32,
     "03 | Indian Bangla": 17,
     "04 | Kids": 14,
@@ -539,7 +539,7 @@
     {
       "name": "Channel 24 YT HLS TEST",
       "state": "PINNED_USER_WORKING",
-      "stream": "https://stream.ottplus.live/live/channel_24_abr/index.m3u8",
+      "stream": "https://bd.jagobd.com:444/live-orgin/channel24-sg-e8e.stream/chunks.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1235,8 +1235,8 @@
   },
   "local_logos": {
     "total": 79,
-    "from_image_sources": 68,
-    "clear_name_fallbacks": 11,
+    "from_image_sources": 67,
+    "clear_name_fallbacks": 12,
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
