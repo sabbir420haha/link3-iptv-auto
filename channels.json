@@ -27,7 +27,7 @@
     "locked": true,
     "last_known_url": "",
     "user_verified_link3": false,
-    "source_quality_note": "YouTube ONLY: TEST appears in published M3U only after yt-dlp extracts a valid, non-expired Googlevideo live HLS URL. YouTube currently blocks unauthenticated GitHub runners; no JagoBD/OTTplus substitute. Playback from Link3 remains unverified. Main Channel 24 unchanged."
+    "source_quality_note": "YouTube-only TEST; publish only if an authentic active Googlevideo HLS manifest was extracted, otherwise hide TEST entry. GitHub-derived HLS may be restricted to runner IP and fail on Link3; not user verified."
   },
   {
     "name": "Independent TV",
