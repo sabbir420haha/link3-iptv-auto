@@ -30,7 +30,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Validate script
-        run: python -m py_compile update.py three_playback_health.py
+        run: python -m py_compile update.py geo_trial.py three_playback_health.py
       - name: Install image tools
         run: python -m pip install Pillow==11.3.0
       - name: Discover and test publicly available HLS streams
