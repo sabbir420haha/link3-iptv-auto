@@ -11,6 +11,14 @@ URL_BASE="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/"
 # User has confirmed every previous geo-trial candidate fails on Link3.
 # Publish no misleading old candidates. Populate only after new user-confirmed feeds.
 TRIALS={}
+# The user's separate geo_trials.m3u is the opt-in source testing playlist.
+# Keep these unverified trials completely separate from the main channel list.
+try:
+    channel24_trials=json.loads((ROOT/"channel24_geo_candidates.json").read_text(encoding="utf-8"))
+    TRIALS["Channel 24"]=[(x["label"],x["url"],x.get("referrer"))
+        for x in channel24_trials.get("sources",[])][:20]
+except FileNotFoundError:
+    pass
 
 LOGO={
  "Nick Hindi":"https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/nick-in.png",
@@ -53,18 +61,25 @@ def main():
       "# Previous 9 trial streams ALL failed user playback; removed. No confirmed alternate sources yet.",
       "# These may be ISP-only, region restricted, wrong language or offline. No DRM/access bypass."]
     summary={}
+    # Display numbered TEST entries only. These 20 URLs have NOT been user verified.
     for name,sources in TRIALS.items():
         item=catalog.get(name,{})
         banned=set(item.get("exclude_urls",[]))
         counts=0
-        logo=local_logo(name)
-        for label,uri in sources:
+        logo=(URL_BASE+"logos/channel-24.png") if name=="Channel 24" else local_logo(name)
+        for entry in sources:
+            label,uri=entry[:2]
+            referer=entry[2] if len(entry)>2 else None
             if not safe(uri) or uri in banned: continue
-            diagnostics=next((c for c in audit.get(name,{}).get("candidates",[]) if c["url"]==uri),None)
-            stat= "manifest-checked" if diagnostics and diagnostics.get("manifest_ok") else "unverified"
-            title=(name+" - "+label).replace('"', "'").replace(",", " -")
-            group="99 | BD-GEO TRIAL - Playback NOT verified"
-            output.append(f'#EXTINF:-1 tvg-name="{title}" tvg-logo="{logo}" group-title="{group}",{title}')
+            title=(name+" TEST "+label.replace(" | ", " - ")).replace('"', "'").replace(",", " -")
+            group=("97 | CHANNEL 24 TEST - NOT VERIFIED" if name=="Channel 24"
+                   else "99 | BD-GEO TRIAL - Playback NOT verified")
+            stable_id=("channel24-test-"+label[:2] if name=="Channel 24" else
+                       "bd-geo-"+slug(title))
+            output.append(f'#EXTINF:-1 tvg-id="{stable_id}" tvg-name="{title}" tvg-logo="{logo}" group-title="{group}",{title}')
+            if referer and referer.startswith("https://"):
+                # Some IPTV players honour this optional header, others ignore it.
+                output.append("#EXTVLCOPT:http-referrer="+referer)
             output.append(uri)
             counts+=1
         summary[name]=counts
