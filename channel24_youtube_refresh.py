@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Best-effort Channel 24 official YouTube Live URL refresh.
-Only updates main Channel 24; preserves all other channels and main fallback.
+Only updates separate Channel 24 YouTube TEST; preserves main Channel 24.
 YouTube CDN URLs are short-lived and IPTV Pro playback is not guaranteed.
 """
 import datetime
@@ -14,7 +14,8 @@ CATALOG = ROOT / "channels.json"
 PLAYLIST = ROOT / "playlist.m3u"
 REPORT = ROOT / "channel24_youtube_status.json"
 LIVE_PAGE = "https://www.youtube.com/@Channel24digital/live"
-SAFE_FALLBACK = "https://stream.ottplus.live/live/channel_24_abr/index.m3u8"
+TEST_NAME = "Channel 24 YouTube TEST"
+SAFE_FALLBACK = "https://www.youtube.com/@Channel24digital/live"
 
 def extract():
     cmd = ["yt-dlp", "--no-warnings", "--no-playlist", "--dump-single-json",
@@ -43,9 +44,9 @@ def extract():
 def main():
     now = datetime.datetime.now(datetime.timezone.utc).isoformat()
     channels = json.loads(CATALOG.read_text(encoding="utf-8"))
-    main_channel = next(c for c in channels if c["name"] == "Channel 24")
+    main_channel = next(c for c in channels if c["name"] == TEST_NAME)
     previous = main_channel.get("last_known_url", SAFE_FALLBACK)
-    result = {"checked_utc": now, "channel": "Channel 24",
+    result = {"checked_utc": now, "channel": TEST_NAME,
               "official_live_page": LIVE_PAGE, "source": "YouTube HLS trial",
               "warning": "Expiring URL; Github scheduler and IPTV Pro playback are not guaranteed"}
     try:
@@ -61,13 +62,13 @@ def main():
     main_channel["user_verified_link3"] = False
     main_channel["source_quality_note"] = (
         "Automatic official Channel 24 YouTube Live HLS trial; short-lived URL "
-        "and NOT user-verified on Link3. Falls back to OTTplus when extraction fails."
+        "and NOT user-verified on Link3. Falls back to official YouTube live page when extraction fails."
     )
     old = PLAYLIST.read_text(encoding="utf-8")
     lines = old.splitlines(keepends=True)
     updated = False
     for i, line in enumerate(lines):
-        if line.startswith("#EXTINF:") and 'tvg-name="Channel 24"' in line:
+        if line.startswith("#EXTINF:") and 'tvg-name="Channel 24 YouTube TEST"' in line:
             j = i + 1
             while j < len(lines) and lines[j].startswith("#"):
                 j += 1
