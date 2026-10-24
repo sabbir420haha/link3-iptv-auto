@@ -6,6 +6,7 @@ YouTube CDN URLs are short-lived and IPTV Pro playback is not guaranteed.
 import datetime
 import json
 import subprocess
+import urllib.request
 from pathlib import Path
 from urllib.parse import urlsplit, parse_qs
 
@@ -14,7 +15,7 @@ CATALOG = ROOT / "channels.json"
 PLAYLIST = ROOT / "playlist.m3u"
 REPORT = ROOT / "channel24_youtube_status.json"
 LIVE_PAGE = "https://www.youtube.com/@Channel24digital/live"
-TEST_NAME = "Channel 24 YouTube TEST"
+TEST_NAME = "Channel 24 YT HLS TEST"
 SAFE_FALLBACK = "https://stream.ottplus.live/live/channel_24_abr/index.m3u8"
 
 def extract():
@@ -39,13 +40,18 @@ def extract():
     exp = parse_qs(urlsplit(url).query).get("expire", [None])[0]
     if exp and int(exp) < datetime.datetime.now(datetime.timezone.utc).timestamp() + 2400:
         raise RuntimeError("YouTube URL expires too soon for scheduled playlist updates")
+    # A webpage or HTML response is not a stream. Only publish an HLS manifest.
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=15) as response:
+        head = response.read(48000).decode("utf-8", errors="replace")
+    if not head.startswith("#EXTM3U") or "#EXT-X-" not in head:
+        raise RuntimeError("Extracted Googlevideo URL does not return a valid HLS manifest")
     return url, data.get("id"), exp
 
 def main():
     now = datetime.datetime.now(datetime.timezone.utc).isoformat()
     channels = json.loads(CATALOG.read_text(encoding="utf-8"))
     main_channel = next(c for c in channels if c["name"] == TEST_NAME)
-    previous = main_channel.get("last_known_url", SAFE_FALLBACK)
     result = {"checked_utc": now, "channel": TEST_NAME,
               "official_live_page": LIVE_PAGE, "source": "YouTube HLS trial",
               "warning": "Expiring URL; Github scheduler and IPTV Pro playback are not guaranteed"}
@@ -54,20 +60,20 @@ def main():
         result.update(status="youtube_hls_extracted", video_id=video_id, expires_unix=expire)
     except Exception as exc:
         result.update(status="youtube_unavailable_fallback", error=str(exc))
-        # Never put a YouTube webpage or expired googlevideo link in an M3U.
+        # Never write a YouTube watch/live webpage or expired URL into IPTV Pro.
         url = SAFE_FALLBACK
 
     main_channel["last_known_url"] = url
     main_channel["user_verified_link3"] = False
     main_channel["source_quality_note"] = (
-        "Automatic official Channel 24 YouTube Live HLS trial; short-lived URL "
-        "and NOT user-verified on Link3. Falls back to an HLS OTTplus test stream when extraction fails."
+        "TEST-only official Channel 24 YouTube Live HLS trial, not Link3 verified. "
+        "Falls back to OTTplus HLS (not YouTube) when extraction fails."
     )
     old = PLAYLIST.read_text(encoding="utf-8")
     lines = old.splitlines(keepends=True)
     updated = False
     for i, line in enumerate(lines):
-        if line.startswith("#EXTINF:") and 'tvg-name="Channel 24 YouTube TEST"' in line:
+        if line.startswith("#EXTINF:") and f'tvg-name="{TEST_NAME}"' in line:
             j = i + 1
             while j < len(lines) and lines[j].startswith("#"):
                 j += 1
