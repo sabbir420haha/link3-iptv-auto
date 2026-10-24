@@ -8,6 +8,8 @@ on:
       - logos.py
       - logos_local.py
       - geo_trial.py
+      - favorite_search_a.json
+      - favorite_search_b.json
       - tv_playback_health.py
       - three_missing_probe.py
       - three_playback_health.py
