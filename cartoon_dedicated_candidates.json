@@ -1,0 +1,53 @@
+{
+  "context": "Third-party names claim single-program 24/7 streams, content identity not independently verified. User requested only Hindi for Shinchan and Mr Bean; do not mark either Hindi proven. Do not repackage rights-unknown as licensed.",
+  "sources": [
+    {
+      "name": "Gopal Bhar - Dedicated 24x7 TEST",
+      "program": "Gopal Bhar",
+      "language": "Bengali label, audio not independently verified",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8",
+      "evidence": "sm-monirulislam/SM-IPTV Cartoon.m3u & multiple M3U lists",
+      "rights": "Unknown, verify publisher authorization"
+    },
+    {
+      "name": "Bantul the Great - Dedicated 24x7 TEST",
+      "program": "Bantul the Great",
+      "language": "Bengali label, audio not independently verified",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-209869/tracks-v1a1/mono.ts.m3u8",
+      "evidence": "sm-monirulislam/SM-IPTV Cartoon.m3u",
+      "rights": "Unknown, verify publisher authorization"
+    },
+    {
+      "name": "Tom and Jerry - Dedicated 24x7 TEST",
+      "program": "Tom and Jerry",
+      "language": "Mainly non-dialogue, audio unverified",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
+      "evidence": "iptv-org/iptv streams/do.m3u and published M3U lists",
+      "rights": "Unknown, verify publisher authorization"
+    },
+    {
+      "name": "Shinchan - Dedicated 24x7 TEST (Hindi NOT VERIFIED)",
+      "program": "Shinchan",
+      "language": "Hindi REQUESTED; stream label does not prove Hindi audio",
+      "url": "https://cloudfrontnet.vercel.app/tplay/playout/209901/master.m3u8",
+      "evidence": "alaminislam203/my_playlist 24*7.m3u, ahsam991/Live-TV-Channel-",
+      "rights": "Unknown, verify publisher authorization"
+    },
+    {
+      "name": "Ninja Hattori - Dedicated 24x7 TEST (Hindi NOT VERIFIED)",
+      "program": "Ninja Hattori",
+      "language": "Hindi labelled by source, audio not independently verified",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-210448/tracks-v1a1/mono.ts.m3u8",
+      "evidence": "tvbd/m3uplayer/tplay/main.js",
+      "rights": "Unknown, verify publisher authorization"
+    },
+    {
+      "name": "Ninja Hattori - Dedicated 24x7 BACKUP TEST (Hindi NOT VERIFIED)",
+      "program": "Ninja Hattori",
+      "language": "Hindi labelled by source, audio not independently verified",
+      "url": "https://tplay.live/tplay/playout/210448/master.m3u8",
+      "evidence": "tvbd/m3uplayer/tplay/main.js",
+      "rights": "Unknown, verify publisher authorization"
+    }
+  ]
+}
