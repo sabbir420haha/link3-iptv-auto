@@ -1,0 +1,27 @@
+#EXTM3U
+# CARTOON IPTV Playlist - Live 24/7 FAST + TV channels that may air requested cartoon series.
+# These are live channels, NOT episode VOD media. Links to YouTube pages are deliberately excluded.
+# Mr Bean FAST & Toon Goggles: general continuous cartoon programming; other channels broadcast scheduled shows.
+# Hindi Shinchan: only a Hindi-labelled Hungama TV feed is listed, actual voice audio unverified.
+# Ninja Hattori: Sonic Hindi feed from user's main playlist; NOT passed Github media probe; test on Link3.
+# Stream legality and permissions for third-party OTT mirrors not independently established. Use only where authorized.
+#EXTINF:-1 tvg-id="cartoon-watch-01" tvg-name="Mr Bean Animated 24/7 - FAST UK 1" group-title="01 | Mr Bean 24x7",Mr Bean Animated 24/7 - FAST UK 1
+https://amg00627-amg00627c28-rakuten-uk-3984.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanukcc-rakutenuk/playlist.m3u8
+#EXTINF:-1 tvg-id="cartoon-watch-02" tvg-name="Mr Bean Animated 24/7 - FAST UK 2" group-title="01 | Mr Bean 24x7",Mr Bean Animated 24/7 - FAST UK 2
+https://amg00627-amg00627c23-samsung-gb-3927.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="cartoon-watch-03" tvg-name="Mr Bean Animated 24/7 - FAST AU" group-title="01 | Mr Bean 24x7",Mr Bean Animated 24/7 - FAST AU
+https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="cartoon-watch-04" tvg-name="Kids Cartoon 24/7 - Toon Goggles 1" group-title="02 | Other Cartoons 24x7",Kids Cartoon 24/7 - Toon Goggles 1
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=37
+#EXTINF:-1 tvg-id="cartoon-watch-05" tvg-name="Kids Cartoon 24/7 - Toon Goggles 2" group-title="02 | Other Cartoons 24x7",Kids Cartoon 24/7 - Toon Goggles 2
+https://d1eg24xrsfr6kv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-b4b1bzxkt1uzo-prod/tg/tg/tg.m3u8
+#EXTINF:-1 tvg-id="cartoon-watch-06" tvg-name="Gopal Bhar - Sony AATH (when aired)" group-title="03 | Gopal Bhar Bangla TV",Gopal Bhar - Sony AATH (when aired)
+https://stream.ottplus.live/live/sony_aath_abr/index.m3u8
+#EXTINF:-1 tvg-id="cartoon-watch-07" tvg-name="Bantul the Great - Zee Bangla (when aired)" group-title="04 | Bantul Bengali TV",Bantul the Great - Zee Bangla (when aired)
+http://103.151.60.162:2122/play/a011/index.m3u8?hls
+#EXTINF:-1 tvg-id="cartoon-watch-08" tvg-name="Shinchan HINDI - Hungama (when aired; audio TEST)" group-title="05 | Shinchan Hindi TV",Shinchan HINDI - Hungama (when aired; audio TEST)
+http://103.135.253.32:8080/HUNGAMA/index.m3u8
+#EXTINF:-1 tvg-id="cartoon-watch-09" tvg-name="Ninja Hattori HINDI - Sonic Hindi (when aired; TEST)" group-title="06 | Ninja Hattori Hindi TV",Ninja Hattori HINDI - Sonic Hindi (when aired; TEST)
+https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8
+#EXTINF:-1 tvg-id="cartoon-watch-10" tvg-name="Tom and Jerry - Cartoon Network (when aired)" group-title="07 | Tom and Jerry TV",Tom and Jerry - Cartoon Network (when aired)
+https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
