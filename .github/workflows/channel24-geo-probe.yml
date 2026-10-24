@@ -1,0 +1,42 @@
+name: Test 20 Channel 24 Geo Source Candidates
+on:
+  push:
+    branches: [main]
+    paths:
+      - channel24_geo_probe.py
+      - channel24_geo_candidates.json
+      - .github/workflows/channel24-geo-probe.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: channel24-geo-check-only
+  cancel-in-progress: false
+jobs:
+  check-candidates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check probe syntax
+        run: python -m py_compile channel24_geo_probe.py
+      - name: Inspect 20 candidate manifests and video segments only
+        run: python channel24_geo_probe.py
+      - name: Save independent status report (not playlists)
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add channel24_geo_probe.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record read-only Channel 24 geo trial checks'
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git fetch origin main
+              git rebase -X theirs origin/main
+              sleep 2
+            done
+            exit 1
+          fi
