@@ -741,7 +741,9 @@ def main():
                             state = "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED"
                             experimental_count += 1
                             break
-        if chosen and chosen["url"] not in used:
+        # A separate Channel 24 YouTube TEST must remain visible even when
+        # its safe HLS fallback temporarily matches the main Channel 24 URL.
+        if chosen and (chosen["url"] not in used or item["name"] == "Channel 24 YT HLS TEST"):
             used.add(chosen["url"])
             name = clean(item["name"])
             group = clean("00 | MY FAVORITES" if item["name"] in FAVORITES_SET else
