@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-24T16:21:03.997509+00:00",
+  "updated_utc": "2026-10-24T16:25:19.650121+00:00",
   "channels": 78,
   "target_channels": 100,
   "groups": {
@@ -537,7 +537,7 @@
       "media_segment_checked": false
     },
     {
-      "name": "Channel 24 YouTube TEST",
+      "name": "Channel 24 YT HLS TEST",
       "state": "PINNED_USER_WORKING",
       "stream": "https://stream.ottplus.live/live/channel_24_abr/index.m3u8",
       "manifest_height": 0,
