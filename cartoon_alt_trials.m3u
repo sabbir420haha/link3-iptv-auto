@@ -1,0 +1,9 @@
+#EXTM3U
+# EXPERIMENTAL alternatives only. BOTH sources FAILED GitHub runner media testing.
+# Gopal Bhar TPlay failed TLS certificate verification. It may not work on IPTV Pro.
+# Shinchan Hindi-labelled candidate returned HTTP 523. Neither audio nor availability verified.
+# They are not part of the main Cartoon Playlist. Do not mistake media success for real episodes.
+#EXTINF:-1 tvg-id="cartoon-alt-1" tvg-name="Gopal Bhar ALT 01 - TPlay SOURCE TEST" group-title="91 | Gopal Bhar - Unverified",Gopal Bhar ALT 01 - TPlay SOURCE TEST
+https://tplay.live/playlist/kids/gopal-bhar/index.m3u8
+#EXTINF:-1 tvg-id="cartoon-alt-2" tvg-name="Shinchan HINDI ALT 01 - UNVERIFIED" group-title="92 | Shinchan Hindi - Unverified",Shinchan HINDI ALT 01 - UNVERIFIED
+https://ranapkx.site/RANAPK33k/TVD/play.php?id=734314&e=.m3u8
