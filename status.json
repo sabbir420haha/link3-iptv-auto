@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-24T07:05:48.632614+00:00",
+  "updated_utc": "2026-10-24T12:09:20.058192+00:00",
   "channels": 78,
   "target_channels": 99,
   "groups": {
@@ -172,7 +172,7 @@
     {
       "name": "Sonic Bangla",
       "url": "http://103.17.193.159:5001/live/1345.m3u8",
-      "manifest_ok": true,
+      "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
       "viewer_confirmed_link3": true,
@@ -229,17 +229,17 @@
     {
       "name": "Disney HD Hindi",
       "url": "https://s1.itcnbd.live/Disney-D/index.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
+      "manifest_ok": true,
+      "segment_ok": true,
+      "manifest_height": 720,
       "identity_audio_verified_by_runner": false,
       "published_as_replacement": false
     },
     {
       "name": "Disney HD Hindi",
       "url": "https://s1.itcnbd.live/Disney-D/tracks-v1a1/mono.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
+      "manifest_ok": true,
+      "segment_ok": true,
       "manifest_height": 0,
       "identity_audio_verified_by_runner": false,
       "published_as_replacement": false
@@ -1227,8 +1227,8 @@
   },
   "local_logos": {
     "total": 78,
-    "from_image_sources": 68,
-    "clear_name_fallbacks": 10,
+    "from_image_sources": 67,
+    "clear_name_fallbacks": 11,
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
