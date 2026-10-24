@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-24T18:11:20.104947+00:00",
+  "checked_utc": "2026-10-24T18:15:18.269489+00:00",
   "scope": "GitHub network ONLY; not Link3/mobile/TV",
   "relay_active": false,
   "changed_playlist": false,
@@ -23,27 +23,27 @@
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 9.4,
+          "at_seconds": 9.2,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 17.4,
+          "at_seconds": 17.3,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 25.1,
+          "at_seconds": 25.2,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 33.1,
+          "at_seconds": 33.2,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 41.3,
+          "at_seconds": 41.4,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
@@ -58,7 +58,7 @@
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 65.4,
+          "at_seconds": 65.2,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         }
@@ -78,73 +78,73 @@
       "media_host": "103.135.253.32",
       "samples": [
         {
-          "at_seconds": 1.2,
-          "seq": 1058530,
-          "latest_segment_fingerprint": "c7d059a3dbf51972",
+          "at_seconds": 0.9,
+          "seq": 1058570,
+          "latest_segment_fingerprint": "d0eabb4f92f88452",
           "target_duration_seconds": 6,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
-          "at_seconds": 9.0,
-          "seq": 1058532,
-          "latest_segment_fingerprint": "c8b3807ca6eb465c",
+          "at_seconds": 8.9,
+          "seq": 1058571,
+          "latest_segment_fingerprint": "3344d4d696a5e68a",
           "target_duration_seconds": 6,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
-          "at_seconds": 17.0,
-          "seq": 1058533,
-          "latest_segment_fingerprint": "89f12207a65cfc4d",
+          "at_seconds": 17.2,
+          "seq": 1058573,
+          "latest_segment_fingerprint": "ec945100571b1621",
           "target_duration_seconds": 6,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
-          "at_seconds": 25.0,
-          "seq": 1058534,
-          "latest_segment_fingerprint": "1fbe8d06303a0abe",
+          "at_seconds": 24.9,
+          "seq": 1058574,
+          "latest_segment_fingerprint": "5cc608a9172a6d0e",
           "target_duration_seconds": 6,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
-          "at_seconds": 33.0,
-          "seq": 1058536,
-          "latest_segment_fingerprint": "6d2e3f4c48f996f9",
+          "at_seconds": 33.1,
+          "seq": 1058575,
+          "latest_segment_fingerprint": "786666f2942e8341",
           "target_duration_seconds": 6,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
-          "at_seconds": 41.0,
-          "seq": 1058537,
-          "latest_segment_fingerprint": "0707a0129d383547",
+          "at_seconds": 40.9,
+          "seq": 1058577,
+          "latest_segment_fingerprint": "a0140aad383e9a16",
           "target_duration_seconds": 6,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
-          "at_seconds": 49.0,
-          "seq": 1058538,
-          "latest_segment_fingerprint": "020ae76173578c92",
+          "at_seconds": 48.9,
+          "seq": 1058578,
+          "latest_segment_fingerprint": "c1c85665d65b3c91",
           "target_duration_seconds": 6,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
-          "at_seconds": 57.0,
-          "seq": 1058540,
-          "latest_segment_fingerprint": "dbd50245361e7326",
+          "at_seconds": 56.9,
+          "seq": 1058579,
+          "latest_segment_fingerprint": "92359d2e66477f83",
           "target_duration_seconds": 6,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
-          "at_seconds": 65.0,
-          "seq": 1058541,
-          "latest_segment_fingerprint": "2ccb3c494391c4de",
+          "at_seconds": 64.9,
+          "seq": 1058581,
+          "latest_segment_fingerprint": "11d0bf9344ed9bf6",
           "target_duration_seconds": 6,
           "media_host": "103.135.253.32",
           "ok": true
@@ -165,73 +165,73 @@
       "media_host": "drk6xq0vhn.gpcdn.net",
       "samples": [
         {
-          "at_seconds": 0.6,
-          "seq": 63,
-          "latest_segment_fingerprint": "5adf133c712356b3",
+          "at_seconds": 0.1,
+          "seq": 119,
+          "latest_segment_fingerprint": "62ef177abf19e4f9",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 8.4,
-          "seq": 63,
-          "latest_segment_fingerprint": "5adf133c712356b3",
+          "at_seconds": 8.8,
+          "seq": 121,
+          "latest_segment_fingerprint": "31aba12225f44c58",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
           "at_seconds": 17.1,
-          "seq": 67,
-          "latest_segment_fingerprint": "bd75101b0d72a044",
+          "seq": 125,
+          "latest_segment_fingerprint": "11b758eb84c3e356",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 25.0,
-          "seq": 68,
-          "latest_segment_fingerprint": "8a3aca64b5ae11d4",
+          "at_seconds": 24.8,
+          "seq": 126,
+          "latest_segment_fingerprint": "8eb61ebc0dcdbdb9",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 32.9,
-          "seq": 70,
-          "latest_segment_fingerprint": "9f8e237ed9db7a34",
+          "at_seconds": 33.1,
+          "seq": 129,
+          "latest_segment_fingerprint": "1a96f039d878bfa9",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 40.8,
-          "seq": 72,
-          "latest_segment_fingerprint": "e68a4beb0db193ba",
+          "at_seconds": 41.9,
+          "seq": 133,
+          "latest_segment_fingerprint": "1c36721993302038",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 48.8,
-          "seq": 73,
-          "latest_segment_fingerprint": "1be00c57414f1b68",
+          "at_seconds": 49.0,
+          "seq": 135,
+          "latest_segment_fingerprint": "f7dde5840ef6b27b",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
           "at_seconds": 56.8,
-          "seq": 75,
-          "latest_segment_fingerprint": "7c31b08ef5fa5c48",
+          "seq": 137,
+          "latest_segment_fingerprint": "f363010b964f1c9e",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 65.1,
-          "seq": 77,
-          "latest_segment_fingerprint": "5ca976969e097aad",
+          "at_seconds": 65.2,
+          "seq": 139,
+          "latest_segment_fingerprint": "0a6e185659d315a2",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true

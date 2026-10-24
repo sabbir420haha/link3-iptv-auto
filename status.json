@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-24T18:08:50.528144+00:00",
+  "updated_utc": "2026-10-24T18:12:50.287863+00:00",
   "channels": 77,
   "target_channels": 99,
   "groups": {
@@ -1228,160 +1228,46 @@
   },
   "local_logos": {
     "total": 77,
-    "from_image_sources": 67,
-    "clear_name_fallbacks": 10,
+    "from_image_sources": 68,
+    "clear_name_fallbacks": 9,
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-10-24T18:09:01.163305+00:00",
-    "entries": 419,
-    "requested_limit_per_channel": 30,
+    "updated_utc": "2026-10-24T18:13:00.963263+00:00",
     "channel_count": 20,
+    "entries": 0,
     "by_name": {
-      "Zee Bangla HD": 24,
-      "Zee Bangla": 26,
-      "ATN Bangla": 30,
-      "ATN News": 30,
-      "BanglaVision": 27,
-      "Cartoon Network": 14,
-      "Channel i": 6,
-      "DBC News": 13,
-      "Disney HD Hindi": 24,
-      "Duronto TV": 30,
-      "Hungama": 4,
-      "Sony MAX HD": 25,
-      "Jamuna TV": 30,
-      "Maasranga TV": 23,
-      "Nick Bangla": 11,
-      "NTV": 15,
-      "Somoy TV": 30,
-      "Sony Aath": 30,
-      "Sony Ten 1 HD": 12,
-      "Sony Ten 3 HD": 15
+      "Zee Bangla HD": 0,
+      "Zee Bangla": 0,
+      "ATN Bangla": 0,
+      "ATN News": 0,
+      "BanglaVision": 0,
+      "Cartoon Network": 0,
+      "Channel i": 0,
+      "DBC News": 0,
+      "Disney HD Hindi": 0,
+      "Duronto TV": 0,
+      "Hungama": 0,
+      "Sony MAX HD": 0,
+      "Jamuna TV": 0,
+      "Maasranga TV": 0,
+      "Nick Bangla": 0,
+      "NTV": 0,
+      "Somoy TV": 0,
+      "Sony Aath": 0,
+      "Sony Ten 1 HD": 0,
+      "Sony Ten 3 HD": 0
     },
-    "discovery_sources": [
-      {
-        "source": "iptv-bd",
-        "count": 46,
-        "error": null
-      },
-      {
-        "source": "iptv-in",
-        "count": 822,
-        "error": null
-      },
-      {
-        "source": "iptv-ben",
-        "count": 109,
-        "error": null
-      },
-      {
-        "source": "iptv-hin",
-        "count": 366,
-        "error": null
-      },
-      {
-        "source": "iptv-kids",
-        "count": 430,
-        "error": null
-      },
-      {
-        "source": "iptv-sports",
-        "count": 465,
-        "error": null
-      },
-      {
-        "source": "iptv-entertainment",
-        "count": 898,
-        "error": null
-      },
-      {
-        "source": "iptv-documentary",
-        "count": 257,
-        "error": null
-      },
-      {
-        "source": "Zaman-Active",
-        "count": 10850,
-        "error": null
-      },
-      {
-        "source": "SM-IPTV",
-        "count": 388,
-        "error": null
-      },
-      {
-        "source": "fresh-Bangladesh-genre",
-        "count": 0,
-        "error": "HTTP Error 404: Not Found"
-      },
-      {
-        "source": "iptv-org-india-raw",
-        "count": 1309,
-        "error": null
-      },
-      {
-        "source": "indian-kids-special",
-        "count": 37,
-        "error": null
-      },
-      {
-        "source": "Bengali-public-collection",
-        "count": 104,
-        "error": null
-      },
-      {
-        "source": "public-SonyLIV-candidates",
-        "count": 61,
-        "error": null
-      },
-      {
-        "source": "public-Indian-family-candidates",
-        "count": 64,
-        "error": null
-      },
-      {
-        "source": "fresh-India-weekly-verified",
-        "count": 799,
-        "error": null
-      },
-      {
-        "source": "fresh-India-public-geo",
-        "count": 55,
-        "error": null
-      },
-      {
-        "source": "updated-Hindi-streams",
-        "count": 321,
-        "error": null
-      },
-      {
-        "source": "updated-Hindi-top",
-        "count": 182,
-        "error": null
-      },
-      {
-        "source": "recent-BD-India",
-        "count": 86,
-        "error": null
-      },
-      {
-        "source": "2026-India-experimental",
-        "count": 736,
-        "error": null
-      },
-      {
-        "source": "public-cartoon-2026",
-        "count": 134,
-        "error": null
-      },
-      {
-        "source": "regional-sports-2026",
-        "count": 74,
-        "error": null
-      }
+    "max_per_channel": 30,
+    "stable_test_numbers": true,
+    "excluded": [
+      "Channel 24",
+      "Discovery Bangla",
+      "Nat Geo HD Bangla",
+      "Sonic Bangla",
+      "Sonic Hindi"
     ],
-    "warning": "Unverified alternate stream URLs, not proof of playback, rights, HD, or low buffering on Link3. All changes apply only to geo_trials.m3u."
+    "warning": "Testing only; streams not verified on user's Link3. Production playlist is not altered. TEST numbers map to fixed registry URLs."
   }
 }
