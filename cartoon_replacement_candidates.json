@@ -1,0 +1,83 @@
+{
+  "checked_status": "UNVERIFIED_CANDIDATES",
+  "warning": "User-rejected original Bozz Gopal Bhar and Ninja Hattori excluded. All are test candidates, not proven playable or licensed; HTTP media bytes may be a subscription slate and does not prove episode identity or language.",
+  "candidates": [
+    {
+      "series": "Gopal Bhar",
+      "label": "Gopal Bhar ALT 01 - TPlay kids feed",
+      "url": "https://tplay.live/playlist/kids/gopal-bhar/index.m3u8",
+      "source": "memevaiya2O/streamobhai api.html",
+      "notes": "unverified alternative, may proxy former bozztV source"
+    },
+    {
+      "series": "Gopal Bhar",
+      "label": "Gopal Bhar ALT 02 - Cloudfrontnet",
+      "url": "https://cloudfrontnet.vercel.app/tplay/playout/209611/master.m3u8",
+      "source": "alaminislam203/my_playlist 24*7.m3u",
+      "notes": "may be same underlying 209611 and broken"
+    },
+    {
+      "series": "Gopal Bhar",
+      "label": "Gopal Bhar ALT 03 - Bugsfree GitHub mirror",
+      "url": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeStreams/StreamsTV-BD/gopal_bhar_b8ef72ab.m3u8",
+      "source": "bugsfreeweb/LiveTVCollector StreamsLinks-BD",
+      "notes": "may redirect to original subscription slate"
+    },
+    {
+      "series": "Gopal Bhar",
+      "label": "Gopal Bhar ALT 04 - TPlay 209611",
+      "url": "https://tplay.live/tplay/playout/209611/master.m3u8",
+      "source": "tvbd/m3uplayer route pattern",
+      "notes": "route pattern inference, not source-confirmed"
+    },
+    {
+      "series": "Bangla Animated",
+      "label": "ZB Kartun - Bangla animated 24x7 TEST",
+      "url": "https://server.zillarbarta.com/zbcatun/tracks-v1a1/mono.ts.m3u8",
+      "source": "Sk2025365 Gist baning.m3u, GitHub TV lists",
+      "notes": "Bengali animation claim unverified; permission unknown"
+    },
+    {
+      "series": "Bangla Animated",
+      "label": "ZB Cartoon - Bangla animated 24x7 backup",
+      "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
+      "source": "ahsam991/Live-TV-Channel- src/data/hexaChannels.ts",
+      "notes": "possibly same origin, continuity unverified"
+    },
+    {
+      "series": "Shinchan",
+      "label": "Shinchan Hindi ALT 01 - IPTV community Hindi label",
+      "url": "https://ranapkx.site/RANAPK33k/TVD/play.php?id=734314&e=.m3u8",
+      "source": "Prtstream820894/Api world.m3u Hindi title",
+      "notes": "Hindi label but audio and rights unverified"
+    },
+    {
+      "series": "Shinchan",
+      "label": "Shinchan Hindi ALT 02 - NinjaTV",
+      "url": "https://ninjatv.host/star/ninjatv.m3u8?id=147724.ts",
+      "source": "tvbd/m3uplayer m3u/splaylist.m3u",
+      "notes": "Shinchan cartoon label; not confirmed Hindi"
+    },
+    {
+      "series": "Shinchan",
+      "label": "Shinchan 24x7 ALT 03 - BozzTV 209901",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-209901/playlist.m3u8",
+      "source": "referenced id 209901 in alaminislam203/my_playlist",
+      "notes": "constructed URL based on family, unverified; may show subscription slate"
+    },
+    {
+      "series": "Shinchan",
+      "label": "Shinchan 24x7 ALT 04 - TPlay kids",
+      "url": "https://tplay.live/playlist/kids/shinchan/index.m3u8",
+      "source": "tplay kids path pattern",
+      "notes": "inferred path, not verified"
+    },
+    {
+      "series": "Shinchan",
+      "label": "Shinchan 24x7 ALT 05 - TPlay stream",
+      "url": "https://tplay.live/tplay/playout/209901/master.m3u8",
+      "source": "TPlay path family",
+      "notes": "inferred endpoint; check HTTP first"
+    }
+  ]
+}
