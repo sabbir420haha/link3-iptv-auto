@@ -1,4 +1,993 @@
 #EXTM3U
-# Favorites TEST only. Stable source numbers, max 30 distinct URLs per channel.
-# Unverified on Link3; identity, language, rights and no-buffer playback not guaranteed.
-# No excluded Channel 24 / Sonic / Discovery Bangla / Nat Geo Bangla tests.
+# Favorites TEST playlist: 20 channel groups and stable numbered candidate sources.
+# Sources are unverified on Link3; Main playlist unaffected.
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-01" tvg-name="Zee Bangla HD TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 01
+https://padmaonline.duckdns.org:8088/ZeeBanglaHD/index.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-02" tvg-name="Zee Bangla HD TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 02
+https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeebanglahd/default/index.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-03" tvg-name="Zee Bangla HD TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 03
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebanglahd1/default/Zeebanglahd1.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-04" tvg-name="Zee Bangla HD TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 04
+http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/26.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-05" tvg-name="Zee Bangla HD TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 05
+http://103.205.133.42:1935/local/zee_bangla_hd_720/index.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-06" tvg-name="Zee Bangla HD TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 06
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebanglahd1/default/zeebanglahd1.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-07" tvg-name="Zee Bangla HD TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 07
+http://103.55.144.46/hls/zeebanglahd.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-08" tvg-name="Zee Bangla HD TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 08
+http://17.17.17.2/CH18-SP/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-09" tvg-name="Zee Bangla HD TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 09
+http://103.107.79.87:8080/CH8110HD03/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-10" tvg-name="Zee Bangla HD TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 10
+http://AllLiveSportsLinks.hopto.org:80/hls/zeebanglahd.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-11" tvg-name="Zee Bangla HD TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 11
+http://103.55.144.46:80/hls/zeebanglahd.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-12" tvg-name="Zee Bangla HD TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 12
+https://la.drmlive.au/tp/zee-zeebangla.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-13" tvg-name="Zee Bangla HD TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 13
+http://103.107.79.87:8080/CH8110SD03/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-14" tvg-name="Zee Bangla HD TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 14
+http://103.136.200.246:8082/ZeeBanglaHD/index.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-15" tvg-name="Zee Bangla HD TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 15
+http://217.20.112.199/zeebangla/index.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-16" tvg-name="Zee Bangla HD TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 16
+http://103.89.248.130:8082/zee-bangla/index.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-17" tvg-name="Zee Bangla HD TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 17
+http://stvlive.net:8080/zeebnhd/index.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-18" tvg-name="Zee Bangla HD TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 18
+http://tv-cdn.ihub.live:8080/j-ZeeBanglaHD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-19" tvg-name="Zee Bangla HD TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 19
+http://45.249.187.238:8081/hls/new8.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-20" tvg-name="Zee Bangla HD TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 20
+http://103.118.77.301935/live/Shari/MTV-P/124.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-21" tvg-name="Zee Bangla HD TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 21
+http://xtream.efiberbd.net:8080/live/mkaua/stream/5.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-22" tvg-name="Zee Bangla HD TEST 22" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 22
+https://yupptvcatchupire.yuppcdn.net/preview/zeebangla/2500.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-23" tvg-name="Zee Bangla HD TEST 23" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 23
+http://watchindia.net:8880/live/89523/68947/2283.ts
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-24" tvg-name="Zee Bangla HD TEST 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 24
+https://tv.googledrivelinks.com/live.php?c=Zee_Bangla&q=800&e=.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-25" tvg-name="Zee Bangla HD TEST 25" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 25
+https://m3-u8-to-embet.vercel.app/?url=https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebanglahd/default/Zeebanglahd.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-26" tvg-name="Zee Bangla HD TEST 26" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 26
+http://103.214.202.218:8081/live/zeebanglahd-25/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-27" tvg-name="Zee Bangla HD TEST 27" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 27
+http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/26.ts
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-28" tvg-name="Zee Bangla HD TEST 28" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 28
+http://103.151.60.162:2122/play/a02p/index.m3u8?hls
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-29" tvg-name="Zee Bangla HD TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 29
+http://217.20.112.199:8080/maamovies/index.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-hd-30" tvg-name="Zee Bangla HD TEST 30" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 30
+http://103.159.180.34:5001/live/625.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-01" tvg-name="Zee Bangla TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 01
+http://103.205.133.50/hls/zeebangla.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-02" tvg-name="Zee Bangla TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 02
+https://live.drmlive-02.workers.dev/zee/zeebangla.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-03" tvg-name="Zee Bangla TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 03
+https://ott.bingebd.com/live/ngrp:BMC007-asWQdt-sajajdfDD-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-376RTWaa-ort_621h_SRRQtyoq_e376nTY1_zee_banglaGRE009_4329_sPQWKSS_uiou_f36erxty_fort63_ASDP/chunklist.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-04" tvg-name="Zee Bangla TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 04
+https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeebangla/default/index.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-05" tvg-name="Zee Bangla TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 05
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebangla1/default/Zeebangla1.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-06" tvg-name="Zee Bangla TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 06
+https://tvsen3.aynaott.com/PNEb3v2q6GBk/index.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-07" tvg-name="Zee Bangla TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 07
+http://172.17.50.112:84/ant1010/video.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-08" tvg-name="Zee Bangla TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 08
+http://103.229.254.25:7001/play/a0c3/index.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-09" tvg-name="Zee Bangla TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 09
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebangla1/default/zeebangla1-audio_208482_und=208000-video=2137600.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-10" tvg-name="Zee Bangla TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 10
+https://stream.ottplus.live/live/zee_bangla_abr/live/zee_bangla_720/chunks.m3u8?nimblesessionid=58189383
+#EXTINF:-1 tvg-id="fav-zee-bangla-11" tvg-name="Zee Bangla TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 11
+http://172.19.178.49:18190/sn-zeebangla/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-12" tvg-name="Zee Bangla TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 12
+http://tv.ebox.live:8080/live/zee-bangla.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-13" tvg-name="Zee Bangla TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 13
+http://tv2.ebox.live:8080/live/zee-bangla.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-14" tvg-name="Zee Bangla TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 14
+https://isp.top10bhaluka.com/tv/stream.m3u8?id=ZEE-BANGLA&e=.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-15" tvg-name="Zee Bangla TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 15
+http://cs22cs.uk:8000/live/hansna/DvA3dDqJnC/20328.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-16" tvg-name="Zee Bangla TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 16
+http://tvserver.aliflailabd.com:8989/zee-bangla/index.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-17" tvg-name="Zee Bangla TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 17
+http://10.16.100.204/hls/zee_bangla_720.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-18" tvg-name="Zee Bangla TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 18
+http://10.16.100.200:8082/hls/zeebangla_hd_720p.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-19" tvg-name="Zee Bangla TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 19
+http://103.49.168.172:8081/ebox/in_zeebangla/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-20" tvg-name="Zee Bangla TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 20
+http://stvlive.net:8080/zeebangla/index.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-21" tvg-name="Zee Bangla TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 21
+http://10.16.100.203:8082/bangla/zbangla.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-22" tvg-name="Zee Bangla TEST 22" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 22
+https://edge01.iptv.digijadoo.net/live/zee_bangla/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-23" tvg-name="Zee Bangla TEST 23" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 23
+https://itpolly.iptv.digijadoo.net/live/zee_bangla/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-24" tvg-name="Zee Bangla TEST 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 24
+http://103.151.60.162:2122/play/a011/index.m3u8?hls
+#EXTINF:-1 tvg-id="fav-zee-bangla-25" tvg-name="Zee Bangla TEST 25" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 25
+http://163.172.29.246:8081/globalbd/zeebangla/chunks.m3u8?@ShamimHossainOfficial?@ShamimHossainOfficial
+#EXTINF:-1 tvg-id="fav-zee-bangla-26" tvg-name="Zee Bangla TEST 26" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 26
+http://43.251.86.2:8080/hls/channel_1.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-27" tvg-name="Zee Bangla TEST 27" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 27
+https://stream.ottplus.bd/live/zee_bangla_abr/index.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-28" tvg-name="Zee Bangla TEST 28" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 28
+http://103.159.180.34:5001/live/625.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-29" tvg-name="Zee Bangla TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 29
+https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_zee_banglaPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-zee-bangla-30" tvg-name="Zee Bangla TEST 30" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla",Zee Bangla TEST 30
+http://12.1.1.1:8082/ZeeBanglaHD/index.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-01" tvg-name="ATN Bangla TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 01
+http://10.16.100.203:8082/bangla/atnbangla.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-02" tvg-name="ATN Bangla TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 02
+https://edge01.iptv.digijadoo.net/live/atn_bangla/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-03" tvg-name="ATN Bangla TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 03
+http://isp.top10bhaluka.com/tv/stream.m3u8?id=ATN-BANGLA
+#EXTINF:-1 tvg-id="fav-atn-bangla-04" tvg-name="ATN Bangla TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 04
+https://linkerstv-hls.telelivebd.com/cZMLmVyX3RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnbd-8-org.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-05" tvg-name="ATN Bangla TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 05
+https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-06" tvg-name="ATN Bangla TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 06
+https://tv5.hoichoi24.com/1126/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-07" tvg-name="ATN Bangla TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 07
+https://livess.ncare.live/live-orgin/atnbd-8-org.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-08" tvg-name="ATN Bangla TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 08
+https://livess.ncare.live/live-orgin/atnbanglauk-off.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-09" tvg-name="ATN Bangla TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 09
+https://bd.jagobd.com:444/c2VydmVyX4RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnbd-8-org.stream/live-orgin/atnbd-8-org.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-10" tvg-name="ATN Bangla TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 10
+http://103.205.133.21/hls/atnbangla.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-11" tvg-name="ATN Bangla TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 11
+https://livess.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-12" tvg-name="ATN Bangla TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 12
+http://iptvbd.jagobd.com:1931/live-orgin/atnbd-8-org.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-13" tvg-name="ATN Bangla TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 13
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-14" tvg-name="ATN Bangla TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 14
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbd-8-org.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-15" tvg-name="ATN Bangla TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 15
+http://38.96.178.201/live/ATNBangla/index.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-16" tvg-name="ATN Bangla TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 16
+https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1722/output/index.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-17" tvg-name="ATN Bangla TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 17
+https://app.ncare.live/live-orgin/atnbd-8-org.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-18" tvg-name="ATN Bangla TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 18
+https://app.ncare.live/live-orgin/atnbanglauk-off.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-19" tvg-name="ATN Bangla TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 19
+http://103.81.104.118/hls/stream17.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-20" tvg-name="ATN Bangla TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 20
+http://tv.dugdugilive.com:8080/0ne$ky23/AtnBangla/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-21" tvg-name="ATN Bangla TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 21
+https://tvsen5.aynaott.com/P3y2URgG7LDe/index.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-22" tvg-name="ATN Bangla TEST 22" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 22
+https://livess.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-23" tvg-name="ATN Bangla TEST 23" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 23
+https://itpolly.iptv.digijadoo.net/live/atn_bangla/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-24" tvg-name="ATN Bangla TEST 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 24
+https://bdsatv24.000webhostapp.com/bdaynaa.php?ic=9&e=.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-25" tvg-name="ATN Bangla TEST 25" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 25
+http://tv.ebox.live:8080/live/atnbd1.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-26" tvg-name="ATN Bangla TEST 26" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 26
+http://10.16.100.203:8082/bangla/ATN_bangla_local.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-27" tvg-name="ATN Bangla TEST 27" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 27
+https://tempsignature.jagobd.com:444/cZVydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZT00U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnbd-8-org.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-28" tvg-name="ATN Bangla TEST 28" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 28
+https://isp.top10bhaluka.com/tv/stream.m3u8?id=ATN-BANGLA&e=.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-29" tvg-name="ATN Bangla TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 29
+http://rb-group-server.com:25461/live/hhh/hhh/8678.m3u8
+#EXTINF:-1 tvg-id="fav-atn-bangla-30" tvg-name="ATN Bangla TEST 30" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN Bangla",ATN Bangla TEST 30
+https://tempx.jagobd.com:441/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PT0mdFsaWRtaW51aiPhnPTI/atnbd-8-org.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-01" tvg-name="ATN News TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 01
+http://tv.dugdugilive.com:8080/0ne$ky23/ATN-News/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-02" tvg-name="ATN News TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 02
+http://dvrfl05.bozztv.com/gin-atnnews/index.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-03" tvg-name="ATN News TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 03
+http://tv.ebox.live:8080/live/ex-atnae.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-04" tvg-name="ATN News TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 04
+https://bdsatv24.000webhostapp.com/bdaynaa.php?ic=14&e=.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-05" tvg-name="ATN News TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 05
+http://tv2.ebox.live:8080/live/ex-atnae.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-06" tvg-name="ATN News TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 06
+https://isp.top10bhaluka.com/tv/stream.m3u8?id=ATN-NEWS
+#EXTINF:-1 tvg-id="fav-atn-news-07" tvg-name="ATN News TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 07
+https://isp.top10bhaluka.com/tv/stream.m3u8?id=GAN-BANGLA
+#EXTINF:-1 tvg-id="fav-atn-news-08" tvg-name="ATN News TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 08
+http://cdn01.palki.tv/live/ATNNews-M/index.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-09" tvg-name="ATN News TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 09
+http://10.16.100.203:8082/bangla/atnnewslondon.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-10" tvg-name="ATN News TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 10
+https://utube.buddyxiptv.com/@ATNNewsLive.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-11" tvg-name="ATN News TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 11
+http://tvserver.aliflailabd.com:8989/atn-news/index.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-12" tvg-name="ATN News TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 12
+https://edge01.iptv.digijadoo.net/live/atn_news/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-13" tvg-name="ATN News TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 13
+http://103.205.133.19/hls/atnnews.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-14" tvg-name="ATN News TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 14
+http://stvlive.net:8080/atnnews/index.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-15" tvg-name="ATN News TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 15
+http://103.89.248.130:8082/ATN-NEWS/index.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-16" tvg-name="ATN News TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 16
+http://10.16.100.205/hls/news_atn_london720.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-17" tvg-name="ATN News TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 17
+https://itpolly.iptv.digijadoo.net/live/atn_news/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-18" tvg-name="ATN News TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 18
+http://sm-monirul.top/RoarZone/play.php?id=ZWRnZTIvYXRuLW5ld3M=&e=.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-19" tvg-name="ATN News TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 19
+http://103.205.133.21/hls/atnnews.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-20" tvg-name="ATN News TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 20
+http://23.106.120.42:1934/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnws-sg.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-21" tvg-name="ATN News TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 21
+http://tv-cdn.ihub.live:8080/ATNNews/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-22" tvg-name="ATN News TEST 22" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 22
+http://103.49.168.172:8081/ebox/bd_atn_news/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-23" tvg-name="ATN News TEST 23" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 23
+http://103.213.238.70:8080/live/atn_news/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-24" tvg-name="ATN News TEST 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 24
+http://172.19.178.59:18190/SN-ST-TV-20/index.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-25" tvg-name="ATN News TEST 25" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 25
+https://sm-monirul.top/Toffee/live.php?id=e05cb33b3c3b&e=.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-26" tvg-name="ATN News TEST 26" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 26
+https://entezeetv.fun/bdcast/hls/index.m3u8?id=08edaaca&e=.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-27" tvg-name="ATN News TEST 27" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 27
+http://103.214.202.218:8081/live/atnnews-bd/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-28" tvg-name="ATN News TEST 28" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 28
+http://master.beeiptv.com:8081/master/atnnews/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-29" tvg-name="ATN News TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 29
+https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8
+#EXTINF:-1 tvg-id="fav-atn-news-30" tvg-name="ATN News TEST 30" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - ATN News",ATN News TEST 30
+https://ott.bingebd.com/live/ngrp:APNTn-asdt-t1asnd2a-sWgtsrhQW_AQTY1025_atn_newsPQRT_98sdfhs0_f36erxty_forsgst63_DH/chunklist.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-01" tvg-name="BanglaVision TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 01
+http://cdn01.palki.tv/live/BanglaVision-M/index.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-02" tvg-name="BanglaVision TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 02
+https://livess.ncare.live/live-orgin/banglav000.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-03" tvg-name="BanglaVision TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 03
+http://12.1.1.1:8082/BanglaVision/index.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-04" tvg-name="BanglaVision TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 04
+https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-05" tvg-name="BanglaVision TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 05
+https://utube.buddyxiptv.com/@banglavisionlive.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-06" tvg-name="BanglaVision TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 06
+http://172.20.2.5:8082/BanglaVision/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-07" tvg-name="BanglaVision TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 07
+http://10.16.100.203:8082/bangla/banglavision.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-08" tvg-name="BanglaVision TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 08
+http://tv.dugdugilive.com:8080/0ne$ky23/BanglaVision/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-09" tvg-name="BanglaVision TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 09
+http://172.26.1.3:8089/amrbd/BanglaVision/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-10" tvg-name="BanglaVision TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 10
+https://tempx.jagobd.com:441/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PT0mdFsaWRtaW51aiPhnPTI/banglav000.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-11" tvg-name="BanglaVision TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 11
+http://iptvbd.jagobd.com:1931/live-orgin/banglav000.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-12" tvg-name="BanglaVision TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 12
+https://global.ncare.live/live-orgin/banglav000.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-13" tvg-name="BanglaVision TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 13
+https://bd.jagobd.com:444/c2VydmVyX4RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/banglav000.stream/live-orgin/banglav000.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-14" tvg-name="BanglaVision TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 14
+http://iptv.kitv.live:1935/live/Shari/MTV-P/120.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-15" tvg-name="BanglaVision TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 15
+https://ythls.armelin.one/channel/UCAIEufoszs1J38-pKECORRg.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-16" tvg-name="BanglaVision TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 16
+http://tv.cloudcdn.me/live/00:1A:79:AB:E0:11/SN_1697176355/84.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-17" tvg-name="BanglaVision TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 17
+http://tv.cloudcdn.me/live.ts?channelId=84&uid=16068&deviceMac=00:1A:79:ED:10:29
+#EXTINF:-1 tvg-id="fav-banglavision-18" tvg-name="BanglaVision TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 18
+http://103.205.133.19/hls/banglavision.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-19" tvg-name="BanglaVision TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 19
+https://tempsignature.jagobd.com:444/cZVydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZT00U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/banglav000.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-20" tvg-name="BanglaVision TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 20
+http://103.205.133.21/hls/banglavision.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-21" tvg-name="BanglaVision TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 21
+http://103.205.133.20/hls/banglavision.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-22" tvg-name="BanglaVision TEST 22" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 22
+http://103.132.180.245:8080/10/index.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-23" tvg-name="BanglaVision TEST 23" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 23
+https://livess.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/banglav000.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-24" tvg-name="BanglaVision TEST 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 24
+http://103.205.133.14/hls/banglavision.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-25" tvg-name="BanglaVision TEST 25" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 25
+http://iptvbd.jagobd.com:1931/live-orgin/banglav000.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-26" tvg-name="BanglaVision TEST 26" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 26
+http://cdn.moviemazic.xyz:8083/BanglaVision/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-27" tvg-name="BanglaVision TEST 27" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 27
+https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1715/output/index.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-28" tvg-name="BanglaVision TEST 28" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 28
+http://38.96.178.201/live/BanglaVision/index.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-29" tvg-name="BanglaVision TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 29
+https://anym3u8player.com/tv/p.php?url=https://bdcast-free.b-cdn.net/jago/0/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/banglav000.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-banglavision-30" tvg-name="BanglaVision TEST 30" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="9 | TEST - BanglaVision",BanglaVision TEST 30
+https://tvsen5.aynaott.com/tgUzpPc9r6xw/index.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-01" tvg-name="Cartoon Network TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 01
+http://117.102.16.2:34567/play/a09b/index.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-02" tvg-name="Cartoon Network TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 02
+http://198.16.106.62:8278/streams/d/Cn/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-03" tvg-name="Cartoon Network TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 03
+http://70.39.83.58:8278/cartoonnetworkhindikdin/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-04" tvg-name="Cartoon Network TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 04
+https://tv4.chang55.com/live2/tv4ch20.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-05" tvg-name="Cartoon Network TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 05
+http://103.115.126.26:8000/play/a089/index.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-06" tvg-name="Cartoon Network TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 06
+http://119.152.240.15:8001/play/a0cr/index.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-07" tvg-name="Cartoon Network TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 07
+http://103.55.144.46:80/hls/cn.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-08" tvg-name="Cartoon Network TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 08
+https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-samsungin-cartoonnw-samsungin/cb553d1e786c648b93d43d63d5ef41a4d3246ad3032e90703dff06c231901d468ca2f9d3f537b63619d714af3f5e2f0e0433db18dd6511b6802eea0e6d287f09cfcceb2ada861317b3c60e383ebb281700ab0941d8380220dcec5759d438b0340446b00a230f338fbe51aa7e55978808821d57b189e5a4fd04706ded294fdfd20ffda8bd0c118d2ff9932372a75e26c7199604e6368ff19702cf69b66cc1168caa08baf212e7868bfa2a50c24d1bb2ccf90b774fb3833797c9936876b879294d1f6fb8c9cbfc4a7292524159fafadfbe37b04a80d165c94c3eb5158014a53e8e79a500a3a11ff3e4fbfe4c452babcd5f590aa5e1a98ba87a62f337b5f39bbd091c93944c2a5fa8718f3a353705d56f1c4b0b9a90d86276/82/640x360_1284800/index.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-09" tvg-name="Cartoon Network TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 09
+http://dpny3.1234.uno:6061/cartoonnetworkindia/index.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-10" tvg-name="Cartoon Network TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 10
+http://190.43.92.43:8989/play/a0o3/index.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-11" tvg-name="Cartoon Network TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 11
+http://indtv.online/jiotv/Cartoon_Network_Telugu.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-12" tvg-name="Cartoon Network TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 12
+http://103.118.77.30:1935/live/Shari/MTV-P/170.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-13" tvg-name="Cartoon Network TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 13
+http://103.118.76.229:1935/tvprogram/CARTOON/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-14" tvg-name="Cartoon Network TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 14
+https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-15" tvg-name="Cartoon Network TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 15
+http://otv.ftpbd.net/streams/123/index.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-16" tvg-name="Cartoon Network TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 16
+https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-17" tvg-name="Cartoon Network TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 17
+https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-18" tvg-name="Cartoon Network TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 18
+https://playout.cdn.cartoonnetwork.com.br/playout_02/playlist-720p.m3u8
+#EXTINF:-1 tvg-id="fav-cartoon-network-19" tvg-name="Cartoon Network TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Cartoon Network",Cartoon Network TEST 19
+http://103.167.167.5:8111/play/a00x/index.m3u8
+#EXTINF:-1 tvg-id="fav-channel-i-01" tvg-name="Channel i TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-i.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Channel i",Channel i TEST 01
+https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
+#EXTINF:-1 tvg-id="fav-channel-i-02" tvg-name="Channel i TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-i.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Channel i",Channel i TEST 02
+https://cdn.jsdelivr.net/gh/nurmd2006/empty@main/stream/by/your-abbu/channeli.m3u8
+#EXTINF:-1 tvg-id="fav-channel-i-03" tvg-name="Channel i TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-i.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Channel i",Channel i TEST 03
+https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1723/output/index.m3u8
+#EXTINF:-1 tvg-id="fav-channel-i-04" tvg-name="Channel i TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-i.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Channel i",Channel i TEST 04
+http://10.16.100.205/hls/ch_i.m3u8
+#EXTINF:-1 tvg-id="fav-channel-i-05" tvg-name="Channel i TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-i.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Channel i",Channel i TEST 05
+https://channel-i-tv.rockstreamer.com/chlive/121212/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-channel-i-06" tvg-name="Channel i TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-i.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Channel i",Channel i TEST 06
+https://livess.ncare.live/live-orgin/channeli-8-org.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-channel-i-07" tvg-name="Channel i TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-i.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Channel i",Channel i TEST 07
+https://tempsignature.jagobd.com:444/cZVydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZT00U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/channeli-8-org.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-channel-i-08" tvg-name="Channel i TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-i.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Channel i",Channel i TEST 08
+https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_channel_iPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-channel-i-09" tvg-name="Channel i TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-i.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Channel i",Channel i TEST 09
+http://12.1.1.1:8082/Channel-i/index.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-01" tvg-name="DBC News TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 01
+http://tv.ebox.live:8080/live/dbc.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-02" tvg-name="DBC News TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 02
+https://utube.buddyxiptv.com/@dbcnewstv.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-03" tvg-name="DBC News TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 03
+https://streamingxfireflix.vercel.app/api/stream?id=245914.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-04" tvg-name="DBC News TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 04
+https://tempx.jagobd.com:441/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PT0mdFsaWRtaW51aiPhnPTI/dbcnews.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-05" tvg-name="DBC News TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 05
+https://itpolly.iptv.digijadoo.net/live/dbc_news/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-06" tvg-name="DBC News TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 06
+http://stvlive.net:8080/dbc/index.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-07" tvg-name="DBC News TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 07
+http://global.ncare.live/live-orgin/dbcnews.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-08" tvg-name="DBC News TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 08
+https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-09" tvg-name="DBC News TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 09
+https://cdn.appv.jagobd.com:444/c2VydmVyX4RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/dbcnews.stream/live-orgin/dbcnews.stream_480p/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-10" tvg-name="DBC News TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 10
+https://livess.ncare.live/live-orgin/dbcnews.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-11" tvg-name="DBC News TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 11
+http://tvn3.chowdhury-shaheb.com/dbc/index.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-12" tvg-name="DBC News TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 12
+http://12.1.1.1:8082/DBC-NEWS/index.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-13" tvg-name="DBC News TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 13
+https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/1728.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-14" tvg-name="DBC News TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 14
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-15" tvg-name="DBC News TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 15
+http://cdn01.palki.tv/live/DBC-M/index.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-16" tvg-name="DBC News TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 16
+https://toffee-thecodecrafters.vercel.app/auto/dbc_news.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-17" tvg-name="DBC News TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 17
+https://live.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/dbcnews.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-18" tvg-name="DBC News TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 18
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/dbcnews.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-19" tvg-name="DBC News TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 19
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-20" tvg-name="DBC News TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 20
+https://aynapubluc.vercel.app/api/stream/0875f2c8-2043-499b-9472-2872412a6340.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-21" tvg-name="DBC News TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 21
+http://iptvbd.jagobd.com:1931/live-orgin/dbcnews.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-22" tvg-name="DBC News TEST 22" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 22
+https://tempinfobase.jagobd.com:444/cZVydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZT00U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/dbcnews.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-23" tvg-name="DBC News TEST 23" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 23
+http://103.205.133.19/hls/dbcnews.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-24" tvg-name="DBC News TEST 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 24
+http://10.16.100.203:8082/bangla/dbcnws.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-25" tvg-name="DBC News TEST 25" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 25
+https://tv5.hoichoi24.com/1104/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-26" tvg-name="DBC News TEST 26" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 26
+https://bd.jagobd.com:444/c2VydmVyX4RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/dbcnews.stream/live-orgin/dbcnews.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-27" tvg-name="DBC News TEST 27" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 27
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-28" tvg-name="DBC News TEST 28" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 28
+https://re-streaming-xfireflix.vercel.app/api/OPX/245914.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-29" tvg-name="DBC News TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 29
+https://livess.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-dbc-news-30" tvg-name="DBC News TEST 30" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 30
+http://bd.jagobd.com:1931/live-orgin/dbcnews.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-01" tvg-name="Disney HD Hindi TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 01
+http://xtv.ooo:8080/live/415663775/826262627/167551.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-02" tvg-name="Disney HD Hindi TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 02
+http://jupiter.bdcabletv.com/Disney_jr-ENC/video.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-03" tvg-name="Disney HD Hindi TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 03
+https://hqth.me/disneychannel?live/hd.sml/eyJpdiI6IkdaWWpENWlUVzQzWkh1Ri9IMVRrakE9PSIsInZhbHVlIjoiTXZwRFJ5QUs1Mzhpd0hid2lyc09tSWg5SkhlS1R/disneyus.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-04" tvg-name="Disney HD Hindi TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 04
+https://allinonereborn.com/oplex.m3u8?id=167551
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-05" tvg-name="Disney HD Hindi TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 05
+https://allinonereborn.com/oplx11.m3u8?id=167551
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-06" tvg-name="Disney HD Hindi TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 06
+https://allinonereborn.com/opplex1991.m3u8?id=167551
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-07" tvg-name="Disney HD Hindi TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 07
+https://www.redbooks.site/x11.php?id=167551.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-08" tvg-name="Disney HD Hindi TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 08
+http://51.75.127.199:3141/disneychannel/index.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-09" tvg-name="Disney HD Hindi TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 09
+https://s1.itcnbd.live/Disney-D/index.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-10" tvg-name="Disney HD Hindi TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 10
+https://s1.itcnbd.live/Disney-D/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-11" tvg-name="Disney HD Hindi TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 11
+https://stream.kliv.in/ROPX/opp233/167551.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-12" tvg-name="Disney HD Hindi TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 12
+https://hls-coolxtream.vercel.app/channel/167551&format=.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-13" tvg-name="Disney HD Hindi TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 13
+http://103.167.255.18:8085/play/a0kq/index.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-14" tvg-name="Disney HD Hindi TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 14
+https://shahakshay938.github.io/backups/streams/2026-05-09/disneychannel-in-sd.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-15" tvg-name="Disney HD Hindi TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 15
+http://88.212.15.19/live/test_disney/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-16" tvg-name="Disney HD Hindi TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 16
+https://app-re.sm-monirul-islam-rs.workers.dev/disney-hd-hindi/index.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-17" tvg-name="Disney HD Hindi TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 17
+https://stream.ottplus.live/live/disney_channel_hd_abr/index.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-18" tvg-name="Disney HD Hindi TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 18
+https://stream.ottplus.live/live/disney_hd_abr/index.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-19" tvg-name="Disney HD Hindi TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 19
+https://app-re.sm-monirul-islam-rs.workers.dev/Disny-Channel-Hindi/index.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-20" tvg-name="Disney HD Hindi TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 20
+https://raw.githubusercontent.com/Hasanmahmud000/Yt/main/Disney_Channel_HD.index.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-21" tvg-name="Disney HD Hindi TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 21
+http://139.23.241.38:8088/602/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-22" tvg-name="Disney HD Hindi TEST 22" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 22
+http://ott.artmott.com/DisneyChannel/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-23" tvg-name="Disney HD Hindi TEST 23" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 23
+https://live.dinesh29.com.np/stream/jiotvplus/disneychannel/master.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-24" tvg-name="Disney HD Hindi TEST 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 24
+http://116.90.120.151:8000/play/a0hp/index.m3u8
+#EXTINF:-1 tvg-id="fav-disney-hd-hindi-25" tvg-name="Disney HD Hindi TEST 25" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 25
+http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/8f3e6367117c923.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-01" tvg-name="Duronto TV TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 01
+http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-02" tvg-name="Duronto TV TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 02
+http://tvserver.aliflailabd.com:8989/duronto-tv/index.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-03" tvg-name="Duronto TV TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 03
+http://172.32.1.88:1935/tvprogram/Duronto-TV/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-04" tvg-name="Duronto TV TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 04
+http://103.102.136.106:8080/cmcltv/duronto_th.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-05" tvg-name="Duronto TV TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 05
+http://iptv.kitv.live:1935/live/Shari/MTV-P/169.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-06" tvg-name="Duronto TV TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 06
+http://103.49.168.172:8081/ebox/bd_duronto_tv/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-07" tvg-name="Duronto TV TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 07
+http://otv.ftpbd.net:8082/Duronto-Tv-HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-08" tvg-name="Duronto TV TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 08
+http://103.204.43.87:8080/live/1/1/290.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-09" tvg-name="Duronto TV TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 09
+http://ctgiptv.kitv.live:1935/live/test/test1/12.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-10" tvg-name="Duronto TV TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 10
+https://itpolly.iptv.digijadoo.net/live/duronto_tv/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-11" tvg-name="Duronto TV TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 11
+http://103.107.79.87:8080/CH8108HD01/video.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-12" tvg-name="Duronto TV TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 12
+http://15.1.1.34:8282/duronto-tv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-13" tvg-name="Duronto TV TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 13
+http://100.64.64.11/Duronto_TV_HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-14" tvg-name="Duronto TV TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 14
+https://tv5.hoichoi24.com/1103/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-15" tvg-name="Duronto TV TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 15
+https://tv5.hoichoi24.com/1005/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-16" tvg-name="Duronto TV TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 16
+http://cdn01.palki.tv/live/Duronto-M/index.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-17" tvg-name="Duronto TV TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 17
+http://tv.cloudcdn.me/live.ts?channelId=74553&uid=13433&deviceMac=00:1A:79:00:97:A1
+#EXTINF:-1 tvg-id="fav-duronto-tv-18" tvg-name="Duronto TV TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 18
+http://10.10.10.22:25461/live/web/stream/18.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-19" tvg-name="Duronto TV TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 19
+http://103.107.79.87:8080/CH8108SD01/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-20" tvg-name="Duronto TV TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 20
+https://streamingxfireflix.vercel.app/api/stream?id=245955.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-21" tvg-name="Duronto TV TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 21
+http://89.187.185.89:3232/ban-duronto/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-22" tvg-name="Duronto TV TEST 22" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 22
+http://103.102.27.173:84/Duronto-TV/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-23" tvg-name="Duronto TV TEST 23" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 23
+http://103.205.133.50/hls/duronto.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-24" tvg-name="Duronto TV TEST 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 24
+http://180.94.28.28:8097//Duronto-TV/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-25" tvg-name="Duronto TV TEST 25" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 25
+https://tvsen4.aynaott.com/durontotv/index.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-26" tvg-name="Duronto TV TEST 26" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 26
+http://103.121.14.18/hls/duranta.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-27" tvg-name="Duronto TV TEST 27" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 27
+http://10.16.100.207:8082/sports/DurontoTV.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-28" tvg-name="Duronto TV TEST 28" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 28
+http://10.16.100.203:8082/bangla/deeptotv.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-29" tvg-name="Duronto TV TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 29
+https://tvsen5.aynaott.com/durontotv/index.m3u8
+#EXTINF:-1 tvg-id="fav-duronto-tv-30" tvg-name="Duronto TV TEST 30" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 30
+http://premiumtvs.space:80/live/PeH5kPWFfG/infamous7funny/433.ts
+#EXTINF:-1 tvg-id="fav-hungama-01" tvg-name="Hungama TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Hungama",Hungama TEST 01
+http://103.162.136.235:4500/play//a01h/index.m3u8
+#EXTINF:-1 tvg-id="fav-hungama-02" tvg-name="Hungama TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Hungama",Hungama TEST 02
+https://url-conv.vercel.app/play/a023/index.m3u8
+#EXTINF:-1 tvg-id="fav-hungama-03" tvg-name="Hungama TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Hungama",Hungama TEST 03
+http://175.107.244.52:4455/play/a03d/index.m3u8
+#EXTINF:-1 tvg-id="fav-hungama-04" tvg-name="Hungama TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Hungama",Hungama TEST 04
+http://linear07hun-lh.akamaihd.net/i/dilse_1@673921/index_2128_av-p.m3u8
+#EXTINF:-1 tvg-id="fav-hungama-05" tvg-name="Hungama TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Hungama",Hungama TEST 05
+http://starshare.live:8080/live/7382837374/5003958588/18456.m3u8
+#EXTINF:-1 tvg-id="fav-hungama-06" tvg-name="Hungama TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Hungama",Hungama TEST 06
+http://119.152.240.15:8001/play/a0cs/index.m3u8
+#EXTINF:-1 tvg-id="fav-hungama-07" tvg-name="Hungama TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Hungama",Hungama TEST 07
+http://stream-e30453a4b.nmbs.top/m3u/Kids/1f3e9e6679.m3u8
+#EXTINF:-1 tvg-id="fav-hungama-08" tvg-name="Hungama TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Hungama",Hungama TEST 08
+https://linear06hun-lh.akamaihd.net/i/dhamaal_1@665243/master.m3u8
+#EXTINF:-1 tvg-id="fav-hungama-09" tvg-name="Hungama TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Hungama",Hungama TEST 09
+http://xtv.ooo:8080/live/927382370/837382809/150480.m3u8
+#EXTINF:-1 tvg-id="fav-hungama-10" tvg-name="Hungama TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Hungama",Hungama TEST 10
+https://live.hungama.com/linear/dil-se/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-hungama-11" tvg-name="Hungama TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Hungama",Hungama TEST 11
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/bollywoodhungama_live_https/master.m3u8
+#EXTINF:-1 tvg-id="fav-hungama-12" tvg-name="Hungama TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Hungama",Hungama TEST 12
+http://103.84.57.155:8000/play/a03t/index.m3u8
+#EXTINF:-1 tvg-id="fav-hungama-13" tvg-name="Hungama TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Hungama",Hungama TEST 13
+http://103.131.214.129:9985/stream/channelid/387666878.ts?ticket=47008A6FE90C547283C25473F330A1A40EA2147F&profile=pass
+#EXTINF:-1 tvg-id="fav-hungama-14" tvg-name="Hungama TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Hungama",Hungama TEST 14
+http://103.185.24.134:3001/HUNGAMA/index.m3u8
+#EXTINF:-1 tvg-id="fav-hungama-15" tvg-name="Hungama TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Hungama",Hungama TEST 15
+http://66.102.126.10:8000/play/a023/index.m3u8
+#EXTINF:-1 tvg-id="fav-hungama-16" tvg-name="Hungama TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Hungama",Hungama TEST 16
+http://103.162.136.235:4500/play/a01h/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-01" tvg-name="Sony MAX HD TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 01
+http://tv2.ebox.live:8080/live/sony-max.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-02" tvg-name="Sony MAX HD TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 02
+http://103.115.126.26:8000/play/a03r/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-03" tvg-name="Sony MAX HD TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 03
+http://103.55.144.46/hls/sony-maxhd.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-04" tvg-name="Sony MAX HD TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 04
+https://legendary-orbit-r44wx4gj9xq6fwxqx-8080.app.github.dev/stream/sony_max_hd/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-05" tvg-name="Sony MAX HD TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 05
+http://bb.thenayeemparvez.xyz/SonyMaxFHD/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-06" tvg-name="Sony MAX HD TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 06
+http://AllLiveSportsLinks.hopto.org:80/hls/sony-maxhd.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-07" tvg-name="Sony MAX HD TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 07
+http://103.55.144.46:80/hls/sony-maxhd.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-08" tvg-name="Sony MAX HD TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 08
+http://humsab.xyz/IN_SonyMaxHD/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-09" tvg-name="Sony MAX HD TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 09
+http://125.17.105.168/wh7f454c46taw1033387593_346937752/PLTV/88888888/224/3221225776/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-10" tvg-name="Sony MAX HD TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 10
+https://isp.top10bhaluka.com/tv/stream.m3u8?id=SONY-MAX&e=.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-11" tvg-name="Sony MAX HD TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 11
+https://isp.top10bhaluka.com/tv/stream.m3u8?id=MASTI&e=.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-12" tvg-name="Sony MAX HD TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 12
+https://sm-monirul.top/Toffee/live.php?id=6a65854166f1&e=.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-13" tvg-name="Sony MAX HD TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 13
+https://ott.bingebd.com/live/ngrp:APNTn-asdt-t1asnd2a-sWgtsrhQW_AQTY1025_sony_maxPQRT_98sdfhs0_f36erxty_forsgst63_DH/chunklist.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-14" tvg-name="Sony MAX HD TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 14
+http://172.19.17.3:8090/hls/sonymaxhd.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-15" tvg-name="Sony MAX HD TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 15
+https://tataplay.slivcdn.com/hls/live/2011670/SonyMaxhd/master_2000.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-16" tvg-name="Sony MAX HD TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 16
+http://208.86.19.13:81/7066.stream/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-17" tvg-name="Sony MAX HD TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 17
+http://89.187.177.137:8081/SONYMAX/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-18" tvg-name="Sony MAX HD TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 18
+http://dx3.gcdn.co/hindi-SONYMAXHD/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-19" tvg-name="Sony MAX HD TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 19
+http://10.20.30.40:8088/404/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-20" tvg-name="Sony MAX HD TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 20
+http://208.86.19.13:81/706.stream/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-21" tvg-name="Sony MAX HD TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 21
+http://stream.amrbd.com:8082/Sony-Max/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-22" tvg-name="Sony MAX HD TEST 22" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 22
+http://103.185.24.134:3001/SonyMAX/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-23" tvg-name="Sony MAX HD TEST 23" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 23
+https://cloudplay-sonyliv.pages.dev/maxhd.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-24" tvg-name="Sony MAX HD TEST 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 24
+https://drk6xq0vhn.gpcdn.net/live/max_hd_abr/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-25" tvg-name="Sony MAX HD TEST 25" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 25
+https://stream.ottplus.live/live/max_hd_abr/live/max_hd_720/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-26" tvg-name="Sony MAX HD TEST 26" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 26
+https://stream.ottplus.bd/live/max_hd_abr/live/max_hd_720/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-27" tvg-name="Sony MAX HD TEST 27" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 27
+https://stream.ottplus.bd/live/max_hd_abr/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-28" tvg-name="Sony MAX HD TEST 28" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 28
+https://stream.ottplus.bd/live/sony_max_sd_abr/live/sony_max_sd_720/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-sony-max-hd-29" tvg-name="Sony MAX HD TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony MAX HD",Sony MAX HD TEST 29
+https://cdn.rangdhanu.live/SonyMaxHD/video.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-01" tvg-name="Jamuna TV TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 01
+http://172.26.1.3:8089/amrbd/Jamuna-Tv/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-02" tvg-name="Jamuna TV TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 02
+https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-03" tvg-name="Jamuna TV TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 03
+http://tv2.ebox.live:8080/live/ex-jamuna.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-04" tvg-name="Jamuna TV TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 04
+https://tempsignature.jagobd.com:444/cZVydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZT00U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/jamuna-test-sample-ok.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-05" tvg-name="Jamuna TV TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 05
+http://tvserver.aliflailabd.com:8989/jamuna-tv/index.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-06" tvg-name="Jamuna TV TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 06
+http://iptvbd.jagobd.com:1931/live-orgin/jamuna-test-sample-ok.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-07" tvg-name="Jamuna TV TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 07
+http://iptvbd.jagobd.com:1931/live-orgin/jamuna-test-sample-ok.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-08" tvg-name="Jamuna TV TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 08
+http://103.102.136.106:8080/cmcltv/jamuna_th.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-09" tvg-name="Jamuna TV TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 09
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/jamuna-test-sample-ok.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-10" tvg-name="Jamuna TV TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 10
+http://103.49.168.172:8081/ebox/bd_jamuna/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-11" tvg-name="Jamuna TV TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 11
+http://tv.ebox.live:8080/live/ex-jamuna.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-12" tvg-name="Jamuna TV TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 12
+http://45.249.187.238:8081/hls/live2.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-13" tvg-name="Jamuna TV TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 13
+http://43.230.123.21:8080/live/ex-jamuna.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-14" tvg-name="Jamuna TV TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 14
+http://cdn01.palki.tv/live/JamunaTV-M/index.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-15" tvg-name="Jamuna TV TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 15
+http://pgplex.net:8080/JamunaTV/index.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-16" tvg-name="Jamuna TV TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 16
+http://ctgiptv.kitv.live:1935/live/test/test1/8.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-17" tvg-name="Jamuna TV TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 17
+https://livess.ncare.live/live-orgin/jamuna-test-sample-ok.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-18" tvg-name="Jamuna TV TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 18
+http://172.100.100.100:8088/209/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-19" tvg-name="Jamuna TV TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 19
+http://103.107.79.87:8080/1106/video.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-20" tvg-name="Jamuna TV TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 20
+https://utube.buddyxiptv.com/@JamunaTVbd.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-21" tvg-name="Jamuna TV TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 21
+https://livess.ncare.live/live-orgin/jamuna-test-sample-ok.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-22" tvg-name="Jamuna TV TEST 22" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 22
+https://utube.buddyxiptv.com/@jamunatvbd.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-23" tvg-name="Jamuna TV TEST 23" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 23
+http://tempe.jagobd.com:1934/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/jamuna-test-sample-ok.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-24" tvg-name="Jamuna TV TEST 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 24
+http://iptv.kitv.live:1935/live/Shari/MTV-P/116.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-25" tvg-name="Jamuna TV TEST 25" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 25
+https://entezeetv.fun/bdcast/hls/index.m3u8?id=89b4zb3d&e=.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-26" tvg-name="Jamuna TV TEST 26" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 26
+http://172.19.178.39:18190/JS-TV-03/index.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-27" tvg-name="Jamuna TV TEST 27" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 27
+http://cdn01.palki.tv/live/JamunaTV-M/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-28" tvg-name="Jamuna TV TEST 28" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 28
+http://103.78.255.178:8080/jamuna/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-jamuna-tv-29" tvg-name="Jamuna TV TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 29
+https://himel-op.top/Join-Telegram-@HimelOP_Official/yt-op.m3u8?live=@JamunaTVbd
+#EXTINF:-1 tvg-id="fav-jamuna-tv-30" tvg-name="Jamuna TV TEST 30" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="9 | TEST - Jamuna TV",Jamuna TV TEST 30
+https://app.ncare.live/live-orgin/jamuna-test-sample-ok.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-01" tvg-name="Maasranga TV TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 01
+http://103.118.79.22:1935/live/maasrangalive/HODMTV/1.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-02" tvg-name="Maasranga TV TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 02
+http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/1.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-03" tvg-name="Maasranga TV TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 03
+http://tv2.ebox.live:8080/live/maasranga.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-04" tvg-name="Maasranga TV TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 04
+https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/1722.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-05" tvg-name="Maasranga TV TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 05
+http://30.30.30.30/live/skyfeed1003/index.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-06" tvg-name="Maasranga TV TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 06
+http://iptv.kitv.live:1935/live/maasrangalive/HODMTV/1.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-07" tvg-name="Maasranga TV TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 07
+http://172.32.1.88:1935/tvprogram/MAASRANGA-TV/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-08" tvg-name="Maasranga TV TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 08
+http://tvserver.aliflailabd.com:8989/maasranga/index.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-09" tvg-name="Maasranga TV TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 09
+http://172.19.178.39:18190/JS-TV-02/index.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-10" tvg-name="Maasranga TV TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 10
+http://tv.ebox.live:8080/live/maasranga.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-11" tvg-name="Maasranga TV TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 11
+http://cdn01.palki.tv/live/MaasrangaTV-M/index.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-12" tvg-name="Maasranga TV TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 12
+http://ctgiptv.kitv.live:1935/live/test/test1/1.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-13" tvg-name="Maasranga TV TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 13
+https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-14" tvg-name="Maasranga TV TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 14
+http://cdn.moviemazic.xyz:8083/Maasranga/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-15" tvg-name="Maasranga TV TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 15
+https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-16" tvg-name="Maasranga TV TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 16
+https://mtv.sunplex.live/MAASRANGA/index.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-17" tvg-name="Maasranga TV TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 17
+http://103.102.27.173:84/Massranga-TV/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-18" tvg-name="Maasranga TV TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 18
+https://itpolly.iptv.digijadoo.net/live/maasranga/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-19" tvg-name="Maasranga TV TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 19
+https://utube.buddyxiptv.com/@MaasrangaNewsbd.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-20" tvg-name="Maasranga TV TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 20
+http://103.141.2.37:25461/live/web/web/596.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-21" tvg-name="Maasranga TV TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 21
+http://iptv.kitv.live:1935/live/Shari/MTV-P/104.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-22" tvg-name="Maasranga TV TEST 22" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 22
+https://tv5.hoichoi24.com/1122/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-23" tvg-name="Maasranga TV TEST 23" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 23
+http://100.64.64.11/Masranga_TV_HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-24" tvg-name="Maasranga TV TEST 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 24
+http://ctgiptv.kitv.live:1935/live/test/test1/1.ts
+#EXTINF:-1 tvg-id="fav-maasranga-tv-25" tvg-name="Maasranga TV TEST 25" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 25
+http://tvsen5.aynascope.net/maasrangatv/index.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-26" tvg-name="Maasranga TV TEST 26" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 26
+https://niptv.kitv.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-27" tvg-name="Maasranga TV TEST 27" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 27
+https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeStreams/StreamsTV-BD/maasranga_tv_fea2ad24.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-28" tvg-name="Maasranga TV TEST 28" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 28
+http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-29" tvg-name="Maasranga TV TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 29
+https://mtv.sunplex.live/MAASRANGA-TV/index.m3u8
+#EXTINF:-1 tvg-id="fav-maasranga-tv-30" tvg-name="Maasranga TV TEST 30" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 30
+https://somoy.appv.jagobd.com:444/somoy/mass.stream/playlist.m3u8?key=thenayeemparvez
+#EXTINF:-1 tvg-id="fav-nick-bangla-01" tvg-name="Nick Bangla TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Nick Bangla",Nick Bangla TEST 01
+http://14.102.123.50:5001/live/1341.m3u8
+#EXTINF:-1 tvg-id="fav-nick-bangla-02" tvg-name="Nick Bangla TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Nick Bangla",Nick Bangla TEST 02
+https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_nickelodeonPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-nick-bangla-03" tvg-name="Nick Bangla TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Nick Bangla",Nick Bangla TEST 03
+http://172.26.1.3:8089/load/nick_bangla/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-nick-bangla-04" tvg-name="Nick Bangla TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Nick Bangla",Nick Bangla TEST 04
+https://sar.pages.dev/nick_bangla.m3u8
+#EXTINF:-1 tvg-id="fav-nick-bangla-05" tvg-name="Nick Bangla TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Nick Bangla",Nick Bangla TEST 05
+http://103.109.56.116/live/funtime110/index.m3u8
+#EXTINF:-1 tvg-id="fav-nick-bangla-06" tvg-name="Nick Bangla TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Nick Bangla",Nick Bangla TEST 06
+http://103.229.254.25:7001/play/a07b/index.m3u8
+#EXTINF:-1 tvg-id="fav-nick-bangla-07" tvg-name="Nick Bangla TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Nick Bangla",Nick Bangla TEST 07
+http://live.balajibroadband.com:3500/live/1341.m3u8
+#EXTINF:-1 tvg-id="fav-nick-bangla-08" tvg-name="Nick Bangla TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Nick Bangla",Nick Bangla TEST 08
+http://172.20.3.1:81/NickBNG/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-nick-bangla-09" tvg-name="Nick Bangla TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Nick Bangla",Nick Bangla TEST 09
+http://tv-cdn.ihub.live:8080/j-Nick/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-nick-bangla-10" tvg-name="Nick Bangla TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Nick Bangla",Nick Bangla TEST 10
+https://live.dinesh29.com.np/stream/jiotv/nickbangla/master.m3u8
+#EXTINF:-1 tvg-id="fav-nick-bangla-11" tvg-name="Nick Bangla TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Nick Bangla",Nick Bangla TEST 11
+https://edge01.iptv.digijadoo.net/live/nickelodeon/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-nick-bangla-12" tvg-name="Nick Bangla TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Nick Bangla",Nick Bangla TEST 12
+https://tv.googledrivelinks.com/live.php?c=Nick_Bangla&q=1200&e=junk.m3u8
+#EXTINF:-1 tvg-id="fav-nick-bangla-13" tvg-name="Nick Bangla TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Nick Bangla",Nick Bangla TEST 13
+https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Nick_Bangla&q=800&e=junk.m3u8
+#EXTINF:-1 tvg-id="fav-nick-bangla-14" tvg-name="Nick Bangla TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Nick Bangla",Nick Bangla TEST 14
+http://103.204.43.87:8080/live/1/1/275.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-01" tvg-name="NTV TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 01
+https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-02" tvg-name="NTV TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 02
+http://18.18.18.1:7777/ch14/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-03" tvg-name="NTV TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 03
+https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1716/output/index.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-04" tvg-name="NTV TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 04
+http://tv.dugdugilive.com:8080/0ne$ky23/NTV/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-05" tvg-name="NTV TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 05
+https://app.ncare.live/live-orgin/ntvuk00332211.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-06" tvg-name="NTV TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 06
+http://10.16.100.245/hindi/nnnnnntv.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-07" tvg-name="NTV TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 07
+https://tv5.hoichoi24.com/1135/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-08" tvg-name="NTV TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 08
+http://103.205.133.18/hls/ntv.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-09" tvg-name="NTV TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 09
+http://208.86.19.13:81/652.stream/index.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-10" tvg-name="NTV TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 10
+https://ott.bingebd.com/live/ngrp:APNTn-asdt-t1asnd2a-sWgtsrhQW_AQTY1025_ntvPQRT_98sdfhs0_f36erxty_forsgst63_DH/chunklist.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-11" tvg-name="NTV TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 11
+http://example.com/ntv.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-12" tvg-name="NTV TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 12
+http://10.16.100.205/hls/ntv_b_720.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-13" tvg-name="NTV TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 13
+http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Bangladesh/1c6bf609991a723.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-14" tvg-name="NTV TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 14
+https://ythls.armelin.one/channel/UC0V3IJCnr6ZNjB9t_GLhFFA.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-15" tvg-name="NTV TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 15
+https://himel-op.top/Join-Telegram-@HimelOP_Official/yt-op.m3u8?live=@NTVDigitalLive
+#EXTINF:-1 tvg-id="fav-ntv-16" tvg-name="NTV TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 16
+https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-17" tvg-name="NTV TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 17
+https://a.jsrdn.com/broadcast/22680_3BR3zocwi9/-0800/c.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-18" tvg-name="NTV TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 18
+https://dash4.antik.sk/live/test_ntv_tizen/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-19" tvg-name="NTV TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 19
+http://103.165.93.31:8095/ntv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-20" tvg-name="NTV TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 20
+https://tempsignature.jagobd.com:444/cZVydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZT00U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/ntvuk00332211.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-ntv-21" tvg-name="NTV TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - NTV",NTV TEST 21
+https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_ntvPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-01" tvg-name="Somoy TV TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 01
+http://172.26.1.3:8089/load/somoy_tv/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-02" tvg-name="Somoy TV TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 02
+http://172.26.1.3:8089/amrbd/Somoy-TV/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-03" tvg-name="Somoy TV TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 03
+http://iptvbd.jagobd.com:1931/live-orgin/somoyt000011226615544544.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-04" tvg-name="Somoy TV TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 04
+https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-05" tvg-name="Somoy TV TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 05
+http://103.102.136.106:8080/cmcltv/somoy_th.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-06" tvg-name="Somoy TV TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 06
+https://bongohub.pw/bioscope.php?cc=somoy-tv&e=.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-07" tvg-name="Somoy TV TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 07
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/somoyt000011226615544544.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-08" tvg-name="Somoy TV TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 08
+http://103.175.242.10:8080/55-Andpicture/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-09" tvg-name="Somoy TV TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 09
+http://103.49.168.172:8081/ebox/bd_somoy/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-10" tvg-name="Somoy TV TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 10
+http://45.249.187.238:8081/hls/hdmi2.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-11" tvg-name="Somoy TV TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 11
+http://103.141.2.37:25461/web/web/597.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-12" tvg-name="Somoy TV TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 12
+https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-13" tvg-name="Somoy TV TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 13
+http://172.27.27.3:801/01_Gazitv/index.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-14" tvg-name="Somoy TV TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 14
+http://pgplex.net:8080/SomoyTv/index.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-15" tvg-name="Somoy TV TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 15
+https://s1.itcnbd.live/somoy/index.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-16" tvg-name="Somoy TV TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 16
+https://s1.itcnbd.live/somoy/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-17" tvg-name="Somoy TV TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 17
+http://12.1.1.1:8082/Somoy-TV/index.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-18" tvg-name="Somoy TV TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 18
+http://iptvbd.jagobd.com:1931/live-orgin/somoyt000011226615544544.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-19" tvg-name="Somoy TV TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 19
+http://116.204.149.16/somoytv/index.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-20" tvg-name="Somoy TV TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 20
+http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-21" tvg-name="Somoy TV TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 21
+http://172.20.21.22/live/skyfeed1004/index.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-22" tvg-name="Somoy TV TEST 22" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 22
+https://itpolly.iptv.digijadoo.net/live/somoy_news/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-23" tvg-name="Somoy TV TEST 23" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 23
+http://172.20.2.5:8082/Somoy-TV/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-24" tvg-name="Somoy TV TEST 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 24
+https://ythls.armelin.one/channel/UCxHoBXkY88Tb8z1Ssj6CWsQ.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-25" tvg-name="Somoy TV TEST 25" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 25
+https://utube.buddyxiptv.com/@somoynews360.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-26" tvg-name="Somoy TV TEST 26" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 26
+http://cdn01.palki.tv/live/SomoyTV-M/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-27" tvg-name="Somoy TV TEST 27" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 27
+http://103.78.255.178:8080/somoy/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-28" tvg-name="Somoy TV TEST 28" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 28
+https://himel-op.top/Join-Telegram-@HimelOP_Official/yt-op.m3u8?live=@somoytvbulletin
+#EXTINF:-1 tvg-id="fav-somoy-tv-29" tvg-name="Somoy TV TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 29
+https://app.ncare.live/live-orgin/somoyt000011226615544544.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-somoy-tv-30" tvg-name="Somoy TV TEST 30" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Somoy TV",Somoy TV TEST 30
+https://global.ncare.live/live-orgin/somoyt000011226615544544.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-01" tvg-name="Sony Aath TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 01
+https://pubads.g.doubleclick.net/ssai/event/pSVzGmMpQR6jdmwwJg87OQ/master.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-02" tvg-name="Sony Aath TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 02
+https://www.drmlive.in/Sonyliv/stream.m3u8?id=sony-aath&e=.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-03" tvg-name="Sony Aath TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 03
+http://familyplus.me:8080/live/younes123/123456/216747.ts
+#EXTINF:-1 tvg-id="fav-sony-aath-04" tvg-name="Sony Aath TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 04
+http://45.127.56.3:9698/live/Corpus-POL/SRV4/1/SONY-AATH/video.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-05" tvg-name="Sony Aath TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 05
+http://12.1.1.1:8082/Sonyaath/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-06" tvg-name="Sony Aath TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 06
+http://172.20.21.22/live/skyfeed1016/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-07" tvg-name="Sony Aath TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 07
+https://dai.google.com/linear/hls/event/j-YEIDwORxubtP_967VcZg/master.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-08" tvg-name="Sony Aath TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 08
+http://14.102.123.50:5001/live/697.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-09" tvg-name="Sony Aath TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 09
+https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sony_aathPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-10" tvg-name="Sony Aath TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 10
+https://allinonereborn.tech/sliv/sony-aath.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-11" tvg-name="Sony Aath TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 11
+http://isstnjz4.megogo.xyz/iptv/SNZC9Z4RPEYGA3/6641/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-12" tvg-name="Sony Aath TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 12
+https://cricsters.fun/s/stream.php?id=sony-aath&e=.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-13" tvg-name="Sony Aath TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 13
+http://172.26.1.3:8089/amrbd/Sonyaath/playlist.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-14" tvg-name="Sony Aath TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 14
+https://cloudplay-sonyliv.pages.dev/aath.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-15" tvg-name="Sony Aath TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 15
+https://sonyliv.tamilultratv.co.in/stream.m3u8?id=sony-aath&e=.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-16" tvg-name="Sony Aath TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 16
+https://tataplay.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-17" tvg-name="Sony Aath TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 17
+http://rhsbjv7k.tvclub.xyz/iptv/MXUV9GU7KLRNNN/6641/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-18" tvg-name="Sony Aath TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 18
+https://tataplay.slivcdn.com/hls/live/2011641-b/SonyAathSD/master_3500.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-19" tvg-name="Sony Aath TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 19
+http://103.205.133.19/hls/sony8.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-20" tvg-name="Sony Aath TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 20
+http://198.195.239.50:8095/SonyAath/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-21" tvg-name="Sony Aath TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 21
+http://103.205.133.21/hls/sony8.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-22" tvg-name="Sony Aath TEST 22" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 22
+https://tataplay.slivcdn.com/hls/live/2011641/SonyAathSD/master_1300.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-23" tvg-name="Sony Aath TEST 23" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 23
+http://tv.cloudcdn.me/live.ts?channelId=44150&uid=13603&deviceMac=00:1A:79:64:B4:A6
+#EXTINF:-1 tvg-id="fav-sony-aath-24" tvg-name="Sony Aath TEST 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 24
+http://tv.cloudcdn.me/live.ts?channelId=44150&uid=8164&deviceMac=00:1A:79:17:D4:A1
+#EXTINF:-1 tvg-id="fav-sony-aath-25" tvg-name="Sony Aath TEST 25" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 25
+https://live.drmlive-02.workers.dev/sliv/aath.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-26" tvg-name="Sony Aath TEST 26" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 26
+https://himel-op.top/portal/cdnop.ts?channelId=44150
+#EXTINF:-1 tvg-id="fav-sony-aath-27" tvg-name="Sony Aath TEST 27" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 27
+http://103.109.56.116/live/skyfeed1016/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-28" tvg-name="Sony Aath TEST 28" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 28
+https://tvs1.aynaott.com/Sony8/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-29" tvg-name="Sony Aath TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 29
+http://223.29.212.14:8080/roarzone/33/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-aath-30" tvg-name="Sony Aath TEST 30" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Aath",Sony Aath TEST 30
+http://103.161.153.165:8000/play/sonyatth/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-1-hd-01" tvg-name="Sony Ten 1 HD TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 1 HD",Sony Ten 1 HD TEST 01
+http://103.84.57.155:8000/play/a027/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-1-hd-02" tvg-name="Sony Ten 1 HD TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 1 HD",Sony Ten 1 HD TEST 02
+http://tvserver.aliflailabd.com:8989/sony-ten1-hd/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-1-hd-03" tvg-name="Sony Ten 1 HD TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 1 HD",Sony Ten 1 HD TEST 03
+http://AllLiveSportsLinks.hopto.org:80/hls/sonyten1.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-1-hd-04" tvg-name="Sony Ten 1 HD TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 1 HD",Sony Ten 1 HD TEST 04
+http://119.152.240.15:8001/play/a0av/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-1-hd-05" tvg-name="Sony Ten 1 HD TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 1 HD",Sony Ten 1 HD TEST 05
+http://103.205.133.14/hls/ten1.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-1-hd-06" tvg-name="Sony Ten 1 HD TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 1 HD",Sony Ten 1 HD TEST 06
+https://tataplay.slivcdn.com//hls/live/2011747/TEN1HD/master.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-1-hd-07" tvg-name="Sony Ten 1 HD TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 1 HD",Sony Ten 1 HD TEST 07
+https://sonyliv.tamilultratv.co.in/stream.m3u8?id=sony-ten-1&e=.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-1-hd-08" tvg-name="Sony Ten 1 HD TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 1 HD",Sony Ten 1 HD TEST 08
+https://sm-monirul.top/Toffee/live.php?id=43dcec1011e7&e=.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-1-hd-09" tvg-name="Sony Ten 1 HD TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 1 HD",Sony Ten 1 HD TEST 09
+http://103.185.24.134:3001/SonyTenSports1/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-1-hd-10" tvg-name="Sony Ten 1 HD TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 1 HD",Sony Ten 1 HD TEST 10
+https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-1-hd-11" tvg-name="Sony Ten 1 HD TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 1 HD",Sony Ten 1 HD TEST 11
+https://dl.dropbox.com/s/96ziqh1ehkhzh81/badminton1.m3u8?dl=0
+#EXTINF:-1 tvg-id="fav-sony-ten-1-hd-12" tvg-name="Sony Ten 1 HD TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 1 HD",Sony Ten 1 HD TEST 12
+http://103.49.168.172:8081/ebox/ten1/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-1-hd-13" tvg-name="Sony Ten 1 HD TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 1 HD",Sony Ten 1 HD TEST 13
+http://103.162.136.235:4500/play/a018/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-1-hd-14" tvg-name="Sony Ten 1 HD TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 1 HD",Sony Ten 1 HD TEST 14
+https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/chunks.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-1-hd-15" tvg-name="Sony Ten 1 HD TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 1 HD",Sony Ten 1 HD TEST 15
+https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-1-hd-16" tvg-name="Sony Ten 1 HD TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 1 HD",Sony Ten 1 HD TEST 16
+https://feed.play.mv/live/10005200/fMLTkj4OJC/master.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-3-hd-01" tvg-name="Sony Ten 3 HD TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 3 HD",Sony Ten 3 HD TEST 01
+http://live.flixhub.net/hls/sonyten2.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-3-hd-02" tvg-name="Sony Ten 3 HD TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 3 HD",Sony Ten 3 HD TEST 02
+http://tv.dugdugilive.com:8080/0ne$ky23/sonyten3/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-3-hd-03" tvg-name="Sony Ten 3 HD TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 3 HD",Sony Ten 3 HD TEST 03
+http://103.84.57.155:8000/play/a02q/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-3-hd-04" tvg-name="Sony Ten 3 HD TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 3 HD",Sony Ten 3 HD TEST 04
+https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master_2000.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-3-hd-05" tvg-name="Sony Ten 3 HD TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 3 HD",Sony Ten 3 HD TEST 05
+https://serverbackupchannel.xyz/jiotvchannel/app/live/524/Ten_3/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-3-hd-06" tvg-name="Sony Ten 3 HD TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 3 HD",Sony Ten 3 HD TEST 06
+http://tv.ebox.live:8080/live/sonyten-3.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-3-hd-07" tvg-name="Sony Ten 3 HD TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 3 HD",Sony Ten 3 HD TEST 07
+https://otttv.co.in/d2h/livestream/sony-ten-3-hd/master.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-3-hd-08" tvg-name="Sony Ten 3 HD TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 3 HD",Sony Ten 3 HD TEST 08
+http://103.205.133.14/hls/ten3.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-3-hd-09" tvg-name="Sony Ten 3 HD TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 3 HD",Sony Ten 3 HD TEST 09
+https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-3-hd-10" tvg-name="Sony Ten 3 HD TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 3 HD",Sony Ten 3 HD TEST 10
+http://sm-monirul.top/RoarZone/play.php?id=ZWRnZTIvc29ueS1zcG9ydHMtMy1oZA==&e=.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-3-hd-11" tvg-name="Sony Ten 3 HD TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 3 HD",Sony Ten 3 HD TEST 11
+https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-3-hd-12" tvg-name="Sony Ten 3 HD TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 3 HD",Sony Ten 3 HD TEST 12
+http://103.162.136.235:4500/play/a01d/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-3-hd-13" tvg-name="Sony Ten 3 HD TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 3 HD",Sony Ten 3 HD TEST 13
+http://66.102.120.18:8000/play/a00z/index.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-3-hd-14" tvg-name="Sony Ten 3 HD TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 3 HD",Sony Ten 3 HD TEST 14
+http://103.122.74.6:8888/hls/SONY.SPORTS.3.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-3-hd-15" tvg-name="Sony Ten 3 HD TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 3 HD",Sony Ten 3 HD TEST 15
+https://feed.play.mv/live/10005200/RG2fKR6d9p/master.m3u8
+#EXTINF:-1 tvg-id="fav-sony-ten-3-hd-16" tvg-name="Sony Ten 3 HD TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 3 HD",Sony Ten 3 HD TEST 16
+https://cloudplay-sonyliv.pages.dev/ten3.m3u8
