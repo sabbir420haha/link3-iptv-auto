@@ -1,3 +1,45 @@
 #EXTM3U
-# Previous 9 trial streams ALL failed user playback; removed. No confirmed alternate sources yet.
-# These may be ISP-only, region restricted, wrong language or offline. No DRM/access bypass.
+# 20 Channel24 public GitHub-sourced TEST URLs; unverified on Link3 / IPTV Pro.
+# No zero-buffer guarantee. Does not affect main playlist.m3u.
+# Some older sources may be dead, ISP-only, geo blocked or require Referer.
+#EXTINF:-1 tvg-id="channel24-test-01" tvg-name="Channel 24 TEST 01 - Ncare Channel24 Office" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 01 - Ncare Channel24 Office
+#EXTVLCOPT:http-referrer=https://tvz.jagobd.com/
+https://ch24cdn.ncare.live/channel24/ch24office/index.m3u8
+#EXTINF:-1 tvg-id="channel24-test-02" tvg-name="Channel 24 TEST 02 - YouTube IPTV Relay" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 02 - YouTube IPTV Relay
+https://utube.buddyxiptv.com/@channel24digital.m3u8
+#EXTINF:-1 tvg-id="channel24-test-03" tvg-name="Channel 24 TEST 03 - BD Workers HLS" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 03 - BD Workers HLS
+https://iptvlive.ahmed-bd-org.workers.dev/channel-24-hd-1/index.m3u8
+#EXTINF:-1 tvg-id="channel24-test-04" tvg-name="Channel 24 TEST 04 - Cloudfront Akash Feed" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 04 - Cloudfront Akash Feed
+https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1703/output/index.m3u8
+#EXTINF:-1 tvg-id="channel24-test-05" tvg-name="Channel 24 TEST 05 - Ayna Vercel API" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 05 - Ayna Vercel API
+https://aynapubluc.vercel.app/api/stream/89247cb9-3c3e-465c-bbc7-d444b0d65424.m3u8
+#EXTINF:-1 tvg-id="channel24-test-06" tvg-name="Channel 24 TEST 06 - Ncare Livess Origin" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 06 - Ncare Livess Origin
+https://livess.ncare.live/live-orgin/channel24-sg-e8e.stream/chunks.m3u8
+#EXTINF:-1 tvg-id="channel24-test-07" tvg-name="Channel 24 TEST 07 - Ncare App Origin" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 07 - Ncare App Origin
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channel24-sg-e8e.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="channel24-test-08" tvg-name="Channel 24 TEST 08 - Ncare Global HLS" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 08 - Ncare Global HLS
+https://global.ncare.live/live-orgin/channel24-sg-e8e.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="channel24-test-09" tvg-name="Channel 24 TEST 09 - JagoBD App Live" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 09 - JagoBD App Live
+https://app.jagobd.com.bd/live-orgin/channel24-sg-e8e.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="channel24-test-10" tvg-name="Channel 24 TEST 10 - JagoBD CDN AppV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 10 - JagoBD CDN AppV
+https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/channel24-sg-e8e.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="channel24-test-11" tvg-name="Channel 24 TEST 11 - JagoBD US170" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 11 - JagoBD US170
+https://us170.jagobd.com:447/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/channel24-sg-e8e.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="channel24-test-12" tvg-name="Channel 24 TEST 12 - AynaOTT Mirror" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 12 - AynaOTT Mirror
+https://tvsen6.aynaott.com/YrVDF8gujkdh/index.m3u8
+#EXTINF:-1 tvg-id="channel24-test-13" tvg-name="Channel 24 TEST 13 - Digijadoo Itpolly" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 13 - Digijadoo Itpolly
+https://itpolly.iptv.digijadoo.net/live/channel_24/chunks.m3u8
+#EXTINF:-1 tvg-id="channel24-test-14" tvg-name="Channel 24 TEST 14 - Digijadoo Triangle" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 14 - Digijadoo Triangle
+https://triangle.iptv.digijadoo.net/live/channel_24/chunks.m3u8
+#EXTINF:-1 tvg-id="channel24-test-15" tvg-name="Channel 24 TEST 15 - Digijadoo Robi" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 15 - Digijadoo Robi
+http://robi.iptv.digijadoo.net/live/channel_24/chunks.m3u8
+#EXTINF:-1 tvg-id="channel24-test-16" tvg-name="Channel 24 TEST 16 - Channel24 IP HLS 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 16 - Channel24 IP HLS 14
+http://103.205.133.14/hls/channel24.m3u8
+#EXTINF:-1 tvg-id="channel24-test-17" tvg-name="Channel 24 TEST 17 - Channel24 IP HLS 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 17 - Channel24 IP HLS 19
+http://103.205.133.19/hls/channel24.m3u8
+#EXTINF:-1 tvg-id="channel24-test-18" tvg-name="Channel 24 TEST 18 - Channel24 Akash IP" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 18 - Channel24 Akash IP
+http://103.141.66.36/bpk-tv/10008/default/index.m3u8
+#EXTINF:-1 tvg-id="channel24-test-19" tvg-name="Channel 24 TEST 19 - Channel24 Ihub IP" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 19 - Channel24 Ihub IP
+http://103.213.238.70:8080/live/channel_24/chunks.m3u8
+#EXTINF:-1 tvg-id="channel24-test-20" tvg-name="Channel 24 TEST 20 - Channel24 Palki" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 20 - Channel24 Palki
+http://cdn01.palki.tv:80/live/Channel24-M/tracks-v1a1/mono.m3u8
