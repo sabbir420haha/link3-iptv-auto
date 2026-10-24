@@ -1,0 +1,160 @@
+{
+  "playlist": "favorites_best.m3u",
+  "selected_at": "2026-10-25",
+  "total": 25,
+  "policy": "Keep source URLs pinned; user-selected TESTs or current Main, plus previously verified Channel 24; don't auto-replace.",
+  "channels": [
+    {
+      "name": "Zee Bangla HD",
+      "from": "TEST 28",
+      "url": "http://103.151.60.162:2122/play/a02p/index.m3u8?hls",
+      "options": []
+    },
+    {
+      "name": "Zee Bangla",
+      "from": "TEST 24",
+      "url": "http://103.151.60.162:2122/play/a011/index.m3u8?hls",
+      "options": []
+    },
+    {
+      "name": "ATN Bangla",
+      "from": "TEST 21",
+      "url": "https://tvsen5.aynaott.com/P3y2URgG7LDe/index.m3u8",
+      "options": []
+    },
+    {
+      "name": "ATN News",
+      "from": "Main",
+      "url": "https://tvsen6.aynaott.com/da6WMXAk/index.m3u8",
+      "options": []
+    },
+    {
+      "name": "BanglaVision",
+      "from": "TEST 30",
+      "url": "https://tvsen5.aynaott.com/tgUzpPc9r6xw/index.m3u8",
+      "options": []
+    },
+    {
+      "name": "Cartoon Network",
+      "from": "TEST 17",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8",
+      "options": []
+    },
+    {
+      "name": "Channel 24",
+      "from": "Main — previously user-confirmed TEST03",
+      "url": "https://iptvlive.ahmed-bd-org.workers.dev/channel-24-hd-1/index.m3u8",
+      "options": []
+    },
+    {
+      "name": "Channel i",
+      "from": "Main",
+      "url": "https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8",
+      "options": []
+    },
+    {
+      "name": "DBC News",
+      "from": "TEST 18",
+      "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/dbcnews.stream/playlist.m3u8",
+      "options": []
+    },
+    {
+      "name": "Discovery Bangla",
+      "from": "Main",
+      "url": "https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8",
+      "options": []
+    },
+    {
+      "name": "Disney HD Hindi",
+      "from": "Main",
+      "url": "http://ranapkz.site/TATABD/play.php?id=167551&format=.m3u8",
+      "options": [
+        "#EXTVLCOPT:http-user-agent=RANAPK"
+      ]
+    },
+    {
+      "name": "Duronto TV",
+      "from": "Main",
+      "url": "http://103.135.253.32:8080/DORONTU-TV/index.m3u8",
+      "options": []
+    },
+    {
+      "name": "Hungama",
+      "from": "Main",
+      "url": "http://103.135.253.32:8080/HUNGAMA/index.m3u8",
+      "options": []
+    },
+    {
+      "name": "Sony MAX HD",
+      "from": "TEST 25",
+      "url": "https://stream.ottplus.live/live/max_hd_abr/live/max_hd_720/chunks.m3u8",
+      "options": []
+    },
+    {
+      "name": "Jamuna TV",
+      "from": "Main",
+      "url": "https://tvsen6.aynaott.com/KGdZEdA7qQ43dmPkgk1j/index.m3u8",
+      "options": []
+    },
+    {
+      "name": "Maasranga TV",
+      "from": "TEST 25",
+      "url": "http://tvsen5.aynascope.net/maasrangatv/index.m3u8",
+      "options": []
+    },
+    {
+      "name": "Nat Geo HD Bangla",
+      "from": "Main",
+      "url": "http://103.135.253.32:8080/NATGEO-HD/index.m3u8",
+      "options": []
+    },
+    {
+      "name": "Nick Bangla",
+      "from": "Main",
+      "url": "http://103.135.253.32:8080/NICK/index.m3u8",
+      "options": []
+    },
+    {
+      "name": "NTV",
+      "from": "TEST 16",
+      "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8",
+      "options": []
+    },
+    {
+      "name": "Somoy TV",
+      "from": "TEST 19",
+      "url": "http://116.204.149.16/somoytv/index.m3u8",
+      "options": []
+    },
+    {
+      "name": "Sonic Hindi",
+      "from": "Main",
+      "url": "https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8",
+      "options": []
+    },
+    {
+      "name": "Sony Aath",
+      "from": "Main",
+      "url": "https://stream.ottplus.live/live/sony_aath_abr/index.m3u8",
+      "options": []
+    },
+    {
+      "name": "Sony Ten 1 HD",
+      "from": "TEST 14",
+      "url": "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/chunks.m3u8",
+      "options": []
+    },
+    {
+      "name": "Sony Ten 3 HD",
+      "from": "Main",
+      "url": "http://103.135.253.32:8080/TEN-3/index.m3u8",
+      "options": []
+    },
+    {
+      "name": "Sonic Bangla",
+      "from": "Main",
+      "url": "http://103.17.193.159:5001/live/1345.m3u8",
+      "options": []
+    }
+  ]
+}
