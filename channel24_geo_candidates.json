@@ -1,0 +1,87 @@
+{
+  "description": "20 independently sourced, NOT user-verified Channel 24 TEST URLs; potentially dead, ISP-only or geo blocked. No stream rights asserted.",
+  "date": "2026-10-24",
+  "sources": [
+    {
+      "label": "01 | Ncare Channel24 Office",
+      "url": "https://ch24cdn.ncare.live/channel24/ch24office/index.m3u8",
+      "referrer": "https://tvz.jagobd.com/"
+    },
+    {
+      "label": "02 | YouTube IPTV Relay",
+      "url": "https://utube.buddyxiptv.com/@channel24digital.m3u8"
+    },
+    {
+      "label": "03 | BD Workers HLS",
+      "url": "https://iptvlive.ahmed-bd-org.workers.dev/channel-24-hd-1/index.m3u8"
+    },
+    {
+      "label": "04 | Cloudfront Akash Feed",
+      "url": "https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1703/output/index.m3u8"
+    },
+    {
+      "label": "05 | Ayna Vercel API",
+      "url": "https://aynapubluc.vercel.app/api/stream/89247cb9-3c3e-465c-bbc7-d444b0d65424.m3u8"
+    },
+    {
+      "label": "06 | Ncare Livess Origin",
+      "url": "https://livess.ncare.live/live-orgin/channel24-sg-e8e.stream/chunks.m3u8"
+    },
+    {
+      "label": "07 | Ncare App Origin",
+      "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channel24-sg-e8e.stream/playlist.m3u8"
+    },
+    {
+      "label": "08 | Ncare Global HLS",
+      "url": "https://global.ncare.live/live-orgin/channel24-sg-e8e.stream/playlist.m3u8"
+    },
+    {
+      "label": "09 | JagoBD App Live",
+      "url": "https://app.jagobd.com.bd/live-orgin/channel24-sg-e8e.stream/playlist.m3u8"
+    },
+    {
+      "label": "10 | JagoBD CDN AppV",
+      "url": "https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/channel24-sg-e8e.stream/playlist.m3u8"
+    },
+    {
+      "label": "11 | JagoBD US170",
+      "url": "https://us170.jagobd.com:447/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/channel24-sg-e8e.stream/playlist.m3u8"
+    },
+    {
+      "label": "12 | AynaOTT Mirror",
+      "url": "https://tvsen6.aynaott.com/YrVDF8gujkdh/index.m3u8"
+    },
+    {
+      "label": "13 | Digijadoo Itpolly",
+      "url": "https://itpolly.iptv.digijadoo.net/live/channel_24/chunks.m3u8"
+    },
+    {
+      "label": "14 | Digijadoo Triangle",
+      "url": "https://triangle.iptv.digijadoo.net/live/channel_24/chunks.m3u8"
+    },
+    {
+      "label": "15 | Digijadoo Robi",
+      "url": "http://robi.iptv.digijadoo.net/live/channel_24/chunks.m3u8"
+    },
+    {
+      "label": "16 | Channel24 IP HLS 14",
+      "url": "http://103.205.133.14/hls/channel24.m3u8"
+    },
+    {
+      "label": "17 | Channel24 IP HLS 19",
+      "url": "http://103.205.133.19/hls/channel24.m3u8"
+    },
+    {
+      "label": "18 | Channel24 Akash IP",
+      "url": "http://103.141.66.36/bpk-tv/10008/default/index.m3u8"
+    },
+    {
+      "label": "19 | Channel24 Ihub IP",
+      "url": "http://103.213.238.70:8080/live/channel_24/chunks.m3u8"
+    },
+    {
+      "label": "20 | Channel24 Palki",
+      "url": "http://cdn01.palki.tv:80/live/Channel24-M/tracks-v1a1/mono.m3u8"
+    }
+  ]
+}
