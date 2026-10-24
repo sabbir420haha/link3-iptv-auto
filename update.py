@@ -741,20 +741,24 @@ def main():
                             state = "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED"
                             experimental_count += 1
                             break
-        # Do not publish a YouTube watch/live webpage as a TV stream. This
-        # correction applies exclusively to the isolated Channel 24 TEST.
+        # Publish TEST only for authentic, not-yet-expired YouTube HLS.
+        # Never substitute a third-party IPTV mirror or YouTube watch webpage.
         if item["name"] == "Channel 24 YT HLS TEST":
             test_url = chosen["url"] if chosen else ""
-            parsed = urllib.parse.urlsplit(test_url)
-            host = (parsed.hostname or "").lower()
-            usable_hls = (parsed.scheme in ("http", "https") and
-                          (parsed.path.lower().endswith(".m3u8") or
-                           (host.endswith(".googlevideo.com") and
-                            "/api/manifest/hls_playlist/" in parsed.path)))
-            if not usable_hls:
-                chosen = {"url": "https://bd.jagobd.com:444/live-orgin/channel24-sg-e8e.stream/chunks.m3u8",
-                          "logo": "", "source": "distinct-test-hls-fallback"}
-                state = "TEST_YOUTUBE_HLS_NOT_AVAILABLE"
+            parts = urllib.parse.urlsplit(test_url)
+            host = (parts.hostname or "").lower()
+            is_youtube_hls = (host.endswith(".googlevideo.com") and
+                              ("/api/manifest/hls_playlist/" in parts.path or
+                               parts.path.endswith(".m3u8")))
+            expiry_match = re.search(r"/expire/(\\d+)(?:/|$)", parts.path)
+            query_expiry = urllib.parse.parse_qs(parts.query).get("expire", [])
+            expiry = (expiry_match.group(1) if expiry_match else
+                      query_expiry[0] if query_expiry else None)
+            if (not is_youtube_hls or not expiry or
+                    int(expiry) < datetime.datetime.now(
+                        datetime.timezone.utc).timestamp() + 600):
+                chosen = None
+                state = "YOUTUBE_HLS_UNAVAILABLE"
         # A separate Channel 24 YouTube TEST must remain visible even when
         # its safe HLS fallback temporarily matches the main Channel 24 URL.
         if chosen and (chosen["url"] not in used or item["name"] == "Channel 24 YT HLS TEST"):
