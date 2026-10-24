@@ -88,6 +88,9 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        # Publicly named new-source trials (2026-10-25); verify HLS segment bytes and identity before publishing.
+        "https://fifabd.xyz/KIDxRANAPK/play.m3u8?id=167551",
+        "https://fifabd.xyz/KID/play.m3u8?id=167551",
         # 2026-10-24: New independently labeled public playlist URLs; audit only.
         "https://allinonereborn.com/oplex.m3u8?id=167551",
         "https://allinonereborn.com/oplx11.m3u8?id=167551",
@@ -182,6 +185,9 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        # Publicly named new-source trials (2026-10-25); verify HLS segment bytes and identity before publishing.
+        "https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=sonic_Hindi&e=.m3u8",
+        "https://mini1.allinonereborn.xyz/jiotv-ww192/app/ts_live_815.m3u8",
         # 2026-10-24: New independently labeled public playlist URLs; audit only.
         "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
         # Live PHP proxy URL published explicitly for this language/channel ID in a public playlist; verify actual HLS bytes.
@@ -229,6 +235,9 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # Publicly named new-source trials (2026-10-25); verify HLS segment bytes and identity before publishing.
+        "https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=Sonic_Bangla&e=.m3u8",
+        "https://serverbackupchannel.xyz/jiotvchannel/app/live/1345/Sonic_Bangla/index.m3u8",
         # 2026-10-24: New independently labeled public playlist URLs; audit only.
         "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Sonic_Bangla&q=800&e=junk.m3u8",
         "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sonicPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
