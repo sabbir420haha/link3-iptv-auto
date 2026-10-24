@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-10-24T17:37:09.023683+00:00",
-  "channels": 78,
-  "target_channels": 100,
+  "updated_utc": "2026-10-24T17:47:40.198260+00:00",
+  "channels": 77,
+  "target_channels": 99,
   "groups": {
-    "01 | BD News": 17,
+    "01 | BD News": 16,
     "00 | MY FAVORITES": 1,
     "02 | BD General & Entertainment": 32,
     "03 | Indian Bangla": 17,
@@ -525,14 +525,7 @@
     {
       "name": "Channel 24",
       "state": "PINNED_USER_WORKING",
-      "stream": "https://stream.ottplus.live/live/channel_24_abr/index.m3u8",
-      "manifest_height": 0,
-      "media_segment_checked": false
-    },
-    {
-      "name": "Channel 24 Backup",
-      "state": "PINNED_USER_WORKING",
-      "stream": "https://drk6xq0vhn.gpcdn.net/live/channel_24_abr/index.m3u8",
+      "stream": "https://iptvlive.ahmed-bd-org.workers.dev/channel-24-hd-1/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1225,18 +1218,18 @@
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 78,
+    "logo_count": 77,
     "methods": {
       "current-broadcaster": 47,
       "verified-recent-provider-logo": 15,
-      "text-fallback": 16
+      "text-fallback": 15
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 78,
+    "total": 77,
     "from_image_sources": 67,
-    "clear_name_fallbacks": 11,
+    "clear_name_fallbacks": 10,
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
