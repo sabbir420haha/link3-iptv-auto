@@ -1,0 +1,168 @@
+{
+  "checked_utc": "2026-10-24T17:38:41.779697+00:00",
+  "checked_count": 20,
+  "media_segment_pass_count": 1,
+  "warning": "Github-network checks, NOT Link3 or IPTV Pro. A failing host may work inside an ISP; successful bytes do not prove Channel24 identity or no buffering. No source URLs modified.",
+  "results": [
+    {
+      "label": "01 | Ncare Channel24 Office",
+      "host": "ch24cdn.ncare.live",
+      "manifest_or_media_reachable_from_github": false,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": true
+    },
+    {
+      "label": "02 | YouTube IPTV Relay",
+      "host": "utube.buddyxiptv.com",
+      "manifest_or_media_reachable_from_github": false,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    },
+    {
+      "label": "03 | BD Workers HLS",
+      "host": "iptvlive.ahmed-bd-org.workers.dev",
+      "manifest_or_media_reachable_from_github": true,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    },
+    {
+      "label": "04 | Cloudfront Akash Feed",
+      "host": "d1e7rcqq4o2ma.cloudfront.net",
+      "manifest_or_media_reachable_from_github": false,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    },
+    {
+      "label": "05 | Ayna Vercel API",
+      "host": "aynapubluc.vercel.app",
+      "manifest_or_media_reachable_from_github": false,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    },
+    {
+      "label": "06 | Ncare Livess Origin",
+      "host": "livess.ncare.live",
+      "manifest_or_media_reachable_from_github": false,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    },
+    {
+      "label": "07 | Ncare App Origin",
+      "host": "app.ncare.live",
+      "manifest_or_media_reachable_from_github": false,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    },
+    {
+      "label": "08 | Ncare Global HLS",
+      "host": "global.ncare.live",
+      "manifest_or_media_reachable_from_github": false,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    },
+    {
+      "label": "09 | JagoBD App Live",
+      "host": "app.jagobd.com.bd",
+      "manifest_or_media_reachable_from_github": false,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    },
+    {
+      "label": "10 | JagoBD CDN AppV",
+      "host": "cdn.appv.jagobd.com",
+      "manifest_or_media_reachable_from_github": false,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    },
+    {
+      "label": "11 | JagoBD US170",
+      "host": "us170.jagobd.com",
+      "manifest_or_media_reachable_from_github": false,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    },
+    {
+      "label": "12 | AynaOTT Mirror",
+      "host": "tvsen6.aynaott.com",
+      "manifest_or_media_reachable_from_github": true,
+      "media_segment_readable_from_github": true,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    },
+    {
+      "label": "13 | Digijadoo Itpolly",
+      "host": "itpolly.iptv.digijadoo.net",
+      "manifest_or_media_reachable_from_github": false,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    },
+    {
+      "label": "14 | Digijadoo Triangle",
+      "host": "triangle.iptv.digijadoo.net",
+      "manifest_or_media_reachable_from_github": false,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    },
+    {
+      "label": "15 | Digijadoo Robi",
+      "host": "robi.iptv.digijadoo.net",
+      "manifest_or_media_reachable_from_github": false,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    },
+    {
+      "label": "16 | Channel24 IP HLS 14",
+      "host": "103.205.133.14",
+      "manifest_or_media_reachable_from_github": false,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    },
+    {
+      "label": "17 | Channel24 IP HLS 19",
+      "host": "103.205.133.19",
+      "manifest_or_media_reachable_from_github": false,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    },
+    {
+      "label": "18 | Channel24 Akash IP",
+      "host": "103.141.66.36",
+      "manifest_or_media_reachable_from_github": false,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    },
+    {
+      "label": "19 | Channel24 Ihub IP",
+      "host": "103.213.238.70",
+      "manifest_or_media_reachable_from_github": false,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    },
+    {
+      "label": "20 | Channel24 Palki",
+      "host": "cdn01.palki.tv",
+      "manifest_or_media_reachable_from_github": false,
+      "media_segment_readable_from_github": false,
+      "link3_playback": "NOT_TESTED",
+      "noted_referer": false
+    }
+  ]
+}
