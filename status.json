@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-24T18:54:43.720735+00:00",
+  "updated_utc": "2026-10-24T23:50:17.235929+00:00",
   "channels": 77,
   "target_channels": 99,
   "groups": {
@@ -184,6 +184,24 @@
   "missing_target_candidate_audit": [
     {
       "name": "Disney HD Hindi",
+      "url": "https://fifabd.xyz/KIDxRANAPK/play.m3u8?id=167551",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
+      "url": "https://fifabd.xyz/KID/play.m3u8?id=167551",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
       "url": "https://allinonereborn.com/oplex.m3u8?id=167551",
       "manifest_ok": false,
       "segment_ok": false,
@@ -237,17 +255,17 @@
       "published_as_replacement": false
     },
     {
-      "name": "Disney HD Hindi",
-      "url": "https://s1.itcnbd.live/Disney-D/tracks-v1a1/mono.m3u8",
-      "manifest_ok": true,
-      "segment_ok": true,
+      "name": "Sonic Hindi",
+      "url": "https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=sonic_Hindi&e=.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
       "manifest_height": 0,
       "identity_audio_verified_by_runner": false,
       "published_as_replacement": false
     },
     {
-      "name": "Disney HD Hindi",
-      "url": "https://stream.kliv.in/ROPX/opp233/167551.m3u8",
+      "name": "Sonic Hindi",
+      "url": "https://mini1.allinonereborn.xyz/jiotv-ww192/app/ts_live_815.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -309,8 +327,8 @@
       "published_as_replacement": false
     },
     {
-      "name": "Sonic Hindi",
-      "url": "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=815",
+      "name": "Sonic Bangla",
+      "url": "https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=Sonic_Bangla&e=.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -318,8 +336,8 @@
       "published_as_replacement": false
     },
     {
-      "name": "Sonic Hindi",
-      "url": "https://app-re.sm-monirul-islam-rs.workers.dev/sonic-hindi/index.m3u8",
+      "name": "Sonic Bangla",
+      "url": "https://serverbackupchannel.xyz/jiotvchannel/app/live/1345/Sonic_Bangla/index.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -379,24 +397,6 @@
       "manifest_height": 0,
       "identity_audio_verified_by_runner": false,
       "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "https://sflex07.fun:443/07/jio/app/ts_live_1345.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "https://app-re.sm-monirul-islam-rs.workers.dev/sonic-bangla/index.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
     }
   ],
   "sources": [
@@ -447,7 +447,7 @@
     },
     {
       "source": "SM-IPTV",
-      "count": 388,
+      "count": 389,
       "error": null
     },
     {
@@ -1228,13 +1228,13 @@
   },
   "local_logos": {
     "total": 77,
-    "from_image_sources": 68,
-    "clear_name_fallbacks": 9,
+    "from_image_sources": 67,
+    "clear_name_fallbacks": 10,
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-10-24T18:54:53.477682+00:00",
+    "updated_utc": "2026-10-24T23:50:26.954711+00:00",
     "channel_count": 25,
     "entries": 576,
     "by_name": {
