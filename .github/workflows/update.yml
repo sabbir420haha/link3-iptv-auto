@@ -10,6 +10,7 @@ on:
       - geo_trial.py
       - favorite_search_a.json
       - favorite_search_b.json
+      - favorites_test_registry.json
       - tv_playback_health.py
       - three_missing_probe.py
       - three_playback_health.py
