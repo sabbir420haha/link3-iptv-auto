@@ -14,6 +14,12 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-10-25 fresh public source-backed, read-only HLS/audio probes.
+    {"channel":"Disney HD Hindi","url":"https://fifabd.xyz/KIDxRANAPK/play.m3u8?id=167551","evidence":"github.com/BahyOsama/marioo dd.m3u; Disney India 167551 source, not verified Hindi/HD","expected_audio":"hi","min_height":720},
+    {"channel":"Disney HD Hindi","url":"https://fifabd.xyz/KID/play.m3u8?id=167551","evidence":"github.com/Mpdishtv/MPDISHTV README.md; Disney Hindi 167551, HD unverified","expected_audio":"hi","min_height":720},
+    {"channel":"Sonic Hindi","url":"https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=sonic_Hindi&e=.m3u8","evidence":"github.com/GhostHostBD/tvlink JIO serverbackupchannel; explicitly Sonic Hindi","expected_audio":"hi"},
+    {"channel":"Sonic Hindi","url":"https://mini1.allinonereborn.xyz/jiotv-ww192/app/ts_live_815.m3u8","evidence":"github.com/sohelkhan812421/boss SOHELKHAN2025IPTV.m3u; explicitly Sonic Hindi ID 815","expected_audio":"hi"},
+    {"channel":"Sonic Bangla","url":"https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=Sonic_Bangla&e=.m3u8","evidence":"github.com/GhostHostBD/tvlink JIO serverbackupchannel; explicitly Sonic Bangla","expected_audio":"bn"},
     {"channel":"Disney HD Hindi","url":"http://zeestb1.online/dhoom.php?id=11385","evidence":"github.com/swapnilpachare2/tv dhoom.m3u; labeled IN: DISNEY CHANNEL HINDI HD, unverified","expected_audio":"hi","min_height":720},
     {"channel":"Disney HD Hindi","url":"https://sambhavilove1769.000webhostapp.com/Denver/Dhoom.php?id=11385","evidence":"github.com/infinitytechcmp/msx tataplay.m3u; labeled IN: DISNEY CHANNEL HINDI HD, unverified","expected_audio":"hi","min_height":720},
     {"channel":"Sonic Hindi","url":"https://madplay.live/jiotv/app/live/815/null/index.m3u8","evidence":"github.com/hasanmamunctg/hasanmamunctg manik; Jio ID 815 explicitly Sonic Hindi","expected_audio":"hi"},
