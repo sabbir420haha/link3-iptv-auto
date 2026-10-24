@@ -1,16 +1,9 @@
 #EXTM3U
-# Dedicated cartoon-only TEST streams; NOT general TV channels. Actual continuous programme identity has NOT been audited.
-# 4 streams returned HLS manifest + video segment on GitHub; no confirmed playback on Link3.
-# Hindi Mr Bean source not verified: ENGLISH Mr Bean channels REMOVED.
-# Shinchan 24x7 source returned HTTP 404; not published. Hindi Shinchan NOT silently replaced by mixed-language TV.
-# Ninja Hattori labelled Hindi by community source, not independently audio-verified.
-# Rights/authorization of third-party re-streams unverified. Only use streams distributed with permission.
-# VOD: no verified licensed direct episode MP4/HLS for six titles; do not treat web watch URLs as IPTV media.
-#EXTINF:-1 tvg-id="cartoon-dedicated-01" tvg-name="Gopal Bhar - 24x7 TEST" group-title="01 | Dedicated Cartoons - TEST",Gopal Bhar - 24x7 TEST
-https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8
+# Dedicated cartoon sources only; user-reported Gopal Bhar OTT subscription required, removed.
+# Incorrect Ninja Hattori source removed at user's request.
+# New Gopal Bhar / Hindi Shinchan / Bangla animation stream tests being checked.
+# Sources remain UNVERIFIED on Link3 unless explicitly confirmed by user.
 #EXTINF:-1 tvg-id="cartoon-dedicated-02" tvg-name="Bantul the Great - 24x7 TEST" group-title="01 | Dedicated Cartoons - TEST",Bantul the Great - 24x7 TEST
 https://live20.bozztv.com/giatvplayout7/giatv-209869/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-id="cartoon-dedicated-03" tvg-name="Tom and Jerry - 24x7 TEST" group-title="01 | Dedicated Cartoons - TEST",Tom and Jerry - 24x7 TEST
 https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
-#EXTINF:-1 tvg-id="cartoon-dedicated-04" tvg-name="Ninja Hattori - Hindi audio NOT VERIFIED - TEST" group-title="01 | Dedicated Cartoons - TEST",Ninja Hattori - Hindi audio NOT VERIFIED - TEST
-https://live20.bozztv.com/giatvplayout7/giatv-210448/tracks-v1a1/mono.ts.m3u8
