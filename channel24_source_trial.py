@@ -32,6 +32,12 @@ CANDIDATES = {
     "jagobd_tempskyview": "https://tempskyview.jagobd.com:441/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PT0mdFsaWRtaW51aiPhnPTI/channel24-sg-e8e.stream/chunks.m3u8",
     "digijadoo_edge_http": "http://edge01.iptv.digijadoo.net/live/channel_24/chunks.m3u8",
     "ottplus_low_bitrate": "https://stream.ottplus.live/live/channel_24_abr/index.m3u8",
+    "same_as_working_hungama_channel24": "http://103.135.253.32:8080/CHANNEL24/index.m3u8",
+    "same_as_working_hungama_channel_dash24": "http://103.135.253.32:8080/CHANNEL-24/index.m3u8",
+    "same_as_working_hungama_channel24_hd": "http://103.135.253.32:8080/CHANNEL24-HD/index.m3u8",
+    "same_as_working_hungama_channel24_news": "http://103.135.253.32:8080/CHANNEL-24-HD/index.m3u8",
+    "same_as_working_hungama_ch24": "http://103.135.253.32:8080/CH24/index.m3u8",
+
 
 }
 STEPS = 9
