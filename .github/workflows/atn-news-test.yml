@@ -1,0 +1,41 @@
+name: Check new ATN News TEST streams
+on:
+  push:
+    branches: [main]
+    paths:
+      - atn_news_test_probe.py
+      - .github/workflows/atn-news-test.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: atn-news-test-check
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate code
+        run: python -m py_compile atn_news_test_probe.py
+      - name: Probe newly selected streams without changing any playlist
+        run: python atn_news_test_probe.py
+      - name: Save health report only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add atn_news_test_health.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record ATN News alternative-source diagnostics'
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git fetch origin main
+              git rebase -X theirs origin/main
+              sleep 2
+            done
+            exit 1
+          fi
