@@ -1,7 +1,6 @@
 #EXTM3U
-# 20 Channel24 public GitHub-sourced TEST URLs; unverified on Link3 / IPTV Pro.
-# No zero-buffer guarantee. Does not affect main playlist.m3u.
-# Some older sources may be dead, ISP-only, geo blocked or require Referer.
+# Previous 9 trial streams ALL failed user playback; removed. No confirmed alternate sources yet.
+# These may be ISP-only, region restricted, wrong language or offline. No DRM/access bypass.
 #EXTINF:-1 tvg-id="channel24-test-01" tvg-name="Channel 24 TEST 01 - Ncare Channel24 Office" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="97 | CHANNEL 24 TEST - NOT VERIFIED",Channel 24 TEST 01 - Ncare Channel24 Office
 #EXTVLCOPT:http-referrer=https://tvz.jagobd.com/
 https://ch24cdn.ncare.live/channel24/ch24office/index.m3u8

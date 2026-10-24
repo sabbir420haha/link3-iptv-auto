@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-24T16:40:05.396063+00:00",
+  "updated_utc": "2026-10-24T17:37:09.023683+00:00",
   "channels": 78,
   "target_channels": 100,
   "groups": {
@@ -447,7 +447,7 @@
     },
     {
       "source": "SM-IPTV",
-      "count": 389,
+      "count": 388,
       "error": null
     },
     {
@@ -1235,14 +1235,16 @@
   },
   "local_logos": {
     "total": 78,
-    "from_image_sources": 68,
-    "clear_name_fallbacks": 10,
+    "from_image_sources": 67,
+    "clear_name_fallbacks": 11,
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "entries": 0,
-    "by_name": {},
+    "entries": 20,
+    "by_name": {
+      "Channel 24": 20
+    },
     "warning": "These are not certified working or HD and may be ISP-only. Test on your own internet. This is an OPTIONAL playlist, separate from the primary playlist."
   }
 }
