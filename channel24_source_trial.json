@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-24T16:49:21.639673+00:00",
+  "checked_utc": "2026-10-24T16:52:00.638592+00:00",
   "purpose": "Channel24 candidates only; never changes main 77-channel playlist",
   "scope": "GitHub Actions network only; do not infer Link3",
   "sample_window_seconds": 64,
@@ -10,103 +10,106 @@
       "selected_media_url": "(signed URL hidden)",
       "available_variants": [
         {
-          "bandwidth_kbps": 1785,
+          "bandwidth_kbps": 1759,
           "height": 720,
           "source_path": "chunks.m3u8"
         }
       ],
-      "initial_request_sec": 0.87,
+      "initial_request_sec": 0.84,
       "manifest_polls_ok": 9,
       "manifest_polls_total": 9,
-      "advances": 7,
+      "advances": 6,
       "sequence_reversals": 0,
-      "unchanged_adjacent_polls": 1,
-      "manifest_latency_max_sec": 0.37,
+      "unchanged_adjacent_polls": 2,
+      "manifest_latency_max_sec": 0.28,
       "video_samples": [
         {
-          "video_segment_bytes_ok": false,
-          "error": "No readable HLS data: HTTP Error 404: Not Found"
+          "video_segment_bytes_ok": true,
+          "aes128_segment": true,
+          "segment_sample_bytes": 8192,
+          "segment_first_bytes": "ea87b4d50f520db7",
+          "segment_download_sec": 0.96
         },
         {
           "video_segment_bytes_ok": true,
           "aes128_segment": true,
           "segment_sample_bytes": 8192,
-          "segment_first_bytes": "5aa2added335e2e1",
-          "segment_download_sec": 1.15
+          "segment_first_bytes": "c8ffd96c55a0e649",
+          "segment_download_sec": 1.07
         }
       ],
-      "eligible_from_github": false,
+      "eligible_from_github": true,
       "windows": [
         {
-          "at_seconds": 1.4,
-          "seq": 13,
-          "hash": "ebebe7f9e12ac426",
+          "at_seconds": 1.2,
+          "seq": 10,
+          "hash": "95300051d4bbb5ce",
           "ok": true,
-          "request_sec": 0.05,
+          "request_sec": 0.01,
           "endlist": false
         },
         {
-          "at_seconds": 8.3,
-          "seq": 13,
-          "hash": "ebebe7f9e12ac426",
+          "at_seconds": 8.2,
+          "seq": 10,
+          "hash": "95300051d4bbb5ce",
           "ok": true,
-          "request_sec": 0.26,
+          "request_sec": 0.21,
           "endlist": false
         },
         {
-          "at_seconds": 16.3,
+          "at_seconds": 16.2,
+          "seq": 12,
+          "hash": "db2c7777ebfa1916",
+          "ok": true,
+          "request_sec": 0.21,
+          "endlist": false
+        },
+        {
+          "at_seconds": 24.2,
           "seq": 14,
-          "hash": "4840cc5492296f11",
+          "hash": "eefd26c3daee3829",
           "ok": true,
-          "request_sec": 0.26,
+          "request_sec": 0.21,
           "endlist": false
         },
         {
-          "at_seconds": 24.3,
-          "seq": 17,
-          "hash": "009cf153235a4421",
+          "at_seconds": 32.3,
+          "seq": 16,
+          "hash": "a807b90e12a624a5",
           "ok": true,
-          "request_sec": 0.26,
+          "request_sec": 0.28,
           "endlist": false
         },
         {
-          "at_seconds": 32.4,
+          "at_seconds": 40.2,
+          "seq": 18,
+          "hash": "b0c4eb7081bf10f3",
+          "ok": true,
+          "request_sec": 0.21,
+          "endlist": false
+        },
+        {
+          "at_seconds": 48.2,
           "seq": 19,
-          "hash": "fcb7ce5049bb3428",
+          "hash": "c2ac62eb8eef58bc",
           "ok": true,
-          "request_sec": 0.35,
+          "request_sec": 0.22,
           "endlist": false
         },
         {
-          "at_seconds": 40.3,
-          "seq": 20,
-          "hash": "004bbd099a82218a",
-          "ok": true,
-          "request_sec": 0.26,
-          "endlist": false
-        },
-        {
-          "at_seconds": 48.3,
+          "at_seconds": 56.2,
           "seq": 21,
-          "hash": "668a12b1d6e72a0e",
+          "hash": "abce2e1399d86666",
           "ok": true,
-          "request_sec": 0.26,
+          "request_sec": 0.21,
           "endlist": false
         },
         {
-          "at_seconds": 56.3,
-          "seq": 24,
-          "hash": "5d0336955c2653f0",
+          "at_seconds": 64.3,
+          "seq": 21,
+          "hash": "abce2e1399d86666",
           "ok": true,
-          "request_sec": 0.26,
-          "endlist": false
-        },
-        {
-          "at_seconds": 64.4,
-          "seq": 25,
-          "hash": "a298c06350b09012",
-          "ok": true,
-          "request_sec": 0.37,
+          "request_sec": 0.28,
           "endlist": false
         }
       ],
@@ -132,103 +135,106 @@
       "selected_media_url": "(signed URL hidden)",
       "available_variants": [
         {
-          "bandwidth_kbps": 1758,
+          "bandwidth_kbps": 1769,
           "height": 720,
           "source_path": "chunks.m3u8"
         }
       ],
-      "initial_request_sec": 1.07,
+      "initial_request_sec": 1.32,
       "manifest_polls_ok": 9,
       "manifest_polls_total": 9,
       "advances": 8,
-      "sequence_reversals": 0,
+      "sequence_reversals": 1,
       "unchanged_adjacent_polls": 0,
-      "manifest_latency_max_sec": 1.14,
+      "manifest_latency_max_sec": 7.79,
       "video_samples": [
         {
-          "video_segment_bytes_ok": false,
-          "error": "No readable HLS data: HTTP Error 404: Not Found"
+          "video_segment_bytes_ok": true,
+          "aes128_segment": true,
+          "segment_sample_bytes": 8192,
+          "segment_first_bytes": "ea87b4d50f520db7",
+          "segment_download_sec": 1.12
         },
         {
           "video_segment_bytes_ok": true,
           "aes128_segment": true,
           "segment_sample_bytes": 8192,
-          "segment_first_bytes": "95ee6131acec6628",
-          "segment_download_sec": 0.94
+          "segment_first_bytes": "24935726ef828d4a",
+          "segment_download_sec": 1.17
         }
       ],
       "eligible_from_github": false,
       "windows": [
         {
-          "at_seconds": 3.3,
-          "seq": 13,
-          "hash": "9a8625a284a102d0",
+          "at_seconds": 3.8,
+          "seq": 10,
+          "hash": "d49c4fe97387792d",
           "ok": true,
-          "request_sec": 1.06,
+          "request_sec": 1.15,
           "endlist": false
         },
         {
-          "at_seconds": 9.0,
-          "seq": 14,
-          "hash": "36842ffba8364597",
+          "at_seconds": 9.3,
+          "seq": 12,
+          "hash": "a8a7ac108e7e629a",
           "ok": true,
-          "request_sec": 0.98,
+          "request_sec": 1.28,
           "endlist": false
         },
         {
-          "at_seconds": 17.0,
+          "at_seconds": 17.1,
+          "seq": 15,
+          "hash": "a9e95fc626bd4700",
+          "ok": true,
+          "request_sec": 1.1,
+          "endlist": false
+        },
+        {
+          "at_seconds": 26.1,
           "seq": 17,
-          "hash": "367c092d63e313cd",
+          "hash": "9e076a2845bcaf55",
           "ok": true,
-          "request_sec": 1.05,
+          "request_sec": 2.06,
           "endlist": false
         },
         {
-          "at_seconds": 25.0,
+          "at_seconds": 33.4,
+          "seq": 18,
+          "hash": "8e3927f52369fe27",
+          "ok": true,
+          "request_sec": 1.37,
+          "endlist": false
+        },
+        {
+          "at_seconds": 41.3,
           "seq": 19,
-          "hash": "db9bb9a8b16b94ce",
+          "hash": "4da497abed66bc54",
           "ok": true,
-          "request_sec": 1.02,
+          "request_sec": 1.28,
           "endlist": false
         },
         {
-          "at_seconds": 32.9,
-          "seq": 20,
-          "hash": "23d47c4384e3305e",
-          "ok": true,
-          "request_sec": 0.94,
-          "endlist": false
-        },
-        {
-          "at_seconds": 41.1,
+          "at_seconds": 49.5,
           "seq": 22,
-          "hash": "73fd02872eb0d0ef",
+          "hash": "c20305f13b047f41",
           "ok": true,
-          "request_sec": 1.06,
+          "request_sec": 1.54,
           "endlist": false
         },
         {
-          "at_seconds": 49.0,
-          "seq": 24,
-          "hash": "a005bfe71553ca63",
+          "at_seconds": 63.8,
+          "seq": 0,
+          "hash": "3eaa116bada3a830",
           "ok": true,
-          "request_sec": 1.02,
-          "endlist": false
-        },
-        {
-          "at_seconds": 57.0,
-          "seq": 25,
-          "hash": "862d4569718a7196",
-          "ok": true,
-          "request_sec": 0.99,
+          "request_sec": 7.79,
           "endlist": false
         },
         {
           "at_seconds": 65.1,
-          "seq": 27,
-          "hash": "48ae22a4a63a772e",
+          "seq": 1,
+          "hash": "e0e06fa5ecf71c88",
           "ok": true,
-          "request_sec": 1.14,
+          "request_sec": 1.1,
           "endlist": false
         }
       ],
@@ -303,110 +309,145 @@
       "selected_media_url": "(signed URL hidden)",
       "available_variants": [
         {
-          "bandwidth_kbps": 1758,
+          "bandwidth_kbps": 1769,
           "height": 720,
           "source_path": "chunks.m3u8"
         }
       ],
-      "initial_request_sec": 0.91,
+      "initial_request_sec": 1.15,
       "manifest_polls_ok": 9,
       "manifest_polls_total": 9,
       "advances": 8,
-      "sequence_reversals": 0,
+      "sequence_reversals": 1,
       "unchanged_adjacent_polls": 0,
-      "manifest_latency_max_sec": 1.11,
+      "manifest_latency_max_sec": 6.16,
       "video_samples": [
         {
           "video_segment_bytes_ok": true,
           "aes128_segment": true,
           "segment_sample_bytes": 8192,
-          "segment_first_bytes": "17dcb391b2232cc6",
-          "segment_download_sec": 1.04
+          "segment_first_bytes": "54401f8cf439a221",
+          "segment_download_sec": 1.19
         },
         {
           "video_segment_bytes_ok": true,
           "aes128_segment": true,
           "segment_sample_bytes": 8192,
-          "segment_first_bytes": "46de6c6a56900aa8",
-          "segment_download_sec": 1.0
+          "segment_first_bytes": "6e13ad9eb3f59d5d",
+          "segment_download_sec": 1.08
         }
       ],
-      "eligible_from_github": true,
+      "eligible_from_github": false,
       "windows": [
         {
           "at_seconds": 3.3,
-          "seq": 14,
-          "hash": "c6eb6bbe33886bfe",
+          "seq": 11,
+          "hash": "7e06c41b6760c2cd",
           "ok": true,
-          "request_sec": 1.04,
+          "request_sec": 1.05,
           "endlist": false
         },
         {
-          "at_seconds": 9.0,
+          "at_seconds": 9.1,
+          "seq": 12,
+          "hash": "734babc4a7207480",
+          "ok": true,
+          "request_sec": 1.09,
+          "endlist": false
+        },
+        {
+          "at_seconds": 17.0,
           "seq": 15,
-          "hash": "5c502967c29301b1",
+          "hash": "0dbbd1862a7a4d69",
           "ok": true,
-          "request_sec": 1.0,
-          "endlist": false
-        },
-        {
-          "at_seconds": 17.1,
-          "seq": 17,
-          "hash": "099659ec01a24e6d",
-          "ok": true,
-          "request_sec": 1.1,
+          "request_sec": 1.02,
           "endlist": false
         },
         {
           "at_seconds": 25.1,
-          "seq": 19,
-          "hash": "8189705931b84553",
+          "seq": 17,
+          "hash": "01493c720acaa044",
           "ok": true,
           "request_sec": 1.11,
           "endlist": false
         },
         {
-          "at_seconds": 33.0,
+          "at_seconds": 34.1,
+          "seq": 18,
+          "hash": "2d85890e99e33c45",
+          "ok": true,
+          "request_sec": 2.08,
+          "endlist": false
+        },
+        {
+          "at_seconds": 41.2,
           "seq": 20,
-          "hash": "d11457ea79704793",
+          "hash": "7a394a613812e285",
           "ok": true,
-          "request_sec": 0.95,
+          "request_sec": 1.19,
           "endlist": false
         },
         {
-          "at_seconds": 41.0,
+          "at_seconds": 49.2,
           "seq": 22,
-          "hash": "874f32674f4b1b33",
+          "hash": "625307e2fea15ba7",
           "ok": true,
-          "request_sec": 1.04,
+          "request_sec": 1.16,
           "endlist": false
         },
         {
-          "at_seconds": 49.0,
-          "seq": 24,
-          "hash": "2269256df9d6066d",
+          "at_seconds": 62.2,
+          "seq": 0,
+          "hash": "87cbf4ea782deb02",
           "ok": true,
-          "request_sec": 0.97,
+          "request_sec": 6.16,
           "endlist": false
         },
         {
-          "at_seconds": 56.9,
-          "seq": 25,
-          "hash": "08f226f4f7dc39f0",
+          "at_seconds": 65.2,
+          "seq": 2,
+          "hash": "060781ad576cf705",
           "ok": true,
-          "request_sec": 0.91,
-          "endlist": false
-        },
-        {
-          "at_seconds": 65.0,
-          "seq": 27,
-          "hash": "0f796a61172350bf",
-          "ok": true,
-          "request_sec": 0.99,
+          "request_sec": 1.16,
           "endlist": false
         }
       ],
       "warning": "Server tests only, Link3/IPTV Pro playback NOT independently confirmed"
+    },
+    {
+      "label": "same_as_working_hungama_channel24",
+      "source": "http://103.135.253.32:8080/CHANNEL24/index.m3u8",
+      "eligible_from_github": false,
+      "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found",
+      "manifest_polls_ok": 0
+    },
+    {
+      "label": "same_as_working_hungama_channel_dash24",
+      "source": "http://103.135.253.32:8080/CHANNEL-24/index.m3u8",
+      "eligible_from_github": false,
+      "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found",
+      "manifest_polls_ok": 0
+    },
+    {
+      "label": "same_as_working_hungama_channel24_hd",
+      "source": "http://103.135.253.32:8080/CHANNEL24-HD/index.m3u8",
+      "eligible_from_github": false,
+      "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found",
+      "manifest_polls_ok": 0
+    },
+    {
+      "label": "same_as_working_hungama_channel24_news",
+      "source": "http://103.135.253.32:8080/CHANNEL-24-HD/index.m3u8",
+      "eligible_from_github": false,
+      "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found",
+      "manifest_polls_ok": 0
+    },
+    {
+      "label": "same_as_working_hungama_ch24",
+      "source": "http://103.135.253.32:8080/CH24/index.m3u8",
+      "eligible_from_github": false,
+      "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found",
+      "manifest_polls_ok": 0
     }
   ]
 }
