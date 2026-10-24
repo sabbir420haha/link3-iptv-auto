@@ -1,0 +1,41 @@
+name: Check cartoon live streams
+on:
+  push:
+    branches: [main]
+    paths:
+      - cartoon_stream_probe.py
+      - .github/workflows/cartoon-stream-check.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cartoon-live-stream-check
+  cancel-in-progress: false
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate program
+        run: python -m py_compile cartoon_stream_probe.py
+      - name: Check live HLS manifests and media samples
+        run: python cartoon_stream_probe.py
+      - name: Commit probe report only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add cartoon_stream_health.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record cartoon stream probe results"
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git fetch origin main
+              git rebase -X theirs origin/main
+              sleep 2
+            done
+            exit 1
+          fi
