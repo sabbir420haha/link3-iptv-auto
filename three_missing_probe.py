@@ -14,6 +14,13 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    {"channel":"Sonic Hindi","url":"https://madplay.live/jiotv/app/live/815/null/index.m3u8","evidence":"github.com/hasanmamunctg/hasanmamunctg manik; Jio ID 815 explicitly Sonic Hindi","expected_audio":"hi"},
+    {"channel":"Sonic Hindi","url":"https://madplay.live/player/jiotv.php?id=sonic_Hindi_MOB/Fallback/index.m3u8","evidence":"github.com/tvs6/livetv; explicitly Sonic Hindi channel ID","expected_audio":"hi"},
+    {"channel":"Sonic Bangla","url":"https://serverbackupchannel.xyz/jiotvchannel/app/live/1345/Sonic_Bangla/index.m3u8","evidence":"github.com/Hasibfy37/Iptv Final.m3u; explicitly Sonic Bangla","expected_audio":"bn"},
+    {"channel":"Sonic Bangla","url":"https://jiotv.nayeemparvez.workers.dev/bpk-tv/Sonic_Bangla_MOB/Fallback/index.m3u8","evidence":"github.com/freedish2024/personal-project.sr Kids; explicitly Sonic Bangla MOB","expected_audio":"bn"},
+    {"channel":"Sonic Bangla","url":"http://103.135.208.14/live/ibox/bd/58.m3u8","evidence":"github.com/fahadskt/IPTV-Playlists Old/IBOX TV; explicitly Sonic Bangla; may be BDIX-only","expected_audio":"bn"},
+    {"channel":"Sonic Bangla","url":"https://madplay.live/jiotv/app/live/1345/null/index.m3u8","evidence":"github.com/hasanmamunctg/hasanmamunctg manik; Jio ID 1345 explicitly Sonic Bangla","expected_audio":"bn"},
+    {"channel":"Sonic Bangla","url":"https://tv.googledrivelinks.com/live.php?c=Sonic_Bangla&q=1200&e=junk.m3u8","evidence":"github.com/Nafis495/iptv WOW; Jio ID 1345 Bengali","expected_audio":"bn"},
     {
         "channel": "Disney HD Hindi",
         "url": "http://stream-7b694ce7e.nmbs.top/m3u/Kids/c86abe8bd6.m3u8",
