@@ -1,93 +1,144 @@
 #!/usr/bin/env python3
-"""Generate an opt-in BD-region trial list, not a 'working channels' claim.
-Main playlist.m3u is unchanged. These candidates may be region-/ISP-restricted;
-do not take country-restricted access as evidence of a healthy stream.
-"""
-import json, re, datetime, urllib.parse, ipaddress
-from pathlib import Path
-from logos_local import read_image, card, slug
-ROOT=Path(__file__).resolve().parent
-URL_BASE="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/"
-# User has confirmed every previous geo-trial candidate fails on Link3.
-# Publish no misleading old candidates. Populate only after new user-confirmed feeds.
-TRIALS={}
-# The user's separate geo_trials.m3u is the opt-in source testing playlist.
-# Keep these unverified trials completely separate from the main channel list.
-try:
-    channel24_trials=json.loads((ROOT/"channel24_geo_candidates.json").read_text(encoding="utf-8"))
-    TRIALS["Channel 24"]=[(x["label"],x["url"],x.get("referrer"))
-        for x in channel24_trials.get("sources",[])][:20]
-except FileNotFoundError:
-    pass
+"""Build the user's separate Favorites TEST M3U, never the main playlist.
 
-LOGO={
- "Nick Hindi":"https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/nick-in.png",
- "Sonic Bangla":"https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/india/nickelodeon-sonic-in.png",
-}
-def safe(uri):
-    p=urllib.parse.urlsplit(uri)
-    if p.scheme not in ("https","http") or not p.hostname or p.username or p.password:
+Each non-excluded My Favorites channel gets up to 30 DIFFERENT publicly
+listed URLs, with its own named group and numbered entries. GitHub-sourced
+seeds remain even when network discovery fails. Unverified != working.
+"""
+import concurrent.futures
+import datetime
+import json
+import re
+from collections import defaultdict
+from pathlib import Path
+from update import SOURCES, EXTRA_CANDIDATES, allowed, fetch_playlist, key
+
+ROOT = Path(__file__).resolve().parent
+MAIN = ROOT / "playlist.m3u"
+CATALOG = ROOT / "channels.json"
+OUTPUT = ROOT / "geo_trials.m3u"
+STATUS = ROOT / "status.json"
+MAX_PER_CHANNEL = 30
+EXCLUDED = {"Channel 24", "Sonic Bangla", "Sonic Hindi",
+            "Discovery Bangla", "Nat Geo HD Bangla"}
+SEED_FILES = ("favorite_search_a.json", "favorite_search_b.json")
+VALID_EXT = re.compile(r"\.m3u8(?:$|[?#])|\.ts(?:$|[?#])|[?&]e=\.m3u8(?:$|&)", re.I)
+
+def favorites():
+    """Use the playlist's actual Favorites entries, not a guessed catalogue."""
+    lines = MAIN.read_text(encoding="utf-8").splitlines()
+    items = []
+    for i, line in enumerate(lines):
+        if (not line.startswith("#EXTINF:") or
+                'group-title="00 | MY FAVORITES"' not in line):
+            continue
+        name = line.split(",", 1)[-1].strip()
+        if name in EXCLUDED:
+            continue
+        logo_match = re.search(r'tvg-logo="([^"]*)"', line)
+        logo = logo_match.group(1) if logo_match else ""
+        j = i + 1
+        while j < len(lines) and lines[j].startswith("#"):
+            j += 1
+        main_url = lines[j].strip() if j < len(lines) else ""
+        items.append({"name": name, "logo": logo, "main_url": main_url})
+    return items
+
+def seeds():
+    all_seeds = defaultdict(list)
+    for file in SEED_FILES:
+        path = ROOT / file
+        if path.exists():
+            contents = json.loads(path.read_text(encoding="utf-8"))
+            for name, candidates in contents.get("sources", {}).items():
+                for entry in candidates:
+                    all_seeds[name].append((entry["url"], "GitHub labelled M3U"))
+    return all_seeds
+
+def discover(names, catalog):
+    """Only exact normalized channel labels (or documented aliases) match."""
+    matches = {}
+    for name in names:
+        item = catalog.get(name, {})
+        aliases = [name] + item.get("aliases", [])
+        matches[name] = {key(x) for x in aliases}
+    found = defaultdict(list)
+    fetch_results = []
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+        for source_name, entries, error in pool.map(fetch_playlist, SOURCES):
+            fetch_results.append({"source": source_name,
+                                  "count": len(entries), "error": error})
+            for entry in entries:
+                labelled = key(entry["name"])
+                for name, options in matches.items():
+                    if labelled in options:
+                        found[name].append((entry["url"], source_name))
+    return found, fetch_results
+
+def eligible(url, banned):
+    if not isinstance(url, str) or not VALID_EXT.search(url):
         return False
-    hostname=p.hostname.lower()
-    if any(x in uri.lower() for x in ("bdix", "t-play", "tplay")):
+    if not allowed(url) or url in banned:
         return False
-    try:
-        if not ipaddress.ip_address(hostname).is_global:
-            return False
-    except ValueError:
-        if hostname in ("localhost",) or hostname.endswith((".local",".lan",".internal")):
-            return False
     return True
-def local_logo(name):
-    # Keep every trial icon in this repository, not an unstable hotlinked server.
-    uri=LOGO.get(name,"")
-    img=read_image(uri) if uri else None
-    frame,_=card(name,img)
-    target=ROOT/"logos"/("geo-"+slug(name)+".png")
-    target.parent.mkdir(exist_ok=True)
-    import io
-    buf=io.BytesIO()
-    frame.save(buf,format="PNG",optimize=True)
-    raw=buf.getvalue()
-    if not target.exists() or target.read_bytes()!=raw:
-        target.write_bytes(raw)
-    return URL_BASE+"logos/"+target.name
 
 def main():
-    catalog={x["name"]:x for x in json.loads((ROOT/"channels.json").read_text())}
-    status=json.loads((ROOT/"status.json").read_text())
-    audit={x["name"]:x for x in status.get("candidate_audit",[])}
-    output=["#EXTM3U",
-      "# Previous 9 trial streams ALL failed user playback; removed. No confirmed alternate sources yet.",
-      "# These may be ISP-only, region restricted, wrong language or offline. No DRM/access bypass."]
-    summary={}
-    # Display numbered TEST entries only. These 20 URLs have NOT been user verified.
-    for name,sources in TRIALS.items():
-        item=catalog.get(name,{})
-        banned=set(item.get("exclude_urls",[]))
-        counts=0
-        logo=(URL_BASE+"logos/channel-24.png") if name=="Channel 24" else local_logo(name)
-        for entry in sources:
-            label,uri=entry[:2]
-            referer=entry[2] if len(entry)>2 else None
-            if not safe(uri) or uri in banned: continue
-            title=(name+" TEST "+label.replace(" | ", " - ")).replace('"', "'").replace(",", " -")
-            group=("97 | CHANNEL 24 TEST - NOT VERIFIED" if name=="Channel 24"
-                   else "99 | BD-GEO TRIAL - Playback NOT verified")
-            stable_id=("channel24-test-"+label[:2] if name=="Channel 24" else
-                       "bd-geo-"+slug(title))
-            output.append(f'#EXTINF:-1 tvg-id="{stable_id}" tvg-name="{title}" tvg-logo="{logo}" group-title="{group}",{title}')
-            if referer and referer.startswith("https://"):
-                # Some IPTV players honour this optional header, others ignore it.
-                output.append("#EXTVLCOPT:http-referrer="+referer)
-            output.append(uri)
-            counts+=1
-        summary[name]=counts
-    (ROOT/"geo_trials.m3u").write_text("\n".join(output)+"\n",encoding="utf-8")
-    status["bd_geo_trials"]={
-        "entries":sum(summary.values()),"by_name":summary,
-        "warning":"These are not certified working or HD and may be ISP-only. Test on your own internet. This is an OPTIONAL playlist, separate from the primary playlist."
+    favs = favorites()
+    catalog = {x["name"]: x for x in json.loads(CATALOG.read_text(encoding="utf-8"))}
+    candidates = seeds()
+    extra, sources = discover([f["name"] for f in favs], catalog)
+    output = [
+        "#EXTM3U",
+        "# Separate Favorites TEST playlist: max 30 alternatives per selected channel.",
+        "# NOT Link3-verified; may fail, be region-restricted or require rights.",
+        "# Main channel URLs are deliberately omitted; main playlist is not changed.",
+    ]
+    summary = {}
+    for favorite in favs:
+        name, logo, main_url = favorite["name"], favorite["logo"], favorite["main_url"]
+        banned = set(catalog.get(name, {}).get("exclude_urls", []))
+        banned.add(main_url)
+        alternatives = list(candidates.get(name, []))
+        alternatives.extend(extra.get(name, []))
+        alternatives.extend((u, "curated-research") for u in EXTRA_CANDIDATES.get(name, []))
+        distinct = []
+        seen = set()
+        for url, provenance in alternatives:
+            # Every extra is tied to this particular channel's name in a
+            # published source or explicitly curated lookup, not a guessed alias.
+            if url in seen or not eligible(url, banned):
+                continue
+            seen.add(url)
+            distinct.append((url, provenance))
+            if len(distinct) == MAX_PER_CHANNEL:
+                break
+        summary[name] = len(distinct)
+        group = "9 | TEST - " + name
+        slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+        for index, (url, provenance) in enumerate(distinct, 1):
+            number = f"{index:02d}"
+            title = f"{name} TEST {number}"
+            output.append(
+                f'#EXTINF:-1 tvg-id="fav-{slug}-{number}" '
+                f'tvg-name="{title}" tvg-logo="{logo}" '
+                f'group-title="{group}",{title}'
+            )
+            output.append(url)
+    OUTPUT.write_text("\n".join(output) + "\n", encoding="utf-8")
+    report = json.loads(STATUS.read_text(encoding="utf-8")) if STATUS.exists() else {}
+    report["bd_geo_trials"] = {
+        "updated_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        "entries": sum(summary.values()),
+        "requested_limit_per_channel": MAX_PER_CHANNEL,
+        "channel_count": len(favs),
+        "by_name": summary,
+        "discovery_sources": sources,
+        "warning": "Unverified alternate stream URLs, not proof of playback, rights, HD, or low buffering on Link3. All changes apply only to geo_trials.m3u.",
     }
-    (ROOT/"status.json").write_text(json.dumps(status,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
-    print("Optional geo trials",summary)
-if __name__=="__main__":main()
+    STATUS.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n",
+                      encoding="utf-8")
+    print("Favorites TEST:", len(favs), "channels", sum(summary.values()), "streams")
+    print(summary)
+
+if __name__ == "__main__":
+    main()
