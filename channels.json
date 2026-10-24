@@ -21,6 +21,15 @@
     "source_quality_note": "Previous Channel 24 GPCDN source; optional manual fallback only. Earlier user reported buffering. Not verified stable on Link3; preserve main Channel 24 OTTplus feed."
   },
   {
+    "name": "Channel 24 YouTube TEST",
+    "group": "98 | TEST - Unverified Non-BDIX",
+    "aliases": [],
+    "locked": true,
+    "last_known_url": "https://www.youtube.com/@Channel24digital/live",
+    "user_verified_link3": false,
+    "source_quality_note": "YouTube live page placeholder: IPTV Pro may not support it. Scheduled yt-dlp workflow will replace this URL with temporary HLS when extractable. Main Channel 24 remains unchanged."
+  },
+  {
     "name": "Independent TV",
     "group": "01 | BD News",
     "aliases": [],
