@@ -16,7 +16,7 @@ PLAYLIST = ROOT / "playlist.m3u"
 REPORT = ROOT / "channel24_youtube_status.json"
 LIVE_PAGE = "https://www.youtube.com/@Channel24digital/live"
 TEST_NAME = "Channel 24 YT HLS TEST"
-SAFE_FALLBACK = "https://stream.ottplus.live/live/channel_24_abr/index.m3u8"
+SAFE_FALLBACK = "https://bd.jagobd.com:444/live-orgin/channel24-sg-e8e.stream/chunks.m3u8"
 
 def extract():
     cmd = ["yt-dlp", "--no-warnings", "--no-playlist", "--dump-single-json",
@@ -67,7 +67,7 @@ def main():
     main_channel["user_verified_link3"] = False
     main_channel["source_quality_note"] = (
         "TEST-only official Channel 24 YouTube Live HLS trial, not Link3 verified. "
-        "Falls back to OTTplus HLS (not YouTube) when extraction fails."
+        "Falls back to a distinct public JagoBD HLS source (not YouTube) when extraction fails; Link3 playback not verified."
     )
     old = PLAYLIST.read_text(encoding="utf-8")
     lines = old.splitlines(keepends=True)
