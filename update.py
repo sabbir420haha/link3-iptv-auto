@@ -741,6 +741,20 @@ def main():
                             state = "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED"
                             experimental_count += 1
                             break
+        # Do not publish a YouTube watch/live webpage as a TV stream. This
+        # correction applies exclusively to the isolated Channel 24 TEST.
+        if item["name"] == "Channel 24 YT HLS TEST":
+            test_url = chosen["url"] if chosen else ""
+            parsed = urllib.parse.urlsplit(test_url)
+            host = (parsed.hostname or "").lower()
+            usable_hls = (parsed.scheme in ("http", "https") and
+                          (parsed.path.lower().endswith(".m3u8") or
+                           (host.endswith(".googlevideo.com") and
+                            "/api/manifest/hls_playlist/" in parsed.path)))
+            if not usable_hls:
+                chosen = {"url": "https://stream.ottplus.live/live/channel_24_abr/index.m3u8",
+                          "logo": "", "source": "safe-test-hls-fallback"}
+                state = "TEST_YOUTUBE_HLS_NOT_AVAILABLE"
         # A separate Channel 24 YouTube TEST must remain visible even when
         # its safe HLS fallback temporarily matches the main Channel 24 URL.
         if chosen and (chosen["url"] not in used or item["name"] == "Channel 24 YT HLS TEST"):
