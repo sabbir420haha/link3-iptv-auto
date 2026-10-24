@@ -1,0 +1,55 @@
+#EXTM3U
+# Favorites Best - curated selected sources on Link3. 25 channels.
+# Channel 24 is included from previously user-verified main source.
+# This is a standalone static playlist. Main and TEST playlists are unchanged.
+#EXTINF:-1 tvg-name="Zee Bangla HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="00 | MY FAVORITES",Zee Bangla HD
+http://103.151.60.162:2122/play/a02p/index.m3u8?hls
+#EXTINF:-1 tvg-name="Zee Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="00 | MY FAVORITES",Zee Bangla
+http://103.151.60.162:2122/play/a011/index.m3u8?hls
+#EXTINF:-1 tvg-name="ATN Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",ATN Bangla
+https://tvsen5.aynaott.com/P3y2URgG7LDe/index.m3u8
+#EXTINF:-1 tvg-name="ATN News" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",ATN News
+https://tvsen6.aynaott.com/da6WMXAk/index.m3u8
+#EXTINF:-1 tvg-name="BanglaVision" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/banglavision.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",BanglaVision
+https://tvsen5.aynaott.com/tgUzpPc9r6xw/index.m3u8
+#EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Cartoon Network
+https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
+#EXTINF:-1 tvg-name="Channel 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Channel 24
+https://iptvlive.ahmed-bd-org.workers.dev/channel-24-hd-1/index.m3u8
+#EXTINF:-1 tvg-name="Channel i" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-i.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Channel i
+https://tvsen6.aynaott.com/FNHpYvGZ7FkCE10PwTHm/index.m3u8
+#EXTINF:-1 tvg-name="DBC News" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",DBC News
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/dbcnews.stream/playlist.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png?v=contrast-brand-20261023" group-title="00 | MY FAVORITES",Discovery Bangla
+https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8
+#EXTINF:-1 tvg-name="Disney HD Hindi" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Disney HD Hindi
+#EXTVLCOPT:http-user-agent=RANAPK
+http://ranapkz.site/TATABD/play.php?id=167551&format=.m3u8
+#EXTINF:-1 tvg-name="Duronto TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Duronto TV
+http://103.135.253.32:8080/DORONTU-TV/index.m3u8
+#EXTINF:-1 tvg-name="Hungama" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Hungama
+http://103.135.253.32:8080/HUNGAMA/index.m3u8
+#EXTINF:-1 tvg-name="Sony MAX HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Sony MAX HD
+https://stream.ottplus.live/live/max_hd_abr/live/max_hd_720/chunks.m3u8
+#EXTINF:-1 tvg-name="Jamuna TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/jamuna-tv.png?v=contrast-brand-20261023" group-title="00 | MY FAVORITES",Jamuna TV
+https://tvsen6.aynaott.com/KGdZEdA7qQ43dmPkgk1j/index.m3u8
+#EXTINF:-1 tvg-name="Maasranga TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Maasranga TV
+http://tvsen5.aynascope.net/maasrangatv/index.m3u8
+#EXTINF:-1 tvg-name="Nat Geo HD Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png?v=contrast-brand-20261023" group-title="00 | MY FAVORITES",Nat Geo HD Bangla
+http://103.135.253.32:8080/NATGEO-HD/index.m3u8
+#EXTINF:-1 tvg-name="Nick Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Nick Bangla
+http://103.135.253.32:8080/NICK/index.m3u8
+#EXTINF:-1 tvg-name="NTV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",NTV
+https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
+#EXTINF:-1 tvg-name="Somoy TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Somoy TV
+http://116.204.149.16/somoytv/index.m3u8
+#EXTINF:-1 tvg-name="Sonic Hindi" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Sonic Hindi
+https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8
+#EXTINF:-1 tvg-name="Sony Aath" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Sony Aath
+https://stream.ottplus.live/live/sony_aath_abr/index.m3u8
+#EXTINF:-1 tvg-name="Sony Ten 1 HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Sony Ten 1 HD
+https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/chunks.m3u8
+#EXTINF:-1 tvg-name="Sony Ten 3 HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Sony Ten 3 HD
+http://103.135.253.32:8080/TEN-3/index.m3u8
+#EXTINF:-1 tvg-name="Sonic Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png?v=iptv-tightfit-20261023" group-title="00 | MY FAVORITES",Sonic Bangla
+http://103.17.193.159:5001/live/1345.m3u8
