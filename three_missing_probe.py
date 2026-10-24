@@ -14,6 +14,8 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    {"channel":"Disney HD Hindi","url":"http://zeestb1.online/dhoom.php?id=11385","evidence":"github.com/swapnilpachare2/tv dhoom.m3u; labeled IN: DISNEY CHANNEL HINDI HD, unverified","expected_audio":"hi","min_height":720},
+    {"channel":"Disney HD Hindi","url":"https://sambhavilove1769.000webhostapp.com/Denver/Dhoom.php?id=11385","evidence":"github.com/infinitytechcmp/msx tataplay.m3u; labeled IN: DISNEY CHANNEL HINDI HD, unverified","expected_audio":"hi","min_height":720},
     {"channel":"Sonic Hindi","url":"https://madplay.live/jiotv/app/live/815/null/index.m3u8","evidence":"github.com/hasanmamunctg/hasanmamunctg manik; Jio ID 815 explicitly Sonic Hindi","expected_audio":"hi"},
     {"channel":"Sonic Hindi","url":"https://madplay.live/player/jiotv.php?id=sonic_Hindi_MOB/Fallback/index.m3u8","evidence":"github.com/tvs6/livetv; explicitly Sonic Hindi channel ID","expected_audio":"hi"},
     {"channel":"Sonic Bangla","url":"https://serverbackupchannel.xyz/jiotvchannel/app/live/1345/Sonic_Bangla/index.m3u8","evidence":"github.com/Hasibfy37/Iptv Final.m3u; explicitly Sonic Bangla","expected_audio":"bn"},
