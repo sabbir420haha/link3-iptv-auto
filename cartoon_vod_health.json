@@ -1,7 +1,7 @@
 {
-  "utc": "2026-10-25T05:37:26.788526+00:00",
-  "total": 5,
-  "playable_mp4_signatures": 4,
+  "utc": "2026-10-25T06:25:42.698096+00:00",
+  "total": 23,
+  "playable_mp4_signatures": 19,
   "warning": "GitHub server MP4 byte signature checked only; IPTV Pro and Link3 playback not established.",
   "results": [
     {
@@ -51,6 +51,180 @@
       "error": null,
       "status_code": 206,
       "sample_size": 4096
+    },
+    {
+      "title": "Caminandes 1 - Llama Drama (Full)",
+      "url": "https://archive.org/download/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
+    },
+    {
+      "title": "Caminandes 2 - Gran Dillama (Full)",
+      "url": "https://archive.org/download/Caminandes2GranDillama/02_gran_dillama_1080p.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
+    },
+    {
+      "title": "Caminandes 3 - Llamigos (Full)",
+      "url": "https://archive.org/download/CaminandesLlamigos/Caminandes_%20Llamigos-1080p.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
+    },
+    {
+      "title": "Sintel - Full Animated Movie",
+      "url": "https://archive.org/download/Sintel/sintel-2048-stereo_512kb.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
+    },
+    {
+      "title": "Cosmos Laundromat - First Cycle (Full)",
+      "url": "https://archive.org/download/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20%281080p%29.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
+    },
+    {
+      "title": "Glass Half - Full Animated Short",
+      "url": "https://archive.org/download/GlassHalf1080p/Glass%20Half-1080p.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
+    },
+    {
+      "title": "Spring - Full Animated Movie",
+      "url": "https://archive.org/download/springopenmovie/springopenmovie.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
+    },
+    {
+      "title": "Hero - Full Animated Short",
+      "url": "https://archive.org/download/hero_20260106/hero.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
+    },
+    {
+      "title": "Sprite Fright - Full Animated Movie (PG - Scary)",
+      "url": "https://archive.org/download/sprite-fright-2021/Sprite%20Fright%20%282021%29.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
+    },
+    {
+      "title": "Agent 327 - Operation Barbershop (Full)",
+      "url": "https://archive.org/download/agent327operationbarbershop/agent327-1080.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
+    },
+    {
+      "title": "Charge - Full Animated Short",
+      "url": "https://archive.org/download/charge_202601/Charge.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
+    },
+    {
+      "title": "Coffee Run - Full Animated Short",
+      "url": "https://archive.org/download/coffee-run/Coffee%20Run.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
+    },
+    {
+      "title": "Elephants Dream - Full Animated Movie",
+      "url": "https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
+    },
+    {
+      "title": "Big Buck Bunny - Archive Full Movie (Backup)",
+      "url": "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
+    },
+    {
+      "title": "Caminandes 3 - Direct MP4 Backup 480p",
+      "url": "https://fernandoruizrico.com/examples/test-media/video/caminandes-llamigos/caminandes_llamigos_480p.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
+    },
+    {
+      "title": "Agent 327 - Official Blender PeerTube MP4",
+      "url": "https://video.blender.org/static/webseed/264ff760-803e-430e-8d81-15648e904183-720.mp4",
+      "http_ok": false,
+      "bytes_ok": false,
+      "content_type": null,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "title": "Caminandes 2 - Official Blender PeerTube MP4",
+      "url": "https://video.blender.org/static/webseed/fb70d459-48d2-4db5-adba-813c84f9200a-720.mp4",
+      "http_ok": false,
+      "bytes_ok": false,
+      "content_type": null,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "title": "Spring - Official Blender PeerTube MP4",
+      "url": "https://video.blender.org/static/webseed/3d95fb3d-c866-42c8-9db1-fe82f48ccb95-720.mp4",
+      "http_ok": false,
+      "bytes_ok": false,
+      "content_type": null,
+      "error": "HTTP Error 404: Not Found"
     }
   ]
 }
