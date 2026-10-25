@@ -1,0 +1,69 @@
+{
+  "purpose": "Build genuine direct-video cartoon VOD entries, not TV streams or OTT webpage links.",
+  "requested_series": [
+    {
+      "series": "Gopal Bhar",
+      "required_language": "bn",
+      "episodes": []
+    },
+    {
+      "series": "Tom and Jerry",
+      "required_language": "any",
+      "episodes": []
+    },
+    {
+      "series": "Bantul the Great",
+      "required_language": "bn",
+      "episodes": []
+    },
+    {
+      "series": "Mr Bean Animated",
+      "required_language": "hi",
+      "episodes": []
+    },
+    {
+      "series": "Ninja Hattori",
+      "required_language": "hi",
+      "episodes": []
+    },
+    {
+      "series": "Shinchan",
+      "required_language": "hi",
+      "episodes": []
+    }
+  ],
+  "free_cartoons_demo": [
+    {
+      "title": "Big Buck Bunny - Complete Short Film",
+      "series": "Blender Open Films",
+      "episode": "01",
+      "language": "mostly without dialogue",
+      "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+      "license": "CC-BY-3.0, Blender Foundation; preserve credits",
+      "credit": "(c) 2008 Blender Foundation / www.bigbuckbunny.org",
+      "source": "https://peach.blender.org/about/"
+    },
+    {
+      "title": "Caminandes - Gran Dillama",
+      "series": "Caminandes",
+      "episode": "01",
+      "language": "mostly without dialogue",
+      "url": "https://video.blender.org/static/webseed/fb70d459-48d2-4db5-adba-813c84f9200a-720.mp4",
+      "license": "CC-BY-SA-3.0 as indicated by Blender work; preserve credit",
+      "credit": "Blender Foundation",
+      "source": "https://studio.blender.org/projects/caminandes-2/"
+    },
+    {
+      "title": "Caminandes - Llamigos",
+      "series": "Caminandes",
+      "episode": "02",
+      "language": "mostly without dialogue",
+      "url": "https://video.blender.org/static/webseed/23f3ef79-15dc-44c5-aa45-cf92e78a4509-720.mp4",
+      "license": "Blender open movie Creative Commons, preserve credits",
+      "credit": "Blender Foundation",
+      "source": "https://studio.blender.org/films/"
+    }
+  ],
+  "security": "Do not put private IPTV credentials, subscription tokens or proprietary episode links into a public GitHub repo.",
+  "note": "These 3 sample cartoons are NOT the six requested TV series. Never label as requested episodes."
+}
