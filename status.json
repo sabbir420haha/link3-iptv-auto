@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-25T11:36:38.057008+00:00",
+  "updated_utc": "2026-10-25T13:01:55.535536+00:00",
   "channels": 77,
   "target_channels": 99,
   "groups": {
@@ -184,7 +184,7 @@
   "missing_target_candidate_audit": [
     {
       "name": "Disney HD Hindi",
-      "url": "https://app-re.sm-monirul-islam-rs.workers.dev/disney-hd-hindi/index.m3u8",
+      "url": "http://116.90.120.151:8000/play/a0hp/index.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -193,7 +193,7 @@
     },
     {
       "name": "Disney HD Hindi",
-      "url": "https://stream.ottplus.live/live/disney_channel_hd_abr/index.m3u8",
+      "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/8f3e6367117c923.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -202,7 +202,7 @@
     },
     {
       "name": "Disney HD Hindi",
-      "url": "https://stream.ottplus.live/live/disney_hd_abr/index.m3u8",
+      "url": "https://fifabd.xyz/KIDxRANAPK/play.m3u8?id=167551",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -211,7 +211,7 @@
     },
     {
       "name": "Disney HD Hindi",
-      "url": "https://app-re.sm-monirul-islam-rs.workers.dev/Disny-Channel-Hindi/index.m3u8",
+      "url": "https://fifabd.xyz/KID/play.m3u8?id=167551",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -220,16 +220,7 @@
     },
     {
       "name": "Disney HD Hindi",
-      "url": "https://raw.githubusercontent.com/Hasanmahmud000/Yt/main/Disney_Channel_HD.index.m3u8",
-      "manifest_ok": true,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Disney HD Hindi",
-      "url": "http://139.23.241.38:8088/602/tracks-v1a1/mono.m3u8",
+      "url": "https://allinonereborn.com/oplex.m3u8?id=167551",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -238,7 +229,7 @@
     },
     {
       "name": "Disney HD Hindi",
-      "url": "http://ott.artmott.com/DisneyChannel/tracks-v1a1/mono.m3u8",
+      "url": "https://allinonereborn.com/oplx11.m3u8?id=167551",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -247,7 +238,16 @@
     },
     {
       "name": "Disney HD Hindi",
-      "url": "https://live.dinesh29.com.np/stream/jiotvplus/disneychannel/master.m3u8",
+      "url": "https://allinonereborn.com/opplex1991.m3u8?id=167551",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
+      "url": "https://www.redbooks.site/x11.php?id=167551.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -256,7 +256,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "http://103.135.253.32:8080/SONIC/index.m3u8",
+      "url": "http://103.162.136.235:4500/play/a01k/index.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -265,7 +265,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "http://103.135.253.32:8080/SONIC-HD/index.m3u8",
+      "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -274,7 +274,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "http://103.185.24.134:3001/SONIC/index.m3u8",
+      "url": "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -283,7 +283,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8",
+      "url": "https://fifabangladesh2-xyz-ekkj.spidy.online/VHOD/NEW/go.php?id=Sonic_Nickelodeon_voot_MOB",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -292,7 +292,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+      "url": "https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=sonic_Hindi&e=.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -301,7 +301,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8",
+      "url": "https://mini1.allinonereborn.xyz/jiotv-ww192/app/ts_live_815.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -310,7 +310,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8",
+      "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -319,7 +319,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "http://103.229.254.25:7001/play/a0dl/index.m3u8",
+      "url": "https://sports247.eu.org/api/app/live.php?id=815&e=.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -328,7 +328,7 @@
     },
     {
       "name": "Sonic Bangla",
-      "url": "http://mxonlive-restream.atwebpages.com/opplex/x1.php/149127.m3u8",
+      "url": "http://198.195.239.50:8095/sonic/index.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -337,7 +337,7 @@
     },
     {
       "name": "Sonic Bangla",
-      "url": "https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=Sonic_Bangla&e=.m3u8",
+      "url": "https://sflex07.fun:443/07/jio/app/ts_live_1345.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -346,7 +346,7 @@
     },
     {
       "name": "Sonic Bangla",
-      "url": "https://serverbackupchannel.xyz/jiotvchannel/app/live/1345/Sonic_Bangla/index.m3u8",
+      "url": "https://app-re.sm-monirul-islam-rs.workers.dev/sonic-bangla/index.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -355,7 +355,7 @@
     },
     {
       "name": "Sonic Bangla",
-      "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Sonic_Bangla&q=800&e=junk.m3u8",
+      "url": "https://stream.ottplus.live/live/sonic_bangla_abr/index.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -364,7 +364,7 @@
     },
     {
       "name": "Sonic Bangla",
-      "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sonicPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
+      "url": "https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -373,7 +373,7 @@
     },
     {
       "name": "Sonic Bangla",
-      "url": "https://sports247.eu.org/api/app/live.php?id=1345&e=.m3u8",
+      "url": "https://playyonogames.in/live.php?id=1345&format=.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -382,7 +382,7 @@
     },
     {
       "name": "Sonic Bangla",
-      "url": "https://hey-lookme.shop/live.php?id=1345",
+      "url": "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -391,7 +391,7 @@
     },
     {
       "name": "Sonic Bangla",
-      "url": "https://jio.instream.ml/jio.php?c=Sonic_Bangla&q=600&e=.m3u8",
+      "url": "http://103.68.28.58:5001/live/1345.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -1228,13 +1228,13 @@
   },
   "local_logos": {
     "total": 77,
-    "from_image_sources": 68,
-    "clear_name_fallbacks": 9,
+    "from_image_sources": 67,
+    "clear_name_fallbacks": 10,
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-10-25T11:36:55.598093+00:00",
+    "updated_utc": "2026-10-25T13:02:10.248677+00:00",
     "channel_count": 25,
     "entries": 576,
     "by_name": {
