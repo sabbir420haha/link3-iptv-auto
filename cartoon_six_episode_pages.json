@@ -1,0 +1,103 @@
+{
+  "title": "Six favorite cartoons: official or publicly listed episode viewing pages ONLY",
+  "created_at": "2026-10-25",
+  "media_note": "These 12 links are WEBPAGE URLS, NOT direct playable MP4/HLS media; cannot count as successful IPTV Pro VOD entries. Hindi audio unconfirmed on Mr Bean uploads; don't claim official. No DRM bypass, no stream ripping.",
+  "content": [
+    {
+      "series": "Gopal Bhar",
+      "language": "bn",
+      "title": "Gopal Bhar - Ghosts' Revenge - Sony AATH Full Episode",
+      "url": "https://www.youtube.com/watch?v=R3h1E9RSmQc",
+      "type": "official_episode_web_page",
+      "source": "Sony AATH verified YouTube"
+    },
+    {
+      "series": "Gopal Bhar",
+      "language": "bn",
+      "title": "Gopal Bhar - Amrit Prabhu - Double Gopal Full Episode",
+      "url": "https://www.youtube.com/watch?v=ZtyGOl3xjMY",
+      "type": "official_episode_web_page",
+      "source": "Sony AATH verified YouTube"
+    },
+    {
+      "series": "Tom and Jerry",
+      "language": "minimal_dialogue",
+      "title": "Tom and Jerry Singapore - Full Episodes 1 to 4",
+      "url": "https://www.youtube.com/watch?v=vcRorKK_uBM",
+      "type": "official_episode_web_page",
+      "source": "WB Kids verified YouTube"
+    },
+    {
+      "series": "Tom and Jerry",
+      "language": "minimal_dialogue",
+      "title": "Tom and Jerry Singapore - Full Episodes 1 to 6",
+      "url": "https://www.youtube.com/watch?v=3YHO81QWQmU",
+      "type": "official_episode_web_page",
+      "source": "WB Kids verified YouTube"
+    },
+    {
+      "series": "Bantul the Great",
+      "language": "bn",
+      "title": "Bantul The Great - Bengali Episode 469",
+      "url": "https://www.zee5.com/tv-shows/details/bantul-the-great/0-6-231/hobohati-v-s-bantul-bantul-the-great/0-1-manual_1miti6k83qpo",
+      "type": "official_episode_web_page",
+      "source": "ZEE5 Bengali"
+    },
+    {
+      "series": "Bantul the Great",
+      "language": "bn",
+      "title": "Bantul The Great - Bengali Episode 470",
+      "url": "https://www.zee5.com/tvshows/details/bantul-the-great/0-6-231/the-mysterious-disappearance-of-prince-surya-bantul-the-great/0-1-manual_3dchgga9od2g",
+      "type": "official_episode_web_page",
+      "source": "ZEE5 Bengali"
+    },
+    {
+      "series": "Mr Bean Animated",
+      "language": "hi_unconfirmed",
+      "title": "Mr Bean Animated - Hindi-labelled Collection 26",
+      "url": "https://www.youtube.com/watch?v=kZWBWB0P-m8",
+      "type": "third_party_episode_web_page",
+      "source": "YouTube Mr Bean Hindi; NOT verified as official rights-holder or Hindi audio"
+    },
+    {
+      "series": "Mr Bean Animated",
+      "language": "hi_unconfirmed",
+      "title": "Mr Bean Animated - Hindi-labelled Collection 56",
+      "url": "https://www.youtube.com/watch?v=gaFFt035upw",
+      "type": "third_party_episode_web_page",
+      "source": "YouTube Mr Bean Hindi; NOT verified as official rights-holder or Hindi audio"
+    },
+    {
+      "series": "Ninja Hattori",
+      "language": "hi_available",
+      "title": "Ninja Hattori Hindi - Classic S2 Episode 23",
+      "url": "https://www.tataplaybinge.com/watch/tv-shows/ninja-hattori-classic-s2-e23-name-your-identity/3270138",
+      "type": "official_episode_web_page",
+      "source": "Tata Play Binge / JioHotstar Hindi"
+    },
+    {
+      "series": "Ninja Hattori",
+      "language": "hi_available",
+      "title": "Ninja Hattori Hindi - New S4 Episode 5",
+      "url": "https://www.tataplaybinge.com/watch/tv-shows/ninja-hattori-new-s4-e5-smoke-signal-ninja-technique/3293465",
+      "type": "official_episode_web_page",
+      "source": "Tata Play Binge / JioHotstar Hindi track available"
+    },
+    {
+      "series": "Shinchan",
+      "language": "hi_confirmed_page",
+      "title": "Shinchan Hindi - Sony YAY Episode 31",
+      "url": "https://www.jiotv.com/live-channel/sony-yay-hindi/872/sony-yay-hindi/episode-31/260803872087",
+      "type": "official_episode_web_page",
+      "source": "JioTV Hindi Sony YAY Episode 31 audio listed Hindi"
+    },
+    {
+      "series": "Shinchan",
+      "language": "hi_available",
+      "title": "Shinchan Hindi - Season 15 Episodes (select Hindi)",
+      "url": "https://www.tataplaybinge.com/watch/shows/shin-chan/3483",
+      "type": "official_series_web_page",
+      "source": "Tata Play Binge Shin-chan Hindi listed"
+    }
+  ]
+}
