@@ -30,6 +30,12 @@
       "series": "Shinchan",
       "required_language": "hi",
       "episodes": []
+    },
+    {
+      "series": "Thakumar Jhuli (Bangla animated)",
+      "required_language": "bn",
+      "episodes": [],
+      "note": "Bengali animation available on JioHotstar / Tata Play Binge; direct licensed MP4/HLS not established. Never scrape or substitute unrelated content."
     }
   ],
   "free_cartoons_demo": [
@@ -82,8 +88,224 @@
       "license": "Sintel CC-BY 3.0 from Blender Foundation; preserve credits",
       "credit": "Blender Foundation",
       "source": "https://durian.blender.org/about/"
+    },
+    {
+      "title": "Caminandes 1 - Llama Drama (Full)",
+      "series": "Caminandes",
+      "episode": "06",
+      "language": "No dialogue",
+      "url": "https://archive.org/download/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4",
+      "license": "Blender Studio Open Movie / Creative Commons attribution; retain creator and credit roll",
+      "credit": "(c) Blender Foundation / Blender Studio",
+      "source": "https://studio.blender.org/films/",
+      "status": "Candidate only; insert into live VOD only after HTTP byte signature validation",
+      "is_full_film": true
+    },
+    {
+      "title": "Caminandes 2 - Gran Dillama (Full)",
+      "series": "Caminandes",
+      "episode": "07",
+      "language": "No dialogue",
+      "url": "https://archive.org/download/Caminandes2GranDillama/02_gran_dillama_1080p.mp4",
+      "license": "Blender Studio Open Movie / Creative Commons attribution; retain creator and credit roll",
+      "credit": "(c) Blender Foundation / Blender Studio",
+      "source": "https://studio.blender.org/films/",
+      "status": "Candidate only; insert into live VOD only after HTTP byte signature validation",
+      "is_full_film": true
+    },
+    {
+      "title": "Caminandes 3 - Llamigos (Full)",
+      "series": "Caminandes",
+      "episode": "08",
+      "language": "No dialogue",
+      "url": "https://archive.org/download/CaminandesLlamigos/Caminandes_%20Llamigos-1080p.mp4",
+      "license": "Blender Studio Open Movie / Creative Commons attribution; retain creator and credit roll",
+      "credit": "(c) Blender Foundation / Blender Studio",
+      "source": "https://studio.blender.org/films/",
+      "status": "Candidate only; insert into live VOD only after HTTP byte signature validation",
+      "is_full_film": true
+    },
+    {
+      "title": "Sintel - Full Animated Movie",
+      "series": "Blender Open Films",
+      "episode": "09",
+      "language": "English",
+      "url": "https://archive.org/download/Sintel/sintel-2048-stereo_512kb.mp4",
+      "license": "Blender Studio Open Movie / Creative Commons attribution; retain creator and credit roll",
+      "credit": "(c) Blender Foundation / Blender Studio",
+      "source": "https://studio.blender.org/films/",
+      "status": "Candidate only; insert into live VOD only after HTTP byte signature validation",
+      "is_full_film": true
+    },
+    {
+      "title": "Cosmos Laundromat - First Cycle (Full)",
+      "series": "Blender Open Films",
+      "episode": "10",
+      "language": "English",
+      "url": "https://archive.org/download/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20%281080p%29.mp4",
+      "license": "Blender Studio Open Movie / Creative Commons attribution; retain creator and credit roll",
+      "credit": "(c) Blender Foundation / Blender Studio",
+      "source": "https://studio.blender.org/films/",
+      "status": "Candidate only; insert into live VOD only after HTTP byte signature validation",
+      "is_full_film": true
+    },
+    {
+      "title": "Glass Half - Full Animated Short",
+      "series": "Blender Open Films",
+      "episode": "11",
+      "language": "English",
+      "url": "https://archive.org/download/GlassHalf1080p/Glass%20Half-1080p.mp4",
+      "license": "Blender Studio Open Movie / Creative Commons attribution; retain creator and credit roll",
+      "credit": "(c) Blender Foundation / Blender Studio",
+      "source": "https://studio.blender.org/films/",
+      "status": "Candidate only; insert into live VOD only after HTTP byte signature validation",
+      "is_full_film": true
+    },
+    {
+      "title": "Spring - Full Animated Movie",
+      "series": "Blender Open Films",
+      "episode": "12",
+      "language": "No dialogue",
+      "url": "https://archive.org/download/springopenmovie/springopenmovie.mp4",
+      "license": "Blender Studio Open Movie / Creative Commons attribution; retain creator and credit roll",
+      "credit": "(c) Blender Foundation / Blender Studio",
+      "source": "https://studio.blender.org/films/",
+      "status": "Candidate only; insert into live VOD only after HTTP byte signature validation",
+      "is_full_film": true
+    },
+    {
+      "title": "Hero - Full Animated Short",
+      "series": "Blender Open Films",
+      "episode": "13",
+      "language": "English",
+      "url": "https://archive.org/download/hero_20260106/hero.mp4",
+      "license": "Blender Studio Open Movie / Creative Commons attribution; retain creator and credit roll",
+      "credit": "(c) Blender Foundation / Blender Studio",
+      "source": "https://studio.blender.org/films/",
+      "status": "Candidate only; insert into live VOD only after HTTP byte signature validation",
+      "is_full_film": true
+    },
+    {
+      "title": "Sprite Fright - Full Animated Movie (PG - Scary)",
+      "series": "Blender Open Films",
+      "episode": "14",
+      "language": "English",
+      "url": "https://archive.org/download/sprite-fright-2021/Sprite%20Fright%20%282021%29.mp4",
+      "license": "Blender Studio Open Movie / Creative Commons attribution; retain creator and credit roll",
+      "credit": "(c) Blender Foundation / Blender Studio",
+      "source": "https://studio.blender.org/films/",
+      "status": "Candidate only; insert into live VOD only after HTTP byte signature validation",
+      "is_full_film": true
+    },
+    {
+      "title": "Agent 327 - Operation Barbershop (Full)",
+      "series": "Blender Open Films",
+      "episode": "15",
+      "language": "English",
+      "url": "https://archive.org/download/agent327operationbarbershop/agent327-1080.mp4",
+      "license": "Blender Studio Open Movie / Creative Commons attribution; retain creator and credit roll",
+      "credit": "(c) Blender Foundation / Blender Studio",
+      "source": "https://studio.blender.org/films/",
+      "status": "Candidate only; insert into live VOD only after HTTP byte signature validation",
+      "is_full_film": true
+    },
+    {
+      "title": "Charge - Full Animated Short",
+      "series": "Blender Open Films",
+      "episode": "16",
+      "language": "English",
+      "url": "https://archive.org/download/charge_202601/Charge.mp4",
+      "license": "Blender Studio Open Movie / Creative Commons attribution; retain creator and credit roll",
+      "credit": "(c) Blender Foundation / Blender Studio",
+      "source": "https://studio.blender.org/films/",
+      "status": "Candidate only; insert into live VOD only after HTTP byte signature validation",
+      "is_full_film": true
+    },
+    {
+      "title": "Coffee Run - Full Animated Short",
+      "series": "Blender Open Films",
+      "episode": "17",
+      "language": "English",
+      "url": "https://archive.org/download/coffee-run/Coffee%20Run.mp4",
+      "license": "Blender Studio Open Movie / Creative Commons attribution; retain creator and credit roll",
+      "credit": "(c) Blender Foundation / Blender Studio",
+      "source": "https://studio.blender.org/films/",
+      "status": "Candidate only; insert into live VOD only after HTTP byte signature validation",
+      "is_full_film": true
+    },
+    {
+      "title": "Elephants Dream - Full Animated Movie",
+      "series": "Blender Open Films",
+      "episode": "18",
+      "language": "English",
+      "url": "https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4",
+      "license": "Blender Studio Open Movie / Creative Commons attribution; retain creator and credit roll",
+      "credit": "(c) Blender Foundation / Blender Studio",
+      "source": "https://studio.blender.org/films/",
+      "status": "Candidate only; insert into live VOD only after HTTP byte signature validation",
+      "is_full_film": true
+    },
+    {
+      "title": "Big Buck Bunny - Archive Full Movie (Backup)",
+      "series": "Blender Open Films",
+      "episode": "19",
+      "language": "No dialogue",
+      "url": "https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
+      "license": "Blender Studio Open Movie / Creative Commons attribution; retain creator and credit roll",
+      "credit": "(c) Blender Foundation / Blender Studio",
+      "source": "https://studio.blender.org/films/",
+      "status": "Candidate only; insert into live VOD only after HTTP byte signature validation",
+      "is_full_film": true
+    },
+    {
+      "title": "Caminandes 3 - Direct MP4 Backup 480p",
+      "series": "Caminandes",
+      "episode": "20",
+      "language": "No dialogue",
+      "url": "https://fernandoruizrico.com/examples/test-media/video/caminandes-llamigos/caminandes_llamigos_480p.mp4",
+      "license": "Blender Studio Open Movie / Creative Commons attribution; retain creator and credit roll",
+      "credit": "(c) Blender Foundation / Blender Studio",
+      "source": "https://studio.blender.org/films/",
+      "status": "Candidate only; insert into live VOD only after HTTP byte signature validation",
+      "is_full_film": false
+    },
+    {
+      "title": "Agent 327 - Official Blender PeerTube MP4",
+      "series": "Blender Open Films",
+      "episode": "21",
+      "language": "English",
+      "url": "https://video.blender.org/static/webseed/264ff760-803e-430e-8d81-15648e904183-720.mp4",
+      "license": "Blender Studio Open Movie / Creative Commons attribution; retain creator and credit roll",
+      "credit": "(c) Blender Foundation / Blender Studio",
+      "source": "https://studio.blender.org/films/",
+      "status": "Candidate only; insert into live VOD only after HTTP byte signature validation",
+      "is_full_film": true
+    },
+    {
+      "title": "Caminandes 2 - Official Blender PeerTube MP4",
+      "series": "Caminandes",
+      "episode": "22",
+      "language": "No dialogue",
+      "url": "https://video.blender.org/static/webseed/fb70d459-48d2-4db5-adba-813c84f9200a-720.mp4",
+      "license": "Blender Studio Open Movie / Creative Commons attribution; retain creator and credit roll",
+      "credit": "(c) Blender Foundation / Blender Studio",
+      "source": "https://studio.blender.org/films/",
+      "status": "Candidate only; insert into live VOD only after HTTP byte signature validation",
+      "is_full_film": true
+    },
+    {
+      "title": "Spring - Official Blender PeerTube MP4",
+      "series": "Blender Open Films",
+      "episode": "23",
+      "language": "No dialogue",
+      "url": "https://video.blender.org/static/webseed/3d95fb3d-c866-42c8-9db1-fe82f48ccb95-720.mp4",
+      "license": "Blender Studio Open Movie / Creative Commons attribution; retain creator and credit roll",
+      "credit": "(c) Blender Foundation / Blender Studio",
+      "source": "https://studio.blender.org/films/",
+      "status": "Candidate only; insert into live VOD only after HTTP byte signature validation",
+      "is_full_film": true
     }
   ],
   "security": "Do not put private IPTV credentials, subscription tokens or proprietary episode links into a public GitHub repo.",
-  "note": "These 3 sample cartoons are NOT the six requested TV series. Never label as requested episodes."
+  "note": "Requested series incl. Thakumar Jhuli remain empty until authorized direct media episode URLs are supplied. Open licensed Blender titles are separate."
 }
