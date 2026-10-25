@@ -185,6 +185,8 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        # Candidate added 2026-10-26: Public Sonuiptv Kids list; global reachability and media segment must be checked.
+        "http://70.39.83.58:8278/sonichindikdin/playlist.m3u8",
         # New independently named public candidate (2026-10-25); audit only, never auto-replace a user pin.
         "https://fifabangladesh2-xyz-ekkj.spidy.online/VHOD/NEW/go.php?id=Sonic_Nickelodeon_voot_MOB",
         # Publicly named new-source trials (2026-10-25); verify HLS segment bytes and identity before publishing.
@@ -237,6 +239,10 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # Candidate added 2026-10-26: Public GitHub Sonic Bangla HLS wrapper; check full media segments and geo access.
+        "https://tvstream.space//jtv/ooo.php?c=Sonic_Bangla&q=800&e=junk.m3u8",
+        # Candidate added 2026-10-26: Public SHADHIN-TV list; likely ISP-only, do not publish unless verified non-BDIX.
+        "http://103.102.27.173:84/SONIC-BANGLA/tracks-v1a1/mono.m3u8",
         # New independently named public candidate (2026-10-25); audit only, never auto-replace a user pin.
         "http://mxonlive-restream.atwebpages.com/opplex/x1.php/149127.m3u8",
         # Publicly named new-source trials (2026-10-25); verify HLS segment bytes and identity before publishing.
