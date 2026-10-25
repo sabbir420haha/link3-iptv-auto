@@ -1,0 +1,14 @@
+#EXTM3U
+# Cartoon VOD - actual MP4 videos (on-demand), NOT live TV channels.
+# These are Creative Commons Blender animated films/samples, NOT Gopal Bhar/Tom Jerry/Bantul/Mr Bean/Ninja Hattori/Shinchan.
+# Full MP4 plays from beginning on demand; sample entries are short clips, not entire episodes.
+# 4 links passed HTTP Range and MP4 ftyp signature checks from GitHub (not yet Link3 IPTV Pro).
+# (c) Blender Foundation, https://www.blender.org - films CC-BY 3.0, keep original credit rolls.
+#EXTINF:-1 tvg-id="cartoon-vod-01" tvg-name="Big Buck Bunny - Full Movie (W3C)" group-title="CARTOON VOD | Full Episodes",Big Buck Bunny - Full Movie (W3C)
+https://media.w3.org/2010/05/bunny/movie.mp4
+#EXTINF:-1 tvg-id="cartoon-vod-02" tvg-name="Big Buck Bunny - 10s Video Test" group-title="CARTOON VOD | Short Test Clips",Big Buck Bunny - 10s Video Test
+https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_1MB.mp4
+#EXTINF:-1 tvg-id="cartoon-vod-03" tvg-name="Big Buck Bunny - Short Intro" group-title="CARTOON VOD | Short Test Clips",Big Buck Bunny - Short Intro
+https://www.w3schools.com/html/mov_bbb.mp4
+#EXTINF:-1 tvg-id="cartoon-vod-04" tvg-name="Sintel - 10s Video Sample" group-title="CARTOON VOD | Short Test Clips",Sintel - 10s Video Sample
+https://test-videos.co.uk/vids/sintel/mp4/h264/720/Sintel_720_10s_2MB.mp4
