@@ -1,44 +1,31 @@
 #EXTM3U
-# Cartoon VOD - genuine 19 MP4 sources; 4 previously user-confirmed and 15 newly HTTP-verified via GitHub.
-# All films are Blender Foundation open movies (CC BY attribution) or short samples, not commercial cartoon episodes.
-# 19 unique MP4 source URLs; includes backup encodes and short clips; user requested serials remain unavailable.
-# New sources passed HTTP byte-range MP4 signature test; user Link3 playback only established for original four.
-# Copyright Blender Foundation / Blender Studio; keep credits intact. No change to saved short URL.
-#EXTINF:-1 tvg-id="cartoon-vod-01" tvg-name="Big Buck Bunny - Full Movie (W3C)" group-title="CARTOON VOD | Full Episodes",Big Buck Bunny - Full Movie (W3C)
-https://media.w3.org/2010/05/bunny/movie.mp4
-#EXTINF:-1 tvg-id="cartoon-vod-02" tvg-name="Big Buck Bunny - 10s Video Test" group-title="CARTOON VOD | Short Test Clips",Big Buck Bunny - 10s Video Test
-https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_1MB.mp4
-#EXTINF:-1 tvg-id="cartoon-vod-03" tvg-name="Big Buck Bunny - Short Intro" group-title="CARTOON VOD | Short Test Clips",Big Buck Bunny - Short Intro
-https://www.w3schools.com/html/mov_bbb.mp4
-#EXTINF:-1 tvg-id="cartoon-vod-04" tvg-name="Sintel - 10s Video Sample" group-title="CARTOON VOD | Short Test Clips",Sintel - 10s Video Sample
-https://test-videos.co.uk/vids/sintel/mp4/h264/720/Sintel_720_10s_2MB.mp4
-#EXTINF:-1 tvg-id="cartoon-vod-05" tvg-name="Caminandes 1 - Llama Drama (Full)" group-title="CARTOON VOD | Full Movies",Caminandes 1 - Llama Drama (Full)
-https://archive.org/download/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4
-#EXTINF:-1 tvg-id="cartoon-vod-06" tvg-name="Caminandes 2 - Gran Dillama (Full)" group-title="CARTOON VOD | Full Movies",Caminandes 2 - Gran Dillama (Full)
-https://archive.org/download/Caminandes2GranDillama/02_gran_dillama_1080p.mp4
-#EXTINF:-1 tvg-id="cartoon-vod-07" tvg-name="Caminandes 3 - Llamigos (Full)" group-title="CARTOON VOD | Full Movies",Caminandes 3 - Llamigos (Full)
-https://archive.org/download/CaminandesLlamigos/Caminandes_%20Llamigos-1080p.mp4
-#EXTINF:-1 tvg-id="cartoon-vod-08" tvg-name="Sintel - Full Animated Movie" group-title="CARTOON VOD | Full Movies",Sintel - Full Animated Movie
-https://archive.org/download/Sintel/sintel-2048-stereo_512kb.mp4
-#EXTINF:-1 tvg-id="cartoon-vod-09" tvg-name="Cosmos Laundromat - First Cycle (Full)" group-title="CARTOON VOD | Full Movies",Cosmos Laundromat - First Cycle (Full)
-https://archive.org/download/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20%281080p%29.mp4
-#EXTINF:-1 tvg-id="cartoon-vod-10" tvg-name="Glass Half - Full Animated Short" group-title="CARTOON VOD | Full Movies",Glass Half - Full Animated Short
-https://archive.org/download/GlassHalf1080p/Glass%20Half-1080p.mp4
-#EXTINF:-1 tvg-id="cartoon-vod-11" tvg-name="Spring - Full Animated Movie" group-title="CARTOON VOD | Full Movies",Spring - Full Animated Movie
-https://archive.org/download/springopenmovie/springopenmovie.mp4
-#EXTINF:-1 tvg-id="cartoon-vod-12" tvg-name="Hero - Full Animated Short" group-title="CARTOON VOD | Full Movies",Hero - Full Animated Short
-https://archive.org/download/hero_20260106/hero.mp4
-#EXTINF:-1 tvg-id="cartoon-vod-13" tvg-name="Sprite Fright - Full Animated Movie (PG - Scary)" group-title="CARTOON VOD | PG - Scary",Sprite Fright - Full Animated Movie (PG - Scary)
-https://archive.org/download/sprite-fright-2021/Sprite%20Fright%20%282021%29.mp4
-#EXTINF:-1 tvg-id="cartoon-vod-14" tvg-name="Agent 327 - Operation Barbershop (Full)" group-title="CARTOON VOD | Full Movies",Agent 327 - Operation Barbershop (Full)
-https://archive.org/download/agent327operationbarbershop/agent327-1080.mp4
-#EXTINF:-1 tvg-id="cartoon-vod-15" tvg-name="Charge - Full Animated Short" group-title="CARTOON VOD | Full Movies",Charge - Full Animated Short
-https://archive.org/download/charge_202601/Charge.mp4
-#EXTINF:-1 tvg-id="cartoon-vod-16" tvg-name="Coffee Run - Full Animated Short" group-title="CARTOON VOD | Full Movies",Coffee Run - Full Animated Short
-https://archive.org/download/coffee-run/Coffee%20Run.mp4
-#EXTINF:-1 tvg-id="cartoon-vod-17" tvg-name="Elephants Dream - Full Animated Movie" group-title="CARTOON VOD | Full Movies",Elephants Dream - Full Animated Movie
-https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4
-#EXTINF:-1 tvg-id="cartoon-vod-18" tvg-name="Big Buck Bunny - Archive Full Movie (Backup)" group-title="CARTOON VOD | Backup URLs",Big Buck Bunny - Archive Full Movie (Backup)
-https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
-#EXTINF:-1 tvg-id="cartoon-vod-19" tvg-name="Caminandes 3 - Direct MP4 Backup 480p" group-title="CARTOON VOD | Backup URLs",Caminandes 3 - Direct MP4 Backup 480p
-https://fernandoruizrico.com/examples/test-media/video/caminandes-llamigos/caminandes_llamigos_480p.mp4
+# ONLY six user-requested cartoon series, no unrelated Blender, test clips or movies.
+# IMPORTANT: source URLs are OFFICIAL or listed VIDEO VIEWING WEB PAGES, not direct MP4/m3u8 streams!
+# IPTV Pro cannot necessarily play these webpage links; NOT a working direct-media VOD playlist.
+# No copyrighted video has been rehosted, no subscriber access or DRM bypass attempted.
+# Hindi audio NOT confirmed on two Mr Bean Hindi-labelled uploader videos; Shinchan and Ninja Hattori providers list Hindi.
+# Some episode pages may require OTT login, payment, geo access or open externally.
+#EXTINF:-1 tvg-id="six-cartoons-01" tvg-name="Gopal Bhar - Ghosts' Revenge - Sony AATH Full Episode" group-title="01 | Gopal Bhar - Bangla",Gopal Bhar - Ghosts' Revenge - Sony AATH Full Episode
+https://www.youtube.com/watch?v=R3h1E9RSmQc
+#EXTINF:-1 tvg-id="six-cartoons-02" tvg-name="Gopal Bhar - Amrit Prabhu - Double Gopal Full Episode" group-title="01 | Gopal Bhar - Bangla",Gopal Bhar - Amrit Prabhu - Double Gopal Full Episode
+https://www.youtube.com/watch?v=ZtyGOl3xjMY
+#EXTINF:-1 tvg-id="six-cartoons-03" tvg-name="Tom and Jerry Singapore - Full Episodes 1 to 4" group-title="02 | Tom & Jerry",Tom and Jerry Singapore - Full Episodes 1 to 4
+https://www.youtube.com/watch?v=vcRorKK_uBM
+#EXTINF:-1 tvg-id="six-cartoons-04" tvg-name="Tom and Jerry Singapore - Full Episodes 1 to 6" group-title="02 | Tom & Jerry",Tom and Jerry Singapore - Full Episodes 1 to 6
+https://www.youtube.com/watch?v=3YHO81QWQmU
+#EXTINF:-1 tvg-id="six-cartoons-05" tvg-name="Bantul The Great - Bengali Episode 469" group-title="03 | Bantul the Great - Bangla",Bantul The Great - Bengali Episode 469
+https://www.zee5.com/tv-shows/details/bantul-the-great/0-6-231/hobohati-v-s-bantul-bantul-the-great/0-1-manual_1miti6k83qpo
+#EXTINF:-1 tvg-id="six-cartoons-06" tvg-name="Bantul The Great - Bengali Episode 470" group-title="03 | Bantul the Great - Bangla",Bantul The Great - Bengali Episode 470
+https://www.zee5.com/tvshows/details/bantul-the-great/0-6-231/the-mysterious-disappearance-of-prince-surya-bantul-the-great/0-1-manual_3dchgga9od2g
+#EXTINF:-1 tvg-id="six-cartoons-07" tvg-name="Mr Bean Animated - Hindi-labelled Collection 26" group-title="04 | Mr Bean Animated - Hindi CLAIMED",Mr Bean Animated - Hindi-labelled Collection 26
+https://www.youtube.com/watch?v=kZWBWB0P-m8
+#EXTINF:-1 tvg-id="six-cartoons-08" tvg-name="Mr Bean Animated - Hindi-labelled Collection 56" group-title="04 | Mr Bean Animated - Hindi CLAIMED",Mr Bean Animated - Hindi-labelled Collection 56
+https://www.youtube.com/watch?v=gaFFt035upw
+#EXTINF:-1 tvg-id="six-cartoons-09" tvg-name="Ninja Hattori Hindi - Classic S2 Episode 23" group-title="05 | Ninja Hattori - Hindi option",Ninja Hattori Hindi - Classic S2 Episode 23
+https://www.tataplaybinge.com/watch/tv-shows/ninja-hattori-classic-s2-e23-name-your-identity/3270138
+#EXTINF:-1 tvg-id="six-cartoons-10" tvg-name="Ninja Hattori Hindi - New S4 Episode 5" group-title="05 | Ninja Hattori - Hindi option",Ninja Hattori Hindi - New S4 Episode 5
+https://www.tataplaybinge.com/watch/tv-shows/ninja-hattori-new-s4-e5-smoke-signal-ninja-technique/3293465
+#EXTINF:-1 tvg-id="six-cartoons-11" tvg-name="Shinchan Hindi - Sony YAY Episode 31" group-title="06 | Shinchan - Hindi option",Shinchan Hindi - Sony YAY Episode 31
+https://www.jiotv.com/live-channel/sony-yay-hindi/872/sony-yay-hindi/episode-31/260803872087
+#EXTINF:-1 tvg-id="six-cartoons-12" tvg-name="Shinchan Hindi - Season 15 Episodes (select Hindi)" group-title="06 | Shinchan - Hindi option",Shinchan Hindi - Season 15 Episodes (select Hindi)
+https://www.tataplaybinge.com/watch/shows/shin-chan/3483
