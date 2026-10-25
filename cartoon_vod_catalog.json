@@ -34,34 +34,54 @@
   ],
   "free_cartoons_demo": [
     {
-      "title": "Big Buck Bunny - Complete Short Film",
+      "title": "Big Buck Bunny - Full Movie (Google Media Demo)",
       "series": "Blender Open Films",
       "episode": "01",
-      "language": "mostly without dialogue",
-      "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-      "license": "CC-BY-3.0, Blender Foundation; preserve credits",
-      "credit": "(c) 2008 Blender Foundation / www.bigbuckbunny.org",
+      "language": "No dialogue",
+      "url": "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "license": "Blender Foundation CC-BY 3.0; preserve film credits",
+      "credit": "(c) Blender Foundation / www.bigbuckbunny.org",
       "source": "https://peach.blender.org/about/"
     },
     {
-      "title": "Caminandes - Gran Dillama",
-      "series": "Caminandes",
-      "episode": "01",
-      "language": "mostly without dialogue",
-      "url": "https://video.blender.org/static/webseed/fb70d459-48d2-4db5-adba-813c84f9200a-720.mp4",
-      "license": "CC-BY-SA-3.0 as indicated by Blender work; preserve credit",
-      "credit": "Blender Foundation",
-      "source": "https://studio.blender.org/projects/caminandes-2/"
+      "title": "Big Buck Bunny - Full Movie (W3C)",
+      "series": "Blender Open Films",
+      "episode": "02",
+      "language": "No dialogue",
+      "url": "https://media.w3.org/2010/05/bunny/movie.mp4",
+      "license": "Blender Foundation CC-BY 3.0; preserve film credits",
+      "credit": "(c) Blender Foundation / www.bigbuckbunny.org",
+      "source": "https://peach.blender.org/about/"
     },
     {
-      "title": "Caminandes - Llamigos",
-      "series": "Caminandes",
+      "title": "Big Buck Bunny - 10s Video Test",
+      "series": "Blender Sample Clips",
+      "episode": "01",
+      "language": "No dialogue",
+      "url": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_1MB.mp4",
+      "license": "CC-BY original Blender movie, preserve attribution",
+      "credit": "(c) Blender Foundation / www.bigbuckbunny.org",
+      "source": "https://peach.blender.org/about/"
+    },
+    {
+      "title": "Big Buck Bunny - Short Intro",
+      "series": "Blender Sample Clips",
       "episode": "02",
-      "language": "mostly without dialogue",
-      "url": "https://video.blender.org/static/webseed/23f3ef79-15dc-44c5-aa45-cf92e78a4509-720.mp4",
-      "license": "Blender open movie Creative Commons, preserve credits",
+      "language": "No dialogue",
+      "url": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "license": "CC-BY original Blender movie, preserve attribution",
+      "credit": "(c) Blender Foundation / www.bigbuckbunny.org",
+      "source": "https://peach.blender.org/about/"
+    },
+    {
+      "title": "Sintel - 10s Video Sample",
+      "series": "Blender Sample Clips",
+      "episode": "03",
+      "language": "English",
+      "url": "https://test-videos.co.uk/vids/sintel/mp4/h264/720/Sintel_720_10s_2MB.mp4",
+      "license": "Sintel CC-BY 3.0 from Blender Foundation; preserve credits",
       "credit": "Blender Foundation",
-      "source": "https://studio.blender.org/films/"
+      "source": "https://durian.blender.org/about/"
     }
   ],
   "security": "Do not put private IPTV credentials, subscription tokens or proprietary episode links into a public GitHub repo.",
