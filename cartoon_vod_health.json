@@ -1,32 +1,56 @@
 {
-  "utc": "2026-10-25T05:37:07.846264+00:00",
-  "total": 3,
-  "playable_mp4_signatures": 0,
+  "utc": "2026-10-25T05:37:26.788526+00:00",
+  "total": 5,
+  "playable_mp4_signatures": 4,
   "warning": "GitHub server MP4 byte signature checked only; IPTV Pro and Link3 playback not established.",
   "results": [
     {
-      "title": "Big Buck Bunny - Complete Short Film",
-      "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+      "title": "Big Buck Bunny - Full Movie (Google Media Demo)",
+      "url": "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
       "http_ok": false,
       "bytes_ok": false,
       "content_type": null,
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 403: Forbidden"
     },
     {
-      "title": "Caminandes - Gran Dillama",
-      "url": "https://video.blender.org/static/webseed/fb70d459-48d2-4db5-adba-813c84f9200a-720.mp4",
-      "http_ok": false,
-      "bytes_ok": false,
-      "content_type": null,
-      "error": "HTTP Error 404: Not Found"
+      "title": "Big Buck Bunny - Full Movie (W3C)",
+      "url": "https://media.w3.org/2010/05/bunny/movie.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
     },
     {
-      "title": "Caminandes - Llamigos",
-      "url": "https://video.blender.org/static/webseed/23f3ef79-15dc-44c5-aa45-cf92e78a4509-720.mp4",
-      "http_ok": false,
-      "bytes_ok": false,
-      "content_type": null,
-      "error": "HTTP Error 404: Not Found"
+      "title": "Big Buck Bunny - 10s Video Test",
+      "url": "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_1MB.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
+    },
+    {
+      "title": "Big Buck Bunny - Short Intro",
+      "url": "https://www.w3schools.com/html/mov_bbb.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
+    },
+    {
+      "title": "Sintel - 10s Video Sample",
+      "url": "https://test-videos.co.uk/vids/sintel/mp4/h264/720/Sintel_720_10s_2MB.mp4",
+      "http_ok": true,
+      "bytes_ok": true,
+      "content_type": "video/mp4",
+      "error": null,
+      "status_code": 206,
+      "sample_size": 4096
     }
   ]
 }
