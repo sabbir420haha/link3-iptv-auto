@@ -34,10 +34,27 @@ def main():
          "# Full movie and 10-sec samples are labelled separately, never misleadingly as requested cartoons."]
     seen=set()
     records=[]
-    # Example assets are published only after remote media signature checks.
-    for episode in catalog["free_cartoons_demo"]:
-        if episode["url"] in approved_samples:
-            records.append((episode,"CARTOON VOD | Full Movies" if "Full Movie" in episode["title"] else "CARTOON VOD | Test Clips"))
+    # Preserve the same first four videos that were confirmed on Link3.
+    pinned=("Big Buck Bunny - Full Movie (W3C)", "Big Buck Bunny - 10s Video Test",
+            "Big Buck Bunny - Short Intro", "Sintel - 10s Video Sample")
+    items=catalog["free_cartoons_demo"]
+    items=sorted(items, key=lambda item: (0,pinned.index(item["title"])) if item["title"] in pinned else (1,catalog["free_cartoons_demo"].index(item)))
+    for episode in items:
+        if episode["url"] not in approved_samples:
+            continue
+        name=episode["title"]
+        if "Backup" in name:
+            group="CARTOON VOD | Backup URLs"
+        elif "PG - Scary" in name:
+            group="CARTOON VOD | PG - Scary"
+        elif "Full" in name or "Operation Barbershop" in name:
+            group="CARTOON VOD | Full Movies"
+        else:
+            group="CARTOON VOD | Short Clips"
+        records.append((episode,group))
+    for required in pinned:
+        if not any(ep["title"]==required for ep,_ in records):
+            raise ValueError("Missing previously working VOD episode: "+required)
     for show in catalog["requested_series"]:
         lang_req=show["required_language"]
         for ep in show["episodes"]:
