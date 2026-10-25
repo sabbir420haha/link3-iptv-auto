@@ -1,0 +1,48 @@
+name: Verify expanded Cartoon VOD and same short URL
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/verify-cartoon-vod.yml
+      - cartoon_vod.m3u
+      - cartoon_vod_build.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check VOD entry integrity and short URL redirect
+        run: |
+          python - <<'PY'
+          import urllib.request
+          from pathlib import Path
+          data=Path("cartoon_vod.m3u").read_bytes()
+          assert data.startswith(b"#EXTM3U\n"),"Missing M3U header"
+          lines=data.decode().splitlines()
+          idxs=[i for i,v in enumerate(lines) if v.startswith("#EXTINF:")]
+          assert len(idxs)==19, f"Expected 19 VOD records, got {len(idxs)}"
+          urls=[lines[i+1] for i in idxs]
+          assert len(urls)==len(set(urls)),"Duplicate VOD sources"
+          assert all(u.startswith("https://") and u.split("?")[0].endswith(".mp4") for u in urls),"Non-direct MP4"
+          old=["https://media.w3.org/2010/05/bunny/movie.mp4",
+               "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_1MB.mp4",
+               "https://www.w3schools.com/html/mov_bbb.mp4",
+               "https://test-videos.co.uk/vids/sintel/mp4/h264/720/Sintel_720_10s_2MB.mp4"]
+          assert urls[:4]==old,"Original four changed"
+          public="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/cartoon_vod.m3u"
+          short="https://is.gd/bdcartoonvod26"
+          for label,u in [("ORIGINAL",public),("SHORT",short)]:
+            request=urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"})
+            with urllib.request.urlopen(request,timeout=30) as response:
+              remote=response.read()
+              print(label,"resolved_to",response.geturl(),"bytes",len(remote))
+            assert remote==data,f"{label} URL does not yet match new M3U (possible caching)"
+          print("PASS: 19 separate MP4 entries; original four preserved; SAME short URL works")
+          PY
