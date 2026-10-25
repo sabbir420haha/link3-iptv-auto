@@ -14,6 +14,18 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-10-26 newly sourced from public GitHub M3U labels; probe-only.
+    # These hosts are not assumed non-BDIX or authorized, and channel identity,
+    # audio language and HD must all be independently confirmed before use.
+    {"channel":"Disney HD Hindi","url":"https://allinonereborn.tech/doordarshan.m3u8?id=634",
+     "evidence":"github.com/Junan02/bdiptvtest all unfiltered.m3u; explicitly DISNEY HINDI HD, identity/720p unconfirmed",
+     "expected_audio":"hi","min_height":720},
+    {"channel":"Sonic Hindi","url":"https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/tiptop-op.m3u8?id=1134",
+     "evidence":"github.com/StarFlixofficial/Personal-File Himel op 2; explicitly Sonic Hindi",
+     "expected_audio":"hi"},
+    {"channel":"Sonic Bangla","url":"https://fifabangladesh.live/@RANAPKX73/stream.m3u8?id=1345&e=.m3u8",
+     "evidence":"github.com/joyesh24/ip.m3u ip.m3u; explicitly Sonic Bangla ID 1345",
+     "expected_audio":"bn"},
     # 2026-10-25 fresh public source-backed, read-only HLS/audio probes.
     {"channel":"Disney HD Hindi","url":"https://fifabd.xyz/KIDxRANAPK/play.m3u8?id=167551","evidence":"github.com/BahyOsama/marioo dd.m3u; Disney India 167551 source, not verified Hindi/HD","expected_audio":"hi","min_height":720},
     {"channel":"Disney HD Hindi","url":"https://fifabd.xyz/KID/play.m3u8?id=167551","evidence":"github.com/Mpdishtv/MPDISHTV README.md; Disney Hindi 167551, HD unverified","expected_audio":"hi","min_height":720},
