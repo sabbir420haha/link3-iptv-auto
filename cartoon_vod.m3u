@@ -1,9 +1,9 @@
 #EXTM3U
-# Cartoon VOD - actual MP4 videos (on-demand), NOT live TV channels.
-# These are Creative Commons Blender animated films/samples, NOT Gopal Bhar/Tom Jerry/Bantul/Mr Bean/Ninja Hattori/Shinchan.
-# Full MP4 plays from beginning on demand; sample entries are short clips, not entire episodes.
-# 4 links passed HTTP Range and MP4 ftyp signature checks from GitHub (not yet Link3 IPTV Pro).
-# (c) Blender Foundation, https://www.blender.org - films CC-BY 3.0, keep original credit rolls.
+# Cartoon VOD - genuine 19 MP4 sources; 4 previously user-confirmed and 15 newly HTTP-verified via GitHub.
+# All films are Blender Foundation open movies (CC BY attribution) or short samples, not commercial cartoon episodes.
+# 19 unique MP4 source URLs; includes backup encodes and short clips; user requested serials remain unavailable.
+# New sources passed HTTP byte-range MP4 signature test; user Link3 playback only established for original four.
+# Copyright Blender Foundation / Blender Studio; keep credits intact. No change to saved short URL.
 #EXTINF:-1 tvg-id="cartoon-vod-01" tvg-name="Big Buck Bunny - Full Movie (W3C)" group-title="CARTOON VOD | Full Episodes",Big Buck Bunny - Full Movie (W3C)
 https://media.w3.org/2010/05/bunny/movie.mp4
 #EXTINF:-1 tvg-id="cartoon-vod-02" tvg-name="Big Buck Bunny - 10s Video Test" group-title="CARTOON VOD | Short Test Clips",Big Buck Bunny - 10s Video Test
@@ -12,3 +12,33 @@ https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/720/Big_Buck_Bunny_720_10s_
 https://www.w3schools.com/html/mov_bbb.mp4
 #EXTINF:-1 tvg-id="cartoon-vod-04" tvg-name="Sintel - 10s Video Sample" group-title="CARTOON VOD | Short Test Clips",Sintel - 10s Video Sample
 https://test-videos.co.uk/vids/sintel/mp4/h264/720/Sintel_720_10s_2MB.mp4
+#EXTINF:-1 tvg-id="cartoon-vod-05" tvg-name="Caminandes 1 - Llama Drama (Full)" group-title="CARTOON VOD | Full Movies",Caminandes 1 - Llama Drama (Full)
+https://archive.org/download/Caminandes1LlamaDrama/01_llama_drama_1080p.mp4
+#EXTINF:-1 tvg-id="cartoon-vod-06" tvg-name="Caminandes 2 - Gran Dillama (Full)" group-title="CARTOON VOD | Full Movies",Caminandes 2 - Gran Dillama (Full)
+https://archive.org/download/Caminandes2GranDillama/02_gran_dillama_1080p.mp4
+#EXTINF:-1 tvg-id="cartoon-vod-07" tvg-name="Caminandes 3 - Llamigos (Full)" group-title="CARTOON VOD | Full Movies",Caminandes 3 - Llamigos (Full)
+https://archive.org/download/CaminandesLlamigos/Caminandes_%20Llamigos-1080p.mp4
+#EXTINF:-1 tvg-id="cartoon-vod-08" tvg-name="Sintel - Full Animated Movie" group-title="CARTOON VOD | Full Movies",Sintel - Full Animated Movie
+https://archive.org/download/Sintel/sintel-2048-stereo_512kb.mp4
+#EXTINF:-1 tvg-id="cartoon-vod-09" tvg-name="Cosmos Laundromat - First Cycle (Full)" group-title="CARTOON VOD | Full Movies",Cosmos Laundromat - First Cycle (Full)
+https://archive.org/download/CosmosLaundromatFirstCycle/Cosmos%20Laundromat%20-%20First%20Cycle%20%281080p%29.mp4
+#EXTINF:-1 tvg-id="cartoon-vod-10" tvg-name="Glass Half - Full Animated Short" group-title="CARTOON VOD | Full Movies",Glass Half - Full Animated Short
+https://archive.org/download/GlassHalf1080p/Glass%20Half-1080p.mp4
+#EXTINF:-1 tvg-id="cartoon-vod-11" tvg-name="Spring - Full Animated Movie" group-title="CARTOON VOD | Full Movies",Spring - Full Animated Movie
+https://archive.org/download/springopenmovie/springopenmovie.mp4
+#EXTINF:-1 tvg-id="cartoon-vod-12" tvg-name="Hero - Full Animated Short" group-title="CARTOON VOD | Full Movies",Hero - Full Animated Short
+https://archive.org/download/hero_20260106/hero.mp4
+#EXTINF:-1 tvg-id="cartoon-vod-13" tvg-name="Sprite Fright - Full Animated Movie (PG - Scary)" group-title="CARTOON VOD | PG - Scary",Sprite Fright - Full Animated Movie (PG - Scary)
+https://archive.org/download/sprite-fright-2021/Sprite%20Fright%20%282021%29.mp4
+#EXTINF:-1 tvg-id="cartoon-vod-14" tvg-name="Agent 327 - Operation Barbershop (Full)" group-title="CARTOON VOD | Full Movies",Agent 327 - Operation Barbershop (Full)
+https://archive.org/download/agent327operationbarbershop/agent327-1080.mp4
+#EXTINF:-1 tvg-id="cartoon-vod-15" tvg-name="Charge - Full Animated Short" group-title="CARTOON VOD | Full Movies",Charge - Full Animated Short
+https://archive.org/download/charge_202601/Charge.mp4
+#EXTINF:-1 tvg-id="cartoon-vod-16" tvg-name="Coffee Run - Full Animated Short" group-title="CARTOON VOD | Full Movies",Coffee Run - Full Animated Short
+https://archive.org/download/coffee-run/Coffee%20Run.mp4
+#EXTINF:-1 tvg-id="cartoon-vod-17" tvg-name="Elephants Dream - Full Animated Movie" group-title="CARTOON VOD | Full Movies",Elephants Dream - Full Animated Movie
+https://archive.org/download/ElephantsDream/ed_1024_512kb.mp4
+#EXTINF:-1 tvg-id="cartoon-vod-18" tvg-name="Big Buck Bunny - Archive Full Movie (Backup)" group-title="CARTOON VOD | Backup URLs",Big Buck Bunny - Archive Full Movie (Backup)
+https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4
+#EXTINF:-1 tvg-id="cartoon-vod-19" tvg-name="Caminandes 3 - Direct MP4 Backup 480p" group-title="CARTOON VOD | Backup URLs",Caminandes 3 - Direct MP4 Backup 480p
+https://fernandoruizrico.com/examples/test-media/video/caminandes-llamigos/caminandes_llamigos_480p.mp4
