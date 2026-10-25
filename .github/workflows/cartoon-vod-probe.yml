@@ -1,0 +1,41 @@
+name: Validate Cartoon VOD MP4 Sources
+on:
+  push:
+    branches: [main]
+    paths:
+      - cartoon_vod_probe.py
+      - .github/workflows/cartoon-vod-probe.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cartoon-vod-source-test
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test HTTP byte ranges without downloading whole films
+        run: |
+          python -m py_compile cartoon_vod_probe.py
+          python cartoon_vod_probe.py
+      - name: Save source verification report only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add cartoon_vod_health.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Save cartoon VOD MP4 sample availability status'
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git fetch origin main
+              git rebase -X theirs origin/main
+              sleep 2
+            done
+            exit 1
+          fi
