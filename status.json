@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-25T18:56:12.737978+00:00",
+  "updated_utc": "2026-10-25T23:46:24.195503+00:00",
   "channels": 77,
   "target_channels": 99,
   "groups": {
@@ -447,7 +447,7 @@
     },
     {
       "source": "SM-IPTV",
-      "count": 389,
+      "count": 384,
       "error": null
     },
     {
@@ -492,12 +492,12 @@
     },
     {
       "source": "updated-Hindi-streams",
-      "count": 321,
+      "count": 287,
       "error": null
     },
     {
       "source": "updated-Hindi-top",
-      "count": 182,
+      "count": 166,
       "error": null
     },
     {
@@ -1234,7 +1234,7 @@
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-10-25T18:56:24.795694+00:00",
+    "updated_utc": "2026-10-25T23:46:35.386483+00:00",
     "channel_count": 25,
     "entries": 576,
     "by_name": {
