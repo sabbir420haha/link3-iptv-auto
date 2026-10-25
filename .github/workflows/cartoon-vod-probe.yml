@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - cartoon_vod_probe.py
+      - cartoon_vod_catalog.json
       - .github/workflows/cartoon-vod-probe.yml
   workflow_dispatch:
 permissions:
