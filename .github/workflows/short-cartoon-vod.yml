@@ -1,0 +1,64 @@
+name: Create verified short Cartoon VOD URL
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/short-cartoon-vod.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  shorten:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - name: Shorten public playlist URL and validate the exact M3U destination
+        env:
+          ORIGINAL: https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/cartoon_vod.m3u
+        run: |
+          python - <<'PY'
+          import os,urllib.request,urllib.parse,time
+          original=os.environ["ORIGINAL"]
+          req=lambda url:urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0","Accept":"*/*"})
+          expected=urllib.request.urlopen(req(original),timeout=20).read()
+          assert expected.startswith(b"#EXTM3U") and expected.count(b"#EXTINF:")>=4, "Bad origin playlist"
+          attempts=[
+            "https://is.gd/create.php?"+urllib.parse.urlencode({"format":"simple","url":original,"shorturl":"bdcartoonvod26"}),
+            "https://is.gd/create.php?"+urllib.parse.urlencode({"format":"simple","url":original}),
+            "https://tinyurl.com/api-create.php?"+urllib.parse.urlencode({"url":original})
+          ]
+          errors=[]
+          for endpoint in attempts:
+            try:
+              short=urllib.request.urlopen(req(endpoint),timeout=25).read().decode("utf-8","replace").strip()
+              if short.startswith("http://"):
+                short="https://"+short.removeprefix("http://")
+              if not short.startswith("https://") or len(short)>75:
+                raise ValueError("Invalid API response: "+short[:150])
+              time.sleep(1)
+              actual=urllib.request.urlopen(req(short),timeout=25).read()
+              if actual != expected: raise ValueError("Short URL does not resolve to EXACT expected M3U content")
+              with open("cartoon_vod_short_url.txt","w") as f:
+                f.write(short+"\n"+"verified_against="+original+"\n")
+              print("VERIFIED_SHORT_URL="+short)
+              break
+            except Exception as e:
+              errors.append(str(e))
+              print("Attempt failed:",str(e)[:300])
+          else:
+            raise SystemExit("No valid shortened link. "+"; ".join(errors))
+          PY
+      - name: Commit only verified shortened URL
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add cartoon_vod_short_url.txt
+          git commit -m 'Record verified public short VOD playlist URL'
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git fetch origin main
+            git rebase -X theirs origin/main
+            sleep 2
+          done
+          exit 1
