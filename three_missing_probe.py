@@ -89,6 +89,12 @@ CANDIDATES = [
      "url":"http://198.195.239.50:8095/sonic/index.m3u8",
      "evidence":"github.com/stablesports711-hue/stable-sports-iptv STABLE-SPORTS TV.m3u; explicitly Sonic Bangla, outside BD IP; header possibly needed",
      "expected_audio":"bn"},
+    # 2026-10-25: additional public-source candidates, probe-only; preserve user pins.
+    {"channel":"Disney HD Hindi","url":"http://port.denver1769.in/ulpl2.php?tv=4538","evidence":"github.com/mahenkpatel/m3u mahendra.m3u; Disney Channel HD label, India/Hindi unconfirmed","expected_audio":"hi","min_height":720},
+    {"channel":"Sonic Hindi","url":"https://tamilultra.tv/api/jiotv.m3u8?id=815","evidence":"github.com/khankimagi23221/okk-1 kids.m3u; Sonic Hindi ID 815, published referer","expected_audio":"hi"},
+    {"channel":"Sonic Bangla","url":"https://tamilultra.tv/api/jiotv.m3u8?id=1345","evidence":"github.com/khankimagi23221/okk-1 kids.m3u; Sonic Bangla ID 1345, published referer","expected_audio":"bn"},
+    {"channel":"Sonic Hindi","url":"https://tv.001133.xyz/live/815.m3u8","evidence":"github.com/mahenkpatel/m3u raigarh.m3u; Sonic Hindi ID 815","expected_audio":"hi"},
+    {"channel":"Sonic Bangla","url":"https://playyonogames.in/live.php?id=1345&extension=.m3u8","evidence":"github.com/Shaharum1010/Cartoon-channel-/Shaharum; Sonic Bangla ID 1345, published referer","expected_audio":"bn"},
 ]
 
 def is_media_fragment(data):
