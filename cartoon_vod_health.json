@@ -1,0 +1,32 @@
+{
+  "utc": "2026-10-25T05:36:05.287305+00:00",
+  "total": 3,
+  "playable_mp4_signatures": 0,
+  "warning": "GitHub server MP4 byte signature checked only; IPTV Pro and Link3 playback not established.",
+  "results": [
+    {
+      "title": "Big Buck Bunny - Complete Short Film",
+      "url": "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+      "http_ok": false,
+      "bytes_ok": false,
+      "content_type": null,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "title": "Caminandes - Gran Dillama",
+      "url": "https://video.blender.org/static/webseed/fb70d459-48d2-4db5-adba-813c84f9200a-720.mp4",
+      "http_ok": false,
+      "bytes_ok": false,
+      "content_type": null,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "title": "Caminandes - Llamigos",
+      "url": "https://video.blender.org/static/webseed/23f3ef79-15dc-44c5-aa45-cf92e78a4509-720.mp4",
+      "http_ok": false,
+      "bytes_ok": false,
+      "content_type": null,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}
