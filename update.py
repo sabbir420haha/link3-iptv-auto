@@ -185,6 +185,8 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        # New independently named public candidate (2026-10-25); audit only, never auto-replace a user pin.
+        "https://fifabangladesh2-xyz-ekkj.spidy.online/VHOD/NEW/go.php?id=Sonic_Nickelodeon_voot_MOB",
         # Publicly named new-source trials (2026-10-25); verify HLS segment bytes and identity before publishing.
         "https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=sonic_Hindi&e=.m3u8",
         "https://mini1.allinonereborn.xyz/jiotv-ww192/app/ts_live_815.m3u8",
@@ -235,6 +237,8 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # New independently named public candidate (2026-10-25); audit only, never auto-replace a user pin.
+        "http://mxonlive-restream.atwebpages.com/opplex/x1.php/149127.m3u8",
         # Publicly named new-source trials (2026-10-25); verify HLS segment bytes and identity before publishing.
         "https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=Sonic_Bangla&e=.m3u8",
         "https://serverbackupchannel.xyz/jiotvchannel/app/live/1345/Sonic_Bangla/index.m3u8",
@@ -877,14 +881,20 @@ def main():
             continue
         blocked = set(item.get("exclude_urls", [])) | set(item.get("user_reported_failures", []))
         pin = item.get("last_known_url", "")
-        checked = 0
-        for url in EXTRA_CANDIDATES.get(item["name"], []):
-            if url != pin and url not in blocked and allowed(url) and matches_channel(item, url):
-                audit_tasks.append((item["name"], url))
-                checked += 1
-                if checked >= 8:
-                    break
-        # Rotate/add priority candidates in EXTRA_CANDIDATES to keep the runner audit bounded.
+        # Rotate the audit window every six hours so failures in the first
+        # eight candidates cannot starve the rest of the public source pool.
+        # This never changes the locked main-playlist stream.
+        eligible = list(dict.fromkeys(
+            url for url in EXTRA_CANDIDATES.get(item["name"], [])
+            if url != pin and url not in blocked and allowed(url)
+            and matches_channel(item, url)
+        ))
+        if eligible:
+            window = 8
+            cycle = int(datetime.datetime.now(datetime.timezone.utc).timestamp() // (6 * 3600))
+            start = (cycle * window) % len(eligible)
+            rotated = eligible[start:] + eligible[:start]
+            audit_tasks.extend((item["name"], url) for url in rotated[:window])
     audit_tasks = list(dict.fromkeys(audit_tasks))
     def audit_candidate(pair):
         name, url = pair
