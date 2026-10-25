@@ -472,6 +472,10 @@ def request_headers(uri, cap):
         h["User-Agent"] = "oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1"
     if hostname == "playyonogames.in":
         h["Referer"] = "https://playyonogames.in/"
+    if hostname == "tamilultra.tv":
+        # Public source declares this Referer and browser User-Agent.
+        h["Referer"] = "https://tamilultra.tv/api/"
+        h["User-Agent"] = "Mozilla/5.0 (iPhone; CPU iPhone OS 18_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Mobile/15E148 Safari/604.1"
     if hostname == "app-re.sm-monirul-islam-rs.workers.dev" and "/disny-channel-hindi/" in uri.lower():
         # Public playlist specifies this user agent for the exact Worker URL.
         h["User-Agent"] = "OTT-KING TV 1.0"
