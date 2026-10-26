@@ -1,0 +1,802 @@
+{
+  "date": "2026-10-26",
+  "playlist_path": "three_channel_test.m3u",
+  "count": 57,
+  "unverified": 57,
+  "user_confirmed_sonic": 0,
+  "hungama_unchanged": true,
+  "inputs": {
+    "total": 176,
+    "distinct": 139,
+    "excluded": 82,
+    "selected": 57
+  },
+  "exclusions": [
+    {
+      "url": "http://70.39.83.58:8278/sonichindikdin/playlist.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://jioapi.sports247.eu.org/api/app/live.php?id=815&e=.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "http://'.$ipadd.'/live.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "reason": "invalid_url"
+    },
+    {
+      "url": "http://'.$ipadd.'/autoq.php?c=sonic_Hindi",
+      "reason": "invalid_url"
+    },
+    {
+      "url": "http://jo123.biz/jweb/m3u8.php?c=sonic_Hindi&q=1200&e=.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://editorials-fill-ruled-sudden.trycloudflare.com/app/live.php?id=815&e=.m3u",
+      "reason": "ephemeral_or_mislabel"
+    },
+    {
+      "url": "https://blah-engineers-lady-rpg.trycloudflare.com/app/live.php?id=815&e=.m3u",
+      "reason": "ephemeral_or_mislabel"
+    },
+    {
+      "url": "http://103.168.18.83/zan/app/live.php?id=815&e=.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://exoplayermix.m3u8https://jioplaylist.joinus-apiworker.workers.dev/live.m3u8?id=815",
+      "reason": "ephemeral_or_mislabel"
+    },
+    {
+      "url": "http://mohitweb.zapto.org:7878/live/high/815.m3u8",
+      "reason": "ephemeral_or_mislabel"
+    },
+    {
+      "url": "http://starshare.cc:41000/tuhin12/tuhin12/207",
+      "reason": "protected_or_credentials"
+    },
+    {
+      "url": "https://jiotv.hadinetbd.tech/jio/v1/Sonic_Hindi/Sonic_Hindi/Sonic_Hindi.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://servertvhub.site/jio/app/ts_live_815.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "http://mohitweb.zapto.org:7878/live/815.m3u8",
+      "reason": "ephemeral_or_mislabel"
+    },
+    {
+      "url": "http://202.70.146.135:8000/play/a02t/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://tv.googledrivelinks.com/live.php?c=Sonic_Banglai&q=800&e=.m3u8",
+      "reason": "ephemeral_or_mislabel"
+    },
+    {
+      "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=765200.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://fifabangladesh.live/VHOD/go.php?id=Sonic_Nickelodeon_voot_MOB",
+      "reason": "user_confirmed_failed"
+    },
+    {
+      "url": "https://fifabangladesh2-xyz-ekkj.spidy.online/VHOD/NEW/go.php?id=Sonic_Nickelodeon_voot_MOB",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://prod-ent-live-fa.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "http://116.90.120.149:8000/play/a0cc/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://mini.allinonereborn.fun/jiotv-www/app/ts_live_815.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "http://103.168.18.83:80/zan/app/ts_live_815.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://roll-uzbekistan-single-easily.trycloudflare.com/jiotv/app/ts_live_815.m3u8",
+      "reason": "ephemeral_or_mislabel"
+    },
+    {
+      "url": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://fifabdmob.site/new.php?id=JC_SonicNick/JCHLS/JC_SonicNick-audio_108041_hin=108000-video=662800.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://ultra.sm-monirul.top/SONIC/index.m3u8?token=78f88b9f468ef4d6545b8aa6912dd4acebff343a-a4434d3e0ee063fc48c69269cd2a7dfe-1782494984-1782484184",
+      "reason": "protected_or_credentials"
+    },
+    {
+      "url": "http://172.28.28.54:3255/SONIC/index.m3u8",
+      "reason": "private_network"
+    },
+    {
+      "url": "http://103.151.60.162:2122/play/a02v/index.m3u8?hls",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "http://103.144.89.251:8082/SONIC/index.m3u8?token=46fa9a494d26b0602b497e776a1a33759dd1faaf-bff13b91ccbb775357a08d110aefa099-1777259064-1777248264&remote=no_check_ip",
+      "reason": "protected_or_credentials"
+    },
+    {
+      "url": "http://144.217.70.181:9587/hin2/SONIC/index.m3u8?token=test",
+      "reason": "protected_or_credentials"
+    },
+    {
+      "url": "http://vo01.mohdtv.com:8880/ALLChannels681def1752d7/34641236/55294",
+      "reason": "protected_or_credentials"
+    },
+    {
+      "url": "http://iptv-line.com:8080/dJ7xLGo2x/Z4UJetvQu/8046",
+      "reason": "protected_or_credentials"
+    },
+    {
+      "url": "https://stream.ottplus.live/live/sonic_abr/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+      "reason": "ephemeral_or_mislabel"
+    },
+    {
+      "url": "http://103.135.253.32:8080/SONIC/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "http://103.135.253.32:8080/SONIC-HD/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "http://103.229.254.25:7001/play/a0dl/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://jio.drmlive.au/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://sonamul3535.vercel.app/Sonic-Hindi.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "http://103.136.200.246:8082/Sonic/tracks-v1a1/mono.m3u8",
+      "reason": "user_confirmed_failed"
+    },
+    {
+      "url": "http://103.135.253.32:8080/SONIC-HINDI/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "http://103.135.253.32:8080/Sonic-Hindi/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "http://103.135.253.32:8080/SONIC-HINDI/tracks-v1a1/mono.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "http://66.102.120.18:8000/play/a00p/index.m3u8",
+      "reason": "user_confirmed_failed"
+    },
+    {
+      "url": "http://103.167.255.18:8085/play/a0nf/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://tv.001133.xyz/live/815.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://dai.google.com/linear/hls/event/GPY7RqOrSkmKJ8z1GbVNhg/master.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://drmlive.in/jiocinema/815.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://drmlive.in/voot/web/815.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "http://103.178.78.151:7505/play/a0vu/index.m3u8",
+      "reason": "user_confirmed_failed"
+    },
+    {
+      "url": "http://pkr.cinepex.tv:8278/sonichindikdin/playlist.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://mini.allinonereborn.fun/jiotv-www/app/ts_live_1226.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://apis.nettv.fun/j/live.php?id=815&format=.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "http://103.151.60.162:2122/play/a02v/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://shoebinfo.qzz.io/test/hot.php/Sonic.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://ultra.sm-monirul.top/SONIC/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://app-re.sm-monirul-islam-rs.workers.dev/Sonic/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://app-re.sm-monirul-islam-rs.workers.dev/Sonic-Hindi/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "http://sm-monirul.top/SM/live/sonic.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://drk6xq0vhn.gpcdn.net/live/sonic/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://drk6xq0vhn.gpcdn.net/live/sonic_abr/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://drk6xq0vhn.gpcdn.net/live/sonic_sd_abr/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://drk6xq0vhn.gpcdn.net/live/sonic_hd_abr/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://drk6xq0vhn.gpcdn.net/live/sonic_hindi_abr/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://drk6xq0vhn.gpcdn.net/live/nick_sonic_abr/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://drk6xq0vhn.gpcdn.net/live/nickelodeon_sonic_abr/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://stream.ottplus.live/live/sonic_hd_abr/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://stream.ottplus.live/live/sonic_hindi_abr/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://stream.ottplus.live/live/nickelodeon_sonic_abr/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://stream.ottplus.live/live/nick_sonic_abr/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://stream.ottplus.bd/live/sonic_hindi_abr/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "http://103.135.253.32:8080/NICKELODEON-SONIC/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "http://103.135.253.32:8080/NICK-SONIC/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "http://103.135.253.32:8080/SONIC-TV/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "http://103.135.253.32:8080/SONIC-SD/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://tvsen6.aynaott.com/sonic/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://tvsen6.aynaott.com/sonichindi/index.m3u8",
+      "reason": "remote_known_failed"
+    },
+    {
+      "url": "https://tvsen7.aynaott.com/sonic/index.m3u8",
+      "reason": "remote_known_failed"
+    }
+  ],
+  "channels": [
+    {
+      "number": "001",
+      "url": "http://103.83.80.54:6088/play/a0g4/index.m3u8",
+      "source": "MohammadKobirShah/m3uott suntv.m3u, Sonic Nickelodeon",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "002",
+      "url": "http://38.76.152.22:8000/play/a00p/index.m3u8",
+      "source": "MohammadKobirShah/m3uott suntv.m3u, Sonic Rs1; language unknown",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "003",
+      "url": "http://103.72.101.252:8080/live/815.m3u8",
+      "source": "cancerbikash-oss/01 GitHub code search Sonic Hindi id 815",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "004",
+      "url": "http://103.180.212.191:3500/live/815.m3u8",
+      "source": "https://github.com/badalbd53/Rocket-OTV/blob/62205d0667ab00183841aa4eb0708ce8a786b547/hindi",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "005",
+      "url": "http://103.139.171.5:5001/live.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "source": "https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/jio.m3u",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "006",
+      "url": "http://65.2.4.240/jioo.php?c=sonic_Hindi&q=800&e=.m3u8",
+      "source": "https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/sonuuptvjio.M3U",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "007",
+      "url": "http://14.102.123.50:5001/live/815.m3u8",
+      "source": "https://github.com/BDIXIPTVHUB/BDIXIPTVHUB/blob/a5126363dff0d445641cf71dea9c5571c9733240/jadoo.m3u",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "008",
+      "url": "http://103.153.39.34:8000/play/a04p/index.m3u8",
+      "source": "https://github.com/riyad456/supernetIPTV/blob/f0620b6c8ebc680c5aa0a7eea0d80993c3ea497d/live",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "009",
+      "url": "http://103.185.24.134:3001/SONIC/index.m3u8",
+      "source": "https://github.com/iptv-org/iptv/blob/76ddc36c6b7f42520dee6995dd0c0563e11ca823/streams/in.m3u",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "URLError: <urlopen error timed out>",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "010",
+      "url": "http://103.165.93.31:8095/sonic/index.m3u8",
+      "source": "https://github.com/saemon068/smart-app/blob/ab0f43ea9b12a54559cf9fb859269b2f1abc06ea/tata.m3u",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "011",
+      "url": "http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8",
+      "source": "https://github.com/mahmud31132/bdix-tv/blob/79a6443f6a4a1cece0d7bc9f6ac725a61968b715/Don't try",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "URLError: <urlopen error timed out>",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "012",
+      "url": "http://103.140.254.2:3500/live/815.m3u8",
+      "source": "Curated GitHub IPTV stream trial",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "013",
+      "url": "http://103.68.28.58:5001/live/815.m3u8",
+      "source": "Curated GitHub IPTV stream trial",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "URLError: <urlopen error timed out>",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "014",
+      "url": "http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8",
+      "source": "Curated GitHub IPTV stream trial",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "015",
+      "url": "http://103.162.136.235:4500/play/a01k/index.m3u8",
+      "source": "Curated GitHub IPTV stream trial",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "016",
+      "url": "http://live.balajibroadband.com:3500/live/815.m3u8",
+      "source": "eishakilei-bd08/eitv explicit Sonic Hindi",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "017",
+      "url": "https://s2.itcnbd.live/sonic/index.m3u8",
+      "source": "https://github.com/Your-Tribal-Chief/LiveTV/blob/08e32b56cb5beb0932b8fb39f14044f811b56e4e/src/data/channels.ts",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "018",
+      "url": "https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8",
+      "source": "Curated GitHub IPTV stream trial",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "019",
+      "url": "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+      "source": "Curated GitHub IPTV stream trial",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "020",
+      "url": "http://smiletv.live:4110/getm3u8/815/master.m3u8",
+      "source": "https://github.com/sudiptobd2/jio/blob/44dd8fd19189d5dcce79483a86fd050dd5204b38/new",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "021",
+      "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "source": "https://github.com/arshdeep1112/Indian-IPTV/blob/b0735d0c108d4deba9e93dfe1a0293d29a1798dc/channels/iptv_kids.m3u8",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "022",
+      "url": "https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=sonic_Hindi&e=.m3u8",
+      "source": "https://github.com/GhostHostBD/tvlink/blob/048834b8f087d8a1a819c94b18746d3c373412f6/JIO serverbackupchannel",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "023",
+      "url": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "source": "https://github.com/kilirushi/iptv/blob/f8765b54e7b66080201e07d168418e302c672c7d/in.m3u",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "024",
+      "url": "https://livevoot.co.in/voot/master.m3u8?id=Sonic_Nickelodeon_voot_MOB",
+      "source": "https://github.com/mdsirome/LiveTV/blob/fe0d963f4f0adfa53612b3422a8809bafe69f256/DiscoverTV.m3u",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "025",
+      "url": "https://playyonogames.in/jio/app/ts_live_815.m3u8",
+      "source": "https://github.com/spookyhost1/yarr-stremio/blob/750e234dcfa783873c9261504dd9021ef5ee2de6/src/iptv/m3u-sources/in.m3u",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "026",
+      "url": "https://mini.allinonereborn.online/jiotv-ww323/app/ts_live_815.m3u8",
+      "source": "https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/JIOTV.m3u",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "027",
+      "url": "https://mintos.allinonereborn.xyz/jiotv-ww31/app/ts_live_815.m3u8",
+      "source": "https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/jiotvww.m3u",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "028",
+      "url": "https://amit-1.allinonereborn.in/jiotv-ww313/app/ts_live_815.m3u8",
+      "source": "https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/jiotv01.m3u",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "029",
+      "url": "https://mini1.allinonereborn.xyz/jiotv-ww192/app/ts_live_815.m3u8",
+      "source": "https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/jiotvww_rk.m3u",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "030",
+      "url": "https://jcevents.hotstar.com/bpk-tv/JC_SonicNick/JCHLS/JC_SonicNick.m3u8",
+      "source": "https://github.com/Prtstream820894/GitHub/blob/19d22a31f9e45da08ea5cb5afa5dcc318991dc89/pmg.txt",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "031",
+      "url": "https://jcevents.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+      "source": "https://github.com/MohammadKobirShah/KobirIPTV/blob/76c86fc779f652d6ee2a86e96f34aaa902fe4ace/Kobir Mix IpTV.m3u",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "032",
+      "url": "http://mygoodstream.pw/proxy.php/http://70.39.83.58:8278/sonichindikdin/playlist.m3u8",
+      "source": "https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/Sonuiptvfree",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "033",
+      "url": "https://jc.drmlive-01.workers.dev/815.m3u8",
+      "source": "https://github.com/alopoki/yuuuu/blob/b541f1466bb33516754acd62bac2f20f7450725e/api/playlist.php",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "034",
+      "url": "https://jio.instream.ml/jio.php?c=sonic_Hindi&q=600&e=.m3u8",
+      "source": "Curated GitHub IPTV stream trial",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "035",
+      "url": "http://hardcore-keldysh.64-227-150-121.plesk.page:80/getm3u8/815/master.m3u8",
+      "source": "Curated GitHub IPTV stream trial",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "036",
+      "url": "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=815",
+      "source": "Curated GitHub IPTV stream trial",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "037",
+      "url": "https://app-re.sm-monirul-islam-rs.workers.dev/sonic-hindi/index.m3u8",
+      "source": "Curated GitHub IPTV stream trial",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "038",
+      "url": "https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8",
+      "source": "Curated GitHub IPTV stream trial",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "TimeoutError: The read operation timed out",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "039",
+      "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8",
+      "source": "Curated GitHub IPTV stream trial",
+      "group": "08 | SONIC HINDI - Direct URLs",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "040",
+      "url": "https://air2stem.playlivtv.workers.dev/?id=137795",
+      "source": "Mahesh-Bardoliya/tv-2 Sonic Nickelodeon id137795; HLS unverified",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "041",
+      "url": "https://allinonereborn.in/allinone.php?id=39933",
+      "source": "amitfunny/allinone_special_playlist explicit Sonic Nickelodeon",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "042",
+      "url": "https://madplay.live/jiotv/app/live/815/null/index.m3u8",
+      "source": "https://github.com/hasanmamunctg/hasanmamunctg/blob/02a0c673467695067b1219388663526d70bd7b62/manik",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "043",
+      "url": "https://node103074-join-us-on-telegram-streamkinglive.in1.bitmana.io/autoq.php?c=sonic_Hindi",
+      "source": "https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/Jio TV.m3u",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "044",
+      "url": "http://techmaxlive.ml/live.php?c=sonic_Hindi&q=1200&e=junk.m3u8",
+      "source": "https://github.com/rudrow/iptv/blob/194bfa7523b3f12fad6085a85f5255f5f789aa30/shima",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "045",
+      "url": "http://node101473-ishanjiotv.in1.bitmana.io/live.php?c=sonic_Hindi&q=800&e=Ishan.m3u8",
+      "source": "https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/sonuiptvbackjio.m3u",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "046",
+      "url": "http://ranapk-june2.in1.bitmana.io/autoxxx.php?c=sonic_Hindi",
+      "source": "https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/sonuiptvjioenjoy.m3u",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "047",
+      "url": "https://reshort.in/autoq.php?c=sonic_Hindi",
+      "source": "https://github.com/theForg8/SomethingOrdinary/blob/5f73636e9f8f6c77ea74eb61872605474ae2d3cc/LightningBD2.txt",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "048",
+      "url": "https://hiskidxd.com/T5/JIOTV/app/live.php?id=815&e=.m3u8",
+      "source": "https://github.com/GhostHostBD/tvlink/blob/048834b8f087d8a1a819c94b18746d3c373412f6/Jio TV hiskidxd",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "049",
+      "url": "https://hey-lookme.shop/live.php?id=815",
+      "source": "https://github.com/sm-monirulislam/SM-IPTV/blob/57a2bd39ff87397a92de2e7aa8a09458560e7396/jio_tv.m3u",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "050",
+      "url": "https://tv.googledrivelinks.com/live.php?c=sonic_Hindi&q=800&e=.m3u8",
+      "source": "https://github.com/r0m35h/main/blob/0023bb84fb5f67851e0fca28f73e31dae599d87e/iptv.m3u",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "051",
+      "url": "https://the-nayeemparvez.xyz/jiotvnew/app/play.php?id=815&e=.m3u8",
+      "source": "https://github.com/niptv/tvtelugu.github.io/blob/26cc2b95f23b7a9133b7ad658254af9e4191849c/playlist/jio.html",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "052",
+      "url": "https://jio.jiotv.link/api/app/live.php?id=815&e=.m3u8",
+      "source": "https://github.com/AlahiMajnurOsama/Tv/blob/fec30eecb42189d89caf971745e1a418c207efb5/JioTv.m3u",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "053",
+      "url": "https://colorsscreen.com/live.php?id=815&extension=.m3u8",
+      "source": "https://github.com/KMABIDHASAN63/XYZ/blob/29afb6be97d0b33fb25b4b966eabd9d516208ef0/JIO_TV.m3u",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "054",
+      "url": "https://iamranapk-com-wcc9.spidy.online/VOT/go.php?id=Sonic_Nickelodeon_voot_MOB",
+      "source": "https://github.com/Xybernaut-tech/binge-play/blob/7efe41717f7b6c0f7052c514bc4ff3592ab37472/playlist/voot.m3u",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "055",
+      "url": "https://8088y.site/Api/JioTV/app/ts_live_815.m3u8",
+      "source": "https://github.com/pravashranjan/entwld/blob/238c05f8b24b68fb8bc97a857379120317c51a38/mytv.m3u",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "056",
+      "url": "https://sports247.eu.org/api/app/live.php?id=815&e=.m3u8",
+      "source": "Curated GitHub IPTV stream trial",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    },
+    {
+      "number": "057",
+      "url": "https://playyonogames.in/live.php?id=815&format=.m3u8",
+      "source": "Curated GitHub IPTV stream trial",
+      "group": "09 | SONIC HINDI - Relays Unverified",
+      "remote_result": "not checked by runner",
+      "status": "USER TEST PENDING"
+    }
+  ]
+}
