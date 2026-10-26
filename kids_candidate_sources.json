@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-26",
+  "purpose": "Read-only runner probing. Link3 playback and identity never assumed.",
+  "sources": [
+    {
+      "kind": "hungama",
+      "label": "Hungama working baseline TEST 29",
+      "url": "http://103.135.253.32:8080/HUNGAMA/index.m3u8",
+      "provenance": "User-confirmed Link3, main playlist",
+      "baseline": true
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Sonic Hindi 103.185 curated",
+      "url": "http://103.185.24.134:3001/SONIC/index.m3u8",
+      "provenance": "iptv-org/iptv streams/in.m3u"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Sonic India 103.229 curated",
+      "url": "http://103.229.254.25:7001/play/a0dl/index.m3u8",
+      "provenance": "ttmttm/iptv_2026 streams/in.m3u; language unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Sonic Hindi 103.68 Jio index 815",
+      "url": "http://103.68.28.58:5001/live/815.m3u8",
+      "provenance": "Mystique-Play/Mystique countries/india.m3u"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Nick Sonic Hindi 144.217",
+      "url": "http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8",
+      "provenance": "public Telegram IPTV listing"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Sonic Hindi Dinesh relay",
+      "url": "https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8",
+      "provenance": "public GitHub channels.m3u"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Sonic Hindi Jio alternate",
+      "url": "https://jio.drmlive.au/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8",
+      "provenance": "public GitHub jio.m3u"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Sonic Hindi Sonamul relay",
+      "url": "https://sonamul3535.vercel.app/Sonic-Hindi.m3u8",
+      "provenance": "public GitHub ip.m3u8"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Sonic Hindi 103.136",
+      "url": "http://103.136.200.246:8082/Sonic/tracks-v1a1/mono.m3u8",
+      "provenance": "fahadskt/IPTV-Playlists Old/Amrbd Live; language unverified"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Nick Sonic Bangla Digijadoo",
+      "url": "https://edge01.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+      "provenance": "public GitHub omi17/Test README.md"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Nick Sonic Bangla Bracnet",
+      "url": "https://bracnet.iptv.jadoodigital.com/live/sonic/playlist.m3u8",
+      "provenance": "public GitHub fahadskt/IPTV-Playlists"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla Balaji",
+      "url": "http://live.balajibroadband.com:3500/live/1345.m3u8",
+      "provenance": "sm-monirulislam/SM-IPTV Cartoon.m3u"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla 103.68",
+      "url": "http://103.68.28.58:5001/live/1345.m3u8",
+      "provenance": "Mystique-Play/Mystique countries/india.m3u"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla Sonic path",
+      "url": "http://198.195.239.50:8095/sonic/index.m3u8",
+      "provenance": "public GitHub stablesportstv.p; language unverified"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla Worker relay",
+      "url": "https://jiotv.nayeemparvez.workers.dev/bpk-tv/Sonic_Bangla_MOB/Fallback/index.m3u8",
+      "provenance": "public GitHub pasiondelhincha/toritotv"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla 103.180",
+      "url": "http://103.180.212.191:3500/live/1345.m3u8",
+      "provenance": "public GitHub badalbd53/Rocket-OTV hindi"
+    }
+  ]
+}
