@@ -1,7 +1,7 @@
 {
-  "checked_at_utc": "2026-10-26T15:15:24.282142+00:00",
+  "checked_at_utc": "2026-10-26T15:16:46.944276+00:00",
   "scope": "GitHub Actions runner, NOT Link3/TV decoder; segment HTTP bytes do NOT establish channel identity/audio",
-  "candidate_count": 207,
+  "candidate_count": 208,
   "manifest_ok": 2,
   "segment_ok": 2,
   "results": [
@@ -831,7 +831,7 @@
       "video_bytes": 0,
       "resolution": null,
       "variant_count": 0,
-      "error": "URLError: <urlopen error timed out>"
+      "error": "URLError: <urlopen error [Errno 111] Connection refused>"
     },
     {
       "kind": "sonic-bangla",
@@ -2488,6 +2488,18 @@
       "resolution": null,
       "variant_count": 0,
       "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Tata Play Sonic Nickelodeon ts127 TEST 086",
+      "url": "https://tplay.dinesh29.com.np/live/tataplay-universal/sonic-nickelodeon/index.ts",
+      "provenance": "Ferdos-Live-Tv/Tata-play-without-vpn tataplay-universal.m3u; aajuuiu12/anand tataplay-malayalam.m3u (identical URL)",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
     }
   ]
 }
