@@ -37,9 +37,6 @@ CANDIDATES = [
     {"channel":"Sonic Bangla","url":"http://jo123.biz/jweb/m3u8.php?c=Sonic_Bangla&q=400&e=.m3u8",
      "evidence":"github.com/mahmud31132/bdix-tv Expire.m3u; explicitly Sonic Bangla; host public reachability unknown",
      "expected_audio":"bn"},
-    {"channel":"Sonic Bangla","url":"https://iptvcable.netlify.app/Altogether-007/Cartoon/SONIC.m3u8",
-     "evidence":"github.com/saimbook/tubebd script.js; labeled Sonic Bangla; prior runner reported segment but user playback failed; audio/identity need independent verification",
-     "expected_audio":"bn"},
     # 2026-10-26 newly sourced from public GitHub M3U labels; probe-only.
     # These hosts are not assumed non-BDIX or authorized, and channel identity,
     # audio language and HD must all be independently confirmed before use.
