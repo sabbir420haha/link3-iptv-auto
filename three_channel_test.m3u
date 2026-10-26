@@ -1,6 +1,294 @@
 #EXTM3U
-# Removed 21 viewer-confirmed nonworking Sonic tests and all Disney tests on 2026-10-26.
-# Previous URLs excluded. Same-provider CDN/real media source discovery in progress; no dead URL republished.
-# Hungama TEST 29 user-confirmed previously working on Link3; left unchanged.
+# Sonic Hindi-only manual TEST candidates | GitHub sources checked 2026-10-26
+# NONE of the Sonic entries are confirmed working or genuine Hindi-audio on Link3; user will check manually.
+# Existing user-confirmed failed URLs, HTTP 403/404, invalid DNS/cert, expiring tokens, private IPs, and duplicates excluded.
+# For any confirmed working TEST number, pin direct URL in Main only after viewer confirmation.
+# IMPORTANT: Hungama TEST 29 intentionally unchanged.
 #EXTINF:-1 tvg-id="hungama-test3-29" tvg-name="Hungama TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="04 | HUNGAMA TV - VERIFIED",Hungama TEST 29
 http://103.135.253.32:8080/HUNGAMA/index.m3u8
+
+# SOURCE: MohammadKobirShah/m3uott suntv.m3u, Sonic Nickelodeon
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-001" tvg-name="Sonic Hindi TEST 001" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 001
+http://103.83.80.54:6088/play/a0g4/index.m3u8
+
+# SOURCE: MohammadKobirShah/m3uott suntv.m3u, Sonic Rs1; language unknown
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-002" tvg-name="Sonic Hindi TEST 002" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 002
+http://38.76.152.22:8000/play/a00p/index.m3u8
+
+# SOURCE: cancerbikash-oss/01 GitHub code search Sonic Hindi id 815
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-003" tvg-name="Sonic Hindi TEST 003" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 003
+http://103.72.101.252:8080/live/815.m3u8
+
+# SOURCE: https://github.com/badalbd53/Rocket-OTV/blob/62205d0667ab00183841aa4eb0708ce8a786b547/hindi
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-004" tvg-name="Sonic Hindi TEST 004" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 004
+http://103.180.212.191:3500/live/815.m3u8
+
+# SOURCE: https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/jio.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-005" tvg-name="Sonic Hindi TEST 005" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 005
+http://103.139.171.5:5001/live.php?c=sonic_Hindi&q=800&e=junk.m3u8
+
+# SOURCE: https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/sonuuptvjio.M3U
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-006" tvg-name="Sonic Hindi TEST 006" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 006
+http://65.2.4.240/jioo.php?c=sonic_Hindi&q=800&e=.m3u8
+
+# SOURCE: https://github.com/BDIXIPTVHUB/BDIXIPTVHUB/blob/a5126363dff0d445641cf71dea9c5571c9733240/jadoo.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-007" tvg-name="Sonic Hindi TEST 007" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 007
+http://14.102.123.50:5001/live/815.m3u8
+
+# SOURCE: https://github.com/riyad456/supernetIPTV/blob/f0620b6c8ebc680c5aa0a7eea0d80993c3ea497d/live
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-008" tvg-name="Sonic Hindi TEST 008" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 008
+http://103.153.39.34:8000/play/a04p/index.m3u8
+
+# SOURCE: https://github.com/iptv-org/iptv/blob/76ddc36c6b7f42520dee6995dd0c0563e11ca823/streams/in.m3u
+# RUNNER: URLError: <urlopen error timed out>
+#EXTINF:-1 tvg-id="sonic-hindi-manual-009" tvg-name="Sonic Hindi TEST 009" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 009
+http://103.185.24.134:3001/SONIC/index.m3u8
+
+# SOURCE: https://github.com/saemon068/smart-app/blob/ab0f43ea9b12a54559cf9fb859269b2f1abc06ea/tata.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-010" tvg-name="Sonic Hindi TEST 010" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 010
+http://103.165.93.31:8095/sonic/index.m3u8
+
+# SOURCE: https://github.com/mahmud31132/bdix-tv/blob/79a6443f6a4a1cece0d7bc9f6ac725a61968b715/Don't try
+# RUNNER: URLError: <urlopen error timed out>
+#EXTINF:-1 tvg-id="sonic-hindi-manual-011" tvg-name="Sonic Hindi TEST 011" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 011
+http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8
+
+# SOURCE: Curated GitHub IPTV stream trial
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-012" tvg-name="Sonic Hindi TEST 012" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 012
+http://103.140.254.2:3500/live/815.m3u8
+
+# SOURCE: Curated GitHub IPTV stream trial
+# RUNNER: URLError: <urlopen error timed out>
+#EXTINF:-1 tvg-id="sonic-hindi-manual-013" tvg-name="Sonic Hindi TEST 013" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 013
+http://103.68.28.58:5001/live/815.m3u8
+
+# SOURCE: Curated GitHub IPTV stream trial
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-014" tvg-name="Sonic Hindi TEST 014" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 014
+http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8
+
+# SOURCE: Curated GitHub IPTV stream trial
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-015" tvg-name="Sonic Hindi TEST 015" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 015
+http://103.162.136.235:4500/play/a01k/index.m3u8
+
+# SOURCE: eishakilei-bd08/eitv explicit Sonic Hindi
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-016" tvg-name="Sonic Hindi TEST 016" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 016
+http://live.balajibroadband.com:3500/live/815.m3u8
+
+# SOURCE: https://github.com/Your-Tribal-Chief/LiveTV/blob/08e32b56cb5beb0932b8fb39f14044f811b56e4e/src/data/channels.ts
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-017" tvg-name="Sonic Hindi TEST 017" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 017
+https://s2.itcnbd.live/sonic/index.m3u8
+
+# SOURCE: Curated GitHub IPTV stream trial
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-018" tvg-name="Sonic Hindi TEST 018" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 018
+https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8
+
+# SOURCE: Curated GitHub IPTV stream trial
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-019" tvg-name="Sonic Hindi TEST 019" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 019
+https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8
+
+# SOURCE: https://github.com/sudiptobd2/jio/blob/44dd8fd19189d5dcce79483a86fd050dd5204b38/new
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-020" tvg-name="Sonic Hindi TEST 020" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 020
+http://smiletv.live:4110/getm3u8/815/master.m3u8
+
+# SOURCE: https://github.com/arshdeep1112/Indian-IPTV/blob/b0735d0c108d4deba9e93dfe1a0293d29a1798dc/channels/iptv_kids.m3u8
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-021" tvg-name="Sonic Hindi TEST 021" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 021
+https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8
+
+# SOURCE: https://github.com/GhostHostBD/tvlink/blob/048834b8f087d8a1a819c94b18746d3c373412f6/JIO serverbackupchannel
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-022" tvg-name="Sonic Hindi TEST 022" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 022
+https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=sonic_Hindi&e=.m3u8
+
+# SOURCE: https://github.com/kilirushi/iptv/blob/f8765b54e7b66080201e07d168418e302c672c7d/in.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-023" tvg-name="Sonic Hindi TEST 023" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 023
+https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8
+
+# SOURCE: https://github.com/mdsirome/LiveTV/blob/fe0d963f4f0adfa53612b3422a8809bafe69f256/DiscoverTV.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-024" tvg-name="Sonic Hindi TEST 024" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 024
+https://livevoot.co.in/voot/master.m3u8?id=Sonic_Nickelodeon_voot_MOB
+
+# SOURCE: https://github.com/spookyhost1/yarr-stremio/blob/750e234dcfa783873c9261504dd9021ef5ee2de6/src/iptv/m3u-sources/in.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-025" tvg-name="Sonic Hindi TEST 025" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 025
+https://playyonogames.in/jio/app/ts_live_815.m3u8
+
+# SOURCE: https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/JIOTV.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-026" tvg-name="Sonic Hindi TEST 026" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 026
+https://mini.allinonereborn.online/jiotv-ww323/app/ts_live_815.m3u8
+
+# SOURCE: https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/jiotvww.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-027" tvg-name="Sonic Hindi TEST 027" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 027
+https://mintos.allinonereborn.xyz/jiotv-ww31/app/ts_live_815.m3u8
+
+# SOURCE: https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/jiotv01.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-028" tvg-name="Sonic Hindi TEST 028" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 028
+https://amit-1.allinonereborn.in/jiotv-ww313/app/ts_live_815.m3u8
+
+# SOURCE: https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/jiotvww_rk.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-029" tvg-name="Sonic Hindi TEST 029" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 029
+https://mini1.allinonereborn.xyz/jiotv-ww192/app/ts_live_815.m3u8
+
+# SOURCE: https://github.com/Prtstream820894/GitHub/blob/19d22a31f9e45da08ea5cb5afa5dcc318991dc89/pmg.txt
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-030" tvg-name="Sonic Hindi TEST 030" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 030
+https://jcevents.hotstar.com/bpk-tv/JC_SonicNick/JCHLS/JC_SonicNick.m3u8
+
+# SOURCE: https://github.com/MohammadKobirShah/KobirIPTV/blob/76c86fc779f652d6ee2a86e96f34aaa902fe4ace/Kobir Mix IpTV.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-031" tvg-name="Sonic Hindi TEST 031" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 031
+https://jcevents.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8
+
+# SOURCE: https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/Sonuiptvfree
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-032" tvg-name="Sonic Hindi TEST 032" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 032
+http://mygoodstream.pw/proxy.php/http://70.39.83.58:8278/sonichindikdin/playlist.m3u8
+
+# SOURCE: https://github.com/alopoki/yuuuu/blob/b541f1466bb33516754acd62bac2f20f7450725e/api/playlist.php
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-033" tvg-name="Sonic Hindi TEST 033" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 033
+https://jc.drmlive-01.workers.dev/815.m3u8
+
+# SOURCE: Curated GitHub IPTV stream trial
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-034" tvg-name="Sonic Hindi TEST 034" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 034
+https://jio.instream.ml/jio.php?c=sonic_Hindi&q=600&e=.m3u8
+
+# SOURCE: Curated GitHub IPTV stream trial
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-035" tvg-name="Sonic Hindi TEST 035" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 035
+http://hardcore-keldysh.64-227-150-121.plesk.page:80/getm3u8/815/master.m3u8
+
+# SOURCE: Curated GitHub IPTV stream trial
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-036" tvg-name="Sonic Hindi TEST 036" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 036
+https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=815
+
+# SOURCE: Curated GitHub IPTV stream trial
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-037" tvg-name="Sonic Hindi TEST 037" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 037
+https://app-re.sm-monirul-islam-rs.workers.dev/sonic-hindi/index.m3u8
+
+# SOURCE: Curated GitHub IPTV stream trial
+# RUNNER: TimeoutError: The read operation timed out
+#EXTINF:-1 tvg-id="sonic-hindi-manual-038" tvg-name="Sonic Hindi TEST 038" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 038
+https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8
+
+# SOURCE: Curated GitHub IPTV stream trial
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-039" tvg-name="Sonic Hindi TEST 039" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="08 | SONIC HINDI - Direct URLs",Sonic Hindi TEST 039
+http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8
+
+# SOURCE: Mahesh-Bardoliya/tv-2 Sonic Nickelodeon id137795; HLS unverified
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-040" tvg-name="Sonic Hindi TEST 040" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 040
+https://air2stem.playlivtv.workers.dev/?id=137795
+
+# SOURCE: amitfunny/allinone_special_playlist explicit Sonic Nickelodeon
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-041" tvg-name="Sonic Hindi TEST 041" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 041
+https://allinonereborn.in/allinone.php?id=39933
+
+# SOURCE: https://github.com/hasanmamunctg/hasanmamunctg/blob/02a0c673467695067b1219388663526d70bd7b62/manik
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-042" tvg-name="Sonic Hindi TEST 042" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 042
+https://madplay.live/jiotv/app/live/815/null/index.m3u8
+
+# SOURCE: https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/Jio TV.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-043" tvg-name="Sonic Hindi TEST 043" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 043
+https://node103074-join-us-on-telegram-streamkinglive.in1.bitmana.io/autoq.php?c=sonic_Hindi
+
+# SOURCE: https://github.com/rudrow/iptv/blob/194bfa7523b3f12fad6085a85f5255f5f789aa30/shima
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-044" tvg-name="Sonic Hindi TEST 044" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 044
+http://techmaxlive.ml/live.php?c=sonic_Hindi&q=1200&e=junk.m3u8
+
+# SOURCE: https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/sonuiptvbackjio.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-045" tvg-name="Sonic Hindi TEST 045" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 045
+http://node101473-ishanjiotv.in1.bitmana.io/live.php?c=sonic_Hindi&q=800&e=Ishan.m3u8
+
+# SOURCE: https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/sonuiptvjioenjoy.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-046" tvg-name="Sonic Hindi TEST 046" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 046
+http://ranapk-june2.in1.bitmana.io/autoxxx.php?c=sonic_Hindi
+
+# SOURCE: https://github.com/theForg8/SomethingOrdinary/blob/5f73636e9f8f6c77ea74eb61872605474ae2d3cc/LightningBD2.txt
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-047" tvg-name="Sonic Hindi TEST 047" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 047
+https://reshort.in/autoq.php?c=sonic_Hindi
+
+# SOURCE: https://github.com/GhostHostBD/tvlink/blob/048834b8f087d8a1a819c94b18746d3c373412f6/Jio TV hiskidxd
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-048" tvg-name="Sonic Hindi TEST 048" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 048
+https://hiskidxd.com/T5/JIOTV/app/live.php?id=815&e=.m3u8
+
+# SOURCE: https://github.com/sm-monirulislam/SM-IPTV/blob/57a2bd39ff87397a92de2e7aa8a09458560e7396/jio_tv.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-049" tvg-name="Sonic Hindi TEST 049" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 049
+https://hey-lookme.shop/live.php?id=815
+
+# SOURCE: https://github.com/r0m35h/main/blob/0023bb84fb5f67851e0fca28f73e31dae599d87e/iptv.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-050" tvg-name="Sonic Hindi TEST 050" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 050
+https://tv.googledrivelinks.com/live.php?c=sonic_Hindi&q=800&e=.m3u8
+
+# SOURCE: https://github.com/niptv/tvtelugu.github.io/blob/26cc2b95f23b7a9133b7ad658254af9e4191849c/playlist/jio.html
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-051" tvg-name="Sonic Hindi TEST 051" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 051
+https://the-nayeemparvez.xyz/jiotvnew/app/play.php?id=815&e=.m3u8
+
+# SOURCE: https://github.com/AlahiMajnurOsama/Tv/blob/fec30eecb42189d89caf971745e1a418c207efb5/JioTv.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-052" tvg-name="Sonic Hindi TEST 052" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 052
+https://jio.jiotv.link/api/app/live.php?id=815&e=.m3u8
+
+# SOURCE: https://github.com/KMABIDHASAN63/XYZ/blob/29afb6be97d0b33fb25b4b966eabd9d516208ef0/JIO_TV.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-053" tvg-name="Sonic Hindi TEST 053" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 053
+https://colorsscreen.com/live.php?id=815&extension=.m3u8
+
+# SOURCE: https://github.com/Xybernaut-tech/binge-play/blob/7efe41717f7b6c0f7052c514bc4ff3592ab37472/playlist/voot.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-054" tvg-name="Sonic Hindi TEST 054" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 054
+https://iamranapk-com-wcc9.spidy.online/VOT/go.php?id=Sonic_Nickelodeon_voot_MOB
+
+# SOURCE: https://github.com/pravashranjan/entwld/blob/238c05f8b24b68fb8bc97a857379120317c51a38/mytv.m3u
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-055" tvg-name="Sonic Hindi TEST 055" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 055
+https://8088y.site/Api/JioTV/app/ts_live_815.m3u8
+
+# SOURCE: Curated GitHub IPTV stream trial
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-056" tvg-name="Sonic Hindi TEST 056" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 056
+https://sports247.eu.org/api/app/live.php?id=815&e=.m3u8
+
+# SOURCE: Curated GitHub IPTV stream trial
+# RUNNER: not checked by runner
+#EXTINF:-1 tvg-id="sonic-hindi-manual-057" tvg-name="Sonic Hindi TEST 057" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="09 | SONIC HINDI - Relays Unverified",Sonic Hindi TEST 057
+https://playyonogames.in/live.php?id=815&format=.m3u8
+
