@@ -1,8 +1,8 @@
 {
   "date": "2026-10-26",
   "playlist_path": "three_channel_test.m3u",
-  "count": 85,
-  "unverified": 85,
+  "count": 86,
+  "unverified": 86,
   "user_confirmed_sonic": 0,
   "hungama_unchanged": true,
   "inputs": {
@@ -1134,6 +1134,15 @@
       "status": "USER REPORTED NOT WORKING (2026-10-26)",
       "batch": 2,
       "runner_result": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "number": "086",
+      "url": "https://tplay.dinesh29.com.np/live/tataplay-universal/sonic-nickelodeon/index.ts",
+      "source": "Ferdos-Live-Tv/Tata-play-without-vpn tataplay-universal.m3u; aajuuiu12/anand tataplay-malayalam.m3u",
+      "group": "12 | SONIC HINDI - TATA PLAY TEST",
+      "remote_result": "Not yet checked",
+      "status": "USER TEST PENDING",
+      "batch": "tata-play-ts127"
     }
   ],
   "new_batch_2_count": 28,
@@ -1144,5 +1153,6 @@
     "report": "All 85 Sonic Hindi tests fail on user's Link3/IPTV Pro",
     "reported_nonworking_count": 85,
     "verified_working_count": 0
-  }
+  },
+  "latest_discovery_note": "Tata Play ts127 index.ts from two GitHub listings, not user- or server-verified; first 85 reported broken."
 }
