@@ -88,6 +88,8 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        # Newly sourced public candidate(s) 2026-10-26: audit only, never auto-replace a locked Link3 stream.
+        "http://zeestb1.online/dhoom.php?id=11385",
         # 2026-10-26 publicly labeled source; audit only, never replace user-confirmed pin.
         "http://stream-7b694ce7e.nmbs.top/m3u/Kids/c86abe8bd6.m3u8",
         # Publicly named new-source trials (2026-10-25); verify HLS segment bytes and identity before publishing.
@@ -187,6 +189,8 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        # Newly sourced public candidate(s) 2026-10-26: audit only, never auto-replace a locked Link3 stream.
+        "https://tamilultra.tv/api/jiotv.m3u8?id=815",
         # 2026-10-26 publicly labeled source; audit only, never replace user-confirmed pin.
         "https://jio.drmlive.au/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8",
         # Candidate added 2026-10-26: Public Sonuiptv Kids list; global reachability and media segment must be checked.
@@ -243,6 +247,9 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # Newly sourced public candidate(s) 2026-10-26: audit only, never auto-replace a locked Link3 stream.
+        "https://tamilultra.tv/api/jiotv.m3u8?id=1345",
+        "https://iptvcable.netlify.app/Altogether-007/Cartoon/SONIC.m3u8",
         # 2026-10-26 publicly labeled source; audit only, never replace user-confirmed pin.
         "https://tv.googledrivelinks.com/live.php?c=Sonic_Bangla&q=1200&e=junk.m3u8",
         # Candidate added 2026-10-26: Public GitHub Sonic Bangla HLS wrapper; check full media segments and geo access.
