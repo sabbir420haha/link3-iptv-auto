@@ -1150,8 +1150,9 @@
       "source": "mtbtv/tataplay playlist.m3u — published as Sonic Nickelodeon tvg-id ts127; entry is missing leading #EXTINF in upstream; identity inferred from tag",
       "group": "12 | SONIC HINDI - TATA PLAY TEST",
       "remote_result": "URLError: <urlopen error timed out>",
-      "status": "REMOTE TIMEOUT (Link3 may differ)",
-      "batch": "tata-play-ts127"
+      "status": "USER REPORTED NOT WORKING ON LINK3 2026-10-26; remote timeout",
+      "batch": "tata-play-ts127",
+      "user_feedback": "not working"
     },
     {
       "number": "088",
@@ -1172,5 +1173,5 @@
     "reported_nonworking_count": 85,
     "verified_working_count": 0
   },
-  "latest_discovery_note": "Sonic Tata sources 086–088 checked from GitHub, zero manifest/media successes; 087 timed out (potentially network-limited), 086 and 088 DNS failed. Do not label any as working."
+  "latest_discovery_note": "2026-10-26: Link3 viewer says TEST087 does not work. iptv-org issues source 103.154.3.101:5001/live/815.m3u8 and 103.122.249.134:8000/play/a051 also timed out from GitHub. Additional KMABIDHASAN 103.84.57.155 a03y/index timed out, 103.17.193.159 inferred Jio815 returned HTTP500. 155 Hindi-labelled candidates, ZERO returned playable media samples. Do not promote guessed/unverified streams."
 }
