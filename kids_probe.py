@@ -27,25 +27,31 @@ def check(item):
     # Inspect only 1,504 bytes (eight 188-byte TS packets) and require sync,
     # without rebroadcasting/caching video or assuming the channel is correct.
     part=urllib.parse.urlsplit(u)
-    if part.path.lower().endswith(".ts"):
+    no_extension_play = bool(re.fullmatch(r"/play/a[0-9a-z]+",part.path.lower()))
+    if part.path.lower().endswith(".ts") or no_extension_play:
         try:
             req=urllib.request.Request(u,headers={**HEADERS,"Range":"bytes=0-1503"})
             with urllib.request.urlopen(req,timeout=10) as res:
                 data=res.read(1504)
                 ctype=res.headers.get("Content-Type","")
-            z["video_bytes"]=len(data)
-            z["segment_ok"]=(len(data)>=752 and
-                            all(data[pos]==0x47 for pos in (0,188,376,564)))
-            if not z["segment_ok"]:
-                z["error"]=f"No MPEG-TS packet sync (bytes={len(data)}, type={ctype[:60]})"
-            return z
+            if no_extension_play and data.lstrip().startswith(b"#EXTM3U"):
+                # The endpoint returns HLS text despite having no .m3u8 extension:
+                # fall through to manifest parsing and test a media segment too.
+                pass
+            else:
+                z["video_bytes"]=len(data)
+                z["segment_ok"]=(len(data)>=752 and
+                                all(data[pos]==0x47 for pos in (0,188,376,564)))
+                if not z["segment_ok"]:
+                    z["error"]=f"No MPEG-TS packet sync (bytes={len(data)}, type={ctype[:60]})"
+                return z
         except Exception as e:
             z["error"]=f"{type(e).__name__}: {str(e)[:145]}"
             return z
     # Check published HLS .m3u8 and PHP resolver URLs. Reject HTML replies below.
     if not (part.path.lower().endswith(".m3u8") or
             (part.path.lower().endswith(".php") and
-             any(a in part.query.lower() for a in ("id=", "c=", "format=", "e=")))):
+             any(a in part.query.lower() for a in ("id=", "c=", "format=", "e="))) or no_extension_play):
         z["error"]="Unsupported path; cannot establish direct HLS"
         return z
     try:
