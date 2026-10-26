@@ -1423,6 +1423,20 @@
       "url": "https://tplay.dinesh29.com.np/live/tataplay-universal/sonic-nickelodeon/index.ts",
       "provenance": "Ferdos-Live-Tv/Tata-play-without-vpn tataplay-universal.m3u; aajuuiu12/anand tataplay-malayalam.m3u (identical URL)",
       "source_class": "published-tata-play-direct-mpegts-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Tata Play Sonic Nickelodeon TEST 087 (public IPTV server)",
+      "url": "http://103.84.57.155:8000/play/a03y/29711434.m3u8",
+      "provenance": "mtbtv/tataplay playlist.m3u Sonic Nickelodeon ts127, distinct server",
+      "source_class": "published-tata-iptv-direct-hls-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Tata Play Sonic Nickelodeon TEST 088 (Playflix source)",
+      "url": "https://playflix.icu/Extra%20Tata%20playlist.m3u/stream.m3u8?id=ts127&e=.m3u8",
+      "provenance": "bhavy20110/So-what BhavyaTataplay.m3u8, same URL with path spaces percent-encoded",
+      "source_class": "published-tata-play-hls-resolver-unverified"
     }
   ]
 }
