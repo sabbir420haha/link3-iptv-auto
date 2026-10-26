@@ -1,7 +1,7 @@
 {
-  "checked_at_utc": "2026-10-26T09:28:41.513783+00:00",
+  "checked_at_utc": "2026-10-26T09:31:12.058568+00:00",
   "scope": "GitHub Actions runner, NOT Link3/TV decoder; segment HTTP bytes do NOT establish channel identity/audio",
-  "candidate_count": 29,
+  "candidate_count": 38,
   "manifest_ok": 1,
   "segment_ok": 1,
   "results": [
@@ -352,6 +352,114 @@
       "resolution": null,
       "variant_count": 0,
       "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla direct named CDN 103.102",
+      "url": "http://103.102.27.173:84/SONIC-BANGLA/tracks-v1a1/mono.m3u8",
+      "provenance": "public GitHub Sonic-Bangla code listing",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "URLError: <urlopen error timed out>"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla BD IPTV store relay",
+      "url": "http://tv.bdiptv.store:80/live/restreax/refstream/242.m3u8",
+      "provenance": "public GitHub Sonic-Bangla code listing",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla Dinesh source",
+      "url": "https://jio.dinesh29.com.np/live/jio-universal/sonic-bangla/index.ts",
+      "provenance": "public GitHub Sonic-Bangla code listing; TS not HLS, only trial",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "Not a direct m3u8 playlist"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla alternate Jio relay",
+      "url": "https://jio.drmlive.au/jio/bpk-tv/Sonic_Bangla_MOB/Fallback/index.m3u8",
+      "provenance": "public GitHub Jio playlist",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Sonic Nickelodeon JioCinema entertainment GM CDN",
+      "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "provenance": "public GitHub Sonic_Nickelodeon_voot_MOB listing",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Sonic Nickelodeon JioCinema entertainment FA CDN",
+      "url": "https://prod-ent-live-fa.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "provenance": "public GitHub Sonic_Nickelodeon_voot_MOB listing",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Sonic Nickelodeon direct HLS Hindi variant",
+      "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=765200.m3u8",
+      "provenance": "public GitHub labelled Hindi Sonic variant",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Sonic Hindi alternate worker",
+      "url": "https://fifabangladesh2-xyz-ekkj.spidy.online/VHOD/NEW/go.php?id=Sonic_Nickelodeon_voot_MOB",
+      "provenance": "public GitHub Sonic Hindi relay, non-HLS path",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "Not a direct m3u8 playlist"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Sonic Hindi direct alternative CDN",
+      "url": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "provenance": "public GitHub Sonic Nickelodeon Hindi listing",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ]
 }
