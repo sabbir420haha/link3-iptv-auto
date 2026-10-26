@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-26T12:11:59.290484+00:00",
+  "updated_utc": "2026-10-26T12:16:28.737634+00:00",
   "channels": 75,
   "target_channels": 97,
   "groups": {
@@ -1088,9 +1088,9 @@
   "logos": {
     "logo_count": 75,
     "methods": {
-      "current-broadcaster": 47,
+      "current-broadcaster": 46,
       "verified-recent-provider-logo": 15,
-      "text-fallback": 13
+      "text-fallback": 14
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
@@ -1102,7 +1102,7 @@
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-10-26T12:12:09.656317+00:00",
+    "updated_utc": "2026-10-26T12:16:38.168236+00:00",
     "channel_count": 25,
     "entries": 576,
     "by_name": {
