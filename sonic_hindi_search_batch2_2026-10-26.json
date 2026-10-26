@@ -1,0 +1,1234 @@
+{
+  "date": "2026-10-26",
+  "queryStats": [
+    {
+      "query": "tvg-name=\"Sonic Hindi\"",
+      "count": 100,
+      "error": null
+    },
+    {
+      "query": "tvg-name=\"Sonic\"",
+      "count": 68,
+      "error": null
+    },
+    {
+      "query": "Sonic Nickelodeon",
+      "count": 100,
+      "error": null
+    },
+    {
+      "query": "sonic_Hindi.m3u8",
+      "count": 6,
+      "error": null
+    },
+    {
+      "query": "sonic_Hindi&q=",
+      "count": 72,
+      "error": null
+    },
+    {
+      "query": "sonic_Hindi_MOB",
+      "count": 16,
+      "error": null
+    },
+    {
+      "query": "SONIC-HINDI/index.m3u8",
+      "count": 0,
+      "error": null
+    },
+    {
+      "query": "SONIC HINDI",
+      "count": 100,
+      "error": null
+    },
+    {
+      "query": "SONIC/index.m3u8",
+      "count": 100,
+      "error": null
+    },
+    {
+      "query": "sonichindi",
+      "count": 27,
+      "error": null
+    },
+    {
+      "query": "NickelodeonSonic.in",
+      "count": 61,
+      "error": null
+    },
+    {
+      "query": "JCHLS/JC_SonicNick",
+      "count": 15,
+      "error": null
+    },
+    {
+      "query": "Sonic.in@SD",
+      "count": 100,
+      "error": null
+    },
+    {
+      "query": "live/815.m3u8",
+      "count": 52,
+      "error": null
+    },
+    {
+      "query": "ts_live_815.m3u8",
+      "count": 55,
+      "error": null
+    },
+    {
+      "query": "sonic_Nick",
+      "count": 100,
+      "error": null
+    },
+    {
+      "query": "Sonic TV Hindi",
+      "count": 100,
+      "error": null
+    }
+  ],
+  "rawPairs": 655,
+  "unique": 190,
+  "results": [
+    {
+      "url": "http://192.168.1.4:8080/live/815.m3u8",
+      "provenance": "https://github.com/theashish0/theashish0/blob/664a81541c91391e9fc527bfc94b6049d94aa041/JIO",
+      "label": "#EXTINF:-1 tvg-id=815 tvg-name=\"Sonic Hindi\" tvg-logo=\"http://192.168.1.4:8080/jtvimage/sonic_Hindi.png\" tvg-language=\"Hindi\" tvg-type=\"Kids\" group-title=\"Kids\", Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://192.168.0.132:5350/live/815.m3u8",
+      "provenance": "https://github.com/rjprimeverse/prime/blob/490209d43eeec5475fb67b1e5f80ca91f08e9df0/index.html",
+      "label": "#EXTINF:-1 tvg-id=815 tvg-name=\"Sonic Hindi\" tvg-logo=\"http://192.168.0.132:5350/jtvimage/sonic_Hindi.png\" tvg-language=\"Hindi\" tvg-type=\"Kids\" group-title=\"Kids\", Sonic Nicklodean",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://localhost:5000/live/815.m3u8",
+      "provenance": "https://github.com/rjprimeverse/pro/blob/5530a1ab3b88ae82bd086687d44dc3d717e753f0/index.html",
+      "label": "#EXTINF:-1 tvg-id=815 tvg-name=\"Sonic Hindi\" tvg-logo=\"http://localhost:5000/jtvimage/sonic_Hindi.png\" tvg-language=\"Hindi\" tvg-type=\"Kids\" group-title=\"Kids\", Sonic Nicklodean",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "https://editorials-fill-ruled-sudden.trycloudflare.com/app/live.php?id=815&e=.m3u",
+      "provenance": "https://github.com/Gowtham174/Gowtham174.github.io/blob/2c78aa252ba186d3e657663e36d2652ec5d62817/Jio.html",
+      "label": "#EXTINF:-1 tvg-id=\"815\" tvg-name=\"Sonic Hindi\" tvg-type=\"Kids\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" ,So",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "https://jkey.playlivtvlinks.workers.dev/?id=815",
+      "provenance": "https://github.com/Arivunidhi-S/PersonalPortfolio/blob/dae1b45bbc2dab78675933f9aa9f77b381990d58/mu3/1",
+      "label": "#EXTINF:-1 tvg-id=\"815\" tvg-name=\"Sonic Hindi\" tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"JTV ☎️ Kids\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://lifetvbd.xyz:8080/play/sfDLG_2a-o-zPZtPnk8IJW6UhHdyIzSQ7--gpJL4hJg/ts",
+      "provenance": "https://github.com/freedish2024/personal-project.sr/blob/329ea35074a5377c36e27fd3e4d4fd198fd38e7e/Aaaa",
+      "label": "#EXTINF: -1 tvg-name=\"Sonic Hindi\" tvg-logo=\"http://lifetvbd.xyz:8080/images/48942282904605980f8da906b9c4ed5d.png\" group-title=\"KIDS\", Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "https://madanitv.assadikb.workers.dev/live.php?id=815&e=.m3u8",
+      "provenance": "https://github.com/sm-monirulislam/SM-IPTV/blob/57a2bd39ff87397a92de2e7aa8a09458560e7396/iptv_bd.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"69\" tvg-name=\"Sonic Hindi\" tvg-logo=\"https://otapp.store/uploads/tv_image/sm/sonic-hindi.png\" group-title=\"Kids-(বাচ্চাদের চ্যানেল)\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://103.168.18.83/zan/app/live.php?id=815&e=.m3u8",
+      "provenance": "https://github.com/imlovekumar/Loves/blob/6b6395830e439b9837307328e0c07738d7e31176/kids",
+      "label": "#EXTINF:-1 tvg-id=\"815\" tvg-name=\"Sonic Hindi\" tvg-type=\"Kids\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",So",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "https://jiotv.hadinetbd.tech/jio/v1/Sonic_Hindi/Sonic_Hindi/Sonic_Hindi.m3u8",
+      "provenance": "https://github.com/jongg57ed/jongg57/blob/a8d3221f515d235bd888b68cedac69e2d99e91db/ip27october",
+      "label": "#EXTINF:-1 tvg-id=\"815\" tvg-name=\"Sonic Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"Kids_JIO TV +\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8?token=test",
+      "provenance": "https://github.com/freedish2024/personal-project.sr/blob/329ea35074a5377c36e27fd3e4d4fd198fd38e7e/Sun.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"SONIC HINDI\" tvg-logo=\"https://static.wikia.nocookie.net/logopedia/images/2/2b/Nickelodeon_Sonic_logo.png\" group-title=\"KIDS CHANNELS\", SONIC HINDI",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "https://servertvhub.site/jio/app/ts_live_815.m3u8",
+      "provenance": "https://github.com/fakeall12398-sketch/JIO_TV/blob/377d1f5a1bb9ca6b0f35cdce97cb5c6efcd1ad8c/jiotv_red.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" tvg-name=\"Sonic Hindi\" tvg-type=\"Kids\" group-title=\"Streamstar | Kids\" tvg-language=\"Hindi\" tvg-logo=\"https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://localhost:5350/live/815.m3u8",
+      "provenance": "https://github.com/rathee-ashish/m3u-updater/blob/a41e7aa101824edad7644ef32cff9b2a697ab0b5/my_playlist.m3u",
+      "label": "#EXTINF: -1 tvg-id=\"815\" tvg-name=\"Sonic Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"Kids\", Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://103.180.212.191:3500/live/815.m3u8",
+      "provenance": "https://github.com/reyad27s/Tv/blob/56b596646e6a4a327eeacae69a7bda3dc19022e6/ottbangla.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"69\" tvg-name=\"Sonic Hindi\" tvg-logo=\"https://otapp.store/uploads/tv_image/sm/sonic-hindi.png\" group-title=\"Kids-(বাচ্চাদের চ্যানেল)\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+      "provenance": "https://github.com/Mrdk475/mrdknew/blob/5b9df18d25eec0ef97d6601179bf4fc39f069b53/mrdk.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"ts127\" tvg-name=\"Sonic Hindi\" tvg-logo=\"https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,dpr_6.75,w_40/https://ltsk-cdn.s3.eu-west-1.am",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://192.168.29.108:5001/live/815.m3u8",
+      "provenance": "https://github.com/aviarun/m3u/blob/803ac2ec72e261066422a0a04392bceb9588e3c7/livetv.m3u",
+      "label": "#EXTINF:-1 tvg-id=815 tvg-name=\"Sonic Hindi\" tvg-logo=\"http://192.168.29.108:5001/jtvimage/sonic_Hindi.png\" tvg-language=\"Hindi\" tvg-type=\"Kids\" group-title=\"Kids\", Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "https://sonamul3535.vercel.app/Sonic-Hindi.m3u8",
+      "provenance": "https://github.com/arafat-anowar/iptv/blob/ca3ef14962c93b93769939818e8dd7fbcd3e242a/ip.m3u8",
+      "label": "#EXTINF:-1 tvg-chno=\"119\" tvg-name=\"Sonic Hindi\" group-title=\"Kids\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://89.187.189.98/SONIC/index.m3u8",
+      "provenance": "https://github.com/webdevsaravanan/m3u-manager/blob/9189f718efd31e6c6c30695b1f6c778fa030944f/src/assets/local.m3u",
+      "label": "#EXTINF:-1 tvg-name=\"Sonic Hindi\" group-title=\"Kids\" tvg-logo=\"https://i.ibb.co/8gbkFs0L/1000148071.png\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://119.156.26.155:8000/play/a05y/index.m3u8",
+      "provenance": "https://github.com/StevoSure123/Kids-IPTV/blob/adbd9f1aafff8e14eb099cca06a34579348015e2/M3UPlus-Playlist-20241019222427.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"127\" tvg-name=\"Sonic Hindi\" tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"Kids\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "https://mini.allinonereborn.online/jiotv-ww323/app/ts_live_815.m3u8",
+      "provenance": "https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/JIOTV.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"https://github.com/iptv-org/iptv/tree/master/logos/sonic_hindi.png\" group-title=\"General\" tvg-name=\"Sonic Hindi\" tvg-language=\"Hindi\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "https://mintos.allinonereborn.xyz/jiotv-ww31/app/ts_live_815.m3u8",
+      "provenance": "https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/jiotvww.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"https://github.com/iptv-org/iptv/tree/master/logos/sonic_hindi.png\" group-title=\"General\" tvg-name=\"Sonic Hindi\" tvg-language=\"Hindi\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "https://amit-1.allinonereborn.in/jiotv-ww313/app/ts_live_815.m3u8",
+      "provenance": "https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/jiotv01.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"https://github.com/iptv-org/iptv/tree/master/logos/sonic_hindi.png\" group-title=\"General\" tvg-name=\"Sonic Hindi\" tvg-language=\"Hindi\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "https://apis.nettv.fun/j/live.php?id=815&format=.m3u8",
+      "provenance": "https://github.com/amanhfbdshdf/PlayMax/blob/d864a016584e85fc336ea75beb023c4f5a6d089b/JioTV_CodeCrafter-1765057678.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"298\" tvg-name=\"Sonic Hindi\" tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/sonic_Hindi.png\" tvg-chno=\"298\" group-title=\"Kids\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "https://blah-engineers-lady-rpg.trycloudflare.com/app/live.php?id=815&e=.m3u",
+      "provenance": "https://github.com/Junan02/bdiptvtest/blob/82240bce0433b2c31968979499bca6e2c76df82b/check ok.m3u",
+      "label": "#EXTINF:-1  tvg-name=\"Sonic Hindi\" tvg-id=\"815\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"KIDS CHANNELS\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "https://fuji-reduction-euro-affects.trycloudflare.com/app/live.php?id=815&e=.m3u",
+      "provenance": "https://github.com/Junan02/bdiptvtest/blob/82240bce0433b2c31968979499bca6e2c76df82b/check ok.m3u",
+      "label": "#EXTINF:-1  tvg-name=\"\" tvg-id=\"815\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"KIDS CHANNELS\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "https://mini1.allinonereborn.xyz/jiotv-ww192/app/ts_live_815.m3u8",
+      "provenance": "https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/jiotvww_rk.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"https://github.com/iptv-org/iptv/tree/master/logos/sonic_hindi.png\" group-title=\"General\" tvg-name=\"Sonic Hindi\" tvg-language=\"Hindi\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8",
+      "provenance": "https://github.com/Vikassm73/AjaykRepo/blob/249037a318d750a1c7e062030c2c00e41bff4c0e/Zips/India.m3u",
+      "label": "#EXTINF: -1 tvg-id=\"(no tvg-id)\" tvg-name=\"Sonic\" tvg-logo=\"https://i.imgur.com/SyDM00x.png\" group-title=\"KIDS\", Sonic",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://192.168.0.108:8086/live/815.m3u8",
+      "provenance": "https://github.com/deep002993/india-IPTV-public-/blob/9226efff0c684d0c34df2415b7773161ff2e61fd/vijay_jiotv.m3u",
+      "label": "#EXTINF:-1 tvg-name=\"Sonic Hindi\"tvg-id=\"(no tvg-id)\"tvg-logo=\"http://192.168.0.108:8086/jtvimage/sonic_Hindi.png\"group-title=\"Kids\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "https://avisha.aifyapps.in/wp-content/uploads/work/zio/live.php?id=815&format=.m3u8",
+      "provenance": "https://github.com/noobalex616/cricfytv/blob/904d4267890da09e744075d14ca24be023f72a6a/jiotv.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"349\" tvg-name=\"Sonic Hindi\" tvg-country=\"IN\" tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/sonic_Hindi.png\" tvg-chno=\"349\" group-title=\"Kids\",Sonic Hin",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://192.168.1.36:8086/live/815.m3u8",
+      "provenance": "https://github.com/deep002993/india-IPTV-public-/blob/9226efff0c684d0c34df2415b7773161ff2e61fd/jiotv_playlist2.m3u",
+      "label": "#EXTINF:-1 tvg-name=\"Sonic Hindi\"tvg-id=\"(no tvg-id)\"tvg-logo=\"http://192.168.1.36:8086/jtvimage/sonic_Hindi.png\"group-title=\"Kids\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://127.0.0.1:5001/live/high/815.m3u8",
+      "provenance": "https://github.com/deep002993/india-IPTV-public-/blob/9226efff0c684d0c34df2415b7773161ff2e61fd/jiotv_playlist_local.m3u",
+      "label": "#EXTINF:-1  tvg-name=\"Sonic Hindi\" tvg-id=\"\" tvg-logo=\"http://127.0.0.1:5001/jtvimage/sonic_Hindi.png\" tvg-chno=\"\" group-title=\"Kids\" :http-referrer=\"\" :http-user-agent=\"\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://192.168.1.41:5001/live/high/815.m3u8",
+      "provenance": "https://github.com/deep002993/india-IPTV-public-/blob/9226efff0c684d0c34df2415b7773161ff2e61fd/jiotv_playlist_2024L.m3u",
+      "label": "#EXTINF:-1  tvg-name=\"Sonic Hindi\" tvg-id=\"\" tvg-logo=\"http://192.168.1.41:5001/jtvimage/sonic_Hindi.png\" tvg-chno=\"\" group-title=\"Kids\" :http-referrer=\"\" :http-user-agent=\"\",Sonic Hind",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://localhost:5001/live/815.m3u8",
+      "provenance": "https://github.com/rahulandyou/MAHARASHTRA-IPTV/blob/3bbe492d2086864fef80ea801e6b0b4d778a5bf4/JiotvGoMH.m3u",
+      "label": "#EXTINF:-1 tvg-name=\"Sonic Hindi\"tvg-logo=\"http://localhost:5001/jtvimage/sonic_Hindi.png\"group-title=\"Kids\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://192.168.1.42:5001/live/high/815.m3u8",
+      "provenance": "https://github.com/deep002993/india-IPTV-public-/blob/9226efff0c684d0c34df2415b7773161ff2e61fd/jiotv_playlist_2024G - Copy.m3u",
+      "label": "#EXTINF:-1 tvg-name=\"Sonic Hindi\"tvg-logo=\"http://192.168.1.42:5001/jtvimage/sonic_Hindi.png\"group-title=\"Kids\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://192.168.1.36:8086/live/high/815.m3u8",
+      "provenance": "https://github.com/deep002993/india-IPTV-public-/blob/9226efff0c684d0c34df2415b7773161ff2e61fd/jiotv_playlist_2024G.m3u",
+      "label": "#EXTINF:-1 tvg-name=\"Sonic Hindi\"tvg-id=\"\"tvg-logo=\"http://192.168.1.36:8086/jtvimage/sonic_Hindi.png\"tvg-chno=\"\"group-title=\"Kids\":http-referrer=\"\":http-user-agent=\"\",Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://103.151.60.162:2122/play/a02v/index.m3u8?hls",
+      "provenance": "https://github.com/Sonaton11/M3/blob/16254f0db46ba1c6b4207fa5b224e8a8d11e2cb1/Surzotv",
+      "label": "#EXTINF:-1 tvg-id=\"sonic\" tvg-name=\"Sonic\" tvg-logo=\"http://103.151.60.188:12345/tvlogo/nicksonic.png\" group-title=\"Entertainment\",Sonic",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sonic",
+      "provenance": "https://github.com/anasselkadii/jcartoondashboard/blob/099b956abe9f26e3f1270836caaf0634d2e74059/epesodes/toffee.m3u8",
+      "label": "#EXTINF:-1 tvg-id=\"sonic\" tvg-name=\"Sonic\" tvg-country=\"IN\" tvg-logo=\"https://i.postimg.cc/xd9WCVtp/Sonic-Nickelodeon.png\" tvg-chno=\"sonic\" group-title=\"Kids - Bengali\",Sonic",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "https://fifabdmob.site/new.php?id=JC_SonicNick/JCHLS/JC_SonicNick-audio_108041_hin=108000-video=662800.m3u8",
+      "provenance": "https://github.com/opensourceflix/Friday/blob/555620f19f3d7d788b3c0a10cb95c99f1a6df9eb/vottobd.m3u8",
+      "label": "#EXTINF:-1 tvg-id=\"548\" tvg-name=\"Sonic\" group-title=\"Kids\" tvg-language=\"English\" tvg-logo=\"https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/sonic-16x9-2-1626707025539.",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://202.70.146.135:8000/play/a02t/index.m3u8",
+      "provenance": "https://github.com/monetareq/Live1/blob/a7a80caaef2885bfe5e4f60f5289473ea107a34c/live2",
+      "label": "#EXTINF:-1 tvg-id=\"Sonic.in\" tvg-name=\"SONIC\" tvg-logo=\"https://tinyurl.com/mr2dec8v\" tvg-chno=\"575\" channel-id=\"Sonic.in\" group-title=\"Kids\",SONIC",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "https://ultra.sm-monirul.top/SONIC/index.m3u8?token=78f88b9f468ef4d6545b8aa6912dd4acebff343a-a4434d3e0ee063fc48c69269cd2a7dfe-1782494984-1782484184",
+      "provenance": "https://github.com/sm-monirulislam/SM-IPTV/blob/57a2bd39ff87397a92de2e7aa8a09458560e7396/SM_bdix.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"sonic\" tvg-name=\"SONIC\" tvg-logo=\"https://logo.sm-monirul.top/assets/images/sonic.png\" group-title=\"Kids\",SONIC",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://bnet.ssrbiptv.xyz:4518/Sonic/tracks-v1a1/mono.m3u8",
+      "provenance": "https://github.com/FCNch/Enet-Fiber/blob/7f710c692be9708fbfeb81fa892adf51808d2a4e/ind.m3u",
+      "label": "#EXTINF:-1 tvg-name=\"Sonic\" tvg-logo=\"http://100.100.100.100/live/assets/images/sonic.jpg\" group-title=\"KIDS\",Sonic",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://103.144.89.251:8082/SONIC/index.m3u8?token=46fa9a494d26b0602b497e776a1a33759dd1faaf-bff13b91ccbb775357a08d110aefa099-1777259064-1777248264&remote=no_check_ip",
+      "provenance": "https://github.com/siam3310/redforce/blob/8d5c3cdb7100fae34697807a5b3fb7b33a953275/playlist.m3u",
+      "label": "#EXTINF:-1 tvg-name=\"SONIC\" group-title=\"Kids\",SONIC",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://mohitweb.zapto.org:7878/live/high/815.m3u8",
+      "provenance": "https://github.com/Bhavesh0a/Index/blob/31a5086b5422ea73aaca21608e1e972b9b672180/Index5",
+      "label": "#EXTINF:-1 tvg-id=815 tvg-name=\"Sonic Hindi\" tvg-logo=\"http://mohitweb.zapto.org:7878/jtvimage/sonic_Hindi.png\" tvg-language=\"Hindi\" tvg-type=\"Kids\" group-title=\"Hindi\", Sonic Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://iptv.fcnonline.xyz/play/JmU-3pCgErAiWP5dU8MsAwc1ORDWM-Sduhds__yHwck/m3u8",
+      "provenance": "https://github.com/FCNch/E-Fiber/blob/8961d5bfbf7bc25d187d1e714df3a772440a7b23/Net.m3u",
+      "label": "#EXTINF:-1 xui-id=\"103\" tvg-id=\"\" tvg-name=\"SONIC\" tvg-logo=\"https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/392_144.png\" group-title=\"KIDS\",SONIC",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://bostv.one:8080/6426606/7375565/92412",
+      "provenance": "https://github.com/Miraz6755/My-tv/blob/51859defc59083c5e27c143f9c0925508d685bd1/My=tvpro.m3u8",
+      "label": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Sonic_Hindi\" tvg-logo=\"https://img-cdn.curl.pk/channels_icon/76823199191.png\" group-title=\"WATCHIPTV IND | KIDS VIP\",Sonic_Hindi",
+      "query": "tvg-name=\"Sonic Hindi\""
+    },
+    {
+      "url": "http://64.31.23.207:80/96795792/50165825/3460540.m3u8",
+      "provenance": "https://github.com/xKzin/IPTV-Brazuka/blob/cdaada89f941767b057609b9e7ad84fdd9e061ab/IPTV-Brazuka2.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"SONIC\" tvg-logo=\"http://i.imgur.com/XlYKNTb.png\" group-title=\"✅ 24 Horas✨Desenhos\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://64.31.23.207:80/08892467/61552913/3460540.m3u8",
+      "provenance": "https://github.com/xKzin/IPTV-Brazuka/blob/cdaada89f941767b057609b9e7ad84fdd9e061ab/IPTV-Brazuka3.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"SONIC\" tvg-logo=\"http://i.imgur.com/XlYKNTb.png\" group-title=\"✅ 24 Horas✨Desenhos\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "https://www.hotstar.com/",
+      "provenance": "https://github.com/sportlive18/sportlink-update/blob/00c2236eaf3adfc37d24b7a8dadb72275ba20187/tstar.m3u",
+      "label": "#EXTINF:-1 tvg-name=\"Sonic\" tvg-logo=\"https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/sonic-16x9-2-1626707025539.jpg\" group-title=\"Kids\", Sonic",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://192.168.1.91:5001/live/815.m3u8",
+      "provenance": "https://github.com/siddharthsky/Extrix/blob/b5a3925500a6b9b0e7852d71ca12353b3ae973bf/pi/TVz3.5001",
+      "label": "#EXTINF:-1 tvg-name=\"Sonic\" tvg-logo=\"https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"Kids\", Sonic",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "https://shoebinfo.qzz.io/test/hot.php/Sonic.m3u8",
+      "provenance": "https://github.com/sm-monirulislam/SM-IPTV/blob/57a2bd39ff87397a92de2e7aa8a09458560e7396/vood.m3u",
+      "label": "#EXTINF:-1 tvg-name=\"Sonic\" tvg-logo=\"https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/sonic-16x9-2-1626707025539.jpg\" group-title=\"Kids\",Sonic",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://100.64.32.2:8080/play/zjKoo5YnD6hxZM9DgG41jt2gaT_IIfwGYkwGf-0u2A4/ts",
+      "provenance": "https://github.com/minortigers1-cyber/itcorner/blob/a0b7e82c2ba222188088b065ebaa09ec35a7c9e5/tv.m3u",
+      "label": "#EXTINF:-1 xui-id=\"129\" tvg-id=\"\" tvg-name=\"SONIC\" tvg-logo=\"\" group-title=\"All Channels\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://172.19.17.34:80/play/3byAYyQhPBO9ARa0Rup6WoYPB7KpWV2e3xh68wKsgLk/ts",
+      "provenance": "https://github.com/FCNch/E-Fiber/blob/8961d5bfbf7bc25d187d1e714df3a772440a7b23/Ebox.m3u",
+      "label": "#EXTINF:-1 xui-id=\"103\" tvg-id=\"\" tvg-name=\"SONIC\" tvg-logo=\"\" group-title=\"ALL CHANNELS\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://103.182.170.32:8888/play/a02s",
+      "provenance": "https://github.com/alaminislam203/my_playlist/blob/e926daf2429ae22f4ab20b474310680716da9462/qplay.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Sonic\" tvg-logo=\"https://i.imgur.com/7k0R6dP.png\" group-title=\"Kids\",Sonic",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "https://mhdtvweb.com/jc/stream.m3u8?id=8469d44204388be88885368360f3faed&e=.m3u8",
+      "provenance": "https://github.com/nayeem086/playlists/blob/24cd2e37bd38ac7303cc570f8c0f228b2cdcd888/voot.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"8469d44204388be88885368360f3faed\" tvg-name=\"Sonic\" tvg-country=\"IN\" tvg-logo=\"https://i.postimg.cc/25N91yGn/Sonic-Nickelodeon.png\" tvg-chno=\"8469d44204388be8888536836",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://172.19.17.34:80/1234/1234/103.m3u8",
+      "provenance": "https://github.com/FCNch/E-Fiber/blob/8961d5bfbf7bc25d187d1e714df3a772440a7b23/playlist.m3u",
+      "label": "#EXTINF:-1 xui-id=\"103\" tvg-id=\"\" tvg-name=\"SONIC\" tvg-logo=\"https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/392_144.png\" group-title=\"KIDS\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://robi.iptv.digijadoo.net/live/sonic/playlist.m3u8",
+      "provenance": "https://github.com/lolz1990/my/blob/de21d04785c5aa320bc269fd3ecad0c3e0826919/TV2.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"(no tvg-id)(m3u4u)\" tvg-name=\"SONIC\" tvg-logo=\"https://i.imgur.com/94NoKFn.jpg\" group-title=\"JADOO LIVE\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://172.28.28.54:3255/SONIC/index.m3u8",
+      "provenance": "https://github.com/arnabdey24/ISP-LIVE-TV/blob/4f7fcaa899174f494fd36daf8709019acf301004/iptv.m3u",
+      "label": "#EXTINF:-1 tvg-name=\"SONIC\" tvg-logo=\"http://172.28.28.54/static/images/20260312171320_Screenshot_10.jpg\" group-title=\"Kids\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://jybicfmekahrqtdvzpkmn.xvdlrpeamztgqnsuhowjybicfmekahrqtdvzpkmn.icu:80/988189694/432583663/4229184",
+      "provenance": "https://github.com/josemtocco/TV/blob/7edd18874d5378792baa1abd8d81ea38a615c181/TV-icu 19-01-2038.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"SONIC\" tvg-logo=\"https://pflegeling.de/wp-content/uploads/2022/11/24-hours.png\" group-title=\"CANAIS | 24 HORAS\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "https://bdixtv.life/bdixtv.php?id=244630",
+      "provenance": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/opplex.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Sonic\" tvg-logo=\"\" group-title=\"TAMIL\",Sonic",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://172.16.15.5:8666/199/index.m3u8?token=bff2f3d9dc29eb2add1f469e2ba1991e319328eb-d645eb9b4c75cf972a060b74d57abc7c-1791404502-1791393702&remote=103.55.145.165",
+      "provenance": "https://github.com/mddaf/Streaming/blob/7f19a248e417723a7c3732145eba0686d720eb29/ftv_channels.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"199\" tvg-name=\"Sonic\" tvg-logo=\"http://172.16.15.5/assets/images/SONIC.png\" group-title=\"Kids\",Sonic",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://opplex.org:8080/live/Saleem458/T95boxhd/380965.ts",
+      "provenance": "https://github.com/jayeshshimpi110920/Security-Notes/blob/2f9c4bddfa170ce3426b9341fb9c869f165bb734/Airtel Tata.m3u8",
+      "label": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"SONIC\" tvg-logo=\"http://b1gchlogos.xyz/wp-content/uploads/2023/08/Sonic-1.png\" group-title=\"TAMIL\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://opplex.org:8080/live/Saleem458/T95boxhd/380860.ts",
+      "provenance": "https://github.com/jayeshshimpi110920/Security-Notes/blob/2f9c4bddfa170ce3426b9341fb9c869f165bb734/Airtel Tata.m3u8",
+      "label": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"SONIC\" tvg-logo=\"http://b1gchlogos.xyz/wp-content/uploads/2023/08/Sonic.png\" group-title=\"MARATHI\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://opstorm-001-site1.ltempurl.com/Puboplxo/opplx5.php?id=380965",
+      "provenance": "https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/tp.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"(no tvg-id)\" tvg-name=\"SONIC\" tvg-logo=\"http://b1gchlogos.xyz/wp-content/uploads/2023/08/Sonic-1.png\" group-title=\"TAMIL\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://opstorm-001-site1.ltempurl.com/Puboplxo/opplx5.php?id=380860",
+      "provenance": "https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/tp.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"(no tvg-id)\" tvg-name=\"SONIC\" tvg-logo=\"http://b1gchlogos.xyz/wp-content/uploads/2023/08/Sonic.png\" group-title=\"MARATHI\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://172.19.0.18:5000/stream/9182736450300/playlist.m3u8",
+      "provenance": "https://github.com/foysal-ahamed/playlist/blob/b38df5dc143dc6705833f6521d9a968158b13ca2/backup_f2mlink.m3u8",
+      "label": "#EXTINF:-1 tvg-id=\"9182736450300\" tvg-name=\"Sonic\" tvg-logo=\"\" group-title=\"\",Sonic",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://172.19.0.18:5000/stream/45/playlist.m3u8",
+      "provenance": "https://github.com/foysal-ahamed/playlist/blob/b38df5dc143dc6705833f6521d9a968158b13ca2/backup_f2mlink.m3u8",
+      "label": "#EXTINF:-1 tvg-id=\"45\" tvg-name=\"SONIC\" tvg-logo=\"\" group-title=\"\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://m3u.denver1769.fun/port/trex.php?id=1528605",
+      "provenance": "https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/trex.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"https://github.com/iptv-org/iptv/tree/master/logos/sonic.png\" group-title=\"General\" tvg-name=\"Sonic\" tvg-language=\"Unknown\",Sonic",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "https://rcsfacility.com/jiotv/live.php?c=Sonic_Bangla&q=1200&e=junk.m3u8",
+      "provenance": "https://github.com/sashagor786/iptv/blob/6c906ecdd3ed6d608a3ab3bb866f5d5610b62c62/iptv10.m3u8",
+      "label": "#EXTINF:-67 tvg-id=\"(no tvg-id)\" tvg-name=\"Sonic\" tvg-logo=\"https://i.imgur.com/0UushKa.png\",Sonic",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "https://amit-1.allinonereborn.in/tplaydrm123/manifest.mpd?id=127",
+      "provenance": "https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/tplay.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"https://github.com/iptv-org/iptv/tree/master/logos/sonic.png\" group-title=\"General\" tvg-name=\"Sonic\" tvg-language=\"Unknown\",Sonic",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "https://amit-1.allinonereborn.in/tplaydrm769/manifest.mpd?id=127",
+      "provenance": "https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/tataplay.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"https://github.com/iptv-org/iptv/tree/master/logos/sonic.png\" group-title=\"General\" tvg-name=\"Sonic\" tvg-language=\"Unknown\",Sonic",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "https://deadpooll.fun/Jews/manifest.mpd?id=127",
+      "provenance": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/tata-play-playlist.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"hin\" tvg-name=\"Sonic\" tvg-language=\"Hindi\" group-title=\"Animation\" tvg-logo=\"https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transpare",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "https://amit-1.allinonereborn.in/tplaydrm553/manifest.mpd?id=127",
+      "provenance": "https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/tata-play.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"https://github.com/iptv-org/iptv/tree/master/logos/sonic.png\" group-title=\"General\" tvg-name=\"Sonic\" tvg-language=\"Unknown\",Sonic",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://198.195.239.50:8095/sonic/index.m3u8",
+      "provenance": "https://github.com/munim-sah75/Cofs_TV/blob/5bc98971916ff8d4994929da158a92d56b2ec343/playlist.m3u",
+      "label": "#EXTINF:-1 tvg-name=\"SONIC\" tvg-logo=\"http://198.195.239.50/img/channels/SONIC.png\" group-title=\"Kids\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://198.195.239.50:8095/SONIC/index.m3u8",
+      "provenance": "https://github.com/munim-sah75/Cofs_TV/blob/5bc98971916ff8d4994929da158a92d56b2ec343/playlist.m3u",
+      "label": "#EXTINF:-1 tvg-name=\"SONIC\" tvg-logo=\"http://198.195.239.50/img/channels/SONIC.png\" group-title=\"Kids\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://jo123.biz/jweb/m3u8.php?c=sonic_Hindi&q=1200&e=junk.m3u8",
+      "provenance": "https://github.com/imranemon1/emon/blob/71dbcda09ccbc09efd474ae3cbe2272b2390a17f/New bdix connected.m3u",
+      "label": "#EXTINF:-1, tvg-id=\"New EPG\" tvg-logo=\"New Logo\" tvg-name=\"Sonic\"  group-title=\"Kids\",Sonic",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://172.19.17.34:80/play/JmU-3pCgErAiWP5dU8MsAwc1ORDWM-Sduhds__yHwck/ts",
+      "provenance": "https://github.com/Rubayet123/BDLive/blob/210900f22fe5aa2c88284bd6c46016330551aa1b/bdix.m3u",
+      "label": "#EXTINF:-1 xui-id=\"103\" tvg-id=\"\" tvg-name=\"SONIC\" tvg-logo=\"\" group-title=\"Kids\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://100.64.32.2:8080/play/tvXHlGxKfHnyo9lZjHvVEhhDxRhZFXsKmjlcu9d9jxY/ts",
+      "provenance": "https://github.com/firojshahriyarmasud/LiveTV/blob/9e9fee8f9c8c5a2eff1c811625c4faa101965101/Jadoo.m3u",
+      "label": "#EXTINF:-1 xui-id=\"995\" tvg-id=\"\" tvg-name=\"SONIC\" tvg-logo=\"\" group-title=\"ALL CHANNELS\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://103.89.248.130:8082/sonic/index.m3u8",
+      "provenance": "https://github.com/noobalex616/cricfytv/blob/904d4267890da09e744075d14ca24be023f72a6a/iptvidn.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"89\" tvg-name=\"SONIC\" tvg-logo=\"https://iptvidn.xyz/uploads/tv_image/sm/sonic.jpeg\" group-title=\"Bangla\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://103.144.89.251:8082/SONIC/index.m3u8?token=ff7446902ffcb42a8a527b6a3cf2162a9383ad00-487e2bf0c6dc762729c412cd9991f124-1777259048-1777248248&remote=no_check_ip",
+      "provenance": "https://github.com/appscreator92-coder/red/blob/95f3669d6be0354be041587a72e338bf37bc4286/playlist.m3u",
+      "label": "#EXTINF:-1 tvg-name=\"SONIC\" group-title=\"Kids\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://103.229.254.25:7001/play/a0dl/index.m3u8",
+      "provenance": "https://github.com/Arun9dec/IPTV/blob/cb8cf7df1a19b411b51c1810c893c4ce4f977516/IPTV HD.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Sonic\" tvg-logo=\"hhttps://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png\" group-title=\"",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "https://playyonogames.in/jio/app/ts_live_815.m3u8",
+      "provenance": "https://github.com/gdydg/iptv/blob/0c6230a20b3d5ca9a8b9bfe545beeecff0a1e1f0/印度.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"Sonic.in\" tvg-name=\"Sonic\" tvg-logo=\"https://i.imgur.com/vSJzF6o.png\" group-title=\"kids\",Sonic",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "https://d1si3n1st4nkgb.cloudfront.net/10000/88876021/hls/master.m3u8?ads.xumo_channelId=88876021",
+      "provenance": "https://github.com/KirianLabs/KirianLabs.github.io/blob/e804ac33d54b05a431615fa50b60b092ea1b5ff0/archive/BR_RAPIDA_v4.m3u",
+      "label": "#EXTINF:-1 tvg-chno=\"24\" tvg-name=\"Sonic\" group-title=\"05 | Animação e Clássicos\",Sonic",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "https://3uog.short.gy/SONI.m3u8",
+      "provenance": "https://github.com/jongg57ed/jongg57/blob/a8d3221f515d235bd888b68cedac69e2d99e91db/iptv zone blow.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"(no tvg-id)\" tvg-name=\"SONIC\" tvg-logo=\"\" group-title=\"VOO LIVE \",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "https://s2.itcnbd.live/server-3/stream/cGxheWVyLnBocD9zdHJlYW09NDU.m3u8",
+      "provenance": "https://github.com/ShahirTech/Shahir-TV-Playlist/blob/97abc627f09de8fc06d4a46131825f1d12909603/ITCN_Fresh_Ultimate.m3u",
+      "label": "#EXTINF:-1 tvg-name=\"SONIC\" tvg-logo=\"https://s2.itcnbd.live/server-3/image/aHR0cDovLzEwLjQ3LjU3LjEwL2Fzc2V0cy9pbWFnZXMvU09OSUMxNzQ1MDQxMTU0LnBuZw\" group-title=\"Cartoon\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "https://s2.itcnbd.live/sonic/index.m3u8",
+      "provenance": "https://github.com/ShahirTech/Shahir-TV-Playlist/blob/97abc627f09de8fc06d4a46131825f1d12909603/itcnbd_ultimate_plus.m3u",
+      "label": "#EXTINF:-1 tvg-name=\"SONIC\" tvg-logo=\"https://itcnbd.live/images/SONIC1745041154.png\" group-title=\"Kids\",SONIC",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://example.local/USA-XSLSTH.ts",
+      "provenance": "https://github.com/jesmannstl/m3u_template_750/blob/6b32e9da3a56a9f06822c6737321127d4186961f/All/all_template_part90.m3u",
+      "label": "#EXTINF:-1 tvg-chno=\"147377\" tvg-name=\"Sonic\" tvg-logo=\"https://emby.tmsimg.com/assets/s147377_ll_h9_aa.png\" group-title=\"United States\" tvg-id=\"XSLSTH\" tvc-guide-stationid=\"147377\",Son",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://example.local/GBR-SOINDAMZ.ts",
+      "provenance": "https://github.com/jesmannstl/m3u_template_750/blob/6b32e9da3a56a9f06822c6737321127d4186961f/All/all_template_part90.m3u",
+      "label": "#EXTINF:-1 tvg-chno=\"122984\" tvg-name=\"Sonic\" tvg-logo=\"https://emby.tmsimg.com/assets/s122984_ll_h15_aa.png\" group-title=\"United Kingdom\" tvg-id=\"SOINDAMZ\" tvc-guide-stationid=\"122984\"",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://example.local/USA-SON60.ts",
+      "provenance": "https://github.com/jesmannstl/m3u_template_750/blob/6b32e9da3a56a9f06822c6737321127d4186961f/All/all_template_part90.m3u",
+      "label": "#EXTINF:-1 tvg-chno=\"95049\" tvg-name=\"Sonic Tap: '60s Revolution\" group-title=\"United States\" tvg-id=\"SON60\" tvc-guide-stationid=\"95049\",Sonic Tap: '60s Revolution",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "https://iptv-live-play1.streamready.in/live/media4/sonic/dashc/sonic.mpd",
+      "provenance": "https://github.com/amtoresize/TV/blob/dbd399850e2d6600357483d7371d9edd2137e634/Playlist/Airtel_Xstream.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"SONIC\" tvg-name=\"Sonic\" tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/657978d86cbc4372820a59a5/images/sonic.png\" group-title=\"Airtel",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "https://jiotvbpkmob.cdn.jio.com/bpk-tv/sonic_Tamil_MOB/WDVLive/index.mpd",
+      "provenance": "https://github.com/brandenp198483-collab/branden-tv/blob/4489fb0749df3060ad619f0c7e8425b40a08fd93/github_m3u_cache/nuttle-nuttterr-tv-by-Gemini__master_playlist.m3u",
+      "label": "#EXTINF:-1 tvg-name=\"Sonic\" tvg-logo=\"https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/sonic-16x9-2-1626707025539.jpg\" group-title=\"English Kids\",Sonic",
+      "query": "tvg-name=\"Sonic\""
+    },
+    {
+      "url": "http://iptv-line.com:8080/dJ7xLGo2x/Z4UJetvQu/8046",
+      "provenance": "https://github.com/kode3333/m3/blob/e3c09d64f2e88a64ef679b58f897825a425147ba/m3u",
+      "label": "#EXTINF:-1 tvg-ID=\"sonicnickelodeon.in\" tvg-name=\"IN: Sonic Nickelodeon\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/2/2b/Nickelodeon_Sonic_logo.png\" group-title=\"India\",IN: Son",
+      "query": "Sonic Nickelodeon"
+    },
+    {
+      "url": "https://bpprod3linear.akamaized.net/bpk-tv/irdeto_com_Channel_169/output/manifest.mpd",
+      "provenance": "https://github.com/noerakmal/asa/blob/4693e8f84f25942182ae794f3c3a190c8222b8cb/README.md",
+      "label": "#EXTINF:-1 tvg-id=\"127\" group-title=\" Kids\" tvg-logo=\"https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-8018-j7a7n1a8-v1/imageContent-8018-j7a",
+      "query": "Sonic Nickelodeon"
+    },
+    {
+      "url": "http://lifetvbd.xyz:8080/live/637274728473/1020304050/4687.ts",
+      "provenance": "https://github.com/Farabi-2005/Farabi/blob/3d58455d6b05f8d85e0b5364ba8f8e1b5ccc9751/m3u",
+      "label": "#EXTINF:-1 group-title=\"CARTOON\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/2/2b/Nickelodeon_Sonic_logo.png\", Sonic",
+      "query": "Sonic Nickelodeon"
+    },
+    {
+      "url": "http://192.168.1.101/sonic_Hindi.m3u8",
+      "provenance": "https://github.com/ssk30711/JioPy/blob/27fcfa3dd3ecde3edc5871233ad932a91c5f61c5/static/channels.m3u8",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi.m3u8"
+    },
+    {
+      "url": "http://103.139.171.5:5001/live.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "provenance": "https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/jio.m3u",
+      "label": "#EXTINF: -1 tvg-id=\"815\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\" Kids\", Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://65.2.4.240/jioo.php?c=sonic_Hindi&q=800&e=.m3u8",
+      "provenance": "https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/sonuuptvjio.M3U",
+      "label": "#EXTINF: -1 tvg-logo=\"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"JIO_INDIA_IPTV\", Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://jo123.biz/jweb/m3u8.php?c=sonic_Hindi&q=1200&e=.m3u8",
+      "provenance": "https://github.com/mahmud31132/bdix-tv/blob/79a6443f6a4a1cece0d7bc9f6ac725a61968b715/mahmud.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"http://sldhncdnems03.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\"  , Sonic hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://node101473-ishanjiotv.in1.bitmana.io/live.php?c=sonic_Hindi&q=800&e=Ishan.m3u8",
+      "provenance": "https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/sonuiptvbackjio.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" tvg-language=\"Hindi\" tvg-logo=\"https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"Sonuiptv Jio Kids\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://techmaxlive.ml/live.php?c=sonic_Hindi&q=1200&e=junk.m3u8",
+      "provenance": "https://github.com/rudrow/iptv/blob/194bfa7523b3f12fad6085a85f5255f5f789aa30/shima",
+      "label": "#EXTINF:-1 tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"KIDS\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://localhost:8080/tsjiotv/live.php?c=sonic_Hindi&q=400&e=junk.m3u8",
+      "provenance": "https://github.com/oVo-HxBots/JioTV/blob/a32b3ae885b629b282aed426da315674d45f00fd/localplaylists/jio240p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://localhost:8080/tsjiotv/live.php?c=sonic_Hindi&q=600&e=junk.m3u8",
+      "provenance": "https://github.com/oVo-HxBots/JioTV/blob/a32b3ae885b629b282aed426da315674d45f00fd/localplaylists/jio360p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://localhost:8080/tsjiotv/live.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "provenance": "https://github.com/oVo-HxBots/JioTV/blob/a32b3ae885b629b282aed426da315674d45f00fd/localplaylists/jio480p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://localhost:8080/tsjiotv/live.php?c=sonic_Hindi&q=250&e=junk.m3u8",
+      "provenance": "https://github.com/oVo-HxBots/JioTV/blob/a32b3ae885b629b282aed426da315674d45f00fd/localplaylists/jio144p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://localhost:8080/tsjiotv/live.php?c=sonic_Hindi&q=1200&e=junk.m3u8",
+      "provenance": "https://github.com/oVo-HxBots/JioTV/blob/a32b3ae885b629b282aed426da315674d45f00fd/localplaylists/jio720p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "provenance": "https://github.com/arshdeep1112/Indian-IPTV/blob/b0735d0c108d4deba9e93dfe1a0293d29a1798dc/channels/iptv_kids.m3u8",
+      "label": "#EXTINF:-1 tvg-id=\"815\" tvg-logo=\"https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"SnehJio Kids\", Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://localhost/jiotv/m3u8.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "provenance": "https://github.com/aravindnc/jiotv-web-player/blob/a3cc4630956bc529dc2c4756e7a48f3ab6ce9f32/playlist.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"JIO TV\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://tv.googledrivelinks.com/live.php?c=sonic_Hindi&q=800&e=.m3u8",
+      "provenance": "https://github.com/r0m35h/main/blob/0023bb84fb5f67851e0fca28f73e31dae599d87e/iptv.m3u",
+      "label": "#EXTINF:-1 group-title=\"KIDS\" tvg-logo=\"https://i.ibb.co/HXYMx9w/Sonic.jpg\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://tv.googledrivelinks.com/live.php?c=Sonic_Banglai&q=800&e=.m3u8",
+      "provenance": "https://github.com/r0m35h/main/blob/0023bb84fb5f67851e0fca28f73e31dae599d87e/iptv.m3u",
+      "label": "#EXTINF:-1 group-title=\"KIDS\" tvg-logo=\"https://i.ibb.co/HXYMx9w/Sonic.jpg\",Sonic",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://localhost:8585/k114-jiotv/jioo.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "provenance": "https://github.com/Koushik5025L/k114-jiotv/blob/5a27b73afea623bb67456d6cce7eace433aa5d9d/k114-jiotv/playlist.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"JIO TV\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://tv.googledrivelinks.com/live.php?c=sonic_Hindi&q=1200&e=junk.m3u8",
+      "provenance": "https://github.com/kumar1244/Devops_201_course/blob/bb5368d409e7c3342200e06a4818f7991d938ae8/JIO_TV.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://servertv.ml/JIO/live.php?c=sonic_Hindi&q=600&e=junk.m3u8",
+      "provenance": "https://github.com/prasanthsnk/tv/blob/c6cb292f7d1f96e6361fa96197aee40c5535fabd/JIO480.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://jo123.biz/jweb/m3u8.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "provenance": "https://github.com/Robertlittle2469/porn/blob/2b1e7361e7f375e366f10cd9c3c11cf5451ddc72/Jio Tv/jio.m3u",
+      "label": "#EXTINF: -1 tvg-id=\"815\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\" Jio Kids\", Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://192.168.1.7:8080/live.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "provenance": "https://github.com/rds8896/my_channels/blob/9aa721f656aaa0594d3e07dc67ea8c14d484378b/jio480p_new.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://tsjiotv.herokuapp.com/live.php?c=sonic_Hindi&q=250&e=junk.m3u8",
+      "provenance": "https://github.com/himanshukhowal/tsjiotv/blob/300baa599155c0866be611ab606c73ff9af09c67/localplaylists/jio144p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://tsjiotv.herokuapp.com/live.php?c=sonic_Hindi&q=600&e=junk.m3u8",
+      "provenance": "https://github.com/himanshukhowal/tsjiotv/blob/300baa599155c0866be611ab606c73ff9af09c67/localplaylists/jio360p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://tsjiotv.herokuapp.com/live.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "provenance": "https://github.com/himanshukhowal/tsjiotv/blob/300baa599155c0866be611ab606c73ff9af09c67/localplaylists/jio480p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://tsjiotv.herokuapp.com/live.php?c=sonic_Hindi&q=400&e=junk.m3u8",
+      "provenance": "https://github.com/himanshukhowal/tsjiotv/blob/300baa599155c0866be611ab606c73ff9af09c67/localplaylists/jio240p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://tsjiotv.herokuapp.com/live.php?c=sonic_Hindi&q=1200&e=junk.m3u8",
+      "provenance": "https://github.com/himanshukhowal/tsjiotv/blob/300baa599155c0866be611ab606c73ff9af09c67/localplaylists/jio720p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://localhost:8585/sneh-jiotv/jioo.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "provenance": "https://github.com/Kundanbadma/JioTv-Termux/blob/91b1019f18d0fefe0c6bcd6ec437f385885ec952/sneh-jiotv/playlist.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"JIO TV\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://techiesneh.in1.bitmana.io/snehapi/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "provenance": "https://github.com/TheSamimMandal/SamimWorld/blob/87b4d76b521690f38b4e069de4ee29aae79d09f2/SamimJio.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" , Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://jio.instream.ml/jio.php?c=sonic_Hindi&q=250&e=.m3u8",
+      "provenance": "https://github.com/aravindnc/jiotv-web-player/blob/a3cc4630956bc529dc2c4756e7a48f3ab6ce9f32/JIOTV M3U RESOLUTIONS/low quality jio-tv.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"Sneh JioTV\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://jio.instream.ml/jio.php?c=sonic_Hindi&q=600&e=.m3u8",
+      "provenance": "https://github.com/aravindnc/jiotv-web-player/blob/a3cc4630956bc529dc2c4756e7a48f3ab6ce9f32/JIOTV M3U RESOLUTIONS/high quality jio-tv.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"Sneh JioTV\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://localhost:8080/jiotvweb/live.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "provenance": "https://github.com/Raj21yv/jio.tv.com/blob/9f641e5e54eed1fbd5a08fde1e36a78f7322f2bf/localplaylists/jio720p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://localhost:8080/jiotvweb/live.php?c=sonic_Hindi&q=250&e=junk.m3u8",
+      "provenance": "https://github.com/Raj21yv/jio.tv.com/blob/9f641e5e54eed1fbd5a08fde1e36a78f7322f2bf/localplaylists/jio240p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://localhost:8080/jiotvweb/live.php?c=sonic_Hindi&q=600&e=junk.m3u8",
+      "provenance": "https://github.com/Raj21yv/jio.tv.com/blob/9f641e5e54eed1fbd5a08fde1e36a78f7322f2bf/localplaylists/jio480p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://localhost:8080/jiotvweb/live.php?c=sonic_Hindi&q=400&e=junk.m3u8",
+      "provenance": "https://github.com/Raj21yv/jio.tv.com/blob/9f641e5e54eed1fbd5a08fde1e36a78f7322f2bf/localplaylists/jio360p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://jio.instream.ml/jio.php?c=sonic_Hindi&q=400&e=.m3u8",
+      "provenance": "https://github.com/aravindnc/jiotv-web-player/blob/a3cc4630956bc529dc2c4756e7a48f3ab6ce9f32/JIOTV M3U RESOLUTIONS/medium quality jio-tv.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"SnehJioTV\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://localhost:8080/jiotvweb/live.php?c=sonic_Hindi&q=1200&e=junk.m3u8",
+      "provenance": "https://github.com/Raj21yv/jio.tv.com/blob/9f641e5e54eed1fbd5a08fde1e36a78f7322f2bf/localplaylists/jio1080p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://jio.instream.ml/jio.php?c=sonic_Hindi&q=800&e=.m3u8",
+      "provenance": "https://github.com/aravindnc/jiotv-web-player/blob/a3cc4630956bc529dc2c4756e7a48f3ab6ce9f32/JIOTV M3U RESOLUTIONS/veryhigh quality jio-tv.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"Sneh JioTV\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://jio.shikaritv.tk/jio/live.php?c=sonic_Hindi&q=1200&e=.m3u8",
+      "provenance": "https://github.com/theForg8/SomethingOrdinary/blob/5f73636e9f8f6c77ea74eb61872605474ae2d3cc/Check.m3u",
+      "label": "#EXTINF:0 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://jio.shikaritv.tk/jio/live.php?c=sonic_Hindi&q=1200&e=junk.m3u8",
+      "provenance": "https://github.com/theForg8/SomethingOrdinary/blob/5f73636e9f8f6c77ea74eb61872605474ae2d3cc/Check.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://jio.instream.ml/jio.php?c=sonic_Hindi&q=1200&e=.m3u8",
+      "provenance": "https://github.com/aravindnc/jiotv-web-player/blob/a3cc4630956bc529dc2c4756e7a48f3ab6ce9f32/JIOTV M3U RESOLUTIONS/ultrahigh quality jio-tv.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"http://sgdccdnems04.cdnsrv.jio.com/jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"Sneh JioTV\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://tvstream.fun/jtv/live_world_wow.php?c=sonic_Hindi&q=600&e=junk.m3u8",
+      "provenance": "https://github.com/dodoniyi/AAA/blob/278af7bb18c94ea8d1c318d441e76239b578f0fe/JIO-SD.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://tvstream.fun/jtv/live_world_wow.php?c=sonic_Hindi&q=1200&e=junk.m3u8",
+      "provenance": "https://github.com/dodoniyi/AAA/blob/278af7bb18c94ea8d1c318d441e76239b578f0fe/JIO-HD.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://tvstream.fun/jtv/live_world_wow.php?c=sonic_Hindi&q=400&e=junk.m3u8",
+      "provenance": "https://github.com/dodoniyi/AAA/blob/278af7bb18c94ea8d1c318d441e76239b578f0fe/JIO-LOW.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://tvstream.fun/jtv/live_world_wow.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "provenance": "https://github.com/dodoniyi/AAA/blob/278af7bb18c94ea8d1c318d441e76239b578f0fe/JIO-SD-PLUS.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://tvstream.fun/jtv/live_world_wow.php?c=sonic_Hindi&q=250&e=junk.m3u8",
+      "provenance": "https://github.com/dodoniyi/AAA/blob/278af7bb18c94ea8d1c318d441e76239b578f0fe/JIO-VERY-LOW.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://tv.freeseries.eu.org/live.php?c=sonic_Hindi&q=1200&e=junk.m3u8",
+      "provenance": "https://github.com/sudiptobd2/jio/blob/44dd8fd19189d5dcce79483a86fd050dd5204b38/DENVERIPTV MIX 2.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"KIDS DHAMAKA\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://manastv.xyz/m3u8.php?c=sonic_Hindi&q=400&e=junk.m3u8",
+      "provenance": "https://github.com/aviarun/m3u/blob/803ac2ec72e261066422a0a04392bceb9588e3c7/IndiaIPTV2021 Jio SD.m3u",
+      "label": "#EXTINF: -1 tvg-id=\"815\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"IndiaIPTV2021 Kids\", Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://3.110.187.2/tsjiotv/live.php?c=sonic_Hindi&q=600&e=junk.m3u8",
+      "provenance": "https://github.com/aoestudios57/aoestudios57.github.io/blob/99b635ac97e173c6c2612e541b12564cc8a8dff1/aoe-tv/CONTENT/mix/files/jio480p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://3.110.187.2/tsjiotv/live.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "provenance": "https://github.com/aoestudios57/aoestudios57.github.io/blob/99b635ac97e173c6c2612e541b12564cc8a8dff1/aoe-tv/CONTENT/mix/files/jio720p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://3.110.187.2/tsjiotv/live.php?c=sonic_Hindi&q=400&e=junk.m3u8",
+      "provenance": "https://github.com/aoestudios57/aoestudios57.github.io/blob/99b635ac97e173c6c2612e541b12564cc8a8dff1/aoe-tv/CONTENT/mix/files/jio360p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://3.110.187.2/tsjiotv/live.php?c=sonic_Hindi&q=250&e=junk.m3u8",
+      "provenance": "https://github.com/aoestudios57/aoestudios57.github.io/blob/99b635ac97e173c6c2612e541b12564cc8a8dff1/aoe-tv/CONTENT/mix/files/jio240p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "http://3.110.187.2/tsjiotv/live.php?c=sonic_Hindi&q=1200&e=junk.m3u8",
+      "provenance": "https://github.com/aoestudios57/aoestudios57.github.io/blob/99b635ac97e173c6c2612e541b12564cc8a8dff1/aoe-tv/CONTENT/mix/files/jio1080p.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" group-title=\"Kids\" tvg-language=\"Hindi\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi&q="
+    },
+    {
+      "url": "https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8",
+      "provenance": "https://github.com/sreshtantbohidar/WATCH-LIVE-TV/blob/3a6437b4f3bc5221b40b5f4c628847a5ea7448fc/channels.m3u",
+      "label": "#EXTINF:-1 group-title=\"Kids\" tvg-logo=\"https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-8018-j7a7n1a8-v1/imageContent-8018-j7a7n1a8-m1.png\",",
+      "query": "sonic_Hindi_MOB"
+    },
+    {
+      "url": "https://jio.drmlive.au/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8",
+      "provenance": "https://github.com/MAUSHAMRAJ/Jiotv/blob/d511b8780807ec573a2befebccb6a0b80fc8fce1/jio.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"Kids\",Sonic Hindi",
+      "query": "sonic_Hindi_MOB"
+    },
+    {
+      "url": "https://jiotvmblive.cdn.jio.com/bpk-tv/sonic_Hindi_MOB/WDVLive/index.mpd?__hdnea__=st=1782645912~exp=1782667512~acl=/*~hmac=c8b052dcf0b0380fbf0c58c2e3a5e0a05d114f53a356898a5b3cde7da1067c09",
+      "provenance": "https://github.com/MukeshB05/m3u/blob/5b0d469c58eff7ef113be610e98224ec69c4989f/New1.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"127\" group-title=\"Kids\" tvg-logo=\"https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/Sonic_Thumbnail_499a3f89-3733-4a5e-8a39-642a6eee5393.png\",Sonic",
+      "query": "sonic_Hindi_MOB"
+    },
+    {
+      "url": "https://nk-jhslive.vercel.app/play?url=https://jiotvmblive.cdn.jio.com/bpk-tv/sonic_Hindi_MOB/WDVLive/index.mpd",
+      "provenance": "https://github.com/nkmisc88-jpg/nk-jhslive/blob/494e8c0a2baaed95771d660265caabcb821d084a/playlist.m3u",
+      "label": "#EXTINF:-1 group-title=\"KIDS\" tvg-logo=\"https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\",Sonic Hindi",
+      "query": "sonic_Hindi_MOB"
+    },
+    {
+      "url": "http://103.185.24.134:3001/SONIC/index.m3u8",
+      "provenance": "https://github.com/iptv-org/iptv/blob/76ddc36c6b7f42520dee6995dd0c0563e11ca823/streams/in.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"Sonic.in@SD\",Sonic (576p)",
+      "query": "SONIC/index.m3u8"
+    },
+    {
+      "url": "http://103.144.89.251:8082/SONIC/index.m3u8?token=36c2b55971912f4658ebe2c2fb40eaef07db2a90-c77edf723c9035e8af05301d621d3f88-1775382201-1775371401&remote=no_check_ip",
+      "provenance": "https://github.com/abuhasanrumi/main04/blob/6a4186a1f5c6c5df9330f000746d61021dc75760/my",
+      "label": "#EXTINF:-1 tvg-logo=\"http://103.144.89.251/assets/images/SONIC1745041154.png\", SONIC",
+      "query": "SONIC/index.m3u8"
+    },
+    {
+      "url": "http://103.165.93.31:8095/sonic/index.m3u8",
+      "provenance": "https://github.com/saemon068/smart-app/blob/ab0f43ea9b12a54559cf9fb859269b2f1abc06ea/tata.m3u",
+      "label": "#EXTINF:-1 group-title=\"Kids\",Sonic",
+      "query": "SONIC/index.m3u8"
+    },
+    {
+      "url": "http://144.217.70.181:9587/hin2/SONIC/index.m3u8?token=test",
+      "provenance": "https://github.com/mdsirome/LiveTV/blob/fe0d963f4f0adfa53612b3422a8809bafe69f256/DiscoverTV.m3u",
+      "label": "#EXTINF:-1,Sonic",
+      "query": "SONIC/index.m3u8"
+    },
+    {
+      "url": "https://live.dinesh29.com.np/stream/jiotv/sonichindi/master.m3u8",
+      "provenance": "https://github.com/CricZone/BDStreamHub/blob/597a4a3dc18f42226cc7a1e23a94b00dcf449d97/index.html",
+      "label": "#EXTINF:-1 group-title=\"KIDS\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/2/2b/Nickelodeon_Sonic_logo.png\",Sonic Hindi",
+      "query": "sonichindi"
+    },
+    {
+      "url": "https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8",
+      "provenance": "https://github.com/channeliptv0/IPTV/blob/f26247efa6b641fda8d6bb16f01f99f4948d8a3b/Master/jiotvplus.m3u.m3u8",
+      "label": "#EXTINF:-1 tvg-id=\"sonichindi\" tvg-logo=\"https://live.dinesh29.com.np/logos/jiotvplus/sonichindi.png\" group-title=\"Kids\",Sonic Hindi",
+      "query": "sonichindi"
+    },
+    {
+      "url": "http://mygoodstream.pw/proxy.php/http://70.39.83.58:8278/sonichindikdin/playlist.m3u8",
+      "provenance": "https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/Sonuiptvfree",
+      "label": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/dlL02Rv.png\" group-title=\"Kids\", Sonic Nickeloden Hindi",
+      "query": "sonichindi"
+    },
+    {
+      "url": "http://70.39.83.58:8278/sonichindikdin/playlist.m3u8",
+      "provenance": "https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/Sonuiptvfree",
+      "label": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/dlL02Rv.png\" group-title=\"Kids Hindi\", Sonic [H]",
+      "query": "sonichindi"
+    },
+    {
+      "url": "http://103.153.39.34:8000/play/a04p/index.m3u8",
+      "provenance": "https://github.com/riyad456/supernetIPTV/blob/f0620b6c8ebc680c5aa0a7eea0d80993c3ea497d/live",
+      "label": "#EXTINF:-1 group-title=\"Kids\" tvg-logo=\"https://i.imgur.com/0UushKa.png\",Sonic (2)",
+      "query": "sonichindi"
+    },
+    {
+      "url": "http://mumsite.cdnsrv.jio.com/jiotv.live.cdn.jio.com/Sonic_Nickelodeon/Sonic_Nickelodeon_1200.m3u8?jct=H3bVPDoZkXrRjADgylrLPg&pxe=1560552085&st=2rABpyTLSDzkoYSlKcWJhg",
+      "provenance": "https://github.com/ErenYeager-AttackTitan/Mikasa-Ackerman/blob/eef1648c8bd4e9d1ae674c897c794e2c80442e94/fixed.m3u",
+      "label": "#EXTINF:-1,Sonic Nickelodeon",
+      "query": "sonichindi"
+    },
+    {
+      "url": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "provenance": "https://github.com/kilirushi/iptv/blob/f8765b54e7b66080201e07d168418e302c672c7d/in.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"NickelodeonSonic.in\",Nickelodeon Sonic Hindi (1080p)",
+      "query": "NickelodeonSonic.in"
+    },
+    {
+      "url": "https://tv.001133.xyz/live/815.m3u8",
+      "provenance": "https://github.com/mahenkpatel/m3u/blob/7bac3d4f3ad21c7ae11ce6bfd8dd90e55eba7885/raigarh.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"NickelodeonSonic.in\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Nickelodeon_Sonic_logo.png/512px-Nickelodeon_Sonic_logo.png\" group-title=\"Kids\",So",
+      "query": "NickelodeonSonic.in"
+    },
+    {
+      "url": "https://www.hotstar.com",
+      "provenance": "https://github.com/Prtstream820894/GitHub/blob/19d22a31f9e45da08ea5cb5afa5dcc318991dc89/pmg.txt",
+      "label": "#EXTINF:-1 tvg-logo=\"https://v3img.voot.com/resizeMedium,w_450,h_253/v3Storage/assets/sonic-16x9-2-1626707025539.jpg\" group-title=\"Entertainment\",Sonic",
+      "query": "JCHLS/JC_SonicNick"
+    },
+    {
+      "url": "http://66.102.120.18:8000/play/a00p/index.m3u8",
+      "provenance": "https://github.com/hst1189/m3u-iptv/blob/af07a03a0d843733acefd09e6a40587052ed3c76/m3u/1_iptv-org_iptv/languages/ban.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"Sonic.in@SD\" tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png\" group-title=\"Kids\",S",
+      "query": "Sonic.in@SD"
+    },
+    {
+      "url": "http://103.167.255.18:8085/play/a0nf/index.m3u8",
+      "provenance": "https://github.com/dineshkn-dev/hyper-tv/blob/edd3c1874b9e8baace30aae8dbbe3abc8d55163e/data/playlist.m3u8.bak",
+      "label": "#EXTINF:-1 tvg-id=\"Sonic.in@SD\" tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png\" group-title=\"Tamil -",
+      "query": "Sonic.in@SD"
+    },
+    {
+      "url": "http://116.90.120.149:8000/play/a0cc/index.m3u8",
+      "provenance": "https://github.com/weihaoxie/iptv/blob/1d75ee92e948f45e6377847d89657f4f6274a10b/streams/in.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"Sonic.in@SD\",Sonic (576p)",
+      "query": "Sonic.in@SD"
+    },
+    {
+      "url": "http://103.72.101.252:8080/live/815.m3u8",
+      "provenance": "https://github.com/cancerbikash-oss/01/blob/0d9e7e8b1859fe542880ddf9c4cc5a76a9dfcafd/playlist (2083.01.11).m3u",
+      "label": "#EXTINF:-1 tvg-id=\"Sonic.in@SD\" tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png\" group-title=\"Kids\",S",
+      "query": "Sonic.in@SD"
+    },
+    {
+      "url": "http://116.90.120.157:8000/play/a0h7",
+      "provenance": "https://github.com/cancerbikash-oss/01/blob/0d9e7e8b1859fe542880ddf9c4cc5a76a9dfcafd/a00a_to_a00z.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"Sonic.in@SD\" tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONIC/images/LOGO_HD/image.png\" group-title=\"Kids\",S",
+      "query": "Sonic.in@SD"
+    },
+    {
+      "url": "http://192.168.0.117:5350/live/815.m3u8",
+      "provenance": "https://github.com/pr4jw4l-star/jiotv-render-prajwal-final/blob/2ef0fb4826c8936bb37a93461ff558c1b353d334/jioTV.py",
+      "label": "#EXTINF:-1 tvg-id=815 tvg-name=\"Sonic Hindi\" tvg-logo=\"http://192.168.0.117:5350/jtvimage/sonic_Hindi.png\" tvg-language=\"Hindi\" tvg-type=\"Kids\" group-title=\"Kids\", Sonic Hindi",
+      "query": "live/815.m3u8"
+    },
+    {
+      "url": "http://14.102.123.50:5001/live/815.m3u8",
+      "provenance": "https://github.com/BDIXIPTVHUB/BDIXIPTVHUB/blob/a5126363dff0d445641cf71dea9c5571c9733240/jadoo.m3u",
+      "label": "#EXTINF:-1 tvg-id=815 tvg-name=\"Sonic Hindi\" tvg-logo=\"http://14.102.123.50:5001/jtvimage/sonic_Hindi.png\" tvg-language=\"Hindi\" tvg-type=\"Kids\" group-title=\"Kids\", Sonic Hindi",
+      "query": "live/815.m3u8"
+    },
+    {
+      "url": "http://mohitweb.zapto.org:7878/live/815.m3u8",
+      "provenance": "https://github.com/Bhavesh0a/Index/blob/31a5086b5422ea73aaca21608e1e972b9b672180/Index3.html",
+      "label": "#EXTINF:-1 tvg-id=815 tvg-name=\"Sonic Hindi\" tvg-logo=\"http://mohitweb.zapto.org:7878/jtvimage/sonic_Hindi.png\" tvg-language=\"Hindi\" tvg-type=\"Kids\" group-title=\"Kids\", Sonic Hindi",
+      "query": "live/815.m3u8"
+    },
+    {
+      "url": "http://10.10.0.20:5001/live/815.m3u8",
+      "provenance": "https://github.com/mahenkpatel/m3u/blob/7bac3d4f3ad21c7ae11ce6bfd8dd90e55eba7885/jiotv_local.m3u",
+      "label": "#EXTINF:-1 tvg-id=815 tvg-name=\"Sonic Hindi\" tvg-logo=\"http://10.10.0.20:5001/jtvimage/sonic_Hindi.png\" tvg-language=\"Hindi\" tvg-type=\"Kids\" group-title=\"Kids - Hindi\", Sonic Hindi",
+      "query": "live/815.m3u8"
+    },
+    {
+      "url": "http://103.140.254.2:3500/live/815.m3u8",
+      "provenance": "https://github.com/KaneenApp/NeuroSources/blob/99188bf750bbbf61aba46be09419b6cbfcc31fc8/playlist/b1otto-Kids.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/DkMeXwz.png\" group-title=\"Hindi\",SONIC",
+      "query": "live/815.m3u8"
+    },
+    {
+      "url": "http://10.0.7.77:5001/live/815.m3u8",
+      "provenance": "https://github.com/kamrajx/iptv/blob/f3bd9548774786ec011d07ff634b09af580dd753/m3u/src/jiotv.pl.m3u",
+      "label": "#EXTINF:-1 tvg-id=815 tvg-name=\"Sonic Hindi\" tvg-logo=\"http://10.0.7.77:5001/jtvimage/sonic_Hindi.png\" tvg-language=\"Hindi\" tvg-type=\"Kids\" group-title=\"Kids\", Sonic Hindi",
+      "query": "live/815.m3u8"
+    },
+    {
+      "url": "http://192.168.1.3:5001/live/815.m3u8",
+      "provenance": "https://github.com/BIHAR11FORECAST/Pankaj-bhaiya-m3u/blob/6c6ab216b1dd0b601ad18efe668b0dc1a246894d/pankajbhaiya_playlist.m3u",
+      "label": "#EXTINF:-1 tvg-id=815 tvg-name=\"Sonic Hindi\" tvg-logo=\"http://192.168.1.3:5001/jtvimage/sonic_Hindi.png\" tvg-language=\"Hindi\" tvg-type=\"Kids\" group-title=\"Kids\", Sonic Hindi",
+      "query": "live/815.m3u8"
+    },
+    {
+      "url": "http://10.60.206.140:5350/live/815.m3u8",
+      "provenance": "https://github.com/Shynivachal/my-live-playlist/blob/6c709f4ef0ce219097c644394b07019c7e7c3cf3/jiotv_playlist.m3u (4).m3u8",
+      "label": "#EXTINF:-1 tvg-id=\"815\" tvg-name=\"Sonic Hindi\" tvg-logo=\"http://10.60.206.140:5350/jtvimage/sonic_Hindi.png\" tvg-language=\"Hindi\" tvg-type=\"Kids\" group-title=\"Kids\", Sonic Hindi",
+      "query": "live/815.m3u8"
+    },
+    {
+      "url": "https://sflex07.fun:443/07/jio/app/ts_live_815.m3u8",
+      "provenance": "https://github.com/channeliptv0/IPTV/blob/f26247efa6b641fda8d6bb16f01f99f4948d8a3b/TV.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"815\" tvg-logo=\"https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"Kids\", Sonic Hindi",
+      "query": "ts_live_815.m3u8"
+    },
+    {
+      "url": "https://8088y.site/Api/JioTV/app/ts_live_815.m3u8",
+      "provenance": "https://github.com/pravashranjan/entwld/blob/238c05f8b24b68fb8bc97a857379120317c51a38/mytv.m3u",
+      "label": "#EXTINF:0,Sonic",
+      "query": "ts_live_815.m3u8"
+    },
+    {
+      "url": "https://mini.allinonereborn.fun/jiotv-www/app/ts_live_815.m3u8",
+      "provenance": "https://github.com/masumbill/bdiptv/blob/b6b6516413a76651b31b28857c37621d41867058/new.m3u",
+      "label": "#EXTINF:-1 ,Sonic Hindi",
+      "query": "ts_live_815.m3u8"
+    },
+    {
+      "url": "http://103.168.18.83:80/zan/app/ts_live_815.m3u8",
+      "provenance": "https://github.com/phisher98/TVVVV/blob/a2d98feb8c4fe5a6e44822d6e8b6fc09ee08c0c9/15APR2024.m3u",
+      "label": "#EXTINF:-1 tvg-logo=\"https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png\" group-title=\"TS-JioTV Kids\",Sonic Hindi",
+      "query": "ts_live_815.m3u8"
+    },
+    {
+      "url": "https://roll-uzbekistan-single-easily.trycloudflare.com/jiotv/app/ts_live_815.m3u8",
+      "provenance": "https://github.com/Arsks12/stalker/blob/65a074fe3dbd04d71a1bcebc4a2258d03c527d2b/Thor's TataPlay.m3u",
+      "label": "#EXTINF:-1 group-title=\"Kids\",Sonic Hindi",
+      "query": "ts_live_815.m3u8"
+    },
+    {
+      "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "provenance": "https://github.com/dangdvd/dangdvd.github.io/blob/a808739b474423f015e964e13e1b97585bebbd62/iptv",
+      "label": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/dlL02Rv.png\" group-title=\"🌈| Hoạt hình\",Sonic Nickelodeon",
+      "query": "sonic_Nick"
+    },
+    {
+      "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=765200.m3u8",
+      "provenance": "https://github.com/Hasibfy37/Iptv/blob/856cf8b27da7abf5ba7cb2cffcbce426d54cc8ca/Final.m3u",
+      "label": "#EXTINF:-1,Sonic",
+      "query": "sonic_Nick"
+    },
+    {
+      "url": "https://fifabangladesh.live/VHOD/go.php?id=Sonic_Nickelodeon_voot_MOB",
+      "provenance": "https://github.com/StarFlixofficial/Personal-File/blob/d89db416553ed828a4175a71aca32b74a2a4e6bb/Himel op 2",
+      "label": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"https://jiotv.catchup.cdn.jio.com/dare_images/images/Sonic_Nickelodeon.png\"  group-title=\"VOOT Worldwide\",Sonic Nickelodeon",
+      "query": "sonic_Nick"
+    },
+    {
+      "url": "https://fifabangladesh2-xyz-ekkj.spidy.online/VHOD/NEW/go.php?id=Sonic_Nickelodeon_voot_MOB",
+      "provenance": "https://github.com/Shaharum1010/Cartoon-channel-/blob/25623c917249a50cb2cb598c91a995d639f9cc03/Shaharum",
+      "label": "#EXTINF:-1 group-title=\"Kids\" tvg-logo=\"https://i.postimg.cc/K4SM5gVz/c26e3f010eb7043ee9e082be2509838a.png\",Sonic Hindi",
+      "query": "sonic_Nick"
+    },
+    {
+      "url": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8?checkedby:iptvcat.com",
+      "provenance": "https://github.com/dineshkn-dev/hyper-tv/blob/edd3c1874b9e8baace30aae8dbbe3abc8d55163e/data/playlist.m3u8.bak",
+      "label": "#EXTINF:0 tvg-country=\"IN\" tvg-logo=\"\" group-title=\"Undefined\",Nickelodeon Sonic Hindi (1080p)",
+      "query": "sonic_Nick"
+    },
+    {
+      "url": "https://keralamaxtv.com/vt/stream.m3u8?id=Sonic_Nickelodeon",
+      "provenance": "https://github.com/freedish2024/personal-project.sr/blob/329ea35074a5377c36e27fd3e4d4fd198fd38e7e/Ad",
+      "label": "#EXTINF:-1 group-title=\"CARTOON\" tvg-logo=\"https://i.imgur.com/9fd5Oq8.png\",Sonic",
+      "query": "sonic_Nick"
+    },
+    {
+      "url": "https://snehtv.in1.bitmana.io/live.php?c=Sonic_Nickelodeon&q=250&e=.m3u8",
+      "provenance": "https://github.com/Arun9dec/IPTV/blob/cb8cf7df1a19b411b51c1810c893c4ce4f977516/IPTV Old",
+      "label": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Sonic Nickelodeon\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/Sonic_Nickelodeon.png\" group-title=\"Kids (Hindi)\",Sonic Nickelodeon",
+      "query": "sonic_Nick"
+    },
+    {
+      "url": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "provenance": "https://github.com/NEWBIENOOB-0/iplm3u2024/blob/c326893bd396e67b38319b3bf1993e6eb28daa4d/iplsony.m3u",
+      "label": "#EXTINF:-1,Sonic Nickelodeon Hindi",
+      "query": "sonic_Nick"
+    },
+    {
+      "url": "https://live.drmlive-02.workers.dev/jc/815.m3u8",
+      "provenance": "https://github.com/Arun9dec/IPTV/blob/cb8cf7df1a19b411b51c1810c893c4ce4f977516/IPTV HD backup",
+      "label": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Sonic Nickelodeon\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/Sonic_Nickelodeon.png\" group-title=\"Kids\",Sonic Nickelodeon",
+      "query": "sonic_Nick"
+    },
+    {
+      "url": "https://test-tan-iota-90.vercel.app/live/bdix/app/NickHindi.m3u8",
+      "provenance": "https://github.com/Arun9dec/IPTV/blob/cb8cf7df1a19b411b51c1810c893c4ce4f977516/All IPTV Channels",
+      "label": "#EXTINF:-1 tvg-id=\"\" tvg-name=\"Sonic Nickelodeon\" tvg-logo=\"http://jiotv.catchup.cdn.jio.com/dare_images/images/Sonic_Nickelodeon.png\" group-title=\"Kids\",Sonic Nickelodeon",
+      "query": "sonic_Nick"
+    },
+    {
+      "url": "https://neestreamtv.com/fuck-your-mother-ass-jared-solomon/stream.m3u8?id=3774149",
+      "provenance": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/voot.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"https://jiotv.catchup.cdn.jio.com/dare_images/images/Sonic_Nickelodeon.png\"  group-title=\"VOOT\",Sonic Nickelodeon",
+      "query": "sonic_Nick"
+    },
+    {
+      "url": "https://iamranapk-com-wcc9.spidy.online/VOT/go.php?id=Sonic_Nickelodeon_voot_MOB",
+      "provenance": "https://github.com/Xybernaut-tech/binge-play/blob/7efe41717f7b6c0f7052c514bc4ff3592ab37472/playlist/voot.m3u",
+      "label": "#EXTINF:-1 tvg-id=\"\" tvg-logo=\"https://jiotv.catchup.cdn.jio.com/dare_images/images/Sonic_Nickelodeon.png\"  group-title=\"VOOT\",Sonic Nickelodeon",
+      "query": "sonic_Nick"
+    }
+  ]
+}
