@@ -2,7 +2,7 @@
 # 2026-10-23: Disney India/Hindi TEST playlist. Every Disney option is UNVERIFIED ON LINK3.
 # Ten NEW Disney candidates from labelled public GitHub playlists; SD/HD and correct Hindi audio unconfirmed.
 # Tested and failed prior 18 Disney options excluded. Neither Disney Junior nor English-only Disney International included.
-# Only Sonic Hindi TEST 01 and Sonic Bangla TEST 01 are viewer-verified working, and must stay unchanged.
+# As of 2026-10-26, Sonic Hindi TEST 01 and Bangla TEST 01 no longer play on Link3; both removed.
 # Disney Hindi TEST 01: 2026 JioHotstar-kids-labelled Disney Channel India, listed SD; distinct server
 #EXTINF:-1 tvg-name="Disney Hindi TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi (Unverified)",Disney Hindi TEST 01
 http://51.75.127.199:3141/disneychannel/index.m3u8
@@ -35,12 +35,6 @@ http://139.23.241.38:8088/602/tracks-v1a1/mono.m3u8
 # Disney Hindi TEST 10: Archived Disney Channel India SD stream manifest; may have expired
 #EXTINF:-1 tvg-name="Disney Hindi TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png" group-title="01 - Disney Hindi (Unverified)",Disney Hindi TEST 10
 https://shahakshay938.github.io/backups/streams/2026-05-09/disneychannel-in-sd.m3u8
-# Sonic Hindi TEST 01: VERIFIED BY VIEWER ON LINK3. Keep exact URL.
-#EXTINF:-1 tvg-name="Sonic Hindi TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 - Sonic Hindi VERIFIED",Sonic Hindi TEST 01
-https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8
-# Sonic Bangla TEST 01: VERIFIED BY VIEWER ON LINK3. Keep exact URL.
-#EXTINF:-1 tvg-name="Sonic Bangla TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 - Sonic Bangla VERIFIED",Sonic Bangla TEST 01
-http://103.17.193.159:5001/live/1345.m3u8
 
 # 2026-10-26 user cleanup: Hungama TEST 29 is the ONLY viewer-confirmed working Hungama feed.
 # Removed 30 unsuccessful Hungama trials and all 9 unwanted Super Hungama trials.
@@ -48,3 +42,32 @@ http://103.17.193.159:5001/live/1345.m3u8
 # Hungama TEST 29: VERIFIED by viewer on Link3; preserve original URL and test number.
 #EXTINF:-1 tvg-id="hungama-test3-29" tvg-name="Hungama TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="04 | HUNGAMA TV - VERIFIED",Hungama TEST 29
 http://103.135.253.32:8080/HUNGAMA/index.m3u8
+
+# 2026-10-26 New public-source Sonic test URLs; ALL UNVERIFIED on Link3.
+# The GitHub runner could not fetch sample segments: TIMEOUT on every selected trial.
+# Timeout is inconclusive for regional BD/India ISPs; it is NOT proof of playback.
+# All known 403, 404, TLS-expired, DNS-failing, 500, and old viewer-failed options excluded.
+# Sonic Hindi TEST 02 (iptv-org India curated, Hindi audio unverified); GitHub checker TIMED OUT. NOT confirmed working.
+#EXTINF:-1 tvg-id="sonic-hindi-test2" tvg-name="Sonic Hindi TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 | Sonic Hindi NEW TEST",Sonic Hindi TEST 02
+http://103.185.24.134:3001/SONIC/index.m3u8
+# Sonic Hindi TEST 03 (Public Nickelodeon Sonic Hindi IPTV listing); GitHub checker TIMED OUT. NOT confirmed working.
+#EXTINF:-1 tvg-id="sonic-hindi-test3" tvg-name="Sonic Hindi TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 | Sonic Hindi NEW TEST",Sonic Hindi TEST 03
+http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8
+# Sonic Hindi TEST 04 (Mystique India Sonic Hindi channel 815); GitHub checker TIMED OUT. NOT confirmed working.
+#EXTINF:-1 tvg-id="sonic-hindi-test4" tvg-name="Sonic Hindi TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 | Sonic Hindi NEW TEST",Sonic Hindi TEST 04
+http://103.68.28.58:5001/live/815.m3u8
+# Sonic Hindi TEST 05 (Public Sonic Hindi Jio relay); GitHub checker TIMED OUT. NOT confirmed working.
+#EXTINF:-1 tvg-id="sonic-hindi-test5" tvg-name="Sonic Hindi TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 | Sonic Hindi NEW TEST",Sonic Hindi TEST 05
+https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8
+# Sonic Bangla TEST 02 (Public Bangladesh IPTV Jadoo Sonic); GitHub checker TIMED OUT. NOT confirmed working.
+#EXTINF:-1 tvg-id="sonic-bangla-test2" tvg-name="Sonic Bangla TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 | Sonic Bangla NEW TEST",Sonic Bangla TEST 02
+https://bracnet.iptv.jadoodigital.com/live/sonic/playlist.m3u8
+# Sonic Bangla TEST 03 (Public GitHub explicitly Sonic Bangla); GitHub checker TIMED OUT. NOT confirmed working.
+#EXTINF:-1 tvg-id="sonic-bangla-test3" tvg-name="Sonic Bangla TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 | Sonic Bangla NEW TEST",Sonic Bangla TEST 03
+http://103.102.27.173:84/SONIC-BANGLA/tracks-v1a1/mono.m3u8
+# Sonic Bangla TEST 04 (Mystique India Sonic Bangla channel 1345); GitHub checker TIMED OUT. NOT confirmed working.
+#EXTINF:-1 tvg-id="sonic-bangla-test4" tvg-name="Sonic Bangla TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 | Sonic Bangla NEW TEST",Sonic Bangla TEST 04
+http://103.68.28.58:5001/live/1345.m3u8
+# Sonic Bangla TEST 05 (Public GitHub labelled Sonic Bangla); GitHub checker TIMED OUT. NOT confirmed working.
+#EXTINF:-1 tvg-id="sonic-bangla-test5" tvg-name="Sonic Bangla TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 | Sonic Bangla NEW TEST",Sonic Bangla TEST 05
+http://198.195.239.50:8095/sonic/index.m3u8
