@@ -1,9 +1,9 @@
 {
-  "checked_at_utc": "2026-10-26T15:32:33.299697+00:00",
+  "checked_at_utc": "2026-10-26T15:34:15.240190+00:00",
   "scope": "GitHub Actions runner, NOT Link3/TV decoder; segment HTTP bytes do NOT establish channel identity/audio",
-  "candidate_count": 212,
+  "candidate_count": 214,
   "manifest_ok": 2,
-  "segment_ok": 2,
+  "segment_ok": 1,
   "results": [
     {
       "kind": "hungama",
@@ -611,8 +611,8 @@
       "url": "http://103.151.60.162:2122/play/a00w/index.m3u8?hls",
       "provenance": "Verified iptv-org/iptv streams/in.m3u associates a00w with Star Jalsha; previous Sonic label was incorrect.",
       "manifest_ok": true,
-      "segment_ok": true,
-      "video_bytes": 2048,
+      "segment_ok": false,
+      "video_bytes": 188,
       "resolution": null,
       "variant_count": 1,
       "error": null
@@ -2548,6 +2548,30 @@
       "resolution": null,
       "variant_count": 0,
       "error": "HTTPError: HTTP Error 500: Internal Server Error"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "2026 iptv-org add Sonic 103.154.3.101 Jio 815",
+      "url": "http://103.154.3.101:5001/live/815.m3u8",
+      "provenance": "https://github.com/iptv-org/iptv/issues/36782 documented Sonic SD explicit stream",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "URLError: <urlopen error timed out>"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "2026 iptv-org add Sonic 103.122.249.134 a051",
+      "url": "http://103.122.249.134:8000/play/a051",
+      "provenance": "https://github.com/iptv-org/iptv/issues/37823 documented Sonic SD explicit stream; endpoint lacks m3u8 file extension",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "Unsupported path; cannot establish direct HLS"
     }
   ]
 }
