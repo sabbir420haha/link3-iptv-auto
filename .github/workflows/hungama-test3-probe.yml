@@ -1,0 +1,42 @@
+name: Hungama TEST 3 Source Health (Read Only)
+on:
+  push:
+    branches: [main]
+    paths:
+      - hungama_test3_probe.py
+      - hungama_test3_sources.json
+      - .github/workflows/hungama-test3-probe.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: hungama-test3-health
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Read-only verify HLS headers and first media bytes
+        run: |
+          python -m py_compile hungama_test3_probe.py
+          python hungama_test3_probe.py
+      - name: Publish report only (never edit TV playlists)
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add hungama_test3_health.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record Hungama TEST 3 candidate health from GitHub runner'
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git fetch origin main
+              git rebase -X theirs origin/main
+              sleep 2
+            done
+            exit 1
+          fi
