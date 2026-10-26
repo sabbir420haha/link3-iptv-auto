@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-26T14:39:08.382715+00:00",
+  "checked_at_utc": "2026-10-26T15:15:24.282142+00:00",
   "scope": "GitHub Actions runner, NOT Link3/TV decoder; segment HTTP bytes do NOT establish channel identity/audio",
   "candidate_count": 207,
   "manifest_ok": 2,
@@ -387,7 +387,7 @@
       "video_bytes": 0,
       "resolution": null,
       "variant_count": 0,
-      "error": "Unsupported path; cannot establish direct HLS"
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
     },
     {
       "kind": "sonic-bangla",
