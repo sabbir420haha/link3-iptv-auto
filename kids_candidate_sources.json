@@ -446,6 +446,102 @@
       "label": "Sonic Bangla Bangla Toffee backup 1345",
       "url": "https://mini.allinonereborn.fun/jiotv-www/app/ts_live_1345.m3u8",
       "provenance": "Inferred sibling of GitHub Jio Sonic Hindi 815, not a published direct URL"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla 103.159 Jio 1345",
+      "url": "http://103.159.180.34:5001/live/1345.m3u8",
+      "provenance": "Github Sonic Bangla channel id 1345"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla AllinOne online 1345",
+      "url": "https://mini.allinonereborn.online/jiotv-ww323/app/ts_live_1345.m3u8",
+      "provenance": "Github Sonic Bangla labelled Bangla"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla Mintos 1345",
+      "url": "https://mintos.allinonereborn.xyz/jiotv-ww31/app/ts_live_1345.m3u8",
+      "provenance": "Github Sonic Bangla labelled Bangla"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla MHDTv 1345",
+      "url": "https://mhdtv.co.in/jio/app/live/1345/Sonic_Bangla/index.m3u8",
+      "provenance": "Github Sonic Bangla"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla JioTV link 1345",
+      "url": "https://jio.jiotv.link/api/app/live.php?id=1345&e=.m3u8",
+      "provenance": "Github Sonic Bangla channel 1345"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla Jio API Sport247 1345",
+      "url": "https://jioapi.sports247.eu.org/api/app/live.php?id=1345&e=.m3u8",
+      "provenance": "Github Sonic Bangla channel 1345"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla Nettv Jio 1345",
+      "url": "https://apis.nettv.fun/j/live.php?id=1345&format=.m3u8",
+      "provenance": "Github Sonic Bangla 1345"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla Jio 103.139 1345",
+      "url": "http://103.139.171.5:5001/jiotvplus/live.php?c=Sonic_Bangla&q=800&e=.m3u8",
+      "provenance": "Github Sonic Bangla explicit channel"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla Jo123 1345",
+      "url": "http://jo123.biz/jweb/m3u8.php?c=Sonic_Bangla&q=400&e=.m3u8",
+      "provenance": "Github Sonic Bangla explicit channel"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Sonic Bangla 119.156 alternate",
+      "url": "http://119.156.26.155:8000/play/a05y/index.m3u8",
+      "provenance": "GitHub SONIC generic - Bangla language not verified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Sonic Hindi 202.70 575",
+      "url": "http://202.70.146.135:8000/play/a02t/index.m3u8",
+      "provenance": "Github SONIC channel id 575 language unspecified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Sonic Hindi API Sport247 815",
+      "url": "https://jioapi.sports247.eu.org/api/app/live.php?id=815&e=.m3u8",
+      "provenance": "Github Sonic Hindi id 815"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Sonic Hindi Jo123",
+      "url": "http://jo123.biz/jweb/m3u8.php?c=sonic_Hindi&q=1200&e=.m3u8",
+      "provenance": "Github Sonic Hindi named playlist"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Sonic Hindi Nettv API",
+      "url": "https://apis.nettv.fun/j/live.php?id=815&format=.m3u8",
+      "provenance": "Inferred from published Nettv Sonic Bangla API; unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Sonic Hindi 103.168 PHP Jio",
+      "url": "http://103.168.18.83/zan/app/live.php?id=815&e=.m3u8",
+      "provenance": "Github explicit Sonic Hindi id 815"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Sonic Hindi Fifabdmob SonicNick",
+      "url": "https://fifabdmob.site/new.php?id=JC_SonicNick/JCHLS/JC_SonicNick-audio_108041_hin=108000-video=662800.m3u8",
+      "provenance": "Github SonicNick HLS Hindi format"
     }
   ]
 }
