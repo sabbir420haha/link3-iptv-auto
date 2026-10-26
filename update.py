@@ -803,7 +803,14 @@ def main():
             group = clean("00 | MY FAVORITES" if item["name"] in (FAVORITES_SET | {"Channel 24 YT HLS TEST"}) else
                           "98 | TEST - Unverified Non-BDIX" if state == "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED" else item["group"])
             logo = clean(chosen.get("logo", ""))
-            output.append(f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}" group-title="{group}",{name}')
+            # A standalone Hungama TEST 29 playlist plays using a fresh channel
+            # identity on IPTV Pro. Reuse only its tvg-id/name metadata in Main,
+            # retaining the direct HLS URL, Favorites position and visible name.
+            # This is an app-identity/cache trial, NOT a buffer/relay adjustment.
+            player_id = clean(item.get("player_tvg_id", ""))
+            player_name = clean(item.get("player_tvg_name", name))
+            tvg_id_attribute = f' tvg-id="{player_id}"' if player_id else ""
+            output.append(f'#EXTINF:-1{tvg_id_attribute} tvg-name="{player_name}" tvg-logo="{logo}" group-title="{group}",{name}')
             # Preserve exact IPTV Pro player header if a stream was user-confirmed
             # with that header. Ordinary channel URLs/headers remain untouched.
             if item.get("locked") and item.get("stream_user_agent"):
