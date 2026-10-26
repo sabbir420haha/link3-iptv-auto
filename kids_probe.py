@@ -23,8 +23,12 @@ def check(item):
     z={k:item[k] for k in ["kind","label","url","provenance"]}
     z.update({"manifest_ok":False,"segment_ok":False,"video_bytes":0,"resolution":None,"variant_count":0,"error":None})
     u=item["url"]
-    if not urllib.parse.urlsplit(u).path.lower().endswith(".m3u8"):
-        z["error"]="Not a direct m3u8 playlist"
+    # Check published HLS .m3u8 and PHP resolver URLs. Reject HTML replies below.
+    part=urllib.parse.urlsplit(u)
+    if not (part.path.lower().endswith(".m3u8") or
+            (part.path.lower().endswith(".php") and
+             any(a in part.query.lower() for a in ("id=", "c=", "format=", "e=")))):
+        z["error"]="Unsupported path; cannot establish direct HLS"
         return z
     try:
         for level in range(3):
