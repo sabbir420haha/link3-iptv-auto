@@ -1140,8 +1140,8 @@
       "url": "https://tplay.dinesh29.com.np/live/tataplay-universal/sonic-nickelodeon/index.ts",
       "source": "Ferdos-Live-Tv/Tata-play-without-vpn tataplay-universal.m3u; aajuuiu12/anand tataplay-malayalam.m3u",
       "group": "12 | SONIC HINDI - TATA PLAY TEST",
-      "remote_result": "Not yet checked",
-      "status": "USER TEST PENDING",
+      "remote_result": "URLError: <urlopen error [Errno -2] Name or service not known>",
+      "status": "REMOTE DNS FAILURE (Link3 untested)",
       "batch": "tata-play-ts127"
     },
     {
@@ -1172,5 +1172,5 @@
     "reported_nonworking_count": 85,
     "verified_working_count": 0
   },
-  "latest_discovery_note": "Tata Play ts127 index.ts from two GitHub listings, not user- or server-verified; first 85 reported broken."
+  "latest_discovery_note": "Tata Play ts127 TEST086 failed GitHub-runner DNS; TEST087–088 are distinct Tata-labelled sources, not verified as playable."
 }
