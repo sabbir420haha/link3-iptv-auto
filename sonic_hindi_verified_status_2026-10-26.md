@@ -1,5 +1,23 @@
 # Sonic Hindi — verified-source search results (2026-10-26)
 
+## Recovered October 23 user-confirmed source (from actual repo commits)
+
+- The user confirmed **Sonic Hindi TEST 01 working on Link3** on October 23, 2026.
+- The historical commit `c00303508de57a427dc1f18247ba94e8eb1b42bd` pins its source in `channels.json` and the commit `d66f9a059552d111526e533b7b7c8a78898dae57` publishes it in `playlist.m3u`: `https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8`.
+- As of October 26 the user reports Sonic Hindi no longer plays. This is a *historically confirmed* feed, NOT currently working.
+- A separate old host `http://103.17.193.159:5001/live/815.m3u8` was referenced in a prior answer but was NOT the verified TEST 01 source based on GitHub commits; do not mislabel it as user-confirmed.
+
+## Tata Play-specific research (October 26)
+
+- Sonic Nickelodeon is listed as Tata Play `ts127` in multiple third-party M3U playlists. Three distinct source URLs are now TEST 086–088 in `three_channel_test.m3u`.
+- TEST 086: `https://tplay.dinesh29.com.np/live/tataplay-universal/sonic-nickelodeon/index.ts`: GitHub Actions DNS failure.
+- TEST 087: `http://103.84.57.155:8000/play/a03y/29711434.m3u8`: GitHub Actions remote timeout (not an HTTP 404; playback on Link3 still unverified).
+- TEST 088: `https://playflix.icu/Extra%20Tata%20playlist.m3u/stream.m3u8?id=ts127&e=.m3u8`: GitHub Actions DNS failure.
+- Other Tata Play `ts127` `.mpd` listings are DASH/DRM streams, not directly playable as ordinary HLS M3U8 in IPTV Pro. Do not call them working HLS URLs.
+- Original user-confirmed working Hungama and other Main channels remain untouched.
+
+---
+
 ## What we KNOW
 
 - Viewer checked Sonic Hindi TEST 001–085 in IPTV Pro over Link3 Wi-Fi. **All 85 failed** (viewer report).
