@@ -1437,6 +1437,20 @@
       "url": "https://playflix.icu/Extra%20Tata%20playlist.m3u/stream.m3u8?id=ts127&e=.m3u8",
       "provenance": "bhavy20110/So-what BhavyaTataplay.m3u8, same URL with path spaces percent-encoded",
       "source_class": "published-tata-play-hls-resolver-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "SOURCE TRACE Sonic Nickelodeon 103.84.57.155 alternate a03y/index",
+      "url": "http://103.84.57.155:8000/play/a03y/index.m3u8",
+      "provenance": "KMABIDHASAN63/XYZ Website.m3u: explicit Sonic Nickelodeon entry; different path from viewer-failed TEST087 server",
+      "source_class": "published-public-new-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "SOURCE TRACE 103.17.193.159 Jio815 inferred (not identified by source)",
+      "url": "http://103.17.193.159:5001/live/815.m3u8",
+      "provenance": "maybetv/Jo playlist.m3u includes 35 channels on 103.17.193.159:5001 with Jio channel IDs; 815 endpoint is inferred, NOT published in that file; do not promote if HTML or wrong channel",
+      "source_class": "inferred-path-not-published"
     }
   ]
 }
