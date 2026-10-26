@@ -49,12 +49,156 @@ http://103.17.193.159:5001/live/1345.m3u8
 #EXTINF:-1 tvg-id="hungama-test3-29" tvg-name="Hungama TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="04 | HUNGAMA TV - VERIFIED",Hungama TEST 29
 http://103.135.253.32:8080/HUNGAMA/index.m3u8
 
-# New trial candidate from public playlist, 2026-10-26. WARNING: previously reported 404 in March 2026; likely fails. Not HD-verified.
-#EXTINF:-1 tvg-id="hungama-test3-32" tvg-name="Hungama TEST 32" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - NEW EXPERIMENTAL",Hungama TEST 32
-http://iptvcasomsapi.jprdigital.in/x-media/C0408/master.m3u8
-# New alternative MPEG-DASH path found in 2026 public playlist; NOT HLS, uses ClearKey DRM, may not play in IPTV Pro. No resolution or Link3 confirmation.
-#EXTINF:-1 tvg-id="hungama-test3-33" tvg-name="Hungama TEST 33 DASH DRM" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - NEW EXPERIMENTAL",Hungama TEST 33 DASH DRM
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=454f8353caac500d95d641e0c7cfe048:0aaca46ea0f5096335598781fbe590e4
-#EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
-https://jtvp.8088yyy.workers.dev/bpk-tv/Hungama_BTS/output/index.mpd
+# 2026-10-26: 49 NEW public-list Hungama-labelled alternatives; all UNVERIFIED ON LINK3.
+# 50 total Hungama test entries = viewer-working TEST 29 + these 49 trials.
+# Prior user-rejected TEST 01..28, 30..33 and all Super Hungama removed.
+# Test slots 34..82. Resolutions, working status, rights and exact channel identity NOT established.
+# Same-family candidates at start, other public provider mirrors thereafter.
+# No DRM keys, private-address streams or playlist passwords appended as options.
+# Hungama TEST 34: same Discovery relay provider family; playlist reference priyoarman/iptv-fetches. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-34" tvg-name="Hungama TEST 34" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA SAME-FAMILY CANDIDATES (UNVERIFIED)",Hungama TEST 34
+http://sm-monirul.top/SM/live/hungama.m3u8
+# Hungama TEST 35: BD IPTV public list (nehalmahamuddev). UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-35" tvg-name="Hungama TEST 35" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA SAME-FAMILY CANDIDATES (UNVERIFIED)",Hungama TEST 35
+https://app-zibo-play40.tvhunter.top/newr/HUNGAMA.m3u8
+# Hungama TEST 36: public IPTV HUNGAMA endpoint, matching main server path style. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-36" tvg-name="Hungama TEST 36" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA SAME-FAMILY CANDIDATES (UNVERIFIED)",Hungama TEST 36
+http://198.195.239.50:8095/HUNGAMA/index.m3u8
+# Hungama TEST 37: public GitHub playlist. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-37" tvg-name="Hungama TEST 37" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 37
+https://kingkohli.pages.dev/Play/Kid/HungamaTV.m3u8
+# Hungama TEST 38: public Shahir-TV playlist. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-38" tvg-name="Hungama TEST 38" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 38
+https://yowaimo.in/Sflex-ArtlPVT0719/hungama.m3u8
+# Hungama TEST 39: public Hungama playlist. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-39" tvg-name="Hungama TEST 39" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 39
+https://sangamp94.github.io/filmaxxplay/filmaxxlivehungama.m3u8
+# Hungama TEST 40: public PLAYLIVTV Hungama listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-40" tvg-name="Hungama TEST 40" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 40
+https://air2stem.playlivtv.workers.dev/?id=137788
+# Hungama TEST 41: public MPDISHTV Hungama listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-41" tvg-name="Hungama TEST 41" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 41
+https://fifabd.xyz/KID/play.m3u8?id=150480
+# Hungama TEST 42: public Hungama TV listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-42" tvg-name="Hungama TEST 42" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 42
+https://allinonereborn.com/oplex.m3u8?id=150480
+# Hungama TEST 43: public Hungama listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-43" tvg-name="Hungama TEST 43" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 43
+https://allinonereborn.com/jiobe1125.m3u8?id=1094
+# Hungama TEST 44: public Hungama listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-44" tvg-name="Hungama TEST 44" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 44
+https://allinonereborn.fun/opplex190.m3u8?id=150480
+# Hungama TEST 45: public Hungama listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-45" tvg-name="Hungama TEST 45" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 45
+https://allinonereborn.com/oplx11.m3u8?id=150480
+# Hungama TEST 46: public Hungama listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-46" tvg-name="Hungama TEST 46" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 46
+https://allinonereborn.com/opplex1991.m3u8?id=150480
+# Hungama TEST 47: public Hungama listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-47" tvg-name="Hungama TEST 47" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 47
+https://allinonereborn.space/opplex.m3u8?id=150480
+# Hungama TEST 48: public Hungama listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-48" tvg-name="Hungama TEST 48" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 48
+https://allinonereborn.fun/opplex1991/index.php?id=150480
+# Hungama TEST 49: public Hungama listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-49" tvg-name="Hungama TEST 49" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 49
+https://filoox.vercel.app/live/150480.m3u8
+# Hungama TEST 50: public Hungama listing; may be BDIX-only. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-50" tvg-name="Hungama TEST 50" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 50
+https://bdixtv.life/bdixtv.php?id=150480
+# Hungama TEST 51: public Hungama listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-51" tvg-name="Hungama TEST 51" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 51
+http://opstorm-001-site1.ltempurl.com/Puboplxo/opplx5.php?id=150480
+# Hungama TEST 52: public Hungama listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-52" tvg-name="Hungama TEST 52" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 52
+https://its-ferdos-alom.top/iptv/Op/live.php?id=150480
+# Hungama TEST 53: public Hungama listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-53" tvg-name="Hungama TEST 53" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 53
+https://www.redbooks.site/x11.php?id=150480.m3u8
+# Hungama TEST 54: public Hungama listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-54" tvg-name="Hungama TEST 54" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 54
+https://port.denver1769.in/oplx3.php?id=150480
+# Hungama TEST 55: public Hungama Kids listing (may differ from Hungama TV). UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-55" tvg-name="Hungama TEST 55" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 55
+http://allinonereborn.in/allinone.php?id=56032
+# Hungama TEST 56: public Hungama Kids listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-56" tvg-name="Hungama TEST 56" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 56
+https://ranapkx.site/RANAPK33k/TVD/play.php?id=1433211&e=.m3u8
+# Hungama TEST 57: public Hungama Kids listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-57" tvg-name="Hungama TEST 57" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 57
+https://tgaadi-web.tech/api/spice.php?tv=9400
+# Hungama TEST 58: public Hungama TV listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-58" tvg-name="Hungama TEST 58" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 58
+https://alex4528.site/k7m2q9x4b8nc/stream.ts?id=132887
+# Hungama TEST 59: public Hungama playlist. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-59" tvg-name="Hungama TEST 59" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 59
+https://dv8r.short.gy/Hungama.m3u8
+# Hungama TEST 60: public Hungama TV listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-60" tvg-name="Hungama TEST 60" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 60
+https://a6we.short.gy/tivimaxxlinkshungama.m3u8
+# Hungama TEST 61: public Hungama TV labelled endpoint. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-61" tvg-name="Hungama TEST 61" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 61
+http://14.102.123.50:6969/play/a05u
+# Hungama TEST 62: public Hungama TV labelled alternate port. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-62" tvg-name="Hungama TEST 62" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 62
+http://14.102.123.50:8500/play/a05u
+# Hungama TEST 63: public Hungama TV labelled alternate port. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-63" tvg-name="Hungama TEST 63" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 63
+http://14.102.123.50:4000/play/a05u
+# Hungama TEST 64: public Hungama TV listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-64" tvg-name="Hungama TEST 64" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 64
+http://103.157.210.165:8000/play/a00q/index.m3u8
+# Hungama TEST 65: public Hungama TV listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-65" tvg-name="Hungama TEST 65" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 65
+http://103.147.87.13:8000/play/a00o/index.m3u8
+# Hungama TEST 66: public Hungama TV listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-66" tvg-name="Hungama TEST 66" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 66
+http://103.153.39.36:8000/play/a01x
+# Hungama TEST 67: public Hungama TV listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-67" tvg-name="Hungama TEST 67" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 67
+http://103.166.102.58:8000/play/a01x
+# Hungama TEST 68: public Hungama TV listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-68" tvg-name="Hungama TEST 68" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 68
+http://180.178.188.152:8000/play/a01x
+# Hungama TEST 69: public Hungama TV listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-69" tvg-name="Hungama TEST 69" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 69
+http://59.103.244.239:8001/play/a00k/index.m3u8
+# Hungama TEST 70: public Hungama TV listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-70" tvg-name="Hungama TEST 70" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 70
+http://103.157.237.18:8000/play/407
+# Hungama TEST 71: public Hungama TV (HD-labelled only). UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-71" tvg-name="Hungama TEST 71" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 71
+http://212.224.98.209:2200/R-EX/KIDS_Hungama_TV-in/index.m3u8?token=RK
+# Hungama TEST 72: public Hungama TV listing; account path may expire. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-72" tvg-name="Hungama TEST 72" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 72
+http://5giptv.me:8880/live/97115453/23939703/191562.ts
+# Hungama TEST 73: public Hungama Kids listing; account path may expire. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-73" tvg-name="Hungama TEST 73" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 73
+http://starshare.live:8080/live/qwer/qwer/18456.m3u8
+# Hungama TEST 74: public Hungama TV listing; account path may expire. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-74" tvg-name="Hungama TEST 74" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 74
+http://xtv.ooo:8080/live/415663775/826262627/150480.ts
+# Hungama TEST 75: public Hungama TV listing; account path may expire. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-75" tvg-name="Hungama TEST 75" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 75
+http://xtv.ooo:8080/live/927382370/837382809/150480.m3u8
+# Hungama TEST 76: public Hungama TV listing; account path may expire. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-76" tvg-name="Hungama TEST 76" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 76
+http://xtv.ooo:8080/live/874246786/743567899/150480.m3u8
+# Hungama TEST 77: public Hungama TV listing; account path may expire. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-77" tvg-name="Hungama TEST 77" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 77
+http://opplex.tv:8080/6606/123654/150480
+# Hungama TEST 78: public Hungama TV listing; account path may expire. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-78" tvg-name="Hungama TEST 78" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 78
+http://xtv.ooo:8080/6282527/4172427/150480
+# Hungama TEST 79: public Hungama TV listing; account path may expire. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-79" tvg-name="Hungama TEST 79" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 79
+http://xtv.ooo:8080/Ijaaz123/aijaz321/150480
+# Hungama TEST 80: public Hungama TV listing; account path may expire. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-80" tvg-name="Hungama TEST 80" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 80
+http://opplex.tv:8080/live/nazrul763/77547647/150480.m3u8
+# Hungama TEST 81: public Hungama Hindi listing. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-81" tvg-name="Hungama TEST 81" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 81
+https://www.ridx7.1.mywebsites.link/redx.php?id=48164&e=.m3u8
+# Hungama TEST 82: public Hungama Tamil listing; language may differ. UNVERIFIED.
+#EXTINF:-1 tvg-id="hungama-test3-82" tvg-name="Hungama TEST 82" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | HUNGAMA PUBLIC SOURCES (UNVERIFIED)",Hungama TEST 82
+https://ranapkz5.1.mywebsites.link/pkx.php?id=48164&e=.m3u8
