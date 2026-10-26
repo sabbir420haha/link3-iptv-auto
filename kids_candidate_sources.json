@@ -542,6 +542,265 @@
       "label": "Sonic Hindi Fifabdmob SonicNick",
       "url": "https://fifabdmob.site/new.php?id=JC_SonicNick/JCHLS/JC_SonicNick-audio_108041_hin=108000-video=662800.m3u8",
       "provenance": "Github SonicNick HLS Hindi format"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "iptv-org same-IP main StarSports2 Sonic a02v",
+      "url": "http://103.151.60.162:2122/play/a02v/index.m3u8?hls",
+      "provenance": "iptv-org/iptv streams/in.m3u: Sonic (576p) a02v, same host as Main Star Sports 2",
+      "source_class": "published"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "iptv-org same-IP a02v no query variant",
+      "url": "http://103.151.60.162:2122/play/a02v/index.m3u8",
+      "provenance": "Public provider pattern from published iptv-org entry; alternative transport path",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "SM-IPTV Voot Sonic named proxy",
+      "url": "https://shoebinfo.qzz.io/test/hot.php/Sonic.m3u8",
+      "provenance": "sm-monirulislam/SM-IPTV vood.m3u explicit Sonic (Nickelodeon) URL",
+      "source_class": "published"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "SM provider Sonic tokenless",
+      "url": "https://ultra.sm-monirul.top/SONIC/index.m3u8",
+      "provenance": "sm-monirulislam/SM-IPTV SM_bdix.m3u publishes /SONIC/index.m3u8 with expired token; tokenless test only, no bypass",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Monirul Discovery provider Sonic English case",
+      "url": "https://app-re.sm-monirul-islam-rs.workers.dev/Sonic/index.m3u8",
+      "provenance": "Same Cloudflare Worker host as Main Discovery Bangla, URL guessed",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Monirul Discovery provider Sonic Hindi",
+      "url": "https://app-re.sm-monirul-islam-rs.workers.dev/Sonic-Hindi/index.m3u8",
+      "provenance": "Same Cloudflare Worker host as Main Discovery Bangla, URL guessed",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Monirul Discovery provider Sonic Bengali",
+      "url": "https://app-re.sm-monirul-islam-rs.workers.dev/sonic-bangla/index.m3u8",
+      "provenance": "Same Cloudflare Worker host as Main Discovery Bangla, URL guessed",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Monirul Discovery provider Sonic Bengali lower",
+      "url": "https://app-re.sm-monirul-islam-rs.workers.dev/sonic-bengali/index.m3u8",
+      "provenance": "Same Cloudflare Worker host as Main Discovery Bangla, URL guessed",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Monirul SM provider live Sonic",
+      "url": "http://sm-monirul.top/SM/live/sonic.m3u8",
+      "provenance": "SM-IPTV same source family as Main Discovery Bangla worker, guessed endpoint",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "drk gpcdn same server sonic plain",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/sonic/index.m3u8",
+      "provenance": "Same CDN host as Main Sony Ten 1 HD, Pogo, Discovery Kids; inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "drk gpcdn same server sonic abr",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/sonic_abr/index.m3u8",
+      "provenance": "Same CDN host as Main Sony Ten 1 HD, Pogo, Discovery Kids; inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "drk gpcdn same server sonic sd abr",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/sonic_sd_abr/index.m3u8",
+      "provenance": "Same CDN host as Main Sony Ten 1 HD, Pogo, Discovery Kids; inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "drk gpcdn same server sonic hd abr",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/sonic_hd_abr/index.m3u8",
+      "provenance": "Same CDN host as Main Sony Ten 1 HD, Pogo, Discovery Kids; inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "drk gpcdn same server sonic hindi abr",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/sonic_hindi_abr/index.m3u8",
+      "provenance": "Same CDN host as Main Sony Ten 1 HD, Pogo, Discovery Kids; inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "drk gpcdn same server nick sonic abr",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/nick_sonic_abr/index.m3u8",
+      "provenance": "Same CDN host as Main Pogo; inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "drk gpcdn same server nickelodeon sonic abr",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/nickelodeon_sonic_abr/index.m3u8",
+      "provenance": "Same CDN host as Main Pogo; inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "drk gpcdn same server sonic bangla abr",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/sonic_bangla_abr/index.m3u8",
+      "provenance": "Same CDN as Main Sony Yay, Pogo; inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "drk gpcdn same server sonic bengali abr",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/sonic_bengali_abr/index.m3u8",
+      "provenance": "Same CDN as Main Sony Yay, Pogo; inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "ottplus same provider sonic abr",
+      "url": "https://stream.ottplus.live/live/sonic_abr/index.m3u8",
+      "provenance": "Same CDN as Main Sony Aath and Sony MAX; inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "ottplus same provider sonic hd abr",
+      "url": "https://stream.ottplus.live/live/sonic_hd_abr/index.m3u8",
+      "provenance": "Same CDN as Main Sony Aath and Sony MAX; inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "ottplus same provider sonic hindi abr",
+      "url": "https://stream.ottplus.live/live/sonic_hindi_abr/index.m3u8",
+      "provenance": "Same CDN as Main Sony Aath and Sony MAX; inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "ottplus same provider nickelodeon sonic",
+      "url": "https://stream.ottplus.live/live/nickelodeon_sonic_abr/index.m3u8",
+      "provenance": "Same CDN as Main Sony Aath and Sony MAX; inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "ottplus same provider nick sonic",
+      "url": "https://stream.ottplus.live/live/nick_sonic_abr/index.m3u8",
+      "provenance": "Same CDN as Main Sony Aath and Sony MAX; inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "ottplus same provider sonic bangla abr",
+      "url": "https://stream.ottplus.live/live/sonic_bangla_abr/index.m3u8",
+      "provenance": "Same CDN as Main Sony Aath and Sony MAX; inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "ottplus same provider sonic bengali abr",
+      "url": "https://stream.ottplus.live/live/sonic_bengali_abr/index.m3u8",
+      "provenance": "Same CDN as Main Sony Aath and Sony MAX; inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "ottplus BD variant sonic hindi",
+      "url": "https://stream.ottplus.bd/live/sonic_hindi_abr/index.m3u8",
+      "provenance": "Related OTTPLUS Bangladesh CDN discovered in public listings; inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "ottplus BD variant sonic bangla",
+      "url": "https://stream.ottplus.bd/live/sonic_bangla_abr/index.m3u8",
+      "provenance": "Related OTTPLUS Bangladesh CDN discovered in public listings; inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "same Hungama server Nickelodeon sonic",
+      "url": "http://103.135.253.32:8080/NICKELODEON-SONIC/index.m3u8",
+      "provenance": "Same IP provider as Main Hungama, Nick Bangla, NatGeo, inferred path",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "same Hungama server Nick Sonic",
+      "url": "http://103.135.253.32:8080/NICK-SONIC/index.m3u8",
+      "provenance": "Same IP provider as Main Hungama, Nick Bangla, NatGeo, inferred path",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "same Hungama server Sonic TV",
+      "url": "http://103.135.253.32:8080/SONIC-TV/index.m3u8",
+      "provenance": "Same IP provider as Main Hungama, Nick Bangla, NatGeo, inferred path",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "same Hungama server SONIC-SD",
+      "url": "http://103.135.253.32:8080/SONIC-SD/index.m3u8",
+      "provenance": "Same IP provider as Main Hungama, Nick Bangla, NatGeo, inferred path",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "same Hungama server Sonic Bangla HD",
+      "url": "http://103.135.253.32:8080/SONIC-BANGLA-HD/index.m3u8",
+      "provenance": "Same IP provider as Main Hungama, Nick Bangla, NatGeo, inferred path",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "AynaOTT same family sonic",
+      "url": "https://tvsen6.aynaott.com/sonic/index.m3u8",
+      "provenance": "Same Ayna CDN family as Main BD channels, inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "AynaOTT same family sonic hindi",
+      "url": "https://tvsen6.aynaott.com/sonichindi/index.m3u8",
+      "provenance": "Same Ayna CDN family as Main BD channels, inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "AynaOTT same family sonic bangla",
+      "url": "https://tvsen6.aynaott.com/sonicbangla/index.m3u8",
+      "provenance": "Same Ayna CDN family as Main BD channels, inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "AynaOTT different node sonic",
+      "url": "https://tvsen7.aynaott.com/sonic/index.m3u8",
+      "provenance": "Same Ayna family as Main TV, inferred slug",
+      "source_class": "inferred"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "AynaOTT different node sonic Bangla",
+      "url": "https://tvsen7.aynaott.com/sonicbangla/index.m3u8",
+      "provenance": "Same Ayna family as Main TV, inferred slug",
+      "source_class": "inferred"
     }
   ]
 }
