@@ -48,3 +48,13 @@ http://103.17.193.159:5001/live/1345.m3u8
 # Hungama TEST 29: VERIFIED by viewer on Link3; preserve original URL and test number.
 #EXTINF:-1 tvg-id="hungama-test3-29" tvg-name="Hungama TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="04 | HUNGAMA TV - VERIFIED",Hungama TEST 29
 http://103.135.253.32:8080/HUNGAMA/index.m3u8
+
+# New trial candidate from public playlist, 2026-10-26. WARNING: previously reported 404 in March 2026; likely fails. Not HD-verified.
+#EXTINF:-1 tvg-id="hungama-test3-32" tvg-name="Hungama TEST 32" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - NEW EXPERIMENTAL",Hungama TEST 32
+http://iptvcasomsapi.jprdigital.in/x-media/C0408/master.m3u8
+# New alternative MPEG-DASH path found in 2026 public playlist; NOT HLS, uses ClearKey DRM, may not play in IPTV Pro. No resolution or Link3 confirmation.
+#EXTINF:-1 tvg-id="hungama-test3-33" tvg-name="Hungama TEST 33 DASH DRM" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - NEW EXPERIMENTAL",Hungama TEST 33 DASH DRM
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=454f8353caac500d95d641e0c7cfe048:0aaca46ea0f5096335598781fbe590e4
+#EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (Linux; Android 13) ExoPlayerLib/2.11.7
+https://jtvp.8088yyy.workers.dev/bpk-tv/Hungama_BTS/output/index.mpd
