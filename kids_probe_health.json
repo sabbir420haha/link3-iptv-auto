@@ -1,7 +1,7 @@
 {
-  "checked_at_utc": "2026-10-26T09:26:53.074474+00:00",
+  "checked_at_utc": "2026-10-26T09:28:41.513783+00:00",
   "scope": "GitHub Actions runner, NOT Link3/TV decoder; segment HTTP bytes do NOT establish channel identity/audio",
-  "candidate_count": 16,
+  "candidate_count": 29,
   "manifest_ok": 1,
   "segment_ok": 1,
   "results": [
@@ -196,6 +196,162 @@
       "resolution": null,
       "variant_count": 0,
       "error": "URLError: <urlopen error timed out>"
+    },
+    {
+      "kind": "sonic-unknown",
+      "label": "Main working Hungama provider path trial 01",
+      "url": "http://103.135.253.32:8080/SONIC/index.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Main working Hungama provider path trial 02",
+      "url": "http://103.135.253.32:8080/SONIC-HINDI/index.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Main working Hungama provider path trial 03",
+      "url": "http://103.135.253.32:8080/SONIC-BANGLA/index.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Main working Hungama provider path trial 04",
+      "url": "http://103.135.253.32:8080/SONIC-BENGALI/index.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Main working Hungama provider path trial 05",
+      "url": "http://103.135.253.32:8080/SONIC-HD/index.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "sonic-unknown",
+      "label": "Main working Hungama provider path trial 06",
+      "url": "http://103.135.253.32:8080/Sonic/index.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Main working Hungama provider path trial 07",
+      "url": "http://103.135.253.32:8080/Sonic-Bangla/index.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Main working Hungama provider path trial 08",
+      "url": "http://103.135.253.32:8080/Sonic-Hindi/index.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "sonic-unknown",
+      "label": "Main working Hungama provider path trial 09",
+      "url": "http://103.135.253.32:8080/sonic/index.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Main working Hungama provider path trial 10",
+      "url": "http://edge01.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+      "provenance": "HTTP version of public Digijadoo URL; MAY REDIRECT",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "kind": "sonic-unknown",
+      "label": "Main working Hungama provider path trial 11",
+      "url": "http://103.135.253.32:8080/SONIC/tracks-v1a1/mono.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Main working Hungama provider path trial 12",
+      "url": "http://103.135.253.32:8080/SONIC-BANGLA/tracks-v1a1/mono.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Main working Hungama provider path trial 13",
+      "url": "http://103.135.253.32:8080/SONIC-HINDI/tracks-v1a1/mono.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "video_bytes": 0,
+      "resolution": null,
+      "variant_count": 0,
+      "error": "HTTPError: HTTP Error 404: Not Found"
     }
   ]
 }
