@@ -98,6 +98,84 @@
       "label": "Sonic Bangla 103.180",
       "url": "http://103.180.212.191:3500/live/1345.m3u8",
       "provenance": "public GitHub badalbd53/Rocket-OTV hindi"
+    },
+    {
+      "kind": "sonic-unknown",
+      "label": "Main working Hungama provider path trial 01",
+      "url": "http://103.135.253.32:8080/SONIC/index.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Main working Hungama provider path trial 02",
+      "url": "http://103.135.253.32:8080/SONIC-HINDI/index.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Main working Hungama provider path trial 03",
+      "url": "http://103.135.253.32:8080/SONIC-BANGLA/index.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Main working Hungama provider path trial 04",
+      "url": "http://103.135.253.32:8080/SONIC-BENGALI/index.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Main working Hungama provider path trial 05",
+      "url": "http://103.135.253.32:8080/SONIC-HD/index.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL"
+    },
+    {
+      "kind": "sonic-unknown",
+      "label": "Main working Hungama provider path trial 06",
+      "url": "http://103.135.253.32:8080/Sonic/index.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Main working Hungama provider path trial 07",
+      "url": "http://103.135.253.32:8080/Sonic-Bangla/index.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Main working Hungama provider path trial 08",
+      "url": "http://103.135.253.32:8080/Sonic-Hindi/index.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL"
+    },
+    {
+      "kind": "sonic-unknown",
+      "label": "Main working Hungama provider path trial 09",
+      "url": "http://103.135.253.32:8080/sonic/index.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Main working Hungama provider path trial 10",
+      "url": "http://edge01.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+      "provenance": "HTTP version of public Digijadoo URL; MAY REDIRECT"
+    },
+    {
+      "kind": "sonic-unknown",
+      "label": "Main working Hungama provider path trial 11",
+      "url": "http://103.135.253.32:8080/SONIC/tracks-v1a1/mono.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL"
+    },
+    {
+      "kind": "sonic-bangla",
+      "label": "Main working Hungama provider path trial 12",
+      "url": "http://103.135.253.32:8080/SONIC-BANGLA/tracks-v1a1/mono.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Main working Hungama provider path trial 13",
+      "url": "http://103.135.253.32:8080/SONIC-HINDI/tracks-v1a1/mono.m3u8",
+      "provenance": "Pattern-only inference from Link3-working Hungama server, NOT a published or confirmed Sonic URL"
     }
   ]
 }
