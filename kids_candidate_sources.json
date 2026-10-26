@@ -1451,6 +1451,20 @@
       "url": "http://103.17.193.159:5001/live/815.m3u8",
       "provenance": "maybetv/Jo playlist.m3u includes 35 channels on 103.17.193.159:5001 with Jio channel IDs; 815 endpoint is inferred, NOT published in that file; do not promote if HTML or wrong channel",
       "source_class": "inferred-path-not-published"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "2026 iptv-org add Sonic 103.154.3.101 Jio 815",
+      "url": "http://103.154.3.101:5001/live/815.m3u8",
+      "provenance": "https://github.com/iptv-org/iptv/issues/36782 documented Sonic SD explicit stream",
+      "source_class": "issue-published-new-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "2026 iptv-org add Sonic 103.122.249.134 a051",
+      "url": "http://103.122.249.134:8000/play/a051",
+      "provenance": "https://github.com/iptv-org/iptv/issues/37823 documented Sonic SD explicit stream; endpoint lacks m3u8 file extension",
+      "source_class": "issue-published-new-unverified"
     }
   ]
 }
