@@ -14,6 +14,32 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-10-27 source-backed new public-list entries; independent probe ONLY.
+    # Never promote these without HLS segment + channel identity + audio evidence.
+    {"channel":"Disney HD Hindi","url":"http://103.153.39.34:8000/play/a04o/index.m3u8",
+     "evidence":"github.com/Sonuiptvnew/Sonuiptvnew Sonuiptvfree; labeled Disney (India identity, Hindi and HD still unconfirmed)",
+     "expected_audio":"hi","min_height":720},
+    {"channel":"Sonic Hindi","url":"http://103.153.39.34:8000/play/a04p/index.m3u8",
+     "evidence":"github.com/riyad456/supernetIPTV live; labeled Sonic (2), language unconfirmed",
+     "expected_audio":"hi"},
+    {"channel":"Sonic Hindi","url":"https://allinonereborn.com/tatatv.php?id=11667",
+     "evidence":"github.com/Bhavesh0a/Index Index6; explicitly SONIC HINDI",
+     "expected_audio":"hi"},
+    {"channel":"Sonic Hindi","url":"http://mohitweb.zapto.org:7878/live/high/815.m3u8",
+     "evidence":"github.com/Bhavesh0a/Index Index6; Jio ID 815 explicitly Sonic Hindi",
+     "expected_audio":"hi"},
+    {"channel":"Sonic Hindi","url":"http://jo123.biz/jweb/m3u8.php?c=sonic_Hindi&q=1200&e=.m3u8",
+     "evidence":"github.com/mahmud31132/bdix-tv mahmud.m3u; explicitly Sonic Hindi; host public reachability unknown",
+     "expected_audio":"hi"},
+    {"channel":"Sonic Hindi","url":"http://pkr.cinepex.tv:8278/sonichindikdin/playlist.m3u8",
+     "evidence":"github.com/TamannaJain2710/iptv Customised_iptv.m3u; Sonic Hindi label",
+     "expected_audio":"hi"},
+    {"channel":"Sonic Bangla","url":"http://jo123.biz/jweb/m3u8.php?c=Sonic_Bangla&q=400&e=.m3u8",
+     "evidence":"github.com/mahmud31132/bdix-tv Expire.m3u; explicitly Sonic Bangla; host public reachability unknown",
+     "expected_audio":"bn"},
+    {"channel":"Sonic Bangla","url":"https://iptvcable.netlify.app/Altogether-007/Cartoon/SONIC.m3u8",
+     "evidence":"github.com/saimbook/tubebd script.js; labeled Sonic Bangla; prior runner reported segment but user playback failed; audio/identity need independent verification",
+     "expected_audio":"bn"},
     # 2026-10-26 newly sourced from public GitHub M3U labels; probe-only.
     # These hosts are not assumed non-BDIX or authorized, and channel identity,
     # audio language and HD must all be independently confirmed before use.
