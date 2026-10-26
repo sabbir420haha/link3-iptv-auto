@@ -49,3 +49,12 @@ Source/ISP operator must supply a currently accessible stream URL. First validat
 - Latest `kids_probe_health.json` verified **155 Sonic-Hindi-labelled candidates checked, zero successful sample media** (GitHub runner; some ISP-geofenced feeds may behave differently on Link3).
 - These four newly traced URLs were queued ONLY for backend examination, **not added to Test 3 or Main playlist**. Do not send user another mass list without positive checks; user has reported 1–85 and TEST 087 failing.
 - Historical Jio `jio.drmlive.net` feed is the actual user-confirmed October 23 link; not currently validated.
+
+## Additional source review — 26 October 2026, evening
+
+- Searched further public GitHub M3U/IPTV sources and web indexes including `saeidrahmanbd/BDIX-IPTV`, `ttmttm/iptv_2026`, `Mrdk475/mrdknew`, `MAUSHAMRAJ/Jiotv`, several Gists and the original Sonic source-family references.
+- The recently indexed `saeidrahmanbd/BDIX-IPTV/IPTV-Playlist.m3u` points Sonic to `http://103.185.24.134:3001/SONIC/index.m3u8`, a prior failed candidate; the new-indexed 2026 playlists repeat known hosts.
+- Search also located `http://hardcore-keldysh.64-227-150-121.plesk.page:80/getm3u8/815/master.m3u8`, but it is **existing TEST035** and its last GitHub probe was HTTP 404.
+- Novel URLs in some GitHub snippets were examples (`example.com`), credential-bearing private IPTV endpoints, or URLs with expired `wmsAuthSign` tokens; none can be represented as independently playable, durable Sonic Hindi HLS.
+- GitHub Actions latest stored result at 2026-10-26T15:36:51.952621+00:00: `155` Sonic-Hindi-labelled URLs checked and `0` downloaded verified media sample bytes. This does not establish Link3 playback for private/geo-locked sources.
+- **No new stream passed the minimum verification standard, so no new Test entry was published.** Main Playlist (75 channels), Hungama and 88 historic Sonic test entries untouched.
