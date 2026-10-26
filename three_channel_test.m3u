@@ -412,3 +412,13 @@ https://live.drmlive-02.workers.dev/jc/815.m3u8
 # Tata Play ID ts127, Sonic Nickelodeon, published MPEG-TS endpoint, NOT verified on Link3
 #EXTINF:-1 tvg-id="sonic-hindi-tata-ts127" tvg-name="Sonic Hindi TEST 086" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="12 | SONIC HINDI - TATA PLAY TEST",Sonic Hindi TEST 086
 https://tplay.dinesh29.com.np/live/tataplay-universal/sonic-nickelodeon/index.ts
+
+# SOURCE: mtbtv/tataplay playlist.m3u — published as Sonic Nickelodeon tvg-id ts127; entry is missing leading #EXTINF in upstream; identity inferred from tag
+# Public Tata Play-labelled candidate, video not yet validated, user Link3 check pending
+#EXTINF:-1 tvg-id="sonic-hindi-tata-ts127-087" tvg-name="Sonic Hindi TEST 087" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="12 | SONIC HINDI - TATA PLAY TEST",Sonic Hindi TEST 087
+http://103.84.57.155:8000/play/a03y/29711434.m3u8
+
+# SOURCE: bhavy20110/So-what BhavyaTataplay.m3u8 — Sonic Nickelodeon tvg-id ts127; URL path spaces percent-encoded from published listing
+# Public Tata Play-labelled candidate, video not yet validated, user Link3 check pending
+#EXTINF:-1 tvg-id="sonic-hindi-tata-ts127-088" tvg-name="Sonic Hindi TEST 088" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="12 | SONIC HINDI - TATA PLAY TEST",Sonic Hindi TEST 088
+https://playflix.icu/Extra%20Tata%20playlist.m3u/stream.m3u8?id=ts127&e=.m3u8
