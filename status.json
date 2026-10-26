@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-26T11:36:11.002209+00:00",
+  "updated_utc": "2026-10-26T12:11:59.290484+00:00",
   "channels": 75,
   "target_channels": 97,
   "groups": {
@@ -138,6 +138,105 @@
   "missing_target_candidate_audit": [
     {
       "name": "Disney HD Hindi",
+      "url": "https://fifabd.xyz/KID/play.m3u8?id=167551",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
+      "url": "https://allinonereborn.com/oplex.m3u8?id=167551",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
+      "url": "https://allinonereborn.com/oplx11.m3u8?id=167551",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
+      "url": "https://allinonereborn.com/opplex1991.m3u8?id=167551",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
+      "url": "https://www.redbooks.site/x11.php?id=167551.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
+      "url": "http://51.75.127.199:3141/disneychannel/index.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
+      "url": "https://s1.itcnbd.live/Disney-D/index.m3u8",
+      "manifest_ok": true,
+      "segment_ok": true,
+      "manifest_height": 720,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
+      "url": "https://s1.itcnbd.live/Disney-D/tracks-v1a1/mono.m3u8",
+      "manifest_ok": true,
+      "segment_ok": true,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
+      "url": "https://stream.kliv.in/ROPX/opp233/167551.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
+      "url": "https://hls-coolxtream.vercel.app/channel/167551&format=.m3u8",
+      "manifest_ok": true,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
+      "url": "http://103.167.255.18:8085/play/a0kq/index.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
       "url": "https://shahakshay938.github.io/backups/streams/2026-05-09/disneychannel-in-sd.m3u8",
       "manifest_ok": true,
       "segment_ok": false,
@@ -175,105 +274,6 @@
     {
       "name": "Disney HD Hindi",
       "url": "https://stream.ottplus.live/live/disney_channel_hd_abr/index.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Disney HD Hindi",
-      "url": "https://stream.ottplus.live/live/disney_hd_abr/index.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Disney HD Hindi",
-      "url": "https://app-re.sm-monirul-islam-rs.workers.dev/Disny-Channel-Hindi/index.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Disney HD Hindi",
-      "url": "https://raw.githubusercontent.com/Hasanmahmud000/Yt/main/Disney_Channel_HD.index.m3u8",
-      "manifest_ok": true,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Disney HD Hindi",
-      "url": "http://139.23.241.38:8088/602/tracks-v1a1/mono.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Disney HD Hindi",
-      "url": "http://ott.artmott.com/DisneyChannel/tracks-v1a1/mono.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Disney HD Hindi",
-      "url": "https://live.dinesh29.com.np/stream/jiotvplus/disneychannel/master.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Disney HD Hindi",
-      "url": "http://116.90.120.151:8000/play/a0hp/index.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Disney HD Hindi",
-      "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/8f3e6367117c923.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Disney HD Hindi",
-      "url": "http://zeestb1.online/dhoom.php?id=11385",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Disney HD Hindi",
-      "url": "http://stream-7b694ce7e.nmbs.top/m3u/Kids/c86abe8bd6.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Disney HD Hindi",
-      "url": "https://fifabd.xyz/KIDxRANAPK/play.m3u8?id=167551",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -1096,13 +1096,13 @@
   },
   "local_logos": {
     "total": 75,
-    "from_image_sources": 66,
-    "clear_name_fallbacks": 9,
+    "from_image_sources": 65,
+    "clear_name_fallbacks": 10,
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-10-26T11:36:23.175688+00:00",
+    "updated_utc": "2026-10-26T12:12:09.656317+00:00",
     "channel_count": 25,
     "entries": 576,
     "by_name": {
