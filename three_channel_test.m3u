@@ -41,3 +41,129 @@ https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8
 # Sonic Bangla TEST 01: VERIFIED BY VIEWER ON LINK3. Keep exact URL.
 #EXTINF:-1 tvg-name="Sonic Bangla TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 - Sonic Bangla VERIFIED",Sonic Bangla TEST 01
 http://103.17.193.159:5001/live/1345.m3u8
+
+# 2026-10-26 Hungama source trials: 31 Hungama TV + 9 DIFFERENT Super Hungama.
+# CDN and recent public playlists at top; every new stream is UNVERIFIED on Link3.
+# Do not treat Super Hungama as same feed; no confirmed Hindi/audio/resolution or playback.
+# Some historically broken/source variants deliberately retained as labelled tests.
+# Existing Disney Hindi + Sonic TEST sources above PRESERVED EXACTLY.
+# Hungama TEST 01: Your-Tribal-Chief/LiveTV channels.ts; status=CDN (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-01" tvg-name="Hungama TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="04 | HUNGAMA TV - CDN FIRST (TEST)",Hungama TEST 01
+https://s2.itcnbd.live/hungama/index.m3u8
+# Hungama TEST 02: Live-Anime-Cartoon-bot/Record-bot playlist.m3u8; status=recent (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-02" tvg-name="Hungama TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="04 | HUNGAMA TV - CDN FIRST (TEST)",Hungama TEST 02
+http://51.75.127.199:3141/hungama/index.m3u8
+# Hungama TEST 03: hasan-psl/Leaf-TV Leaf-TV.m3u; status=CDN (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-03" tvg-name="Hungama TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="04 | HUNGAMA TV - CDN FIRST (TEST)",Hungama TEST 03
+https://url-conv.vercel.app/play/a023/index.m3u8
+# Hungama TEST 04: iptv-org/iptv issue/35345 approved 2026-04; status=CDN (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-04" tvg-name="Hungama TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="04 | HUNGAMA TV - CDN FIRST (TEST)",Hungama TEST 04
+http://ajkiptv.ridsys.in/riptv/live/HUNGAMA/index.m3u8
+# Hungama TEST 05: arif626/OTT.m3u ALL CHANNEL; status=CDN (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-05" tvg-name="Hungama TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="04 | HUNGAMA TV - CDN FIRST (TEST)",Hungama TEST 05
+https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/tiptop-op.m3u8?id=1094
+# Hungama TEST 06: imranemon1/emon 21st May Update.m3u8 Hindi; status=CDN (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-06" tvg-name="Hungama TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="04 | HUNGAMA TV - CDN FIRST (TEST)",Hungama TEST 06
+http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/c36fa382a5bf123.m3u8
+# Hungama TEST 07: Shadmanislam/bdiptv BD IPTV.m3u; status=CDN (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-07" tvg-name="Hungama TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="04 | HUNGAMA TV - CDN FIRST (TEST)",Hungama TEST 07
+http://stream-e30453a4b.nmbs.top/m3u/Kids/1f3e9e6679.m3u8
+# Hungama TEST 08: channeliptv0/IPTV Master/jiotvplus; status=CDN (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-08" tvg-name="Hungama TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="04 | HUNGAMA TV - CDN FIRST (TEST)",Hungama TEST 08
+https://live.dinesh29.com.np/stream/jiotvplus/hungama/master.m3u8
+# Hungama TEST 09: thetest19/iptv-player livetv.m3u; status=recent (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-09" tvg-name="Hungama TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="04 | HUNGAMA TV - CDN FIRST (TEST)",Hungama TEST 09
+https://redbooks.site/2026/166/index.ts
+# Hungama TEST 10: iptv-org/iptv streams/in.m3u; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-10" tvg-name="Hungama TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 10
+http://66.102.126.10:8000/play/a023/index.m3u8
+# Hungama TEST 11: iptv-org/iptv streams/in.m3u; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-11" tvg-name="Hungama TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 11
+http://103.185.24.134:3001/HUNGAMA/index.m3u8
+# Hungama TEST 12: iptv-org/iptv issue/33744 approved 2026-03; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-12" tvg-name="Hungama TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 12
+http://111.88.78.21:8000/play/a0z1/index.m3u8
+# Hungama TEST 13: sx3in/bdix eboxlive; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-13" tvg-name="Hungama TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 13
+http://70.39.83.58:8278/hungamahindikdin/playlist.m3u8
+# Hungama TEST 14: robhein/iptv-4 playlist/iptv; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-14" tvg-name="Hungama TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 14
+http://175.107.244.52:4455/play/a03d/index.m3u8
+# Hungama TEST 15: rabbyos/rabbyos Tplay; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-15" tvg-name="Hungama TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 15
+http://119.152.240.15:8001/play/a0cs/index.m3u8
+# Hungama TEST 16: mahmud31132/bdix-tv Not working.m3u8; status=weak (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-16" tvg-name="Hungama TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 16
+http://103.162.136.235:4500/play/a01h/index.m3u8
+# Hungama TEST 17: 8figalltimepro/special-train Freecatv-57.m3u8; status=variant (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-17" tvg-name="Hungama TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 17
+http://103.162.136.235:4500/play//a01h/index.m3u8
+# Hungama TEST 18: Ferdos-Live-Tv/VIP jagobd nonhls; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-18" tvg-name="Hungama TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 18
+http://103.84.57.155:8000/play/a03t/index.m3u8
+# Hungama TEST 19: GhostHostBD/tvlink All TV Link; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-19" tvg-name="Hungama TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 19
+http://202.125.144.115:8000/play/a00g/index.m3u8
+# Hungama TEST 20: Farabi-2005/Farabi Future Network; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-20" tvg-name="Hungama TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 20
+http://119.156.26.155:8000/play/a05t/index.m3u8
+# Hungama TEST 21: rajushaw/iptb.raw.github.io bestfile.txt; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-21" tvg-name="Hungama TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 21
+http://103.179.246.243:8000/play/a01x
+# Hungama TEST 22: BrosatIPTV/Siaran India; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-22" tvg-name="Hungama TEST 22" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 22
+http://117.102.16.2:34567/play/a09c/index.m3u8
+# Hungama TEST 23: ahsam991/tvdekh index.html; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-23" tvg-name="Hungama TEST 23" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 23
+http://103.182.170.32:8888/play/a04b
+# Hungama TEST 24: ramprasanna1/Tvchannels tv.m3u; status=weak (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-24" tvg-name="Hungama TEST 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 24
+http://103.131.214.129:9985/stream/channel/c9f30c14011704a865861e0a072d431f?profile=pass
+# Hungama TEST 25: Robertlittle2469 Kids Playlist/kids.m3u; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-25" tvg-name="Hungama TEST 25" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 25
+http://103.153.39.34:8000/play/a04l/index.m3u8
+# Hungama TEST 26: pk3011/myinof Server1; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-26" tvg-name="Hungama TEST 26" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 26
+http://dpny5.1234.uno:6061/hungamatv/index.m3u8
+# Hungama TEST 27: Hasibfy37/Iptv Final.m3u; status=weak (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-27" tvg-name="Hungama TEST 27" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 27
+http://144.217.70.181:9587/hin2/HUNGAMA/tracks-v1a1/mono.m3u8?token=test
+# Hungama TEST 28: khankimagi23221/okk-1 kids.m3u; status=weak (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-28" tvg-name="Hungama TEST 28" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 28
+https://cricfyranahin.xyz/sportzx/line.m3u8?id=150480
+# Hungama TEST 29: user main Hungama, reported malfunction; status=old-main (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-29" tvg-name="Hungama TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 29
+http://103.135.253.32:8080/HUNGAMA/index.m3u8
+# Hungama TEST 30: iptv-org/iptv issue/39372 rejected broken 2026-06; status=known-broken (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-30" tvg-name="Hungama TEST 30" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 30
+https://tvex.easypecker.com/HUNGAMA/index.m3u8
+# Hungama TEST 31: davidchi2020/iptv-project group_Kids.m3u; status=weak (Link3 NOT verified)
+#EXTINF:-1 tvg-id="hungama-test3-31" tvg-name="Hungama TEST 31" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="05 | HUNGAMA TV - OTHER (TEST)",Hungama TEST 31
+http://87.255.35.150:18811
+# Super Hungama TEST 01: Your-Tribal-Chief/LiveTV channels.ts; status=CDN (Link3 NOT verified)
+#EXTINF:-1 tvg-id="super-hungama-test3-01" tvg-name="Super Hungama TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | SUPER HUNGAMA - DIFFERENT CHANNEL (TEST)",Super Hungama TEST 01
+https://s2.itcnbd.live/super-hungama/index.m3u8
+# Super Hungama TEST 02: Live-Anime-Cartoon-bot/Record-bot playlist.m3u8; status=recent (Link3 NOT verified)
+#EXTINF:-1 tvg-id="super-hungama-test3-02" tvg-name="Super Hungama TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | SUPER HUNGAMA - DIFFERENT CHANNEL (TEST)",Super Hungama TEST 02
+http://51.75.127.199:3141/superhungama/index.m3u8
+# Super Hungama TEST 03: iptv-org/iptv streams/in.m3u; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="super-hungama-test3-03" tvg-name="Super Hungama TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | SUPER HUNGAMA - DIFFERENT CHANNEL (TEST)",Super Hungama TEST 03
+http://103.185.24.134:3001/SUPER-HUNGAMA/index.m3u8
+# Super Hungama TEST 04: BrosatIPTV/Siaran India; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="super-hungama-test3-04" tvg-name="Super Hungama TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | SUPER HUNGAMA - DIFFERENT CHANNEL (TEST)",Super Hungama TEST 04
+http://117.102.16.2:34567/play/SuperHungama/index.m3u8
+# Super Hungama TEST 05: Fayello/manage-serenity-tv audit_report.md failure; status=weak (Link3 NOT verified)
+#EXTINF:-1 tvg-id="super-hungama-test3-05" tvg-name="Super Hungama TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | SUPER HUNGAMA - DIFFERENT CHANNEL (TEST)",Super Hungama TEST 05
+http://103.161.153.165:8000/play/a05a/index.m3u8
+# Super Hungama TEST 06: pabbhi/prdigitv finallivetv.html; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="super-hungama-test3-06" tvg-name="Super Hungama TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | SUPER HUNGAMA - DIFFERENT CHANNEL (TEST)",Super Hungama TEST 06
+http://103.167.255.18:8085/play/a0lk/index.m3u8
+# Super Hungama TEST 07: ahsam991/tvdekh index.html; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="super-hungama-test3-07" tvg-name="Super Hungama TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | SUPER HUNGAMA - DIFFERENT CHANNEL (TEST)",Super Hungama TEST 07
+http://103.175.73.12:8080/live/128/128_0.m3u8
+# Super Hungama TEST 08: 8figalltimepro/special-train Freecatv-57.m3u8; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="super-hungama-test3-08" tvg-name="Super Hungama TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | SUPER HUNGAMA - DIFFERENT CHANNEL (TEST)",Super Hungama TEST 08
+http://103.99.249.107:81/play/a07i
+# Super Hungama TEST 09: Farabi-2005/Farabi Future Network; status=curated (Link3 NOT verified)
+#EXTINF:-1 tvg-id="super-hungama-test3-09" tvg-name="Super Hungama TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="06 | SUPER HUNGAMA - DIFFERENT CHANNEL (TEST)",Super Hungama TEST 09
+http://103.124.251.164:28015/play/a02n/index.m3u8
