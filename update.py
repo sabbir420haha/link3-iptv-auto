@@ -189,6 +189,9 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        # 2026-10-26 newly sourced public playlist candidates; audit only.
+        "https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/tiptop-op.m3u8?id=1134",
+        "https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/tiptop-himu.m3u8?id=1134",
         # Newly sourced public candidate(s) 2026-10-26: audit only, never auto-replace a locked Link3 stream.
         "https://tamilultra.tv/api/jiotv.m3u8?id=815",
         # 2026-10-26 publicly labeled source; audit only, never replace user-confirmed pin.
@@ -247,6 +250,8 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # 2026-10-26 newly sourced public playlist candidates; audit only.
+        "https://fifabangladesh.live/@RANAPKX73/stream.m3u8?id=1345&e=.m3u8",
         # Newly sourced public candidate(s) 2026-10-26: audit only, never auto-replace a locked Link3 stream.
         "https://tamilultra.tv/api/jiotv.m3u8?id=1345",
         "https://iptvcable.netlify.app/Altogether-007/Cartoon/SONIC.m3u8",
@@ -777,6 +782,17 @@ def main():
                             state = "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED"
                             experimental_count += 1
                             break
+        # These two feeds are intentionally absent from the public playlist
+        # until segment checks AND independently reviewed identity/audio evidence
+        # are available. A channel name in a public M3U is not such evidence.
+        # The release must be explicit; never silently promote a candidate.
+        if item.get("publication_hold"):
+            approved = item.get("approved_url", "")
+            if not (approved and item.get("identity_audio_verified") and
+                    chosen and chosen["url"] == approved and
+                    health.get(approved) and segments.get(approved)):
+                chosen = None
+                state = "AUDIT_ONLY_AWAITING_SEGMENT_IDENTITY_AND_AUDIO_REVIEW"
         # Publish TEST only for authentic, not-yet-expired YouTube HLS.
         # Never substitute a third-party IPTV mirror or YouTube watch webpage.
         if item["name"] == "Channel 24 YT HLS TEST":
