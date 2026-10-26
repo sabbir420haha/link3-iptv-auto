@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "purpose": "Broad read-only IPTV source screening for alternate Sonic Hindi/Bangla. Pattern-only URLs are marked inferred, not validated.",
+  "purpose": "Source audit for Sonic Hindi/Bangla; viewer-failed, false-identity, inferred URL and different-CDN cases explicitly distinguished",
   "sources": [
     {
       "kind": "hungama",
@@ -304,10 +304,12 @@
       "provenance": "Public IPTV Sonic Hindi listing"
     },
     {
-      "kind": "sonic-hindi",
-      "label": "Sonic Hindi CDN 103.151.60 alternate",
+      "kind": "other-channel",
+      "label": "Star Jalsha (negative control — NOT Sonic)",
       "url": "http://103.151.60.162:2122/play/a00w/index.m3u8?hls",
-      "provenance": "GitHub Sonic catalog alternative, audio unverified"
+      "provenance": "Verified iptv-org/iptv streams/in.m3u associates a00w with Star Jalsha; previous Sonic label was incorrect.",
+      "source_class": "excluded-wrong-channel",
+      "not_sonic": true
     },
     {
       "kind": "sonic-hindi",
