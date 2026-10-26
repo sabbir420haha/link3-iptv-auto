@@ -1227,6 +1227,195 @@
       "provenance": "Curated GitHub IPTV stream trial; user Link3 check pending",
       "source_class": "sourced-public-manual-test",
       "baseline": false
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 058",
+      "url": "https://jkey.playlivtvlinks.workers.dev/?id=815",
+      "provenance": "https://github.com/Arivunidhi-S/PersonalPortfolio/blob/dae1b45bbc2dab78675933f9aa9f77b381990d58/mu3/1",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 059",
+      "url": "http://lifetvbd.xyz:8080/play/sfDLG_2a-o-zPZtPnk8IJW6UhHdyIzSQ7--gpJL4hJg/ts",
+      "provenance": "https://github.com/freedish2024/personal-project.sr/blob/329ea35074a5377c36e27fd3e4d4fd198fd38e7e/Aaaa",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 060",
+      "url": "https://madanitv.assadikb.workers.dev/live.php?id=815&e=.m3u8",
+      "provenance": "https://github.com/sm-monirulislam/SM-IPTV/blob/57a2bd39ff87397a92de2e7aa8a09458560e7396/iptv_bd.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 061",
+      "url": "http://89.187.189.98/SONIC/index.m3u8",
+      "provenance": "https://github.com/webdevsaravanan/m3u-manager/blob/9189f718efd31e6c6c30695b1f6c778fa030944f/src/assets/local.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 062",
+      "url": "https://avisha.aifyapps.in/wp-content/uploads/work/zio/live.php?id=815&format=.m3u8",
+      "provenance": "https://github.com/noobalex616/cricfytv/blob/904d4267890da09e744075d14ca24be023f72a6a/jiotv.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 063",
+      "url": "http://bnet.ssrbiptv.xyz:4518/Sonic/tracks-v1a1/mono.m3u8",
+      "provenance": "https://github.com/FCNch/Enet-Fiber/blob/7f710c692be9708fbfeb81fa892adf51808d2a4e/ind.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 064",
+      "url": "http://iptv.fcnonline.xyz/play/JmU-3pCgErAiWP5dU8MsAwc1ORDWM-Sduhds__yHwck/m3u8",
+      "provenance": "https://github.com/FCNch/E-Fiber/blob/8961d5bfbf7bc25d187d1e714df3a772440a7b23/Net.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 065",
+      "url": "http://103.182.170.32:8888/play/a02s",
+      "provenance": "https://github.com/alaminislam203/my_playlist/blob/e926daf2429ae22f4ab20b474310680716da9462/qplay.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 066",
+      "url": "https://mhdtvweb.com/jc/stream.m3u8?id=8469d44204388be88885368360f3faed&e=.m3u8",
+      "provenance": "https://github.com/nayeem086/playlists/blob/24cd2e37bd38ac7303cc570f8c0f228b2cdcd888/voot.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 067",
+      "url": "http://robi.iptv.digijadoo.net/live/sonic/playlist.m3u8",
+      "provenance": "https://github.com/lolz1990/my/blob/de21d04785c5aa320bc269fd3ecad0c3e0826919/TV2.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 068",
+      "url": "http://m3u.denver1769.fun/port/trex.php?id=1528605",
+      "provenance": "https://github.com/rkbro23/rk_playlist/blob/b977654ac0923b40a35227845c0714a4cf2e26ae/trex.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 070",
+      "url": "http://198.195.239.50:8095/SONIC/index.m3u8",
+      "provenance": "https://github.com/munim-sah75/Cofs_TV/blob/5bc98971916ff8d4994929da158a92d56b2ec343/playlist.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 071",
+      "url": "https://s2.itcnbd.live/server-3/stream/cGxheWVyLnBocD9zdHJlYW09NDU.m3u8",
+      "provenance": "https://github.com/ShahirTech/Shahir-TV-Playlist/blob/97abc627f09de8fc06d4a46131825f1d12909603/ITCN_Fresh_Ultimate.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 072",
+      "url": "https://tv.googledrivelinks.com/live.php?c=sonic_Hindi&q=1200&e=junk.m3u8",
+      "provenance": "https://github.com/kumar1244/Devops_201_course/blob/bb5368d409e7c3342200e06a4818f7991d938ae8/JIO_TV.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 073",
+      "url": "https://techiesneh.in1.bitmana.io/snehapi/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "provenance": "https://github.com/TheSamimMandal/SamimWorld/blob/87b4d76b521690f38b4e069de4ee29aae79d09f2/SamimJio.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 074",
+      "url": "https://tvstream.fun/jtv/live_world_wow.php?c=sonic_Hindi&q=600&e=junk.m3u8",
+      "provenance": "https://github.com/dodoniyi/AAA/blob/278af7bb18c94ea8d1c318d441e76239b578f0fe/JIO-SD.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 075",
+      "url": "https://tvstream.fun/jtv/live_world_wow.php?c=sonic_Hindi&q=1200&e=junk.m3u8",
+      "provenance": "https://github.com/dodoniyi/AAA/blob/278af7bb18c94ea8d1c318d441e76239b578f0fe/JIO-HD.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 076",
+      "url": "https://tv.freeseries.eu.org/live.php?c=sonic_Hindi&q=1200&e=junk.m3u8",
+      "provenance": "https://github.com/sudiptobd2/jio/blob/44dd8fd19189d5dcce79483a86fd050dd5204b38/DENVERIPTV MIX 2.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 077",
+      "url": "http://manastv.xyz/m3u8.php?c=sonic_Hindi&q=400&e=junk.m3u8",
+      "provenance": "https://github.com/aviarun/m3u/blob/803ac2ec72e261066422a0a04392bceb9588e3c7/IndiaIPTV2021 Jio SD.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 078",
+      "url": "http://3.110.187.2/tsjiotv/live.php?c=sonic_Hindi&q=600&e=junk.m3u8",
+      "provenance": "https://github.com/aoestudios57/aoestudios57.github.io/blob/99b635ac97e173c6c2612e541b12564cc8a8dff1/aoe-tv/CONTENT/mix/files/jio480p.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 079",
+      "url": "http://3.110.187.2/tsjiotv/live.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "provenance": "https://github.com/aoestudios57/aoestudios57.github.io/blob/99b635ac97e173c6c2612e541b12564cc8a8dff1/aoe-tv/CONTENT/mix/files/jio720p.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 080",
+      "url": "https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8",
+      "provenance": "https://github.com/sreshtantbohidar/WATCH-LIVE-TV/blob/3a6437b4f3bc5221b40b5f4c628847a5ea7448fc/channels.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 081",
+      "url": "https://live.dinesh29.com.np/stream/jiotv/sonichindi/master.m3u8",
+      "provenance": "https://github.com/CricZone/BDStreamHub/blob/597a4a3dc18f42226cc7a1e23a94b00dcf449d97/index.html",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 082",
+      "url": "http://116.90.120.157:8000/play/a0h7",
+      "provenance": "https://github.com/cancerbikash-oss/01/blob/0d9e7e8b1859fe542880ddf9c4cc5a76a9dfcafd/a00a_to_a00z.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 083",
+      "url": "https://sflex07.fun:443/07/jio/app/ts_live_815.m3u8",
+      "provenance": "https://github.com/channeliptv0/IPTV/blob/f26247efa6b641fda8d6bb16f01f99f4948d8a3b/TV.m3u",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 084",
+      "url": "https://snehtv.in1.bitmana.io/live.php?c=Sonic_Nickelodeon&q=250&e=.m3u8",
+      "provenance": "https://github.com/Arun9dec/IPTV/blob/cb8cf7df1a19b411b51c1810c893c4ce4f977516/IPTV Old",
+      "source_class": "sourced-public-manual-test-unverified"
+    },
+    {
+      "kind": "sonic-hindi",
+      "label": "Manual Sonic Hindi TEST 085",
+      "url": "https://live.drmlive-02.workers.dev/jc/815.m3u8",
+      "provenance": "https://github.com/Arun9dec/IPTV/blob/cb8cf7df1a19b411b51c1810c893c4ce4f977516/IPTV HD backup",
+      "source_class": "sourced-public-manual-test-unverified"
     }
   ]
 }
