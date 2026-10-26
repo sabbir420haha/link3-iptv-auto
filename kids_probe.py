@@ -23,8 +23,26 @@ def check(item):
     z={k:item[k] for k in ["kind","label","url","provenance"]}
     z.update({"manifest_ok":False,"segment_ok":False,"video_bytes":0,"resolution":None,"variant_count":0,"error":None})
     u=item["url"]
-    # Check published HLS .m3u8 and PHP resolver URLs. Reject HTML replies below.
+    # Direct MPEG-TS streams from published playlists are not HLS manifests.
+    # Inspect only 1,504 bytes (eight 188-byte TS packets) and require sync,
+    # without rebroadcasting/caching video or assuming the channel is correct.
     part=urllib.parse.urlsplit(u)
+    if part.path.lower().endswith(".ts"):
+        try:
+            req=urllib.request.Request(u,headers={**HEADERS,"Range":"bytes=0-1503"})
+            with urllib.request.urlopen(req,timeout=10) as res:
+                data=res.read(1504)
+                ctype=res.headers.get("Content-Type","")
+            z["video_bytes"]=len(data)
+            z["segment_ok"]=(len(data)>=752 and
+                            all(data[pos]==0x47 for pos in (0,188,376,564)))
+            if not z["segment_ok"]:
+                z["error"]=f"No MPEG-TS packet sync (bytes={len(data)}, type={ctype[:60]})"
+            return z
+        except Exception as e:
+            z["error"]=f"{type(e).__name__}: {str(e)[:145]}"
+            return z
+    # Check published HLS .m3u8 and PHP resolver URLs. Reject HTML replies below.
     if not (part.path.lower().endswith(".m3u8") or
             (part.path.lower().endswith(".php") and
              any(a in part.query.lower() for a in ("id=", "c=", "format=", "e=")))):
