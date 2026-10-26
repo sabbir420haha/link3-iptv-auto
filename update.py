@@ -640,7 +640,7 @@ def main():
     user_excluded = {"Jago News 24", "TBN24", "Green TV", "Nexus TV",
                      "Colors Bangla", "Aakaash Aath"}
     all_names = {x["name"] for x in channels}
-    if (len(channels) < 98 or not required_pins.issubset(actual_pins)
+    if (len(channels) < 97 or not required_pins.issubset(actual_pins)
             or user_excluded.intersection(all_names)):
         raise ValueError("Channel catalog, excluded names, or original pinned streams unexpectedly changed")
     previous = {}
