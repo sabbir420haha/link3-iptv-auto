@@ -38,3 +38,14 @@
 ## Next reliable discovery criterion
 
 Source/ISP operator must supply a currently accessible stream URL. First validate HLS video segments, verify on-screen channel identity and Hindi audio, then viewer must confirm Link3 / IPTV Pro playback. Only then promote a stream to Main.
+
+## Follow-up source trace — 26 October 2026 (second search)
+
+- Viewer confirms TEST087 `http://103.84.57.155:8000/play/a03y/29711434.m3u8` **does not work on Link3**. Keep Main unchanged.
+- Alternative path `http://103.84.57.155:8000/play/a03y/index.m3u8` explicitly published in `KMABIDHASAN63/XYZ Website.m3u`; GitHub Runner **timeout**. Not a confirmed playable feed.
+- `http://103.17.193.159:5001/live/815.m3u8` inferred from other channels of `maybetv/Jo`, NOT published in that source as Sonic Hindi; GitHub runner returned **HTTP 500**.
+- `http://103.154.3.101:5001/live/815.m3u8` explicitly in [iptv-org issue 36782](https://github.com/iptv-org/iptv/issues/36782); GitHub runner **timeout**.
+- `http://103.122.249.134:8000/play/a051` explicitly in [iptv-org issue 37823](https://github.com/iptv-org/iptv/issues/37823); checked as an extensionless stream path, GitHub runner **timeout**.
+- Latest `kids_probe_health.json` verified **155 Sonic-Hindi-labelled candidates checked, zero successful sample media** (GitHub runner; some ISP-geofenced feeds may behave differently on Link3).
+- These four newly traced URLs were queued ONLY for backend examination, **not added to Test 3 or Main playlist**. Do not send user another mass list without positive checks; user has reported 1–85 and TEST 087 failing.
+- Historical Jio `jio.drmlive.net` feed is the actual user-confirmed October 23 link; not currently validated.
