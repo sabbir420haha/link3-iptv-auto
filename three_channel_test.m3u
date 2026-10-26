@@ -406,3 +406,9 @@ https://snehtv.in1.bitmana.io/live.php?c=Sonic_Nickelodeon&q=250&e=.m3u8
 # LINK3: UNVERIFIED; Not yet checked by GitHub runner
 #EXTINF:-1 tvg-id="sonic-hindi-manual-085" tvg-name="Sonic Hindi TEST 085" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="10 | SONIC HINDI NEW - Source URL",Sonic Hindi TEST 085
 https://live.drmlive-02.workers.dev/jc/815.m3u8
+
+# SOURCE: https://github.com/Ferdos-Live-Tv/Tata-play-without-vpn/blob/main/tataplay-universal.m3u
+# CROSS-CHECK: https://github.com/aajuuiu12/anand/blob/main/tataplay-malayalam.m3u
+# Tata Play ID ts127, Sonic Nickelodeon, published MPEG-TS endpoint, NOT verified on Link3
+#EXTINF:-1 tvg-id="sonic-hindi-tata-ts127" tvg-name="Sonic Hindi TEST 086" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="12 | SONIC HINDI - TATA PLAY TEST",Sonic Hindi TEST 086
+https://tplay.dinesh29.com.np/live/tataplay-universal/sonic-nickelodeon/index.ts
