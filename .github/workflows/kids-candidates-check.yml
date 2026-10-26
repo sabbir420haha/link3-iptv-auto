@@ -1,0 +1,40 @@
+name: Check Sonic and Hungama candidate HLS
+on:
+  push:
+    branches: [main]
+    paths:
+      - kids_candidate_sources.json
+      - kids_probe.py
+      - .github/workflows/kids-candidates-check.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: kids-candidate-check
+  cancel-in-progress: false
+jobs:
+  check-kids-hls:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check HLS manifests and sample video segment bytes from runner
+        run: python kids_probe.py
+      - name: Save candidate results for review (do not alter main or test playlist)
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add kids_probe_health.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record Sonic and Hungama HLS probe results'
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git fetch origin main
+              git rebase -X theirs origin/main
+              sleep 2
+            done
+            exit 1
+          fi
