@@ -1141,7 +1141,7 @@
       "source": "Ferdos-Live-Tv/Tata-play-without-vpn tataplay-universal.m3u; aajuuiu12/anand tataplay-malayalam.m3u",
       "group": "12 | SONIC HINDI - TATA PLAY TEST",
       "remote_result": "URLError: <urlopen error [Errno -2] Name or service not known>",
-      "status": "REMOTE DNS FAILURE (Link3 untested)",
+      "status": "REMOTE DNS/HTTP FAILURE (Link3 untested)",
       "batch": "tata-play-ts127"
     },
     {
@@ -1149,8 +1149,8 @@
       "url": "http://103.84.57.155:8000/play/a03y/29711434.m3u8",
       "source": "mtbtv/tataplay playlist.m3u — published as Sonic Nickelodeon tvg-id ts127; entry is missing leading #EXTINF in upstream; identity inferred from tag",
       "group": "12 | SONIC HINDI - TATA PLAY TEST",
-      "remote_result": "Not yet checked",
-      "status": "USER TEST PENDING",
+      "remote_result": "URLError: <urlopen error timed out>",
+      "status": "REMOTE TIMEOUT (Link3 may differ)",
       "batch": "tata-play-ts127"
     },
     {
@@ -1158,8 +1158,8 @@
       "url": "https://playflix.icu/Extra%20Tata%20playlist.m3u/stream.m3u8?id=ts127&e=.m3u8",
       "source": "bhavy20110/So-what BhavyaTataplay.m3u8 — Sonic Nickelodeon tvg-id ts127; URL path spaces percent-encoded from published listing",
       "group": "12 | SONIC HINDI - TATA PLAY TEST",
-      "remote_result": "Not yet checked",
-      "status": "USER TEST PENDING",
+      "remote_result": "URLError: <urlopen error [Errno -2] Name or service not known>",
+      "status": "REMOTE DNS/HTTP FAILURE (Link3 untested)",
       "batch": "tata-play-ts127"
     }
   ],
@@ -1172,5 +1172,5 @@
     "reported_nonworking_count": 85,
     "verified_working_count": 0
   },
-  "latest_discovery_note": "Tata Play ts127 TEST086 failed GitHub-runner DNS; TEST087–088 are distinct Tata-labelled sources, not verified as playable."
+  "latest_discovery_note": "Sonic Tata sources 086–088 checked from GitHub, zero manifest/media successes; 087 timed out (potentially network-limited), 086 and 088 DNS failed. Do not label any as working."
 }
