@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-26T15:02:18.703666+00:00",
+  "checked_utc": "2026-10-26T17:48:19.747016+00:00",
   "scope": "GitHub Actions network, NOT Link3. No channel identities confirmed.",
   "candidate_count": 34,
   "verified_media_candidates": 0,
@@ -345,7 +345,7 @@
       "link3_verified": false,
       "publish_eligible": false,
       "note": "GitHub runner-only test. Playlist is unchanged.",
-      "error": "ValueError: No readable HLS data: <urlopen error [Errno 111] Connection refused>"
+      "error": "ValueError: No readable HLS data: <urlopen error timed out>"
     },
     {
       "channel": "Disney HD Hindi",
