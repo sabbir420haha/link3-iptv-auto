@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-26T11:55:17.647071+00:00",
+  "checked_at_utc": "2026-10-26T11:57:55.611687+00:00",
   "scope": "GitHub Actions runner, NOT Link3/TV decoder; segment HTTP bytes do NOT establish channel identity/audio",
   "candidate_count": 127,
   "manifest_ok": 2,
@@ -606,10 +606,10 @@
       "error": "URL did not return HLS text (may be HTML/auth)"
     },
     {
-      "kind": "sonic-hindi",
-      "label": "Sonic Hindi CDN 103.151.60 alternate",
+      "kind": "other-channel",
+      "label": "Star Jalsha (negative control — NOT Sonic)",
       "url": "http://103.151.60.162:2122/play/a00w/index.m3u8?hls",
-      "provenance": "GitHub Sonic catalog alternative, audio unverified",
+      "provenance": "Verified iptv-org/iptv streams/in.m3u associates a00w with Star Jalsha; previous Sonic label was incorrect.",
       "manifest_ok": true,
       "segment_ok": true,
       "video_bytes": 2048,
