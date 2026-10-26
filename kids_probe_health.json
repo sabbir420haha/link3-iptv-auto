@@ -1,9 +1,9 @@
 {
-  "checked_at_utc": "2026-10-26T11:39:43.630515+00:00",
+  "checked_at_utc": "2026-10-26T11:40:28.189708+00:00",
   "scope": "GitHub Actions runner, NOT Link3/TV decoder; segment HTTP bytes do NOT establish channel identity/audio",
   "candidate_count": 90,
   "manifest_ok": 2,
-  "segment_ok": 2,
+  "segment_ok": 1,
   "results": [
     {
       "kind": "hungama",
@@ -387,7 +387,7 @@
       "video_bytes": 0,
       "resolution": null,
       "variant_count": 0,
-      "error": "Not a direct m3u8 playlist"
+      "error": "Unsupported path; cannot establish direct HLS"
     },
     {
       "kind": "sonic-bangla",
@@ -447,7 +447,7 @@
       "video_bytes": 0,
       "resolution": null,
       "variant_count": 0,
-      "error": "Not a direct m3u8 playlist"
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
     },
     {
       "kind": "sonic-hindi",
@@ -611,8 +611,8 @@
       "url": "http://103.151.60.162:2122/play/a00w/index.m3u8?hls",
       "provenance": "GitHub Sonic catalog alternative, audio unverified",
       "manifest_ok": true,
-      "segment_ok": true,
-      "video_bytes": 2048,
+      "segment_ok": false,
+      "video_bytes": 188,
       "resolution": null,
       "variant_count": 1,
       "error": null
@@ -819,7 +819,7 @@
       "video_bytes": 0,
       "resolution": null,
       "variant_count": 0,
-      "error": "Not a direct m3u8 playlist"
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
     },
     {
       "kind": "sonic-bangla",
@@ -831,7 +831,7 @@
       "video_bytes": 0,
       "resolution": null,
       "variant_count": 0,
-      "error": "Not a direct m3u8 playlist"
+      "error": "URLError: <urlopen error timed out>"
     },
     {
       "kind": "sonic-bangla",
@@ -951,7 +951,7 @@
       "video_bytes": 0,
       "resolution": null,
       "variant_count": 0,
-      "error": "Not a direct m3u8 playlist"
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
     },
     {
       "kind": "sonic-bangla",
@@ -963,7 +963,7 @@
       "video_bytes": 0,
       "resolution": null,
       "variant_count": 0,
-      "error": "Not a direct m3u8 playlist"
+      "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
     },
     {
       "kind": "sonic-bangla",
@@ -975,7 +975,7 @@
       "video_bytes": 0,
       "resolution": null,
       "variant_count": 0,
-      "error": "Not a direct m3u8 playlist"
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
     },
     {
       "kind": "sonic-bangla",
@@ -987,7 +987,7 @@
       "video_bytes": 0,
       "resolution": null,
       "variant_count": 0,
-      "error": "Not a direct m3u8 playlist"
+      "error": "URLError: <urlopen error timed out>"
     },
     {
       "kind": "sonic-bangla",
@@ -999,7 +999,7 @@
       "video_bytes": 0,
       "resolution": null,
       "variant_count": 0,
-      "error": "Not a direct m3u8 playlist"
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
     },
     {
       "kind": "sonic-bangla",
@@ -1035,7 +1035,7 @@
       "video_bytes": 0,
       "resolution": null,
       "variant_count": 0,
-      "error": "Not a direct m3u8 playlist"
+      "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
     },
     {
       "kind": "sonic-hindi",
@@ -1047,7 +1047,7 @@
       "video_bytes": 0,
       "resolution": null,
       "variant_count": 0,
-      "error": "Not a direct m3u8 playlist"
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
     },
     {
       "kind": "sonic-hindi",
@@ -1059,7 +1059,7 @@
       "video_bytes": 0,
       "resolution": null,
       "variant_count": 0,
-      "error": "Not a direct m3u8 playlist"
+      "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
     },
     {
       "kind": "sonic-hindi",
@@ -1071,7 +1071,7 @@
       "video_bytes": 0,
       "resolution": null,
       "variant_count": 0,
-      "error": "Not a direct m3u8 playlist"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     },
     {
       "kind": "sonic-hindi",
@@ -1083,7 +1083,7 @@
       "video_bytes": 0,
       "resolution": null,
       "variant_count": 0,
-      "error": "Not a direct m3u8 playlist"
+      "error": "HTTPError: HTTP Error 404: Not Found"
     }
   ]
 }
