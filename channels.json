@@ -683,6 +683,55 @@
     "user_quality_feedback": "Viewer confirms Disney Hindi TEST 06 plays on Link3 Wi-Fi in IPTV Pro with EXTVLCOPT:http-user-agent=RANAPK. Identity/audio/resolution not independently checked; preserve exact URL and header."
   },
   {
+    "name": "Sonic Hindi",
+    "group": "04 | Kids",
+    "aliases": [
+      "Nickelodeon Sonic Hindi",
+      "Nick Sonic Hindi",
+      "Sonic Nickelodeon Hindi"
+    ],
+    "locked": false,
+    "last_known_url": "",
+    "requires_media_segment": true,
+    "skip_unverified_fallback": true,
+    "allow_unverified": false,
+    "publication_hold": true,
+    "identity_audio_verified": false,
+    "approved_url": "",
+    "experimental_urls": [],
+    "exclude_urls": [
+      "https://sar.pages.dev/sonic.m3u8",
+      "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8"
+    ],
+    "user_reported_failures": [
+      "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8"
+    ],
+    "review_note": "Do not publish before readable HLS video segment and independent Sonic Hindi identity/audio evidence; non-BDIX, Link3 playback still viewer-only."
+  },
+  {
+    "name": "Sonic Bangla",
+    "group": "04 | Kids",
+    "aliases": [
+      "Nickelodeon Sonic Bangla",
+      "Sonic Bengali",
+      "Nick Sonic Bangla"
+    ],
+    "locked": false,
+    "last_known_url": "",
+    "requires_media_segment": true,
+    "skip_unverified_fallback": true,
+    "allow_unverified": false,
+    "publication_hold": true,
+    "identity_audio_verified": false,
+    "approved_url": "",
+    "experimental_urls": [],
+    "exclude_urls": [
+      "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sonic"
+    ],
+    "review_note": "Do not publish before readable HLS video segment and independent Sonic Bangla identity/audio evidence; non-BDIX, Link3 playback still viewer-only."
+  },
+  {
     "name": "Disney SD",
     "group": "04 | Kids",
     "aliases": [],
