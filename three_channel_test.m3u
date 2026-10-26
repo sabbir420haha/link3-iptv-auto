@@ -4,3 +4,72 @@
 # Hungama TEST 29 — retained unchanged from viewer verified URL
 #EXTINF:-1 tvg-id="hungama-test3-29" tvg-name="Hungama TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="04 | HUNGAMA TV - VERIFIED",Hungama TEST 29
 http://103.135.253.32:8080/HUNGAMA/index.m3u8
+
+# All Disney Hindi and previous failed Sonic trial URLs REMOVED 2026-10-26.
+# Every Sonic entry below is only a TEST candidate; NONE confirmed on Link3 or as genuine Hindi/Bangla video.
+# GitHub network HLS checks are NOT equivalent to video playback in IPTV Pro on Link3.
+# Verified bad HTTP 403/404, DNS failures and expired TLS URLs were excluded where observed.
+# Some region-specific PHP/TS relays may not be supported by IPTV Pro.
+# Sonic Hindi TEST 06: Public iptv-org Sonic 576p; GitHub timeout; language not confirmed; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-hindi-candidate-06" tvg-name="Sonic Hindi TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 | SONIC HINDI NEW TESTS - UNVERIFIED",Sonic Hindi TEST 06
+http://66.102.120.18:8000/play/a00p/index.m3u8
+# Sonic Hindi TEST 07: Public Bangladesh IPTV Sonic route; GitHub timeout; language unknown; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-hindi-candidate-07" tvg-name="Sonic Hindi TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 | SONIC HINDI NEW TESTS - UNVERIFIED",Sonic Hindi TEST 07
+http://103.136.200.246:8082/Sonic/tracks-v1a1/mono.m3u8
+# Sonic Hindi TEST 08: Public Sonic 576p route; GitHub timeout; language unknown; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-hindi-candidate-08" tvg-name="Sonic Hindi TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 | SONIC HINDI NEW TESTS - UNVERIFIED",Sonic Hindi TEST 08
+http://103.178.78.151:7505/play/a0vu/index.m3u8
+# Sonic Hindi TEST 09: Public playlist SONIC-labelled endpoint; GitHub timeout; language unknown; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-hindi-candidate-09" tvg-name="Sonic Hindi TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 | SONIC HINDI NEW TESTS - UNVERIFIED",Sonic Hindi TEST 09
+http://119.156.26.155:8000/play/a05y/index.m3u8
+# Sonic Hindi TEST 10: iptvcat archived Nickelodeon Sonic Hindi 1080p-labelled variant; not verified; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-hindi-candidate-10" tvg-name="Sonic Hindi TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 | SONIC HINDI NEW TESTS - UNVERIFIED",Sonic Hindi TEST 10
+http://66.102.120.18:8000/play/a00w/index.m3u8
+# Sonic Hindi TEST 11: Public Sonic Nickelodeon relay; unverified; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-hindi-candidate-11" tvg-name="Sonic Hindi TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 | SONIC HINDI NEW TESTS - UNVERIFIED",Sonic Hindi TEST 11
+https://keralamaxtv.com/vt/stream.m3u8?id=Sonic_Nickelodeon
+# Sonic Hindi TEST 12: Public Sonic Nickelodeon PHP stream relay; HLS/redirect not verified; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-hindi-candidate-12" tvg-name="Sonic Hindi TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 | SONIC HINDI NEW TESTS - UNVERIFIED",Sonic Hindi TEST 12
+https://fifabangladesh.live/VHOD/go.php?id=Sonic_Nickelodeon_voot_MOB
+# Sonic Hindi TEST 13: Public Hindi-labelled Jio-universal MPEG-TS; IPTV Pro compatibility unverified; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-hindi-candidate-13" tvg-name="Sonic Hindi TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 | SONIC HINDI NEW TESTS - UNVERIFIED",Sonic Hindi TEST 13
+https://jio.dinesh29.com.np/live/jio-universal/sonic-hindi/index.ts
+# Sonic Hindi TEST 14: Published SONIC labelled IPTV channel; language not verified; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-hindi-candidate-14" tvg-name="Sonic Hindi TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="02 | SONIC HINDI NEW TESTS - UNVERIFIED",Sonic Hindi TEST 14
+http://103.153.39.34:8000/play/a04r/index.m3u8
+# Sonic Bangla TEST 06: Multiple public lists explicitly label Sonic Bangla 274; GitHub timeout; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-bangla-candidate-06" tvg-name="Sonic Bangla TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 | SONIC BANGLA NEW TESTS - UNVERIFIED",Sonic Bangla TEST 06
+http://103.204.43.87:8080/live/1/1/274.m3u8
+# Sonic Bangla TEST 07: Public Jio Sonic Bangla 1345; GitHub timeout; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-bangla-candidate-07" tvg-name="Sonic Bangla TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 | SONIC BANGLA NEW TESTS - UNVERIFIED",Sonic Bangla TEST 07
+http://103.180.212.191:3500/live/1345.m3u8
+# Sonic Bangla TEST 08: Public Sonic Bangla 1345 Jio relay; GitHub timeout; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-bangla-candidate-08" tvg-name="Sonic Bangla TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 | SONIC BANGLA NEW TESTS - UNVERIFIED",Sonic Bangla TEST 08
+https://mini1.allinonereborn.xyz/jiotv-ww192/app/ts_live_1345.m3u8
+# Sonic Bangla TEST 09: Public Jadoo Sonic channel; GitHub timeout; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-bangla-candidate-09" tvg-name="Sonic Bangla TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 | SONIC BANGLA NEW TESTS - UNVERIFIED",Sonic Bangla TEST 09
+https://itpolly.iptv.digijadoo.net/live/sonic/chunks.m3u8
+# Sonic Bangla TEST 10: Public Sonic Bangla Jio 1345; GitHub timeout; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-bangla-candidate-10" tvg-name="Sonic Bangla TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 | SONIC BANGLA NEW TESTS - UNVERIFIED",Sonic Bangla TEST 10
+https://mintos.allinonereborn.xyz/jiotv-ww31/app/ts_live_1345.m3u8
+# Sonic Bangla TEST 11: Public Jio Sonic Bangla PHP proxy; GitHub timeout; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-bangla-candidate-11" tvg-name="Sonic Bangla TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 | SONIC BANGLA NEW TESTS - UNVERIFIED",Sonic Bangla TEST 11
+http://103.139.171.5:5001/live.php?c=Sonic_Bangla&q=800&e=junk.m3u8
+# Sonic Bangla TEST 12: Published Sonic Bangla JioTV+ PHP relay; GitHub timeout; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-bangla-candidate-12" tvg-name="Sonic Bangla TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 | SONIC BANGLA NEW TESTS - UNVERIFIED",Sonic Bangla TEST 12
+http://103.139.171.5:5001/jiotvplus/live.php?c=Sonic_Bangla&q=800&e=.m3u8
+# Sonic Bangla TEST 13: Public Sonic Bangla Jio universal TS; compatibility unknown; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-bangla-candidate-13" tvg-name="Sonic Bangla TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 | SONIC BANGLA NEW TESTS - UNVERIFIED",Sonic Bangla TEST 13
+https://jio.dinesh29.com.np/live/jio-universal/sonic-bangla/index.ts
+# Sonic Bangla TEST 14: GitHub Sonic Bangla Jio channel 1345 PHP; not verified; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-bangla-candidate-14" tvg-name="Sonic Bangla TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 | SONIC BANGLA NEW TESTS - UNVERIFIED",Sonic Bangla TEST 14
+https://mhdtvstream.com/live.php?id=1345
+# Sonic Bangla TEST 15: Published Sonic Bangla id 1345 via PHP proxy; not verified; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-bangla-candidate-15" tvg-name="Sonic Bangla TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 | SONIC BANGLA NEW TESTS - UNVERIFIED",Sonic Bangla TEST 15
+https://the-nayeemparvez.xyz/jiotvnew/app/play.php?id=1345&e=.m3u8
+# Sonic Bangla TEST 16: Published Sonic Bangla Jio 1345 PHP stream; not verified; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-bangla-candidate-16" tvg-name="Sonic Bangla TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 | SONIC BANGLA NEW TESTS - UNVERIFIED",Sonic Bangla TEST 16
+https://qrpay.fun/TS-JioTV-main/app/live.php?id=1345&e=.m3u8
+# Sonic Bangla TEST 17: Public Sonic Bangla Jio bridge; not verified; UNVERIFIED Link3.
+#EXTINF:-1 tvg-id="sonic-bangla-candidate-17" tvg-name="Sonic Bangla TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="03 | SONIC BANGLA NEW TESTS - UNVERIFIED",Sonic Bangla TEST 17
+https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Sonic_Bangla&q=800&e=junk.m3u8
