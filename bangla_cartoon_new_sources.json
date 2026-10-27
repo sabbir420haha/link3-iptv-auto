@@ -1,0 +1,94 @@
+{
+  "created_utc": "2026-10-27",
+  "purpose": "Find NEW Bengali animated/cartoon channels. Only add after decoded moving video. Audio language, actual animated programming and user Link3 reliability require separate check. Never add same stream from different mirrors or existing Main channels.",
+  "sources": [
+    {
+      "program": "Nikki",
+      "label": "AKASH Nikki Kids",
+      "url": "https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8",
+      "category": "BD Kids; Bangla dubbing not yet verified",
+      "eligible": true,
+      "source": "amazeyourself/m3u akashgo.m3u"
+    },
+    {
+      "program": "Joy",
+      "label": "AKASH Joy Kids",
+      "url": "https://nomawnoijl.gpcdn.net/akash/joy/playlist.m3u8",
+      "category": "BD Kids; Bangla dubbing not yet verified",
+      "eligible": true,
+      "source": "amazeyourself/m3u akashgo.m3u"
+    },
+    {
+      "program": "BuddyStar HD",
+      "label": "AKASH BuddyStar HD Kids",
+      "url": "https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8",
+      "category": "BD Kids; Bangla dubbing not yet verified",
+      "eligible": true,
+      "source": "amazeyourself/m3u akashgo.m3u"
+    },
+    {
+      "program": "Funny Junior HD",
+      "label": "AKASH Funny Junior HD Kids",
+      "url": "https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8",
+      "category": "BD Kids; Bangla dubbing not yet verified",
+      "eligible": true,
+      "source": "amazeyourself/m3u akashgo.m3u"
+    },
+    {
+      "program": "Smarty",
+      "label": "AKASH Smarty Kids",
+      "url": "https://nomawnoijl.gpcdn.net/akash/smarty/playlist.m3u8",
+      "category": "BD Kids; Bangla dubbing not yet verified",
+      "eligible": true,
+      "source": "amazeyourself/m3u akashgo.m3u"
+    },
+    {
+      "program": "Kids Stars",
+      "label": "AKASH Kids Stars",
+      "url": "https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8",
+      "category": "BD Kids; Bangla dubbing not yet verified",
+      "eligible": true,
+      "source": "amazeyourself/m3u akashgo.m3u"
+    },
+    {
+      "program": "Sonic Bangla",
+      "label": "Sonic Bangla 14.102 path",
+      "url": "http://14.102.123.50:5001/live/1345.m3u8",
+      "category": "Bengali cartoon channel",
+      "eligible": true,
+      "source": "RhqAB/TV playlist.m3u8"
+    },
+    {
+      "program": "Sonic Bangla",
+      "label": "Sonic Bangla 103.168 path",
+      "url": "http://103.168.18.83/zan/app/live.php?id=1345&e=.m3u8",
+      "category": "Bengali cartoon channel",
+      "eligible": true,
+      "source": "imlovekumar/Loves kids"
+    },
+    {
+      "program": "Sonic Bangla",
+      "label": "Sonic Bangla SnehJio proxy",
+      "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Sonic_Bangla&q=800&e=junk.m3u8",
+      "category": "Bengali cartoon channel",
+      "eligible": true,
+      "source": "arshdeep1112/Indian-IPTV"
+    },
+    {
+      "program": "Rongeen TV",
+      "label": "Rongeen Bengali TV (Magajastra scheduled, NOT cartoon-only)",
+      "url": "https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8",
+      "category": "Bengali mixed programmes; cartoon at scheduled times",
+      "eligible": false,
+      "source": "sm-monirulislam/SM-IPTV Cartoon.m3u"
+    },
+    {
+      "program": "Motu Patlu",
+      "label": "Motu Patlu 24/7 Bangla audio unverified",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8",
+      "category": "Dedicated cartoon; Bengali audio unknown",
+      "eligible": true,
+      "source": "sm-monirulislam/SM-IPTV Cartoon.m3u"
+    }
+  ]
+}
