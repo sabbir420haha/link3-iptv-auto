@@ -1,0 +1,107 @@
+{
+  "checked_at_utc": "2026-10-27T13:47:45.929510+00:00",
+  "manifest_count": 11,
+  "media_sample_count": 11,
+  "warning": "GitHub runner HTTP check, not Link3 test, channel identity, audio language, or license verification. Not a zero-buffer claim.",
+  "results": [
+    {
+      "name": "Tom and Jerry TV | Bozz dedicated; mostly dialogue-free, Hindi unverified",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
+      "manifest_ok": true,
+      "media_sample_ok": true,
+      "status": "unverified Link3/rights/audio",
+      "entries": 1,
+      "segment_bytes_sampled": 1024
+    },
+    {
+      "name": "Bantul The Great | Bozz dedicated",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-209869/tracks-v1a1/mono.ts.m3u8",
+      "manifest_ok": true,
+      "media_sample_ok": true,
+      "status": "unverified Link3/rights/audio",
+      "entries": 10,
+      "segment_bytes_sampled": 1024
+    },
+    {
+      "name": "Mr Bean Animated | Rakuten UK",
+      "url": "https://amg00627-amg00627c28-rakuten-uk-3984.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanukcc-rakutenuk/playlist.m3u8",
+      "manifest_ok": true,
+      "media_sample_ok": true,
+      "status": "unverified Link3/rights/audio",
+      "entries": 5,
+      "segment_bytes_sampled": 1024
+    },
+    {
+      "name": "Mr Bean Animated | Samsung UK",
+      "url": "https://amg00627-amg00627c23-samsung-gb-3927.playouts.now.amagi.tv/playlist.m3u8",
+      "manifest_ok": true,
+      "media_sample_ok": true,
+      "status": "unverified Link3/rights/audio",
+      "entries": 4,
+      "segment_bytes_sampled": 1024
+    },
+    {
+      "name": "Mr Bean Animated | Samsung AU",
+      "url": "https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8",
+      "manifest_ok": true,
+      "media_sample_ok": true,
+      "status": "unverified Link3/rights/audio",
+      "entries": 4,
+      "segment_bytes_sampled": 1024
+    },
+    {
+      "name": "Mr Bean Animated | Rakuten Italy",
+      "url": "https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8",
+      "manifest_ok": true,
+      "media_sample_ok": true,
+      "status": "unverified Link3/rights/audio",
+      "entries": 5,
+      "segment_bytes_sampled": 1024
+    },
+    {
+      "name": "Mr Bean Animated | Rakuten Spain",
+      "url": "https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8",
+      "manifest_ok": true,
+      "media_sample_ok": true,
+      "status": "unverified Link3/rights/audio",
+      "entries": 5,
+      "segment_bytes_sampled": 1024
+    },
+    {
+      "name": "Mr Bean Animated | Rakuten France",
+      "url": "https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8",
+      "manifest_ok": true,
+      "media_sample_ok": true,
+      "status": "unverified Link3/rights/audio",
+      "entries": 5,
+      "segment_bytes_sampled": 1024
+    },
+    {
+      "name": "Mr Bean Live Action | Rakuten UK",
+      "url": "https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8",
+      "manifest_ok": true,
+      "media_sample_ok": true,
+      "status": "unverified Link3/rights/audio",
+      "entries": 5,
+      "segment_bytes_sampled": 1024
+    },
+    {
+      "name": "Mr Bean Live Action | Samsung UK",
+      "url": "https://amg00627-amg00627c39-samsung-gb-5569.playouts.now.amagi.tv/playlist.m3u8",
+      "manifest_ok": true,
+      "media_sample_ok": true,
+      "status": "unverified Link3/rights/audio",
+      "entries": 4,
+      "segment_bytes_sampled": 1024
+    },
+    {
+      "name": "Oggy | Bozz dedicated; Hindi audio NOT verified",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-210728/tracks-v1a1/mono.ts.m3u8",
+      "manifest_ok": true,
+      "media_sample_ok": true,
+      "status": "unverified Link3/rights/audio",
+      "entries": 10,
+      "segment_bytes_sampled": 1024
+    }
+  ]
+}
