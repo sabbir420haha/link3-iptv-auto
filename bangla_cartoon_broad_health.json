@@ -1,0 +1,282 @@
+{
+  "checked_utc": "2026-10-27T14:31:42.548455+00:00",
+  "warning": "Moving decoded frames never proves Bengali audio, show identity, 24/7 reliability or authorization. Inferred URLs are NEVER approved.",
+  "results": [
+    {
+      "category": "Sonic Bangla",
+      "title": "Sonic Bangla IPTV 103.204",
+      "url": "http://103.204.43.87:8080/live/1/1/274.m3u8",
+      "origin": "tasinislam17/test 2026",
+      "kind": "fresh-bn",
+      "frames": 0,
+      "distinct": 0,
+      "moving_video": false,
+      "audio": false,
+      "error": "[Errno 110] Connection timed out: 'http://103.204.43.87:8080/live/1/1/274.m3u8'"
+    },
+    {
+      "category": "Sonic Bangla",
+      "title": "Sonic Bangla BingeBD CDN",
+      "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sonicPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
+      "origin": "skmasum98/IPTV",
+      "kind": "fresh-bn",
+      "frames": 0,
+      "distinct": 0,
+      "moving_video": false,
+      "audio": false,
+      "error": "[Errno 875574520] Server returned 404 Not Found: 'https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sonicPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playli"
+    },
+    {
+      "category": "Sony Yay Bangla",
+      "title": "Sony YAY Bengali specific endpoint",
+      "url": "http://103.153.175.254:8080/hls/stream32.m3u8?bdtv",
+      "origin": "imranemon1/emon",
+      "kind": "fresh-bn",
+      "frames": 0,
+      "distinct": 0,
+      "moving_video": false,
+      "audio": false,
+      "error": "[Errno 110] Connection timed out: 'http://103.153.175.254:8080/hls/stream32.m3u8?bdtv'"
+    },
+    {
+      "category": "Sonic Bangla",
+      "title": "Sonic unlabelled Indian feed",
+      "url": "http://103.185.24.134:3001/SONIC/index.m3u8",
+      "origin": "iptv-org",
+      "kind": "maybe-not-bn",
+      "frames": 0,
+      "distinct": 0,
+      "moving_video": false,
+      "audio": false,
+      "error": "[Errno 110] Connection timed out: 'http://103.185.24.134:3001/SONIC/index.m3u8'"
+    },
+    {
+      "category": "Sony Yay",
+      "title": "Sony Yay Bangladesh OTT Plus",
+      "url": "https://stream.ottplus.live/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8",
+      "origin": "sm-monirulislam/SM-IPTV",
+      "kind": "maybe-not-bn",
+      "frames": 6,
+      "distinct": 6,
+      "moving_video": true,
+      "audio": true,
+      "audio_language_tags": [
+        null
+      ],
+      "video_codecs": [
+        {
+          "width": 1280,
+          "height": 720,
+          "codec": "h264"
+        }
+      ]
+    },
+    {
+      "category": "Sony Yay",
+      "title": "Sony Yay Indian 103.165",
+      "url": "http://103.165.93.31:8095/sonyYay/index.m3u8",
+      "origin": "iptv-org",
+      "kind": "maybe-not-bn",
+      "frames": 0,
+      "distinct": 0,
+      "moving_video": false,
+      "audio": false,
+      "error": "[Errno 110] Connection timed out: 'http://103.165.93.31:8095/sonyYay/index.m3u8'"
+    },
+    {
+      "category": "Nick Bangla",
+      "title": "Nick Bengali BingeBD",
+      "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_nickelodeonPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
+      "origin": "skmasum98/IPTV",
+      "kind": "same-bn-channel-in-main",
+      "frames": 0,
+      "distinct": 0,
+      "moving_video": false,
+      "audio": false,
+      "error": "[Errno 875574520] Server returned 404 Not Found: 'https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_nickelodeonPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/"
+    },
+    {
+      "category": "Nick Bangla",
+      "title": "Nick Bengali 103.204",
+      "url": "http://103.204.43.87:8080/live/1/1/275.m3u8",
+      "origin": "tasinislam17/test",
+      "kind": "same-bn-channel-in-main",
+      "frames": 0,
+      "distinct": 0,
+      "moving_video": false,
+      "audio": false,
+      "error": "[Errno 110] Connection timed out: 'http://103.204.43.87:8080/live/1/1/275.m3u8'"
+    },
+    {
+      "category": "Nick Bangla",
+      "title": "Nick Bengali 103.229",
+      "url": "http://103.229.254.25:7001/play/a07b/index.m3u8",
+      "origin": "arafat-anowar/iptv",
+      "kind": "same-bn-channel-in-main",
+      "frames": 0,
+      "distinct": 0,
+      "moving_video": false,
+      "audio": false,
+      "error": "[Errno 111] Connection refused: 'http://103.229.254.25:7001/play/a07b/index.m3u8'"
+    },
+    {
+      "category": "Sonic",
+      "title": "Sonic Hindi backup",
+      "url": "https://sonamul3535.vercel.app/Sonic-Hindi.m3u8",
+      "origin": "arafat-anowar/iptv",
+      "kind": "not-bn",
+      "frames": 0,
+      "distinct": 0,
+      "moving_video": false,
+      "audio": false,
+      "error": "[Errno 875574520] Server returned 404 Not Found: 'https://sonamul3535.vercel.app/Sonic-Hindi.m3u8'"
+    },
+    {
+      "category": "Sony Yay",
+      "title": "Sony Yay hosted Vercel",
+      "url": "https://sonamul3535.vercel.app/Sony-yay.m3u8",
+      "origin": "arafat-anowar/iptv",
+      "kind": "maybe-not-bn",
+      "frames": 0,
+      "distinct": 0,
+      "moving_video": false,
+      "audio": false,
+      "error": "[Errno 875574520] Server returned 404 Not Found: 'https://sonamul3535.vercel.app/Sony-yay.m3u8'"
+    },
+    {
+      "category": "Nick Bangla",
+      "title": "Nick Bengali Cloudflare",
+      "url": "https://sar.pages.dev/nick_bangla.m3u8",
+      "origin": "sadman-al-rafi",
+      "kind": "same-bn-channel-in-main",
+      "frames": 0,
+      "distinct": 0,
+      "moving_video": false,
+      "audio": false,
+      "audio_language_tags": [],
+      "video_codecs": [],
+      "error": "no video streams"
+    },
+    {
+      "category": "Epic Kids Digital",
+      "title": "Epic Kids 1080p",
+      "url": "https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8",
+      "origin": "iptv-org",
+      "kind": "potential-bengali-unknown",
+      "frames": 0,
+      "distinct": 0,
+      "moving_video": false,
+      "audio": false,
+      "error": "[Errno 1414092869] Immediate exit requested: 'https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8'"
+    },
+    {
+      "category": "Rongeen TV",
+      "title": "Rongeen alternate Tango CDN",
+      "url": "https://mumt05.tangotv.in/87NeALx2RONGEENTV/index.m3u8",
+      "origin": "iptv-org",
+      "kind": "same-bn-channel-in-test",
+      "frames": 6,
+      "distinct": 6,
+      "moving_video": true,
+      "audio": true,
+      "audio_language_tags": [
+        "hin"
+      ],
+      "video_codecs": [
+        {
+          "width": 720,
+          "height": 720,
+          "codec": "h264"
+        }
+      ]
+    },
+    {
+      "category": "Rongeen TV",
+      "title": "Rongeen alternate Mumbai CDN",
+      "url": "https://mumbai-edge.smartplaytv.in/RongeenTV/index.m3u8",
+      "origin": "iptv-org",
+      "kind": "same-bn-channel-in-test",
+      "frames": 6,
+      "distinct": 6,
+      "moving_video": true,
+      "audio": true,
+      "audio_language_tags": [
+        null
+      ],
+      "video_codecs": [
+        {
+          "width": 1280,
+          "height": 720,
+          "codec": "h264"
+        }
+      ]
+    },
+    {
+      "category": "Sonic Bangla",
+      "title": "Sonic Bengali Jio proxy via worker",
+      "url": "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=1345",
+      "origin": "sm-monirulislam/SM-IPTV format other channels",
+      "kind": "inferred-URL-do-not-publish",
+      "frames": 0,
+      "distinct": 0,
+      "moving_video": false,
+      "audio": false,
+      "error": "[Errno 875574520] Server returned 404 Not Found: 'https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=1345'"
+    },
+    {
+      "category": "Bangla Kids",
+      "title": "Bangla Kids historical feed",
+      "url": "http://14.199.164.20:4001/play/a0m1/index.m3u8",
+      "origin": "bloginstall.com older curated",
+      "kind": "older-failed-recheck",
+      "frames": 0,
+      "distinct": 0,
+      "moving_video": false,
+      "audio": false,
+      "error": "[Errno 110] Connection timed out: 'http://14.199.164.20:4001/play/a0m1/index.m3u8'"
+    },
+    {
+      "category": "Sony Yay",
+      "title": "Tata Play Sony Yay",
+      "url": "https://tataplay.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8",
+      "origin": "fahadskt/IPTV-Playlists",
+      "kind": "maybe-not-bn",
+      "frames": 0,
+      "distinct": 0,
+      "moving_video": false,
+      "audio": false,
+      "error": "[Errno 5] Input/output error: 'https://tataplay.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8'"
+    },
+    {
+      "category": "Kids Stars",
+      "title": "AKASH Kids Stars alternative",
+      "url": "https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8",
+      "origin": "AKASH listing",
+      "kind": "previous-403-recheck",
+      "frames": 0,
+      "distinct": 0,
+      "moving_video": false,
+      "audio": false,
+      "error": "[Errno 858797304] Server returned 403 Forbidden (access denied): 'https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8'"
+    },
+    {
+      "category": "Motu Patlu",
+      "title": "Motu Patlu 24x7 cartoon, Bengali uncertain",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8",
+      "origin": "community",
+      "kind": "not-proven-bn",
+      "frames": 6,
+      "distinct": 6,
+      "moving_video": true,
+      "audio": false,
+      "audio_language_tags": [],
+      "video_codecs": [
+        {
+          "width": 960,
+          "height": 540,
+          "codec": "h264"
+        }
+      ]
+    }
+  ]
+}
