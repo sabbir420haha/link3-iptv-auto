@@ -14,6 +14,15 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-10-27 23:39 Bangladesh time: new source-backed audit-only candidates; no viewer claims.
+    {"channel":"Sonic Hindi","url":"https://hey-lookme.shop/live.php?id=815","evidence":"github.com/sm-monirulislam/SM-IPTV jio_tv.m3u, channel 815 explicitly Sonic Hindi; playlist lists HTTP referrer; no authentication bypass","expected_audio":"hi"},
+    {"channel":"Sonic Bangla","url":"https://hey-lookme.shop/live.php?id=1345","evidence":"github.com/sm-monirulislam/SM-IPTV jio_tv.m3u, channel 1345 explicitly Sonic Bangla; playlist lists HTTP referrer; no authentication bypass","expected_audio":"bn"},
+    {"channel":"Sonic Hindi","url":"https://mini.allinonereborn.fun/jiotv-www/app/ts_live_815.m3u8","evidence":"github.com/eishakilei-bd08/eitv f.m3u, labeled Sonic Hindi, Jio 815","expected_audio":"hi"},
+    {"channel":"Sonic Bangla","url":"https://mini.allinonereborn.fun/jiotv-www/app/ts_live_1345.m3u8","evidence":"github.com/eishakilei-bd08/eitv f.m3u, labeled Sonic Bangla, Jio 1345","expected_audio":"bn"},
+    {"channel":"Sonic Bangla","url":"http://live.balajibroadband.com:3500/live/1345.m3u8","evidence":"github.com/sm-monirulislam/SM-IPTV Combined_Live_TV.m3u, 2026-10-27 explicitly Sonic Bangla, India-hosted ISP; non-BDIX not proven","expected_audio":"bn"},
+    {"channel":"Sonic Hindi","url":"https://ninjatv.host/star/ninjatv.m3u8?id=207.ts","evidence":"github.com/tvbd/m3uplayer m3u/splaylist.m3u, labeled IN: sonic_Hindi; identity unconfirmed","expected_audio":"hi"},
+    {"channel":"Disney HD Hindi","url":"http://119.156.26.155:8000/play/a05u/index.m3u8","evidence":"github.com/tvbd/m3uplayer m3u/splaylist.m3u, labeled Disney Channel HD; Indian identity/Hindi/720p unconfirmed","expected_audio":"hi","min_height":720},
+    {"channel":"Disney HD Hindi","url":"http://on.deflix.xyz:8880/live/hasan19/hasan1519/3360.m3u8","evidence":"github.com/tvbd/m3uplayer m3u/splaylist.m3u, labeled Disney India; Hindi and 720p unconfirmed","expected_audio":"hi","min_height":720},
     # 2026-10-27 fresh public GitHub candidate references. Audit-only; never promote without identity/audio checks.
     {"channel":"Sonic Hindi","url":"https://jiotv.hadinetbd.tech/jio/v1/Sonic_Hindi/Sonic_Hindi/Sonic_Hindi.m3u8",
      "evidence":"github.com/jongg57ed/jongg57 ip27october, 2026-10-27 Sonic Hindi ID 815", "expected_audio":"hi"},
