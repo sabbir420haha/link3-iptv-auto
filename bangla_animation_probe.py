@@ -30,5 +30,5 @@ def main():
  report={"checked_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),"warning":"Only Link3 viewer can confirm video identity/language/buffering. FFprobe dimensions do not verify cartoon episodes or licence.","results":r}
  OUT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
  for x in r:
-  print(x["label"],x.get("manifest_ok"),x.get("media_sample_ok"),x.get("stream_info"),x.get("error"),x.get("ffprobe_error"))
+  print(x["name"],x.get("manifest_ok"),x.get("media_sample_ok"),x.get("stream_info"),x.get("error"),x.get("ffprobe_error"))
 if __name__=="__main__":main()
