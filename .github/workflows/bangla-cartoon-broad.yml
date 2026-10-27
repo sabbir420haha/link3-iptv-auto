@@ -1,0 +1,42 @@
+name: Broad Bengali cartoon alternative source audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - bangla_cartoon_broad_candidates.json
+      - bangla_cartoon_broad_probe.py
+      - .github/workflows/bangla-cartoon-broad.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bangla-cartoon-broad-audit
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run decoder for twenty candidate feeds
+        run: |
+          python -m pip install --disable-pip-version-check av==15.1.0
+          python bangla_cartoon_broad_probe.py
+      - name: Record check evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add bangla_cartoon_broad_health.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Store broad Bengali cartoon live video audit'
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git fetch origin main
+              git rebase -X theirs origin/main
+              sleep 2
+            done
+            exit 1
+          fi
