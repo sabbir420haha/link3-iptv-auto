@@ -1,0 +1,84 @@
+{
+  "created_utc": "2026-10-27",
+  "purpose": "Eight requested single-show live streams: direct distinct URLs, test only, no main playlist changes. Gopal Bhar, Shinchan Hindi, Thakumar Jhuli excluded until usable independent programme-specific streams are found. No alternate paths of the same source counted.",
+  "disclaimer": "Manifest and media HTTP checks do NOT prove show identity, 24x7 continuity, Hindi language, Bangladesh playback or distribution rights. Only directly playable streams in TEST M3U.",
+  "sources": [
+    {
+      "series": "Tom and Jerry Hindi",
+      "name": "Tom and Jerry TV | Bozz dedicated; mostly dialogue-free, Hindi unverified",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
+      "source": "iptv-org / SM-IPTV",
+      "status": "GitHub media sample passed 2026-10-24; Hindi not checked"
+    },
+    {
+      "series": "Bantul The Great",
+      "name": "Bantul The Great | Bozz dedicated",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-209869/tracks-v1a1/mono.ts.m3u8",
+      "source": "SM-IPTV",
+      "status": "GitHub media sample passed 2026-10-24; Link3 playback unverified"
+    },
+    {
+      "series": "Mr Bean Animated",
+      "name": "Mr Bean Animated | Rakuten UK",
+      "url": "https://amg00627-amg00627c28-rakuten-uk-3984.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanukcc-rakutenuk/playlist.m3u8",
+      "source": "Rakuten FAST; previous user GitHub media check",
+      "status": "GitHub media sample passed 2026-10-24"
+    },
+    {
+      "series": "Mr Bean Animated",
+      "name": "Mr Bean Animated | Samsung UK",
+      "url": "https://amg00627-amg00627c23-samsung-gb-3927.playouts.now.amagi.tv/playlist.m3u8",
+      "source": "Samsung FAST; previous user GitHub media check",
+      "status": "GitHub media sample passed 2026-10-24"
+    },
+    {
+      "series": "Mr Bean Animated",
+      "name": "Mr Bean Animated | Samsung AU",
+      "url": "https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8",
+      "source": "iptv-org / Samsung FAST",
+      "status": "GitHub media sample passed 2026-10-24"
+    },
+    {
+      "series": "Mr Bean Animated",
+      "name": "Mr Bean Animated | Rakuten Italy",
+      "url": "https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8",
+      "source": "iptv-org / Rakuten FAST",
+      "status": "Needs fresh HTTP and user region check"
+    },
+    {
+      "series": "Mr Bean Animated",
+      "name": "Mr Bean Animated | Rakuten Spain",
+      "url": "https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8",
+      "source": "iptv-org / Rakuten FAST",
+      "status": "Needs fresh HTTP and user region check"
+    },
+    {
+      "series": "Mr Bean Animated",
+      "name": "Mr Bean Animated | Rakuten France",
+      "url": "https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8",
+      "source": "iptv-org / Rakuten FAST",
+      "status": "Needs fresh HTTP and user region check"
+    },
+    {
+      "series": "Mr Bean Real",
+      "name": "Mr Bean Live Action | Rakuten UK",
+      "url": "https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8",
+      "source": "iptv-org approved stream / Banijay FAST",
+      "status": "Needs fresh HTTP and user region check"
+    },
+    {
+      "series": "Mr Bean Real",
+      "name": "Mr Bean Live Action | Samsung UK",
+      "url": "https://amg00627-amg00627c39-samsung-gb-5569.playouts.now.amagi.tv/playlist.m3u8",
+      "source": "iptv-org / Samsung FAST",
+      "status": "Needs fresh HTTP and user region check"
+    },
+    {
+      "series": "Oggy Hindi",
+      "name": "Oggy | Bozz dedicated; Hindi audio NOT verified",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-210728/tracks-v1a1/mono.ts.m3u8",
+      "source": "SM-IPTV",
+      "status": "Needs fresh HTTP and Hindi audio check"
+    }
+  ]
+}
