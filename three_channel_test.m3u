@@ -495,3 +495,10 @@ https://amg00627-amg00627c39-samsung-gb-5569.playouts.now.amagi.tv/playlist.m3u8
 # NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
 #EXTINF:-1 tvg-id="oggy-hindi-oct27-001" tvg-name="Oggy Hindi Audio Check TEST 001" group-title="24 | OGGY - HINDI CHECK / 24x7",Oggy Hindi Audio Check TEST 001
 https://live20.bozztv.com/giatvplayout7/giatv-210728/tracks-v1a1/mono.ts.m3u8
+
+# ---- OCT-27: BENGALI ANIMATED CARTOONS ----
+# SOURCE: iptv-org in.m3u / ZillarBarta Network (classified Bengali 1080p there)
+# Previous 2026-10-24 runner downloaded valid HLS video bytes. October-27 ffprobe re-check pending.
+# Bengali cartoon programme verified by public programme listings; actual playback/resolution on Link3 still user-unverified.
+#EXTINF:-1 tvg-id="zb-cartoon-bangla-hd-oct27-001" tvg-name="ZB Cartoon Bangla HD TEST 001" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zbcatun.png" group-title="25 | BANGLA ANIMATED - HD TEST",ZB Cartoon Bangla HD TEST 001
+https://server.zillarbarta.com/zbcatun/video.m3u8
