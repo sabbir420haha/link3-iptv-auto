@@ -1,0 +1,176 @@
+{
+  "checked_utc": "2026-10-27T14:16:20.296619+00:00",
+  "notes": "Video frames and audio presence do not prove Bengali spoken language, animated content, stable 24/7 availability or rights. All user added feeds stay TEST only.",
+  "results": [
+    {
+      "program": "Nikki",
+      "label": "AKASH Nikki Kids",
+      "url": "https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8",
+      "category": "BD Kids; Bangla dubbing not yet verified",
+      "eligible": true,
+      "source": "amazeyourself/m3u akashgo.m3u",
+      "opened": false,
+      "moving_video": false,
+      "frames": 0,
+      "distinct": 0,
+      "audio": false,
+      "error": "[Errno 858797304] Server returned 403 Forbidden (access denied): 'https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8'"
+    },
+    {
+      "program": "Joy",
+      "label": "AKASH Joy Kids",
+      "url": "https://nomawnoijl.gpcdn.net/akash/joy/playlist.m3u8",
+      "category": "BD Kids; Bangla dubbing not yet verified",
+      "eligible": true,
+      "source": "amazeyourself/m3u akashgo.m3u",
+      "opened": false,
+      "moving_video": false,
+      "frames": 0,
+      "distinct": 0,
+      "audio": false,
+      "error": "[Errno 858797304] Server returned 403 Forbidden (access denied): 'https://nomawnoijl.gpcdn.net/akash/joy/playlist.m3u8'"
+    },
+    {
+      "program": "BuddyStar HD",
+      "label": "AKASH BuddyStar HD Kids",
+      "url": "https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8",
+      "category": "BD Kids; Bangla dubbing not yet verified",
+      "eligible": true,
+      "source": "amazeyourself/m3u akashgo.m3u",
+      "opened": false,
+      "moving_video": false,
+      "frames": 0,
+      "distinct": 0,
+      "audio": false,
+      "error": "[Errno 858797304] Server returned 403 Forbidden (access denied): 'https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8'"
+    },
+    {
+      "program": "Funny Junior HD",
+      "label": "AKASH Funny Junior HD Kids",
+      "url": "https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8",
+      "category": "BD Kids; Bangla dubbing not yet verified",
+      "eligible": true,
+      "source": "amazeyourself/m3u akashgo.m3u",
+      "opened": false,
+      "moving_video": false,
+      "frames": 0,
+      "distinct": 0,
+      "audio": false,
+      "error": "[Errno 858797304] Server returned 403 Forbidden (access denied): 'https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8'"
+    },
+    {
+      "program": "Smarty",
+      "label": "AKASH Smarty Kids",
+      "url": "https://nomawnoijl.gpcdn.net/akash/smarty/playlist.m3u8",
+      "category": "BD Kids; Bangla dubbing not yet verified",
+      "eligible": true,
+      "source": "amazeyourself/m3u akashgo.m3u",
+      "opened": false,
+      "moving_video": false,
+      "frames": 0,
+      "distinct": 0,
+      "audio": false,
+      "error": "[Errno 858797304] Server returned 403 Forbidden (access denied): 'https://nomawnoijl.gpcdn.net/akash/smarty/playlist.m3u8'"
+    },
+    {
+      "program": "Kids Stars",
+      "label": "AKASH Kids Stars",
+      "url": "https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8",
+      "category": "BD Kids; Bangla dubbing not yet verified",
+      "eligible": true,
+      "source": "amazeyourself/m3u akashgo.m3u",
+      "opened": false,
+      "moving_video": false,
+      "frames": 0,
+      "distinct": 0,
+      "audio": false,
+      "error": "[Errno 858797304] Server returned 403 Forbidden (access denied): 'https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8'"
+    },
+    {
+      "program": "Sonic Bangla",
+      "label": "Sonic Bangla 14.102 path",
+      "url": "http://14.102.123.50:5001/live/1345.m3u8",
+      "category": "Bengali cartoon channel",
+      "eligible": true,
+      "source": "RhqAB/TV playlist.m3u8",
+      "opened": false,
+      "moving_video": false,
+      "frames": 0,
+      "distinct": 0,
+      "audio": false,
+      "error": "[Errno 111] Connection refused: 'http://14.102.123.50:5001/live/1345.m3u8'"
+    },
+    {
+      "program": "Sonic Bangla",
+      "label": "Sonic Bangla 103.168 path",
+      "url": "http://103.168.18.83/zan/app/live.php?id=1345&e=.m3u8",
+      "category": "Bengali cartoon channel",
+      "eligible": true,
+      "source": "imlovekumar/Loves kids",
+      "opened": false,
+      "moving_video": false,
+      "frames": 0,
+      "distinct": 0,
+      "audio": false,
+      "error": "[Errno 875574520] Server returned 404 Not Found: 'http://103.168.18.83/zan/app/live.php?id=1345&e=.m3u8'"
+    },
+    {
+      "program": "Sonic Bangla",
+      "label": "Sonic Bangla SnehJio proxy",
+      "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Sonic_Bangla&q=800&e=junk.m3u8",
+      "category": "Bengali cartoon channel",
+      "eligible": true,
+      "source": "arshdeep1112/Indian-IPTV",
+      "opened": false,
+      "moving_video": false,
+      "frames": 0,
+      "distinct": 0,
+      "audio": false,
+      "error": "[Errno 5] Input/output error: 'https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Sonic_Bangla&q=800&e=junk.m3u8'"
+    },
+    {
+      "program": "Rongeen TV",
+      "label": "Rongeen Bengali TV (Magajastra scheduled, NOT cartoon-only)",
+      "url": "https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8",
+      "category": "Bengali mixed programmes; cartoon at scheduled times",
+      "eligible": false,
+      "source": "sm-monirulislam/SM-IPTV Cartoon.m3u",
+      "opened": true,
+      "moving_video": true,
+      "frames": 8,
+      "distinct": 8,
+      "audio": true,
+      "audio_languages": [
+        null
+      ],
+      "streams": [
+        {
+          "codec": "h264",
+          "width": 1280,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "program": "Motu Patlu",
+      "label": "Motu Patlu 24/7 Bangla audio unverified",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8",
+      "category": "Dedicated cartoon; Bengali audio unknown",
+      "eligible": true,
+      "source": "sm-monirulislam/SM-IPTV Cartoon.m3u",
+      "opened": true,
+      "moving_video": true,
+      "frames": 8,
+      "distinct": 8,
+      "audio": false,
+      "audio_languages": [],
+      "streams": [
+        {
+          "codec": "h264",
+          "width": 960,
+          "height": 540
+        }
+      ]
+    }
+  ]
+}
