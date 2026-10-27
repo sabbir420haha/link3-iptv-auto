@@ -1,0 +1,73 @@
+{
+  "checked_utc": "2026-10-27T14:08:16.428307+00:00",
+  "warning": "Only Link3 viewer can confirm video identity/language/buffering. FFprobe dimensions do not verify cartoon episodes or licence.",
+  "results": [
+    {
+      "name": "ZB Cartoon Bengali Animation",
+      "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
+      "manifest_ok": true,
+      "media_sample_ok": false,
+      "status": "unverified Link3/rights/audio",
+      "entries": 1,
+      "segment_error": "HTTP Error 404: Not Found",
+      "slug": "zb-cartoon",
+      "category": "Bengali animated",
+      "source_resolution_claim": "1080p",
+      "may_publish_if_media": true
+    },
+    {
+      "name": "Doraemon Bengali 24x7",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
+      "manifest_ok": true,
+      "media_sample_ok": true,
+      "status": "unverified Link3/rights/audio",
+      "entries": 10,
+      "segment_bytes_sampled": 1024,
+      "slug": "doraemon-bangla",
+      "category": "Bengali cartoon claim; content not verified",
+      "source_resolution_claim": null,
+      "may_publish_if_media": true,
+      "ffprobe_error": "[Errno 2] No such file or directory: 'ffprobe'"
+    },
+    {
+      "name": "Bangla Kids cartoon feed",
+      "url": "http://14.199.164.20:4001/play/a0m1/index.m3u8",
+      "manifest_ok": false,
+      "media_sample_ok": false,
+      "status": "unverified Link3/rights/audio",
+      "error": "<urlopen error timed out>",
+      "slug": "bangla-kids",
+      "category": "Kids/Cartoon Bangla unverified",
+      "source_resolution_claim": null,
+      "may_publish_if_media": true
+    },
+    {
+      "name": "Duronto TV Bengali family children baseline",
+      "url": "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8",
+      "manifest_ok": true,
+      "media_sample_ok": true,
+      "status": "unverified Link3/rights/audio",
+      "entries": 1,
+      "segment_bytes_sampled": 1024,
+      "slug": "duronto-hd",
+      "category": "Kids mixed programme, not dedicated animation",
+      "source_resolution_claim": null,
+      "may_publish_if_media": false,
+      "ffprobe_error": "[Errno 2] No such file or directory: 'ffprobe'"
+    },
+    {
+      "name": "Nick Bangla user main baseline",
+      "url": "http://103.135.253.32:8080/NICK/index.m3u8",
+      "manifest_ok": true,
+      "media_sample_ok": true,
+      "status": "unverified Link3/rights/audio",
+      "entries": 1,
+      "segment_bytes_sampled": 1024,
+      "slug": "nick-bangla",
+      "category": "Bangla animation user-pinned",
+      "source_resolution_claim": null,
+      "may_publish_if_media": false,
+      "ffprobe_error": "[Errno 2] No such file or directory: 'ffprobe'"
+    }
+  ]
+}
