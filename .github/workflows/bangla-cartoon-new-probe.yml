@@ -1,0 +1,42 @@
+name: Probe new Bengali kids and cartoon live channels
+on:
+  push:
+    branches: [main]
+    paths:
+      - bangla_cartoon_new_sources.json
+      - bangla_cartoon_new_probe.py
+      - .github/workflows/bangla-cartoon-new-probe.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bengali-new-cartoon-check
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check decoded live video frames
+        run: |
+          python -m pip install --disable-pip-version-check av==15.1.0
+          python bangla_cartoon_new_probe.py
+      - name: Commit probe evidence only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add bangla_cartoon_new_health.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Report frame-verified Bengali children TV candidates'
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git fetch origin main
+              git rebase -X theirs origin/main
+              sleep 2
+            done
+            exit 1
+          fi
