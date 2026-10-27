@@ -1,5 +1,5 @@
 #EXTM3U
-# Sonic Hindi-only manual TEST candidates | GitHub sources checked 2026-10-26
+# Manual TEST playlist: Hungama baseline + Sonic Hindi + dedicated cartoon/Bean shows | October 2026
 # NONE of the Sonic entries are confirmed working or genuine Hindi-audio on Link3; user will check manually.
 # Existing user-confirmed failed URLs, HTTP 403/404, invalid DNS/cert, expiring tokens, private IPs, and duplicates excluded.
 # For any confirmed working TEST number, pin direct URL in Main only after viewer confirmation.
@@ -425,7 +425,8 @@ https://playflix.icu/Extra%20Tata%20playlist.m3u/stream.m3u8?id=ts127&e=.m3u8
 
 # ---- NEW OCT-27 2026: REQUESTED SHOW-ONLY 24x7 TEST SOURCES ----
 # Each URL is different; NOT a promise of video/audio in Bangladesh, region accessibility, unbroken 24 hours, or licensing.
-# Do not promote any source to Main until viewer checks it. Some earlier GitHub HLS samples passed Oct 24; newer ones pending fresh check.
+# GitHub runner 2026-10-27T13:47:45.929510+00:00 confirmed manifest AND media bytes in 11/11 candidates; programme identity/language and Link3 playback NOT yet confirmed.
+# Do not promote any source to Main until viewer checks actual show, Hindi audio where requested, and buffering.
 # Gopal Bhar: user previously rejected repeated BozzTV subscription-slate source. No acceptable independent direct HLS found.
 # Shinchan (Hindi) and Thakumar Jhuli: no source independently verified as both dedicated and directly playable; no random links added.
 
