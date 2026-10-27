@@ -1,0 +1,42 @@
+name: Verify eight-show dedicated cartoon test sources
+on:
+  push:
+    branches: [main]
+    paths:
+      - cartoon_eight_show_candidates.json
+      - cartoon_eight_show_probe.py
+      - .github/workflows/cartoon-eight-show-check.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cartoon-eight-show-health
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check HLS manifests and actual media samples
+        run: |
+          python -m py_compile cartoon_stream_probe.py cartoon_eight_show_probe.py
+          python cartoon_eight_show_probe.py
+      - name: Save diagnostics (main playlist untouched)
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add cartoon_eight_show_health.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record eight-show 24x7 source diagnostics"
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git fetch origin main
+              git rebase -X theirs origin/main
+              sleep 2
+            done
+            exit 1
+          fi
