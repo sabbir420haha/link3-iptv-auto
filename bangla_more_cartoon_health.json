@@ -1,0 +1,198 @@
+{
+  "checked_utc": "2026-10-27T14:41:18.525986+00:00",
+  "notes": "Decoded video frames and stream presence alone do not establish Bengali language or cartoon content or access rights.",
+  "results": [
+    {
+      "name": "Sonic Bangla Jio Sflex07",
+      "channel": "Sonic Bangla",
+      "url": "https://sflex07.fun:443/07/jio/app/ts_live_1345.m3u8",
+      "source": "Dev-Gaminger010 public GitHub gist jio.m3a",
+      "bengali": true,
+      "group": "Bengali kids",
+      "frames": 0,
+      "unique_frames": 0,
+      "moving_video": false,
+      "audio_present": false,
+      "error": "[Errno 5] Input/output error: 'https://sflex07.fun:443/07/jio/app/ts_live_1345.m3u8'"
+    },
+    {
+      "name": "Nick Bangla Jio Sflex07",
+      "channel": "Nick Bangla",
+      "url": "https://sflex07.fun:443/07/jio/app/ts_live_1341.m3u8",
+      "source": "Dev-Gaminger010 public GitHub gist jio.m3a",
+      "bengali": true,
+      "group": "Bengali kids",
+      "frames": 0,
+      "unique_frames": 0,
+      "moving_video": false,
+      "audio_present": false,
+      "error": "[Errno 5] Input/output error: 'https://sflex07.fun:443/07/jio/app/ts_live_1341.m3u8'"
+    },
+    {
+      "name": "Sonic Bangla Jio Mini",
+      "channel": "Sonic Bangla",
+      "url": "https://mini.allinonereborn.fun/jiotv-www/app/ts_live_1345.m3u8",
+      "source": "masumbill/bdiptv new.m3u",
+      "bengali": true,
+      "group": "Bengali kids",
+      "frames": 0,
+      "unique_frames": 0,
+      "moving_video": false,
+      "audio_present": false,
+      "error": "[Errno 5] Input/output error: 'https://mini.allinonereborn.fun/jiotv-www/app/ts_live_1345.m3u8'"
+    },
+    {
+      "name": "Nick Bangla Jio Mini",
+      "channel": "Nick Bangla",
+      "url": "https://mini.allinonereborn.fun/jiotv-www/app/ts_live_1341.m3u8",
+      "source": "masumbill/bdiptv new.m3u",
+      "bengali": true,
+      "group": "Bengali kids",
+      "frames": 0,
+      "unique_frames": 0,
+      "moving_video": false,
+      "audio_present": false,
+      "error": "[Errno 5] Input/output error: 'https://mini.allinonereborn.fun/jiotv-www/app/ts_live_1341.m3u8'"
+    },
+    {
+      "name": "Sonic Bangla Instream",
+      "channel": "Sonic Bangla",
+      "url": "https://jio.instream.ml/jio.php?c=Sonic_Bangla&q=600&e=.m3u8",
+      "source": "bhatiavinod88/jio-tv-and-sony-tv public playlist",
+      "bengali": true,
+      "group": "Bengali kids",
+      "frames": 0,
+      "unique_frames": 0,
+      "moving_video": false,
+      "audio_present": false,
+      "error": "[Errno 5] Input/output error: 'https://jio.instream.ml/jio.php?c=Sonic_Bangla&q=600&e=.m3u8'"
+    },
+    {
+      "name": "Nick Bangla Instream",
+      "channel": "Nick Bangla",
+      "url": "https://jio.instream.ml/jio.php?c=Nick_Bangla&q=600&e=.m3u8",
+      "source": "bhatiavinod88/jio-tv-and-sony-tv public playlist",
+      "bengali": true,
+      "group": "Bengali kids",
+      "frames": 0,
+      "unique_frames": 0,
+      "moving_video": false,
+      "audio_present": false,
+      "error": "[Errno 5] Input/output error: 'https://jio.instream.ml/jio.php?c=Nick_Bangla&q=600&e=.m3u8'"
+    },
+    {
+      "name": "Sony Yay Cloudplay alt",
+      "channel": "Sony YAY",
+      "url": "https://cloudplay-sonyliv.pages.dev/yay.m3u8",
+      "source": "Krishanuk009/IndTv sony.m3u",
+      "bengali": false,
+      "group": "Hindi or Bengali unverified",
+      "frames": 0,
+      "unique_frames": 0,
+      "moving_video": false,
+      "audio_present": false,
+      "error": "[Errno 875574520] Server returned 404 Not Found: 'https://cloudplay-sonyliv.pages.dev/yay.m3u8'"
+    },
+    {
+      "name": "Sony Aath sliv alternative",
+      "channel": "Sony Aath",
+      "url": "https://sliv.tgaadi.workers.dev/sonyaathsd.m3u8",
+      "source": "Krishanuk009/555 Sony playlist",
+      "bengali": true,
+      "group": "Bengali entertainment cartoons scheduled only",
+      "frames": 0,
+      "unique_frames": 0,
+      "moving_video": false,
+      "audio_present": false,
+      "error": "[Errno 959591672] Server returned 429 Too Many Requests: 'https://sliv.tgaadi.workers.dev/sonyaathsd.m3u8'"
+    },
+    {
+      "name": "Sonic (unmarked) 103.151",
+      "channel": "Sonic",
+      "url": "http://103.151.60.162:2122/play/a02v/index.m3u8?hls",
+      "source": "iptv-org current Indian streams",
+      "bengali": false,
+      "group": "language unspecified",
+      "frames": 0,
+      "unique_frames": 0,
+      "moving_video": false,
+      "audio_present": false,
+      "error": "[Errno 875574520] Server returned 404 Not Found: 'http://103.151.60.162:2122/play/a02v/index.m3u8?hls'"
+    },
+    {
+      "name": "Discovery Kids OTTPlus",
+      "channel": "Discovery Kids",
+      "url": "https://stream.ottplus.live/live/discovery_kids_abr/index.m3u8",
+      "source": "sm-monirulislam/SM-IPTV",
+      "bengali": false,
+      "group": "language unspecified",
+      "frames": 0,
+      "unique_frames": 0,
+      "moving_video": false,
+      "audio_present": false,
+      "error": "[Errno 1414092869] Immediate exit requested: 'https://stream.ottplus.live/live/discovery_kids_abr/index.m3u8'"
+    },
+    {
+      "name": "Jungle Book FAST India",
+      "channel": "The Jungle Book",
+      "url": "https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8",
+      "source": "iptv-org current India stream",
+      "bengali": false,
+      "group": "language unspecified",
+      "frames": 7,
+      "unique_frames": 7,
+      "moving_video": true,
+      "audio_present": true,
+      "audio_languages": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "video_streams": [
+        {
+          "width": 0,
+          "height": 0,
+          "codec": "h264"
+        },
+        {
+          "width": 1280,
+          "height": 720,
+          "codec": "h264"
+        },
+        {
+          "width": 0,
+          "height": 0,
+          "codec": "h264"
+        },
+        {
+          "width": 0,
+          "height": 0,
+          "codec": "h264"
+        }
+      ]
+    },
+    {
+      "name": "Kids Pogo OTTPlus",
+      "channel": "Pogo",
+      "url": "https://stream.ottplus.live/live/pogo_sd_abr/index.m3u8",
+      "source": "sm-monirulislam/SM-IPTV",
+      "bengali": false,
+      "group": "language unspecified",
+      "frames": 7,
+      "unique_frames": 7,
+      "moving_video": true,
+      "audio_present": true,
+      "audio_languages": [
+        null
+      ],
+      "video_streams": [
+        {
+          "width": 1280,
+          "height": 720,
+          "codec": "h264"
+        }
+      ]
+    }
+  ]
+}
