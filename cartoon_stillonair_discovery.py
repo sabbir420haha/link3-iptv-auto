@@ -11,7 +11,7 @@ try:
   html=resp.read(850000).decode("utf8","replace")
   res.update({"http":resp.status,"bytes":len(html),"contains_shinchan":bool(re.search("shinchan",html,re.I))})
   res["public_media_links"]=list(dict.fromkeys(re.findall(r'https?[^"<>\\ ]{5,200}\\.(?:m3u8|mpd|mp4)(?:\\?[^"<> ]*)?',html,re.I)))[:12]
-  res["public_js_chunks"]=list(dict.fromkeys(re.findall(r'<script[^>]+src=["\\']([^"\\']+)',html,re.I)))[:8]
+  res["public_js_chunks"]=list(dict.fromkeys(re.findall(r"<script[^>]+src=[\"\x27]([^\"\x27]+)",html,re.I)))[:8]
   res["title"]=re.findall(r'<title>([^<]*)</title>',html,re.I)[:1]
 except Exception as e:
  res["error"]=str(e)[:220]
