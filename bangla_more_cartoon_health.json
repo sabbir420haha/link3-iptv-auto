@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-27T14:41:18.525986+00:00",
+  "checked_utc": "2026-10-27T14:42:39.384797+00:00",
   "notes": "Decoded video frames and stream presence alone do not establish Bengali language or cartoon content or access rights.",
   "results": [
     {
@@ -151,8 +151,8 @@
       ],
       "video_streams": [
         {
-          "width": 0,
-          "height": 0,
+          "width": 1920,
+          "height": 1080,
           "codec": "h264"
         },
         {
@@ -161,13 +161,13 @@
           "codec": "h264"
         },
         {
-          "width": 0,
-          "height": 0,
+          "width": 854,
+          "height": 480,
           "codec": "h264"
         },
         {
-          "width": 0,
-          "height": 0,
+          "width": 640,
+          "height": 360,
           "codec": "h264"
         }
       ]
@@ -194,5 +194,17 @@
         }
       ]
     }
-  ]
+  ],
+  "hls_audio_metadata": {
+    "Jungle Book FAST India": {
+      "media_audio_tags": [],
+      "renditions": [
+        "#EXT-X-STREAM-INF:CODECS=\"avc1.4d4028,mp4a.40.2\",RESOLUTION=1920x1080,FRAME-RATE=25.0,BANDWIDTH=4000000",
+        "#EXT-X-STREAM-INF:CODECS=\"avc1.4d401f,mp4a.40.2\",RESOLUTION=1280x720,FRAME-RATE=25.0,BANDWIDTH=2500000",
+        "#EXT-X-STREAM-INF:CODECS=\"avc1.4d401e,mp4a.40.2\",RESOLUTION=854x480,FRAME-RATE=25.0,BANDWIDTH=1000000",
+        "#EXT-X-STREAM-INF:CODECS=\"avc1.4d401e,mp4a.40.2\",RESOLUTION=640x360,FRAME-RATE=25.0,BANDWIDTH=750000"
+      ],
+      "contains_bengali_tag": false
+    }
+  }
 }
