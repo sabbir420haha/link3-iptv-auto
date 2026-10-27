@@ -1,0 +1,102 @@
+{
+  "created": "2026-10-27",
+  "warning": "Source naming and moving frame checks do not prove Bengali dubbing, audio, content or long-term playback. Never bypass DRM.",
+  "sources": [
+    {
+      "name": "Sonic Bangla Jio Sflex07",
+      "channel": "Sonic Bangla",
+      "url": "https://sflex07.fun:443/07/jio/app/ts_live_1345.m3u8",
+      "source": "Dev-Gaminger010 public GitHub gist jio.m3a",
+      "bengali": true,
+      "group": "Bengali kids"
+    },
+    {
+      "name": "Nick Bangla Jio Sflex07",
+      "channel": "Nick Bangla",
+      "url": "https://sflex07.fun:443/07/jio/app/ts_live_1341.m3u8",
+      "source": "Dev-Gaminger010 public GitHub gist jio.m3a",
+      "bengali": true,
+      "group": "Bengali kids"
+    },
+    {
+      "name": "Sonic Bangla Jio Mini",
+      "channel": "Sonic Bangla",
+      "url": "https://mini.allinonereborn.fun/jiotv-www/app/ts_live_1345.m3u8",
+      "source": "masumbill/bdiptv new.m3u",
+      "bengali": true,
+      "group": "Bengali kids"
+    },
+    {
+      "name": "Nick Bangla Jio Mini",
+      "channel": "Nick Bangla",
+      "url": "https://mini.allinonereborn.fun/jiotv-www/app/ts_live_1341.m3u8",
+      "source": "masumbill/bdiptv new.m3u",
+      "bengali": true,
+      "group": "Bengali kids"
+    },
+    {
+      "name": "Sonic Bangla Instream",
+      "channel": "Sonic Bangla",
+      "url": "https://jio.instream.ml/jio.php?c=Sonic_Bangla&q=600&e=.m3u8",
+      "source": "bhatiavinod88/jio-tv-and-sony-tv public playlist",
+      "bengali": true,
+      "group": "Bengali kids"
+    },
+    {
+      "name": "Nick Bangla Instream",
+      "channel": "Nick Bangla",
+      "url": "https://jio.instream.ml/jio.php?c=Nick_Bangla&q=600&e=.m3u8",
+      "source": "bhatiavinod88/jio-tv-and-sony-tv public playlist",
+      "bengali": true,
+      "group": "Bengali kids"
+    },
+    {
+      "name": "Sony Yay Cloudplay alt",
+      "channel": "Sony YAY",
+      "url": "https://cloudplay-sonyliv.pages.dev/yay.m3u8",
+      "source": "Krishanuk009/IndTv sony.m3u",
+      "bengali": false,
+      "group": "Hindi or Bengali unverified"
+    },
+    {
+      "name": "Sony Aath sliv alternative",
+      "channel": "Sony Aath",
+      "url": "https://sliv.tgaadi.workers.dev/sonyaathsd.m3u8",
+      "source": "Krishanuk009/555 Sony playlist",
+      "bengali": true,
+      "group": "Bengali entertainment cartoons scheduled only"
+    },
+    {
+      "name": "Sonic (unmarked) 103.151",
+      "channel": "Sonic",
+      "url": "http://103.151.60.162:2122/play/a02v/index.m3u8?hls",
+      "source": "iptv-org current Indian streams",
+      "bengali": false,
+      "group": "language unspecified"
+    },
+    {
+      "name": "Discovery Kids OTTPlus",
+      "channel": "Discovery Kids",
+      "url": "https://stream.ottplus.live/live/discovery_kids_abr/index.m3u8",
+      "source": "sm-monirulislam/SM-IPTV",
+      "bengali": false,
+      "group": "language unspecified"
+    },
+    {
+      "name": "Jungle Book FAST India",
+      "channel": "The Jungle Book",
+      "url": "https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8",
+      "source": "iptv-org current India stream",
+      "bengali": false,
+      "group": "language unspecified"
+    },
+    {
+      "name": "Kids Pogo OTTPlus",
+      "channel": "Pogo",
+      "url": "https://stream.ottplus.live/live/pogo_sd_abr/index.m3u8",
+      "source": "sm-monirulislam/SM-IPTV",
+      "bengali": false,
+      "group": "language unspecified"
+    }
+  ]
+}
