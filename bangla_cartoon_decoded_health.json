@@ -1,0 +1,62 @@
+{
+  "checked_utc": "2026-10-27T14:11:19.771395+00:00",
+  "warning": "Decoded moving frames do not prove cartoon identity, Bangla dubbing, subscription-slate absence or stable Link3 playback.",
+  "results": [
+    {
+      "name": "Doraemon Bangla 24/7 candidate",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
+      "group": "new",
+      "decoded_video_frames": 8,
+      "distinct_video_frames": 8,
+      "audio_stream_present": true,
+      "audio_language_tags": [
+        null
+      ],
+      "video_streams": [
+        {
+          "width": 960,
+          "height": 540,
+          "codec": "h264"
+        }
+      ],
+      "moving_video_observed": true
+    },
+    {
+      "name": "ZB Cartoon Bangla existing TEST",
+      "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
+      "group": "existing",
+      "decoded_video_frames": 8,
+      "distinct_video_frames": 8,
+      "audio_stream_present": true,
+      "audio_language_tags": [
+        null
+      ],
+      "video_streams": [
+        {
+          "width": 1920,
+          "height": 1080,
+          "codec": "h264"
+        }
+      ],
+      "moving_video_observed": true
+    },
+    {
+      "name": "Sonic Bangla Balaji",
+      "url": "http://live.balajibroadband.com:3500/live/1345.m3u8",
+      "group": "new-if-working",
+      "decoded_video_frames": 0,
+      "distinct_video_frames": 0,
+      "audio_stream_present": false,
+      "error": "[Errno 1414092869] Immediate exit requested: 'http://live.balajibroadband.com:3500/live/1345.m3u8'"
+    },
+    {
+      "name": "Sony Yay Bengali label",
+      "url": "https://yowaimo.in/Sflex-ArtlPVT0719/SONY_yay.m3u8",
+      "group": "new-if-working",
+      "decoded_video_frames": 0,
+      "distinct_video_frames": 0,
+      "audio_stream_present": false,
+      "error": "[Errno 5] Input/output error: 'https://yowaimo.in/Sflex-ArtlPVT0719/SONY_yay.m3u8'"
+    }
+  ]
+}
