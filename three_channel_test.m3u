@@ -422,3 +422,75 @@ http://103.84.57.155:8000/play/a03y/29711434.m3u8
 # Public Tata Play-labelled candidate, video not yet validated, user Link3 check pending
 #EXTINF:-1 tvg-id="sonic-hindi-tata-ts127-088" tvg-name="Sonic Hindi TEST 088" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="12 | SONIC HINDI - TATA PLAY TEST",Sonic Hindi TEST 088
 https://playflix.icu/Extra%20Tata%20playlist.m3u/stream.m3u8?id=ts127&e=.m3u8
+
+# ---- NEW OCT-27 2026: REQUESTED SHOW-ONLY 24x7 TEST SOURCES ----
+# Each URL is different; NOT a promise of video/audio in Bangladesh, region accessibility, unbroken 24 hours, or licensing.
+# Do not promote any source to Main until viewer checks it. Some earlier GitHub HLS samples passed Oct 24; newer ones pending fresh check.
+# Gopal Bhar: user previously rejected repeated BozzTV subscription-slate source. No acceptable independent direct HLS found.
+# Shinchan (Hindi) and Thakumar Jhuli: no source independently verified as both dedicated and directly playable; no random links added.
+
+# SOURCE: iptv-org / SM-IPTV
+# STATUS: GitHub media sample passed 2026-10-24; Hindi not checked
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="tom-jerry-hindi-oct27-001" tvg-name="Tom and Jerry Hindi Audio Check TEST 001" group-title="20 | TOM AND JERRY - HINDI CHECK / 24x7",Tom and Jerry Hindi Audio Check TEST 001
+https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
+
+# SOURCE: SM-IPTV
+# STATUS: GitHub media sample passed 2026-10-24; Link3 playback unverified
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="bantul-great-oct27-001" tvg-name="Bantul the Great TEST 001" group-title="21 | BANTUL THE GREAT - DEDICATED 24x7",Bantul the Great TEST 001
+https://live20.bozztv.com/giatvplayout7/giatv-209869/tracks-v1a1/mono.ts.m3u8
+
+# SOURCE: Rakuten FAST; previous user GitHub media check
+# STATUS: GitHub media sample passed 2026-10-24
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="mrbean-animated-oct27-001" tvg-name="Mr Bean Animated TEST 001" group-title="22 | MR BEAN ANIMATED - 24x7 FAST",Mr Bean Animated TEST 001
+https://amg00627-amg00627c28-rakuten-uk-3984.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanukcc-rakutenuk/playlist.m3u8
+
+# SOURCE: Samsung FAST; previous user GitHub media check
+# STATUS: GitHub media sample passed 2026-10-24
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="mrbean-animated-oct27-002" tvg-name="Mr Bean Animated TEST 002" group-title="22 | MR BEAN ANIMATED - 24x7 FAST",Mr Bean Animated TEST 002
+https://amg00627-amg00627c23-samsung-gb-3927.playouts.now.amagi.tv/playlist.m3u8
+
+# SOURCE: iptv-org / Samsung FAST
+# STATUS: GitHub media sample passed 2026-10-24
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="mrbean-animated-oct27-003" tvg-name="Mr Bean Animated TEST 003" group-title="22 | MR BEAN ANIMATED - 24x7 FAST",Mr Bean Animated TEST 003
+https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8
+
+# SOURCE: iptv-org / Rakuten FAST
+# STATUS: Needs fresh HTTP and user region check
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="mrbean-animated-oct27-004" tvg-name="Mr Bean Animated TEST 004" group-title="22 | MR BEAN ANIMATED - 24x7 FAST",Mr Bean Animated TEST 004
+https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
+
+# SOURCE: iptv-org / Rakuten FAST
+# STATUS: Needs fresh HTTP and user region check
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="mrbean-animated-oct27-005" tvg-name="Mr Bean Animated TEST 005" group-title="22 | MR BEAN ANIMATED - 24x7 FAST",Mr Bean Animated TEST 005
+https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
+
+# SOURCE: iptv-org / Rakuten FAST
+# STATUS: Needs fresh HTTP and user region check
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="mrbean-animated-oct27-006" tvg-name="Mr Bean Animated TEST 006" group-title="22 | MR BEAN ANIMATED - 24x7 FAST",Mr Bean Animated TEST 006
+https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8
+
+# SOURCE: iptv-org approved stream / Banijay FAST
+# STATUS: Needs fresh HTTP and user region check
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="mrbean-real-oct27-001" tvg-name="Mr Bean Real TEST 001" group-title="23 | MR BEAN LIVE ACTION - 24x7 FAST",Mr Bean Real TEST 001
+https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
+
+# SOURCE: iptv-org / Samsung FAST
+# STATUS: Needs fresh HTTP and user region check
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="mrbean-real-oct27-002" tvg-name="Mr Bean Real TEST 002" group-title="23 | MR BEAN LIVE ACTION - 24x7 FAST",Mr Bean Real TEST 002
+https://amg00627-amg00627c39-samsung-gb-5569.playouts.now.amagi.tv/playlist.m3u8
+
+# SOURCE: SM-IPTV
+# STATUS: Needs fresh HTTP and Hindi audio check
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="oggy-hindi-oct27-001" tvg-name="Oggy Hindi Audio Check TEST 001" group-title="24 | OGGY - HINDI CHECK / 24x7",Oggy Hindi Audio Check TEST 001
+https://live20.bozztv.com/giatvplayout7/giatv-210728/tracks-v1a1/mono.ts.m3u8
