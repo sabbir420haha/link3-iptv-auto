@@ -14,6 +14,15 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-10-27 fresh public GitHub candidate references. Audit-only; never promote without identity/audio checks.
+    {"channel":"Sonic Hindi","url":"https://jiotv.hadinetbd.tech/jio/v1/Sonic_Hindi/Sonic_Hindi/Sonic_Hindi.m3u8",
+     "evidence":"github.com/jongg57ed/jongg57 ip27october, 2026-10-27 Sonic Hindi ID 815", "expected_audio":"hi"},
+    {"channel":"Sonic Hindi","url":"https://sonamul3535.vercel.app/Sonic-Hindi.m3u8",
+     "evidence":"github.com/arafat-anowar/iptv ip.m3u8, specifically Sonic Hindi", "expected_audio":"hi"},
+    {"channel":"Sonic Bangla","url":"https://cdn.nayeemparvez.workers.dev/bpk-tv/Sonic_Bangla_MOB/Fallback/index.m3u8",
+     "evidence":"github.com/freedish2024/personal-project.sr Sun.m3u, labeled Nick Bangla despite Sonic_Bangla path; identity conflicting, probe only", "expected_audio":"bn"},
+    {"channel":"Sonic Bangla","url":"https://techiesneh.in1.bitmana.io/snehapi/jioapi/snehjioxx.php?c=Sonic_Bangla&q=800&e=junk.m3u8",
+     "evidence":"github.com/TheSamimMandal/SamimWorld SamimJio.m3u, Sonic Bangla channel label", "expected_audio":"bn"},
     # 2026-10-27 source-backed new public-list entries; independent probe ONLY.
     # Never promote these without HLS segment + channel identity + audio evidence.
     {"channel":"Disney HD Hindi","url":"http://103.153.39.34:8000/play/a04o/index.m3u8",
