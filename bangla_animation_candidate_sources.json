@@ -1,0 +1,52 @@
+{
+  "created_date": "2026-10-27",
+  "note": "Trial candidates for Bangla animated CARTOON TV; HTTP/media and ffprobe checks only. Sources in main, identical origin mirrors and series previously reported subscriber-only excluded from TEST until user verifies.",
+  "sources": [
+    {
+      "slug": "zb-cartoon",
+      "label": "ZB Cartoon Bengali Animation",
+      "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
+      "origin": "iptv-org public / ZillarBarta",
+      "category": "Bengali animated",
+      "source_resolution_claim": "1080p",
+      "priority": "high",
+      "may_publish_if_media": true
+    },
+    {
+      "slug": "doraemon-bangla",
+      "label": "Doraemon Bengali 24x7",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
+      "origin": "Bangladesh IPTV community 24x7 guide",
+      "category": "Bengali cartoon claim; content not verified",
+      "priority": "medium",
+      "may_publish_if_media": true
+    },
+    {
+      "slug": "bangla-kids",
+      "label": "Bangla Kids cartoon feed",
+      "url": "http://14.199.164.20:4001/play/a0m1/index.m3u8",
+      "origin": "archived public Bengali IPTV list",
+      "category": "Kids/Cartoon Bangla unverified",
+      "priority": "low",
+      "may_publish_if_media": true
+    },
+    {
+      "slug": "duronto-hd",
+      "label": "Duronto TV Bengali family children baseline",
+      "url": "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8",
+      "origin": "iptv-org/publiciptv",
+      "category": "Kids mixed programme, not dedicated animation",
+      "priority": "baseline",
+      "may_publish_if_media": false
+    },
+    {
+      "slug": "nick-bangla",
+      "label": "Nick Bangla user main baseline",
+      "url": "http://103.135.253.32:8080/NICK/index.m3u8",
+      "origin": "user main playlist",
+      "category": "Bangla animation user-pinned",
+      "priority": "baseline",
+      "may_publish_if_media": false
+    }
+  ]
+}
