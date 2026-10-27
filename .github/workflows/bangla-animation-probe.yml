@@ -1,0 +1,42 @@
+name: Probe HD Bangla animated cartoon channels
+on:
+  push:
+    branches: [main]
+    paths:
+      - bangla_animation_candidate_sources.json
+      - bangla_animation_probe.py
+      - .github/workflows/bangla-animation-probe.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: bangla-animation-probe
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check manifests, video segments and ffprobe resolutions
+        run: |
+          python -m py_compile bangla_animation_probe.py
+          python bangla_animation_probe.py
+      - name: Commit diagnostic report without changing playlists
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add bangla_animation_candidate_health.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Report actual video availability for Bangla animation candidates'
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git fetch origin main
+              git rebase -X theirs origin/main
+              sleep 2
+            done
+            exit 1
+          fi
