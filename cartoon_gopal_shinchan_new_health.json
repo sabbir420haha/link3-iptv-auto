@@ -1,0 +1,57 @@
+{
+  "checked_utc": "2026-10-27T13:54:29.437617+00:00",
+  "warning": "HTTP media success alone never proves show identity, Hindi audio, Bangladesh viewing or 24x7 reliability; do not auto-add to test/main.",
+  "results": [
+    {
+      "show": "Shinchan Hindi",
+      "source": "M3UMergers public kids channels announcement",
+      "url": "https://m3umergers-kids.vercel.app/shinchan24*7.m3u8",
+      "notes": "Claimed Shinchan 24x7; Hindi audio / programme identity unverified",
+      "name": "Shinchan Hindi",
+      "manifest_ok": false,
+      "media_sample_ok": false,
+      "status": "unverified Link3/rights/audio",
+      "error": "HTTP Error 402: Payment Required"
+    },
+    {
+      "show": "Shinchan Hindi",
+      "source": "M3UMergers public mirror playlist",
+      "url": "https://kids-channels-by-m3umergers.netlify.app/kids.m3u",
+      "notes": "Aggregate playlist, not channel: investigate references only; never publish as single programme",
+      "type": "collection",
+      "readable": true,
+      "matching_entries": [
+        {
+          "name": "#EXTINF:-1 group-title=\"Kids\" tvg-logo=\"https://iili.io/2PVbsF1.jpg\", Shinchan 24*7  ",
+          "url": "https://m3umergers-kids.vercel.app/shinchan24*7.m3u8  "
+        },
+        {
+          "name": "https://m3umergers-kids.vercel.app/shinchan24*7.m3u8  ",
+          "url": "#EXTINF:-1 group-title=\"Kids\" tvg-logo=\"https://iili.io/2PViNeV.jpg\", Discovery Kids  "
+        }
+      ]
+    },
+    {
+      "show": "Gopal Bhar",
+      "source": "Legacy third-party index direct Gopal TV path",
+      "url": "https://tplay.live/playlist/kids/gopal-bhar/index.m3u8",
+      "notes": "Failed previous TLS checks; potential same underlying 209611; diagnostic only",
+      "name": "Gopal Bhar",
+      "manifest_ok": false,
+      "media_sample_ok": false,
+      "status": "unverified Link3/rights/audio",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "show": "Shinchan Hindi",
+      "source": "Shinchan labelled internet IPTV link",
+      "url": "https://ranapkx.site/RANAPK33k/TVD/play.php?id=734314&e=.m3u8",
+      "notes": "Previously returned HTTP 523; diagnostic only",
+      "name": "Shinchan Hindi",
+      "manifest_ok": false,
+      "media_sample_ok": false,
+      "status": "unverified Link3/rights/audio",
+      "error": "HTTP Error 523: <none>"
+    }
+  ]
+}
