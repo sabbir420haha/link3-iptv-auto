@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-27T13:54:29.437617+00:00",
+  "checked_utc": "2026-10-27T19:34:07.033369+00:00",
   "warning": "HTTP media success alone never proves show identity, Hindi audio, Bangladesh viewing or 24x7 reliability; do not auto-add to test/main.",
   "results": [
     {
@@ -51,7 +51,29 @@
       "manifest_ok": false,
       "media_sample_ok": false,
       "status": "unverified Link3/rights/audio",
-      "error": "HTTP Error 523: <none>"
+      "error": "The read operation timed out"
+    },
+    {
+      "show": "Gopal Bhar",
+      "source": "hossainhridoyx/HridoyTV_Server channels.json (discovered Oct 28)",
+      "url": "https://proxy.hridoytv.workers.dev/gopalbhar.m3u8",
+      "notes": "New URL not in stored candidate files; Cloudflare Worker relay, underlying origin unknown, content/audio unverified; require full series visual proof; exclude if maps to giatv-209611",
+      "name": "Gopal Bhar",
+      "manifest_ok": false,
+      "media_sample_ok": false,
+      "status": "unverified Link3/rights/audio",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "show": "Gopal Bhar",
+      "source": "reyad27s/Playlist generated Oct 27 (HridoyTV relay)",
+      "url": "https://proxy2.hridoytvstream.workers.dev/link-copy-kore-lav-nai=expire43738831219634/gopalbhar.m3u8",
+      "notes": "May be mirror of other HridoyTV Worker and/or giatv-209611; do not count distinct until origin proven; video/content unverified",
+      "name": "Gopal Bhar",
+      "manifest_ok": false,
+      "media_sample_ok": false,
+      "status": "unverified Link3/rights/audio",
+      "error": "HTTP Error 403: Forbidden"
     }
   ]
 }

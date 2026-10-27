@@ -1,0 +1,17 @@
+{
+  "checked_utc": "2026-10-27T19:34:07.086560+00:00",
+  "page": "https://www.stillonair.com/channel/shinchan-247hindi",
+  "warning": "A public watch-page is not itself a direct IPTV media stream or proof of video/rights.",
+  "http": 200,
+  "bytes": 8014,
+  "contains_shinchan": true,
+  "public_media_links": [],
+  "public_js_chunks": [
+    "https://www.googletagmanager.com/gtag/js?id=G-XNBHHKRQHR",
+    "https://cdn.tailwindcss.com",
+    "/assets/index-CTLUlGV2.js"
+  ],
+  "title": [
+    "Watch Shinchan 24/7,hindi Live for Free | Kids Channel | Still On Air"
+  ]
+}
