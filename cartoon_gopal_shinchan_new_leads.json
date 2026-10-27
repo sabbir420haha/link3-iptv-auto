@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-27",
-  "status": "DIAGNOSTIC DISCOVERY ONLY: do not publish any without actual series / Hindi / playable confirmation",
+  "date": "2026-10-28",
+  "status": "DIAGNOSTIC ONLY: never add without independently verified video, series identity, correct language and origin deduplication",
   "do_not_readd": [
     "giatv-209611",
     "giatv-209901",
@@ -31,6 +31,18 @@
       "source": "Shinchan labelled internet IPTV link",
       "url": "https://ranapkx.site/RANAPK33k/TVD/play.php?id=734314&e=.m3u8",
       "notes": "Previously returned HTTP 523; diagnostic only"
+    },
+    {
+      "show": "Gopal Bhar",
+      "source": "hossainhridoyx/HridoyTV_Server channels.json (discovered Oct 28)",
+      "url": "https://proxy.hridoytv.workers.dev/gopalbhar.m3u8",
+      "notes": "New URL not in stored candidate files; Cloudflare Worker relay, underlying origin unknown, content/audio unverified; require full series visual proof; exclude if maps to giatv-209611"
+    },
+    {
+      "show": "Gopal Bhar",
+      "source": "reyad27s/Playlist generated Oct 27 (HridoyTV relay)",
+      "url": "https://proxy2.hridoytvstream.workers.dev/link-copy-kore-lav-nai=expire43738831219634/gopalbhar.m3u8",
+      "notes": "May be mirror of other HridoyTV Worker and/or giatv-209611; do not count distinct until origin proven; video/content unverified"
     }
   ]
 }
