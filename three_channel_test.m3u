@@ -508,3 +508,10 @@ https://server.zillarbarta.com/zbcatun/video.m3u8
 # CAVEAT: HTTP media test != decoded Doraemon footage, Bangla audio, or playback on Link3. IPTV Pro manual confirmation required.
 #EXTINF:-1 tvg-id="doraemon-bangla-oct27-test01" tvg-name="Doraemon Bangla TEST 001" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/bd/Doraemon_character.png" group-title="25 | BANGLA ANIMATED - HLS VIDEO PASS",Doraemon Bangla TEST 001
 https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
+
+# Source: iptv-org streams/in.m3u ; broadcaster Rongeen TV schedule (https://rongeentv.com/shows).
+# GitHub video check 2026-10-27T14:16:20.296619+00:00: 1280x720 moving H264 frames and audio stream present.
+# IMPORTANT: NOT a dedicated 24/7 cartoon channel. Bengali animation Magajastra airs on published schedule (Monday-Friday, noon station time); rest of programming includes music, film and lifestyle.
+# Actual Bengali language and Link3 playback not independently user-confirmed. TEST ONLY.
+#EXTINF:-1 tvg-id="rongeen-bangla-animation-scheduled-test-001" tvg-name="Rongeen TV Bangla Animation Schedule TEST 001" group-title="26 | BANGLA ANIMATION - SCHEDULED ONLY",Rongeen TV Bangla Animation Schedule TEST 001
+https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8
