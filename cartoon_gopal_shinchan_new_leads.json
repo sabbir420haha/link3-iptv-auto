@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-27",
+  "status": "DIAGNOSTIC DISCOVERY ONLY: do not publish any without actual series / Hindi / playable confirmation",
+  "do_not_readd": [
+    "giatv-209611",
+    "giatv-209901",
+    "Cloudfrontnet 209611/209901",
+    "TPlay relay to 209611"
+  ],
+  "sources": [
+    {
+      "show": "Shinchan Hindi",
+      "source": "M3UMergers public kids channels announcement",
+      "url": "https://m3umergers-kids.vercel.app/shinchan24*7.m3u8",
+      "notes": "Claimed Shinchan 24x7; Hindi audio / programme identity unverified"
+    },
+    {
+      "show": "Shinchan Hindi",
+      "source": "M3UMergers public mirror playlist",
+      "url": "https://kids-channels-by-m3umergers.netlify.app/kids.m3u",
+      "notes": "Aggregate playlist, not channel: investigate references only; never publish as single programme"
+    },
+    {
+      "show": "Gopal Bhar",
+      "source": "Legacy third-party index direct Gopal TV path",
+      "url": "https://tplay.live/playlist/kids/gopal-bhar/index.m3u8",
+      "notes": "Failed previous TLS checks; potential same underlying 209611; diagnostic only"
+    },
+    {
+      "show": "Shinchan Hindi",
+      "source": "Shinchan labelled internet IPTV link",
+      "url": "https://ranapkx.site/RANAPK33k/TVD/play.php?id=734314&e=.m3u8",
+      "notes": "Previously returned HTTP 523; diagnostic only"
+    }
+  ]
+}
