@@ -515,3 +515,13 @@ https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
 # Actual Bengali language and Link3 playback not independently user-confirmed. TEST ONLY.
 #EXTINF:-1 tvg-id="rongeen-bangla-animation-scheduled-test-001" tvg-name="Rongeen TV Bangla Animation Schedule TEST 001" group-title="26 | BANGLA ANIMATION - SCHEDULED ONLY",Rongeen TV Bangla Animation Schedule TEST 001
 https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8
+
+# From GitHub Actions PyAV decode 2026-10-27T14:31:42.548455+00:00, distinct HLS feed and active moving video+audio.
+# Kids animation. Independent BD OTT stream decoded moving 720p video and audio; Bengali dubbing NOT verified (stream tag absent). Distinct CDN to already-in-MAIN Sony Yay, offered as playback/audio comparison only.
+#EXTINF:-1 tvg-id="sony-yay-bd-bn-audio-check-oct27" tvg-name="Sony YAY BD Bangla Audio CHECK 001" group-title="27 | BANGLA DUB CARTOON - AUDIO CHECK",Sony YAY BD Bangla Audio CHECK 001
+https://stream.ottplus.live/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8
+
+# From GitHub Actions PyAV decode 2026-10-27T14:31:42.548455+00:00, distinct HLS feed and active moving video+audio.
+# Rongeen TV alternative CDN. Carries the same channel as TEST 001; NOT a new programme. Mixed programmes incl. scheduled Magajastra, not 24x7 cartoons. Video and audio verified; Bangla audio and Link3 not independently confirmed.
+#EXTINF:-1 tvg-id="rongeen-tv-mumbai-bk-oct27" tvg-name="Rongeen TV Bengali Animation BACKUP 002" group-title="26 | BANGLA ANIMATION - SCHEDULED ONLY",Rongeen TV Bengali Animation BACKUP 002
+https://mumbai-edge.smartplaytv.in/RongeenTV/index.m3u8
