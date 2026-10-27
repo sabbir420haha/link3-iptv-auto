@@ -502,3 +502,9 @@ https://live20.bozztv.com/giatvplayout7/giatv-210728/tracks-v1a1/mono.ts.m3u8
 # Bengali cartoon programme verified by public programme listings; actual playback/resolution on Link3 still user-unverified.
 #EXTINF:-1 tvg-id="zb-cartoon-bangla-hd-oct27-001" tvg-name="ZB Cartoon Bangla HD TEST 001" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zbcatun.png" group-title="25 | BANGLA ANIMATED - HD TEST",ZB Cartoon Bangla HD TEST 001
 https://server.zillarbarta.com/zbcatun/video.m3u8
+
+# Oct 27 2026 independent runner check: HLS manifest and video segment bytes PASS at 2026-10-27T14:08:16.428307+00:00.
+# Source from sm-monirulislam/SM-IPTV, community also calls it 24/7 Bangla Doraemon.
+# CAVEAT: HTTP media test != decoded Doraemon footage, Bangla audio, or playback on Link3. IPTV Pro manual confirmation required.
+#EXTINF:-1 tvg-id="doraemon-bangla-oct27-test01" tvg-name="Doraemon Bangla TEST 001" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/bd/Doraemon_character.png" group-title="25 | BANGLA ANIMATED - HLS VIDEO PASS",Doraemon Bangla TEST 001
+https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
