@@ -1,10 +1,42 @@
 {
-  "checked_utc": "2026-10-28T13:24:54.711217+00:00",
+  "checked_utc": "2026-10-28T18:12:53.352587+00:00",
   "scope": "GitHub Actions network, NOT Link3. No channel identities confirmed.",
-  "candidate_count": 62,
-  "verified_media_candidates": 2,
+  "candidate_count": 64,
+  "verified_media_candidates": 1,
   "publication_authorized": false,
   "candidates": [
+    {
+      "channel": "Sonic Hindi",
+      "url": "https://redmi.allinonereborn.xyz/jiotv-ww/app/live.php?id=815&e=.m3u8",
+      "evidence": "github.com/MuzammilShah51214/Live-Tv-786 IndianTV-Live.html; Sonic Hindi explicitly Jio channel 815; fresh 2026-10-29 audit only",
+      "expected_audio": "hi",
+      "manifest_ok": false,
+      "media_segment_verified": false,
+      "advertised_max_height": 0,
+      "advertised_audio_languages": [],
+      "channel_identity_verified": false,
+      "hindi_or_bangla_audio_verified": false,
+      "link3_verified": false,
+      "publish_eligible": false,
+      "note": "GitHub runner-only test. Playlist is unchanged.",
+      "error": "ValueError: No readable HLS data: <urlopen error timed out>"
+    },
+    {
+      "channel": "Sonic Bangla",
+      "url": "http://103.165.93.31:8095/sonic/index.m3u8",
+      "evidence": "github.com/badalbd53/Rocket-OTV badal.m3u lists Sonic; Bangla not established, Bangladesh IP may be BDIX; audit only",
+      "expected_audio": "bn",
+      "manifest_ok": false,
+      "media_segment_verified": false,
+      "advertised_max_height": 0,
+      "advertised_audio_languages": [],
+      "channel_identity_verified": false,
+      "hindi_or_bangla_audio_verified": false,
+      "link3_verified": false,
+      "publish_eligible": false,
+      "note": "GitHub runner-only test. Playlist is unchanged.",
+      "error": "ValueError: No readable HLS data: <urlopen error timed out>"
+    },
     {
       "channel": "Sonic Hindi",
       "url": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
@@ -27,29 +59,16 @@
       "evidence": "github.com/eishakilei-bd08/eitv dormns20.m3u labels Disney HD (Tata Play); 2026-10-28 status.json runner audit saw 720p + media segment; Hindi audio and exact Disney identity unconfirmed",
       "expected_audio": "hi",
       "min_height": 720,
-      "manifest_ok": true,
-      "media_segment_verified": true,
-      "advertised_max_height": 720,
+      "manifest_ok": false,
+      "media_segment_verified": false,
+      "advertised_max_height": 0,
       "advertised_audio_languages": [],
       "channel_identity_verified": false,
       "hindi_or_bangla_audio_verified": false,
       "link3_verified": false,
       "publish_eligible": false,
       "note": "GitHub runner-only test. Playlist is unchanged.",
-      "ffprobe_streams": [
-        {
-          "codec_name": "h264",
-          "codec_type": "video",
-          "width": 1280,
-          "height": 720,
-          "tags": {}
-        },
-        {
-          "codec_name": "aac",
-          "codec_type": "audio",
-          "tags": {}
-        }
-      ]
+      "error": "ValueError: No readable HLS data: <urlopen error timed out>"
     },
     {
       "channel": "Sonic Hindi",
@@ -65,7 +84,7 @@
       "link3_verified": false,
       "publish_eligible": false,
       "note": "GitHub runner-only test. Playlist is unchanged.",
-      "error": "ValueError: No readable HLS data: HTTP Error 403: Forbidden"
+      "error": "ValueError: No readable HLS data: <urlopen error timed out>"
     },
     {
       "channel": "Sonic Bangla",
