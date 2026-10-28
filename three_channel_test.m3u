@@ -114,27 +114,6 @@ https://mumbai-edge.smartplaytv.in/RongeenTV/index.m3u8
 # IMPORTANT: BENGALI DUBBING / AUDIO NOT CONFIRMED; actual programme scenes and Link3 playback require viewer verification. Do NOT treat as a verified Bengali cartoon channel.
 #EXTINF:-1 tvg-id="jungle-book-cartoon-bn-audio-check-oct27-001" tvg-name="The Jungle Book Cartoon - Bengali Audio CHECK 001" group-title="28 | ANIMATED CARTOONS - BANGLA AUDIO UNVERIFIED",The Jungle Book Cartoon - Bengali Audio CHECK 001
 https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8
-
-# BEGIN GON 1996 HINDI VOD AUTO
-# On-demand Gon 1996 clips; HLS CDN links expire and are regenerated hourly.
-# Language, exact episode numbers, and playback on user's Link3 are not independently confirmed.
-#EXTINF:-1 tvg-name="Gon 1996 Hindi VOD - Clip A" group-title="29 | GON 1996 - HINDI VOD TEST",Gon 1996 Hindi VOD - Clip A
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36 Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dailymotion.com/
-https://vod3.cf.dmcdn.net/sec2(v4XYVC8AgZ7qDQM2q_c9RK6GiYrgJ3H81QaE-bWEUdeZ1Jnm4cRgMOgP2TrgtUNRNwkP9IvYrWpvq-0solr1vjfFlzk17xwuGKKyUFm_kJeWkOiRy_qY70fsDymfDWSFioIVHsKQnN_VUT2XeAnhar5d50O6EyaXacrWSl9KKCQ)/video/149/817/525718941_mp4_h264_aac_2.m3u8
-
-#EXTINF:-1 tvg-name="Gon 1996 Hindi VOD - Clip B" group-title="29 | GON 1996 - HINDI VOD TEST",Gon 1996 Hindi VOD - Clip B
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36 Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dailymotion.com/
-https://vod3.cf.dmcdn.net/sec2(Imqd7_okEgQrAs0UghrLKE1nYIGRxHxxsWeV9j1jiDG_CyRqDeGg9XTGrHywluUFSxpIYHmdfsoE6zrmurrZnfvSef_UWHJ6IMzzvqrZH1lwFzowyY9bHmH_FNJKWtl4UQ3j4YKzqa8JvRjCUnMcAxl-b5ILm8gHlV72Z2rwmqc)/video/370/178/525871073_mp4_h264_aac_2.m3u8
-
-#EXTINF:-1 tvg-name="Gon 1996 Hindi VOD - Clip C" group-title="29 | GON 1996 - HINDI VOD TEST",Gon 1996 Hindi VOD - Clip C
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36 Chrome/124.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.dailymotion.com/
-https://vod3.cf.dmcdn.net/sec2(Ms83m5zc6Ff1FBnxkvoV9K1D-Gv5KjBZ4P_lCCdv480KvEUu84VoS3v7BKHN_Ug9Wi7z_yzvQDZEv9Do47jfghQaIJs9mr9HCAobALAbc5DDuOGwQk-meQVMiLSE2BoWHuko9MXfiC32Df00ovKaEcuyLqU-MJJ33TjwDHlWXzc)/video/539/817/525718935_mp4_h264_aac_3.m3u8
-
-# END GON 1996 HINDI VOD AUTO
-
 # Public, unencrypted open-movie HLS demo from Mux. NOT a Gon episode.
 # For testing whether IPTV Pro/Link3 can play VOD-style HLS; safe to remove after diagnosis.
 #EXTINF:-1 tvg-name="IPTV PLAYER CHECK - Big Buck Bunny HLS VOD (NOT GON)" group-title="30 | PLAYER CHECK - NOT GON",IPTV PLAYER CHECK - Big Buck Bunny HLS VOD (NOT GON)
