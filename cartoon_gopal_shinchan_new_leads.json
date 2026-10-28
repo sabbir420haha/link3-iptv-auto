@@ -49,6 +49,18 @@
       "source": "StevoSure123/Kids-IPTV kids-24-7.m3u (older public repo; rediscovered Oct 28)",
       "url": "https://starshare.live:443/live/Habib/Habib/147724.m3u8",
       "notes": "Named Shinchan 24/7 but Hindi unverified; IPTV-account style endpoint may be expired; 147724 identifier also appears in prior NinjaTV wrapper, treat as possibly same origin until proven distinct. GitHub runner probe only, do not add playlist without show/audio proof."
+    },
+    {
+      "show": "Shinchan Hindi",
+      "source": "StevoSure123/Kids-IPTV M3UPlus-Playlist-20241019222427.m3u",
+      "url": "http://game.denver1769.in/port/tp3.php?id=58625",
+      "notes": "Newly investigated Oct 28. Denver id=58625 is the same underlying channel across these two wrappers; not independently validated HLS. Verify HTTP response is true manifest, fresh media bytes, actual Shinchan content, Hindi audio, non-BDIX and rights; never add unless all proven."
+    },
+    {
+      "show": "Shinchan Hindi",
+      "source": "Mdas109/TBL 1A.M3U",
+      "url": "http://port.denver1769.in/Ply/tptv.php?id=58625",
+      "notes": "Newly investigated Oct 28. Denver id=58625 is the same underlying channel across these two wrappers; not independently validated HLS. Verify HTTP response is true manifest, fresh media bytes, actual Shinchan content, Hindi audio, non-BDIX and rights; never add unless all proven."
     }
   ]
 }
