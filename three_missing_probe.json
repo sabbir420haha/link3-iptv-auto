@@ -1,7 +1,7 @@
 {
-  "checked_utc": "2026-10-28T00:21:53.884826+00:00",
+  "checked_utc": "2026-10-28T00:27:41.533416+00:00",
   "scope": "GitHub Actions network, NOT Link3. No channel identities confirmed.",
-  "candidate_count": 53,
+  "candidate_count": 55,
   "verified_media_candidates": 0,
   "publication_authorized": false,
   "candidates": [
@@ -864,6 +864,38 @@
       "publish_eligible": false,
       "note": "GitHub runner-only test. Playlist is unchanged.",
       "error": "ValueError: No readable HLS data: <urlopen error timed out>"
+    },
+    {
+      "channel": "Sonic Hindi",
+      "url": "https://keralamaxtv.com/vt/stream.m3u8?id=Sonic_Nickelodeon",
+      "evidence": "github.com/freedish2024/personal-project.sr Allinkids.Com, labeled Sonic; Hindi not independently confirmed",
+      "expected_audio": "hi",
+      "manifest_ok": false,
+      "media_segment_verified": false,
+      "advertised_max_height": 0,
+      "advertised_audio_languages": [],
+      "channel_identity_verified": false,
+      "hindi_or_bangla_audio_verified": false,
+      "link3_verified": false,
+      "publish_eligible": false,
+      "note": "GitHub runner-only test. Playlist is unchanged.",
+      "error": "ValueError: No readable HLS data: <urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "channel": "Sonic Bangla",
+      "url": "https://mhdtv.co.in/jio/app/live/1345/Sonic_Bangla/index.m3u8",
+      "evidence": "github.com/Hasibfy37/Iptv Final.m3u, explicitly Sonic Bangla 1345",
+      "expected_audio": "bn",
+      "manifest_ok": false,
+      "media_segment_verified": false,
+      "advertised_max_height": 0,
+      "advertised_audio_languages": [],
+      "channel_identity_verified": false,
+      "hindi_or_bangla_audio_verified": false,
+      "link3_verified": false,
+      "publish_eligible": false,
+      "note": "GitHub runner-only test. Playlist is unchanged.",
+      "error": "ValueError: No readable HLS data: <urlopen error [Errno -2] Name or service not known>"
     }
   ]
 }
