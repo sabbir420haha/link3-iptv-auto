@@ -8,12 +8,21 @@ import concurrent.futures
 import datetime
 import json
 import re
+import subprocess
 import urllib.parse
 from pathlib import Path
 from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-10-28: source-backed HLS candidates on the same publicly listed
+    # ITCN service as a runner-reachable Disney HD feed; not yet viewer-tested.
+    {"channel":"Disney HD Hindi","url":"https://s1.itcnbd.live/Disney-D/index.m3u8",
+     "evidence":"github.com/eishakilei-bd08/eitv dormns20.m3u labels Disney HD (Tata Play); 2026-10-28 status.json runner audit saw 720p + media segment; Hindi audio and exact Disney identity unconfirmed",
+     "expected_audio":"hi","min_height":720},
+    {"channel":"Sonic Hindi","url":"https://s2.itcnbd.live/server-3/stream/cGxheWVyLnBocD9zdHJlYW09NDU.m3u8",
+     "evidence":"github.com/ShahirTech/Shahir-TV-Playlist ITCN_Fresh_Ultimate.m3u labels SONIC; Hindi vs Bengali not established; audit only",
+     "expected_audio":"hi"},
     # 2026-10-28: independent status.json audit previously found a real media fragment
     # at this candidate; check audio metadata/identity separately before any release.
     {"channel":"Sonic Bangla","url":"https://iptvcable.netlify.app/Altogether-007/Cartoon/SONIC.m3u8",
@@ -234,6 +243,23 @@ def test(entry):
                 except Exception:
                     pass
             result["hindi_or_bangla_audio_verified"] = entry["expected_audio"] in languages
+            # Inspect codec and embedded language tags only after an actual HLS
+            # fragment was fetched. Tags are evidence, NOT proof of spoken audio
+            # or channel identity. Never publish automatically from ffprobe.
+            if result["media_segment_verified"]:
+                try:
+                    command = ["ffprobe", "-v", "error", "-rw_timeout", "5000000",
+                               "-probesize", "300000", "-analyzeduration", "1200000",
+                               "-show_entries", "stream=codec_type,codec_name,width,height:stream_tags=language,title",
+                               "-of", "json", entry["url"]]
+                    proc = subprocess.run(command, capture_output=True, text=True, timeout=18, check=False)
+                    if proc.returncode == 0 and proc.stdout.strip():
+                        details = json.loads(proc.stdout)
+                        result["ffprobe_streams"] = details.get("streams", [])[:8]
+                    else:
+                        result["ffprobe_error"] = (proc.stderr or "ffprobe returned no stream data")[:200]
+                except Exception as exc:
+                    result["ffprobe_error"] = type(exc).__name__ + ": " + str(exc)[:160]
             if entry.get("min_height") and result["advertised_max_height"] < entry["min_height"]:
                 result["note"] += " Disney HD requirement not verified."
             if not result["media_segment_verified"]:
