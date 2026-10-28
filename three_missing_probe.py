@@ -14,6 +14,17 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-10-28: additional source-backed, non-BDIX-oriented candidates.
+    # Public playlist labels alone do not verify channel identity, audio or Link3 playback.
+    {"channel":"Sonic Hindi","url":"http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8",
+     "evidence":"github.com/yash-vardhan-github/public-file-host tv.m3u and public IPTV source index; Sonic Hindi label, Canada-hosted endpoint; independent audio not verified",
+     "expected_audio":"hi"},
+    {"channel":"Sonic Hindi","url":"http://103.229.254.25:7001/play/a0dl/index.m3u8",
+     "evidence":"github.com/ttmttm/iptv_2026 streams/in.m3u (iptv-org mirror), Sonic (576p); Hindi language not independently confirmed",
+     "expected_audio":"hi"},
+    {"channel":"Sonic Bangla","url":"https://playyonogames.in/live.php?id=1345&format=.m3u8",
+     "evidence":"github.com/Rapu1/0 0 playlist, explicitly Sonic Bangla Jio ID 1345 with Indian-hosted URL; format= variant not yet audited; no auth bypass",
+     "expected_audio":"bn"},
     # 2026-10-27 23:39 Bangladesh time: new source-backed audit-only candidates; no viewer claims.
     {"channel":"Sonic Hindi","url":"https://hey-lookme.shop/live.php?id=815","evidence":"github.com/sm-monirulislam/SM-IPTV jio_tv.m3u, channel 815 explicitly Sonic Hindi; playlist lists HTTP referrer; no authentication bypass","expected_audio":"hi"},
     {"channel":"Sonic Bangla","url":"https://hey-lookme.shop/live.php?id=1345","evidence":"github.com/sm-monirulislam/SM-IPTV jio_tv.m3u, channel 1345 explicitly Sonic Bangla; playlist lists HTTP referrer; no authentication bypass","expected_audio":"bn"},
