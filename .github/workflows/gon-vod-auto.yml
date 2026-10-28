@@ -1,0 +1,43 @@
+name: Refresh Gon 1996 Hindi VOD media links
+on:
+  push:
+    branches: [main]
+    paths:
+      - gon_vod_auto.py
+      - .github/workflows/gon-vod-auto.yml
+  schedule:
+    - cron: '13 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: gon-vod-auto-hourly
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Decode video and audio; generate separate playlist
+        run: |
+          pip install --disable-pip-version-check yt-dlp requests av==15.1.0
+          python gon_vod_auto.py
+      - name: Commit refreshed playlist only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add gon_vod.m3u gon_vod_health.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh Gon 1996 on-demand Hindi episode HLS manifests'
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git fetch origin main
+              git rebase -X theirs origin/main
+              sleep 3
+            done
+            exit 1
+          fi
