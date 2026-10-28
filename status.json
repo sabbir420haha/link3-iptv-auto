@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T12:22:55.802980+00:00",
+  "updated_utc": "2026-10-28T13:22:52.352346+00:00",
   "channels": 75,
   "target_channels": 99,
   "groups": {
@@ -1766,13 +1766,13 @@
   },
   "local_logos": {
     "total": 75,
-    "from_image_sources": 65,
-    "clear_name_fallbacks": 10,
+    "from_image_sources": 64,
+    "clear_name_fallbacks": 11,
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-10-28T12:23:12.044930+00:00",
+    "updated_utc": "2026-10-28T13:23:02.081526+00:00",
     "channel_count": 25,
     "entries": 576,
     "by_name": {

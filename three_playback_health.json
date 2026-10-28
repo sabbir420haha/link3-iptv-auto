@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-28T12:26:50.583475+00:00",
+  "checked_utc": "2026-10-28T13:26:35.544552+00:00",
   "scope": "GitHub network ONLY; not Link3/mobile/TV",
   "relay_active": false,
   "changed_playlist": false,
@@ -18,47 +18,47 @@
       "media_host": null,
       "samples": [
         {
-          "at_seconds": 0.9,
+          "at_seconds": 1.1,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 8.9,
+          "at_seconds": 9.5,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 16.8,
+          "at_seconds": 17.1,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 25.0,
+          "at_seconds": 32.0,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 32.9,
+          "at_seconds": 34.7,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 41.1,
+          "at_seconds": 41.3,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 48.9,
+          "at_seconds": 49.3,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 56.9,
+          "at_seconds": 57.2,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 64.9,
+          "at_seconds": 65.2,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         }
@@ -74,78 +74,78 @@
       "media_sequence_regressions": 0,
       "old_segment_replays": 0,
       "max_stalled_observation_seconds": 0.0,
-      "target_duration_seconds": 6,
+      "target_duration_seconds": 7,
       "media_host": "103.135.253.32",
       "samples": [
         {
-          "at_seconds": 1.0,
-          "seq": 51336,
-          "latest_segment_fingerprint": "98e62fc1ebadef35",
-          "target_duration_seconds": 6,
+          "at_seconds": 1.1,
+          "seq": 51930,
+          "latest_segment_fingerprint": "c9ae11f6efdc1938",
+          "target_duration_seconds": 7,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
-          "at_seconds": 9.1,
-          "seq": 51337,
-          "latest_segment_fingerprint": "12d0f490cd659948",
-          "target_duration_seconds": 6,
+          "at_seconds": 9.2,
+          "seq": 51931,
+          "latest_segment_fingerprint": "79b413ba9b44a60b",
+          "target_duration_seconds": 7,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
-          "at_seconds": 16.9,
-          "seq": 51338,
-          "latest_segment_fingerprint": "0206434b3241e29f",
-          "target_duration_seconds": 6,
+          "at_seconds": 17.4,
+          "seq": 51933,
+          "latest_segment_fingerprint": "98700e149f9059ac",
+          "target_duration_seconds": 7,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
-          "at_seconds": 24.9,
-          "seq": 51340,
-          "latest_segment_fingerprint": "9fe88107106bcd51",
-          "target_duration_seconds": 6,
+          "at_seconds": 25.1,
+          "seq": 51934,
+          "latest_segment_fingerprint": "00fd0609c03f4991",
+          "target_duration_seconds": 7,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
-          "at_seconds": 32.9,
-          "seq": 51341,
-          "latest_segment_fingerprint": "943b4e2b32c93471",
-          "target_duration_seconds": 6,
+          "at_seconds": 33.0,
+          "seq": 51935,
+          "latest_segment_fingerprint": "2813d8bc6e15a020",
+          "target_duration_seconds": 7,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
-          "at_seconds": 40.9,
-          "seq": 51342,
-          "latest_segment_fingerprint": "341f846f8ef0fe27",
-          "target_duration_seconds": 6,
+          "at_seconds": 41.0,
+          "seq": 51937,
+          "latest_segment_fingerprint": "deeea1a184a154d8",
+          "target_duration_seconds": 7,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
-          "at_seconds": 48.9,
-          "seq": 51344,
-          "latest_segment_fingerprint": "9f2a7181130f251d",
-          "target_duration_seconds": 6,
+          "at_seconds": 49.1,
+          "seq": 51938,
+          "latest_segment_fingerprint": "52dc5fd1604d7e23",
+          "target_duration_seconds": 7,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
-          "at_seconds": 56.9,
-          "seq": 51345,
-          "latest_segment_fingerprint": "45b2ae42908de4ca",
-          "target_duration_seconds": 6,
+          "at_seconds": 57.1,
+          "seq": 51939,
+          "latest_segment_fingerprint": "6ed0a2ebc8ee2fac",
+          "target_duration_seconds": 7,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
-          "at_seconds": 64.9,
-          "seq": 51346,
-          "latest_segment_fingerprint": "ff665db286c773bd",
-          "target_duration_seconds": 6,
+          "at_seconds": 65.1,
+          "seq": 51940,
+          "latest_segment_fingerprint": "8e5d147ec6b7e838",
+          "target_duration_seconds": 7,
           "media_host": "103.135.253.32",
           "ok": true
         }
@@ -160,78 +160,78 @@
       "observed_changes": 7,
       "media_sequence_regressions": 0,
       "old_segment_replays": 0,
-      "max_stalled_observation_seconds": 7.9,
+      "max_stalled_observation_seconds": 7.8,
       "target_duration_seconds": 4,
       "media_host": "drk6xq0vhn.gpcdn.net",
       "samples": [
         {
           "at_seconds": 0.6,
-          "seq": 21490,
-          "latest_segment_fingerprint": "1af82241e70791b2",
+          "seq": 22386,
+          "latest_segment_fingerprint": "3926db81ce344244",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 8.5,
-          "seq": 21490,
-          "latest_segment_fingerprint": "1af82241e70791b2",
+          "at_seconds": 8.4,
+          "seq": 22386,
+          "latest_segment_fingerprint": "3926db81ce344244",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
           "at_seconds": 16.8,
-          "seq": 21494,
-          "latest_segment_fingerprint": "19fbfe57ccafe08e",
+          "seq": 22390,
+          "latest_segment_fingerprint": "d6d41c1053a365ba",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 24.6,
-          "seq": 21496,
-          "latest_segment_fingerprint": "b12b8c34720bae14",
+          "at_seconds": 25.8,
+          "seq": 22392,
+          "latest_segment_fingerprint": "ca66988c209c29b1",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 32.6,
-          "seq": 21498,
-          "latest_segment_fingerprint": "f8439d45d20ed1e8",
+          "at_seconds": 32.5,
+          "seq": 22394,
+          "latest_segment_fingerprint": "71b0046b3832148c",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 40.6,
-          "seq": 21500,
-          "latest_segment_fingerprint": "9fd44f85cb7047bc",
+          "at_seconds": 40.8,
+          "seq": 22396,
+          "latest_segment_fingerprint": "9494a9f22566256c",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
           "at_seconds": 48.5,
-          "seq": 21502,
-          "latest_segment_fingerprint": "ca25bfeaf42ae7cf",
+          "seq": 22398,
+          "latest_segment_fingerprint": "60e4edd3e5ed1641",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 56.8,
-          "seq": 21504,
-          "latest_segment_fingerprint": "8caa5a09fa82baa7",
+          "at_seconds": 56.7,
+          "seq": 22400,
+          "latest_segment_fingerprint": "28b4a393e9193664",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 64.7,
-          "seq": 21506,
-          "latest_segment_fingerprint": "92e9089f96f379af",
+          "at_seconds": 64.5,
+          "seq": 22402,
+          "latest_segment_fingerprint": "1be58dc1b39602a9",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
