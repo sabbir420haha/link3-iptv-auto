@@ -15,6 +15,12 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    {"channel":"Sonic Hindi","url":"https://redmi.allinonereborn.xyz/jiotv-ww/app/live.php?id=815&e=.m3u8",
+     "evidence":"github.com/MuzammilShah51214/Live-Tv-786 IndianTV-Live.html; Sonic Hindi explicitly Jio channel 815; fresh 2026-10-29 audit only",
+     "expected_audio":"hi"},
+    {"channel":"Sonic Bangla","url":"http://103.165.93.31:8095/sonic/index.m3u8",
+     "evidence":"github.com/badalbd53/Rocket-OTV badal.m3u lists Sonic; Bangla not established, Bangladesh IP may be BDIX; audit only",
+     "expected_audio":"bn"},
     # 2026-10-28 fresh independent GitHub Voot feed: source explicitly labels Sonic Nickelodeon;
     # Hindi audio requires separate verification, and upstream may be geo/DRM restricted.
     {"channel":"Sonic Hindi","url":"https://prod-sports-hin-fa.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
