@@ -26,13 +26,13 @@ jobs:
         run: |
           pip install --disable-pip-version-check yt-dlp requests av==15.1.0
           python gon_vod_auto.py
-      - name: Commit refreshed playlist only
+      - name: Commit refreshed Gon VOD and TEST playlist
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add gon_vod.m3u gon_vod_health.json
+          git add gon_vod.m3u gon_vod_health.json three_channel_test.m3u
           if ! git diff --cached --quiet; then
-            git commit -m 'Refresh Gon 1996 on-demand Hindi episode HLS manifests'
+            git commit -m 'Refresh Gon Hindi VOD clips inside TEST playlist'
             for attempt in 1 2 3; do
               if git push; then exit 0; fi
               git fetch origin main
