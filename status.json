@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T19:15:09.287670+00:00",
+  "updated_utc": "2026-10-28T23:55:27.750206+00:00",
   "channels": 75,
   "target_channels": 99,
   "groups": {
@@ -995,7 +995,7 @@
     },
     {
       "source": "iptv-org-india-raw",
-      "count": 1412,
+      "count": 1410,
       "error": null
     },
     {
@@ -1772,7 +1772,7 @@
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-10-28T19:15:19.602771+00:00",
+    "updated_utc": "2026-10-28T23:55:43.934648+00:00",
     "channel_count": 25,
     "entries": 576,
     "by_name": {
