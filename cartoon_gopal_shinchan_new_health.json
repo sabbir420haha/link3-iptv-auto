@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-27T19:34:07.033369+00:00",
+  "checked_utc": "2026-10-28T02:07:04.357422+00:00",
   "warning": "HTTP media success alone never proves show identity, Hindi audio, Bangladesh viewing or 24x7 reliability; do not auto-add to test/main.",
   "results": [
     {
@@ -51,7 +51,7 @@
       "manifest_ok": false,
       "media_sample_ok": false,
       "status": "unverified Link3/rights/audio",
-      "error": "The read operation timed out"
+      "error": "HTTP Error 523: <none>"
     },
     {
       "show": "Gopal Bhar",
@@ -74,6 +74,17 @@
       "media_sample_ok": false,
       "status": "unverified Link3/rights/audio",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "show": "Shinchan Hindi",
+      "source": "StevoSure123/Kids-IPTV kids-24-7.m3u (older public repo; rediscovered Oct 28)",
+      "url": "https://starshare.live:443/live/Habib/Habib/147724.m3u8",
+      "notes": "Named Shinchan 24/7 but Hindi unverified; IPTV-account style endpoint may be expired; 147724 identifier also appears in prior NinjaTV wrapper, treat as possibly same origin until proven distinct. GitHub runner probe only, do not add playlist without show/audio proof.",
+      "name": "Shinchan Hindi",
+      "manifest_ok": false,
+      "media_sample_ok": false,
+      "status": "unverified Link3/rights/audio",
+      "error": "response is not M3U8"
     }
   ]
 }
