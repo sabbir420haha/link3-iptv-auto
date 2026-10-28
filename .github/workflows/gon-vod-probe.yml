@@ -1,0 +1,42 @@
+name: Gon 1996 VOD direct media probe
+on:
+  push:
+    branches: [main]
+    paths:
+      - gon_vod_probe.py
+      - gon_vod_candidate_pages.json
+      - .github/workflows/gon-vod-probe.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: gon-vod-probe
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check public video direct playback formats
+        run: |
+          pip install --disable-pip-version-check yt-dlp requests
+          python gon_vod_probe.py
+      - name: Save evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add gon_vod_probe_report.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Report Gon VOD provider extraction and direct media checks'
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git fetch origin main
+              git rebase -X theirs origin/main
+              sleep 2
+            done
+            exit 1
+          fi
