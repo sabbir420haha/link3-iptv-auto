@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Generate separate Gon Hindi on-demand IPTV M3U from publicly accessible video pages.
-No DRM circumvention, no media download, no user MAIN/TEST playlist edits.
-Public Dailymotion direct HLS URLs are signed/temporary. This regenerates them hourly.
+"""Refresh Gon Hindi on-demand streams in both standalone VOD and TEST playlists.
+No DRM circumvention, no video downloads, and no edits to playlist.m3u (MAIN).
+Public Dailymotion direct HLS URLs are signed/temporary; this regenerates them hourly.
 """
 from __future__ import annotations
 import concurrent.futures,datetime,json,zlib
@@ -81,5 +81,51 @@ for r in passed:
    r["url"],""
  ])
 (base/"gon_vod.m3u").write_text("\n".join(lines)+"\n",encoding="utf-8")
+
+# Synchronize the playable VOD clips into the existing user's TEST playlist;
+# retain ALL non-Gon entries, existing order, group metadata, and original URLs.
+# The auto-generated marker block makes hourly refresh idempotent.
+start="# BEGIN GON 1996 HINDI VOD AUTO"
+end="# END GON 1996 HINDI VOD AUTO"
+test_file=base/"three_channel_test.m3u"
+original=test_file.read_text(encoding="utf-8")
+if not original.startswith("#EXTM3U") or ((start in original)!=(end in original)):
+ raise RuntimeError("Refusing to modify malformed TEST playlist or unbalanced Gon block")
+if passed:
+ block_lines=[
+   start,
+   "# On-demand Gon 1996 clips; HLS CDN links expire and are regenerated hourly.",
+   "# Language, exact episode numbers, and playback on user's Link3 are not independently confirmed.",
+ ]
+ for r in passed:
+  title="Gon 1996 Hindi VOD - "+r["label"]
+  block_lines.extend([
+    '#EXTINF:-1 tvg-name="'+title+'" group-title="29 | GON 1996 - HINDI VOD TEST",'+title,
+    '#EXTVLCOPT:http-user-agent='+UA,
+    '#EXTVLCOPT:http-referrer=https://www.dailymotion.com/',
+    r["url"],""
+  ])
+ block_lines.append(end)
+ block="\n".join(block_lines)+"\n"
+ if start in original:
+  before=original[:original.index(start)]
+  after=original[original.index(end)+len(end):]
+  modified=before+block+after.lstrip("\n")
+ else:
+  modified=original.rstrip("\n")+"\n\n"+block
+ modified=modified.rstrip("\n")+"\n"
+ old_non_gon=[l for l in original.splitlines() if l.startswith("#EXTINF") and "Gon 1996 Hindi VOD" not in l]
+ new_non_gon=[l for l in modified.splitlines() if l.startswith("#EXTINF") and "Gon 1996 Hindi VOD" not in l]
+ if old_non_gon!=new_non_gon:
+  raise RuntimeError("Refusing to change existing non-Gon TEST entries")
+ if modified.count(start)!=1 or modified.count(end)!=1:
+  raise RuntimeError("Gon block markers repeated")
+ if modified.count("group-title=\"29 | GON 1996 - HINDI VOD TEST\"")!=len(passed):
+  raise RuntimeError("Incorrect Gon entry count")
+ test_file.write_text(modified,encoding="utf-8")
+ print("Updated three_channel_test.m3u: added/refreshed",len(passed),"Gon VOD clips")
+else:
+ print("0 Gon clips passed fresh media validation; existing TEST Gon block retained without altering other channels")
+
 print(json.dumps({"tested":len(results),"passed":len(passed),"labels":[r["label"] for r in passed],
   "failures":[{"label":r["label"],"error":r.get("error")} for r in results if not r["playable"]]}))
