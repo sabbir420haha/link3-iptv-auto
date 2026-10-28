@@ -1,9 +1,9 @@
 {
-  "checked_utc": "2026-10-28T18:45:02.307085+00:00",
+  "checked_utc": "2026-10-28T19:46:11.705658+00:00",
   "channel": "Channel 24 YT HLS TEST",
   "official_live_page": "https://www.youtube.com/@Channel24digital/live",
   "source": "YouTube HLS trial",
   "warning": "Expiring URL; Github scheduler and IPTV Pro playback are not guaranteed",
   "status": "youtube_hls_unavailable",
-  "error": "YouTube extraction failed: https://www.youtube.com/@Channel24digital/live: ERROR: [youtube] V9mlD6ZQCfk: No video formats found!; please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U\n; https://www.youtube.com/watch?v=_UdWf3_N8Ak: ERROR: [youtube] _UdWf3_N8Ak: This live stream recording is not available.\n"
+  "error": "YouTube extraction failed: https://www.youtube.com/@Channel24digital/live: ps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\n; https://www.youtube.com/watch?v=_UdWf3_N8Ak: ERROR: [youtube] _UdWf3_N8Ak: This live stream recording is not available.\n"
 }
