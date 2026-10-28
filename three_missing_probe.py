@@ -15,6 +15,11 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-10-28 fresh independent GitHub Voot feed: source explicitly labels Sonic Nickelodeon;
+    # Hindi audio requires separate verification, and upstream may be geo/DRM restricted.
+    {"channel":"Sonic Hindi","url":"https://prod-sports-hin-fa.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+     "evidence":"github.com/himuhimel251/HimelOp-Premium-Playlist Voot.m3u8; labeled Sonic Nickelodeon, Hindi not independently confirmed",
+     "expected_audio":"hi"},
     # 2026-10-28: source-backed HLS candidates on the same publicly listed
     # ITCN service as a runner-reachable Disney HD feed; not yet viewer-tested.
     {"channel":"Disney HD Hindi","url":"https://s1.itcnbd.live/Disney-D/index.m3u8",
