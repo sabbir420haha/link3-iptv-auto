@@ -43,6 +43,12 @@
       "source": "reyad27s/Playlist generated Oct 27 (HridoyTV relay)",
       "url": "https://proxy2.hridoytvstream.workers.dev/link-copy-kore-lav-nai=expire43738831219634/gopalbhar.m3u8",
       "notes": "May be mirror of other HridoyTV Worker and/or giatv-209611; do not count distinct until origin proven; video/content unverified"
+    },
+    {
+      "show": "Shinchan Hindi",
+      "source": "StevoSure123/Kids-IPTV kids-24-7.m3u (older public repo; rediscovered Oct 28)",
+      "url": "https://starshare.live:443/live/Habib/Habib/147724.m3u8",
+      "notes": "Named Shinchan 24/7 but Hindi unverified; IPTV-account style endpoint may be expired; 147724 identifier also appears in prior NinjaTV wrapper, treat as possibly same origin until proven distinct. GitHub runner probe only, do not add playlist without show/audio proof."
     }
   ]
 }
