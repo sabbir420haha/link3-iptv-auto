@@ -36,6 +36,11 @@ jobs:
         run: python -m py_compile update.py geo_trial.py three_playback_health.py
       - name: Install image tools
         run: python -m pip install Pillow==11.3.0
+      - name: Install ffprobe for audio metadata checks
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          ffprobe -version | head -n 1
       - name: Discover and test publicly available HLS streams
         run: python update.py
       - name: Add official/high-resolution logos and clear fallback images
