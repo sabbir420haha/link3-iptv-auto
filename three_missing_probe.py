@@ -14,6 +14,11 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-10-28: independent status.json audit previously found a real media fragment
+    # at this candidate; check audio metadata/identity separately before any release.
+    {"channel":"Sonic Bangla","url":"https://iptvcable.netlify.app/Altogether-007/Cartoon/SONIC.m3u8",
+     "evidence":"sabbir420haha/link3-iptv-auto status.json candidate audit 2026-10-28: HLS manifest and media segment reachable from GitHub runner; source title Sonic but Bengali audio/identity unverified",
+     "expected_audio":"bn"},
     # 2026-10-28: additional source-backed, non-BDIX-oriented candidates.
     # Public playlist labels alone do not verify channel identity, audio or Link3 playback.
     {"channel":"Sonic Hindi","url":"http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8",
