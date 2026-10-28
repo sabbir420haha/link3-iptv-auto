@@ -1,10 +1,26 @@
 {
-  "checked_utc": "2026-10-28T07:27:43.559820+00:00",
+  "checked_utc": "2026-10-28T12:18:50.550946+00:00",
   "scope": "GitHub Actions network, NOT Link3. No channel identities confirmed.",
-  "candidate_count": 61,
+  "candidate_count": 62,
   "verified_media_candidates": 2,
   "publication_authorized": false,
   "candidates": [
+    {
+      "channel": "Sonic Hindi",
+      "url": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "evidence": "github.com/himuhimel251/HimelOp-Premium-Playlist Voot.m3u8; labeled Sonic Nickelodeon, Hindi not independently confirmed",
+      "expected_audio": "hi",
+      "manifest_ok": false,
+      "media_segment_verified": false,
+      "advertised_max_height": 0,
+      "advertised_audio_languages": [],
+      "channel_identity_verified": false,
+      "hindi_or_bangla_audio_verified": false,
+      "link3_verified": false,
+      "publish_eligible": false,
+      "note": "GitHub runner-only test. Playlist is unchanged.",
+      "error": "ValueError: No readable HLS data: HTTP Error 403: Forbidden"
+    },
     {
       "channel": "Disney HD Hindi",
       "url": "https://s1.itcnbd.live/Disney-D/index.m3u8",
