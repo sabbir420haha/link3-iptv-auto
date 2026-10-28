@@ -15,6 +15,11 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # Newly sourced 2026-10-29. Probe only; never publish without media, identity and audio proof.
+    {"channel":"Sonic Hindi","url":"https://live.dinesh29.com.np/stream/jiotv/sonichindi/master.m3u8","evidence":"github.com/CricZone/BDStreamHub index.html explicitly labels Sonic Hindi; distinct /jiotv/ relay from prior /jiotvplus/ test; viewer unverified","expected_audio":"hi"},
+    {"channel":"Sonic Hindi","url":"https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8","evidence":"github.com/Mrdk475/mrdknew mrdk.m3u explicitly labels Sonic Hindi; different JioCinema live endpoint from previously failed /Fallback/ URL; audio unverified","expected_audio":"hi"},
+    {"channel":"Sonic Bangla","url":"http://203.18.159.115/SONIC/index.m3u8","evidence":"github.com/TheShadhin/ShadhinTV tv.m3u explicitly labels Sonic Bangla; IP not within known BDIX-only range but network suitability unverified","expected_audio":"bn"},
+    {"channel":"Sonic Bangla","url":"http://89.187.189.98/SONIC/index.m3u8","evidence":"github.com/TheShadhin/ShadhinTV tv.m3u lists as alternate Sonic Bangla feed; non-BDIX suitability and audio unverified","expected_audio":"bn"},
     {"channel":"Sonic Hindi","url":"https://redmi.allinonereborn.xyz/jiotv-ww/app/live.php?id=815&e=.m3u8",
      "evidence":"github.com/MuzammilShah51214/Live-Tv-786 IndianTV-Live.html; Sonic Hindi explicitly Jio channel 815; fresh 2026-10-29 audit only",
      "expected_audio":"hi"},
