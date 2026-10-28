@@ -88,6 +88,8 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        # 2026-10-28 source-backed candidates from public GitHub M3U files; audit only.
+        "https://sambhavilove1769.000webhostapp.com/Denver/Dhoom.php?id=11385",
         # Newly sourced public candidate(s) 2026-10-26: audit only, never auto-replace a locked Link3 stream.
         "http://zeestb1.online/dhoom.php?id=11385",
         # 2026-10-26 publicly labeled source; audit only, never replace user-confirmed pin.
@@ -189,6 +191,10 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        # 2026-10-28 source-backed candidates from public GitHub M3U files; audit only.
+        "https://tv.001133.xyz/live/815.m3u8",
+        "http://jo123.biz/jweb/m3u8.php?c=sonic_Hindi&q=1200&e=.m3u8",
+        "https://keralamaxtv.com/vt/stream.m3u8?id=Sonic_Nickelodeon",
         # 2026-10-26 newly sourced public playlist candidates; audit only.
         "https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/tiptop-op.m3u8?id=1134",
         "https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/tiptop-himu.m3u8?id=1134",
@@ -250,6 +256,9 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # 2026-10-28 source-backed candidates from public GitHub M3U files; audit only.
+        "https://jiotv.nayeemparvez.workers.dev/bpk-tv/Sonic_Bangla_MOB/Fallback/index.m3u8",
+        "https://mhdtv.co.in/jio/app/live/1345/Sonic_Bangla/index.m3u8",
         # 2026-10-26 newly sourced public playlist candidates; audit only.
         "https://fifabangladesh.live/@RANAPKX73/stream.m3u8?id=1345&e=.m3u8",
         # Newly sourced public candidate(s) 2026-10-26: audit only, never auto-replace a locked Link3 stream.
