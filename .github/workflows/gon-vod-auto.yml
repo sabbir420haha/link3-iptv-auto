@@ -1,12 +1,6 @@
-name: Refresh Gon 1996 Hindi VOD media links
+name: Legacy Gon Dailymotion Probe (disabled)
+# Disabled automatic refresh: CDN links are IP-bound and unusable on Link3.
 on:
-  push:
-    branches: [main]
-    paths:
-      - gon_vod_auto.py
-      - .github/workflows/gon-vod-auto.yml
-  schedule:
-    - cron: '13 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
