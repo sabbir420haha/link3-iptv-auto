@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-28T02:07:04.357422+00:00",
+  "checked_utc": "2026-10-28T13:53:47.837824+00:00",
   "warning": "HTTP media success alone never proves show identity, Hindi audio, Bangladesh viewing or 24x7 reliability; do not auto-add to test/main.",
   "results": [
     {
@@ -85,6 +85,28 @@
       "media_sample_ok": false,
       "status": "unverified Link3/rights/audio",
       "error": "response is not M3U8"
+    },
+    {
+      "show": "Shinchan Hindi",
+      "source": "StevoSure123/Kids-IPTV M3UPlus-Playlist-20241019222427.m3u",
+      "url": "http://game.denver1769.in/port/tp3.php?id=58625",
+      "notes": "Newly investigated Oct 28. Denver id=58625 is the same underlying channel across these two wrappers; not independently validated HLS. Verify HTTP response is true manifest, fresh media bytes, actual Shinchan content, Hindi audio, non-BDIX and rights; never add unless all proven.",
+      "name": "Shinchan Hindi",
+      "manifest_ok": false,
+      "media_sample_ok": false,
+      "status": "unverified Link3/rights/audio",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "show": "Shinchan Hindi",
+      "source": "Mdas109/TBL 1A.M3U",
+      "url": "http://port.denver1769.in/Ply/tptv.php?id=58625",
+      "notes": "Newly investigated Oct 28. Denver id=58625 is the same underlying channel across these two wrappers; not independently validated HLS. Verify HTTP response is true manifest, fresh media bytes, actual Shinchan content, Hindi audio, non-BDIX and rights; never add unless all proven.",
+      "name": "Shinchan Hindi",
+      "manifest_ok": false,
+      "media_sample_ok": false,
+      "status": "unverified Link3/rights/audio",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
     }
   ]
 }
