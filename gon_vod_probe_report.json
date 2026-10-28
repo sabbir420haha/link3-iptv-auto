@@ -1,0 +1,138 @@
+{
+  "checked_utc": "2026-10-28T05:26:51.354563+00:00",
+  "warning": "Playback on GitHub Actions does not prove playback in Bangladesh. Signed URLs expire; video page links do not play in IPTV Pro.",
+  "results": [
+    {
+      "title": "Gon Episode 01 - Part 1 Hindi",
+      "page": "https://www.dailymotion.com/video/x3hcl2l",
+      "extract_ok": false,
+      "media_valid": false,
+      "video_decode": false,
+      "formats": 0,
+      "error": "ERROR: [dailymotion] x3hcl2l: Not found."
+    },
+    {
+      "title": "Gon Episode 01 - Part 2 Hindi",
+      "page": "https://www.dailymotion.com/video/x3hcn4z",
+      "extract_ok": false,
+      "media_valid": false,
+      "video_decode": false,
+      "formats": 0,
+      "error": "ERROR: [dailymotion] x3hcn4z: Not found."
+    },
+    {
+      "title": "Gon Episode 02 Hindi",
+      "page": "https://www.dailymotion.com/video/x9pn9bs",
+      "extract_ok": false,
+      "media_valid": false,
+      "video_decode": false,
+      "formats": 0,
+      "error": "ERROR: [dailymotion] x9pn9bs: Not found."
+    },
+    {
+      "title": "Gon Episode 03 Hindi",
+      "page": "https://www.dailymotion.com/video/x9q463y",
+      "extract_ok": false,
+      "media_valid": false,
+      "video_decode": false,
+      "formats": 0,
+      "error": "ERROR: [dailymotion] x9q463y: Not found."
+    },
+    {
+      "title": "Gon Episode 04 Hindi",
+      "page": "https://www.dailymotion.com/video/x9qb1mc",
+      "extract_ok": false,
+      "media_valid": false,
+      "video_decode": false,
+      "formats": 0,
+      "error": "ERROR: [dailymotion] x9qb1mc: Not found."
+    },
+    {
+      "title": "Gon Hindi - Episode Unnumbered A",
+      "page": "https://www.dailymotion.com/video/x8ozzbx",
+      "extract_ok": true,
+      "media_valid": true,
+      "video_decode": false,
+      "formats": 1,
+      "actual_title": "Gon the stone age boy in Hindi new episode Gon the stone age Boy",
+      "duration_sec": 375,
+      "protocol": "m3u8_native",
+      "height": 360,
+      "direct_url": "https://vod3.cf.dmcdn.net/sec2(3tih3WWVc3cjN0Fx5JRh0duDrfFqo6ll9KLlwR8DG4tCu__rS_EUsLPUz-STTbqtzNjncCXuqkGY5A36rpvLDDVXaQ__rWyeSHT7Jef8gjh7NS7qNORqxWEaT5WmjQ_HNlChptDAa6eWtBfCg0U3H_Zjc6_UQBstJjmFKdLMfr8)/video/149/817/525718941_mp4_h264_aac_2.m3u8",
+      "expires_possible": true,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "error": "[Errno 2] No such file or directory: 'ffprobe'"
+    },
+    {
+      "title": "Gon Hindi - Episode Unnumbered B",
+      "page": "https://www.dailymotion.com/video/x8p38pt",
+      "extract_ok": true,
+      "media_valid": true,
+      "video_decode": false,
+      "formats": 1,
+      "actual_title": "Gon the stone age boy in Hindi new episode Gon the stone age Boy",
+      "duration_sec": 375,
+      "protocol": "m3u8_native",
+      "height": 360,
+      "direct_url": "https://vod3.cf.dmcdn.net/sec2(m3K6Rsi-d_1kIwU9i67ETJVMrCvz6NK6hWziid3CPrsLlsM5NDtpl8wFBW93E_lHeA-0ljnXvUxsUSShSQMLXHJejADsueHDYPcBZBisDctXnprkzdkLX8Q8i3rmA1gYth5HMlfJ-zFHpFqLPvmGBvj4bLwIp37VZTR7UoiSpPM)/video/370/178/525871073_mp4_h264_aac_2.m3u8",
+      "expires_possible": true,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "error": "[Errno 2] No such file or directory: 'ffprobe'"
+    },
+    {
+      "title": "Gon Hindi - Episode Unnumbered C",
+      "page": "https://www.dailymotion.com/video/x8ozzbv",
+      "extract_ok": false,
+      "media_valid": false,
+      "video_decode": false,
+      "formats": 0,
+      "error": "ERROR: [dailymotion] x8ozzbv: Not found."
+    },
+    {
+      "title": "Gon Hindi - Episode Unnumbered D",
+      "page": "https://www.dailymotion.com/video/x8ozzbr",
+      "extract_ok": true,
+      "media_valid": true,
+      "video_decode": false,
+      "formats": 1,
+      "actual_title": "Gon the stone age boy in Hindi new episode Gon the stone age Boy",
+      "duration_sec": 1774,
+      "protocol": "m3u8_native",
+      "height": 360,
+      "direct_url": "https://vod3.cf.dmcdn.net/sec2(3dbtgbKTho5tEzB_qHHlQmCD85hYgsVwY0KDxfEmuHOrit1S_Aku2qebzrI6eUnAONwFigFY7npXSPmKADo7ubNA61bUvS3XKyn6je5xqrzwfSeOReMONPFndaJB67Hw69jfvXHB3bAUECYDnPXBxu_JOg0D0pBGj-5OJwHF64s)/video/539/817/525718935_mp4_h264_aac_3.m3u8",
+      "expires_possible": true,
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "http_status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "error": "[Errno 2] No such file or directory: 'ffprobe'"
+    },
+    {
+      "title": "Gon Hindi Episode 01 YouTube",
+      "page": "https://www.youtube.com/watch?v=LTsu-kuv-j0",
+      "extract_ok": false,
+      "media_valid": false,
+      "video_decode": false,
+      "formats": 0,
+      "error": "ERROR: [youtube] LTsu-kuv-j0: Sign in to confirm you’re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-"
+    }
+  ]
+}
