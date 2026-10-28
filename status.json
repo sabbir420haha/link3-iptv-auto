@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-28T12:16:45.658342+00:00",
+  "updated_utc": "2026-10-28T12:22:55.802980+00:00",
   "channels": 75,
   "target_channels": 99,
   "groups": {
@@ -1772,7 +1772,7 @@
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-10-28T12:16:58.789562+00:00",
+    "updated_utc": "2026-10-28T12:23:12.044930+00:00",
     "channel_count": 25,
     "entries": 576,
     "by_name": {

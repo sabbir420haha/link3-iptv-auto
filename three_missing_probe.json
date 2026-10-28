@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-28T12:18:50.550946+00:00",
+  "checked_utc": "2026-10-28T12:25:11.588237+00:00",
   "scope": "GitHub Actions network, NOT Link3. No channel identities confirmed.",
   "candidate_count": 62,
   "verified_media_candidates": 2,
@@ -36,7 +36,20 @@
       "link3_verified": false,
       "publish_eligible": false,
       "note": "GitHub runner-only test. Playlist is unchanged.",
-      "ffprobe_error": "FileNotFoundError: [Errno 2] No such file or directory: 'ffprobe'"
+      "ffprobe_streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "tags": {}
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "tags": {}
+        }
+      ]
     },
     {
       "channel": "Sonic Hindi",
@@ -68,7 +81,18 @@
       "link3_verified": false,
       "publish_eligible": false,
       "note": "GitHub runner-only test. Playlist is unchanged.",
-      "ffprobe_error": "FileNotFoundError: [Errno 2] No such file or directory: 'ffprobe'"
+      "ffprobe_streams": [
+        {
+          "codec_name": "mpeg2video",
+          "codec_type": "video",
+          "width": 720,
+          "height": 484,
+          "tags": {},
+          "side_data_list": [
+            {}
+          ]
+        }
+      ]
     },
     {
       "channel": "Sonic Hindi",
