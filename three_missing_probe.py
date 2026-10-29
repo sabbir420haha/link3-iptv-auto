@@ -15,6 +15,13 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-10-30 newly sourced public links. Audit only: never publish without valid media, correct identity/audio, Disney >=720p, and non-BDIX evidence.
+    {"channel":"Sonic Bangla","url":"https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=1345","evidence":"gist.github.com/bdrajgaming654-byte/ea6e9c0920c99ecaf2fe454336462d6a (LAWRENCE-BD.m3u, published Aug 2026); explicitly Sonic Bangla, independent identity/audio still required","expected_audio":"bn"},
+    {"channel":"Sonic Bangla","url":"https://edge01.iptv.digijadoo.net/live/sonic/chunks.m3u8","evidence":"gist.github.com/abidr/b1f537c511d1f1df965d7f3ff0f2ec36, labeled Nick Sonic Bangla; CDN host, check geo/ISP and audio independently","expected_audio":"bn"},
+    {"channel":"Sonic Hindi","url":"https://filoox.vercel.app/live/34011.m3u8","evidence":"github.com/johirxofficial/johirxofficial.github.io live/otv_bd_may.m3u, labels NICK SONIC but language not confirmed","expected_audio":"hi"},
+    {"channel":"Disney HD Hindi","url":"https://filoox.vercel.app/live/167551.m3u8","evidence":"github.com/johirxofficial/johirxofficial.github.io live/otv_bd_may.m3u, Disney HD ID 167551; Hindi audio and 720p not verified","expected_audio":"hi","min_height":720},
+    {"channel":"Disney HD Hindi","url":"https://fifabd.xyz/OPLLX/play.m3u8?id=167551","evidence":"github.com/tvbd/m3uplayer m3u/sultan.m3u, labeled Disney HD; separate endpoint from previous KID/OPLLX tests; audio/resolution unverified","expected_audio":"hi","min_height":720},
+    {"channel":"Sonic Hindi","url":"http://103.167.255.18:8085/play/a0nf/index.m3u8","evidence":"github.com/deep2772/Hindi_Punjabi-iptv-playlist Hindi_Punjabi_Merged.m3u, labeled Sonic 576p; language/region unverified","expected_audio":"hi"},
     # 2026-10-30 independent GitHub source-backed candidates; read-only HLS/audio probes.
     {"channel":"Sonic Hindi","url":"https://s2.itcnbd.live/sonic/index.m3u8","evidence":"github.com/Your-Tribal-Chief/LiveTV src/data/channels.ts; SONIC, Hindi vs Bengali identity unknown","expected_audio":"hi"},
     {"channel":"Sonic Hindi","url":"http://103.185.24.134:3001/SONIC/index.m3u8","evidence":"github.com/iptv-org/iptv streams/in.m3u; India Sonic SD 576p, spoken Hindi unconfirmed","expected_audio":"hi"},
