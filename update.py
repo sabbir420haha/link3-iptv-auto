@@ -265,6 +265,10 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # Publicly listed Sonic Bangla endpoints (GitHub sources: lolz1990/my,
+        # fahadskt/IPTV-Playlists); audit-only, not Link3 verified.
+        "https://ott.bingebd.com/live/ngrp:APNTn-asdt-t1asnd2a-sWgtsrhQW_AQTY1025_sonicPQRT_98sdfhs0_f36erxty_forsgst63_DH/chunklist.m3u8",
+        "http://103.135.208.14/live/ibox/bd/58.m3u8",
         # 2026-10-29 independently named public GitHub candidates. Audit only;
         # do not publish until real segments, channel identity and language are verified.
         "https://live.dinesh29.com.np/stream/jiotvplus/sonicbangla/master.m3u8",
