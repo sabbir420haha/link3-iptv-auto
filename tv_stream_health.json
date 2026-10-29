@@ -1,88 +1,88 @@
 {
-  "checked_utc": "2026-10-29T18:13:21.272537+00:00",
+  "checked_utc": "2026-10-29T19:19:56.024126+00:00",
   "checked": 22,
-  "manifest_reachable": 21,
-  "two_segment_checks_passed": 18,
+  "manifest_reachable": 22,
+  "two_segment_checks_passed": 19,
   "live_progress_window_seconds": 18,
   "live_progress_checks": [
     {
       "name": "Zee Bangla HD",
       "status": "advanced",
-      "first_sequence": 134063,
-      "second_sequence": 134066,
-      "elapsed_seconds": 21.2,
+      "first_sequence": 134501,
+      "second_sequence": 134503,
+      "elapsed_seconds": 20.7,
       "note": "Source manifest progress only; not a test of IPTV Pro decoder"
     },
     {
       "name": "Zee Bangla",
       "status": "advanced",
-      "first_sequence": 48298,
-      "second_sequence": 48303,
-      "elapsed_seconds": 19.6,
+      "first_sequence": 49297,
+      "second_sequence": 49302,
+      "elapsed_seconds": 19.7,
       "note": "Source manifest progress only; not a test of IPTV Pro decoder"
     },
     {
       "name": "Channel 24",
       "status": "unreachable_from_github",
       "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found",
-      "elapsed_seconds": 1.8
+      "elapsed_seconds": 1.4
     },
     {
       "name": "Discovery Bangla",
       "status": "unreachable_from_github",
       "error": "ValueError: No HLS playlist from GitHub runner",
-      "elapsed_seconds": 0.7
+      "elapsed_seconds": 0.8
     },
     {
       "name": "Hungama",
       "status": "advanced",
-      "first_sequence": 68791,
-      "second_sequence": 68794,
-      "elapsed_seconds": 20.2,
+      "first_sequence": 69462,
+      "second_sequence": 69465,
+      "elapsed_seconds": 20.0,
       "note": "Source manifest progress only; not a test of IPTV Pro decoder"
     },
     {
       "name": "Jamuna TV",
       "status": "advanced",
-      "first_sequence": 136328,
-      "second_sequence": 136330,
-      "elapsed_seconds": 21.3,
+      "first_sequence": 136772,
+      "second_sequence": 136774,
+      "elapsed_seconds": 20.7,
       "note": "Source manifest progress only; not a test of IPTV Pro decoder"
     },
     {
       "name": "Nat Geo HD Bangla",
       "status": "advanced",
-      "first_sequence": 27011,
-      "second_sequence": 27015,
-      "elapsed_seconds": 20.2,
+      "first_sequence": 27667,
+      "second_sequence": 27670,
+      "elapsed_seconds": 19.8,
       "note": "Source manifest progress only; not a test of IPTV Pro decoder"
     },
     {
       "name": "Somoy TV",
       "status": "advanced",
-      "first_sequence": 53108,
-      "second_sequence": 53113,
-      "elapsed_seconds": 19.6,
+      "first_sequence": 54107,
+      "second_sequence": 54111,
+      "elapsed_seconds": 19.4,
       "note": "Source manifest progress only; not a test of IPTV Pro decoder"
     },
     {
       "name": "Sony Ten 1 HD",
       "status": "advanced",
-      "first_sequence": 29286,
-      "second_sequence": 29291,
-      "elapsed_seconds": 19.3,
+      "first_sequence": 30285,
+      "second_sequence": 30289,
+      "elapsed_seconds": 19.4,
       "note": "Source manifest progress only; not a test of IPTV Pro decoder"
     },
     {
       "name": "Independent TV",
-      "status": "advanced",
-      "first_sequence": 10415,
-      "second_sequence": 10420,
-      "elapsed_seconds": 19.1,
+      "status": "not_advanced",
+      "first_sequence": 11414,
+      "second_sequence": 11414,
+      "elapsed_seconds": 19.3,
       "note": "Source manifest progress only; not a test of IPTV Pro decoder"
     }
   ],
-  "live_progress_advanced": 8,
+  "live_progress_advanced": 7,
   "note": "This tests from GitHub, not Link3. A result is a snapshot of HLS availability, not proof of continuous TV playback or zero buffering. No channel URLs are modified by this diagnostic.",
   "streams": [
     {
@@ -91,7 +91,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 7.8,
+      "elapsed_seconds": 7.2,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -101,7 +101,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 5.3,
+      "elapsed_seconds": 5.8,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -111,7 +111,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 7.9,
+      "elapsed_seconds": 7.2,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -121,17 +121,17 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 7.9,
+      "elapsed_seconds": 7.2,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
     {
       "name": "Cartoon Network",
       "host": "live20.bozztv.com",
-      "manifest_ok": false,
-      "segment_check_1": false,
-      "segment_check_2": false,
-      "elapsed_seconds": 2.4,
+      "manifest_ok": true,
+      "segment_check_1": true,
+      "segment_check_2": true,
+      "elapsed_seconds": 3.4,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -141,7 +141,7 @@
       "manifest_ok": true,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 8.2,
+      "elapsed_seconds": 5.9,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -151,7 +151,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 7.8,
+      "elapsed_seconds": 7.1,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -161,7 +161,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 3.9,
+      "elapsed_seconds": 4.2,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -171,7 +171,7 @@
       "manifest_ok": true,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 8.2,
+      "elapsed_seconds": 3.7,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -181,7 +181,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 5.6,
+      "elapsed_seconds": 5.2,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -191,7 +191,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 5.5,
+      "elapsed_seconds": 5.3,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -201,7 +201,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 8.8,
+      "elapsed_seconds": 7.6,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -211,7 +211,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 7.7,
+      "elapsed_seconds": 6.9,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -221,7 +221,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 5.4,
+      "elapsed_seconds": 5.1,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -231,7 +231,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 5.4,
+      "elapsed_seconds": 5.2,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -241,7 +241,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 2.4,
+      "elapsed_seconds": 2.7,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -251,7 +251,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 5.7,
+      "elapsed_seconds": 5.0,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -261,7 +261,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 7.7,
+      "elapsed_seconds": 6.9,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -271,7 +271,7 @@
       "manifest_ok": true,
       "segment_check_1": false,
       "segment_check_2": true,
-      "elapsed_seconds": 5.3,
+      "elapsed_seconds": 4.7,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -281,7 +281,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 5.7,
+      "elapsed_seconds": 5.6,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -291,7 +291,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 5.2,
+      "elapsed_seconds": 5.3,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -301,7 +301,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 5.0,
+      "elapsed_seconds": 5.7,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     }
