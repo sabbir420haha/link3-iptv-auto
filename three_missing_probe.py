@@ -15,6 +15,13 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-10-29 source-backed new endpoints; read-only HLS + ffprobe audit.
+    {"channel":"Disney HD Hindi","url":"https://sonamul3535.vercel.app/Disney.m3u8",
+     "evidence":"github.com/arafat-anowar/iptv ip.m3u8 labels Disney HD (not Junior); India/Hindi and >=720p not established",
+     "expected_audio":"hi","min_height":720},
+    {"channel":"Sonic Hindi","url":"https://techiesneh.in1.bitmana.io/snehapi/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+     "evidence":"github.com/TheSamimMandal/SamimWorld SamimJio.m3u labels Sonic Hindi; playback and spoken audio unverified",
+     "expected_audio":"hi"},
     # Newly sourced 2026-10-29. Probe only; never publish without media, identity and audio proof.
     {"channel":"Sonic Hindi","url":"https://live.dinesh29.com.np/stream/jiotv/sonichindi/master.m3u8","evidence":"github.com/CricZone/BDStreamHub index.html explicitly labels Sonic Hindi; distinct /jiotv/ relay from prior /jiotvplus/ test; viewer unverified","expected_audio":"hi"},
     {"channel":"Sonic Hindi","url":"https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8","evidence":"github.com/Mrdk475/mrdknew mrdk.m3u explicitly labels Sonic Hindi; different JioCinema live endpoint from previously failed /Fallback/ URL; audio unverified","expected_audio":"hi"},
