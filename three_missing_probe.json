@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-29T11:43:29.888458+00:00",
+  "checked_utc": "2026-10-29T13:26:42.900721+00:00",
   "scope": "GitHub Actions network, NOT Link3. No channel identities confirmed.",
   "candidate_count": 70,
   "verified_media_candidates": 1,
@@ -1005,7 +1005,7 @@
       "link3_verified": false,
       "publish_eligible": false,
       "note": "GitHub runner-only test. Playlist is unchanged.",
-      "error": "ValueError: No readable HLS data: The read operation timed out"
+      "error": "ValueError: No readable HLS data: HTTP Error 523: <none>"
     },
     {
       "channel": "Sonic Bangla",
