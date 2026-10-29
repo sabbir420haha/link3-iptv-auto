@@ -15,6 +15,12 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-10-30 independent GitHub source-backed candidates; read-only HLS/audio probes.
+    {"channel":"Sonic Hindi","url":"https://s2.itcnbd.live/sonic/index.m3u8","evidence":"github.com/Your-Tribal-Chief/LiveTV src/data/channels.ts; SONIC, Hindi vs Bengali identity unknown","expected_audio":"hi"},
+    {"channel":"Sonic Hindi","url":"http://103.185.24.134:3001/SONIC/index.m3u8","evidence":"github.com/iptv-org/iptv streams/in.m3u; India Sonic SD 576p, spoken Hindi unconfirmed","expected_audio":"hi"},
+    {"channel":"Sonic Hindi","url":"http://103.151.60.162:2122/play/a02v/index.m3u8?hls","evidence":"github.com/iptv-org/iptv streams/in.m3u; India Sonic SD 576p, spoken Hindi unconfirmed","expected_audio":"hi"},
+    {"channel":"Sonic Hindi","url":"https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=765200.m3u8","evidence":"github.com/Hasibfy37/Iptv Final.m3u; Sonic Nickelodeon Hindi-specific HLS rendition; may be DRM or geo-restricted","expected_audio":"hi"},
+    {"channel":"Disney HD Hindi","url":"http://port.denver1769.in/dd.php?tv=634","evidence":"github.com/riyazkhan111/mhgfvcdfx.github.io tp.html; labeled Disney HD Tata Play, not proven Hindi/720p","expected_audio":"hi","min_height":720},
     # 2026-10-29 source-backed new endpoints; read-only HLS + ffprobe audit.
     {"channel":"Disney HD Hindi","url":"https://sonamul3535.vercel.app/Disney.m3u8",
      "evidence":"github.com/arafat-anowar/iptv ip.m3u8 labels Disney HD (not Junior); India/Hindi and >=720p not established",
