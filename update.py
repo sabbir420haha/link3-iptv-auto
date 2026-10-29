@@ -88,6 +88,9 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        # 2026-10-29 independently named public GitHub candidates. Audit only;
+        # do not publish until real segments, channel identity and language are verified.
+        "https://sonamul3535.vercel.app/Disney.m3u8",
         # 2026-10-28 source-backed candidates from public GitHub M3U files; audit only.
         "https://sambhavilove1769.000webhostapp.com/Denver/Dhoom.php?id=11385",
         # Newly sourced public candidate(s) 2026-10-26: audit only, never auto-replace a locked Link3 stream.
@@ -191,6 +194,12 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        # 2026-10-29 independently named public GitHub candidates. Audit only;
+        # do not publish until real segments, channel identity and language are verified.
+        "https://sonamul3535.vercel.app/Sonic-Hindi.m3u8",
+        "https://jiotv.hadinetbd.tech/jio/v1/Sonic_Hindi/Sonic_Hindi/Sonic_Hindi.m3u8",
+        "https://techiesneh.in1.bitmana.io/snehapi/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+        "https://allinonereborn.com/tatatv.php?id=11667",
         # 2026-10-28 source-backed candidates from public GitHub M3U files; audit only.
         "https://tv.001133.xyz/live/815.m3u8",
         "http://jo123.biz/jweb/m3u8.php?c=sonic_Hindi&q=1200&e=.m3u8",
@@ -256,6 +265,11 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # 2026-10-29 independently named public GitHub candidates. Audit only;
+        # do not publish until real segments, channel identity and language are verified.
+        "https://live.dinesh29.com.np/stream/jiotvplus/sonicbangla/master.m3u8",
+        "https://techiesneh.in1.bitmana.io/snehapi/jioapi/snehjioxx.php?c=Sonic_Bangla&q=800&e=junk.m3u8",
+        "https://bracnet.iptv.jadoodigital.com:443/live/sonic/chunks.m3u8",
         # 2026-10-28 source-backed candidates from public GitHub M3U files; audit only.
         "https://jiotv.nayeemparvez.workers.dev/bpk-tv/Sonic_Bangla_MOB/Fallback/index.m3u8",
         "https://mhdtv.co.in/jio/app/live/1345/Sonic_Bangla/index.m3u8",
