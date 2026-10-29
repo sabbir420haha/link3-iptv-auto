@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-28T13:53:47.837824+00:00",
+  "checked_utc": "2026-10-29T02:21:10.193542+00:00",
   "warning": "HTTP media success alone never proves show identity, Hindi audio, Bangladesh viewing or 24x7 reliability; do not auto-add to test/main.",
   "results": [
     {
@@ -107,6 +107,13 @@
       "media_sample_ok": false,
       "status": "unverified Link3/rights/audio",
       "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "show": "Shinchan Hindi",
+      "source": "Varun IPTV public Telegram claim, October 2026 search; GitHub Gist allChannelPlaylist.m3u",
+      "url": "https://gist.githubusercontent.com/Shah12345678890/8b230a9ef007d5c17b96e54a0f8685e9/raw/allChannelPlaylist.m3u",
+      "notes": "PUBLIC PLAYLIST COLLECTION, NOT direct Shinchan HLS. Publisher claims Shinchan 24/7 Hindi; not independently verified. Parse only to identify candidate direct media URL, exclude 209901 and mirrors. Do not add collection URL to user TEST or MAIN playlist.",
+      "error": "HTTP Error 404: Not Found"
     }
   ]
 }
