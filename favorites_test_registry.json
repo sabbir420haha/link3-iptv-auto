@@ -1024,11 +1024,6 @@
           "origin": "https://github.com/freedish2024/personal-project.sr/blob/329ea35074a5377c36e27fd3e4d4fd198fd38e7e/Kid channel.m3u"
         },
         {
-          "number": "02",
-          "url": "http://jupiter.bdcabletv.com/Disney_jr-ENC/video.m3u8",
-          "origin": "https://github.com/monetareq/iptv1/blob/33323bfb3eda093c7bd7c64221de1435f7c954df/iptv2"
-        },
-        {
           "number": "03",
           "url": "https://hqth.me/disneychannel?live/hd.sml/eyJpdiI6IkdaWWpENWlUVzQzWkh1Ri9IMVRrakE9PSIsInZhbHVlIjoiTXZwRFJ5QUs1Mzhpd0hid2lyc09tSWg5SkhlS1R/disneyus.m3u8",
           "origin": "https://github.com/boxkim14/m3u8/blob/6f621570b4ff550f6ad1d47d6d6b6bd3af629b05/vn.m3u8"
@@ -3019,5 +3014,5 @@
       "details": "Old TEST 01-30 failed. Do not re-add."
     }
   },
-  "last_updated": "2026-10-25"
+  "last_updated": "2026-10-29"
 }
