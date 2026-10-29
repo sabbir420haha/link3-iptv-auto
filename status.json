@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T06:01:14.144733+00:00",
+  "updated_utc": "2026-10-29T06:08:03.492249+00:00",
   "channels": 75,
   "target_channels": 99,
   "groups": {
@@ -1766,15 +1766,15 @@
   },
   "local_logos": {
     "total": 75,
-    "from_image_sources": 65,
-    "clear_name_fallbacks": 10,
+    "from_image_sources": 64,
+    "clear_name_fallbacks": 11,
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-10-29T06:01:27.600107+00:00",
+    "updated_utc": "2026-10-29T06:08:13.857247+00:00",
     "channel_count": 25,
-    "entries": 576,
+    "entries": 575,
     "by_name": {
       "Zee Bangla HD": 30,
       "Zee Bangla": 30,
@@ -1786,7 +1786,7 @@
       "Channel i": 9,
       "DBC News": 30,
       "Discovery Bangla": 19,
-      "Disney HD Hindi": 25,
+      "Disney HD Hindi": 24,
       "Duronto TV": 30,
       "Hungama": 16,
       "Sony MAX HD": 29,
