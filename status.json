@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-29T07:27:45.561145+00:00",
+  "updated_utc": "2026-10-29T11:40:48.522787+00:00",
   "channels": 75,
   "target_channels": 99,
   "groups": {
@@ -266,6 +266,13 @@
         },
         {
           "source": "curated-candidate",
+          "url": "https://ott.bingebd.com/live/ngrp:APNTn-asdt-t1asnd2a-sWgtsrhQW_AQTY1025_sonicPQRT_98sdfhs0_f36erxty_forsgst63_DH/chunklist.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://techiesneh.in1.bitmana.io/snehapi/jioapi/snehjioxx.php?c=Sonic_Bangla&q=800&e=junk.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -365,13 +372,6 @@
         {
           "source": "curated-candidate",
           "url": "https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://playyonogames.in/live.php?id=1345&format=.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -794,33 +794,6 @@
     },
     {
       "name": "Sonic Bangla",
-      "url": "https://jio.instream.ml/jio.php?c=Sonic_Bangla&q=600&e=.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "http://198.195.239.50:8095/sonic/index.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "https://sflex07.fun:443/07/jio/app/ts_live_1345.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
       "url": "https://app-re.sm-monirul-islam-rs.workers.dev/sonic-bangla/index.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
@@ -930,6 +903,33 @@
     {
       "name": "Sonic Bangla",
       "url": "http://103.17.193.159:5001/live/1345.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "http://14.102.123.50:5001/live/1345.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "http://103.204.43.87:8080/live/1/1/274.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -1772,7 +1772,7 @@
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-10-29T07:28:00.936485+00:00",
+    "updated_utc": "2026-10-29T11:41:19.759307+00:00",
     "channel_count": 25,
     "entries": 575,
     "by_name": {
