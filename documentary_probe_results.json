@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-30T06:10:22.799043+00:00",
-  "checked_count": 38,
+  "checked_utc": "2026-10-30T06:19:27.953988+00:00",
+  "checked_count": 48,
   "baseline": {
     "Discovery Bangla": {
       "measured_or_advertised_height": 1080,
@@ -323,6 +323,90 @@
       "source": "Clasherstore/Trrertv Search",
       "status": "failed",
       "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "id": "C40",
+      "channel": "Discovery Bangla",
+      "url": "https://csockets.hellohridoy.workers.dev/disbangla.m3u8",
+      "source": "hossainhridoyx/HridoyTV_Server channels.json",
+      "status": "video_but_not_hd_confirmed",
+      "height": 0,
+      "audio_language_tags": [],
+      "format": "transport",
+      "segment_bytes": 64431,
+      "bengali_metadata": false
+    },
+    {
+      "id": "C41",
+      "channel": "Discovery Bangla",
+      "url": "https://pro.hridoytv-pro.workers.dev/live/3428.m3u8",
+      "source": "hossainhridoyx/HridoyTV_Server Discovery HD Bengali",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "C42",
+      "channel": "Discovery Bangla",
+      "url": "https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/3428.m3u8",
+      "source": "reyad27s/Playlist 2026",
+      "status": "failed",
+      "error": "segment_not_video"
+    },
+    {
+      "id": "C43",
+      "channel": "Nat Geo HD Bangla",
+      "url": "https://proxy.hridoytv.workers.dev/nationalgeo.m3u8",
+      "source": "hossainhridoyx/HridoyTV_Server National Geographic HD",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "C44",
+      "channel": "Discovery Bangla",
+      "url": "http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/167.m3u8",
+      "source": "imdhiru/bloginstall-iptv Discovery HD Bangla",
+      "status": "failed",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "C45",
+      "channel": "Discovery Bangla",
+      "url": "http://mygoodstream.pw/proxy.php/http://89.187.182.181:9090/SS_BD_DISCOVERY/tracks-v1a1/index.m3u8",
+      "source": "riyad456/supernetIPTV Discovery HD Bangla",
+      "status": "failed",
+      "error": "not_hls"
+    },
+    {
+      "id": "C46",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://103.102.27.173:84/NATGEO-BANGLA/tracks-v1a1/mono.m3u8",
+      "source": "cvmmehedy/SHADHIN-TV",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C47",
+      "channel": "Discovery Bangla",
+      "url": "https://cricxtv.site/isp/play.php?id=DiscoveryHD",
+      "source": "KaneenApp/NeuroSources",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "C48",
+      "channel": "Nat Geo HD Bangla",
+      "url": "https://buy.ottbangla.com/4k/amd/stream.php?id=NAT-GEO-BANGLA",
+      "source": "reyad27s/Tv ottbangla",
+      "status": "failed",
+      "error": "not_hls"
+    },
+    {
+      "id": "C49",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://221.120.204.3/NAT-GEO-HD-LOCKLE/tracks-v1a1/mono.m3u8",
+      "source": "8figalltimepro/special-train",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
     }
   ]
 }
