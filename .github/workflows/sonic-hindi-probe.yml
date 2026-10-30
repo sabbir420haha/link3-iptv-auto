@@ -26,10 +26,7 @@ jobs:
           import json, subprocess, urllib.request, urllib.parse, ipaddress, socket, os, time, re, pathlib
           from datetime import datetime, timezone
           targets = [
-            {"url":"https://madplay.live/hls/jiotv/stream.php?id=815&e=.m3u8","source":"Mrlivetv/Fredlix playlist.html, explicitly Sonic Hindi Jio 815"},
-            {"url":"http://mxonlive-restream.atwebpages.com/opplex/x1.php/62179.m3u8","source":"mxonlive/mxonlive.github.io playlists/kids.m3u, D2H Sonic Hindi"},
-            {"url":"http://stream-7b694ce7e.nmbs.top/m3u/Kids/ae4d2ba214.m3u8","source":"lolz1990/my kids.m3u, Sonic Nickelodeon"},
-            {"url":"https://tv.googledrivelinks.com/live.php?c=sonic_Hindi&q=800&e=.m3u8","source":"r0m35h/main iptv.m3u, explicitly Sonic Hindi"}
+            {"url":"http://103.253.18.58:8000/play/a011","source":"aria-tv/aria channels/india.md; Sonic India, listed unstable; Hindi audio unconfirmed"}
           ]
           base = pathlib.Path(".")
           registry = json.loads((base/"sonic_hindi_candidates.json").read_text())
