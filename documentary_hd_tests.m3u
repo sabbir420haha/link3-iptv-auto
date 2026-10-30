@@ -1,3 +1,6 @@
 #EXTM3U
-# CLEAN SLATE 2026-10-30: all failed or unverified documentary TEST URLs removed.
-# NO MAIN playlist duplicates. New entries require successful HLS+segment probes and clear source labeling.
+# Remote GitHub runner verified real HD video segments; NOT Link3-verified.
+# Bengali spoken audio NOT guaranteed (unless metadata says so).
+# No MAIN source URLs or failed sources. Select TEST by number.
+#EXTINF:-1 tvg-id="probe-discovery-bangla-01" tvg-name="Discovery Bangla NEW HD TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="HD VIDEO CHECKED | Discovery Bangla",Discovery Bangla NEW HD TEST 01
+https://raw.githubusercontent.com/stablesports711-hue/stable-sports-movie/refs/heads/main/BANGLA/DiscoveryBD.m3u8

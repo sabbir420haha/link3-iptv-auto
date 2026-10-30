@@ -1,0 +1,270 @@
+{
+  "checked_utc": "2026-10-30T05:46:49.909019+00:00",
+  "checked_count": 32,
+  "hd_segment_verified_count": 1,
+  "note": "GitHub network only. Video height observed/advertised; Bengali AUDIO and Link3 playback unverified.",
+  "results": [
+    {
+      "id": "C01",
+      "channel": "Discovery Bangla",
+      "url": "https://tvsen6.aynaott.com/discovery_hd_bangla/index.m3u8",
+      "source": "dxluminant/m3u",
+      "status": "failed",
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "C02",
+      "channel": "Discovery Bangla",
+      "url": "https://s4v4r3k4.rocketcdn.me/delta/discovery/api/Discovery_Bangla.m3u8",
+      "source": "PrattoySaha/IPTV",
+      "status": "failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 's4v4r3k4.rocketcdn.me'. (_ssl.c:1010)>"
+    },
+    {
+      "id": "C03",
+      "channel": "Discovery Bangla",
+      "url": "https://live.dinesh29.com.np/stream/jiotvplus/discoverybengali/master.m3u8",
+      "source": "channeliptv0/IPTV",
+      "status": "failed",
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "C04",
+      "channel": "Discovery Bangla",
+      "url": "https://raw.githubusercontent.com/stablesports711-hue/stable-sports-movie/refs/heads/main/BANGLA/DiscoveryBD.m3u8",
+      "source": "stablesports711-hue/stable-sports-iptv",
+      "status": "hd_video_verified",
+      "height": 1080,
+      "audio_language_tags": [
+        ""
+      ],
+      "format": "master+media",
+      "segment_bytes": 1000000,
+      "bengali_metadata": false
+    },
+    {
+      "id": "C05",
+      "channel": "Discovery Bangla",
+      "url": "https://streamingxfireflix.vercel.app/api/stream?id=245966.m3u8",
+      "source": "fahadskt/IPTV-Playlists",
+      "status": "failed",
+      "error": "HTTP Error 402: Payment Required"
+    },
+    {
+      "id": "C06",
+      "channel": "Discovery Bangla",
+      "url": "https://filoox.vercel.app/live/245966.m3u8",
+      "source": "johirxofficial/johirxofficial.github.io",
+      "status": "failed",
+      "error": "HTTP Error 402: Payment Required"
+    },
+    {
+      "id": "C07",
+      "channel": "Discovery Bangla",
+      "url": "https://allinonereborn.com/oplex.m3u8?id=245966",
+      "source": "rkbro23/rk_playlist",
+      "status": "failed",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "id": "C08",
+      "channel": "Discovery Bangla",
+      "url": "https://tvsen6.aynascope.net/discovery_hd_bangla/index.m3u8",
+      "source": "aynascope mirror",
+      "status": "failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'tvsen6.aynascope.net'. (_ssl.c:1010)>"
+    },
+    {
+      "id": "C09",
+      "channel": "Discovery Bangla",
+      "url": "http://11plus.live/live/discovery/index.m3u8",
+      "source": "Samsungbd/new24",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C10",
+      "channel": "Discovery Bangla",
+      "url": "http://103.81.104.118/hls/discovery.m3u8",
+      "source": "Sonuiptvnew/Sonuiptvnew",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C11",
+      "channel": "Discovery Bangla",
+      "url": "http://180.210.191.2/hls/stream9.m3u8",
+      "source": "riyad456/supernetIPTV",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C12",
+      "channel": "Discovery Bangla",
+      "url": "http://103.153.175.254:8080/hls/stream9.m3u8",
+      "source": "imranemon1/emon",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C13",
+      "channel": "Discovery Bangla",
+      "url": "https://raw.githubusercontent.com/subirkumarpaul/My-iptv/main/Discovery.m3u8",
+      "source": "subirkumarpaul/My-iptv",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "C14",
+      "channel": "Discovery Bangla",
+      "url": "http://103.159.180.34:5001/live/3428.m3u8",
+      "source": "Your-Tribal-Chief/LiveTV",
+      "status": "failed",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "id": "C15",
+      "channel": "Discovery Bangla",
+      "url": "https://jio.dinesh29.com.np/live/jio-universal/discovery-bengali/index.ts",
+      "source": "Zahidsdlbd/jio",
+      "status": "failed",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "C16",
+      "channel": "Discovery Bangla",
+      "url": "https://allinonereborn.fun/opplex1991/index.php?id=245966",
+      "source": "rkbro23/rk_playlist",
+      "status": "failed",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "C17",
+      "channel": "Discovery Bangla",
+      "url": "http://iptv.kitv.live:1935/live/Shari/MTV-P/167.m3u8",
+      "source": "IPTVE/Live-Ip-Tve",
+      "status": "failed",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "C18",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://11plus.live/live/ngohd/index.m3u8",
+      "source": "Samsungbd/new24",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C19",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://103.229.254.25:7001/play/a038/index.m3u8",
+      "source": "Salimtech353/NetPlay",
+      "status": "failed",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "id": "C20",
+      "channel": "Nat Geo HD Bangla",
+      "url": "https://live.dinesh29.com.np/stream/jiotvplus/nationalgeographichd/master.m3u8",
+      "source": "channeliptv0/IPTV",
+      "status": "failed",
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "C21",
+      "channel": "Nat Geo HD Bangla",
+      "url": "https://live.dinesh29.com.np/stream/jiotvplus/nationalgeographic/master.m3u8",
+      "source": "channeliptv0/IPTV",
+      "status": "failed",
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "C22",
+      "channel": "Nat Geo HD Bangla",
+      "url": "https://streamingxfireflix.vercel.app/api/stream?id=245967.m3u8",
+      "source": "fahadskt/IPTV-Playlists",
+      "status": "failed",
+      "error": "HTTP Error 402: Payment Required"
+    },
+    {
+      "id": "C23",
+      "channel": "Nat Geo HD Bangla",
+      "url": "https://filoox.vercel.app/live/245967.m3u8",
+      "source": "johirxofficial/johirxofficial.github.io",
+      "status": "failed",
+      "error": "HTTP Error 402: Payment Required"
+    },
+    {
+      "id": "C24",
+      "channel": "Nat Geo HD Bangla",
+      "url": "https://allinonereborn.com/oplex.m3u8?id=245967",
+      "source": "rkbro23/rk_playlist",
+      "status": "failed",
+      "error": "not_hls"
+    },
+    {
+      "id": "C25",
+      "channel": "Nat Geo HD Bangla",
+      "url": "https://tvsen6.aynascope.net/natgeo/tracks-v1a1/mono.ts.m3u8",
+      "source": "puttyroot/attempt",
+      "status": "failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'tvsen6.aynascope.net'. (_ssl.c:1010)>"
+    },
+    {
+      "id": "C26",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://180.210.191.2/hls/stream13.m3u8",
+      "source": "fnnaeem1881/tv_broadcast",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C27",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://103.110.110.11:8081/live/NGC/playlist.m3u8",
+      "source": "G21325/Mod",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C28",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://148.113.5.31:8106/play/a00p/index.m3u8",
+      "source": "Joyanto005/My-1st",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C29",
+      "channel": "Nat Geo HD Bangla",
+      "url": "https://its-nayeemparvez.xyz/thunder-streamz/playlist.m3u8?id=48b25ad61d3247453",
+      "source": "tvbd/m3uplayer",
+      "status": "failed",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "C30",
+      "channel": "Nat Geo HD Bangla",
+      "url": "https://allinonereborn.fun/sansat-web/live.php?id=400159903",
+      "source": "rkbro23/rk_playlist",
+      "status": "failed",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "C31",
+      "channel": "Nat Geo HD Bangla",
+      "url": "https://allinonereborn.fun/opplex1991/index.php?id=245967",
+      "source": "rkbro23/rk_playlist",
+      "status": "failed",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "C32",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://103.132.181.118:82/play/a006",
+      "source": "rudrow/iptv",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    }
+  ]
+}
