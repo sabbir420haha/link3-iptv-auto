@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-30T06:23:27.303230+00:00",
+  "checked_utc": "2026-10-30T06:25:01.207397+00:00",
   "checked_count": 54,
   "baseline": {
     "Discovery Bangla": {
@@ -329,14 +329,8 @@
       "channel": "Discovery Bangla",
       "url": "https://csockets.hellohridoy.workers.dev/disbangla.m3u8",
       "source": "hossainhridoyx/HridoyTV_Server channels.json",
-      "bitrate_bps": null,
-      "bitrate_kind": null,
-      "status": "video_but_not_hd_confirmed",
-      "height": 0,
-      "audio_language_tags": [],
-      "format": "transport",
-      "segment_bytes": 64431,
-      "bengali_metadata": false
+      "status": "failed",
+      "error": "The read operation timed out"
     },
     {
       "id": "C41",
@@ -344,7 +338,7 @@
       "url": "https://pro.hridoytv-pro.workers.dev/live/3428.m3u8",
       "source": "hossainhridoyx/HridoyTV_Server Discovery HD Bengali",
       "status": "failed",
-      "error": "HTTP Error 403: Forbidden"
+      "error": "HTTP Error 500: Internal Server Error"
     },
     {
       "id": "C42",
@@ -423,7 +417,7 @@
         ""
       ],
       "format": "master+media",
-      "segment_bytes": 397056,
+      "segment_bytes": 388032,
       "bengali_metadata": false
     },
     {
