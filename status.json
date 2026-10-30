@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-30T13:22:00.364685+00:00",
+  "updated_utc": "2026-10-30T17:26:11.595215+00:00",
   "channels": 75,
   "target_channels": 99,
   "groups": {
@@ -217,6 +217,13 @@
         },
         {
           "source": "curated-candidate",
+          "url": "https://cdn.nayeemparvez.workers.dev/bpk-tv/Sonic_Bangla_MOB/Fallback/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://live.dinesh29.com.np/stream/jiotv/sonicbangla/master.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
@@ -365,13 +372,6 @@
         {
           "source": "curated-candidate",
           "url": "https://jio.instream.ml/jio.php?c=Sonic_Bangla&q=600&e=.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://sflex07.fun:443/07/jio/app/ts_live_1345.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -794,33 +794,6 @@
     },
     {
       "name": "Sonic Bangla",
-      "url": "https://tvstream.space//jtv/ooo.php?c=Sonic_Bangla&q=800&e=junk.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "http://103.102.27.173:84/SONIC-BANGLA/tracks-v1a1/mono.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "http://mxonlive-restream.atwebpages.com/opplex/x1.php/149127.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
       "url": "https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=Sonic_Bangla&e=.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
@@ -935,6 +908,33 @@
       "manifest_height": 0,
       "identity_audio_verified_by_runner": false,
       "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "https://playyonogames.in/live.php?id=1345&format=.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "http://103.68.28.58:5001/live/1345.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
     }
   ],
   "sources": [
@@ -1030,12 +1030,12 @@
     },
     {
       "source": "updated-Hindi-streams",
-      "count": 310,
+      "count": 309,
       "error": null
     },
     {
       "source": "updated-Hindi-top",
-      "count": 173,
+      "count": 171,
       "error": null
     },
     {
@@ -1766,13 +1766,13 @@
   },
   "local_logos": {
     "total": 75,
-    "from_image_sources": 65,
-    "clear_name_fallbacks": 10,
+    "from_image_sources": 64,
+    "clear_name_fallbacks": 11,
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-10-30T13:22:09.972944+00:00",
+    "updated_utc": "2026-10-30T17:26:32.786759+00:00",
     "channel_count": 25,
     "entries": 550,
     "by_name": {
