@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-30T15:23:59.938964+00:00",
-  "evaluated": 29,
+  "checked_utc": "2026-10-30T15:25:33.724056+00:00",
+  "evaluated": 32,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -236,6 +236,30 @@
       "id": "Y29",
       "url": "https://tataplay.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8",
       "source": "Habib2399/Meghna Tata Sony Yay Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y30",
+      "url": "http://103.83.80.54:6088/play/a0et/index.m3u8",
+      "source": "skiesmate/m3u/suntv.m3u current Sony YAY source",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error timed out>"
+    },
+    {
+      "id": "Y31",
+      "url": "https://pubads.g.doubleclick.net/ssai/event/40H5HfwWTZadFGYkBTqagg/master.m3u8?HjFreeTV=YAY",
+      "source": "NEWBIENOOB-0/iplm3u2024 Sony Yay Hindi tagged alternate",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y32",
+      "url": "https://keralamaxtv.com/sliv/stream.php?id=168569&e=.m3u8",
+      "source": "BahyOsama/marioo Sony Yay Hindi link requires Referer to KeralaMax",
       "hindi_claim": true,
       "status": "failed",
       "reason": "<urlopen error [Errno -2] Name or service not known>"
