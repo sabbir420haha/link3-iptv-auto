@@ -268,6 +268,8 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # New 2026-10-30 GitHub-published Bengali Sonic relay; audit only, no auto-publication.
+        "https://cdn.nayeemparvez.workers.dev/bpk-tv/Sonic_Bangla_MOB/Fallback/index.m3u8",
         # 2026-10-30: newly located explicitly named Sonic Bangla on independent public playlist; audit only.
         "https://live.dinesh29.com.np/stream/jiotv/sonicbangla/master.m3u8",
 
