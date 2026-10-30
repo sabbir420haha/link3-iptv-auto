@@ -206,15 +206,24 @@ def main():
     baseline=check_baselines()
     with cf.ThreadPoolExecutor(max_workers=12) as pool:
         results=list(pool.map(run,POOL))
-    publish=[x for x in results if x["status"]=="hd_video_verified" and
-             (baseline.get(x["channel"],{}).get("measured_or_advertised_height") is None
-              or x["height"]>baseline[x["channel"]]["measured_or_advertised_height"]
-              or (x["height"]==baseline[x["channel"]]["measured_or_advertised_height"]
-                  and x.get("bitrate_kind")=="sampled_2_segments"
-                  and baseline[x["channel"]].get("bitrate_kind")=="sampled_2_segments"
-                  and x.get("bitrate_bps") is not None
-                  and baseline[x["channel"]].get("bitrate_bps") is not None
-                  and x["bitrate_bps"] > 1.35*baseline[x["channel"]]["bitrate_bps"]))]
+    publish=[]
+    for candidate in results:
+        if candidate["status"]!="hd_video_verified":
+            continue
+        base=baseline.get(candidate["channel"],{})
+        # 1080p was verified for BOTH MAIN channels on Oct 30.
+        # When a baseline probe times out, use this observed floor;
+        # never publish 720p solely because MAIN was temporarily unreachable.
+        bh=base.get("measured_or_advertised_height") or 1080
+        if candidate["height"]>bh:
+            publish.append(candidate)
+            continue
+        if (candidate["height"]==bh and candidate.get("bitrate_kind")=="sampled_2_segments"
+            and base.get("bitrate_kind")=="sampled_2_segments"
+            and candidate.get("bitrate_bps") is not None
+            and base.get("bitrate_bps") is not None
+            and candidate["bitrate_bps"]>base["bitrate_bps"]*1.35):
+            publish.append(candidate)
     doc=["#EXTM3U","# Remote GitHub runner verified real HD video segments; NOT Link3-verified.",
          "# Bengali spoken audio NOT guaranteed (unless metadata says so).",
          "# No MAIN source URLs or failed sources. Select TEST by number."]
