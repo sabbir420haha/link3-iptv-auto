@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-30T10:34:02.217487+00:00",
-  "source_count": 85,
+  "checked_utc": "2026-10-30T10:52:07.730119+00:00",
+  "source_count": 91,
   "remote_verified": 0,
   "remote_only_not_Link3": true,
   "audio_note": "Feed label is weaker evidence than actual HLS/segment Hindi language metadata.",
@@ -579,7 +579,7 @@
       "feed": "Sonic Hindi ID 815",
       "source": "pravashranjan/entwld 2026 live",
       "status": "rejected",
-      "error": "not_hls"
+      "error": "HTTP Error 401: Unauthorized"
     },
     {
       "id": "S73",
@@ -682,6 +682,54 @@
       "url": "http://103.153.39.34:8000/play/a04p/index.m3u8",
       "feed": "Sonic India; Hindi audio unconfirmed",
       "source": "imranemon1/emon Iptv.m3u Sonic 3 and riyad456/supernetIPTV Sonic 2",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S86",
+      "url": "http://103.139.171.5:5001/live.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "Sonuiptvnew/Sonuiptvnew jio.m3u; explicitly Sonic Hindi, Jio channel 815",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S87",
+      "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=765200.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "Hasibfy37/Iptv Final.m3u; explicit Hindi audio track",
+      "status": "rejected",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+    },
+    {
+      "id": "S88",
+      "url": "http://65.2.4.240/jioo.php?c=sonic_Hindi&q=800&e=.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "Sonuiptvnew/Sonuiptvnew sonuuptvjio.M3U, Sonic Hindi",
+      "status": "rejected",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "id": "S89",
+      "url": "https://tulnit.fun/jiotv/app/ts_live_815.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "moajzim47/moajzimofficials PHONE_VERSION_MoAj_STREAMZ_PLAY_m3u, Sonic 815 (without cookie)",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S90",
+      "url": "https://amit-1.allinonereborn.in/jiotv-ww313/app/ts_live_815.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "streamifytv/streamifytv jiotv.json, Sonic Hindi 815",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S91",
+      "url": "https://mintos.allinonereborn.xyz/jiotv-ww31/app/ts_live_815.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "rkbro23/rk_playlist jiotvww.m3u, Sonic Hindi 815",
       "status": "rejected",
       "error": "<urlopen error timed out>"
     }
