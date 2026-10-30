@@ -176,12 +176,6 @@
       "url": "https://tataplay.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8",
       "source": "Habib2399/Meghna Tata Sony Yay Hindi",
       "hindi_claim": true
-    },
-    {
-      "id": "Y30",
-      "url": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeStreams/StreamsTV-BD/sony_yay.m3u8",
-      "source": "2026 checked repository possible Sony Yay, exact subpath unverified",
-      "hindi_claim": false
     }
   ]
 }
