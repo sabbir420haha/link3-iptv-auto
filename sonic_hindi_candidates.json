@@ -259,6 +259,132 @@
       "url": "http://103.169.98.53:8000/play/a09g",
       "source": "SArun61/IPTV Astra",
       "feed": "SONIC NICK SD"
+    },
+    {
+      "id": "S44",
+      "url": "https://jcevents.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+      "source": "ttoor5/discoveryplus Jio Cinema listed channel",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S45",
+      "url": "https://jcevents.hotstar.com/bpk-tv/JC_SonicNick/JCHLS/JC_SonicNick.m3u8",
+      "source": "Prtstream820894/GitHub Hotstar source (auth likely)",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S46",
+      "url": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+      "source": "multiple jio sources",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S47",
+      "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/JC_SonicNick-audio_98841_hin=98800-video=301200/master.m3u8",
+      "source": "Samarthsattani66/Tg-teamrohitoffical4500 Hindi segment",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S48",
+      "url": "https://hiskidxd.com/T5/JIOTV/app/live.php?id=815&e=.m3u8",
+      "source": "GhostHostBD/tvlink",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S49",
+      "url": "https://the-nayeemparvez.xyz/jiotvnew/app/play.php?id=815&e=.m3u8",
+      "source": "niptv/tvtelugu.github.io Jio",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S50",
+      "url": "https://bflixhd.com/NITRO-X-JIOTV/master.m3u8?id=815",
+      "source": "aviarun/m3u Jio",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S51",
+      "url": "https://snehjiotv.in1.bitmana.io/snehjioox.php?c=sonic_Hindi&q=1200&e=junk.m3u8",
+      "source": "nepalicana/iptv Jio FHD",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S52",
+      "url": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/JC_SonicNick.m3u8",
+      "source": "Jio direct stream variant",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S53",
+      "url": "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+      "source": "existing favorites trial, Robi network",
+      "feed": "Sonic Hindi from Robi IPTV"
+    },
+    {
+      "id": "S54",
+      "url": "https://stream.ottplus.live/live/sonic_abr/index.m3u8",
+      "source": "existing favorites trial, OTTPlus",
+      "feed": "Sonic Hindi uncertain"
+    },
+    {
+      "id": "S55",
+      "url": "https://app-re.sm-monirul-islam-rs.workers.dev/sonic-hindi/index.m3u8",
+      "source": "existing favorites trial, same proxy as MAIN Discovery",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S56",
+      "url": "https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8",
+      "source": "existing favorites trial",
+      "feed": "Sonic Hindi uncertain"
+    },
+    {
+      "id": "S57",
+      "url": "http://103.135.253.32:8080/SONIC/index.m3u8",
+      "source": "existing favorites trial, same host as MAIN NatGeo",
+      "feed": "Sonic Hindi uncertain"
+    },
+    {
+      "id": "S58",
+      "url": "http://103.135.253.32:8080/SONIC-HD/index.m3u8",
+      "source": "existing favorites trial, same host as MAIN NatGeo",
+      "feed": "Sonic Hindi uncertain"
+    },
+    {
+      "id": "S59",
+      "url": "https://sports247.eu.org/api/app/live.php?id=815&e=.m3u8",
+      "source": "existing favorites trial",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S60",
+      "url": "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=815",
+      "source": "existing favorites trial",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S61",
+      "url": "http://103.68.28.58:5001/live/815.m3u8",
+      "source": "existing favorites trial",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S62",
+      "url": "http://103.83.80.54:6088/play/a0g4/index.m3u8",
+      "source": "existing favorites trial",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S63",
+      "url": "https://hey-lookme.shop/live.php?id=815",
+      "source": "existing favorites trial",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S64",
+      "url": "https://colorsscreen.com/live.php?id=815&extension=.m3u8",
+      "source": "existing favorites trial",
+      "feed": "Sonic Hindi"
     }
   ]
 }
