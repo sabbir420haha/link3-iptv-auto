@@ -34,15 +34,15 @@ def playlist_window(url):
         variants=[]
         for i,line in enumerate(lines[:-1]):
             if line.startswith("#EXT-X-STREAM-INF"):
-                h=re.search(r"RESOLUTION=\\d+x(\\d+)",line)
-                bw=re.search(r"BANDWIDTH=(\\d+)",line)
+                h=re.search(r"RESOLUTION=\d+x(\d+)",line)
+                bw=re.search(r"BANDWIDTH=(\d+)",line)
                 nxt=next((v for v in lines[i+1:] if not v.startswith("#")),None)
                 if nxt:variants.append((int(h.group(1)) if h else 0,
                                         int(bw.group(1)) if bw else 0,up.urljoin(final,nxt)))
         if variants:
             current=max(variants,key=lambda v:(v[0],v[1]))[2]
             continue
-        seq=re.search(r"#EXT-X-MEDIA-SEQUENCE:(\\d+)",s)
+        seq=re.search(r"#EXT-X-MEDIA-SEQUENCE:(\d+)",s)
         chunks=[up.urljoin(final,lines[i+1]) for i,l in enumerate(lines[:-1])
                 if l.startswith("#EXTINF:") and not lines[i+1].startswith("#")]
         if not chunks:return None
@@ -59,17 +59,17 @@ def decoded_frames(url):
         p=subprocess.run(cmd,capture_output=True,text=True,timeout=40)
     except subprocess.TimeoutExpired:
         raise ValueError("ffmpeg_video_decode_timeout")
-    nums=[int(x) for x in re.findall(r"(?m)^frame=(\\d+)",p.stdout)]
+    nums=[int(x) for x in re.findall(r"(?m)^frame=(\d+)",p.stdout)]
     frames=max(nums,default=0)
     if p.returncode or frames<8:
-        raise ValueError("ffmpeg_decode_failed:"+str(frames)+" frames; "+p.stderr[-160:].replace("\\n"," "))
+        raise ValueError("ffmpeg_decode_failed:"+str(frames)+" frames; "+p.stderr[-160:].replace("\n"," "))
     return frames
 
 def validate(item):
     row={k:item[k] for k in ("id","url","feed","source")}
     url=item["url"]
     try:
-        if re.search(r"(?:[?&]mac=|/play/live\\.php|/stalker/)",url,re.I):
+        if re.search(r"(?:[?&]mac=|/play/live\.php|/stalker/)",url,re.I):
             raise ValueError("credential_bound_portal")
         h,l,kind,size=manifest(url)
         if h<240:
@@ -112,16 +112,16 @@ def main():
     passed=[r for r in rows if r["status"]=="remote_live_video_verified"
             and (r["hindi_audio_tag"] or r["hindi_feed_label"])]
     # Append ONLY newly verified Sonic sources; never clear prior verified tests.
-    existing=PLAY.read_text(encoding="utf-8") if PLAY.exists() else "#EXTM3U\\n"
+    existing=PLAY.read_text(encoding="utf-8") if PLAY.exists() else "#EXTM3U\n"
     published=[]
-    numbers=[int(n) for n in re.findall(r"Sonic Hindi TEST (\\d+)",existing)]
+    numbers=[int(n) for n in re.findall(r"Sonic Hindi TEST (\d+)",existing)]
     next_number=max(numbers,default=0)+1
     for r in passed:
         if r["url"] in existing:
             continue
         label=f"Sonic Hindi TEST {next_number:02d} ({r['height']}p)"
         existing += (f'#EXTINF:-1 tvg-name="{label}" tvg-logo="{LOGO}" '
-                     f'group-title="SONIC HINDI TEST",{label}\\n{r["url"]}\\n')
+                     f'group-title="SONIC HINDI TEST",{label}\n{r["url"]}\n')
         published.append({"test":next_number,"url":r["url"],
                           "height":r["height"],"audio_lang_metadata":r["audio_lang_metadata"],
                           "decoded_frames_first":r["decoded_frames_first"],
@@ -136,7 +136,7 @@ def main():
             "remote_only_not_Link3":True,
             "audio_note":"Feed label is weaker evidence than HLS/segment Hindi language metadata.",
             "results":history}
-    OUT.write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\\n",encoding="utf-8")
+    OUT.write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     print(json.dumps({"newly_checked":len(rows),"published":published}))
 
 if __name__=="__main__":main()
