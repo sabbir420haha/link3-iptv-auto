@@ -1,23 +1,35 @@
 {
-  "checked_utc": "2026-10-30T08:14:38.654180+00:00",
+  "checked_utc": "2026-10-30T09:04:16.153984+00:00",
   "results": [
     {
-      "url": "http://70.39.83.58:8278/sonichindikdin/playlist.m3u8",
+      "url": "http://103.180.212.191:3500/live/815.m3u8",
+      "verified": false,
+      "reason": "manifest fetch <urlopen error timed out>",
+      "source": "badalbd53/Rocket-OTV hindi playlist explicitly Sonic Hindi ID 815"
+    },
+    {
+      "url": "http://103.139.171.5:5001/live.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "verified": false,
+      "reason": "manifest fetch <urlopen error timed out>",
+      "source": "Sonuiptvnew/Sonuiptvnew jio.m3u explicitly Sonic Hindi"
+    },
+    {
+      "url": "https://node103074-join-us-on-telegram-streamkinglive.in1.bitmana.io/autoq.php?c=sonic_Hindi",
+      "verified": false,
+      "reason": "DNS error [Errno -2] Name or service not known",
+      "source": "Sonuiptvnew/Sonuiptvnew Jio TV.m3u explicitly Sonic Hindi"
+    },
+    {
+      "url": "http://indtv.online/sonic_Hindi.m3u8",
+      "verified": false,
+      "reason": "DNS error [Errno -2] Name or service not known",
+      "source": "fahadskt/IPTV-Playlists Old/Palash Raj Sonic Hindi"
+    },
+    {
+      "url": "http://pkr.cinepex.tv:8278/sonichindikdin/playlist.m3u8",
       "verified": false,
       "reason": "manifest fetch <urlopen error [Errno 111] Connection refused>",
-      "source": "Sonuiptvnew/Sonuiptvnew sonuiptv-kids.m3u explicitly Sonic Hindi"
-    },
-    {
-      "url": "https://madplay.live/jiotv/app/live/815/null/index.m3u8",
-      "verified": false,
-      "reason": "not HLS media/master manifest",
-      "source": "hasanmamunctg/hasanmamunctg manik explicitly Sonic Hindi Jio 815"
-    },
-    {
-      "url": "https://jioapi.sports247.eu.org/api/app/live.php?id=815&e=.m3u8",
-      "verified": false,
-      "reason": "DNS error [Errno -3] Temporary failure in name resolution",
-      "source": "SArun61/IPTV Jio.m3u explicitly Sonic Hindi language Hindi ID 815"
+      "source": "TamannaJain2710/iptv Customised_iptv.m3u explicitly SONIC"
     }
   ],
   "published": [],
