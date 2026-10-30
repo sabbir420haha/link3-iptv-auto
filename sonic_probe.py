@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Sonic Hindi-only candidate validation. Never change playlist.m3u or other MAIN data.
 Only NEW, playable remote video sources are published to documentary_hd_tests.m3u.
-Results do NOT prove ISP Link3 playback or that spoken audio is Hindi.
+Results do NOT prove ISP Link3 playback or that spoken audio is Hindi.\nPrior failed URLs are excluded from every subsequent probe.
 """
 import concurrent.futures as cf
 import datetime as dt
