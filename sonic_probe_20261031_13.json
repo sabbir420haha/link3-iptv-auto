@@ -1,15 +1,33 @@
 {
-  "checked_utc": "2026-10-30T22:57:43.979328+00:00",
+  "checked_utc": "2026-10-30T22:59:33.830824+00:00",
   "results": [
     {
-      "url": "http://198.195.239.50:8095/sonic/index.m3u8",
-      "source": "stablesports711-hue/stable-sports-iptv STABLE-SPORTS TV.m3u; Sonic_Bangla logo; require Hindi metadata",
+      "url": "http://node101473-ishanjiotv.in1.bitmana.io/live.php?c=sonic_Hindi&q=800&e=Ishan.m3u8",
+      "source": "Sonuiptvnew/Sonuiptvnew sonuiptvbackjio.m3u; explicitly Sonic Hindi",
       "verified": false,
-      "reason": "already excluded or published"
+      "reason": "DNS [Errno -2] Name or service not known"
     },
     {
-      "url": "https://snehtv.in1.bitmana.io/live.php?c=Sonic_Nickelodeon&q=250&e=.m3u8",
-      "source": "Arun9dec/IPTV IPTV Old; Sonic Nickelodeon in Kids (Hindi) group",
+      "url": "http://smiletv.live:4110/getm3u8/815/master.m3u8",
+      "source": "sudiptobd2/jio new; explicitly Sonic Hindi Jio 815",
+      "verified": false,
+      "reason": "DNS [Errno -5] No address associated with hostname"
+    },
+    {
+      "url": "https://jio.jiotv.link/api/app/live.php?id=815&e=.m3u8",
+      "source": "AlahiMajnurOsama/Tv JioTv.m3u; Sonic Hindi tvg-language Hindi",
+      "verified": false,
+      "reason": "DNS [Errno -2] Name or service not known"
+    },
+    {
+      "url": "https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=sonic_Hindi&e=.m3u8",
+      "source": "GhostHostBD/tvlink JIO serverbackupchannel; explicitly Sonic Hindi",
+      "verified": false,
+      "reason": "not an HLS manifest"
+    },
+    {
+      "url": "https://livevoot.co.in/voot/master.m3u8?id=Sonic_Nickelodeon_voot_MOB",
+      "source": "mdsirome/LiveTV DiscoverTV.m3u; Sonic Nickelodeon; Hindi metadata required",
       "verified": false,
       "reason": "DNS [Errno -2] Name or service not known"
     }
