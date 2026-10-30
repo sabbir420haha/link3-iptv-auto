@@ -656,6 +656,34 @@
       "source": "Sultanovic public IPTV listing; Sonic; Hindi track unconfirmed",
       "feed": "Sonic India; Hindi audio unconfirmed",
       "remote_probe": "GitHub Actions 2026-10-30T16:07:57.231404+00:00: manifest fetch <urlopen error timed out>; no decoded video; ineligible"
+    },
+    {
+      "id": "S106",
+      "url": "https://tplay.dinesh29.com.np/live/tataplay-universal/sonic-nickelodeon/index.ts",
+      "source": "freedish2024/personal-project.sr Kids; Tata Play Sonic Nickelodeon TS",
+      "feed": "Sonic Nickelodeon; Hindi track unconfirmed",
+      "remote_probe": "GitHub Actions 2026-10-30T18:19:21.708715+00:00: DNS: [Errno -2] Name or service not known; no two-fetch video decode; ineligible"
+    },
+    {
+      "id": "S107",
+      "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+      "source": "jack78692/ch jiocinema.m3u8; Sonic, tvg-language Hindi",
+      "feed": "Sonic Nickelodeon; Hindi track unconfirmed",
+      "remote_probe": "GitHub Actions 2026-10-30T18:19:21.708715+00:00: manifest: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>; no two-fetch video decode; ineligible"
+    },
+    {
+      "id": "S108",
+      "url": "https://air2stem.playlivtv.workers.dev/?id=137795",
+      "source": "Mahesh-Bardoliya/tv-2 index.html; NICK SONIC India",
+      "feed": "Sonic Nickelodeon; Hindi track unconfirmed",
+      "remote_probe": "GitHub Actions 2026-10-30T18:19:21.708715+00:00: DNS: [Errno -2] Name or service not known; no two-fetch video decode; ineligible"
+    },
+    {
+      "id": "S109",
+      "url": "https://wxca.cf/j/sonic_Hindi/master.m3u8",
+      "source": "pastelink.net/29ztf Able TV; explicitly Sonic Hindi",
+      "feed": "Sonic Nickelodeon; Hindi track unconfirmed",
+      "remote_probe": "GitHub Actions 2026-10-30T18:19:21.708715+00:00: DNS: [Errno -2] Name or service not known; no two-fetch video decode; ineligible"
     }
   ]
 }
