@@ -29,7 +29,7 @@ def sample_frames(url):
         p=subprocess.run(cmd,capture_output=True,text=True,timeout=38)
     except subprocess.TimeoutExpired:
         raise ValueError("decode_timeout")
-    matches=[int(v) for v in re.findall(r"(?m)^frame=(\\d+)",p.stdout)]
+    matches=[int(v) for v in re.findall(r"(?m)^frame=(\d+)",p.stdout)]
     frames=max(matches,default=0)
     if p.returncode!=0 or frames<12:
         raise ValueError(f"video_decode_failed_{frames}_frames: "+p.stderr[-180:].replace("\n"," "))
@@ -39,7 +39,7 @@ def probe(c):
     row={k:c[k] for k in ("id","url","source","hindi_claim")}
     u=c["url"]
     try:
-        if re.search(r"(?:[?&]mac=|/play/live\\.php|/stalker/)",u,re.I):
+        if re.search(r"(?:[?&]mac=|/play/live\.php|/stalker/)",u,re.I):
             raise ValueError("credential_portal")
         observations=[]
         # Spaced playback checks help detect short-lived or frozen upstream streams.
@@ -86,7 +86,7 @@ def main():
     before=PATH.read_text(encoding="utf-8") if PATH.exists() else "#EXTM3U\n"
     if not before.lstrip().startswith("#EXTM3U"): raise ValueError("bad_test_playlist")
     playlist=before
-    numbers=[int(x) for x in re.findall(r"Sony YAY Hindi TEST (\\d+)",playlist)]
+    numbers=[int(x) for x in re.findall(r"Sony YAY Hindi TEST (\d+)",playlist)]
     number=max(numbers,default=0)+1
     published=[]
     for r in good:
