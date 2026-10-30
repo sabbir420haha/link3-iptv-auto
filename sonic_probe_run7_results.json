@@ -1,0 +1,90 @@
+{
+  "checked_at_utc": "2026-10-30T13:50:20.550814+00:00",
+  "method": "GitHub Actions ubuntu-latest, ffmpeg 2 independent fetches with real decoded video frames; ffprobe audio metadata",
+  "results": [
+    {
+      "id": "C01",
+      "url": "http://103.122.249.134:8000/play/a051",
+      "source": "iptv-org/iptv issue 37823 Sonic.in@SD",
+      "fetches": [
+        {
+          "attempt": 1,
+          "decoded": false,
+          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+        },
+        {
+          "attempt": 2,
+          "decoded": false,
+          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+        }
+      ],
+      "ffprobe": {
+        "error": "[Errno 2] No such file or directory: 'ffprobe'"
+      },
+      "validated_twice": false
+    },
+    {
+      "id": "C02",
+      "url": "http://103.154.3.101:5001/live/815.m3u8",
+      "source": "iptv-org/iptv issue 36782 Sonic.in@SD",
+      "fetches": [
+        {
+          "attempt": 1,
+          "decoded": false,
+          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+        },
+        {
+          "attempt": 2,
+          "decoded": false,
+          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+        }
+      ],
+      "ffprobe": {
+        "error": "[Errno 2] No such file or directory: 'ffprobe'"
+      },
+      "validated_twice": false
+    },
+    {
+      "id": "C03",
+      "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0368/master.m3u8",
+      "source": "iptv-org/iptv issue 33980 Sonic.in@SD",
+      "fetches": [
+        {
+          "attempt": 1,
+          "decoded": false,
+          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+        },
+        {
+          "attempt": 2,
+          "decoded": false,
+          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+        }
+      ],
+      "ffprobe": {
+        "error": "[Errno 2] No such file or directory: 'ffprobe'"
+      },
+      "validated_twice": false
+    },
+    {
+      "id": "C04",
+      "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0407/master.m3u8",
+      "source": "iptv-org/iptv issue 33979 Sonic.in@SD",
+      "fetches": [
+        {
+          "attempt": 1,
+          "decoded": false,
+          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+        },
+        {
+          "attempt": 2,
+          "decoded": false,
+          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+        }
+      ],
+      "ffprobe": {
+        "error": "[Errno 2] No such file or directory: 'ffprobe'"
+      },
+      "validated_twice": false
+    }
+  ]
+}
