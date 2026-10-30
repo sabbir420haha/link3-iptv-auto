@@ -194,6 +194,9 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        # 2026-10-30: newly located explicitly named Sonic Hindi on independent public playlist; audit only.
+        "https://live.dinesh29.com.np/stream/jiotv/sonichindi/master.m3u8",
+
         # 2026-10-29 independently named public GitHub candidates. Audit only;
         # do not publish until real segments, channel identity and language are verified.
         "https://sonamul3535.vercel.app/Sonic-Hindi.m3u8",
@@ -265,6 +268,9 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # 2026-10-30: newly located explicitly named Sonic Bangla on independent public playlist; audit only.
+        "https://live.dinesh29.com.np/stream/jiotv/sonicbangla/master.m3u8",
+
         # Publicly listed Sonic Bangla endpoints (GitHub sources: lolz1990/my,
         # fahadskt/IPTV-Playlists); audit-only, not Link3 verified.
         "https://ott.bingebd.com/live/ngrp:APNTn-asdt-t1asnd2a-sWgtsrhQW_AQTY1025_sonicPQRT_98sdfhs0_f36erxty_forsgst63_DH/chunklist.m3u8",
