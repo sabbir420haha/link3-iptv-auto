@@ -1,23 +1,23 @@
 {
-  "checked_utc": "2026-10-30T16:07:57.231404+00:00",
+  "checked_utc": "2026-10-30T16:45:03.201169+00:00",
   "results": [
     {
-      "url": "http://103.151.43.102:8000/play/a03p/index.m3u8",
+      "url": "http://pkr.cinepex.tv:8278/sonichindikdin/playlist.m3u8",
       "verified": false,
-      "reason": "manifest fetch <urlopen error timed out>",
-      "source": "Telemetr public Indian IPTV group; Sonic multi-audio listed; Hindi track unconfirmed"
+      "reason": "manifest fetch <urlopen error [Errno 111] Connection refused>",
+      "source": "TamannaJain2710/iptv Customised_iptv.m3u; Sonic Hindi-labelled host, distinct from previously failed 70.39.83.58 endpoint"
     },
     {
-      "url": "http://103.174.4.42:4455/play/a05z/index.m3u8",
+      "url": "https://node103074-join-us-on-telegram-streamkinglive.in1.bitmana.io/autoq.php?c=sonic_Hindi",
       "verified": false,
-      "reason": "manifest fetch <urlopen error timed out>",
-      "source": "Sultanovic IPTV listing; Nickelodeon Sonic; Hindi track unconfirmed"
+      "reason": "DNS error [Errno -2] Name or service not known",
+      "source": "Sonuiptvnew/Sonuiptvnew Jio TV.m3u; explicit Sonic Hindi feed"
     },
     {
-      "url": "http://103.151.42.206:8000/play/a03p/index.m3u8",
+      "url": "https://snehtv.in1.bitmana.io/live.php?c=Sonic_Nickelodeon&q=250&e=.m3u8",
       "verified": false,
-      "reason": "manifest fetch <urlopen error timed out>",
-      "source": "Sultanovic public IPTV listing; Sonic; Hindi track unconfirmed"
+      "reason": "DNS error [Errno -2] Name or service not known",
+      "source": "Arun9dec/IPTV IPTV Old; Sonic Nickelodeon, Hindi audio unconfirmed"
     }
   ],
   "published": [],
