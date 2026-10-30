@@ -54,6 +54,8 @@ def ffprobe(buf):
     return h,lang
 
 def manifest(url,depth=0):
+    if re.search(r"(?:[?&]mac=|/play/live\\.php|/stalker/)",url,re.I):
+        raise ValueError("credential_bound_portal_rejected")
     if depth>3: raise ValueError("nested_master")
     body,actual,mime=fetch(url)
     s=body.decode("utf-8","replace").lstrip("\ufeff")
