@@ -8,12 +8,17 @@ import datetime as dt
 import json
 import re
 import time
+import subprocess
 import urllib.parse as up
 from pathlib import Path
 from documentary_probe import fetch,manifest
 
 ROOT=Path(__file__).resolve().parent
-CANDIDATES=json.loads((ROOT/"sonic_hindi_candidates.json").read_text(encoding="utf-8"))["candidates"]
+ALL_CANDIDATES=json.loads((ROOT/"sonic_hindi_candidates.json").read_text(encoding="utf-8"))["candidates"]
+PRIOR_PATH=ROOT/"sonic_hindi_probe_results.json"
+PRIOR=json.loads(PRIOR_PATH.read_text(encoding="utf-8")) if PRIOR_PATH.exists() else {"results":[]}
+FAILED={r["url"] for r in PRIOR.get("results",[]) if r.get("status")=="rejected"}
+CANDIDATES=[c for c in ALL_CANDIDATES if c["url"] not in FAILED and not c.get("remote_probe")]
 PLAY=ROOT/"documentary_hd_tests.m3u"
 OUT=ROOT/"sonic_hindi_probe_results.json"
 LOGO="https://upload.wikimedia.org/wikipedia/en/2/2b/Nickelodeon_Sonic_logo.png"
@@ -45,6 +50,21 @@ def playlist_window(url):
                 "segment":chunks[-1],"finished":"#EXT-X-ENDLIST" in s}
     return None
 
+def decoded_frames(url):
+    """FFmpeg must actually decode >=8 frames, not merely parse a manifest."""
+    cmd=["ffmpeg","-hide_banner","-nostdin","-loglevel","error",
+         "-rw_timeout","10000000","-i",url,"-map","0:v:0",
+         "-an","-frames:v","12","-f","null","-","-progress","pipe:1"]
+    try:
+        p=subprocess.run(cmd,capture_output=True,text=True,timeout=40)
+    except subprocess.TimeoutExpired:
+        raise ValueError("ffmpeg_video_decode_timeout")
+    nums=[int(x) for x in re.findall(r"(?m)^frame=(\\d+)",p.stdout)]
+    frames=max(nums,default=0)
+    if p.returncode or frames<8:
+        raise ValueError("ffmpeg_decode_failed:"+str(frames)+" frames; "+p.stderr[-160:].replace("\\n"," "))
+    return frames
+
 def validate(item):
     row={k:item[k] for k in ("id","url","feed","source")}
     url=item["url"]
@@ -54,12 +74,14 @@ def validate(item):
         h,l,kind,size=manifest(url)
         if h<240:
             raise ValueError("no_decodable_video_height:"+str(h))
+        frames1=decoded_frames(url)
         # Check a second full real video piece / fetching stream a second time.
         # Playlists 24/7 may reuse a segment briefly; don't mistake it for validated movement.
         first=playlist_window(url)
         time.sleep(14)
         h2,l2,kind2,size2=manifest(url)
         if h2<240:raise ValueError("second_video_check_failed")
+        frames2=decoded_frames(url)
         second=playlist_window(url)
         if first and second:
             advanced=((first["last_sequence"] is not None
@@ -77,7 +99,8 @@ def validate(item):
         row.update(status="remote_live_video_verified",height=min(h,h2),
                    audio_lang_metadata=lang,hindi_audio_tag=known_hindi,
                    hindi_feed_label=label_hindi,
-                   checks=2,segment_bytes_first=size,segment_bytes_second=size2,
+                   checks=2,decoded_frames_first=frames1,decoded_frames_second=frames2,
+                   segment_bytes_first=size,segment_bytes_second=size2,
                    live_playlist_advanced=(first is not None and second is not None),
                    format=kind)
     except Exception as e:row.update(status="rejected",error=str(e)[:240])
@@ -88,21 +111,32 @@ def main():
         rows=list(pool.map(validate,CANDIDATES))
     passed=[r for r in rows if r["status"]=="remote_live_video_verified"
             and (r["hindi_audio_tag"] or r["hindi_feed_label"])]
-    # Publication only into separate TEST. Source URL never copied from MAIN.
-    output=["#EXTM3U","# Sonic Hindi TEST sources only. Verified remotely from GitHub runner, not on Link3.",
-            "# Spoken Hindi audio NOT established unless HLS/segment language metadata confirms it.",
-            "# Existing Discovery/NatGeo searching is disabled. MAIN Playlist never touched."]
-    for i,r in enumerate(passed,1):
-        label=f"Sonic Hindi TEST {i:02d} ({r['height']}p)"
-        output.append(f'#EXTINF:-1 tvg-name="{label}" tvg-logo="{LOGO}" group-title="SONIC HINDI TEST",{label}')
-        output.append(r["url"])
-    PLAY.write_text("\n".join(output)+"\n",encoding="utf-8")
+    # Append ONLY newly verified Sonic sources; never clear prior verified tests.
+    existing=PLAY.read_text(encoding="utf-8") if PLAY.exists() else "#EXTM3U\\n"
+    published=[]
+    numbers=[int(n) for n in re.findall(r"Sonic Hindi TEST (\\d+)",existing)]
+    next_number=max(numbers,default=0)+1
+    for r in passed:
+        if r["url"] in existing:
+            continue
+        label=f"Sonic Hindi TEST {next_number:02d} ({r['height']}p)"
+        existing += (f'#EXTINF:-1 tvg-name="{label}" tvg-logo="{LOGO}" '
+                     f'group-title="SONIC HINDI TEST",{label}\\n{r["url"]}\\n')
+        published.append({"test":next_number,"url":r["url"],
+                          "height":r["height"],"audio_lang_metadata":r["audio_lang_metadata"],
+                          "decoded_frames_first":r["decoded_frames_first"],
+                          "decoded_frames_second":r["decoded_frames_second"]})
+        next_number+=1
+    if published:
+        PLAY.write_text(existing,encoding="utf-8")
+    history=PRIOR.get("results",[])+rows
     report={"checked_utc":dt.datetime.now(dt.timezone.utc).isoformat(),
-            "source_count":len(rows),"remote_verified":len(passed),
+            "newly_checked":len(rows),"total_results":len(history),
+            "remote_verified_new":len(passed),"published":published,
             "remote_only_not_Link3":True,
-            "audio_note":"Feed label is weaker evidence than actual HLS/segment Hindi language metadata.",
-            "results":rows}
-    OUT.write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
-    print(json.dumps({"checked":len(rows),"working_sonic_test":len(passed),
-                      "verified":list((r["id"],r["height"]) for r in passed)}))
+            "audio_note":"Feed label is weaker evidence than HLS/segment Hindi language metadata.",
+            "results":history}
+    OUT.write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\\n",encoding="utf-8")
+    print(json.dumps({"newly_checked":len(rows),"published":published}))
+
 if __name__=="__main__":main()
