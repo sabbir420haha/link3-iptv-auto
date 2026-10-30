@@ -1,7 +1,7 @@
 {
-  "checked_utc": "2026-10-30T21:28:12.938522+00:00",
-  "newly_checked": 0,
-  "total_results": 93,
+  "checked_utc": "2026-10-30T21:47:30.905741+00:00",
+  "newly_checked": 2,
+  "total_results": 95,
   "remote_verified_new": 0,
   "published": [],
   "remote_only_not_Link3": true,
@@ -750,6 +750,22 @@
       "source": "fahadskt/IPTV-Playlists Old/Palash Raj; filename sonic_Hindi, playlist calls Sonic Bangla (language conflict)",
       "status": "rejected",
       "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S116",
+      "url": "http://119.152.240.15:8001/play/a0cx/index.m3u8",
+      "feed": "Sonic India; Hindi unconfirmed",
+      "source": "rabbyos/rabbyos Tplay; public SONIC entry; Pakistan public IP; Hindi audio unconfirmed",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S117",
+      "url": "https://anywhere.pwisetthon.com/http://203.18.159.115/SONIC/tracks-v1a1/mono.m3u8",
+      "feed": "Sonic Hindi; audio metadata unverified",
+      "source": "konanda-sg/teststst tplay/main.js; public Sonic channel explicitly categorized Hindi India; third-party relay",
+      "status": "rejected",
+      "error": "HTTP Error 404: Not Found"
     }
   ]
 }
