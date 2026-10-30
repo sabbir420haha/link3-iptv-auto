@@ -14,7 +14,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Verify ffmpeg availability
-        run: command -v ffprobe && command -v ffmpeg
+        run: |
+          if ! command -v ffprobe || ! command -v ffmpeg; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq ffmpeg
+          fi
+          command -v ffprobe && command -v ffmpeg
       - name: Validate newly sourced public Sonic candidates twice
         shell: bash
         run: |
