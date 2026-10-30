@@ -29,7 +29,11 @@ jobs:
           from pathlib import Path
           candidates=[
             {"url":"http://103.139.171.5:5001/live.php?c=sonic_Hindi&q=800&e=junk.m3u8","source":"Sonuiptvnew/Sonuiptvnew jio.m3u; explicitly Sonic Hindi, Jio channel 815"},
-            {"url":"https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=765200.m3u8","source":"Hasibfy37/Iptv Final.m3u; explicit Hindi audio track"}
+            {"url":"https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=765200.m3u8","source":"Hasibfy37/Iptv Final.m3u; explicit Hindi audio track"},
+            {"url":"http://65.2.4.240/jioo.php?c=sonic_Hindi&q=800&e=.m3u8","source":"Sonuiptvnew/Sonuiptvnew sonuuptvjio.M3U, Sonic Hindi"},
+            {"url":"https://tulnit.fun/jiotv/app/ts_live_815.m3u8","source":"moajzim47/moajzimofficials PHONE_VERSION_MoAj_STREAMZ_PLAY_m3u, Sonic 815 (without cookie)"},
+            {"url":"https://amit-1.allinonereborn.in/jiotv-ww313/app/ts_live_815.m3u8","source":"streamifytv/streamifytv jiotv.json, Sonic Hindi 815"},
+            {"url":"https://mintos.allinonereborn.xyz/jiotv-ww31/app/ts_live_815.m3u8","source":"rkbro23/rk_playlist jiotvww.m3u, Sonic Hindi 815"}
           ]
           prior=json.loads(Path('sonic_hindi_candidates.json').read_text())
           registry=json.loads(Path('favorites_test_registry.json').read_text())
