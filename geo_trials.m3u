@@ -428,46 +428,6 @@ https://re-streaming-xfireflix.vercel.app/api/OPX/245914.m3u8
 https://livess.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/chunks.m3u8
 #EXTINF:-1 tvg-id="fav-dbc-news-30" tvg-name="DBC News TEST 30" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 30
 http://bd.jagobd.com:1931/live-orgin/dbcnews.stream/chunks.m3u8
-#EXTINF:-1 tvg-id="fav-discovery-bangla-01" tvg-name="Discovery Bangla TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 01
-http://103.135.253.32:8080/DISCOVERY-BANGLA/index.m3u8
-#EXTINF:-1 tvg-id="fav-discovery-bangla-02" tvg-name="Discovery Bangla TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 02
-http://103.135.253.32:8080/DISCOVERY-BENGALI/index.m3u8
-#EXTINF:-1 tvg-id="fav-discovery-bangla-03" tvg-name="Discovery Bangla TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 03
-http://103.135.253.32:8080/DISCOVERY-HD-BANGLA/index.m3u8
-#EXTINF:-1 tvg-id="fav-discovery-bangla-04" tvg-name="Discovery Bangla TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 04
-https://load.airtelxstream.in/discoverychannelbengali/smil:common.smil/playlist.m3u8?DVR
-#EXTINF:-1 tvg-id="fav-discovery-bangla-05" tvg-name="Discovery Bangla TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 05
-http://103.89.248.130:8082/DISCOVERY-BANGLA/index.m3u8
-#EXTINF:-1 tvg-id="fav-discovery-bangla-06" tvg-name="Discovery Bangla TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 06
-http://103.180.212.191:3500/live/573.m3u8
-#EXTINF:-1 tvg-id="fav-discovery-bangla-07" tvg-name="Discovery Bangla TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 07
-http://103.17.193.159:5001/live/573.m3u8
-#EXTINF:-1 tvg-id="fav-discovery-bangla-08" tvg-name="Discovery Bangla TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 08
-http://103.107.79.87:8080/CH8110HD08/video.m3u8
-#EXTINF:-1 tvg-id="fav-discovery-bangla-09" tvg-name="Discovery Bangla TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 09
-http://175.107.244.52:4455/play/a01v/index.m3u8
-#EXTINF:-1 tvg-id="fav-discovery-bangla-10" tvg-name="Discovery Bangla TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 10
-http://103.159.180.34:5001/live/573.m3u8
-#EXTINF:-1 tvg-id="fav-discovery-bangla-11" tvg-name="Discovery Bangla TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 11
-http://103.229.254.25:7001/play/a03g/index.m3u8
-#EXTINF:-1 tvg-id="fav-discovery-bangla-12" tvg-name="Discovery Bangla TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 12
-http://103.107.79.87:8080/CH8110HD08/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="fav-discovery-bangla-13" tvg-name="Discovery Bangla TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 13
-https://cdn1-freeiptv25.vercel.app/m3u/discoverybengali.m3u8
-#EXTINF:-1 tvg-id="fav-discovery-bangla-14" tvg-name="Discovery Bangla TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 14
-https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_19.m3u8
-#EXTINF:-1 tvg-id="fav-discovery-bangla-15" tvg-name="Discovery Bangla TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 15
-https://starplay2.netlify.app/m3u/discoverybengali.m3u8
-#EXTINF:-1 tvg-id="fav-discovery-bangla-16" tvg-name="Discovery Bangla TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 16
-http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/61.ts
-#EXTINF:-1 tvg-id="fav-discovery-bangla-17" tvg-name="Discovery Bangla TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 17
-https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_21.m3u8
-#EXTINF:-1 tvg-id="fav-discovery-bangla-18" tvg-name="Discovery Bangla TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 18
-https://khulnalive.anytv.live/discoverybangla/index.m3u8
-#EXTINF:-1 tvg-id="fav-discovery-bangla-19" tvg-name="Discovery Bangla TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 19
-https://ccntv.anytv.live/discoverybangla/index.m3u8
-#EXTINF:-1 tvg-id="fav-discovery-bangla-20" tvg-name="Discovery Bangla TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 20
-https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=573
 #EXTINF:-1 tvg-id="fav-disney-hd-hindi-01" tvg-name="Disney HD Hindi TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 01
 http://xtv.ooo:8080/live/415663775/826262627/167551.m3u8
 #EXTINF:-1 tvg-id="fav-disney-hd-hindi-03" tvg-name="Disney HD Hindi TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 03
@@ -786,24 +746,6 @@ http://mtv.sunplex.live/MAASRANGA-TV/index.m3u8
 https://mtv.sunplex.live/MAASRANGA-TV/index.m3u8
 #EXTINF:-1 tvg-id="fav-maasranga-tv-30" tvg-name="Maasranga TV TEST 30" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/maasranga-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Maasranga TV",Maasranga TV TEST 30
 https://somoy.appv.jagobd.com:444/somoy/mass.stream/playlist.m3u8?key=thenayeemparvez
-#EXTINF:-1 tvg-id="fav-nat-geo-hd-bangla-01" tvg-name="Nat Geo HD Bangla TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="9 | TEST - Nat Geo HD Bangla",Nat Geo HD Bangla TEST 01
-http://103.81.104.222/live/national-geographic/index.m3u8
-#EXTINF:-1 tvg-id="fav-nat-geo-hd-bangla-02" tvg-name="Nat Geo HD Bangla TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="9 | TEST - Nat Geo HD Bangla",Nat Geo HD Bangla TEST 02
-https://tvsen6.aynaott.com/natgeo/index.m3u8
-#EXTINF:-1 tvg-id="fav-nat-geo-hd-bangla-03" tvg-name="Nat Geo HD Bangla TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="9 | TEST - Nat Geo HD Bangla",Nat Geo HD Bangla TEST 03
-http://103.167.167.5:8111/play/a036/index.m3u8
-#EXTINF:-1 tvg-id="fav-nat-geo-hd-bangla-04" tvg-name="Nat Geo HD Bangla TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="9 | TEST - Nat Geo HD Bangla",Nat Geo HD Bangla TEST 04
-http://103.89.248.130:8082/National-geo-graphy-bangla/index.m3u8
-#EXTINF:-1 tvg-id="fav-nat-geo-hd-bangla-05" tvg-name="Nat Geo HD Bangla TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="9 | TEST - Nat Geo HD Bangla",Nat Geo HD Bangla TEST 05
-http://103.55.144.46/hls/ngohd.m3u8
-#EXTINF:-1 tvg-id="fav-nat-geo-hd-bangla-06" tvg-name="Nat Geo HD Bangla TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="9 | TEST - Nat Geo HD Bangla",Nat Geo HD Bangla TEST 06
-http://103.153.175.254:8080/hls/stream13.m3u8
-#EXTINF:-1 tvg-id="fav-nat-geo-hd-bangla-07" tvg-name="Nat Geo HD Bangla TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="9 | TEST - Nat Geo HD Bangla",Nat Geo HD Bangla TEST 07
-https://last.gcdn.co/IND414/index.m3u8
-#EXTINF:-1 tvg-id="fav-nat-geo-hd-bangla-08" tvg-name="Nat Geo HD Bangla TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="9 | TEST - Nat Geo HD Bangla",Nat Geo HD Bangla TEST 08
-http://202.70.146.135:8000/play/a05o/index.m3u8
-#EXTINF:-1 tvg-id="fav-nat-geo-hd-bangla-09" tvg-name="Nat Geo HD Bangla TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="9 | TEST - Nat Geo HD Bangla",Nat Geo HD Bangla TEST 09
-https://cdn1.pishow.tv/live/252/master.m3u8
 #EXTINF:-1 tvg-id="fav-nick-bangla-01" tvg-name="Nick Bangla TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Nick Bangla",Nick Bangla TEST 01
 http://14.102.123.50:5001/live/1341.m3u8
 #EXTINF:-1 tvg-id="fav-nick-bangla-02" tvg-name="Nick Bangla TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Nick Bangla",Nick Bangla TEST 02
@@ -1162,11 +1104,3 @@ http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.
 https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8
 
 # New documentary candidates, 2026-10-30. These will be regrouped by geo_trial.py on the next scheduled refresh.
-#EXTINF:-1 tvg-id="fav-discovery-bangla-20" tvg-name="Discovery Bangla TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 20
-https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=573
-#EXTINF:-1 tvg-id="fav-nat-geo-hd-bangla-07" tvg-name="Nat Geo HD Bangla TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="9 | TEST - Nat Geo HD Bangla",Nat Geo HD Bangla TEST 07
-https://last.gcdn.co/IND414/index.m3u8
-#EXTINF:-1 tvg-id="fav-nat-geo-hd-bangla-08" tvg-name="Nat Geo HD Bangla TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="9 | TEST - Nat Geo HD Bangla",Nat Geo HD Bangla TEST 08
-http://202.70.146.135:8000/play/a05o/index.m3u8
-#EXTINF:-1 tvg-id="fav-nat-geo-hd-bangla-09" tvg-name="Nat Geo HD Bangla TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="9 | TEST - Nat Geo HD Bangla",Nat Geo HD Bangla TEST 09
-https://cdn1.pishow.tv/live/252/master.m3u8
