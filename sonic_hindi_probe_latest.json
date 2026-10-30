@@ -1,17 +1,17 @@
 {
-  "checked_utc": "2026-10-30T07:12:32.322161+00:00",
+  "checked_utc": "2026-10-30T07:15:02.390218+00:00",
   "results": [
     {
-      "url": "http://70.39.83.58:8278/sonichindikdin/playlist.m3u8",
+      "url": "https://ninjatv.host/star/ninjatv.m3u8?id=207.ts",
       "verified": false,
-      "reason": "manifest fetch <urlopen error [Errno 111] Connection refused>",
-      "source": "Sonuiptvnew/Sonuiptvnew sonuiptv-kids.m3u; Robertlittle2469 Kids Playlist"
+      "reason": "DNS error [Errno -2] Name or service not known",
+      "source": "tvbd/m3uplayer m3u/splaylist.m3u IN: sonic_Hindi"
     },
     {
-      "url": "http://pkr.cinepex.tv:8278/sonichindikdin/playlist.m3u8",
+      "url": "https://fifabdmob.site/new.php?id=JC_SonicNick/JCHLS/JC_SonicNick-audio_108041_hin=108000-video=662800.m3u8",
       "verified": false,
-      "reason": "manifest fetch <urlopen error [Errno 111] Connection refused>",
-      "source": "TamannaJain2710/iptv Customised_iptv.m3u"
+      "reason": "manifest fetch HTTP Error 404: Not Found",
+      "source": "opensourceflix/Friday vottobd.m3u8 Sonic Hindi audio variant"
     }
   ],
   "published": [],
