@@ -1,0 +1,35 @@
+#EXTM3U
+# Documentary HD Trial | 2026-10-30 | Link3 IPTV Pro
+# MAIN entries are prior user-confirmed references; all TEST entries are UNVERIFIED on Link3.
+# Do not assume a source is 720p/1080p or Bengali audio before checking in player.
+# Main playlist.m3u remains unchanged.
+# User-confirmed Link3 baseline; quality not measured
+#EXTINF:-1 tvg-id="docu-discovery-bangla-main" tvg-name="Discovery Bangla | MAIN REFERENCE" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="DOCUMENTARY | Discovery Bangla HD TEST",Discovery Bangla | MAIN REFERENCE
+https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8
+# Existing Airtel Bengali trial; resolution unverified
+#EXTINF:-1 tvg-id="docu-discovery-bangla-04" tvg-name="Discovery Bangla TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="DOCUMENTARY | Discovery Bangla HD TEST",Discovery Bangla TEST 04
+https://load.airtelxstream.in/discoverychannelbengali/smil:common.smil/playlist.m3u8?DVR
+# Existing Akamai Bangla HD-labelled trial; playback unverified
+#EXTINF:-1 tvg-id="docu-discovery-bangla-17" tvg-name="Discovery Bangla TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="DOCUMENTARY | Discovery Bangla HD TEST",Discovery Bangla TEST 17
+https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_21.m3u8
+# Existing Bangla trial; playback unverified
+#EXTINF:-1 tvg-id="docu-discovery-bangla-18" tvg-name="Discovery Bangla TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="DOCUMENTARY | Discovery Bangla HD TEST",Discovery Bangla TEST 18
+https://khulnalive.anytv.live/discoverybangla/index.m3u8
+# NEW Jio relay Bengali-labelled trial; not authenticated/verified
+#EXTINF:-1 tvg-id="docu-discovery-bangla-20" tvg-name="Discovery Bangla TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="DOCUMENTARY | Discovery Bangla HD TEST",Discovery Bangla TEST 20
+https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=573
+# User-confirmed Link3 baseline; resolution not measured
+#EXTINF:-1 tvg-id="docu-nat-geo-hd-bangla-main" tvg-name="Nat Geo HD Bangla | MAIN REFERENCE" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="DOCUMENTARY | Nat Geo HD Bangla HD TEST",Nat Geo HD Bangla | MAIN REFERENCE
+http://103.135.253.32:8080/NATGEO-HD/index.m3u8
+# Existing Bangla-HD-labelled trial; may be ISP-restricted
+#EXTINF:-1 tvg-id="docu-nat-geo-hd-bangla-03" tvg-name="Nat Geo HD Bangla TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="DOCUMENTARY | Nat Geo HD Bangla HD TEST",Nat Geo HD Bangla TEST 03
+http://103.167.167.5:8111/play/a036/index.m3u8
+# NEW third-party playlist explicitly labels Nat Geo HD Bangla
+#EXTINF:-1 tvg-id="docu-nat-geo-hd-bangla-07" tvg-name="Nat Geo HD Bangla TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="DOCUMENTARY | Nat Geo HD Bangla HD TEST",Nat Geo HD Bangla TEST 07
+https://last.gcdn.co/IND414/index.m3u8
+# NEW National Geographic HD candidate; Bangla audio unconfirmed
+#EXTINF:-1 tvg-id="docu-nat-geo-hd-bangla-08" tvg-name="Nat Geo HD Bangla TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="DOCUMENTARY | Nat Geo HD Bangla HD TEST",Nat Geo HD Bangla TEST 08
+http://202.70.146.135:8000/play/a05o/index.m3u8
+# NEW National Geographic candidate; Bangla audio unconfirmed
+#EXTINF:-1 tvg-id="docu-nat-geo-hd-bangla-09" tvg-name="Nat Geo HD Bangla TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="DOCUMENTARY | Nat Geo HD Bangla HD TEST",Nat Geo HD Bangla TEST 09
+https://cdn1.pishow.tv/live/252/master.m3u8
