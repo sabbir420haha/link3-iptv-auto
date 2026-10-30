@@ -76,14 +76,21 @@ def manifest(url,depth=0):
         if not opts: raise ValueError("master_no_variant")
         advertised,url2=max(opts,key=lambda t:t[0])
         real,langs,typ,size=manifest(url2,depth+1)
-        return max(real,advertised),langs,"master+"+typ,size
+        return real,langs,"master+"+typ,size
     if "#EXTINF" not in s and "#EXT-X-MAP" not in s: raise ValueError("no_hls_media")
     seg=next((lines[i+1] for i,line in enumerate(lines[:-1])
               if line.startswith("#EXTINF") and not lines[i+1].startswith("#")),None)
     if not seg:
         seg=next((v for v in lines if not v.startswith("#")),None)
     if not seg: raise ValueError("no_segment")
-    data,_,ct=fetch(up.urljoin(actual,seg),1000000)
+    data,_,ct=fetch(up.urljoin(actual,seg),7000000)
+    m=re.search(r'#EXT-X-MAP:URI="([^"]+)"',s)
+    if m:
+        try:
+            init,_,_=fetch(up.urljoin(actual,m.group(1)),400000)
+            data=init+data
+        except Exception:
+            pass
     if len(data)<512 or b"#EXTM3U" in data[:100]:
         raise ValueError("empty_or_fake_segment")
     if ct.lower().startswith("text/html") or b"<html" in data[:256].lower():
@@ -99,11 +106,58 @@ def manifest(url,depth=0):
             if m: langs.append(m.group(1))
     return height,langs,"media",len(data)
 
+def estimate_bitrate(url,depth=0):
+    """Estimate delivered bitrate from TWO complete HLS chunks, not just 'HD' labels.
+    Returns (bps, type), or (None, None) if data incomplete/unavailable.
+    No main file is written.
+    """
+    if depth>3: return None,None
+    body,actual,_=fetch(url)
+    playlist=body.decode("utf-8","replace")
+    if "#EXTM3U" not in playlist[:200]: return None,None
+    lines=[x.strip() for x in playlist.splitlines() if x.strip()]
+    if "#EXT-X-STREAM-INF" in playlist:
+        variants=[]
+        for i,line in enumerate(lines[:-1]):
+            if not line.startswith("#EXT-X-STREAM-INF"):continue
+            h=re.search(r"RESOLUTION=\\d+x(\\d+)",line)
+            v=re.search(r"BANDWIDTH=(\\d+)",line)
+            nexturl=next((z for z in lines[i+1:] if not z.startswith("#")),None)
+            if nexturl:variants.append((int(h.group(1)) if h else 0,int(v.group(1)) if v else 0,up.urljoin(actual,nexturl)))
+        if not variants:return None,None
+        target=max(variants,key=lambda x:(x[0],x[1]))
+        measured,kind=estimate_bitrate(target[2],depth+1)
+        if measured:return measured,kind
+        if target[1]:return target[1],"master_advertised"
+        return None,None
+    segments=[]
+    for i,line in enumerate(lines[:-1]):
+        if line.startswith("#EXTINF:") and not lines[i+1].startswith("#"):
+            d=re.search(r"#EXTINF:([\\d.]+)",line)
+            if d and float(d.group(1))>0:
+                segments.append((float(d.group(1)),up.urljoin(actual,lines[i+1])))
+    # End of list represents recent live chunks.
+    observed=[]
+    for dur,segurl in segments[-2:]:
+        try:
+            payload,_,_=fetch(segurl,7000000)
+            if 4096<len(payload)<7000000:
+                observed.append((len(payload)*8)/dur)
+        except Exception:pass
+    if len(observed)==2:
+        return round(sum(observed)/len(observed)),"sampled_2_segments"
+    return None,None
+
 def run(item):
     row={k:item[k] for k in ("id","channel","url","source")}
     try:
         h,l,t,n=manifest(item["url"])
-        row.update({"status":"hd_video_verified" if h>=720 else "video_but_not_hd_confirmed",
+        try:
+            bitrate,bitrate_kind=estimate_bitrate(item["url"]) if h>=720 else (None,None)
+        except Exception:
+            bitrate,bitrate_kind=None,None
+        row.update({"bitrate_bps":bitrate,"bitrate_kind":bitrate_kind,
+                    "status":"hd_video_verified" if h>=720 else "video_but_not_hd_confirmed",
                     "height":h,"audio_language_tags":l,"format":t,"segment_bytes":n,
                     "bengali_metadata":any(x.lower() in ("bn","ben","bengali") for x in l)})
     except Exception as e: row.update({"status":"failed","error":str(e)[:240]})
@@ -127,7 +181,12 @@ def check_baselines():
     for name,url in baseline_urls().items():
         try:
             h,langs,kind,size=manifest(url)
+            try:
+                bitrate,bitrate_kind=estimate_bitrate(url)
+            except Exception:
+                bitrate,bitrate_kind=None,None
             results[name]={"measured_or_advertised_height":h,"audio_tags":langs,
+                           "bitrate_bps":bitrate,"bitrate_kind":bitrate_kind,
                            "scope":"GitHub remote check, NOT Link3 playback"}
         except Exception as exc:
             results[name]={"measured_or_advertised_height":None,"reason":str(exc)[:120],
@@ -140,7 +199,13 @@ def main():
         results=list(pool.map(run,POOL))
     publish=[x for x in results if x["status"]=="hd_video_verified" and
              (baseline.get(x["channel"],{}).get("measured_or_advertised_height") is None
-              or x["height"]>baseline[x["channel"]]["measured_or_advertised_height"])]
+              or x["height"]>baseline[x["channel"]]["measured_or_advertised_height"]
+              or (x["height"]==baseline[x["channel"]]["measured_or_advertised_height"]
+                  and x.get("bitrate_kind")=="sampled_2_segments"
+                  and baseline[x["channel"]].get("bitrate_kind")=="sampled_2_segments"
+                  and x.get("bitrate_bps") is not None
+                  and baseline[x["channel"]].get("bitrate_bps") is not None
+                  and x["bitrate_bps"] > 1.35*baseline[x["channel"]]["bitrate_bps"]))]
     doc=["#EXTM3U","# Remote GitHub runner verified real HD video segments; NOT Link3-verified.",
          "# Bengali spoken audio NOT guaranteed (unless metadata says so).",
          "# No MAIN source URLs or failed sources. Select TEST by number."]
