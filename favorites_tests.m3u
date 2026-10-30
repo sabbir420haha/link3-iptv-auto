@@ -1152,3 +1152,13 @@ http://103.162.136.235:4500/play/a01k/index.m3u8
 http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8
 #EXTINF:-1 tvg-id="fav-sonic-hindi-28" tvg-name="Sonic Hindi TEST 28" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 28
 https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8
+
+# New documentary candidates, 2026-10-30. These will be regrouped by geo_trial.py on the next scheduled refresh.
+#EXTINF:-1 tvg-id="fav-discovery-bangla-20" tvg-name="Discovery Bangla TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="9 | TEST - Discovery Bangla",Discovery Bangla TEST 20
+https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=573
+#EXTINF:-1 tvg-id="fav-nat-geo-hd-bangla-07" tvg-name="Nat Geo HD Bangla TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="9 | TEST - Nat Geo HD Bangla",Nat Geo HD Bangla TEST 07
+https://last.gcdn.co/IND414/index.m3u8
+#EXTINF:-1 tvg-id="fav-nat-geo-hd-bangla-08" tvg-name="Nat Geo HD Bangla TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="9 | TEST - Nat Geo HD Bangla",Nat Geo HD Bangla TEST 08
+http://202.70.146.135:8000/play/a05o/index.m3u8
+#EXTINF:-1 tvg-id="fav-nat-geo-hd-bangla-09" tvg-name="Nat Geo HD Bangla TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="9 | TEST - Nat Geo HD Bangla",Nat Geo HD Bangla TEST 09
+https://cdn1.pishow.tv/live/252/master.m3u8
