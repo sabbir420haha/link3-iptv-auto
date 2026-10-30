@@ -1,11 +1,23 @@
 {
-  "checked_utc": "2026-10-30T14:50:24.182188+00:00",
+  "checked_utc": "2026-10-30T16:07:57.231404+00:00",
   "results": [
     {
-      "url": "http://103.253.18.58:8000/play/a011",
+      "url": "http://103.151.43.102:8000/play/a03p/index.m3u8",
       "verified": false,
       "reason": "manifest fetch <urlopen error timed out>",
-      "source": "aria-tv/aria channels/india.md; Sonic India, listed unstable; Hindi audio unconfirmed"
+      "source": "Telemetr public Indian IPTV group; Sonic multi-audio listed; Hindi track unconfirmed"
+    },
+    {
+      "url": "http://103.174.4.42:4455/play/a05z/index.m3u8",
+      "verified": false,
+      "reason": "manifest fetch <urlopen error timed out>",
+      "source": "Sultanovic IPTV listing; Nickelodeon Sonic; Hindi track unconfirmed"
+    },
+    {
+      "url": "http://103.151.42.206:8000/play/a03p/index.m3u8",
+      "verified": false,
+      "reason": "manifest fetch <urlopen error timed out>",
+      "source": "Sultanovic public IPTV listing; Sonic; Hindi track unconfirmed"
     }
   ],
   "published": [],
