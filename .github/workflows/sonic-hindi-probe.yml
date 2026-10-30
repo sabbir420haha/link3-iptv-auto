@@ -31,7 +31,8 @@ jobs:
             {"url":"https://node103074-join-us-on-telegram-streamkinglive.in1.bitmana.io/autoq.php?c=sonic_Hindi","source":"Sonuiptvnew/Sonuiptvnew Jio TV.m3u explicitly Sonic Hindi"},
             {"url":"http://indtv.online/sonic_Hindi.m3u8","source":"fahadskt/IPTV-Playlists Old/Palash Raj Sonic Hindi"},
             {"url":"http://pkr.cinepex.tv:8278/sonichindikdin/playlist.m3u8","source":"TamannaJain2710/iptv Customised_iptv.m3u explicitly SONIC"}
-          ]          base = pathlib.Path(".")
+          ]
+          base = pathlib.Path(".")
           registry = json.loads((base/"sonic_hindi_candidates.json").read_text())
           favorites = json.loads((base/"favorites_test_registry.json").read_text())
           testpath = base/"documentary_hd_tests.m3u"
