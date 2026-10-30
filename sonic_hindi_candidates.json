@@ -490,6 +490,34 @@
       "source": "SArun61/IPTV Jio.m3u",
       "feed": "Sonic Hindi",
       "remote_probe": "DNS failure on GitHub Actions 2026-10-30"
+    },
+    {
+      "id": "S82",
+      "url": "http://103.72.101.252:8080/live/815.m3u8",
+      "source": "ttmttm/iptv_2026 streams/in.m3u Sonic.in@SD; channel 815 corresponds to Jio Sonic Hindi",
+      "feed": "Sonic India; Hindi audio unconfirmed",
+      "remote_probe": "manifest fetch <urlopen error timed out> on GitHub Actions 2026-10-30"
+    },
+    {
+      "id": "S83",
+      "url": "http://66.102.120.18:8000/play/a00p/index.m3u8",
+      "source": "SajadTroy/openstream streams/in.m3u Sonic.in@SD",
+      "feed": "Sonic India; Hindi audio unconfirmed",
+      "remote_probe": "manifest fetch <urlopen error timed out> on GitHub Actions 2026-10-30"
+    },
+    {
+      "id": "S84",
+      "url": "http://103.167.255.18:8085/play/a0nf/index.m3u8",
+      "source": "dineshkn-dev/hyper-tv data/playlist.m3u8.bak Sonic.in@SD",
+      "feed": "Sonic India; Hindi audio unconfirmed",
+      "remote_probe": "manifest fetch <urlopen error [Errno 111] Connection refused> on GitHub Actions 2026-10-30"
+    },
+    {
+      "id": "S85",
+      "url": "http://103.153.39.34:8000/play/a04p/index.m3u8",
+      "source": "imranemon1/emon Iptv.m3u Sonic 3 and riyad456/supernetIPTV Sonic 2",
+      "feed": "Sonic India; Hindi audio unconfirmed",
+      "remote_probe": "manifest fetch <urlopen error timed out> on GitHub Actions 2026-10-30"
     }
   ]
 }
