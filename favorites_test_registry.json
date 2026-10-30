@@ -2967,6 +2967,11 @@
           "number": "19",
           "url": "https://ccntv.anytv.live/discoverybangla/index.m3u8",
           "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "20",
+          "url": "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=573",
+          "origin": "SM-IPTV Combined_Live_TV.m3u; Jio discovery Bengali relay; Link3 and resolution unverified"
         }
       ]
     },
@@ -3002,6 +3007,21 @@
           "number": "06",
           "url": "http://103.153.175.254:8080/hls/stream13.m3u8",
           "origin": "Curated GitHub IPTV stream trial"
+        },
+        {
+          "number": "07",
+          "url": "https://last.gcdn.co/IND414/index.m3u8",
+          "origin": "thenahidul/iptv.m3u, explicitly labels NAT GEO HD Bangla; Link3 unverified"
+        },
+        {
+          "number": "08",
+          "url": "http://202.70.146.135:8000/play/a05o/index.m3u8",
+          "origin": "SM-IPTV Combined_Live_TV.m3u, National Geography HD; Bengali audio and Link3 unverified"
+        },
+        {
+          "number": "09",
+          "url": "https://cdn1.pishow.tv/live/252/master.m3u8",
+          "origin": "ibrahim4250/ibrahim.m3u National Geographic; Bengali audio and Link3 unverified"
         }
       ]
     }
@@ -3014,5 +3034,5 @@
       "details": "Old TEST 01-30 failed. Do not re-add."
     }
   },
-  "last_updated": "2026-10-29"
+  "last_updated": "2026-10-30"
 }
