@@ -572,6 +572,34 @@
       "url": "http://indtv.online/sonic_Hindi.m3u8",
       "source": "fahadskt/IPTV-Playlists Old/Palash Raj; filename sonic_Hindi, playlist calls Sonic Bangla (language conflict)",
       "feed": "Sonic Hindi uncertain (source labels Bangla)"
+    },
+    {
+      "id": "S94",
+      "url": "https://madplay.live/hls/jiotv/stream.php?id=815&e=.m3u8",
+      "source": "Mrlivetv/Fredlix playlist.html, explicitly Sonic Hindi Jio 815",
+      "feed": "Sonic Hindi candidate (source label; audio unverified)",
+      "remote_probe": "GitHub Actions 2026-10-30: not HLS media/master manifest; no two decoded video fetches"
+    },
+    {
+      "id": "S95",
+      "url": "http://mxonlive-restream.atwebpages.com/opplex/x1.php/62179.m3u8",
+      "source": "mxonlive/mxonlive.github.io playlists/kids.m3u, D2H Sonic Hindi",
+      "feed": "Sonic Hindi candidate (source label; audio unverified)",
+      "remote_probe": "GitHub Actions 2026-10-30: manifest fetch HTTP Error 403: Forbidden; no two decoded video fetches"
+    },
+    {
+      "id": "S96",
+      "url": "http://stream-7b694ce7e.nmbs.top/m3u/Kids/ae4d2ba214.m3u8",
+      "source": "lolz1990/my kids.m3u, Sonic Nickelodeon",
+      "feed": "Sonic Hindi candidate (source label; audio unverified)",
+      "remote_probe": "GitHub Actions 2026-10-30: manifest fetch Remote end closed connection without response; no two decoded video fetches"
+    },
+    {
+      "id": "S97",
+      "url": "https://tv.googledrivelinks.com/live.php?c=sonic_Hindi&q=800&e=.m3u8",
+      "source": "r0m35h/main iptv.m3u, explicitly Sonic Hindi",
+      "feed": "Sonic Hindi candidate (source label; audio unverified)",
+      "remote_probe": "GitHub Actions 2026-10-30: DNS error [Errno -5] No address associated with hostname; no two decoded video fetches"
     }
   ]
 }
