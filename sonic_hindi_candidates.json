@@ -628,6 +628,13 @@
       "source": "iptv-org/iptv issue 33979 Sonic.in@SD",
       "feed": "Sonic India; Hindi audio unconfirmed",
       "remote_probe": "2x GitHub Actions FFmpeg exit -11, zero decoded frames 2026-10-30"
+    },
+    {
+      "id": "S102",
+      "url": "http://103.253.18.58:8000/play/a011",
+      "source": "aria-tv/aria channels/india.md Sonic India, marked unstable",
+      "feed": "Sonic India; Hindi unconfirmed",
+      "remote_probe": "GitHub Actions 2026-10-30 14:50 UTC: HLS manifest fetch timed out; zero decoded video frames; not eligible"
     }
   ]
 }
