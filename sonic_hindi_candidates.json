@@ -560,6 +560,18 @@
       "source": "rkbro23/rk_playlist jiotvww.m3u, Sonic Hindi 815",
       "feed": "Sonic Hindi",
       "remote_probe": "Connection timeout; GitHub Actions ffmpeg/ffprobe, 2 fetches, 2026-10-30"
+    },
+    {
+      "id": "S92",
+      "url": "http://103.180.212.191:3500/live/815.m3u8",
+      "source": "badalbd53/Rocket-OTV hindi playlist; explicitly Sonic Hindi, Jio channel 815",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S93",
+      "url": "http://indtv.online/sonic_Hindi.m3u8",
+      "source": "fahadskt/IPTV-Playlists Old/Palash Raj; filename sonic_Hindi, playlist calls Sonic Bangla (language conflict)",
+      "feed": "Sonic Hindi uncertain (source labels Bangla)"
     }
   ]
 }
