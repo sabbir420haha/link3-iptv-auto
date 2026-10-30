@@ -15,6 +15,12 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-10-31 independent public GitHub sources; runner audit only, no publication.
+    {"channel":"Sonic Bangla","url":"http://103.204.43.87:8080/live/1/1/274.m3u8","evidence":"github.com/tasinislam17/test FiFa 2026 WC IPTV Channels.m3u8; exact Sonic Bangla label, network may be BDIX-only","expected_audio":"bn"},
+    {"channel":"Sonic Bangla","url":"https://jio.drmlive.au/jio/bpk-tv/Sonic_Bangla_MOB/Fallback/index.m3u8","evidence":"github.com/tvbd/json tv/tv.json; Sonic Bangla ID 1345, Bengali language label; public endpoint may require access","expected_audio":"bn"},
+    {"channel":"Disney HD Hindi","url":"https://prox.assadikb.workers.dev/watch/1373JP","evidence":"github.com/AssadikBitul/playlist alltvx.m3u labels Disney Channel (not Junior); HD and Hindi unconfirmed","expected_audio":"hi","min_height":720},
+    {"channel":"Sonic Hindi","url":"https://madanitv.assadikb.workers.dev/live.php?id=815&e=.m3u8","evidence":"github.com/sm-monirulislam/SM-IPTV iptv_bd.m3u labels Sonic Hindi ID 815","expected_audio":"hi"},
+    {"channel":"Sonic Bangla","url":"https://madanitv.assadikb.workers.dev/live.php?id=1345&e=.m3u8","evidence":"github.com/sm-monirulislam/SM-IPTV iptv_bd.m3u labels Sonic Bangla ID 1345","expected_audio":"bn"},
     # 2026-10-30 newly discovered independent public playlist endpoints; audit-only, NOT viewer-tested.
     {"channel":"Sonic Hindi","url":"https://servertvhub.site/jio/app/ts_live_815.m3u8","evidence":"github.com/fakeall12398-sketch/JIO_TV jiotv_red.m3u; explicit Sonic Hindi, Jio 815, Hindi label (unverified audio)","expected_audio":"hi"},
     {"channel":"Sonic Bangla","url":"https://servertvhub.site/jio/app/ts_live_1345.m3u8","evidence":"github.com/fakeall12398-sketch/JIO_TV jiotv_red.m3u; explicit Sonic Bangla, Jio 1345, Bengali label (unverified audio)","expected_audio":"bn"},
