@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-30T13:50:20.550814+00:00",
+  "checked_at_utc": "2026-10-30T13:53:48.546196+00:00",
   "method": "GitHub Actions ubuntu-latest, ffmpeg 2 independent fetches with real decoded video frames; ffprobe audio metadata",
   "results": [
     {
@@ -9,13 +9,17 @@
       "fetches": [
         {
           "attempt": 1,
-          "decoded": false,
-          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+          "exit": 146,
+          "frames": 0,
+          "stderr": "[tcp @ 0x2cb8f040] Connection to tcp://103.122.249.134:8000 failed: Connection timed out\n[in#0 @ 0x2cb8b400] Error opening input: Connection timed out\nError opening input file http://103.122.249.134:8000/play/a051.\nError opening input files: Connection timed out\n",
+          "decoded": false
         },
         {
           "attempt": 2,
-          "decoded": false,
-          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+          "exit": 146,
+          "frames": 0,
+          "stderr": "[tcp @ 0x43444040] Connection to tcp://103.122.249.134:8000 failed: Connection timed out\n[in#0 @ 0x43440400] Error opening input: Connection timed out\nError opening input file http://103.122.249.134:8000/play/a051.\nError opening input files: Connection timed out\n",
+          "decoded": false
         }
       ],
       "ffprobe": {
@@ -30,13 +34,17 @@
       "fetches": [
         {
           "attempt": 1,
-          "decoded": false,
-          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+          "exit": 146,
+          "frames": 0,
+          "stderr": "[tcp @ 0x10542040] Connection to tcp://103.154.3.101:5001 failed: Connection timed out\n[in#0 @ 0x1053e400] Error opening input: Connection timed out\nError opening input file http://103.154.3.101:5001/live/815.m3u8.\nError opening input files: Connection timed out\n",
+          "decoded": false
         },
         {
           "attempt": 2,
-          "decoded": false,
-          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+          "exit": 146,
+          "frames": 0,
+          "stderr": "[tcp @ 0x1d971040] Connection to tcp://103.154.3.101:5001 failed: Connection timed out\n[in#0 @ 0x1d96d400] Error opening input: Connection timed out\nError opening input file http://103.154.3.101:5001/live/815.m3u8.\nError opening input files: Connection timed out\n",
+          "decoded": false
         }
       ],
       "ffprobe": {
@@ -51,13 +59,17 @@
       "fetches": [
         {
           "attempt": 1,
-          "decoded": false,
-          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+          "exit": -11,
+          "frames": 0,
+          "stderr": "",
+          "decoded": false
         },
         {
           "attempt": 2,
-          "decoded": false,
-          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+          "exit": -11,
+          "frames": 0,
+          "stderr": "",
+          "decoded": false
         }
       ],
       "ffprobe": {
@@ -72,13 +84,17 @@
       "fetches": [
         {
           "attempt": 1,
-          "decoded": false,
-          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+          "exit": -11,
+          "frames": 0,
+          "stderr": "",
+          "decoded": false
         },
         {
           "attempt": 2,
-          "decoded": false,
-          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+          "exit": -11,
+          "frames": 0,
+          "stderr": "",
+          "decoded": false
         }
       ],
       "ffprobe": {
