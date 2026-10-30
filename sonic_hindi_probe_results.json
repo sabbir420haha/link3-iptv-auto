@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-30T06:44:15.193374+00:00",
-  "source_count": 38,
+  "checked_utc": "2026-10-30T06:45:56.411071+00:00",
+  "source_count": 43,
   "remote_verified": 0,
   "remote_only_not_Link3": true,
   "audio_note": "Feed label is weaker evidence than actual HLS/segment Hindi language metadata.",
@@ -306,6 +306,46 @@
       "url": "http://103.99.249.107/play/a028",
       "feed": "Sonic Nickelodeon SD",
       "source": "Sonuiptvnew/Sonuiptvnew",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S39",
+      "url": "http://103.151.60.162:2122/play/a02v/index.m3u8?hls",
+      "feed": "Sonic India Hindi uncertain",
+      "source": "iptv-org streams/in.m3u currently indexed",
+      "status": "rejected",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "S40",
+      "url": "http://103.89.248.130:8082/sonic/index.m3u8",
+      "feed": "Sonic India Hindi uncertain",
+      "source": "noobalex616/cricfytv Bangla group Sonic",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S41",
+      "url": "http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8",
+      "feed": "Sonic India Hindi uncertain",
+      "source": "anantaabid24/Ananta-Ott",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S42",
+      "url": "http://103.182.170.32:8888/play/a02s",
+      "feed": "Sonic Hindi",
+      "source": "Jazzdar1/darfree.tv/Subirmaxpro",
+      "status": "rejected",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "id": "S43",
+      "url": "http://103.169.98.53:8000/play/a09g",
+      "feed": "SONIC NICK SD",
+      "source": "SArun61/IPTV Astra",
       "status": "rejected",
       "error": "<urlopen error timed out>"
     }
