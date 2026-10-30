@@ -15,6 +15,12 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-10-30 newly discovered independent public playlist endpoints; audit-only, NOT viewer-tested.
+    {"channel":"Sonic Hindi","url":"https://servertvhub.site/jio/app/ts_live_815.m3u8","evidence":"github.com/fakeall12398-sketch/JIO_TV jiotv_red.m3u; explicit Sonic Hindi, Jio 815, Hindi label (unverified audio)","expected_audio":"hi"},
+    {"channel":"Sonic Bangla","url":"https://servertvhub.site/jio/app/ts_live_1345.m3u8","evidence":"github.com/fakeall12398-sketch/JIO_TV jiotv_red.m3u; explicit Sonic Bangla, Jio 1345, Bengali label (unverified audio)","expected_audio":"bn"},
+    {"channel":"Disney HD Hindi","url":"http://185.233.166.116/OPPLEX/play.php?id=167551&format=.m3u8","evidence":"github.com/moajzim47/moajzimofficials PHONE_VERSION_MoAj_STREAMZ_PLAY_m3u; explicitly Disney HD with public User-Agent RANAPK; identity/audio/HD unverified","expected_audio":"hi","min_height":720},
+    {"channel":"Disney HD Hindi","url":"https://fifabangladesh.site/TG@RANAPKX73/OPPLEX9/play.php?id=167551","evidence":"github.com/rbhanwala/tv tv.html; Disney Channel India (not Junior), public User-Agent RANAPK; 720p and Hindi not verified","expected_audio":"hi","min_height":720},
+    # User reported all earlier TEST entries do not play on Link3; never publish candidates on runner results alone.
     # 2026-10-30 newly sourced public links. Audit only: never publish without valid media, correct identity/audio, Disney >=720p, and non-BDIX evidence.
     {"channel":"Sonic Bangla","url":"https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=1345","evidence":"gist.github.com/bdrajgaming654-byte/ea6e9c0920c99ecaf2fe454336462d6a (LAWRENCE-BD.m3u, published Aug 2026); explicitly Sonic Bangla, independent identity/audio still required","expected_audio":"bn"},
     {"channel":"Sonic Bangla","url":"https://edge01.iptv.digijadoo.net/live/sonic/chunks.m3u8","evidence":"gist.github.com/abidr/b1f537c511d1f1df965d7f3ff0f2ec36, labeled Nick Sonic Bangla; CDN host, check geo/ISP and audio independently","expected_audio":"bn"},
