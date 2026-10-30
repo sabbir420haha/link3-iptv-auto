@@ -1,0 +1,19 @@
+{
+  "checked_utc": "2026-10-30T23:59:07.820111+00:00",
+  "results": [
+    {
+      "url": "http://techmaxlive.ml/live.php?c=sonic_Hindi&q=1200&e=junk.m3u8",
+      "source": "rudrow/iptv shima public playlist; explicitly Sonic Hindi; historical source",
+      "verified": false,
+      "reason": "DNS [Errno -2] Name or service not known"
+    },
+    {
+      "url": "http://mumsite.cdnsrv.jio.com/jiotv.live.cdn.jio.com/sonic_Hindi/sonic_Hindi_800.m3u8",
+      "source": "AmikArchive ipl.m3u8 archival Jio Sonic Hindi path; no token appended",
+      "verified": false,
+      "reason": "DNS [Errno -2] Name or service not known"
+    }
+  ],
+  "published": [],
+  "link3_verified": false
+}
