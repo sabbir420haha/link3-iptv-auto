@@ -1,4 +1,4 @@
 #EXTM3U
-# Remote GitHub runner verified real HD video segments; NOT Link3-verified.
-# Bengali spoken audio NOT guaranteed (unless metadata says so).
-# No MAIN source URLs or failed sources. Select TEST by number.
+# Sonic Hindi TEST sources only. Verified remotely from GitHub runner, not on Link3.
+# Spoken Hindi audio NOT established unless HLS/segment language metadata confirms it.
+# Existing Discovery/NatGeo searching is disabled. MAIN Playlist never touched.

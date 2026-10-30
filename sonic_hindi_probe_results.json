@@ -1,0 +1,129 @@
+{
+  "checked_utc": "2026-10-30T06:40:11.539323+00:00",
+  "source_count": 15,
+  "remote_verified": 0,
+  "remote_only_not_Link3": true,
+  "audio_note": "Feed label is weaker evidence than actual HLS/segment Hindi language metadata.",
+  "results": [
+    {
+      "id": "S01",
+      "url": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "feed": "Sonic Hindi (JioCinema)",
+      "source": "iptvcat and GitHub sonic Hindi source",
+      "status": "rejected",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+    },
+    {
+      "id": "S02",
+      "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "feed": "Sonic Hindi (JioCinema alt)",
+      "source": "Hasibfy37/Iptv",
+      "status": "rejected",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+    },
+    {
+      "id": "S03",
+      "url": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "feed": "Sonic Hindi (JioCinema Hindi host)",
+      "source": "NEWBIENOOB-0/iplm3u2024",
+      "status": "rejected",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "S04",
+      "url": "https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "channeliptv0/IPTV recent playlist",
+      "status": "rejected",
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "S05",
+      "url": "http://103.185.24.134:3001/SONIC/index.m3u8",
+      "feed": "Sonic India (Hindi uncertain)",
+      "source": "iptv-org India currently indexed",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S06",
+      "url": "http://103.229.254.25:7001/play/a0dl/index.m3u8",
+      "feed": "Sonic India (Hindi uncertain)",
+      "source": "iptv-org 2026 archival",
+      "status": "rejected",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "id": "S07",
+      "url": "http://103.162.136.235:4500/play/a01k/index.m3u8",
+      "feed": "Sonic India (Hindi uncertain)",
+      "source": "8figalltimepro/special-train",
+      "status": "rejected",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "id": "S08",
+      "url": "http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "Telegram public IPTV listing",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S09",
+      "url": "https://sonamul3535.vercel.app/Sonic-Hindi.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "arafat-anowar/iptv",
+      "status": "rejected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "S10",
+      "url": "https://sar.pages.dev/sonic.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "sadman-al-rafi playlist",
+      "status": "rejected",
+      "error": "not_hls"
+    },
+    {
+      "id": "S11",
+      "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "arshdeep1112/Indian-IPTV",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S12",
+      "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "imranemon1/emon",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S13",
+      "url": "http://103.84.57.155:8000/play/a03y/index.m3u8",
+      "feed": "Sonic India Multi",
+      "source": "softonfile/iptv",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S14",
+      "url": "https://fifabd.xyz/OPLLX/play.m3u8?id=34011",
+      "feed": "Sonic HD Hindi uncertain",
+      "source": "tvbd/m3uplayer",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S15",
+      "url": "https://fifabangladesh2-xyz-ekkj.spidy.online/VHOD/NEW/go.php?id=Sonic_Nickelodeon_voot_MOB",
+      "feed": "Sonic Hindi",
+      "source": "Shaharum1010/Cartoon-channel-",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    }
+  ]
+}
