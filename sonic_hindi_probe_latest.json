@@ -1,17 +1,23 @@
 {
-  "checked_utc": "2026-10-30T07:15:02.390218+00:00",
+  "checked_utc": "2026-10-30T08:14:38.654180+00:00",
   "results": [
     {
-      "url": "https://ninjatv.host/star/ninjatv.m3u8?id=207.ts",
+      "url": "http://70.39.83.58:8278/sonichindikdin/playlist.m3u8",
       "verified": false,
-      "reason": "DNS error [Errno -2] Name or service not known",
-      "source": "tvbd/m3uplayer m3u/splaylist.m3u IN: sonic_Hindi"
+      "reason": "manifest fetch <urlopen error [Errno 111] Connection refused>",
+      "source": "Sonuiptvnew/Sonuiptvnew sonuiptv-kids.m3u explicitly Sonic Hindi"
     },
     {
-      "url": "https://fifabdmob.site/new.php?id=JC_SonicNick/JCHLS/JC_SonicNick-audio_108041_hin=108000-video=662800.m3u8",
+      "url": "https://madplay.live/jiotv/app/live/815/null/index.m3u8",
       "verified": false,
-      "reason": "manifest fetch HTTP Error 404: Not Found",
-      "source": "opensourceflix/Friday vottobd.m3u8 Sonic Hindi audio variant"
+      "reason": "not HLS media/master manifest",
+      "source": "hasanmamunctg/hasanmamunctg manik explicitly Sonic Hindi Jio 815"
+    },
+    {
+      "url": "https://jioapi.sports247.eu.org/api/app/live.php?id=815&e=.m3u8",
+      "verified": false,
+      "reason": "DNS error [Errno -3] Temporary failure in name resolution",
+      "source": "SArun61/IPTV Jio.m3u explicitly Sonic Hindi language Hindi ID 815"
     }
   ],
   "published": [],
