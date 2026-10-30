@@ -1,0 +1,44 @@
+name: Check Sonic Hindi TEST Streams
+on:
+  push:
+    branches: [main]
+    paths:
+      - sonic_hindi_candidates.json
+      - sonic_probe.py
+      - .github/workflows/sonic-probe.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sonic-hindi-test-probe
+  cancel-in-progress: false
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install ffprobe
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+      - name: Check actual Sonic HLS media segments, resolution and stream progression
+        run: python sonic_probe.py
+      - name: Publish verified candidates in separate TEST playlist only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add documentary_hd_tests.m3u sonic_hindi_probe_results.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update verified Sonic Hindi TEST candidates (MAIN untouched)'
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git fetch origin main
+              git rebase -X theirs origin/main
+              sleep 2
+            done
+            exit 1
+          fi
