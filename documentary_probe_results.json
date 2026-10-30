@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-30T06:25:01.207397+00:00",
-  "checked_count": 54,
+  "checked_utc": "2026-10-30T06:26:25.589348+00:00",
+  "checked_count": 59,
   "baseline": {
     "Discovery Bangla": {
       "measured_or_advertised_height": 1080,
@@ -12,8 +12,12 @@
       "scope": "GitHub remote check, NOT Link3 playback"
     },
     "Nat Geo HD Bangla": {
-      "measured_or_advertised_height": null,
-      "reason": "timed out",
+      "measured_or_advertised_height": 1080,
+      "audio_tags": [
+        ""
+      ],
+      "bitrate_bps": null,
+      "bitrate_kind": null,
       "scope": "GitHub remote check, NOT Link3 playback"
     }
   },
@@ -417,7 +421,7 @@
         ""
       ],
       "format": "master+media",
-      "segment_bytes": 388032,
+      "segment_bytes": 664768,
       "bengali_metadata": false
     },
     {
@@ -455,7 +459,7 @@
       "height": 0,
       "audio_language_tags": [],
       "format": "transport",
-      "segment_bytes": 101814,
+      "segment_bytes": 101811,
       "bengali_metadata": false
     },
     {
@@ -465,6 +469,46 @@
       "source": "Toffee publicly published HD, AUTH REQUIRED: reject if 403",
       "status": "failed",
       "error": "<urlopen error [Errno -5] No address associated with hostname>"
+    },
+    {
+      "id": "C56",
+      "channel": "Discovery Bangla",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/discovery_hd_abr/index.m3u8",
+      "source": "iptv-org India Discovery HD 720; Bengali audio uncertain",
+      "status": "failed",
+      "error": "segment_not_video"
+    },
+    {
+      "id": "C57",
+      "channel": "Discovery Bangla",
+      "url": "https://raw.githubusercontent.com/functionerror/channels/main/information/discoverybengali.m3u8",
+      "source": "PrattoySaha/IPTV Home Discovery Bengali alternate playlist",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "C58",
+      "channel": "Discovery Bangla",
+      "url": "http://198.195.239.50:8095/Discovery/tracks-v1a1/mono.m3u8",
+      "source": "RhqAB/TV Discovery HD; Bengali audio uncertain",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C59",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://xown.site/token/stream.php?id=1487901&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq",
+      "source": "LiveTVCollector Bengali labelled; token may be expired, reject if not public",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "C60",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://149.71.34.166:8002/play/a013/index.m3u8",
+      "source": "iptv-org India NatGeo HD, listed 576p; not preferred",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
     }
   ]
 }
