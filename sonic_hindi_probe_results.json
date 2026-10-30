@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-30T07:01:45.862349+00:00",
-  "source_count": 64,
+  "checked_utc": "2026-10-30T07:04:10.938243+00:00",
+  "source_count": 69,
   "remote_verified": 0,
   "remote_only_not_Link3": true,
   "audio_note": "Feed label is weaker evidence than actual HLS/segment Hindi language metadata.",
@@ -507,7 +507,7 @@
       "feed": "Sonic Hindi",
       "source": "existing favorites trial",
       "status": "rejected",
-      "error": "<urlopen error timed out>"
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "S64",
@@ -516,6 +516,46 @@
       "source": "existing favorites trial",
       "status": "rejected",
       "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S65",
+      "url": "https://cdn23lhr.tamashaweb.com:8087/jazzauth/Sonic-abr/playlist.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "grtesdwq/iptv.m3u Tamasha Sonic stream",
+      "status": "rejected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "S66",
+      "url": "http://smumcdnems02.cdnsrv.jio.com/jiotv.live.cdn.jio.com/Sonic_Nickelodeon/Sonic_Nickelodeon.m3u8",
+      "feed": "Sonic India Hindi unconfirmed",
+      "source": "Techandy4u old Sonic direct HLS",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S67",
+      "url": "https://tv.freeseries.eu.org/live.php?c=sonic_Hindi&q=1200&e=junk.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "sudiptobd2/jio 2026 sonic Hindi",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "id": "S68",
+      "url": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/JC_SonicNick-audio_98841_hin=98800-video=301200/master.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "Samarthsattani66 Hindi feed variation",
+      "status": "rejected",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "S69",
+      "url": "https://jcevents.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/JC_SonicNick.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "JioCinema stream alternative path",
+      "status": "rejected",
+      "error": "HTTP Error 403: Forbidden"
     }
   ]
 }
