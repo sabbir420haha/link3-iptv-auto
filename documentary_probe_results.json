@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-30T06:26:25.589348+00:00",
+  "checked_utc": "2026-10-30T06:27:21.451487+00:00",
   "checked_count": 59,
   "baseline": {
     "Discovery Bangla": {
@@ -421,7 +421,7 @@
         ""
       ],
       "format": "master+media",
-      "segment_bytes": 664768,
+      "segment_bytes": 499328,
       "bengali_metadata": false
     },
     {
