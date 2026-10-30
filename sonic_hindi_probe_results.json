@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-30T07:04:10.938243+00:00",
-  "source_count": 69,
+  "checked_utc": "2026-10-30T07:07:13.042296+00:00",
+  "source_count": 78,
   "remote_verified": 0,
   "remote_only_not_Link3": true,
   "audio_note": "Feed label is weaker evidence than actual HLS/segment Hindi language metadata.",
@@ -507,7 +507,7 @@
       "feed": "Sonic Hindi",
       "source": "existing favorites trial",
       "status": "rejected",
-      "error": "HTTP Error 403: Forbidden"
+      "error": "The read operation timed out"
     },
     {
       "id": "S64",
@@ -556,6 +556,78 @@
       "source": "JioCinema stream alternative path",
       "status": "rejected",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "S70",
+      "url": "http://116.90.120.149:8000/play/a0cc/index.m3u8",
+      "feed": "Sonic India Hindi uncertain",
+      "source": "weihaoxie/iptv India Sonic feed",
+      "status": "rejected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "S71",
+      "url": "https://playyonogames.in/jio/app/ts_live_815.m3u8",
+      "feed": "Sonic Hindi ID 815",
+      "source": "spookyhost1/yarr-stremio 2026 Indian Sonic",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S72",
+      "url": "https://8088y.site/Api/JioTV/app/ts_live_815.m3u8",
+      "feed": "Sonic Hindi ID 815",
+      "source": "pravashranjan/entwld 2026 live",
+      "status": "rejected",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "id": "S73",
+      "url": "https://servertvhub.site/jio/app/ts_live_815.m3u8",
+      "feed": "Sonic Hindi ID 815",
+      "source": "fakeall12398-sketch/JIO_TV 2026",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S74",
+      "url": "https://mini.allinonereborn.fun/jiotv-www/app/ts_live_815.m3u8",
+      "feed": "Sonic Hindi ID 815",
+      "source": "masumbill/bdiptv",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S75",
+      "url": "http://103.168.18.83:80/zan/app/ts_live_815.m3u8",
+      "feed": "Sonic Hindi ID 815",
+      "source": "phisher98/TVVVV archive",
+      "status": "rejected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "S76",
+      "url": "https://cdn22lhr.tamashaweb.com:8087/jazzauth/Sonic-abr/playlist.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "Riaz-123/Tekox Sonic Pakistan Tamasha",
+      "status": "rejected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "S77",
+      "url": "https://itpolly.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+      "feed": "Sonic Bengali likely; language unknown",
+      "source": "Shadmanislam/bdiptv Nick Sonic",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S78",
+      "url": "https://edge01.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+      "feed": "Sonic Bengali likely; language unknown",
+      "source": "Shadmanislam/bdiptv Nick Sonic Bangla",
+      "status": "rejected",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
     }
   ]
 }
