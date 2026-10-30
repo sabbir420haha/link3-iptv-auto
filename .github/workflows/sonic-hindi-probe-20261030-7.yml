@@ -11,11 +11,13 @@ jobs:
     timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
-      - name: Install FFmpeg and FFprobe on runner
+      - name: Supply static FFmpeg binary via imageio-ffmpeg
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg
-          ffmpeg -version | head -n 1
+          python -m pip install -q imageio-ffmpeg
+          mkdir -p /tmp/sonic-bin
+          ln -sf "$(python -c 'import imageio_ffmpeg; print(imageio_ffmpeg.get_ffmpeg_exe())')" /tmp/sonic-bin/ffmpeg
+          echo /tmp/sonic-bin >> "$GITHUB_PATH"
+          /tmp/sonic-bin/ffmpeg -version | head -n 1
       - name: Check genuine video decoding twice for each fresh candidate
         shell: bash
         run: |
