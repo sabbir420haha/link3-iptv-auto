@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-30T06:19:27.953988+00:00",
-  "checked_count": 48,
+  "checked_utc": "2026-10-30T06:22:23.498752+00:00",
+  "checked_count": 54,
   "baseline": {
     "Discovery Bangla": {
       "measured_or_advertised_height": 1080,
@@ -407,6 +407,64 @@
       "source": "8figalltimepro/special-train",
       "status": "failed",
       "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C50",
+      "channel": "Nat Geo HD Bangla",
+      "url": "https://tvsen3.aynaott.com/7mm4pwCy/index.m3u8",
+      "source": "eishakilei-bd08/eitv Nat Geo TV",
+      "status": "video_but_not_hd_confirmed",
+      "height": 432,
+      "audio_language_tags": [
+        ""
+      ],
+      "format": "master+media",
+      "segment_bytes": 646720,
+      "bengali_metadata": false
+    },
+    {
+      "id": "C51",
+      "channel": "Discovery Bangla",
+      "url": "http://103.140.254.2:3500/live/573.m3u8",
+      "source": "Notes IPTV Jio Discovery Bengali",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C52",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://103.170.140.8/hls/ngohd.m3u8",
+      "source": "bloginstall channel 66 Geographic Bangla",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C53",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://103.175.242.10:8080/natgeo/index.m3u8",
+      "source": "Telegram BDIX public candidate geographic (not confirmed Link3)",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C54",
+      "channel": "Discovery Bangla",
+      "url": "http://bapatv.live:8080/discovery/index.m3u8",
+      "source": "Telegram bapatv discovery, audio unknown",
+      "status": "video_but_not_hd_confirmed",
+      "height": 0,
+      "audio_language_tags": [],
+      "format": "transport",
+      "segment_bytes": 101799,
+      "bengali_metadata": false
+    },
+    {
+      "id": "C55",
+      "channel": "Discovery Bangla",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_hd/playlist.m3u8",
+      "source": "Toffee publicly published HD, AUTH REQUIRED: reject if 403",
+      "status": "failed",
+      "error": "<urlopen error [Errno -5] No address associated with hostname>"
     }
   ]
 }
