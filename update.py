@@ -472,7 +472,7 @@ def direct_media_ok(data):
         return False
     if data[0] == 0x47 and data[188] == 0x47 and data[376] == 0x47:
         return True
-    return b"ftyp" in data[:20] and len(data) >= 1000
+    return (len(data) >= 1000 and data[4:8] in (b"ftyp", b"styp", b"moof"))
 
 
 def segment_probe(url):
@@ -516,7 +516,7 @@ def segment_probe(url):
                         continue
                     if b"mpegurl" in ctype.encode() or "text/html" in ctype or "application/json" in ctype:
                         continue
-                    if len(data)>188:  # real transport/MP4 segment, not empty placeholder
+                    if direct_media_ok(data):  # Require TS sync or MP4 box header, not arbitrary bytes.
                         return True
                 except Exception:
                     continue
