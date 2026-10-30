@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-30T10:47:08.769667+00:00",
+  "checked_utc": "2026-10-30T10:50:54.915158+00:00",
   "results": [
     {
       "url": "http://103.139.171.5:5001/live.php?c=sonic_Hindi&q=800&e=junk.m3u8",
@@ -12,18 +12,18 @@
       "decodes": [
         {
           "fetch": 1,
-          "exit": -1,
+          "exit": 146,
           "decoded_frames": 0,
-          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+          "error": "[tcp @ 0x55a4a685d540] Connection to tcp://103.139.171.5:5001 failed: Connection timed out\n[in#0 @ 0x55a4a68a4340] Error opening input: Connection timed out\nError opening input file http://103.139.171.5:5001/live.php?c=sonic_Hindi&q=800&e=junk.m3u8.\nError opening input files: Connection timed out\n"
         },
         {
           "fetch": 2,
-          "exit": -1,
+          "exit": 145,
           "decoded_frames": 0,
-          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+          "error": "[tcp @ 0x559a3b9b7540] Connection to tcp://103.139.171.5:5001 failed: Connection refused\n[in#0 @ 0x559a3b9fe340] Error opening input: Connection refused\nError opening input file http://103.139.171.5:5001/live.php?c=sonic_Hindi&q=800&e=junk.m3u8.\nError opening input files: Connection refused\n"
         }
       ],
-      "ffprobe_error": "[Errno 2] No such file or directory: 'ffprobe'"
+      "ffprobe_error": "[tcp @ 0x5568c19c9540] Connection to tcp://103.139.171.5:5001 failed: Connection timed out\nhttp://103.139.171.5:5001/live.php?c=sonic_Hindi&q=800&e=junk.m3u8: Connection timed out\n"
     },
     {
       "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=765200.m3u8",
@@ -36,18 +36,114 @@
       "decodes": [
         {
           "fetch": 1,
-          "exit": -1,
+          "exit": 8,
           "decoded_frames": 0,
-          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+          "error": "[in#0 @ 0x55879dc79340] Error opening input: Server returned 403 Forbidden (access denied)\nError opening input file https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=765200.m3u8.\nError opening input files: Server returned 403 Forbidden (access denied)\n"
         },
         {
           "fetch": 2,
-          "exit": -1,
+          "exit": 8,
           "decoded_frames": 0,
-          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+          "error": "[in#0 @ 0x555b2ace1340] Error opening input: Server returned 403 Forbidden (access denied)\nError opening input file https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=765200.m3u8.\nError opening input files: Server returned 403 Forbidden (access denied)\n"
         }
       ],
-      "ffprobe_error": "[Errno 2] No such file or directory: 'ffprobe'"
+      "ffprobe_error": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=765200.m3u8: Server returned 403 Forbidden (access denied)\n"
+    },
+    {
+      "url": "http://65.2.4.240/jioo.php?c=sonic_Hindi&q=800&e=.m3u8",
+      "source": "Sonuiptvnew/Sonuiptvnew sonuuptvjio.M3U, Sonic Hindi",
+      "verified": false,
+      "video_stream": false,
+      "audio_stream": false,
+      "hindi_audio_metadata": false,
+      "streams": [],
+      "decodes": [
+        {
+          "fetch": 1,
+          "exit": 145,
+          "decoded_frames": 0,
+          "error": "[tcp @ 0x560e407ce3c0] Connection to tcp://65.2.4.240:80 failed: Connection refused\n[in#0 @ 0x560e407cb340] Error opening input: Connection refused\nError opening input file http://65.2.4.240/jioo.php?c=sonic_Hindi&q=800&e=.m3u8.\nError opening input files: Connection refused\n"
+        },
+        {
+          "fetch": 2,
+          "exit": 145,
+          "decoded_frames": 0,
+          "error": "[tcp @ 0x563e6801b3c0] Connection to tcp://65.2.4.240:80 failed: Connection refused\n[in#0 @ 0x563e68018340] Error opening input: Connection refused\nError opening input file http://65.2.4.240/jioo.php?c=sonic_Hindi&q=800&e=.m3u8.\nError opening input files: Connection refused\n"
+        }
+      ],
+      "ffprobe_error": "[tcp @ 0x55bdcb0e2980] Connection to tcp://65.2.4.240:80 failed: Connection refused\nhttp://65.2.4.240/jioo.php?c=sonic_Hindi&q=800&e=.m3u8: Connection refused\n"
+    },
+    {
+      "url": "https://tulnit.fun/jiotv/app/ts_live_815.m3u8",
+      "source": "moajzim47/moajzimofficials PHONE_VERSION_MoAj_STREAMZ_PLAY_m3u, Sonic 815 (without cookie)",
+      "verified": false,
+      "video_stream": false,
+      "audio_stream": false,
+      "hindi_audio_metadata": false,
+      "streams": [],
+      "decodes": [
+        {
+          "fetch": 1,
+          "exit": 251,
+          "decoded_frames": 0,
+          "error": "[tcp @ 0x558045a85500] Failed to resolve hostname tulnit.fun: Name or service not known\n[in#0 @ 0x558045a82340] Error opening input: Input/output error\nError opening input file https://tulnit.fun/jiotv/app/ts_live_815.m3u8.\nError opening input files: Input/output error\n"
+        },
+        {
+          "fetch": 2,
+          "exit": 251,
+          "decoded_frames": 0,
+          "error": "[tcp @ 0x562eb0ea1500] Failed to resolve hostname tulnit.fun: Name or service not known\n[in#0 @ 0x562eb0e9e340] Error opening input: Input/output error\nError opening input file https://tulnit.fun/jiotv/app/ts_live_815.m3u8.\nError opening input files: Input/output error\n"
+        }
+      ],
+      "ffprobe_error": "[tcp @ 0x557114cf5b00] Failed to resolve hostname tulnit.fun: Name or service not known\nhttps://tulnit.fun/jiotv/app/ts_live_815.m3u8: Input/output error\n"
+    },
+    {
+      "url": "https://amit-1.allinonereborn.in/jiotv-ww313/app/ts_live_815.m3u8",
+      "source": "streamifytv/streamifytv jiotv.json, Sonic Hindi 815",
+      "verified": false,
+      "video_stream": false,
+      "audio_stream": false,
+      "hindi_audio_metadata": false,
+      "streams": [],
+      "decodes": [
+        {
+          "fetch": 1,
+          "exit": 251,
+          "decoded_frames": 0,
+          "error": "[tcp @ 0x55d23963cf40] Failed to resolve hostname amit-1.allinonereborn.in: Name or service not known\n[in#0 @ 0x55d239684340] Error opening input: Input/output error\nError opening input file https://amit-1.allinonereborn.in/jiotv-ww313/app/ts_live_815.m3u8.\nError opening input files: Input/output error\n"
+        },
+        {
+          "fetch": 2,
+          "exit": 251,
+          "decoded_frames": 0,
+          "error": "[tcp @ 0x55cb0cb83f40] Failed to resolve hostname amit-1.allinonereborn.in: Name or service not known\n[in#0 @ 0x55cb0cbcb340] Error opening input: Input/output error\nError opening input file https://amit-1.allinonereborn.in/jiotv-ww313/app/ts_live_815.m3u8.\nError opening input files: Input/output error\n"
+        }
+      ],
+      "ffprobe_error": "[tcp @ 0x561fe7887f40] Failed to resolve hostname amit-1.allinonereborn.in: Name or service not known\nhttps://amit-1.allinonereborn.in/jiotv-ww313/app/ts_live_815.m3u8: Input/output error\n"
+    },
+    {
+      "url": "https://mintos.allinonereborn.xyz/jiotv-ww31/app/ts_live_815.m3u8",
+      "source": "rkbro23/rk_playlist jiotvww.m3u, Sonic Hindi 815",
+      "verified": false,
+      "video_stream": false,
+      "audio_stream": false,
+      "hindi_audio_metadata": false,
+      "streams": [],
+      "decodes": [
+        {
+          "fetch": 1,
+          "exit": 146,
+          "decoded_frames": 0,
+          "error": "[tcp @ 0x55da5f5462c0] Connection to tcp://ww38.allinonereborn.xyz:443 failed: Connection timed out\n[in#0 @ 0x55da5f3d0340] Error opening input: Connection timed out\nError opening input file https://mintos.allinonereborn.xyz/jiotv-ww31/app/ts_live_815.m3u8.\nError opening input files: Connection timed out\n"
+        },
+        {
+          "fetch": 2,
+          "exit": 146,
+          "decoded_frames": 0,
+          "error": "[tcp @ 0x562cd3dd02c0] Connection to tcp://ww38.allinonereborn.xyz:443 failed: Connection timed out\n[in#0 @ 0x562cd3c5a340] Error opening input: Connection timed out\nError opening input file https://mintos.allinonereborn.xyz/jiotv-ww31/app/ts_live_815.m3u8.\nError opening input files: Connection timed out\n"
+        }
+      ],
+      "ffprobe_error": "[tcp @ 0x5580dbe8db80] Connection to tcp://ww38.allinonereborn.xyz:443 failed: Connection timed out\nhttps://mintos.allinonereborn.xyz/jiotv-ww31/app/ts_live_815.m3u8: Connection timed out\n"
     }
   ],
   "published": [],
