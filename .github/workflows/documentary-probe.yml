@@ -1,0 +1,44 @@
+name: Check Documentary HD Candidates
+on:
+  push:
+    branches: [main]
+    paths:
+      - documentary_candidates.json
+      - documentary_probe.py
+      - .github/workflows/documentary-probe.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: documentary-hd-probe
+  cancel-in-progress: false
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install ffprobe
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+      - name: Probe URLs with real segment and resolution check
+        run: python documentary_probe.py
+      - name: Publish ONLY confirmed HD video candidate tests, not main playlist
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add documentary_hd_tests.m3u documentary_probe_results.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish documentary HD candidates with readable video segments only'
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git fetch origin main
+              git rebase -X theirs origin/main
+              sleep 2
+            done
+            exit 1
+          fi
