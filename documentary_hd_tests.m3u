@@ -1,4 +1,8 @@
 #EXTM3U
-# Sonic Hindi TEST sources only. Verified remotely from GitHub runner, not on Link3.
-# Spoken Hindi audio NOT established unless HLS/segment language metadata confirms it.
-# Existing Discovery/NatGeo searching is disabled. MAIN Playlist never touched.
+# Shared TEST for Sonic Hindi and Sony YAY Hindi. MAIN playlist is untouched.
+# SONY YAY entries below are UNVERIFIED Link3 trials: GitHub runner got rate-limited (HTTP 429).
+# For these SONY YAY entries: local playback and Hindi audio require manual Link3 verification.
+#EXTINF:-1 tvg-id="sony-yay-hindi-trial-01" tvg-name="Sony YAY Hindi TEST 01 (Link3 Trial)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY HINDI | UNVERIFIED",Sony YAY Hindi TEST 01 (Link3 Trial)
+https://sliv.tgaadi.workers.dev/sonyyaysd.m3u8
+#EXTINF:-1 tvg-id="sony-yay-hindi-trial-02" tvg-name="Sony YAY Hindi TEST 02 (Link3 Trial)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY HINDI | UNVERIFIED",Sony YAY Hindi TEST 02 (Link3 Trial)
+https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971
