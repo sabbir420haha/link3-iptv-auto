@@ -28,7 +28,8 @@ jobs:
           targets = [
             {"url":"http://14.102.123.50:5001/live/815.m3u8","source":"ItsIsmailRobin/SkyBDIPTV index.html; explicitly Sonic Hindi, tvg-language Hindi, Jio channel 815"},
             {"url":"https://s2.itcnbd.live/sonic/index.m3u8","source":"Your-Tribal-Chief/LiveTV src/data/channels.ts; SONIC channel, Hindi audio unconfirmed; require metadata"}
-          ]          base = pathlib.Path(".")
+          ]
+          base = pathlib.Path(".")
           registry = json.loads((base/"sonic_hindi_candidates.json").read_text())
           favorites = json.loads((base/"favorites_test_registry.json").read_text())
           testpath = base/"documentary_hd_tests.m3u"
