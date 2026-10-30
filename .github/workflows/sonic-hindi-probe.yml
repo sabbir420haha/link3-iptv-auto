@@ -1,0 +1,117 @@
+name: Sonic Hindi two-fetch video probe
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/sonic-hindi-probe.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sonic-hindi-probe
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ensure ffmpeg tools
+        run: |
+          command -v ffprobe && command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+      - name: Probe public Sonic Hindi candidates twice, publish only decoded video
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, subprocess, urllib.request, urllib.parse, ipaddress, socket, os, time, re, pathlib
+          from datetime import datetime, timezone
+          targets = [
+            {"url":"http://70.39.83.58:8278/sonichindikdin/playlist.m3u8","source":"Sonuiptvnew/Sonuiptvnew sonuiptv-kids.m3u; Robertlittle2469 Kids Playlist"},
+            {"url":"http://pkr.cinepex.tv:8278/sonichindikdin/playlist.m3u8","source":"TamannaJain2710/iptv Customised_iptv.m3u"},
+          ]
+          base = pathlib.Path(".")
+          registry = json.loads((base/"sonic_hindi_candidates.json").read_text())
+          favorites = json.loads((base/"favorites_test_registry.json").read_text())
+          testpath = base/"documentary_hd_tests.m3u"
+          existing = testpath.read_text()
+          excluded = set()
+          def collect(obj):
+            if isinstance(obj,dict):
+              for k,v in obj.items():
+                if k=="url" and isinstance(v,str): excluded.add(v.strip())
+                collect(v)
+            elif isinstance(obj,list):
+              for v in obj: collect(v)
+          collect(registry); collect(favorites)
+          results = []
+          def run(args, timeout=42):
+            try:
+              p=subprocess.run(args,capture_output=True,text=True,timeout=timeout)
+              return {"returncode":p.returncode,"stderr":p.stderr[-1200:],"stdout":p.stdout[-2500:]}
+            except subprocess.TimeoutExpired:
+              return {"returncode":124,"stderr":"timeout","stdout":""}
+          def eligible(u):
+            if u in excluded or u in existing: return "already excluded or published"
+            p=urllib.parse.urlsplit(u)
+            if p.scheme not in ("http","https") or not p.hostname: return "invalid scheme or hostname"
+            if any(k in u.lower() for k in ("token=","auth=","mac=","license","widevine","hdntl=","signature=","session=","drm")): return "credential or DRM indicator"
+            try:
+              ips={x[4][0] for x in socket.getaddrinfo(p.hostname,p.port or 80)}
+              if not ips or any(not ipaddress.ip_address(x).is_global for x in ips): return "nonpublic/BDIX-like address"
+            except Exception as e: return "DNS error "+str(e)[:90]
+            return None
+          def check(u):
+            e=eligible(u)
+            if e: return {"url":u,"verified":False,"reason":e}
+            try:
+              with urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"}),timeout=15) as r:
+                head=r.read(32768).decode("utf-8","replace")
+              if not head.lstrip().startswith("#EXTM3U") or not any(x in head for x in ("#EXT-X-STREAM-INF","#EXTINF","#EXT-X-TARGETDURATION")):
+                return {"url":u,"verified":False,"reason":"not HLS media/master manifest"}
+              if any(x in head for x in ("#EXT-X-KEY:","#EXT-X-SESSION-KEY:","#EXT-X-DEFINE:")):
+                return {"url":u,"verified":False,"reason":"encrypted/keyed or variable manifest"}
+            except Exception as e: return {"url":u,"verified":False,"reason":"manifest fetch "+str(e)[:160]}
+            hindi_metadata = bool(re.search(r'LANGUAGE=["\x27]?(?:hin|hi|Hindi)\b|_hin=',head,re.I))
+            checks=[]
+            for n in (1,2):
+              probe=run(["ffprobe","-v","error","-rw_timeout","10000000","-show_entries","stream=index,codec_type,codec_name:stream_tags=language","-of","json",u],40)
+              streams=[]
+              if probe["returncode"]==0:
+                try: streams=json.loads(probe["stdout"]).get("streams",[])
+                except: pass
+              video=[s for s in streams if s.get("codec_type")=="video"]
+              audio=[s for s in streams if s.get("codec_type")=="audio"]
+              if any(str(s.get("tags",{}).get("language","")).lower() in ("hin","hi","hindi") for s in audio): hindi_metadata=True
+              decode=run(["ffmpeg","-hide_banner","-nostdin","-loglevel","info","-rw_timeout","10000000","-i",u,"-map","0:v:0","-an","-frames:v","25","-f","null","-"],45)
+              frames=[int(x) for x in re.findall(r'frame=\s*(\d+)',decode["stderr"])]
+              frame_count=max(frames,default=0)
+              checks.append({"fetch":n,"ffprobe_rc":probe["returncode"],"video_codec":video[0].get("codec_name") if video else None,"audio_codecs":[s.get("codec_name") for s in audio],"decoded_frames":frame_count,"ffmpeg_rc":decode["returncode"],"error":decode["stderr"][-350:] if frame_count==0 else ""})
+              if n==1: time.sleep(8)
+            passed=all(c["video_codec"] and c["decoded_frames"]>=1 and c["ffmpeg_rc"]==0 for c in checks)
+            return {"url":u,"verified":passed,"hindi_metadata":hindi_metadata,"source_label_hindi":"sonichindikdin" in u.lower(),"checks":checks,"reason":"two decoded video fetches" if passed else "failed video decode on at least one fetch"}
+          for target in targets:
+            r=check(target["url"]);r["source"]=target["source"];results.append(r)
+            print("PROBE_RESULT "+json.dumps(r,ensure_ascii=False),flush=True)
+          successes=[r for r in results if r.get("verified") and (r.get("hindi_metadata") or r.get("source_label_hindi"))]
+          if successes:
+            existing_urls=set(re.findall(r'^https?://\S+',existing,re.M))
+            count=len(re.findall(r'Sonic Hindi TEST\s*\d+',existing))
+            for r in successes:
+              if r["url"] in existing_urls: continue
+              count+=1
+              existing += f'\n# Verified 2 decoded video fetches on GitHub Actions UTC {datetime.now(timezone.utc).isoformat()}; Hindi metadata={r.get("hindi_metadata")}; source={r["source"]}\n'
+              existing += f'#EXTINF:-1 group-title="Sonic Hindi TEST" tvg-language="Hindi",Sonic Hindi TEST {count:02d}\n{r["url"]}\n'
+              existing_urls.add(r["url"])
+            testpath.write_text(existing)
+          report={"checked_utc":datetime.now(timezone.utc).isoformat(),"results":results,"published":[r["url"] for r in successes],"link3_verified":False}
+          (base/"sonic_hindi_probe_latest.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
+          PY
+      - name: Commit probe report and only verified TEST playlist additions
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sonic_hindi_probe_latest.json documentary_hd_tests.m3u
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record Sonic Hindi two-fetch remote video probe'
+            git push origin main
+          fi
