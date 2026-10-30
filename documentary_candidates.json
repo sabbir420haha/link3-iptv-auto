@@ -229,6 +229,66 @@
       "channel": "Nat Geo HD Bangla",
       "url": "https://raw.githubusercontent.com/konanda-sg/thuran9/refs/heads/main/natgeo.m3u8",
       "source": "Clasherstore/Trrertv Search"
+    },
+    {
+      "id": "C40",
+      "channel": "Discovery Bangla",
+      "url": "https://csockets.hellohridoy.workers.dev/disbangla.m3u8",
+      "source": "hossainhridoyx/HridoyTV_Server channels.json"
+    },
+    {
+      "id": "C41",
+      "channel": "Discovery Bangla",
+      "url": "https://pro.hridoytv-pro.workers.dev/live/3428.m3u8",
+      "source": "hossainhridoyx/HridoyTV_Server Discovery HD Bengali"
+    },
+    {
+      "id": "C42",
+      "channel": "Discovery Bangla",
+      "url": "https://pro.hellohridoy.workers.dev/link-copy-kore-lav-nai=expire43738831219634/live/3428.m3u8",
+      "source": "reyad27s/Playlist 2026"
+    },
+    {
+      "id": "C43",
+      "channel": "Nat Geo HD Bangla",
+      "url": "https://proxy.hridoytv.workers.dev/nationalgeo.m3u8",
+      "source": "hossainhridoyx/HridoyTV_Server National Geographic HD"
+    },
+    {
+      "id": "C44",
+      "channel": "Discovery Bangla",
+      "url": "http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/167.m3u8",
+      "source": "imdhiru/bloginstall-iptv Discovery HD Bangla"
+    },
+    {
+      "id": "C45",
+      "channel": "Discovery Bangla",
+      "url": "http://mygoodstream.pw/proxy.php/http://89.187.182.181:9090/SS_BD_DISCOVERY/tracks-v1a1/index.m3u8",
+      "source": "riyad456/supernetIPTV Discovery HD Bangla"
+    },
+    {
+      "id": "C46",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://103.102.27.173:84/NATGEO-BANGLA/tracks-v1a1/mono.m3u8",
+      "source": "cvmmehedy/SHADHIN-TV"
+    },
+    {
+      "id": "C47",
+      "channel": "Discovery Bangla",
+      "url": "https://cricxtv.site/isp/play.php?id=DiscoveryHD",
+      "source": "KaneenApp/NeuroSources"
+    },
+    {
+      "id": "C48",
+      "channel": "Nat Geo HD Bangla",
+      "url": "https://buy.ottbangla.com/4k/amd/stream.php?id=NAT-GEO-BANGLA",
+      "source": "reyad27s/Tv ottbangla"
+    },
+    {
+      "id": "C49",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://221.120.204.3/NAT-GEO-HD-LOCKLE/tracks-v1a1/mono.m3u8",
+      "source": "8figalltimepro/special-train"
     }
   ],
   "rejected_after_probe": [
@@ -237,5 +297,6 @@
       "reason": "Nested credential-bound MAG portal (MAC address); not appropriate for public playlist"
     }
   ],
-  "new_research_pass": "2026-10-30 batch 2; tests required before publication"
+  "new_research_pass": "2026-10-30 batch 2; tests required before publication",
+  "latest_research": "new Hridoy channel 2026 sources, bloginstall IPTV, SHADHIN-TV and other Bengali-labelled links; no auto adding to Test before verification"
 }
