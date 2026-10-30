@@ -726,6 +726,18 @@
       "source": "ak-office-pvt/aklive-v3 master/m3u8/Voot/Sonic_Nickelodeon.m3u8; source path labels Hindi audio variant",
       "feed": "Sonic Nickelodeon India; Hindi audio unverified",
       "remote_probe": "GitHub Actions run 41131120336 on 2026-10-30T21:27:01Z: HLS manifest fetch failed SSL CERTIFICATE_VERIFY_FAILED expired certificate; zero video decoded; two-fetch verification impossible"
+    },
+    {
+      "id": "S116",
+      "url": "http://119.152.240.15:8001/play/a0cx/index.m3u8",
+      "source": "rabbyos/rabbyos Tplay; public SONIC entry; Pakistan public IP; Hindi audio unconfirmed",
+      "feed": "Sonic India; Hindi unconfirmed"
+    },
+    {
+      "id": "S117",
+      "url": "https://anywhere.pwisetthon.com/http://203.18.159.115/SONIC/tracks-v1a1/mono.m3u8",
+      "source": "konanda-sg/teststst tplay/main.js; public Sonic channel explicitly categorized Hindi India; third-party relay",
+      "feed": "Sonic Hindi; audio metadata unverified"
     }
   ]
 }
