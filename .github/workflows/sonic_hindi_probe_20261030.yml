@@ -57,17 +57,17 @@ jobs:
             if any(x in url.lower() for x in ['play_token=','mac=','widevine','drm','hdntl=','token=']):
               results.append({**item,"verified":False,"reason":"Authentication/token/DRM indicator"})
               continue
-            meta=run(['ffprobe','-v','error','-rw_timeout','12000000','-show_entries','stream=codec_type,codec_name:stream_tags=language','-of','json',url],timeout=35)
+            meta=run(['ffprobe','-v','error','-rw_timeout','12000000','-show_entries','stream=codec_type,codec_name:stream_tags=language','-of','json',url],timeout=22)
             streams=[]
             if meta['returncode']==0:
               try:streams=json.loads(meta['stdout']).get('streams',[])
               except Exception:pass
             decodes=[]
             for n in range(2):
-              p=run(['ffmpeg','-nostdin','-hide_banner','-loglevel','error','-rw_timeout','12000000','-i',url,'-map','0:v:0','-an','-frames:v','4','-progress','pipe:1','-f','null','-'],timeout=50)
+              p=run(['ffmpeg','-nostdin','-hide_banner','-loglevel','error','-rw_timeout','12000000','-i',url,'-map','0:v:0','-an','-frames:v','4','-progress','pipe:1','-f','null','-'],timeout=28)
               frames=[int(x) for x in re.findall(r'^frame=(\d+)',p.get('stdout',''),re.M)]
               decodes.append({"fetch":n+1,"exit":p['returncode'],"decoded_frames":max(frames or [0]),"error":p.get('stderr',p.get('error',''))[:350]})
-              if n==0:time.sleep(4)
+              if n==0:time.sleep(2)
             video=any(s.get('codec_type')=='video' for s in streams)
             audio=any(s.get('codec_type')=='audio' for s in streams)
             hindi=any(s.get('tags',{}).get('language','').lower() in ('hi','hin','hindi') for s in streams)
