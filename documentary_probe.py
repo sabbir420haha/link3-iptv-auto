@@ -109,10 +109,36 @@ def run(item):
     except Exception as e: row.update({"status":"failed","error":str(e)[:240]})
     return row
 
+def baseline_urls():
+    """Read MAIN playlist only to establish comparison; no writes to MAIN."""
+    entries={}
+    prev=None
+    for line in (ROOT/"playlist.m3u").read_text(encoding="utf-8").splitlines():
+        if line.startswith("#EXTINF"):
+            name=line.split(",",1)[-1].strip()
+            prev=name if name in ("Discovery Bangla","Nat Geo HD Bangla") else None
+        elif prev and line.startswith(("http://","https://")):
+            entries[prev]=line.strip()
+            prev=None
+    return entries
+
+def check_baselines():
+    results={}
+    for name,url in baseline_urls().items():
+        try:
+            h,langs,kind,size=manifest(url)
+            results[name]={"measured_or_advertised_height":h,"audio_tags":langs,
+                           "scope":"GitHub remote check, NOT Link3 playback"}
+        except Exception as exc:
+            results[name]={"measured_or_advertised_height":None,"reason":str(exc)[:120],
+                           "scope":"GitHub remote check, NOT Link3 playback"}
+    return results
+
 def main():
+    baseline=check_baselines()
     with cf.ThreadPoolExecutor(max_workers=12) as pool:
         results=list(pool.map(run,POOL))
-    publish=[x for x in results if x["status"]=="hd_video_verified"]
+    publish=[x for x in results if x["status"]=="hd_video_verified" and\n             (baseline.get(x["channel"],{}).get("measured_or_advertised_height") is None\n              or x["height"]>baseline[x["channel"]]["measured_or_advertised_height"])]
     doc=["#EXTM3U","# Remote GitHub runner verified real HD video segments; NOT Link3-verified.",
          "# Bengali spoken audio NOT guaranteed (unless metadata says so).",
          "# No MAIN source URLs or failed sources. Select TEST by number."]
@@ -126,9 +152,9 @@ def main():
         doc.append(f'#EXTINF:-1 tvg-id="probe-{slug}-{num}" tvg-name="{title}" tvg-logo="{LOGO}/{slug}.png" group-title="HD VIDEO CHECKED | {name}",{title}')
         doc.append(item["url"])
     PLAY.write_text("\n".join(doc)+"\n")
-    stats={"checked_utc":dt.datetime.now(dt.timezone.utc).isoformat(),"checked_count":len(results),
+    stats={"checked_utc":dt.datetime.now(dt.timezone.utc).isoformat(),"checked_count":len(results),"baseline":baseline,
            "hd_segment_verified_count":len(publish),
-           "note":"GitHub network only. Video height observed/advertised; Bengali AUDIO and Link3 playback unverified.",
+           "note":"GitHub network only. Baseline is read-only, and heights may be HLS-advertised; Bengali AUDIO and Link3 playback unverified.",
            "results":results}
     OUT.write_text(json.dumps(stats,ensure_ascii=False,indent=2)+"\n")
     print(json.dumps({"checked":len(results),"hd_video_verified":len(publish),
