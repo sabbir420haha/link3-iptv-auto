@@ -1,23 +1,17 @@
 {
-  "checked_utc": "2026-10-30T19:20:11.603925+00:00",
+  "checked_utc": "2026-10-30T20:35:31.067646+00:00",
   "results": [
     {
-      "url": "http://58.27.219.166:8000/play/a06j/index.m3u8",
+      "url": "http://14.102.123.50:5001/live/815.m3u8",
       "verified": false,
-      "reason": "manifest fetch <urlopen error timed out>",
-      "source": "Entertainment Hub public listing; Sonic; Hindi unconfirmed"
+      "reason": "manifest fetch <urlopen error [Errno 111] Connection refused>",
+      "source": "ItsIsmailRobin/SkyBDIPTV index.html; explicitly Sonic Hindi, tvg-language Hindi, Jio channel 815"
     },
     {
-      "url": "http://119.156.26.155:8000/play/a05y/index.m3u8",
+      "url": "https://s2.itcnbd.live/sonic/index.m3u8",
       "verified": false,
-      "reason": "manifest fetch <urlopen error timed out>",
-      "source": "Public IPTV listing; Sonic; Hindi unconfirmed"
-    },
-    {
-      "url": "https://reshort.in/autoq.php?c=sonic_Hindi",
-      "verified": false,
-      "reason": "DNS error [Errno -2] Name or service not known",
-      "source": "theForg8/SomethingOrdinary LightningBD2.txt; explicit Sonic Hindi"
+      "reason": "manifest fetch HTTP Error 403: Forbidden",
+      "source": "Your-Tribal-Chief/LiveTV src/data/channels.ts; SONIC channel, Hindi audio unconfirmed; require metadata"
     }
   ],
   "published": [],

@@ -705,6 +705,20 @@
       "source": "theForg8/SomethingOrdinary LightningBD2.txt; explicit Sonic Hindi",
       "feed": "Sonic India; language unverified",
       "remote_probe": "GitHub Actions 2026-10-30T19:20:11.602888+00:00: DNS error [Errno -2] Name or service not known; two-fetch decode not verified"
+    },
+    {
+      "id": "S113",
+      "url": "http://14.102.123.50:5001/live/815.m3u8",
+      "source": "ItsIsmailRobin/SkyBDIPTV index.html; explicitly Sonic Hindi, tvg-language Hindi, Jio channel 815",
+      "feed": "Sonic India; language unverified",
+      "remote_probe": "GitHub Actions 2026-10-30T20:35:31.066799+00:00: manifest fetch <urlopen error [Errno 111] Connection refused>; two-fetch decode not verified"
+    },
+    {
+      "id": "S114",
+      "url": "https://s2.itcnbd.live/sonic/index.m3u8",
+      "source": "Your-Tribal-Chief/LiveTV src/data/channels.ts; SONIC channel, Hindi audio unconfirmed; require metadata",
+      "feed": "Sonic India; language unverified",
+      "remote_probe": "GitHub Actions 2026-10-30T20:35:31.066816+00:00: manifest fetch HTTP Error 403: Forbidden; two-fetch decode not verified"
     }
   ]
 }
