@@ -1,0 +1,68 @@
+name: Sonic Hindi isolated two-fetch probe 2026-10-31-12
+on:
+  push:
+    branches: [sonic-hindi-probe-20261031-12]
+    paths:
+      - '.github/workflows/sonic-hindi-20261031-12.yml'
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe newly sourced public Sonic India Hindi stream
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json,subprocess,re,urllib.request,datetime,ipaddress,socket,urllib.parse
+          from pathlib import Path
+          url='https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=765200.m3u8'
+          report={'checked_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'url':url,'source':'ak-office-pvt/aklive-v3 master/m3u8/Voot/Sonic_Nickelodeon.m3u8; explicit hin= audio variant','verified':False,'link3_verified':False,'checks':[]}
+          prior=json.loads(Path('sonic_hindi_candidates.json').read_text())
+          favorites=json.loads(Path('favorites_test_registry.json').read_text())
+          def urls(o):
+            if isinstance(o,dict):
+              for k,v in o.items():
+                if k=='url' and isinstance(v,str): yield v
+                yield from urls(v)
+            elif isinstance(o,list):
+              for v in o: yield from urls(v)
+          excluded=set(urls(prior))|set(urls(favorites))
+          def run(cmd,timeout=45):
+            try:
+              p=subprocess.run(cmd,capture_output=True,text=True,timeout=timeout)
+              return {'rc':p.returncode,'out':p.stdout[-6000:],'err':p.stderr[-1500:]}
+            except Exception as e: return {'rc':-1,'out':'','err':str(e)}
+          try:
+            assert url not in excluded, 'previously failed or favorite'
+            assert not any(x in url.lower() for x in ('token=','hdntl=','mac=','drm','license','widevine','auth=','signature=')), 'credential/DRM'
+            p=urllib.parse.urlsplit(url)
+            ips={v[4][0] for v in socket.getaddrinfo(p.hostname,443)}
+            assert ips and all(ipaddress.ip_address(ip).is_global for ip in ips), 'private/BDIX address'
+            with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'}),timeout=15) as resp:
+              head=resp.read(40000).decode('utf-8','replace')
+            assert head.lstrip().startswith('#EXTM3U') and ('#EXTINF' in head or '#EXT-X-STREAM-INF' in head), 'not HLS manifest'
+            assert '#EXT-X-KEY:' not in head and '#EXT-X-SESSION-KEY:' not in head, 'keyed manifest'
+            report['manifest_valid']=True
+            report['hindi_manifest_metadata']=bool(re.search(r'LANGUAGE=["\x27]?(?:hi|hin|Hindi)\b|_hin=',head,re.I))
+            for n in (1,2):
+              probe=run(['ffprobe','-v','error','-rw_timeout','12000000','-show_entries','stream=codec_type,codec_name:stream_tags=language','-of','json',url],40)
+              try: streams=json.loads(probe['out']).get('streams',[])
+              except: streams=[]
+              dec=run(['ffmpeg','-hide_banner','-nostdin','-loglevel','error','-rw_timeout','12000000','-i',url,'-map','0:v:0','-an','-frames:v','10','-progress','pipe:1','-f','null','-'],50)
+              frames=[int(x) for x in re.findall(r'^frame=(\d+)',dec['out'],re.M)]
+              report['checks'].append({'fetch':n,'ffprobe_rc':probe['rc'],'streams':streams,'ffmpeg_rc':dec['rc'],'decoded_frames':max(frames or [0]),'error':dec['err'] or probe['err']})
+            report['verified']=all(c['ffprobe_rc']==0 and any(s.get('codec_type')=='video' for s in c['streams']) and any(s.get('codec_type')=='audio' for s in c['streams']) and c['ffmpeg_rc']==0 and c['decoded_frames']>=3 for c in report['checks'])
+            report['hindi_audio_metadata']=any(s.get('tags',{}).get('language','').lower() in ('hi','hin','hindi') for c in report['checks'] for s in c['streams'] if s.get('codec_type')=='audio')
+          except Exception as e: report['error']=str(e)
+          Path('sonic_probe_20261031_12.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+          print('SONIC_PROBE_RESULT',json.dumps(report,ensure_ascii=False),flush=True)
+          PY
+      - name: Commit isolated probe report only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sonic_probe_20261031_12.json
+          git diff --cached --quiet || (git commit -m 'Save isolated Sonic Hindi probe result' && git push)
