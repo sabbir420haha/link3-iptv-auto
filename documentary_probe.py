@@ -138,7 +138,9 @@ def main():
     baseline=check_baselines()
     with cf.ThreadPoolExecutor(max_workers=12) as pool:
         results=list(pool.map(run,POOL))
-    publish=[x for x in results if x["status"]=="hd_video_verified" and\n             (baseline.get(x["channel"],{}).get("measured_or_advertised_height") is None\n              or x["height"]>baseline[x["channel"]]["measured_or_advertised_height"])]
+    publish=[x for x in results if x["status"]=="hd_video_verified" and
+             (baseline.get(x["channel"],{}).get("measured_or_advertised_height") is None
+              or x["height"]>baseline[x["channel"]]["measured_or_advertised_height"])]
     doc=["#EXTM3U","# Remote GitHub runner verified real HD video segments; NOT Link3-verified.",
          "# Bengali spoken audio NOT guaranteed (unless metadata says so).",
          "# No MAIN source URLs or failed sources. Select TEST by number."]
