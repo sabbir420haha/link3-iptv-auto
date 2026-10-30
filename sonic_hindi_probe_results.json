@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-30T06:40:11.539323+00:00",
-  "source_count": 15,
+  "checked_utc": "2026-10-30T06:43:33.299614+00:00",
+  "source_count": 27,
   "remote_verified": 0,
   "remote_only_not_Link3": true,
   "audio_note": "Feed label is weaker evidence than actual HLS/segment Hindi language metadata.",
@@ -124,6 +124,102 @@
       "source": "Shaharum1010/Cartoon-channel-",
       "status": "rejected",
       "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S16",
+      "url": "https://madanitv.assadikb.workers.dev/live.php?id=815&e=.m3u8",
+      "feed": "Sonic Hindi ID 815",
+      "source": "sm-monirulislam/SM-IPTV 2026",
+      "status": "rejected",
+      "error": "no_decodable_video_height:0"
+    },
+    {
+      "id": "S17",
+      "url": "https://live.dinesh29.com.np/stream/jiotv/sonichindi/master.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "CricZone/BDStreamHub",
+      "status": "rejected",
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "S18",
+      "url": "https://mini1.allinonereborn.xyz/jiotv-ww192/app/ts_live_815.m3u8",
+      "feed": "Sonic Hindi ID 815",
+      "source": "MuzammilShah51214/Live-Tv-786",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S19",
+      "url": "https://redmi.allinonereborn.xyz/jiotv-ww/app/live.php?id=815&e=.m3u8",
+      "feed": "Sonic Hindi ID 815",
+      "source": "MuzammilShah51214/Live-Tv-786",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S20",
+      "url": "https://tv.googledrivelinks.com/live.php?c=sonic_Hindi&q=1200&e=.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "flyingash09/iptv",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -5] No address associated with hostname>"
+    },
+    {
+      "id": "S21",
+      "url": "https://tsneh.vercel.app/denver4567948",
+      "feed": "Sonic Hindi",
+      "source": "aoestudios57/aoestudios57.github.io",
+      "status": "rejected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "S22",
+      "url": "http://jo123.biz/jweb/m3u8.php?c=sonic_Hindi&q=1200&e=.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "mahmud31132/bdix-tv",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S23",
+      "url": "http://103.140.254.2:3500/live/815.m3u8",
+      "feed": "Sonic Hindi ID 815",
+      "source": "notes.io Jio TV stream list",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S24",
+      "url": "https://sflex07.fun:443/07/jio/app/ts_live_815.m3u8",
+      "feed": "Sonic Hindi ID 815",
+      "source": "channeliptv0/IPTV commented source",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S25",
+      "url": "http://103.179.246.243:8000/play/a021",
+      "feed": "Sonic HD Hindi uncertain",
+      "source": "r0m35h/main Sonic HD",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S26",
+      "url": "http://103.147.87.13:8000/play/a09w/index.m3u8",
+      "feed": "Sonic",
+      "source": "kumar1244 Devops_201_course",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S27",
+      "url": "http://117.102.16.2:34567/play/a09g/index.m3u8",
+      "feed": "Sonic Hindi uncertain",
+      "source": "labib5556/Labi-h Sonic Nick SD",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
     }
   ]
 }
