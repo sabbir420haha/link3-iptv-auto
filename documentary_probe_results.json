@@ -1,8 +1,24 @@
 {
-  "checked_utc": "2026-10-30T05:49:19.822047+00:00",
-  "checked_count": 31,
+  "checked_utc": "2026-10-30T06:09:32.775591+00:00",
+  "checked_count": 38,
+  "baseline": {
+    "Discovery Bangla": {
+      "measured_or_advertised_height": 1080,
+      "audio_tags": [
+        "ben"
+      ],
+      "scope": "GitHub remote check, NOT Link3 playback"
+    },
+    "Nat Geo HD Bangla": {
+      "measured_or_advertised_height": 1080,
+      "audio_tags": [
+        ""
+      ],
+      "scope": "GitHub remote check, NOT Link3 playback"
+    }
+  },
   "hd_segment_verified_count": 0,
-  "note": "GitHub network only. Video height observed/advertised; Bengali AUDIO and Link3 playback unverified.",
+  "note": "GitHub network only. Baseline is read-only, and heights may be HLS-advertised; Bengali AUDIO and Link3 playback unverified.",
   "results": [
     {
       "id": "C01",
@@ -251,6 +267,62 @@
       "source": "rudrow/iptv",
       "status": "failed",
       "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C33",
+      "channel": "Discovery Bangla",
+      "url": "http://180.94.28.28:8097//DISCOVERY-BANGLA/index.fmp4.m3u8",
+      "source": "Salimtech353/NetPlay channels2.json",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C34",
+      "channel": "Discovery Bangla",
+      "url": "http://202.70.146.135:8000/play/a05z/index.m3u8",
+      "source": "ahsam991/Live-TV-Channel- megapackChannels.ts",
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "C35",
+      "channel": "Discovery Bangla",
+      "url": "http://103.168.18.83:80/zan/app/ts_live_573.m3u8",
+      "source": "phisher98/TVVVV Jio Bengali",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "C36",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://180.94.28.28:8097//NAT-GEO-BANGLA/index.fmp4.m3u8",
+      "source": "Salimtech353/NetPlay channels2.json",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C37",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://103.135.208.14/live/ibox/bd/61.m3u8",
+      "source": "jibon5259/Iptv IT CARE TV (Gold Version)",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C38",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://103.107.79.87:8080/CH8110HD07/video.m3u8",
+      "source": "PrattoySaha/IPTV Devilbox.m3u8",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "C39",
+      "channel": "Nat Geo HD Bangla",
+      "url": "https://raw.githubusercontent.com/konanda-sg/thuran9/refs/heads/main/natgeo.m3u8",
+      "source": "Clasherstore/Trrertv Search",
+      "status": "failed",
+      "error": "HTTP Error 401: Unauthorized"
     }
   ]
 }
