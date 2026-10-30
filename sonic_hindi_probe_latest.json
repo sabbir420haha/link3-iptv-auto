@@ -1,35 +1,29 @@
 {
-  "checked_utc": "2026-10-30T09:04:16.153984+00:00",
+  "checked_utc": "2026-10-30T10:32:47.509354+00:00",
   "results": [
     {
-      "url": "http://103.180.212.191:3500/live/815.m3u8",
+      "url": "http://103.72.101.252:8080/live/815.m3u8",
       "verified": false,
       "reason": "manifest fetch <urlopen error timed out>",
-      "source": "badalbd53/Rocket-OTV hindi playlist explicitly Sonic Hindi ID 815"
+      "source": "ttmttm/iptv_2026 streams/in.m3u Sonic.in@SD; channel 815 corresponds to Jio Sonic Hindi"
     },
     {
-      "url": "http://103.139.171.5:5001/live.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "url": "http://66.102.120.18:8000/play/a00p/index.m3u8",
       "verified": false,
       "reason": "manifest fetch <urlopen error timed out>",
-      "source": "Sonuiptvnew/Sonuiptvnew jio.m3u explicitly Sonic Hindi"
+      "source": "SajadTroy/openstream streams/in.m3u Sonic.in@SD"
     },
     {
-      "url": "https://node103074-join-us-on-telegram-streamkinglive.in1.bitmana.io/autoq.php?c=sonic_Hindi",
-      "verified": false,
-      "reason": "DNS error [Errno -2] Name or service not known",
-      "source": "Sonuiptvnew/Sonuiptvnew Jio TV.m3u explicitly Sonic Hindi"
-    },
-    {
-      "url": "http://indtv.online/sonic_Hindi.m3u8",
-      "verified": false,
-      "reason": "DNS error [Errno -2] Name or service not known",
-      "source": "fahadskt/IPTV-Playlists Old/Palash Raj Sonic Hindi"
-    },
-    {
-      "url": "http://pkr.cinepex.tv:8278/sonichindikdin/playlist.m3u8",
+      "url": "http://103.167.255.18:8085/play/a0nf/index.m3u8",
       "verified": false,
       "reason": "manifest fetch <urlopen error [Errno 111] Connection refused>",
-      "source": "TamannaJain2710/iptv Customised_iptv.m3u explicitly SONIC"
+      "source": "dineshkn-dev/hyper-tv data/playlist.m3u8.bak Sonic.in@SD"
+    },
+    {
+      "url": "http://103.153.39.34:8000/play/a04p/index.m3u8",
+      "verified": false,
+      "reason": "manifest fetch <urlopen error timed out>",
+      "source": "imranemon1/emon Iptv.m3u Sonic 3 and riyad456/supernetIPTV Sonic 2"
     }
   ],
   "published": [],
