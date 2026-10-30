@@ -1,29 +1,53 @@
 {
-  "checked_utc": "2026-10-30T10:32:47.509354+00:00",
+  "checked_utc": "2026-10-30T10:47:08.769667+00:00",
   "results": [
     {
-      "url": "http://103.72.101.252:8080/live/815.m3u8",
+      "url": "http://103.139.171.5:5001/live.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "source": "Sonuiptvnew/Sonuiptvnew jio.m3u; explicitly Sonic Hindi, Jio channel 815",
       "verified": false,
-      "reason": "manifest fetch <urlopen error timed out>",
-      "source": "ttmttm/iptv_2026 streams/in.m3u Sonic.in@SD; channel 815 corresponds to Jio Sonic Hindi"
+      "video_stream": false,
+      "audio_stream": false,
+      "hindi_audio_metadata": false,
+      "streams": [],
+      "decodes": [
+        {
+          "fetch": 1,
+          "exit": -1,
+          "decoded_frames": 0,
+          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+        },
+        {
+          "fetch": 2,
+          "exit": -1,
+          "decoded_frames": 0,
+          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+        }
+      ],
+      "ffprobe_error": "[Errno 2] No such file or directory: 'ffprobe'"
     },
     {
-      "url": "http://66.102.120.18:8000/play/a00p/index.m3u8",
+      "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=765200.m3u8",
+      "source": "Hasibfy37/Iptv Final.m3u; explicit Hindi audio track",
       "verified": false,
-      "reason": "manifest fetch <urlopen error timed out>",
-      "source": "SajadTroy/openstream streams/in.m3u Sonic.in@SD"
-    },
-    {
-      "url": "http://103.167.255.18:8085/play/a0nf/index.m3u8",
-      "verified": false,
-      "reason": "manifest fetch <urlopen error [Errno 111] Connection refused>",
-      "source": "dineshkn-dev/hyper-tv data/playlist.m3u8.bak Sonic.in@SD"
-    },
-    {
-      "url": "http://103.153.39.34:8000/play/a04p/index.m3u8",
-      "verified": false,
-      "reason": "manifest fetch <urlopen error timed out>",
-      "source": "imranemon1/emon Iptv.m3u Sonic 3 and riyad456/supernetIPTV Sonic 2"
+      "video_stream": false,
+      "audio_stream": false,
+      "hindi_audio_metadata": false,
+      "streams": [],
+      "decodes": [
+        {
+          "fetch": 1,
+          "exit": -1,
+          "decoded_frames": 0,
+          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+        },
+        {
+          "fetch": 2,
+          "exit": -1,
+          "decoded_frames": 0,
+          "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+        }
+      ],
+      "ffprobe_error": "[Errno 2] No such file or directory: 'ffprobe'"
     }
   ],
   "published": [],
