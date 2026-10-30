@@ -27,8 +27,11 @@ jobs:
           import json, subprocess, time, re, pathlib, urllib.parse, urllib.request, socket, ipaddress, datetime
           root=pathlib.Path('.')
           candidates=[
-            {'url':'http://198.195.239.50:8095/sonic/index.m3u8','source':'stablesports711-hue/stable-sports-iptv STABLE-SPORTS TV.m3u; Sonic_Bangla logo; require Hindi metadata','source_hindi':False},
-            {'url':'https://snehtv.in1.bitmana.io/live.php?c=Sonic_Nickelodeon&q=250&e=.m3u8','source':'Arun9dec/IPTV IPTV Old; Sonic Nickelodeon in Kids (Hindi) group','source_hindi':True}
+            {'url':'http://node101473-ishanjiotv.in1.bitmana.io/live.php?c=sonic_Hindi&q=800&e=Ishan.m3u8','source':'Sonuiptvnew/Sonuiptvnew sonuiptvbackjio.m3u; explicitly Sonic Hindi','source_hindi':True},
+            {'url':'http://smiletv.live:4110/getm3u8/815/master.m3u8','source':'sudiptobd2/jio new; explicitly Sonic Hindi Jio 815','source_hindi':True},
+            {'url':'https://jio.jiotv.link/api/app/live.php?id=815&e=.m3u8','source':'AlahiMajnurOsama/Tv JioTv.m3u; Sonic Hindi tvg-language Hindi','source_hindi':True},
+            {'url':'https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=sonic_Hindi&e=.m3u8','source':'GhostHostBD/tvlink JIO serverbackupchannel; explicitly Sonic Hindi','source_hindi':True},
+            {'url':'https://livevoot.co.in/voot/master.m3u8?id=Sonic_Nickelodeon_voot_MOB','source':'mdsirome/LiveTV DiscoverTV.m3u; Sonic Nickelodeon; Hindi metadata required','source_hindi':False}
           ]
           prior=json.loads((root/'sonic_hindi_candidates.json').read_text())
           favorites=json.loads((root/'favorites_test_registry.json').read_text())
@@ -67,7 +70,7 @@ jobs:
                 head=resp.read(65536).decode('utf-8','replace')
               if not head.lstrip().startswith('#EXTM3U') or not re.search(r'#EXT-X-(STREAM-INF|TARGETDURATION|MEDIA-SEQUENCE)',head):
                 return dict(o,reason='not an HLS manifest')
-              if re.search(r'#EXT-X-(KEY|SESSION-KEY|DEFINE):',head):
+              if re.search(r'#EXT-X-(KEY|SESSION-KEY|DEFINE):|(?:token=|hdntl=|exp=|sig=|auth=)',head,re.I):
                 return dict(o,reason='keyed/DRM/variable manifest rejected')
             except Exception as e:return dict(o,reason='manifest '+str(e)[:200])
             hindi_manifest=bool(re.search(r'LANGUAGE=["\x27]?(?:hin|hi|hindi)\b|_hin=',head,re.I))
