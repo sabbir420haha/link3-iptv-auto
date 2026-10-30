@@ -1,7 +1,7 @@
 {
-  "checked_utc": "2026-10-30T05:47:31.004252+00:00",
+  "checked_utc": "2026-10-30T05:48:36.195856+00:00",
   "checked_count": 32,
-  "hd_segment_verified_count": 1,
+  "hd_segment_verified_count": 0,
   "note": "GitHub network only. Video height observed/advertised; Bengali AUDIO and Link3 playback unverified.",
   "results": [
     {
@@ -33,14 +33,8 @@
       "channel": "Discovery Bangla",
       "url": "https://raw.githubusercontent.com/stablesports711-hue/stable-sports-movie/refs/heads/main/BANGLA/DiscoveryBD.m3u8",
       "source": "stablesports711-hue/stable-sports-iptv",
-      "status": "hd_video_verified",
-      "height": 1080,
-      "audio_language_tags": [
-        ""
-      ],
-      "format": "master+media",
-      "segment_bytes": 1000000,
-      "bengali_metadata": false
+      "status": "failed",
+      "error": "credential_bound_portal_rejected"
     },
     {
       "id": "C05",

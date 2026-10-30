@@ -1,5 +1,4 @@
 #EXTM3U
-# Discovery Bangla and Nat Geo HD Bangla - NEW HD TESTS ONLY.
-# 2026-10-30: All 32 candidate URLs screened; none qualified as a safe, authenticated, Link3-suitable tested HD source.
-# Last reported working probe was an external credential-bound MAG portal and is excluded.
-# No MAIN playlist streams; old failed sources removed.
+# Remote GitHub runner verified real HD video segments; NOT Link3-verified.
+# Bengali spoken audio NOT guaranteed (unless metadata says so).
+# No MAIN source URLs or failed sources. Select TEST by number.
