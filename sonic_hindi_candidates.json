@@ -684,6 +684,27 @@
       "source": "pastelink.net/29ztf Able TV; explicitly Sonic Hindi",
       "feed": "Sonic Nickelodeon; Hindi track unconfirmed",
       "remote_probe": "GitHub Actions 2026-10-30T18:19:21.708715+00:00: DNS: [Errno -2] Name or service not known; no two-fetch video decode; ineligible"
+    },
+    {
+      "id": "S110",
+      "url": "http://58.27.219.166:8000/play/a06j/index.m3u8",
+      "source": "Entertainment Hub public listing; Sonic; Hindi unconfirmed",
+      "feed": "Sonic India; language unverified",
+      "remote_probe": "GitHub Actions 2026-10-30T19:20:11.602868+00:00: manifest fetch <urlopen error timed out>; two-fetch decode not verified"
+    },
+    {
+      "id": "S111",
+      "url": "http://119.156.26.155:8000/play/a05y/index.m3u8",
+      "source": "Public IPTV listing; Sonic; Hindi unconfirmed",
+      "feed": "Sonic India; language unverified",
+      "remote_probe": "GitHub Actions 2026-10-30T19:20:11.602884+00:00: manifest fetch <urlopen error timed out>; two-fetch decode not verified"
+    },
+    {
+      "id": "S112",
+      "url": "https://reshort.in/autoq.php?c=sonic_Hindi",
+      "source": "theForg8/SomethingOrdinary LightningBD2.txt; explicit Sonic Hindi",
+      "feed": "Sonic India; language unverified",
+      "remote_probe": "GitHub Actions 2026-10-30T19:20:11.602888+00:00: DNS error [Errno -2] Name or service not known; two-fetch decode not verified"
     }
   ]
 }
