@@ -325,6 +325,36 @@
       "channel": "Discovery Bangla",
       "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_hd/playlist.m3u8",
       "source": "Toffee publicly published HD, AUTH REQUIRED: reject if 403"
+    },
+    {
+      "id": "C56",
+      "channel": "Discovery Bangla",
+      "url": "https://drk6xq0vhn.gpcdn.net/live/discovery_hd_abr/index.m3u8",
+      "source": "iptv-org India Discovery HD 720; Bengali audio uncertain"
+    },
+    {
+      "id": "C57",
+      "channel": "Discovery Bangla",
+      "url": "https://raw.githubusercontent.com/functionerror/channels/main/information/discoverybengali.m3u8",
+      "source": "PrattoySaha/IPTV Home Discovery Bengali alternate playlist"
+    },
+    {
+      "id": "C58",
+      "channel": "Discovery Bangla",
+      "url": "http://198.195.239.50:8095/Discovery/tracks-v1a1/mono.m3u8",
+      "source": "RhqAB/TV Discovery HD; Bengali audio uncertain"
+    },
+    {
+      "id": "C59",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://xown.site/token/stream.php?id=1487901&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq",
+      "source": "LiveTVCollector Bengali labelled; token may be expired, reject if not public"
+    },
+    {
+      "id": "C60",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://149.71.34.166:8002/play/a013/index.m3u8",
+      "source": "iptv-org India NatGeo HD, listed 576p; not preferred"
     }
   ],
   "rejected_after_probe": [
