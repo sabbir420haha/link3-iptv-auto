@@ -1,6 +1,5 @@
 #EXTM3U
-# Remote GitHub runner verified real HD video segments; NOT Link3-verified.
-# Bengali spoken audio NOT guaranteed (unless metadata says so).
-# No MAIN source URLs or failed sources. Select TEST by number.
-#EXTINF:-1 tvg-id="probe-discovery-bangla-01" tvg-name="Discovery Bangla NEW HD TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png" group-title="HD VIDEO CHECKED | Discovery Bangla",Discovery Bangla NEW HD TEST 01
-https://raw.githubusercontent.com/stablesports711-hue/stable-sports-movie/refs/heads/main/BANGLA/DiscoveryBD.m3u8
+# Discovery Bangla and Nat Geo HD Bangla - NEW HD TESTS ONLY.
+# 2026-10-30: All 32 candidate URLs screened; none qualified as a safe, authenticated, Link3-suitable tested HD source.
+# Last reported working probe was an external credential-bound MAG portal and is excluded.
+# No MAIN playlist streams; old failed sources removed.
