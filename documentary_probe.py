@@ -67,7 +67,7 @@ def manifest(url,depth=0):
         opts=[]
         for i,line in enumerate(lines[:-1]):
             if line.startswith("#EXT-X-STREAM-INF"):
-                a=re.search(r"RESOLUTION=\\d+x(\\d+)",line)
+                a=re.search(r"RESOLUTION=\d+x(\d+)",line)
                 h=int(a.group(1)) if a else 0
                 nxt=next((v for v in lines[i+1:] if not v.startswith("#")),None)
                 if nxt: opts.append((h,up.urljoin(actual,nxt)))
