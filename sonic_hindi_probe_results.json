@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-30T08:16:29.614680+00:00",
-  "source_count": 81,
+  "checked_utc": "2026-10-30T10:34:02.217487+00:00",
+  "source_count": 85,
   "remote_verified": 0,
   "remote_only_not_Link3": true,
   "audio_note": "Feed label is weaker evidence than actual HLS/segment Hindi language metadata.",
@@ -579,7 +579,7 @@
       "feed": "Sonic Hindi ID 815",
       "source": "pravashranjan/entwld 2026 live",
       "status": "rejected",
-      "error": "HTTP Error 401: Unauthorized"
+      "error": "not_hls"
     },
     {
       "id": "S73",
@@ -652,6 +652,38 @@
       "source": "SArun61/IPTV Jio.m3u",
       "status": "rejected",
       "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "id": "S82",
+      "url": "http://103.72.101.252:8080/live/815.m3u8",
+      "feed": "Sonic India; Hindi audio unconfirmed",
+      "source": "ttmttm/iptv_2026 streams/in.m3u Sonic.in@SD; channel 815 corresponds to Jio Sonic Hindi",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S83",
+      "url": "http://66.102.120.18:8000/play/a00p/index.m3u8",
+      "feed": "Sonic India; Hindi audio unconfirmed",
+      "source": "SajadTroy/openstream streams/in.m3u Sonic.in@SD",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S84",
+      "url": "http://103.167.255.18:8085/play/a0nf/index.m3u8",
+      "feed": "Sonic India; Hindi audio unconfirmed",
+      "source": "dineshkn-dev/hyper-tv data/playlist.m3u8.bak Sonic.in@SD",
+      "status": "rejected",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "id": "S85",
+      "url": "http://103.153.39.34:8000/play/a04p/index.m3u8",
+      "feed": "Sonic India; Hindi audio unconfirmed",
+      "source": "imranemon1/emon Iptv.m3u Sonic 3 and riyad456/supernetIPTV Sonic 2",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
     }
   ]
 }
