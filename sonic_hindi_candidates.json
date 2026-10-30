@@ -229,6 +229,36 @@
       "url": "http://103.99.249.107/play/a028",
       "source": "Sonuiptvnew/Sonuiptvnew",
       "feed": "Sonic Nickelodeon SD"
+    },
+    {
+      "id": "S39",
+      "url": "http://103.151.60.162:2122/play/a02v/index.m3u8?hls",
+      "source": "iptv-org streams/in.m3u currently indexed",
+      "feed": "Sonic India Hindi uncertain"
+    },
+    {
+      "id": "S40",
+      "url": "http://103.89.248.130:8082/sonic/index.m3u8",
+      "source": "noobalex616/cricfytv Bangla group Sonic",
+      "feed": "Sonic India Hindi uncertain"
+    },
+    {
+      "id": "S41",
+      "url": "http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8",
+      "source": "anantaabid24/Ananta-Ott",
+      "feed": "Sonic India Hindi uncertain"
+    },
+    {
+      "id": "S42",
+      "url": "http://103.182.170.32:8888/play/a02s",
+      "source": "Jazzdar1/darfree.tv/Subirmaxpro",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S43",
+      "url": "http://103.169.98.53:8000/play/a09g",
+      "source": "SArun61/IPTV Astra",
+      "feed": "SONIC NICK SD"
     }
   ]
 }
