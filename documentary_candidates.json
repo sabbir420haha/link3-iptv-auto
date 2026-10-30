@@ -21,12 +21,6 @@
       "source": "channeliptv0/IPTV"
     },
     {
-      "id": "C04",
-      "channel": "Discovery Bangla",
-      "url": "https://raw.githubusercontent.com/stablesports711-hue/stable-sports-movie/refs/heads/main/BANGLA/DiscoveryBD.m3u8",
-      "source": "stablesports711-hue/stable-sports-iptv"
-    },
-    {
       "id": "C05",
       "channel": "Discovery Bangla",
       "url": "https://streamingxfireflix.vercel.app/api/stream?id=245966.m3u8",
@@ -193,6 +187,12 @@
       "channel": "Nat Geo HD Bangla",
       "url": "http://103.132.181.118:82/play/a006",
       "source": "rudrow/iptv"
+    }
+  ],
+  "rejected_after_probe": [
+    {
+      "id": "C04",
+      "reason": "Nested credential-bound MAG portal (MAC address); not appropriate for public playlist"
     }
   ]
 }
