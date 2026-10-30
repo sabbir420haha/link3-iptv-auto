@@ -469,6 +469,27 @@
       "url": "https://edge01.iptv.digijadoo.net/live/sonic/chunks.m3u8",
       "source": "Shadmanislam/bdiptv Nick Sonic Bangla",
       "feed": "Sonic Bengali likely; language unknown"
+    },
+    {
+      "id": "S79",
+      "url": "http://70.39.83.58:8278/sonichindikdin/playlist.m3u8",
+      "source": "Sonuiptvnew/Sonuiptvnew sonuiptv-kids.m3u",
+      "feed": "Sonic Hindi",
+      "remote_probe": "Connection refused on GitHub Actions 2026-10-30"
+    },
+    {
+      "id": "S80",
+      "url": "https://madplay.live/jiotv/app/live/815/null/index.m3u8",
+      "source": "hasanmamunctg/hasanmamunctg manik",
+      "feed": "Sonic Hindi",
+      "remote_probe": "Not an HLS media/master manifest on GitHub Actions 2026-10-30"
+    },
+    {
+      "id": "S81",
+      "url": "https://jioapi.sports247.eu.org/api/app/live.php?id=815&e=.m3u8",
+      "source": "SArun61/IPTV Jio.m3u",
+      "feed": "Sonic Hindi",
+      "remote_probe": "DNS failure on GitHub Actions 2026-10-30"
     }
   ]
 }
