@@ -1,0 +1,19 @@
+{
+  "checked_utc": "2026-10-30T22:57:43.979328+00:00",
+  "results": [
+    {
+      "url": "http://198.195.239.50:8095/sonic/index.m3u8",
+      "source": "stablesports711-hue/stable-sports-iptv STABLE-SPORTS TV.m3u; Sonic_Bangla logo; require Hindi metadata",
+      "verified": false,
+      "reason": "already excluded or published"
+    },
+    {
+      "url": "https://snehtv.in1.bitmana.io/live.php?c=Sonic_Nickelodeon&q=250&e=.m3u8",
+      "source": "Arun9dec/IPTV IPTV Old; Sonic Nickelodeon in Kids (Hindi) group",
+      "verified": false,
+      "reason": "DNS [Errno -2] Name or service not known"
+    }
+  ],
+  "published": [],
+  "link3_verified": false
+}
