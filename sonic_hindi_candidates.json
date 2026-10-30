@@ -635,6 +635,27 @@
       "source": "aria-tv/aria channels/india.md Sonic India, marked unstable",
       "feed": "Sonic India; Hindi unconfirmed",
       "remote_probe": "GitHub Actions 2026-10-30 14:50 UTC: HLS manifest fetch timed out; zero decoded video frames; not eligible"
+    },
+    {
+      "id": "S103",
+      "url": "http://103.151.43.102:8000/play/a03p/index.m3u8",
+      "source": "Telemetr public Indian IPTV group; Sonic multi-audio listed; Hindi track unconfirmed",
+      "feed": "Sonic India; Hindi audio unconfirmed",
+      "remote_probe": "GitHub Actions 2026-10-30T16:07:57.231404+00:00: manifest fetch <urlopen error timed out>; no decoded video; ineligible"
+    },
+    {
+      "id": "S104",
+      "url": "http://103.174.4.42:4455/play/a05z/index.m3u8",
+      "source": "Sultanovic IPTV listing; Nickelodeon Sonic; Hindi track unconfirmed",
+      "feed": "Sonic India; Hindi audio unconfirmed",
+      "remote_probe": "GitHub Actions 2026-10-30T16:07:57.231404+00:00: manifest fetch <urlopen error timed out>; no decoded video; ineligible"
+    },
+    {
+      "id": "S105",
+      "url": "http://103.151.42.206:8000/play/a03p/index.m3u8",
+      "source": "Sultanovic public IPTV listing; Sonic; Hindi track unconfirmed",
+      "feed": "Sonic India; Hindi audio unconfirmed",
+      "remote_probe": "GitHub Actions 2026-10-30T16:07:57.231404+00:00: manifest fetch <urlopen error timed out>; no decoded video; ineligible"
     }
   ]
 }
