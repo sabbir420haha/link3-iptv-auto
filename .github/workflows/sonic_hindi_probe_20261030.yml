@@ -32,7 +32,7 @@ jobs:
             excluded.update(x.get('url','') for x in ch.get('candidates',[]))
           playlist=Path('documentary_hd_tests.m3u')
           content=playlist.read_text()
-          excluded.update(re.findall(r'^https?://\\S+',content,re.M))
+          excluded.update(re.findall(r'^https?://\S+',content,re.M))
           results=[]; published=[]
           def run(args,timeout=50):
             try:
@@ -55,7 +55,7 @@ jobs:
             decodes=[]
             for n in range(2):
               p=run(['ffmpeg','-nostdin','-hide_banner','-loglevel','error','-rw_timeout','12000000','-i',url,'-map','0:v:0','-an','-frames:v','4','-progress','pipe:1','-f','null','-'],timeout=50)
-              frames=[int(x) for x in re.findall(r'^frame=(\\d+)',p.get('stdout',''),re.M)]
+              frames=[int(x) for x in re.findall(r'^frame=(\d+)',p.get('stdout',''),re.M)]
               decodes.append({"fetch":n+1,"exit":p['returncode'],"decoded_frames":max(frames or [0]),"error":p.get('stderr',p.get('error',''))[:350]})
               if n==0:time.sleep(4)
             video=any(s.get('codec_type')=='video' for s in streams)
@@ -65,15 +65,15 @@ jobs:
             result={**item,"verified":verified,"video_stream":video,"audio_stream":audio,"hindi_audio_metadata":hindi,"streams":streams[:6],"decodes":decodes,"ffprobe_error":meta.get('stderr',meta.get('error',''))[:400]}
             results.append(result)
             if verified:
-              matches=re.findall(r'Sonic Hindi TEST (\\d+)',content)
+              matches=re.findall(r'Sonic Hindi TEST (\d+)',content)
               nextnum=max([int(x) for x in matches] or [0])+1
-              entry=f'#EXTINF:-1 group-title="Sonic Hindi TEST",Sonic Hindi TEST {nextnum:02d}\\n{url}\\n'
-              content=content.rstrip('\\n')+'\\n'+entry
+              entry=f'#EXTINF:-1 group-title="Sonic Hindi TEST",Sonic Hindi TEST {nextnum:02d}\n{url}\n'
+              content=content.rstrip('\n')+'\n'+entry
               published.append({"number":f'{nextnum:02d}',"url":url,"hindi_metadata":hindi,"decodes":decodes})
               excluded.add(url)
           if published:playlist.write_text(content)
           report={"checked_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),"results":results,"published":published,"link3_verified":False}
-          Path('sonic_hindi_probe_latest.json').write_text(json.dumps(report,indent=2,ensure_ascii=False)+'\\n')
+          Path('sonic_hindi_probe_latest.json').write_text(json.dumps(report,indent=2,ensure_ascii=False)+'\n')
           print(json.dumps(report,indent=2))
           PY
       - name: Save probe report and verified-only playlist updates
