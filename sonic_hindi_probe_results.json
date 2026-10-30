@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-30T06:43:33.299614+00:00",
-  "source_count": 27,
+  "checked_utc": "2026-10-30T06:44:15.193374+00:00",
+  "source_count": 38,
   "remote_verified": 0,
   "remote_only_not_Link3": true,
   "audio_note": "Feed label is weaker evidence than actual HLS/segment Hindi language metadata.",
@@ -218,6 +218,94 @@
       "url": "http://117.102.16.2:34567/play/a09g/index.m3u8",
       "feed": "Sonic Hindi uncertain",
       "source": "labib5556/Labi-h Sonic Nick SD",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S28",
+      "url": "https://jiotv.hadinetbd.tech/jio/v1/Sonic_Hindi/Sonic_Hindi/Sonic_Hindi.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "jongg57ed/jongg57 ip27october 2026",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S29",
+      "url": "https://jio.dinesh29.com.np/live/jio-universal/sonic-hindi/index.ts",
+      "feed": "Sonic Hindi",
+      "source": "Zahidsdlbd/jio",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S30",
+      "url": "https://tv.001133.xyz/live/815.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "mahenkpatel/m3u",
+      "status": "rejected",
+      "error": "not_hls"
+    },
+    {
+      "id": "S31",
+      "url": "https://allinonereborn.com/tatatv.php?id=11667",
+      "feed": "Sonic Hindi Tata",
+      "source": "Bhavesh0a/Index",
+      "status": "rejected",
+      "error": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "id": "S32",
+      "url": "https://techiesneh.in1.bitmana.io/snehapi/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "TheSamimMandal/SamimWorld",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S33",
+      "url": "https://moonkerala.xyz/jcinema/stream.m3u8?id=3774149",
+      "feed": "Sonic Nickelodeon Hindi assumed",
+      "source": "fahadskt/IPTV-Playlists/Jiocinema",
+      "status": "rejected",
+      "error": "not_hls"
+    },
+    {
+      "id": "S34",
+      "url": "https://keralamaxtv.com/vt/stream.m3u8?id=Sonic_Nickelodeon",
+      "feed": "Sonic Nickelodeon",
+      "source": "freedish2024/Allinkids.Com",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S35",
+      "url": "https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/tiptop-op.m3u8?id=1134",
+      "feed": "Sonic Hindi",
+      "source": "Mostak840590/All-In-Onee",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S36",
+      "url": "https://fifabangladesh.live/VHOD/go.php?id=Sonic_Nickelodeon_voot_MOB",
+      "feed": "Sonic Nickelodeon",
+      "source": "Mostak840590/All-In-Onee",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S37",
+      "url": "http://mxonlive.atwebpages.com/_default.php/246767.m3u8",
+      "feed": "SONIC NICK HD",
+      "source": "mxonlive/mxonlive.github.io",
+      "status": "rejected",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "S38",
+      "url": "http://103.99.249.107/play/a028",
+      "feed": "Sonic Nickelodeon SD",
+      "source": "Sonuiptvnew/Sonuiptvnew",
       "status": "rejected",
       "error": "<urlopen error timed out>"
     }
