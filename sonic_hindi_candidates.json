@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "purpose": "Sonic Hindi tests only; no MAIN edits",
   "candidates": [
     {
@@ -719,6 +719,13 @@
       "source": "Your-Tribal-Chief/LiveTV src/data/channels.ts; SONIC channel, Hindi audio unconfirmed; require metadata",
       "feed": "Sonic India; language unverified",
       "remote_probe": "GitHub Actions 2026-10-30T20:35:31.066816+00:00: manifest fetch HTTP Error 403: Forbidden; two-fetch decode not verified"
+    },
+    {
+      "id": "S115",
+      "url": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=765200.m3u8",
+      "source": "ak-office-pvt/aklive-v3 master/m3u8/Voot/Sonic_Nickelodeon.m3u8; source path labels Hindi audio variant",
+      "feed": "Sonic Nickelodeon India; Hindi audio unverified",
+      "remote_probe": "GitHub Actions run 41131120336 on 2026-10-30T21:27:01Z: HLS manifest fetch failed SSL CERTIFICATE_VERIFY_FAILED expired certificate; zero video decoded; two-fetch verification impossible"
     }
   ]
 }
