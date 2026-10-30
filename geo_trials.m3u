@@ -1102,5 +1102,3 @@ http://103.162.136.235:4500/play/a01k/index.m3u8
 http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8
 #EXTINF:-1 tvg-id="fav-sonic-hindi-28" tvg-name="Sonic Hindi TEST 28" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 28
 https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8
-
-# New documentary candidates, 2026-10-30. These will be regrouped by geo_trial.py on the next scheduled refresh.

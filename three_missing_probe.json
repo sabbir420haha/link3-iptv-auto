@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-30T05:36:53.466519+00:00",
+  "checked_utc": "2026-10-30T05:43:42.580835+00:00",
   "scope": "GitHub Actions network, NOT Link3. No channel identities confirmed.",
   "candidate_count": 81,
   "verified_media_candidates": 1,
@@ -35,7 +35,7 @@
       "link3_verified": false,
       "publish_eligible": false,
       "note": "GitHub runner-only test. Playlist is unchanged.",
-      "error": "ValueError: No readable HLS data: <urlopen error [Errno -3] Temporary failure in name resolution>"
+      "error": "ValueError: No readable HLS data: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
     },
     {
       "channel": "Sonic Hindi",
