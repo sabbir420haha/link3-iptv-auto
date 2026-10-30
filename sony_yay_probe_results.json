@@ -1,0 +1,244 @@
+{
+  "checked_utc": "2026-10-30T15:22:39.678345+00:00",
+  "evaluated": 29,
+  "new_remote_verified": 0,
+  "newly_published": [],
+  "MAIN_unchanged": true,
+  "Link3_playback_not_verified": true,
+  "observation": "Three decoded 18-frame samples 32s apart, HLS segment progress when observable. Not proof of uninterrupted long playback or audio language.",
+  "main_url": "https://drk6xq0vhn.gpcdn.net/live/sony_yay_abr/index.m3u8",
+  "results": [
+    {
+      "id": "Y01",
+      "url": "https://pubads.g.doubleclick.net/ssai/event/40H5HfwWTZadFGYkBTqagg/master.m3u8",
+      "source": "Google DAI Sony YAY Hindi event; several GitHub IPTV lists",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y02",
+      "url": "https://dai.google.com/linear/hls/event/GPY7RqOrSkmKJ8z1GbVNhg/master.m3u8",
+      "source": "Sony YAY Hindi Jio playlist alternate",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y03",
+      "url": "https://cloudplay-sonyliv.pages.dev/yay.m3u8",
+      "source": "iptv-org issue 50106 Sep 2026 checked 1080p; geoblock possible",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y04",
+      "url": "https://sliv.tgaadi.workers.dev/sonyyaysd.m3u8",
+      "source": "tg-aadi/sony-liv stream Hindi metadata",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "Y05",
+      "url": "https://live.drmlive-02.workers.dev/sliv/yay.m3u8",
+      "source": "fakeall12398-sketch/M3U Sony Yay",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y06",
+      "url": "https://nxtlive.net/sliv/stream.php?id=0657898986&e=.m3u8",
+      "source": "iptv-org issue 26868 Hindi stream 2025",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y07",
+      "url": "https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971",
+      "source": "sm-monirulislam/SM-IPTV Hindi Sony LIV ID",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "id": "Y08",
+      "url": "https://serverbackupchannel.xyz/jiotvchannel/app/live/872/Sony_Yay_Hindi/index.m3u8",
+      "source": "Hasibfy37/Iptv Sony YAY Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "not_hls"
+    },
+    {
+      "id": "Y09",
+      "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Sony_Yay_Hindi&q=800&e=junk.m3u8",
+      "source": "arshdeep1112/Indian-IPTV Sony_Yay_Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y10",
+      "url": "https://www.drmlive.in/Sonyliv/stream.m3u8?id=sony-yay&e=.m3u8",
+      "source": "Ferdos-Live-Tv Sony LIV Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "not_hls"
+    },
+    {
+      "id": "Y11",
+      "url": "https://sonyliv.tamilultratv.co.in/stream.m3u8?id=sony-yay&e=.m3u8",
+      "source": "fahadskt/IPTV-Playlists/Sonyliv2",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y12",
+      "url": "https://thenayeemparvez.xyz/sliv/stream.php?id=sony-yay&e=.m3u8",
+      "source": "coding-A412/JakSmJ Sony Yay SD",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y13",
+      "url": "https://stream.ottplus.live/live/sony_yay_abr/index.m3u8",
+      "source": "OTTPlus HD playlist, spoken language unknown",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "segment_not_video"
+    },
+    {
+      "id": "Y14",
+      "url": "http://103.165.93.31:8095/sonyYay/index.m3u8",
+      "source": "iptv-org public India Sony Yay 576p",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error timed out>"
+    },
+    {
+      "id": "Y15",
+      "url": "http://103.205.133.42:1935/live/sony_yay_720/index.m3u8",
+      "source": "Toffee Bangladesh source likely Bangla",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error timed out>"
+    },
+    {
+      "id": "Y16",
+      "url": "http://cdn.ihub.live:8080/SonyYay/tracks-v1a1/mono.m3u8",
+      "source": "imranemon1/emon Sony Yay Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "id": "Y17",
+      "url": "http://103.153.175.254:8080/hls/stream32.m3u8",
+      "source": "imranemon1/emon Sony Yay Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error timed out>"
+    },
+    {
+      "id": "Y18",
+      "url": "http://103.229.254.25:7001/play/a0cl/index.m3u8",
+      "source": "ajimal173/iptv Indian Sony Yay",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "id": "Y19",
+      "url": "http://dpny3.1234.uno:6061/sonyyay/index.m3u8",
+      "source": "pk3011/myinof Sony Yay Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y20",
+      "url": "https://tvstream.space//jtv/uuu.php?c=Sony_Yay_Hindi&q=800&e=junk.m3u8",
+      "source": "frienemyman/jiochannel",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "id": "Y21",
+      "url": "https://tatasliv.dinesh29.com.np/live/tatasliv-universal/sony-yay/index.ts",
+      "source": "Zahidsdlbd/sonyliv Sony Yay",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y22",
+      "url": "https://sm-monirul.top/toffee/play/sonyyay.m3u8",
+      "source": "khairulofficial2026/FIFAWC2026 Toffee Sony Yay",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y23",
+      "url": "https://sflex07.fun:443/07/jio/app/ts_live_872.m3u8",
+      "source": "channeliptv0/IPTV Sony_Yay_Hindi ID 872",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y24",
+      "url": "https://amit-1.allinonereborn.in/jiotv-ww313/app/ts_live_872.m3u8",
+      "source": "streamifytv Jio TV Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y25",
+      "url": "https://mini.allinonereborn.online/jiotv-ww323/app/ts_live_872.m3u8",
+      "source": "rkbro23/rk_playlist Jio Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y26",
+      "url": "https://mintos.allinonereborn.xyz/jiotv-ww31/app/ts_live_872.m3u8",
+      "source": "rkbro23/rk_playlist Jio Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error timed out>"
+    },
+    {
+      "id": "Y27",
+      "url": "https://mini1.allinonereborn.xyz/jiotv-ww192/app/ts_live_872.m3u8",
+      "source": "rkbro23/rk_playlist Jio Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error timed out>"
+    },
+    {
+      "id": "Y28",
+      "url": "https://sony247channels.akamaized.net/hls/live/2011746/SonyYaySD/master.m3u8",
+      "source": "dark-N00B/IPtv Sony Yay Hindi old signed URL base, unverified",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "Y29",
+      "url": "https://tataplay.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8",
+      "source": "Habib2399/Meghna Tata Sony Yay Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    }
+  ]
+}
