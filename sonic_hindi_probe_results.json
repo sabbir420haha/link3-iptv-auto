@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-30T07:07:13.042296+00:00",
-  "source_count": 78,
+  "checked_utc": "2026-10-30T08:16:29.614680+00:00",
+  "source_count": 81,
   "remote_verified": 0,
   "remote_only_not_Link3": true,
   "audio_note": "Feed label is weaker evidence than actual HLS/segment Hindi language metadata.",
@@ -507,7 +507,7 @@
       "feed": "Sonic Hindi",
       "source": "existing favorites trial",
       "status": "rejected",
-      "error": "The read operation timed out"
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "id": "S64",
@@ -628,6 +628,30 @@
       "source": "Shadmanislam/bdiptv Nick Sonic Bangla",
       "status": "rejected",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)>"
+    },
+    {
+      "id": "S79",
+      "url": "http://70.39.83.58:8278/sonichindikdin/playlist.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "Sonuiptvnew/Sonuiptvnew sonuiptv-kids.m3u",
+      "status": "rejected",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "id": "S80",
+      "url": "https://madplay.live/jiotv/app/live/815/null/index.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "hasanmamunctg/hasanmamunctg manik",
+      "status": "rejected",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "S81",
+      "url": "https://jioapi.sports247.eu.org/api/app/live.php?id=815&e=.m3u8",
+      "feed": "Sonic Hindi",
+      "source": "SArun61/IPTV Jio.m3u",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
     }
   ]
 }
