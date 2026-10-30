@@ -1,4 +1,4 @@
-name: Sonic Hindi isolated two-fetch test 2026-10-31
+name: Sonic Hindi isolated two-fetch test 2026-10-31 run14
 on:
   push:
     branches: [main]
@@ -27,11 +27,8 @@ jobs:
           import json, subprocess, time, re, pathlib, urllib.parse, urllib.request, socket, ipaddress, datetime
           root=pathlib.Path('.')
           candidates=[
-            {'url':'http://node101473-ishanjiotv.in1.bitmana.io/live.php?c=sonic_Hindi&q=800&e=Ishan.m3u8','source':'Sonuiptvnew/Sonuiptvnew sonuiptvbackjio.m3u; explicitly Sonic Hindi','source_hindi':True},
-            {'url':'http://smiletv.live:4110/getm3u8/815/master.m3u8','source':'sudiptobd2/jio new; explicitly Sonic Hindi Jio 815','source_hindi':True},
-            {'url':'https://jio.jiotv.link/api/app/live.php?id=815&e=.m3u8','source':'AlahiMajnurOsama/Tv JioTv.m3u; Sonic Hindi tvg-language Hindi','source_hindi':True},
-            {'url':'https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=sonic_Hindi&e=.m3u8','source':'GhostHostBD/tvlink JIO serverbackupchannel; explicitly Sonic Hindi','source_hindi':True},
-            {'url':'https://livevoot.co.in/voot/master.m3u8?id=Sonic_Nickelodeon_voot_MOB','source':'mdsirome/LiveTV DiscoverTV.m3u; Sonic Nickelodeon; Hindi metadata required','source_hindi':False}
+            {'url':'http://techmaxlive.ml/live.php?c=sonic_Hindi&q=1200&e=junk.m3u8','source':'rudrow/iptv shima public playlist; explicitly Sonic Hindi; historical source','source_hindi':True},
+            {'url':'http://mumsite.cdnsrv.jio.com/jiotv.live.cdn.jio.com/sonic_Hindi/sonic_Hindi_800.m3u8','source':'AmikArchive ipl.m3u8 archival Jio Sonic Hindi path; no token appended','source_hindi':True}
           ]
           prior=json.loads((root/'sonic_hindi_candidates.json').read_text())
           favorites=json.loads((root/'favorites_test_registry.json').read_text())
@@ -104,14 +101,14 @@ jobs:
             published.append({'number':count,'url':r['url'],'checks':r['checks'],'hindi_metadata':r['hindi_metadata']})
           if published:playlist.write_text(old)
           report={'checked_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'results':results,'published':published,'link3_verified':False}
-          (root/'sonic_probe_20261031_13.json').write_text(json.dumps(report,indent=2)+'\n')
+          (root/'sonic_probe_20261031_14.json').write_text(json.dumps(report,indent=2)+'\n')
           print('FINAL_SONIC_REPORT '+json.dumps(report),flush=True)
           PY
       - name: Commit report and verified-only Sonic TEST entries
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sonic_probe_20261031_13.json documentary_hd_tests.m3u
+          git add sonic_probe_20261031_14.json documentary_hd_tests.m3u
           if ! git diff --cached --quiet; then
             git commit -m "Record isolated Sonic Hindi two-fetch probe; publish only verified"
             git push
