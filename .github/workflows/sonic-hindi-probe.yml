@@ -26,9 +26,9 @@ jobs:
           import json, subprocess, urllib.request, urllib.parse, ipaddress, socket, os, time, re, pathlib
           from datetime import datetime, timezone
           targets = [
-            {"url":"http://pkr.cinepex.tv:8278/sonichindikdin/playlist.m3u8","source":"TamannaJain2710/iptv Customised_iptv.m3u; Sonic Hindi-labelled host, distinct from previously failed 70.39.83.58 endpoint"},
-            {"url":"https://node103074-join-us-on-telegram-streamkinglive.in1.bitmana.io/autoq.php?c=sonic_Hindi","source":"Sonuiptvnew/Sonuiptvnew Jio TV.m3u; explicit Sonic Hindi feed"},
-            {"url":"https://snehtv.in1.bitmana.io/live.php?c=Sonic_Nickelodeon&q=250&e=.m3u8","source":"Arun9dec/IPTV IPTV Old; Sonic Nickelodeon, Hindi audio unconfirmed"}
+            {"url":"http://58.27.219.166:8000/play/a06j/index.m3u8","source":"Entertainment Hub public listing; Sonic; Hindi unconfirmed"},
+            {"url":"http://119.156.26.155:8000/play/a05y/index.m3u8","source":"Public IPTV listing; Sonic; Hindi unconfirmed"},
+            {"url":"https://reshort.in/autoq.php?c=sonic_Hindi","source":"theForg8/SomethingOrdinary LightningBD2.txt; explicit Sonic Hindi"}
           ]
           base = pathlib.Path(".")
           registry = json.loads((base/"sonic_hindi_candidates.json").read_text())
@@ -96,7 +96,7 @@ jobs:
           successes=[r for r in results if r.get("verified") and (r.get("hindi_metadata") or r.get("source_label_hindi"))]
           if successes:
             existing_urls=set(re.findall(r'^https?://\S+',existing,re.M))
-            count=len(re.findall(r'Sonic Hindi TEST\s*\d+',existing))
+            count=max([int(n) for n in re.findall(r'Sonic Hindi TEST\s*(\d+)',existing)] or [0])
             for r in successes:
               if r["url"] in existing_urls: continue
               count+=1
@@ -104,6 +104,14 @@ jobs:
               existing += f'#EXTINF:-1 group-title="Sonic Hindi TEST" tvg-language="Hindi",Sonic Hindi TEST {count:02d}\n{r["url"]}\n'
               existing_urls.add(r["url"])
             testpath.write_text(existing)
+          # Keep a history of all new failed probes, so they are excluded next time.
+          next_id=max([int(c.get("id","S0")[1:]) for c in registry.get("candidates",[]) if re.fullmatch(r"S\d+",c.get("id",""))] or [0])
+          for target, r in zip(targets,results):
+            if r.get("verified") or r.get("reason")=="already excluded or published": continue
+            next_id+=1
+            registry["candidates"].append({"id":f"S{next_id}","url":target["url"],"source":target["source"],"feed":"Sonic India; language unverified","remote_probe":f"GitHub Actions {datetime.now(timezone.utc).isoformat()}: {r.get('reason','failed')}; two-fetch decode not verified"})
+          registry["date"]=datetime.now(timezone.utc).date().isoformat()
+          (base/"sonic_hindi_candidates.json").write_text(json.dumps(registry,ensure_ascii=False,indent=2)+"\n")
           report={"checked_utc":datetime.now(timezone.utc).isoformat(),"results":results,"published":[r["url"] for r in successes],"link3_verified":False}
           (base/"sonic_hindi_probe_latest.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
           PY
@@ -111,7 +119,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add sonic_hindi_probe_latest.json documentary_hd_tests.m3u
+          git add sonic_hindi_probe_latest.json sonic_hindi_candidates.json documentary_hd_tests.m3u
           if ! git diff --cached --quiet; then
             git commit -m 'Record Sonic Hindi two-fetch remote video probe'
             git push origin main
