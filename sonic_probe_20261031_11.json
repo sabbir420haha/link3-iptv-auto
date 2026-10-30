@@ -1,0 +1,37 @@
+{
+  "checked_utc": "2026-10-30T18:19:21.708715+00:00",
+  "branch": "sonic-hindi-probe-20261031-11",
+  "results": [
+    {
+      "url": "https://tplay.dinesh29.com.np/live/tataplay-universal/sonic-nickelodeon/index.ts",
+      "source": "freedish2024/personal-project.sr Kids; Tata Play Sonic Nickelodeon TS",
+      "verified": false,
+      "reason": "DNS: [Errno -2] Name or service not known"
+    },
+    {
+      "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
+      "source": "jack78692/ch jiocinema.m3u8; Sonic, tvg-language Hindi",
+      "verified": false,
+      "resolved_ips": [
+        "2600:1900:4110:e50::",
+        "34.104.38.189"
+      ],
+      "reason": "manifest: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>"
+    },
+    {
+      "url": "https://air2stem.playlivtv.workers.dev/?id=137795",
+      "source": "Mahesh-Bardoliya/tv-2 index.html; NICK SONIC India",
+      "verified": false,
+      "reason": "DNS: [Errno -2] Name or service not known"
+    },
+    {
+      "url": "https://wxca.cf/j/sonic_Hindi/master.m3u8",
+      "source": "pastelink.net/29ztf Able TV; explicitly Sonic Hindi",
+      "verified": false,
+      "reason": "DNS: [Errno -2] Name or service not known"
+    }
+  ],
+  "verified_urls": [],
+  "link3_verified": false,
+  "playlist_modified": false
+}
