@@ -600,6 +600,34 @@
       "source": "r0m35h/main iptv.m3u, explicitly Sonic Hindi",
       "feed": "Sonic Hindi candidate (source label; audio unverified)",
       "remote_probe": "GitHub Actions 2026-10-30: DNS error [Errno -5] No address associated with hostname; no two decoded video fetches"
+    },
+    {
+      "id": "S98",
+      "url": "http://103.122.249.134:8000/play/a051",
+      "source": "iptv-org/iptv issue 37823 Sonic.in@SD",
+      "feed": "Sonic India; Hindi audio unconfirmed",
+      "remote_probe": "2x GitHub Actions FFmpeg connection timeout, zero decoded frames 2026-10-30"
+    },
+    {
+      "id": "S99",
+      "url": "http://103.154.3.101:5001/live/815.m3u8",
+      "source": "iptv-org/iptv issue 36782 Sonic.in@SD",
+      "feed": "Sonic India; Hindi audio unconfirmed",
+      "remote_probe": "2x GitHub Actions FFmpeg connection timeout, zero decoded frames 2026-10-30"
+    },
+    {
+      "id": "S100",
+      "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0368/master.m3u8",
+      "source": "iptv-org/iptv issue 33980 Sonic.in@SD",
+      "feed": "Sonic India; Hindi audio unconfirmed",
+      "remote_probe": "2x GitHub Actions FFmpeg exit -11, zero decoded frames 2026-10-30"
+    },
+    {
+      "id": "S101",
+      "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0407/master.m3u8",
+      "source": "iptv-org/iptv issue 33979 Sonic.in@SD",
+      "feed": "Sonic India; Hindi audio unconfirmed",
+      "remote_probe": "2x GitHub Actions FFmpeg exit -11, zero decoded frames 2026-10-30"
     }
   ]
 }
