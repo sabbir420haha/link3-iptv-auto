@@ -1,8 +1,38 @@
 #EXTM3U
-# Shared TEST for Sonic Hindi and Sony YAY Hindi. MAIN playlist is untouched.
-# SONY YAY entries below are UNVERIFIED Link3 trials: GitHub runner got rate-limited (HTTP 429).
-# For these SONY YAY entries: local playback and Hindi audio require manual Link3 verification.
-#EXTINF:-1 tvg-id="sony-yay-hindi-trial-01" tvg-name="Sony YAY Hindi TEST 01 (Link3 Trial)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY HINDI | UNVERIFIED",Sony YAY Hindi TEST 01 (Link3 Trial)
-https://sliv.tgaadi.workers.dev/sonyyaysd.m3u8
-#EXTINF:-1 tvg-id="sony-yay-hindi-trial-02" tvg-name="Sony YAY Hindi TEST 02 (Link3 Trial)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY HINDI | UNVERIFIED",Sony YAY Hindi TEST 02 (Link3 Trial)
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971
+# Sony YAY Hindi expanded LINK3 TEST collection. MAIN unchanged.
+# ALL Sony YAY entries below are UNVERIFIED; most failed remote tests (403/timeouts/DNS/500).
+# Source labels are not proof of Hindi audio or Link3 playback. User to test manually.
+# Previous Sony YAY TEST 01/02 removed on user's Link3 failure report.
+#EXTINF:-1 tvg-id="sony-yay-hindi-test-01" tvg-name="Sony YAY Hindi TEST 01 (Hindi listed, UNVERIFIED)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY | HINDI LABEL UNVERIFIED",Sony YAY Hindi TEST 01 (Hindi listed, UNVERIFIED)
+https://ranapkx.site/RANAPK33k/TVD/play.php?id=373067&e=.m3u8
+#EXTINF:-1 tvg-id="sony-yay-hindi-test-02" tvg-name="Sony YAY Hindi TEST 02 (Hindi listed, UNVERIFIED)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY | HINDI LABEL UNVERIFIED",Sony YAY Hindi TEST 02 (Hindi listed, UNVERIFIED)
+#EXTVLCOPT:http-referrer=https://keralamaxtv.com/sliv/
+https://keralamaxtv.com/sliv/stream.php?id=168569&e=.m3u8
+#EXTINF:-1 tvg-id="sony-yay-hindi-test-03" tvg-name="Sony YAY Hindi TEST 03 (Hindi listed, UNVERIFIED)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY | HINDI LABEL UNVERIFIED",Sony YAY Hindi TEST 03 (Hindi listed, UNVERIFIED)
+https://tv.googledrivelinks.com/live.php?c=Sony_Yay_Hindi&q=1200&e=junk.m3u8
+#EXTINF:-1 tvg-id="sony-yay-hindi-test-04" tvg-name="Sony YAY Hindi TEST 04 (Hindi listed, UNVERIFIED)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY | HINDI LABEL UNVERIFIED",Sony YAY Hindi TEST 04 (Hindi listed, UNVERIFIED)
+https://techiesneh.in1.bitmana.io/snehapi/jioapi/snehjioxx.php?c=Sony_Yay_Hindi&q=800&e=junk.m3u8
+#EXTINF:-1 tvg-id="sony-yay-hindi-test-05" tvg-name="Sony YAY Hindi TEST 05 (Hindi listed, UNVERIFIED)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY | HINDI LABEL UNVERIFIED",Sony YAY Hindi TEST 05 (Hindi listed, UNVERIFIED)
+https://sony247channels.akamaized.net/hls/live/2011746/SonyYaySD/master.m3u8
+#EXTINF:-1 tvg-id="sony-yay-hindi-test-06" tvg-name="Sony YAY Hindi TEST 06 (Hindi listed, UNVERIFIED)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY | HINDI LABEL UNVERIFIED",Sony YAY Hindi TEST 06 (Hindi listed, UNVERIFIED)
+http://103.153.175.254:8080/hls/stream32.m3u8
+#EXTINF:-1 tvg-id="sony-yay-hindi-test-07" tvg-name="Sony YAY Hindi TEST 07 (Hindi listed, UNVERIFIED)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY | HINDI LABEL UNVERIFIED",Sony YAY Hindi TEST 07 (Hindi listed, UNVERIFIED)
+http://cdn.ihub.live:8080/SonyYay/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="sony-yay-hindi-test-08" tvg-name="Sony YAY Hindi TEST 08 (Hindi listed, UNVERIFIED)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY | HINDI LABEL UNVERIFIED",Sony YAY Hindi TEST 08 (Hindi listed, UNVERIFIED)
+https://tvstream.space//jtv/uuu.php?c=Sony_Yay_Hindi&q=800&e=junk.m3u8
+#EXTINF:-1 tvg-id="sony-yay-hindi-test-09" tvg-name="Sony YAY Hindi TEST 09 (Audio check, UNVERIFIED)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY | AUDIO CHECK UNVERIFIED",Sony YAY Hindi TEST 09 (Audio check, UNVERIFIED)
+http://103.83.80.54:6088/play/a0et/index.m3u8
+#EXTINF:-1 tvg-id="sony-yay-hindi-test-10" tvg-name="Sony YAY Hindi TEST 10 (Audio check, UNVERIFIED)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY | AUDIO CHECK UNVERIFIED",Sony YAY Hindi TEST 10 (Audio check, UNVERIFIED)
+https://mintos.allinonereborn.xyz/jiotv-ww31/app/ts_live_872.m3u8
+#EXTINF:-1 tvg-id="sony-yay-hindi-test-11" tvg-name="Sony YAY Hindi TEST 11 (Audio check, UNVERIFIED)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY | AUDIO CHECK UNVERIFIED",Sony YAY Hindi TEST 11 (Audio check, UNVERIFIED)
+https://mini1.allinonereborn.xyz/jiotv-ww192/app/ts_live_872.m3u8
+#EXTINF:-1 tvg-id="sony-yay-hindi-test-12" tvg-name="Sony YAY Hindi TEST 12 (Audio check, UNVERIFIED)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY | AUDIO CHECK UNVERIFIED",Sony YAY Hindi TEST 12 (Audio check, UNVERIFIED)
+http://103.178.78.151:7505/play/a0ux/index.m3u8
+#EXTINF:-1 tvg-id="sony-yay-hindi-test-13" tvg-name="Sony YAY Hindi TEST 13 (Audio check, UNVERIFIED)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY | AUDIO CHECK UNVERIFIED",Sony YAY Hindi TEST 13 (Audio check, UNVERIFIED)
+http://103.151.60.174/test2028
+#EXTINF:-1 tvg-id="sony-yay-hindi-test-14" tvg-name="Sony YAY Hindi TEST 14 (Audio check, UNVERIFIED)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY | AUDIO CHECK UNVERIFIED",Sony YAY Hindi TEST 14 (Audio check, UNVERIFIED)
+http://103.165.93.31:8095/sonyYay/index.m3u8
+#EXTINF:-1 tvg-id="sony-yay-hindi-test-15" tvg-name="Sony YAY Hindi TEST 15 (Hindi listed, UNVERIFIED)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY | HINDI LABEL UNVERIFIED",Sony YAY Hindi TEST 15 (Hindi listed, UNVERIFIED)
+http://live.balajibroadband.com:3500/live/872.m3u8
+#EXTINF:-1 tvg-id="sony-yay-hindi-test-16" tvg-name="Sony YAY Hindi TEST 16 (Audio check, UNVERIFIED)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY | AUDIO CHECK UNVERIFIED",Sony YAY Hindi TEST 16 (Audio check, UNVERIFIED)
+https://api.himel-op.top/Join-Telegram-@HimelOP_Official/Ekiresonamia.m3u8?id=204
