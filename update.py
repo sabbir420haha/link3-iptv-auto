@@ -540,6 +540,9 @@ def request_headers(uri, cap):
     if hostname == "app-re.sm-monirul-islam-rs.workers.dev" and "/disny-channel-hindi/" in uri.lower():
         # Public playlist specifies this user agent for the exact Worker URL.
         h["User-Agent"] = "OTT-KING TV 1.0"
+    if hostname in ("fifabangladesh.site", "185.233.166.116"):
+        # Public Disney Channel playlist explicitly declares this ordinary player header.
+        h["User-Agent"] = "RANAPK"
     if hostname == "ranapkz.site":
         # Only the publicly declared User-Agent; no token or DRM bypass.
         h["User-Agent"] = "RANAPK"
