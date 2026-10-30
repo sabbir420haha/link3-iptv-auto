@@ -1,14 +1,6 @@
 name: Check Documentary HD Candidates
 on:
-  push:
-    branches: [main]
-    paths:
-      - documentary_candidates.json
-      - documentary_probe.py
-      - .github/workflows/documentary-probe.yml
   workflow_dispatch:
-  schedule:
-    - cron: '37 */6 * * *'
 permissions:
   contents: write
 concurrency:
