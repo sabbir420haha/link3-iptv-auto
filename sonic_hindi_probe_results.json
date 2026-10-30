@@ -1,9 +1,11 @@
 {
-  "checked_utc": "2026-10-30T10:52:07.730119+00:00",
-  "source_count": 91,
-  "remote_verified": 0,
+  "checked_utc": "2026-10-30T11:49:52.536536+00:00",
+  "newly_checked": 0,
+  "total_results": 91,
+  "remote_verified_new": 0,
+  "published": [],
   "remote_only_not_Link3": true,
-  "audio_note": "Feed label is weaker evidence than actual HLS/segment Hindi language metadata.",
+  "audio_note": "Feed label is weaker evidence than HLS/segment Hindi language metadata.",
   "results": [
     {
       "id": "S01",
@@ -734,4 +736,4 @@
       "error": "<urlopen error timed out>"
     }
   ]
-}
+}\n
