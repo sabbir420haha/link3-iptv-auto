@@ -2872,158 +2872,11 @@
     },
     "Discovery Bangla": {
       "logo": "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png",
-      "candidates": [
-        {
-          "number": "01",
-          "url": "http://103.135.253.32:8080/DISCOVERY-BANGLA/index.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "02",
-          "url": "http://103.135.253.32:8080/DISCOVERY-BENGALI/index.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "03",
-          "url": "http://103.135.253.32:8080/DISCOVERY-HD-BANGLA/index.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "04",
-          "url": "https://load.airtelxstream.in/discoverychannelbengali/smil:common.smil/playlist.m3u8?DVR",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "05",
-          "url": "http://103.89.248.130:8082/DISCOVERY-BANGLA/index.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "06",
-          "url": "http://103.180.212.191:3500/live/573.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "07",
-          "url": "http://103.17.193.159:5001/live/573.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "08",
-          "url": "http://103.107.79.87:8080/CH8110HD08/video.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "09",
-          "url": "http://175.107.244.52:4455/play/a01v/index.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "10",
-          "url": "http://103.159.180.34:5001/live/573.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "11",
-          "url": "http://103.229.254.25:7001/play/a03g/index.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "12",
-          "url": "http://103.107.79.87:8080/CH8110HD08/tracks-v1a1/mono.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "13",
-          "url": "https://cdn1-freeiptv25.vercel.app/m3u/discoverybengali.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "14",
-          "url": "https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_19.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "15",
-          "url": "https://starplay2.netlify.app/m3u/discoverybengali.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "16",
-          "url": "http://iptv.kitv.live:1935/live/CTGDDN/CTGDDN/61.ts",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "17",
-          "url": "https://food-dlvr-ott.akamaized.net/primary/4/686a061683e44b518cdf57677e352ef3/index_21.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "18",
-          "url": "https://khulnalive.anytv.live/discoverybangla/index.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "19",
-          "url": "https://ccntv.anytv.live/discoverybangla/index.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "20",
-          "url": "https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=573",
-          "origin": "SM-IPTV Combined_Live_TV.m3u; Jio discovery Bengali relay; Link3 and resolution unverified"
-        }
-      ]
+      "candidates": []
     },
     "Nat Geo HD Bangla": {
       "logo": "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png",
-      "candidates": [
-        {
-          "number": "01",
-          "url": "http://103.81.104.222/live/national-geographic/index.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "02",
-          "url": "https://tvsen6.aynaott.com/natgeo/index.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "03",
-          "url": "http://103.167.167.5:8111/play/a036/index.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "04",
-          "url": "http://103.89.248.130:8082/National-geo-graphy-bangla/index.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "05",
-          "url": "http://103.55.144.46/hls/ngohd.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "06",
-          "url": "http://103.153.175.254:8080/hls/stream13.m3u8",
-          "origin": "Curated GitHub IPTV stream trial"
-        },
-        {
-          "number": "07",
-          "url": "https://last.gcdn.co/IND414/index.m3u8",
-          "origin": "thenahidul/iptv.m3u, explicitly labels NAT GEO HD Bangla; Link3 unverified"
-        },
-        {
-          "number": "08",
-          "url": "http://202.70.146.135:8000/play/a05o/index.m3u8",
-          "origin": "SM-IPTV Combined_Live_TV.m3u, National Geography HD; Bengali audio and Link3 unverified"
-        },
-        {
-          "number": "09",
-          "url": "https://cdn1.pishow.tv/live/252/master.m3u8",
-          "origin": "ibrahim4250/ibrahim.m3u National Geographic; Bengali audio and Link3 unverified"
-        }
-      ]
+      "candidates": []
     }
   },
   "reported_failures": {
@@ -3032,6 +2885,18 @@
       "all_urls_rejected": true,
       "checked_on": "user Link3",
       "details": "Old TEST 01-30 failed. Do not re-add."
+    },
+    "Discovery Bangla": {
+      "count": 20,
+      "all_urls_rejected": true,
+      "checked_on": "user Link3 (new trial failures reported; existing 2026-10-29 trials withdrawn for clean start)",
+      "details": "All previously published documentary TEST URLs excluded from new candidate selection; MAIN preserved."
+    },
+    "Nat Geo HD Bangla": {
+      "count": 9,
+      "all_urls_rejected": true,
+      "checked_on": "user Link3 (new trial failures reported; existing 2026-10-29 trials withdrawn for clean start)",
+      "details": "All previously published documentary TEST URLs excluded from new candidate selection; MAIN preserved."
     }
   },
   "last_updated": "2026-10-30"
