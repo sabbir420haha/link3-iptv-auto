@@ -289,6 +289,42 @@
       "channel": "Nat Geo HD Bangla",
       "url": "http://221.120.204.3/NAT-GEO-HD-LOCKLE/tracks-v1a1/mono.m3u8",
       "source": "8figalltimepro/special-train"
+    },
+    {
+      "id": "C50",
+      "channel": "Nat Geo HD Bangla",
+      "url": "https://tvsen3.aynaott.com/7mm4pwCy/index.m3u8",
+      "source": "eishakilei-bd08/eitv Nat Geo TV"
+    },
+    {
+      "id": "C51",
+      "channel": "Discovery Bangla",
+      "url": "http://103.140.254.2:3500/live/573.m3u8",
+      "source": "Notes IPTV Jio Discovery Bengali"
+    },
+    {
+      "id": "C52",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://103.170.140.8/hls/ngohd.m3u8",
+      "source": "bloginstall channel 66 Geographic Bangla"
+    },
+    {
+      "id": "C53",
+      "channel": "Nat Geo HD Bangla",
+      "url": "http://103.175.242.10:8080/natgeo/index.m3u8",
+      "source": "Telegram BDIX public candidate geographic (not confirmed Link3)"
+    },
+    {
+      "id": "C54",
+      "channel": "Discovery Bangla",
+      "url": "http://bapatv.live:8080/discovery/index.m3u8",
+      "source": "Telegram bapatv discovery, audio unknown"
+    },
+    {
+      "id": "C55",
+      "channel": "Discovery Bangla",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_hd/playlist.m3u8",
+      "source": "Toffee publicly published HD, AUTH REQUIRED: reject if 403"
     }
   ],
   "rejected_after_probe": [
