@@ -163,6 +163,72 @@
       "url": "http://117.102.16.2:34567/play/a09g/index.m3u8",
       "source": "labib5556/Labi-h Sonic Nick SD",
       "feed": "Sonic Hindi uncertain"
+    },
+    {
+      "id": "S28",
+      "url": "https://jiotv.hadinetbd.tech/jio/v1/Sonic_Hindi/Sonic_Hindi/Sonic_Hindi.m3u8",
+      "source": "jongg57ed/jongg57 ip27october 2026",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S29",
+      "url": "https://jio.dinesh29.com.np/live/jio-universal/sonic-hindi/index.ts",
+      "source": "Zahidsdlbd/jio",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S30",
+      "url": "https://tv.001133.xyz/live/815.m3u8",
+      "source": "mahenkpatel/m3u",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S31",
+      "url": "https://allinonereborn.com/tatatv.php?id=11667",
+      "source": "Bhavesh0a/Index",
+      "feed": "Sonic Hindi Tata"
+    },
+    {
+      "id": "S32",
+      "url": "https://techiesneh.in1.bitmana.io/snehapi/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "source": "TheSamimMandal/SamimWorld",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S33",
+      "url": "https://moonkerala.xyz/jcinema/stream.m3u8?id=3774149",
+      "source": "fahadskt/IPTV-Playlists/Jiocinema",
+      "feed": "Sonic Nickelodeon Hindi assumed"
+    },
+    {
+      "id": "S34",
+      "url": "https://keralamaxtv.com/vt/stream.m3u8?id=Sonic_Nickelodeon",
+      "source": "freedish2024/Allinkids.Com",
+      "feed": "Sonic Nickelodeon"
+    },
+    {
+      "id": "S35",
+      "url": "https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/tiptop-op.m3u8?id=1134",
+      "source": "Mostak840590/All-In-Onee",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S36",
+      "url": "https://fifabangladesh.live/VHOD/go.php?id=Sonic_Nickelodeon_voot_MOB",
+      "source": "Mostak840590/All-In-Onee",
+      "feed": "Sonic Nickelodeon"
+    },
+    {
+      "id": "S37",
+      "url": "http://mxonlive.atwebpages.com/_default.php/246767.m3u8",
+      "source": "mxonlive/mxonlive.github.io",
+      "feed": "SONIC NICK HD"
+    },
+    {
+      "id": "S38",
+      "url": "http://103.99.249.107/play/a028",
+      "source": "Sonuiptvnew/Sonuiptvnew",
+      "feed": "Sonic Nickelodeon SD"
     }
   ]
 }
