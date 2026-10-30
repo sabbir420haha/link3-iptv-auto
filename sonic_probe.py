@@ -93,9 +93,9 @@ def validate(item):
             if not advanced:raise ValueError("live_hls_not_advancing_after_14s")
         lang=sorted(set(x.lower() for x in (l+l2) if x))
         known_hindi=any(x in ("hi","hin","hindi") for x in lang)
-        label_hindi=("hindi" in item["feed"].lower()
+        label_hindi=("uncertain" not in item["feed"].lower() and "source labels bangla" not in item["source"].lower() and ("hindi" in item["feed"].lower()
                      or "/hin2/" in url.lower() or "sonichindi" in url.lower()
-                     or "sonic_hindi" in url.lower() or "_hin" in url.lower())
+                     or "sonic_hindi" in url.lower() or "_hin" in url.lower()))
         row.update(status="remote_live_video_verified",height=min(h,h2),
                    audio_lang_metadata=lang,hindi_audio_tag=known_hindi,
                    hindi_feed_label=label_hindi,
