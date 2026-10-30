@@ -30,7 +30,16 @@ def fetch(url,maxbytes=160000):
         if not ip.is_global: raise ValueError("non_public_ip")
     except ValueError as err:
         if str(err)=="non_public_ip": raise
-    request=req.Request(url,headers=HEADERS)
+    headers=dict(HEADERS)
+    # The Hridoy playlist itself publicly specifies these browser headers.
+    # No credentials, login cookies, or MAC spoofing.
+    if u.hostname and ("hellohridoy" in u.hostname or "hridoytv" in u.hostname):
+        headers.update({
+            "User-Agent":"Mozilla/5.0 (Linux; Android 14) AppleWebKit/537.36 Chrome/150.0 Mobile Safari/537.36",
+            "Referer":"https://hridoytv.pages.dev/",
+            "Origin":"https://hridoytv.pages.dev"
+        })
+    request=req.Request(url,headers=headers)
     with req.urlopen(request,timeout=7) as res:
         code=res.status
         payload=res.read(maxbytes)
