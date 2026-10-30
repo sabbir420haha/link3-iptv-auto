@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-30",
+  "purpose": "Sonic Hindi tests only; no MAIN edits",
+  "candidates": [
+    {
+      "id": "S01",
+      "url": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "source": "iptvcat and GitHub sonic Hindi source",
+      "feed": "Sonic Hindi (JioCinema)"
+    },
+    {
+      "id": "S02",
+      "url": "https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "source": "Hasibfy37/Iptv",
+      "feed": "Sonic Hindi (JioCinema alt)"
+    },
+    {
+      "id": "S03",
+      "url": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "source": "NEWBIENOOB-0/iplm3u2024",
+      "feed": "Sonic Hindi (JioCinema Hindi host)"
+    },
+    {
+      "id": "S04",
+      "url": "https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8",
+      "source": "channeliptv0/IPTV recent playlist",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S05",
+      "url": "http://103.185.24.134:3001/SONIC/index.m3u8",
+      "source": "iptv-org India currently indexed",
+      "feed": "Sonic India (Hindi uncertain)"
+    },
+    {
+      "id": "S06",
+      "url": "http://103.229.254.25:7001/play/a0dl/index.m3u8",
+      "source": "iptv-org 2026 archival",
+      "feed": "Sonic India (Hindi uncertain)"
+    },
+    {
+      "id": "S07",
+      "url": "http://103.162.136.235:4500/play/a01k/index.m3u8",
+      "source": "8figalltimepro/special-train",
+      "feed": "Sonic India (Hindi uncertain)"
+    },
+    {
+      "id": "S08",
+      "url": "http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8",
+      "source": "Telegram public IPTV listing",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S09",
+      "url": "https://sonamul3535.vercel.app/Sonic-Hindi.m3u8",
+      "source": "arafat-anowar/iptv",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S10",
+      "url": "https://sar.pages.dev/sonic.m3u8",
+      "source": "sadman-al-rafi playlist",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S11",
+      "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "source": "arshdeep1112/Indian-IPTV",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S12",
+      "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8",
+      "source": "imranemon1/emon",
+      "feed": "Sonic Hindi"
+    },
+    {
+      "id": "S13",
+      "url": "http://103.84.57.155:8000/play/a03y/index.m3u8",
+      "source": "softonfile/iptv",
+      "feed": "Sonic India Multi"
+    },
+    {
+      "id": "S14",
+      "url": "https://fifabd.xyz/OPLLX/play.m3u8?id=34011",
+      "source": "tvbd/m3uplayer",
+      "feed": "Sonic HD Hindi uncertain"
+    },
+    {
+      "id": "S15",
+      "url": "https://fifabangladesh2-xyz-ekkj.spidy.online/VHOD/NEW/go.php?id=Sonic_Nickelodeon_voot_MOB",
+      "source": "Shaharum1010/Cartoon-channel-",
+      "feed": "Sonic Hindi"
+    }
+  ]
+}
