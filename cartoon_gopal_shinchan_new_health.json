@@ -115,5 +115,50 @@
       "notes": "PUBLIC PLAYLIST COLLECTION, NOT direct Shinchan HLS. Publisher claims Shinchan 24/7 Hindi; not independently verified. Parse only to identify candidate direct media URL, exclude 209901 and mirrors. Do not add collection URL to user TEST or MAIN playlist.",
       "error": "HTTP Error 404: Not Found"
     }
-  ]
+  ],
+  "latest_research": {
+    "checked_local": "2026-10-31 01:27 Asia/Dhaka",
+    "status": "No independently verified new 24/7 dedicated HLS/M3U8 stream; no playlist additions",
+    "source_reviews": [
+      {
+        "source": "ayusht26/iptv app/api/doraemon-stream/route.ts",
+        "show": "Shinchan",
+        "candidate": "https://as-cdn21.top/video/e6be4c22a5963ab00dfe8f3b695b5332",
+        "assessment": "Embedded video/page endpoint, not demonstrated to be direct HLS/M3U8; Hindi audio, program content and 24/7 operation unverified; do not add."
+      },
+      {
+        "source": "ayusht26/iptv lib/iptv/custom-shows-data.ts",
+        "show": "Shinchan",
+        "candidate": "https://piratexplay.cc/series/shin-chan-season-4-30623",
+        "assessment": "Series webpage/VOD metadata, not direct 24/7 HLS; do not add."
+      },
+      {
+        "source": "fibwatchtv.top/watch.php?id=925",
+        "show": "Gopal Bhar",
+        "candidate": "https://fibwatchtv.top/watch.php?id=925",
+        "assessment": "Live TV portal lists Gopal Bhar among many channels; not a direct media URL, actual source not established and may mirror excluded giatv-209611; do not add."
+      },
+      {
+        "source": "Still On Air /channels",
+        "show": "Shinchan Hindi",
+        "candidate": "https://www.stillonair.com/channel/shinchan-247hindi",
+        "assessment": "Public watch page already investigated; no direct media URL exposed, so not a new HLS feed."
+      },
+      {
+        "source": "GitHub code search current results",
+        "show": "Gopal Bhar",
+        "assessment": "Most labelled direct HLS links map to excluded giatv-209611 (BozzTV/TPlay/cloudfront mirror); no distinct verified feed."
+      },
+      {
+        "source": "GitHub code search current results",
+        "show": "Shinchan Hindi",
+        "assessment": "209901 is erroneous Oxygen Music; starshare/Denver/M3UMergers previously failed; no fresh validated manifest+media+show+Hindi source."
+      }
+    ],
+    "remote_validation": "No new eligible direct HLS/M3U8 candidate was identified for fresh GitHub Actions decoding; prior candidate health statuses retained.",
+    "verified_playable_added": 0,
+    "playlist_test_entries": 19,
+    "playlist_main_entries": 75,
+    "link3_playback": "Not established for any new dedicated show source"
+  }
 }
