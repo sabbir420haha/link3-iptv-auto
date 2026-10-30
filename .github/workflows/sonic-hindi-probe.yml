@@ -26,8 +26,9 @@ jobs:
           import json, subprocess, urllib.request, urllib.parse, ipaddress, socket, os, time, re, pathlib
           from datetime import datetime, timezone
           targets = [
-            {"url":"https://ninjatv.host/star/ninjatv.m3u8?id=207.ts","source":"tvbd/m3uplayer m3u/splaylist.m3u IN: sonic_Hindi"},
-            {"url":"https://fifabdmob.site/new.php?id=JC_SonicNick/JCHLS/JC_SonicNick-audio_108041_hin=108000-video=662800.m3u8","source":"opensourceflix/Friday vottobd.m3u8 Sonic Hindi audio variant"},
+            {"url":"http://70.39.83.58:8278/sonichindikdin/playlist.m3u8","source":"Sonuiptvnew/Sonuiptvnew sonuiptv-kids.m3u explicitly Sonic Hindi"},
+            {"url":"https://madplay.live/jiotv/app/live/815/null/index.m3u8","source":"hasanmamunctg/hasanmamunctg manik explicitly Sonic Hindi Jio 815"},
+            {"url":"https://jioapi.sports247.eu.org/api/app/live.php?id=815&e=.m3u8","source":"SArun61/IPTV Jio.m3u explicitly Sonic Hindi language Hindi ID 815"},
           ]
           base = pathlib.Path(".")
           registry = json.loads((base/"sonic_hindi_candidates.json").read_text())
@@ -88,7 +89,7 @@ jobs:
               checks.append({"fetch":n,"ffprobe_rc":probe["returncode"],"video_codec":video[0].get("codec_name") if video else None,"audio_codecs":[s.get("codec_name") for s in audio],"decoded_frames":frame_count,"ffmpeg_rc":decode["returncode"],"error":decode["stderr"][-350:] if frame_count==0 else ""})
               if n==1: time.sleep(8)
             passed=all(c["video_codec"] and c["decoded_frames"]>=1 and c["ffmpeg_rc"]==0 for c in checks)
-            return {"url":u,"verified":passed,"hindi_metadata":hindi_metadata,"source_label_hindi":"sonichindikdin" in u.lower(),"checks":checks,"reason":"two decoded video fetches" if passed else "failed video decode on at least one fetch"}
+            return {"url":u,"verified":passed,"hindi_metadata":hindi_metadata,"source_label_hindi": any(s in u.lower() for s in ("sonichindikdin", "/815/", "id=815")),"checks":checks,"reason":"two decoded video fetches" if passed else "failed video decode on at least one fetch"}
           for target in targets:
             r=check(target["url"]);r["source"]=target["source"];results.append(r)
             print("PROBE_RESULT "+json.dumps(r,ensure_ascii=False),flush=True)
