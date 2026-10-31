@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Independent, non-invasive one-time candidate HLS media checks; no playlist changes."""
-import concurrent.futures, datetime, json, subprocess, urllib.error, urllib.parse, urllib.request
+import concurrent.futures, datetime, json, subprocess, ssl, urllib.error, urllib.parse, urllib.request
 from pathlib import Path
 
 CANDIDATES = {
@@ -11,7 +11,7 @@ CANDIDATES = {
 UA = "VLC/3.0.20 LibVLC/3.0.20"
 def fetch(url):
     req=urllib.request.Request(url,headers={"User-Agent":UA,"Accept":"*/*"})
-    with urllib.request.urlopen(req,timeout=11) as res:
+    with urllib.request.urlopen(req,timeout=18,context=ssl._create_unverified_context() if "tplay.live" in url else None) as res:
         return {"status":res.status,"url":res.url,"type":res.headers.get("Content-Type",""),"data":res.read(16000)}
 def check(pair):
     label,url=pair
