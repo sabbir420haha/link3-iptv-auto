@@ -326,6 +326,72 @@
       "url": "https://s3.itcnbd.live/channel/b22941f1341d7243.m3u8",
       "source": "Iptvpl/All-Channels-Auto Sony Yay (might be BDIX-only)",
       "hindi_claim": false
+    },
+    {
+      "id": "Y55",
+      "url": "http://103.140.254.2:3500/live/872.m3u8",
+      "source": "2026 public JioTV channel ID 872 from notes.io",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y56",
+      "url": "https://jio.dinesh29.com.np/live/jio-universal/sony-yay-hindi/index.ts",
+      "source": "Junan02/bdiptvtest Sony Yay Hindi",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y57",
+      "url": "https://fuji-reduction-euro-affects.trycloudflare.com/app/live.php?id=872&e=.m3u",
+      "source": "Junan02/bdiptvtest JioTV Sony Yay Hindi",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y58",
+      "url": "https://tv.freeseries.eu.org/live.php?c=Sony_Yay_Hindi&q=1200&e=junk.m3u8",
+      "source": "sudiptobd2/jio Jio Sony Yay Hindi",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y59",
+      "url": "http://103.180.212.191:3500/live/872.m3u8",
+      "source": "badalbd53/Rocket-OTV Sony Yay Hindi",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y60",
+      "url": "http://70.39.83.58:8278/sonyyayhindikdin/playlist.m3u8",
+      "source": "Sonuiptvnew/Sonuiptvnew Sony Yay Hindi",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y61",
+      "url": "http://66.102.120.18:8000/play/a00s/index.m3u8",
+      "source": "dineshkn-dev/hyper-tv backup Sony Yay 576p",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y62",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyyay/playlist.m3u8",
+      "source": "judy-gotv/iptv Toffee Sony Yay - may be BDIX/protected; check not publish as Hindi",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y63",
+      "url": "http://cshms2.airtel.tv/wh7f454c46tw3189386479_1439368730/PLTV/88888888/224/3221226065/index.m3u8",
+      "source": "cyberboysumanjay Hindi Sony Yay legacy",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y64",
+      "url": "https://bdsatv24.000webhostapp.com/bdaynaa.php?ic=70&e=.m3u8",
+      "source": "PrattoySaha/IPTV Sony YAY",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y65",
+      "url": "https://cdn.nowhdtime.com.bd/SonyYay/tracks-v1a1/mono.m3u8",
+      "source": "Sonuiptvnew Sony Yay alternative BDIX likely",
+      "hindi_claim": false
     }
   ]
 }
