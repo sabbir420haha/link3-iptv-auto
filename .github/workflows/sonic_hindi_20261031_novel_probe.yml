@@ -1,0 +1,108 @@
+name: Sonic Hindi isolated two-fetch verification 2026-10-31
+on:
+  push:
+    paths:
+      - .github/workflows/sonic_hindi_20261031_novel_probe.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sonic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg if needed
+        run: |
+          if ! command -v ffmpeg >/dev/null || ! command -v ffprobe >/dev/null; then sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg; fi
+      - name: Validate public Sonic Hindi links with two real video decodes
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json,subprocess,urllib.request,urllib.parse,ipaddress,socket,re,time,pathlib,datetime
+          root=pathlib.Path('.')
+          candidates=[
+            {"url":"https://node103074-join-us-on-telegram-streamkinglive.in1.bitmana.io/autoq.php?c=sonic_Hindi","source":"Sonuiptvnew/Sonuiptvnew Jio TV.m3u; tvg-id 815; tvg-language Hindi","source_hindi":True},
+            {"url":"https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=sonic_Hindi&e=.m3u8","source":"GhostHostBD/tvlink JIO serverbackupchannel; explicitly Sonic Hindi","source_hindi":True}
+          ]
+          old=(root/'documentary_hd_tests.m3u').read_text()
+          prior=json.loads((root/'sonic_hindi_candidates.json').read_text())
+          favorites=json.loads((root/'favorites_test_registry.json').read_text())
+          excluded=set()
+          def walk(x):
+            if isinstance(x,dict):
+              if isinstance(x.get('url'),str): excluded.add(x['url'].strip())
+              for v in x.values():walk(v)
+            elif isinstance(x,list):
+              for v in x:walk(v)
+          walk(prior);walk(favorites)
+          excluded.update(re.findall(r'(?m)^https?://[^\s]+',old))
+          def run(args,timeout=45):
+            try:
+              p=subprocess.run(args,timeout=timeout,text=True,capture_output=True)
+              return {'rc':p.returncode,'out':p.stdout[-10000:],'err':p.stderr[-900:]}
+            except subprocess.TimeoutExpired:return {'rc':124,'out':'','err':'timeout'}
+            except Exception as e:return {'rc':125,'out':'','err':str(e)}
+          def check(c):
+            url=c['url'];r={'url':url,'source':c['source'],'verified':False}
+            if url in excluded:return dict(r,reason='excluded by candidate or Favorites registry')
+            p=urllib.parse.urlsplit(url)
+            if p.scheme not in ('https','http') or not p.hostname:return dict(r,reason='bad URL')
+            if re.search(r'(?:token|auth|mac|license|widevine|hdntl|session|play_token|signature|drm)=|/stalker/',url,re.I):
+              return dict(r,reason='restricted URL')
+            try:
+              addrs={i[4][0] for i in socket.getaddrinfo(p.hostname,p.port or (443 if p.scheme=='https' else 80))}
+              if not addrs or any(not ipaddress.ip_address(a).is_global for a in addrs):
+                return dict(r,reason='private or non-global IP')
+            except Exception as e:return dict(r,reason='DNS '+str(e)[:150])
+            try:
+              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'})
+              with urllib.request.urlopen(req,timeout=18) as response:
+                head=response.read(90000).decode('utf-8','replace')
+                r['manifest_http_status']=response.status
+              if not head.lstrip().startswith('#EXTM3U') or not re.search(r'#EXT-X-(STREAM-INF|TARGETDURATION|MEDIA-SEQUENCE)',head):
+                return dict(r,reason='not a real HLS manifest')
+              if re.search(r'#EXT-X-(KEY|SESSION-KEY|DEFINE):|(?:token=|hdntl=|exp=|sig=|auth=)',head,re.I):
+                return dict(r,reason='keyed, tokenized or DRM manifest')
+            except Exception as e:return dict(r,reason='manifest '+str(e)[:200])
+            lang=bool(re.search(r'LANGUAGE=["\x27]?(?:hin|hi|hindi)\b|_hin=',head,re.I))
+            checks=[]
+            for n in (1,2):
+              probe=run(['ffprobe','-v','error','-rw_timeout','12000000','-show_entries','stream=codec_type,codec_name,width,height:stream_tags=language','-of','json',url],45)
+              streams=[]
+              if probe['rc']==0:
+                try:streams=json.loads(probe['out']).get('streams',[])
+                except Exception:pass
+              video=[s for s in streams if s.get('codec_type')=='video']
+              audio=[s for s in streams if s.get('codec_type')=='audio']
+              lang=lang or any(s.get('tags',{}).get('language','').lower() in ('hin','hi','hindi') for s in audio)
+              dec=run(['ffmpeg','-nostdin','-hide_banner','-loglevel','error','-rw_timeout','12000000','-i',url,'-map','0:v:0','-an','-frames:v','12','-progress','pipe:1','-f','null','-'],50)
+              frames=max([int(x) for x in re.findall(r'(?m)^frame=\s*(\d+)',dec['out'])] or [0])
+              checks.append({'fetch':n,'ffprobe_rc':probe['rc'],'video_codec':video[0].get('codec_name') if video else None,'resolution':[video[0].get('width'),video[0].get('height')] if video else None,'audio_codecs':[s.get('codec_name') for s in audio],'decoded_frames':frames,'ffmpeg_rc':dec['rc'],'error':dec['err'][-200:]})
+              if n==1:time.sleep(7)
+            passed=all(x['video_codec'] and x['audio_codecs'] and x['decoded_frames']>=8 and x['ffmpeg_rc']==0 for x in checks)
+            return dict(r,verified=passed and (lang or c['source_hindi']),hindi_metadata=lang,source_hindi=c['source_hindi'],checks=checks,reason='two independently decoded video fetches and Hindi corroboration' if passed and (lang or c['source_hindi']) else 'insufficient video decode or Hindi evidence')
+          results=[check(c) for c in candidates]
+          for r in results:print('SONIC_PROBE '+json.dumps(r),flush=True)
+          published=[]
+          count=max([int(n) for n in re.findall(r'Sonic Hindi TEST\s*(\d+)',old,re.I)] or [0])
+          for r in results:
+            if not r.get('verified') or r['url'] in old:continue
+            count+=1
+            old+='\n# GitHub Actions 2 real decoded video fetches; Hindi metadata='+str(r['hindi_metadata'])+'; Link3 unverified\n'
+            old+='#EXTINF:-1 tvg-name="Sonic Hindi TEST %02d" group-title="SONIC HINDI TEST",Sonic Hindi TEST %02d\n%s\n'%(count,count,r['url'])
+            published.append({'test_number':count,'url':r['url'],'hindi_metadata':r['hindi_metadata'],'checks':r['checks']})
+          if published:(root/'documentary_hd_tests.m3u').write_text(old)
+          report={'checked_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'results':results,'published':published,'link3_verified':False}
+          (root/'sonic_probe_20261031_2246.json').write_text(json.dumps(report,indent=2)+'\n')
+          print('FINAL_SONIC_REPORT '+json.dumps(report),flush=True)
+          PY
+      - name: Save probe report and only validated playlist additions
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sonic_probe_20261031_2246.json documentary_hd_tests.m3u
+          if ! git diff --cached --quiet; then
+            git commit -m "Record Sonic Hindi isolated probe and verified TEST entries only"
+            git push
+          fi
