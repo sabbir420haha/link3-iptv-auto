@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-31T02:14:45.712800+00:00",
+  "note": "Media bytes do not verify show identity or spoken language. No playlist edits permitted without independently verified programme and audio.",
+  "results": [
+    {
+      "name": "gopal_tplay_kids_path",
+      "url": "https://tplay.live/playlist/kids/gopal-bhar/index.m3u8",
+      "status": "unverified",
+      "manifest_valid": false,
+      "media_bytes_valid": false,
+      "video_decoded": false,
+      "show_verified": false,
+      "hindi_audio_verified": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "name": "shinchan_bdott_named",
+      "url": "http://bd.ottbd.online:2082/live/Durjoy859/01327184859/19978.m3u8",
+      "status": "unverified",
+      "manifest_valid": false,
+      "media_bytes_valid": false,
+      "video_decoded": false,
+      "show_verified": false,
+      "hindi_audio_verified": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "shinchan_ranapk_hindi_named",
+      "url": "https://ranapkx.site/RANAPK33k/TVD/play.php?id=734314&e=.m3u8",
+      "status": "unverified",
+      "manifest_valid": false,
+      "media_bytes_valid": false,
+      "video_decoded": false,
+      "show_verified": false,
+      "hindi_audio_verified": false,
+      "error": "The read operation timed out"
+    }
+  ]
+}
