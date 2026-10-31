@@ -752,6 +752,41 @@
       "source": "AmikArchive ipl.m3u8 archival Jio Sonic Hindi path; no token appended",
       "feed": "Sonic Hindi (source label only; audio unverified)",
       "remote_probe": "GitHub Actions 2026-10-30T23:59Z: DNS [Errno -2] Name or service not known; zero decoded video frames; no two-fetch validation"
+    },
+    {
+      "id": "S120",
+      "url": "http://smiletv.live:4110/getm3u8/815/master.m3u8",
+      "source": "sudiptobd2/jio new; Jio 815 Sonic Hindi",
+      "feed": "Sonic India; language unverified",
+      "remote_probe": "GitHub Actions 2026-10-31T03:29:15.372578+00:00: DNS error [Errno -5] No address associated with hostname; two-fetch decode not verified"
+    },
+    {
+      "id": "S121",
+      "url": "https://qrpay.fun/TS-JioTV-main/app/live.php?id=815&e=.m3u8",
+      "source": "riyazkhan111/mhgfvcdfx.github.io tv/pages/api/tvtelugu.js; Sonic Hindi 815",
+      "feed": "Sonic India; language unverified",
+      "remote_probe": "GitHub Actions 2026-10-31T03:29:15.372603+00:00: manifest fetch HTTP Error 404: Not Found; two-fetch decode not verified"
+    },
+    {
+      "id": "S122",
+      "url": "http://mohitweb.zapto.org:7878/live/high/815.m3u8",
+      "source": "Bhavesh0a/Index Index6; Jio 815 Sonic Hindi",
+      "feed": "Sonic India; language unverified",
+      "remote_probe": "GitHub Actions 2026-10-31T03:29:15.372607+00:00: DNS error [Errno -5] No address associated with hostname; two-fetch decode not verified"
+    },
+    {
+      "id": "S123",
+      "url": "http://node101473-ishanjiotv.in1.bitmana.io/live.php?c=sonic_Hindi&q=800&e=Ishan.m3u8",
+      "source": "Sonuiptvnew/Sonuiptvnew sonuiptvbackjio.m3u; Sonic Hindi",
+      "feed": "Sonic India; language unverified",
+      "remote_probe": "GitHub Actions 2026-10-31T03:29:15.372610+00:00: DNS error [Errno -2] Name or service not known; two-fetch decode not verified"
+    },
+    {
+      "id": "S124",
+      "url": "https://editorials-fill-ruled-sudden.trycloudflare.com/app/live.php?id=815&e=.m3u",
+      "source": "Gowtham174/Gowtham174.github.io Jio.html; Sonic Hindi 815",
+      "feed": "Sonic India; language unverified",
+      "remote_probe": "GitHub Actions 2026-10-31T03:29:15.372612+00:00: DNS error [Errno -2] Name or service not known; two-fetch decode not verified"
     }
   ]
 }
