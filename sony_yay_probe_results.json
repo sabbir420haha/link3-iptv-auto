@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-31T22:42:26.027490+00:00",
-  "evaluated": 132,
+  "checked_utc": "2026-10-31T23:32:58.454678+00:00",
+  "evaluated": 136,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -1072,6 +1072,38 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y133",
+      "url": "https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8",
+      "source": "CodesRahul96/xtream-playlist Sony Yay; unsigned CDN path, Hindi unconfirmed",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "Y134",
+      "url": "https://public.kliv.fun/zs800/Sony/stream.php?id=7",
+      "source": "imlovekumar/Loves iPl; explicitly Sony Yay tvg-language Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y135",
+      "url": "https://nowsports.in/sliv/stream.php?id=168569&e=.m3u8",
+      "source": "Mostak840590/All-In-Onee sonylive.html Sony YAY, referrer listed; Hindi unconfirmed",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y136",
+      "url": "https://redmi.allinonereborn.xyz/jiotv-ww/app/live.php?id=279&e=.m3u8",
+      "source": "MuzammilShah51214/Live-Tv-786 IndianTV-Live; Sony Yay, Hindi unconfirmed",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error timed out>"
     }
   ]
 }
