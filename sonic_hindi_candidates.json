@@ -801,6 +801,20 @@
       "source": "sm-monirulislam/SM-IPTV vood.m3u; Sonic Voot-labelled public HLS, Hindi unverified",
       "feed": "Sonic India; language unverified",
       "remote_probe": "GitHub Actions 2026-10-31T11:29:52.169541+00:00: manifest fetch HTTP Error 404: Not Found; two-fetch decode not verified"
+    },
+    {
+      "id": "S127",
+      "url": "https://node103074-join-us-on-telegram-streamkinglive.in1.bitmana.io/autoq.php?c=sonic_Hindi",
+      "source": "Sonuiptvnew/Sonuiptvnew Jio TV.m3u; explicitly Sonic Hindi, Jio channel 815",
+      "feed": "Sonic Hindi; source label only",
+      "remote_probe": "GitHub Actions 2026-10-31T16:48:57Z: DNS [Errno -2] Name or service not known; zero decoded video frames; two-fetch verification failed"
+    },
+    {
+      "id": "S128",
+      "url": "https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=sonic_Hindi&e=.m3u8",
+      "source": "GhostHostBD/tvlink JIO serverbackupchannel; Sonic Hindi",
+      "feed": "Sonic Hindi; source label only",
+      "remote_probe": "GitHub Actions 2026-10-31T16:48:57Z: HTTP 200 response but not a real HLS manifest; zero decoded video frames; two-fetch verification failed"
     }
   ]
 }
