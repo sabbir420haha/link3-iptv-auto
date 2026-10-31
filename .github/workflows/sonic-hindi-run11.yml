@@ -27,9 +27,9 @@ jobs:
           import json, subprocess, time, re, pathlib, urllib.parse, urllib.request, socket, ipaddress, datetime
           root=pathlib.Path('.')
           candidates=[
-            {"url":"https://snehtv.in1.bitmana.io/live.php?c=Sonic_Nickelodeon&q=250&e=.m3u8","source":"Arun9dec/IPTV old Kids (Hindi) Sonic Nickelodeon public listing","source_hindi":true},
-            {"url":"https://mini.allinonereborn.online/jiotv-ww323/app/ts_live_815.m3u8","source":"rkbro23/rk_playlist JIOTV.m3u Sonic Hindi tvg-language Hindi","source_hindi":true},
-            {"url":"https://jio.jiotv.link/api/app/live.php?id=815&e=.m3u8","source":"AlahiMajnurOsama/Tv JioTv.m3u Jio channel 815 Sonic Hindi","source_hindi":true}
+            {"url":"https://snehtv.in1.bitmana.io/live.php?c=Sonic_Nickelodeon&q=250&e=.m3u8","source":"Arun9dec/IPTV old Kids (Hindi) Sonic Nickelodeon public listing","source_hindi":True},
+            {"url":"https://mini.allinonereborn.online/jiotv-ww323/app/ts_live_815.m3u8","source":"rkbro23/rk_playlist JIOTV.m3u Sonic Hindi tvg-language Hindi","source_hindi":True},
+            {"url":"https://jio.jiotv.link/api/app/live.php?id=815&e=.m3u8","source":"AlahiMajnurOsama/Tv JioTv.m3u Jio channel 815 Sonic Hindi","source_hindi":True}
           ]
           prior=json.loads((root/'sonic_hindi_candidates.json').read_text())
           favorites=json.loads((root/'favorites_test_registry.json').read_text())
