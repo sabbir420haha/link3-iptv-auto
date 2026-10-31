@@ -65,7 +65,10 @@ def probe(c):
         # Audio tags in HLS may be missing; preserve this important uncertainty.
         languages=sorted(set(x.lower() for a in observations
                              for x in a["audio_language_metadata"] if x))
+        live_confirmed=(all(a["seq"] is not None for a in observations)
+                        or all(a["segment"] is not None for a in observations))
         row.update(status="remote_90s_video_verified",
+                   live_advancement_confirmed=live_confirmed,
                    height=min(x["height"] for x in observations),
                    decoded_frame_counts=[x["frames_decoded"] for x in observations],
                    audio_tags=languages,
@@ -82,7 +85,8 @@ def main():
     good=[r for r in results
           if r["status"]=="remote_90s_video_verified"
           and r["url"]!=BASE
-          and (r["hindi_claim"] or r["hindi_audio_metadata"])]
+          and r["hindi_audio_metadata"]
+          and r.get("live_advancement_confirmed",False)]
     before=PATH.read_text(encoding="utf-8") if PATH.exists() else "#EXTM3U\n"
     if not before.lstrip().startswith("#EXTM3U"): raise ValueError("bad_test_playlist")
     playlist=before
@@ -102,7 +106,7 @@ def main():
             "evaluated":len(results),"new_remote_verified":len(good),
             "newly_published":published,"MAIN_unchanged":True,
             "Link3_playback_not_verified":True,
-            "observation":"Three decoded 18-frame samples 32s apart, HLS segment progress when observable. Not proof of uninterrupted long playback or audio language.",
+            "observation":"Three decoded 18-frame samples 32s apart. Only sources with advancing live HLS segments and explicit Hindi audio metadata are publishable. Remote test is not Link3 proof.",
             "main_url":BASE,"results":results}
     OUT.write_text(json.dumps(record,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     print(json.dumps({"checked":len(results),"verified":len(good),"published":published}))
