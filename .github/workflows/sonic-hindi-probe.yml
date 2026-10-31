@@ -26,11 +26,7 @@ jobs:
           import json, subprocess, urllib.request, urllib.parse, ipaddress, socket, os, time, re, pathlib
           from datetime import datetime, timezone
           targets = [
-            {"url":"http://smiletv.live:4110/getm3u8/815/master.m3u8","source":"sudiptobd2/jio new; Jio 815 Sonic Hindi"},
-            {"url":"https://qrpay.fun/TS-JioTV-main/app/live.php?id=815&e=.m3u8","source":"riyazkhan111/mhgfvcdfx.github.io tv/pages/api/tvtelugu.js; Sonic Hindi 815"},
-            {"url":"http://mohitweb.zapto.org:7878/live/high/815.m3u8","source":"Bhavesh0a/Index Index6; Jio 815 Sonic Hindi"},
-            {"url":"http://node101473-ishanjiotv.in1.bitmana.io/live.php?c=sonic_Hindi&q=800&e=Ishan.m3u8","source":"Sonuiptvnew/Sonuiptvnew sonuiptvbackjio.m3u; Sonic Hindi"},
-            {"url":"https://editorials-fill-ruled-sudden.trycloudflare.com/app/live.php?id=815&e=.m3u","source":"Gowtham174/Gowtham174.github.io Jio.html; Sonic Hindi 815"}
+            {"url":"https://shoebinfo.qzz.io/test/hot.php/Sonic.m3u8","source":"sm-monirulislam/SM-IPTV vood.m3u; Sonic Voot-labelled public HLS, Hindi unverified"}
           ]
           base = pathlib.Path(".")
           registry = json.loads((base/"sonic_hindi_candidates.json").read_text())
