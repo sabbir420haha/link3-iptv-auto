@@ -1,11 +1,11 @@
 {
-  "checked_utc": "2026-10-31T18:30:38.289511+00:00",
+  "checked_utc": "2026-10-31T18:31:26.373741+00:00",
   "evaluated": 104,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
   "Link3_playback_not_verified": true,
-  "observation": "Three decoded 18-frame samples 32s apart, HLS segment progress when observable. Not proof of uninterrupted long playback or audio language.",
+  "observation": "Three decoded 18-frame samples 32s apart. Only sources with advancing live HLS segments and explicit Hindi audio metadata are publishable. Remote test is not Link3 proof.",
   "main_url": "https://drk6xq0vhn.gpcdn.net/live/sony_yay_abr/index.m3u8",
   "results": [
     {
@@ -422,7 +422,7 @@
       "source": "Salimtech353/NetPlay Sony Yay Jio 872",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "HTTP Error 500: Internal Server Error"
+      "reason": "HTTP Error 502: Bad Gateway"
     },
     {
       "id": "Y53",
