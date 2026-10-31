@@ -15,6 +15,8 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-10-31 newly located GitHub-labeled Disney Channel INDIA; no HD/Hindi proof.
+    {"channel":"Disney HD Hindi","url":"http://45.249.187.238:8081/hls/live0.m3u8","evidence":"github.com/GraphicMiles/chan-watchparty server-lib/iptv.js labels Disney Channel india; require >=720p manifest, Hindi audio and identity; audit only","expected_audio":"hi","min_height":720},
     # 2026-10-31 new independent GitHub-discovered alternatives, runner audit only; never auto-publish.
     {"channel":"Sonic Hindi","url":"https://mhdtvstream.com/live.php?id=815&e=.m3u8","evidence":"github.com/sohelkhan812421/boss SOHELKHANIPTV2025.m3u; explicitly Sonic Hindi Jio ID 815, source-specified Referer/User-Agent; no login bypass","expected_audio":"hi"},
     {"channel":"Sonic Bangla","url":"https://mhdtvstream.com/live.php?id=1345&e=.m3u8","evidence":"github.com/MohammadKobirShah/KobirIPTV KobirIPTV.m3u; Sonic Bangla ID 1345, Bengali tvg-language and source-specified Referer/User-Agent","expected_audio":"bn"},
