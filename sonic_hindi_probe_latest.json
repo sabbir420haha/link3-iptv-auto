@@ -1,35 +1,11 @@
 {
-  "checked_utc": "2026-10-31T03:29:15.373173+00:00",
+  "checked_utc": "2026-10-31T11:29:52.170452+00:00",
   "results": [
     {
-      "url": "http://smiletv.live:4110/getm3u8/815/master.m3u8",
-      "verified": false,
-      "reason": "DNS error [Errno -5] No address associated with hostname",
-      "source": "sudiptobd2/jio new; Jio 815 Sonic Hindi"
-    },
-    {
-      "url": "https://qrpay.fun/TS-JioTV-main/app/live.php?id=815&e=.m3u8",
+      "url": "https://shoebinfo.qzz.io/test/hot.php/Sonic.m3u8",
       "verified": false,
       "reason": "manifest fetch HTTP Error 404: Not Found",
-      "source": "riyazkhan111/mhgfvcdfx.github.io tv/pages/api/tvtelugu.js; Sonic Hindi 815"
-    },
-    {
-      "url": "http://mohitweb.zapto.org:7878/live/high/815.m3u8",
-      "verified": false,
-      "reason": "DNS error [Errno -5] No address associated with hostname",
-      "source": "Bhavesh0a/Index Index6; Jio 815 Sonic Hindi"
-    },
-    {
-      "url": "http://node101473-ishanjiotv.in1.bitmana.io/live.php?c=sonic_Hindi&q=800&e=Ishan.m3u8",
-      "verified": false,
-      "reason": "DNS error [Errno -2] Name or service not known",
-      "source": "Sonuiptvnew/Sonuiptvnew sonuiptvbackjio.m3u; Sonic Hindi"
-    },
-    {
-      "url": "https://editorials-fill-ruled-sudden.trycloudflare.com/app/live.php?id=815&e=.m3u",
-      "verified": false,
-      "reason": "DNS error [Errno -2] Name or service not known",
-      "source": "Gowtham174/Gowtham174.github.io Jio.html; Sonic Hindi 815"
+      "source": "sm-monirulislam/SM-IPTV vood.m3u; Sonic Voot-labelled public HLS, Hindi unverified"
     }
   ],
   "published": [],

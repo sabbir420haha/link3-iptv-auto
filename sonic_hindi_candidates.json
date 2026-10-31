@@ -794,6 +794,13 @@
       "source": "TamannaJain2710/iptv Customised_iptv.m3u; public Sonic Hindi listing",
       "feed": "Sonic Hindi, source label unverified",
       "remote_probe": "GitHub Actions 2026-10-31T03:54:05Z run 41166294566: HLS manifest fetch connection refused (Errno 111); no decoded video; not eligible"
+    },
+    {
+      "id": "S126",
+      "url": "https://shoebinfo.qzz.io/test/hot.php/Sonic.m3u8",
+      "source": "sm-monirulislam/SM-IPTV vood.m3u; Sonic Voot-labelled public HLS, Hindi unverified",
+      "feed": "Sonic India; language unverified",
+      "remote_probe": "GitHub Actions 2026-10-31T11:29:52.169541+00:00: manifest fetch HTTP Error 404: Not Found; two-fetch decode not verified"
     }
   ]
 }
