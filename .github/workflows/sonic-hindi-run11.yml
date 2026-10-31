@@ -1,4 +1,4 @@
-name: Sonic Hindi isolated two-fetch test 2026-10-31 run15
+name: Sonic Hindi isolated two-fetch test 2026-10-31 run16
 on:
   push:
     branches: [main]
@@ -27,9 +27,7 @@ jobs:
           import json, subprocess, time, re, pathlib, urllib.parse, urllib.request, socket, ipaddress, datetime
           root=pathlib.Path('.')
           candidates=[
-            {"url":"https://snehtv.in1.bitmana.io/live.php?c=Sonic_Nickelodeon&q=250&e=.m3u8","source":"Arun9dec/IPTV old Kids (Hindi) Sonic Nickelodeon public listing","source_hindi":True},
-            {"url":"https://mini.allinonereborn.online/jiotv-ww323/app/ts_live_815.m3u8","source":"rkbro23/rk_playlist JIOTV.m3u Sonic Hindi tvg-language Hindi","source_hindi":True},
-            {"url":"https://jio.jiotv.link/api/app/live.php?id=815&e=.m3u8","source":"AlahiMajnurOsama/Tv JioTv.m3u Jio channel 815 Sonic Hindi","source_hindi":True}
+            {"url":"http://pkr.cinepex.tv:8278/sonichindikdin/playlist.m3u8","source":"TamannaJain2710/iptv Customised_iptv.m3u public Sonic Hindi listing","source_hindi":True}
           ]
           prior=json.loads((root/'sonic_hindi_candidates.json').read_text())
           favorites=json.loads((root/'favorites_test_registry.json').read_text())
@@ -102,14 +100,14 @@ jobs:
             published.append({'number':count,'url':r['url'],'checks':r['checks'],'hindi_metadata':r['hindi_metadata']})
           if published:playlist.write_text(old)
           report={'checked_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'results':results,'published':published,'link3_verified':False}
-          (root/'sonic_probe_20261031_15.json').write_text(json.dumps(report,indent=2)+'\n')
+          (root/'sonic_probe_20261031_16.json').write_text(json.dumps(report,indent=2)+'\n')
           print('FINAL_SONIC_REPORT '+json.dumps(report),flush=True)
           PY
       - name: Commit report and verified-only Sonic TEST entries
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sonic_probe_20261031_15.json documentary_hd_tests.m3u
+          git add sonic_probe_20261031_16.json documentary_hd_tests.m3u
           if ! git diff --cached --quiet; then
             git commit -m "Record isolated Sonic Hindi two-fetch probe; publish only verified"
             git push
