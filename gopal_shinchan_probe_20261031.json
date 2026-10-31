@@ -1,5 +1,5 @@
 {
-  "utc": "2026-10-31T02:14:45.712800+00:00",
+  "utc": "2026-10-31T02:15:33.830076+00:00",
   "note": "Media bytes do not verify show identity or spoken language. No playlist edits permitted without independently verified programme and audio.",
   "results": [
     {
@@ -11,7 +11,7 @@
       "video_decoded": false,
       "show_verified": false,
       "hindi_audio_verified": false,
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "Remote end closed connection without response"
     },
     {
       "name": "shinchan_bdott_named",
