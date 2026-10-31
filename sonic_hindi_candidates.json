@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "purpose": "Sonic Hindi tests only; no MAIN edits",
   "candidates": [
     {
@@ -815,6 +815,20 @@
       "source": "GhostHostBD/tvlink JIO serverbackupchannel; Sonic Hindi",
       "feed": "Sonic Hindi; source label only",
       "remote_probe": "GitHub Actions 2026-10-31T16:48:57Z: HTTP 200 response but not a real HLS manifest; zero decoded video frames; two-fetch verification failed"
+    },
+    {
+      "id": "S129",
+      "url": "https://snehtv.in1.bitmana.io/live.php?c=Sonic_Nickelodeon&q=250&e=.m3u8",
+      "source": "Arun9dec/IPTV IPTV Old, Kids (Hindi) Sonic Nickelodeon public listing",
+      "feed": "Sonic Nickelodeon; Hindi source label",
+      "remote_probe": "GitHub Actions run 41238814606 2026-10-31T20:25:32Z: DNS [Errno -2] Name or service not known; no decoded video; two-fetch verification failed"
+    },
+    {
+      "id": "S130",
+      "url": "https://qrpay.fun/TS-JioTV-main/app/live.php?id=2774&e=.m3u8",
+      "source": "freedish2024/personal-project.sr Kids playlist adjacent to Sonic listing; identity uncertain",
+      "feed": "Sonic association uncertain; Hindi unverified",
+      "remote_probe": "GitHub Actions run 41238814606 2026-10-31T20:25:32Z: manifest HTTP 404 Not Found; no decoded video; two-fetch verification failed"
     }
   ]
 }
