@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-31T18:16:07.925781+00:00",
-  "evaluated": 65,
+  "checked_utc": "2026-10-31T18:21:08.228353+00:00",
+  "evaluated": 77,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -527,6 +527,102 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'cdn.nowhdtime.com.bd'. (_ssl.c:1010)>"
+    },
+    {
+      "id": "Y66",
+      "url": "https://s2.itcnbd.live/sony-yay/index.m3u8",
+      "source": "Your-Tribal-Chief/LiveTV Sony YAY from channel map",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "Y67",
+      "url": "http://103.185.24.134:3001/SONY-YAY/index.m3u8",
+      "source": "Abhiboss07/HindiIPTVValidator: Hindi Sony Yay source",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error timed out>"
+    },
+    {
+      "id": "Y68",
+      "url": "http://103.89.248.130:8082/SONY-YAY/index.m3u8",
+      "source": "Farabi-2005/Farabi Sony YAY stream",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error timed out>"
+    },
+    {
+      "id": "Y69",
+      "url": "https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeStreams/StreamsTV-BD/sony_yay_69c0a0a8.m3u8",
+      "source": "bugsfreeweb/LiveTVCollector source with 2026 timestamp",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "Y70",
+      "url": "https://sonyliv.dinesh29.com.np/live/sonyliv-universal/sony-yay/index.ts",
+      "source": "fahadskt/IPTV-Playlists Live 3 Sony Yay",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y71",
+      "url": "https://tplay.dinesh29.com.np/live/tataplay-universal/sony-yay/index.ts",
+      "source": "fahadskt/IPTV-Playlists Live Sony Yay",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y72",
+      "url": "https://cricsters.fun/s/stream.php?id=sony-yay&e=.m3u8",
+      "source": "FREDFLIX-APP/All-channel-php Sony Yay",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
+    },
+    {
+      "id": "Y73",
+      "url": "https://bostaflix.vercel.app/api/roarzone.m3u8?stream=edge3/sony-yay",
+      "source": "amazeyourself/m3u roarzone Sony Yay",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y74",
+      "url": "https://hdabgh.mnbd.workers.dev/cdn/live/sonyyay/playlist.m3u8",
+      "source": "moajzim47/moajzimofficials Sony Yay proxy; audio unconfirmed",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "Y75",
+      "url": "http://sm-monirul.top/RoarZone/play.php?id=ZWRnZTMvc29ueS15YXk=&e=.m3u8",
+      "source": "badalbd53/Rocket-OTV Sony Yay source; audio unconfirmed",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y76",
+      "url": "https://247tv.top/api/toffeeking/live.php?id=57bd9c2493c1&e=.m3u8",
+      "source": "CricZone/BDStreamHub Sony Yay feed; likely Toffee Bangla",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y77",
+      "url": "http://103.81.104.222/live/sony-yay/index.m3u8",
+      "source": "fahadskt/IPTV-Playlists Sony Yay old stream",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error timed out>"
     }
   ]
 }
