@@ -1,0 +1,10 @@
+{
+  "checked_utc": "2026-10-31T19:32:23.896508+00:00",
+  "video_report": "sony_yay_probe_results.json",
+  "tested_audio_count": 0,
+  "newly_published": [],
+  "method": "Two independent 20-second audio excerpts, 15 seconds apart; faster-whisper base int8 language identification. Require both hi >=0.80 and >=10 Devanagari characters. Video already decoded at three spaced intervals.",
+  "Link3_not_verified": true,
+  "MAIN_unchanged": true,
+  "results": []
+}

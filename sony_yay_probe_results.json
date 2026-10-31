@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-31T19:29:26.588348+00:00",
+  "checked_utc": "2026-10-31T19:32:13.967940+00:00",
   "evaluated": 109,
   "new_remote_verified": 0,
   "newly_published": [],
@@ -38,7 +38,7 @@
       "source": "tg-aadi/sony-liv stream Hindi metadata",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "HTTP Error 500: Internal Server Error"
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "id": "Y05",
