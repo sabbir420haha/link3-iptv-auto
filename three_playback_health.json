@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-31T07:25:07.526750+00:00",
+  "checked_utc": "2026-10-31T12:18:37.115029+00:00",
   "scope": "GitHub network ONLY; not Link3/mobile/TV",
   "relay_active": false,
   "changed_playlist": false,
@@ -18,7 +18,7 @@
       "media_host": null,
       "samples": [
         {
-          "at_seconds": 0.9,
+          "at_seconds": 1.0,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
@@ -28,17 +28,17 @@
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 17.1,
+          "at_seconds": 17.0,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 25.0,
+          "at_seconds": 24.9,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 33.2,
+          "at_seconds": 33.0,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
@@ -48,7 +48,7 @@
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 48.9,
+          "at_seconds": 49.0,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
@@ -78,73 +78,73 @@
       "media_host": "103.135.253.32",
       "samples": [
         {
-          "at_seconds": 1.0,
-          "seq": 34848,
-          "latest_segment_fingerprint": "7a7ac98fa8c9064c",
+          "at_seconds": 1.1,
+          "seq": 37783,
+          "latest_segment_fingerprint": "beb189cee550c884",
           "target_duration_seconds": 6,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
           "at_seconds": 9.0,
-          "seq": 34849,
-          "latest_segment_fingerprint": "b3b8a7a323edf2ed",
+          "seq": 37785,
+          "latest_segment_fingerprint": "dc842f20f340a9fd",
           "target_duration_seconds": 6,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
           "at_seconds": 17.0,
-          "seq": 34850,
-          "latest_segment_fingerprint": "2cee5ad29c75ba0d",
+          "seq": 37786,
+          "latest_segment_fingerprint": "499d69573fab7f84",
           "target_duration_seconds": 6,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
           "at_seconds": 25.0,
-          "seq": 34851,
-          "latest_segment_fingerprint": "b59a37fbcf49e061",
+          "seq": 37787,
+          "latest_segment_fingerprint": "c8e5155f599d5e9c",
           "target_duration_seconds": 6,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
           "at_seconds": 33.0,
-          "seq": 34853,
-          "latest_segment_fingerprint": "bada9ee1cb9ab400",
+          "seq": 37789,
+          "latest_segment_fingerprint": "e712b6e1400923f4",
           "target_duration_seconds": 6,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
           "at_seconds": 41.0,
-          "seq": 34854,
-          "latest_segment_fingerprint": "db04b0d47f856755",
+          "seq": 37790,
+          "latest_segment_fingerprint": "14155014e400bb0e",
           "target_duration_seconds": 6,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
           "at_seconds": 49.0,
-          "seq": 34856,
-          "latest_segment_fingerprint": "3633d6306d94d0e3",
+          "seq": 37791,
+          "latest_segment_fingerprint": "f309096fcf6c1c38",
           "target_duration_seconds": 6,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
           "at_seconds": 57.0,
-          "seq": 34857,
-          "latest_segment_fingerprint": "660d25e249645a32",
+          "seq": 37793,
+          "latest_segment_fingerprint": "878431b03a1a714a",
           "target_duration_seconds": 6,
           "media_host": "103.135.253.32",
           "ok": true
         },
         {
           "at_seconds": 65.0,
-          "seq": 34858,
-          "latest_segment_fingerprint": "a90f17e3182adc76",
+          "seq": 37794,
+          "latest_segment_fingerprint": "c91361d3558c2515",
           "target_duration_seconds": 6,
           "media_host": "103.135.253.32",
           "ok": true
@@ -154,81 +154,84 @@
     },
     {
       "name": "Zee Bangla",
-      "status": "intermittent_errors",
-      "successful_polls": 8,
+      "status": "advancing_on_github",
+      "successful_polls": 9,
       "attempted_polls": 9,
-      "observed_changes": 6,
+      "observed_changes": 7,
       "media_sequence_regressions": 0,
       "old_segment_replays": 0,
-      "max_stalled_observation_seconds": 7.9,
+      "max_stalled_observation_seconds": 8.1,
       "target_duration_seconds": 4,
       "media_host": "drk6xq0vhn.gpcdn.net",
       "samples": [
         {
-          "at_seconds": 0.6,
-          "seq": 9841,
-          "latest_segment_fingerprint": "0dff1e07683c3a32",
+          "at_seconds": 0.3,
+          "seq": 14243,
+          "latest_segment_fingerprint": "02792c2a7c58dc65",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 8.5,
-          "seq": 9841,
-          "latest_segment_fingerprint": "0dff1e07683c3a32",
+          "at_seconds": 8.4,
+          "seq": 14243,
+          "latest_segment_fingerprint": "02792c2a7c58dc65",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
           "at_seconds": 16.8,
-          "seq": 9845,
-          "latest_segment_fingerprint": "43e621c58077c4f1",
+          "seq": 14247,
+          "latest_segment_fingerprint": "b6e17e5bbb8d70d2",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 25.2,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 403: Forbidden"
+          "at_seconds": 24.5,
+          "seq": 14249,
+          "latest_segment_fingerprint": "4abd67d45c72790f",
+          "target_duration_seconds": 4,
+          "media_host": "drk6xq0vhn.gpcdn.net",
+          "ok": true
         },
         {
           "at_seconds": 32.6,
-          "seq": 9849,
-          "latest_segment_fingerprint": "62c2f4f0fddfe62f",
+          "seq": 14251,
+          "latest_segment_fingerprint": "978edb4034f8e220",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 40.8,
-          "seq": 9851,
-          "latest_segment_fingerprint": "0cb111ef438d4927",
+          "at_seconds": 40.5,
+          "seq": 14253,
+          "latest_segment_fingerprint": "fb026aebbd9221bd",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
           "at_seconds": 48.5,
-          "seq": 9853,
-          "latest_segment_fingerprint": "2cb3b5a0172a6440",
+          "seq": 14255,
+          "latest_segment_fingerprint": "41f5515535e1a475",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 56.8,
-          "seq": 9855,
-          "latest_segment_fingerprint": "df4fd458833171dd",
+          "at_seconds": 56.5,
+          "seq": 14257,
+          "latest_segment_fingerprint": "ed4b3c6c4cda45e5",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
           "at_seconds": 64.6,
-          "seq": 9857,
-          "latest_segment_fingerprint": "809889c31123d6d8",
+          "seq": 14259,
+          "latest_segment_fingerprint": "b27db71341fa9c4e",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true

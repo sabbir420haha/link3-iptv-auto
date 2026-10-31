@@ -1,7 +1,7 @@
 #EXTM3U
 # Favorites TEST only. Stable source numbers, max 30 distinct URLs per channel.
 # Unverified on Link3; identity, language, rights and no-buffer playback not guaranteed.
-# Now includes Channel 24, Sonic Bangla/Hindi, Discovery and Nat Geo tests.
+# Missing Disney HD Hindi, Sonic Hindi and Sonic Bangla tests are held after user playback failures.
 #EXTINF:-1 tvg-id="fav-zee-bangla-hd-01" tvg-name="Zee Bangla HD TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 01
 https://padmaonline.duckdns.org:8088/ZeeBanglaHD/index.m3u8
 #EXTINF:-1 tvg-id="fav-zee-bangla-hd-02" tvg-name="Zee Bangla HD TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 02
@@ -428,54 +428,6 @@ https://re-streaming-xfireflix.vercel.app/api/OPX/245914.m3u8
 https://livess.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/dbcnews.stream/chunks.m3u8
 #EXTINF:-1 tvg-id="fav-dbc-news-30" tvg-name="DBC News TEST 30" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dbc-news.png?v=iptv-tightfit-20261023" group-title="9 | TEST - DBC News",DBC News TEST 30
 http://bd.jagobd.com:1931/live-orgin/dbcnews.stream/chunks.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-01" tvg-name="Disney HD Hindi TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 01
-http://xtv.ooo:8080/live/415663775/826262627/167551.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-03" tvg-name="Disney HD Hindi TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 03
-https://hqth.me/disneychannel?live/hd.sml/eyJpdiI6IkdaWWpENWlUVzQzWkh1Ri9IMVRrakE9PSIsInZhbHVlIjoiTXZwRFJ5QUs1Mzhpd0hid2lyc09tSWg5SkhlS1R/disneyus.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-04" tvg-name="Disney HD Hindi TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 04
-https://allinonereborn.com/oplex.m3u8?id=167551
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-05" tvg-name="Disney HD Hindi TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 05
-https://allinonereborn.com/oplx11.m3u8?id=167551
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-06" tvg-name="Disney HD Hindi TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 06
-https://allinonereborn.com/opplex1991.m3u8?id=167551
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-07" tvg-name="Disney HD Hindi TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 07
-https://www.redbooks.site/x11.php?id=167551.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-08" tvg-name="Disney HD Hindi TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 08
-http://51.75.127.199:3141/disneychannel/index.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-09" tvg-name="Disney HD Hindi TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 09
-https://s1.itcnbd.live/Disney-D/index.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-10" tvg-name="Disney HD Hindi TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 10
-https://s1.itcnbd.live/Disney-D/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-11" tvg-name="Disney HD Hindi TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 11
-https://stream.kliv.in/ROPX/opp233/167551.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-12" tvg-name="Disney HD Hindi TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 12
-https://hls-coolxtream.vercel.app/channel/167551&format=.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-13" tvg-name="Disney HD Hindi TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 13
-http://103.167.255.18:8085/play/a0kq/index.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-14" tvg-name="Disney HD Hindi TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 14
-https://shahakshay938.github.io/backups/streams/2026-05-09/disneychannel-in-sd.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-15" tvg-name="Disney HD Hindi TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 15
-http://88.212.15.19/live/test_disney/playlist.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-16" tvg-name="Disney HD Hindi TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 16
-https://app-re.sm-monirul-islam-rs.workers.dev/disney-hd-hindi/index.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-17" tvg-name="Disney HD Hindi TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 17
-https://stream.ottplus.live/live/disney_channel_hd_abr/index.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-18" tvg-name="Disney HD Hindi TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 18
-https://stream.ottplus.live/live/disney_hd_abr/index.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-19" tvg-name="Disney HD Hindi TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 19
-https://app-re.sm-monirul-islam-rs.workers.dev/Disny-Channel-Hindi/index.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-20" tvg-name="Disney HD Hindi TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 20
-https://raw.githubusercontent.com/Hasanmahmud000/Yt/main/Disney_Channel_HD.index.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-21" tvg-name="Disney HD Hindi TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 21
-http://139.23.241.38:8088/602/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-22" tvg-name="Disney HD Hindi TEST 22" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 22
-http://ott.artmott.com/DisneyChannel/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-23" tvg-name="Disney HD Hindi TEST 23" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 23
-https://live.dinesh29.com.np/stream/jiotvplus/disneychannel/master.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-24" tvg-name="Disney HD Hindi TEST 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 24
-http://116.90.120.151:8000/play/a0hp/index.m3u8
-#EXTINF:-1 tvg-id="fav-disney-hd-hindi-25" tvg-name="Disney HD Hindi TEST 25" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/disney-hd-hindi.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Disney HD Hindi",Disney HD Hindi TEST 25
-http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/8f3e6367117c923.m3u8
 #EXTINF:-1 tvg-id="fav-duronto-tv-01" tvg-name="Duronto TV TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 01
 http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8
 #EXTINF:-1 tvg-id="fav-duronto-tv-02" tvg-name="Duronto TV TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Duronto TV",Duronto TV TEST 02
@@ -1000,105 +952,3 @@ http://103.122.74.6:8888/hls/SONY.SPORTS.3.m3u8
 https://feed.play.mv/live/10005200/RG2fKR6d9p/master.m3u8
 #EXTINF:-1 tvg-id="fav-sony-ten-3-hd-16" tvg-name="Sony Ten 3 HD TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 3 HD",Sony Ten 3 HD TEST 16
 https://cloudplay-sonyliv.pages.dev/ten3.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-01" tvg-name="Sonic Bangla TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 01
-https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Sonic_Bangla&q=800&e=junk.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-02" tvg-name="Sonic Bangla TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 02
-https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sonicPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-03" tvg-name="Sonic Bangla TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 03
-https://sports247.eu.org/api/app/live.php?id=1345&e=.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-04" tvg-name="Sonic Bangla TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 04
-https://hey-lookme.shop/live.php?id=1345
-#EXTINF:-1 tvg-id="fav-sonic-bangla-05" tvg-name="Sonic Bangla TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 05
-https://jio.instream.ml/jio.php?c=Sonic_Bangla&q=600&e=.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-06" tvg-name="Sonic Bangla TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 06
-http://198.195.239.50:8095/sonic/index.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-07" tvg-name="Sonic Bangla TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 07
-https://sflex07.fun:443/07/jio/app/ts_live_1345.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-08" tvg-name="Sonic Bangla TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 08
-https://app-re.sm-monirul-islam-rs.workers.dev/sonic-bangla/index.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-09" tvg-name="Sonic Bangla TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 09
-https://stream.ottplus.live/live/sonic_bangla_abr/index.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-10" tvg-name="Sonic Bangla TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 10
-https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-11" tvg-name="Sonic Bangla TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 11
-https://playyonogames.in/live.php?id=1345&format=.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-12" tvg-name="Sonic Bangla TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 12
-https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-13" tvg-name="Sonic Bangla TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 13
-http://103.68.28.58:5001/live/1345.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-14" tvg-name="Sonic Bangla TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 14
-https://colorsscreen.com/live.php?id=1345&extension=.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-15" tvg-name="Sonic Bangla TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 15
-http://103.135.253.32:8080/SONIC-BANGLA/index.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-16" tvg-name="Sonic Bangla TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 16
-http://103.180.212.191:3500/live/1345.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-17" tvg-name="Sonic Bangla TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 17
-http://14.102.123.50:5001/live/1345.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-18" tvg-name="Sonic Bangla TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 18
-http://103.204.43.87:8080/live/1/1/274.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-19" tvg-name="Sonic Bangla TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 19
-http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-20" tvg-name="Sonic Bangla TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 20
-https://snehjiotv.in1.bitmana.io/snehjioox.php?c=Sonic_Bangla&q=1200&e=junk.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-21" tvg-name="Sonic Bangla TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 21
-https://edge01.iptv.digijadoo.net/live/sonic/chunks.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-22" tvg-name="Sonic Bangla TEST 22" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 22
-https://edge01.iptv.digijadoo.net/live/sonic/playlist.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-bangla-23" tvg-name="Sonic Bangla TEST 23" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-bangla.png" group-title="9 | TEST - Sonic Bangla",Sonic Bangla TEST 23
-http://live.balajibroadband.com:3500/live/1345.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-01" tvg-name="Sonic Hindi TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 01
-https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-02" tvg-name="Sonic Hindi TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 02
-https://sports247.eu.org/api/app/live.php?id=815&e=.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-03" tvg-name="Sonic Hindi TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 03
-http://202.70.146.135:8000/play/a02t/index.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-04" tvg-name="Sonic Hindi TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 04
-https://hey-lookme.shop/live.php?id=815
-#EXTINF:-1 tvg-id="fav-sonic-hindi-05" tvg-name="Sonic Hindi TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 05
-https://jio.instream.ml/jio.php?c=sonic_Hindi&q=600&e=.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-06" tvg-name="Sonic Hindi TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 06
-http://hardcore-keldysh.64-227-150-121.plesk.page:80/getm3u8/815/master.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-07" tvg-name="Sonic Hindi TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 07
-https://jioplaylistdown.yecic62314.workers.dev/live.m3u8?id=815
-#EXTINF:-1 tvg-id="fav-sonic-hindi-08" tvg-name="Sonic Hindi TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 08
-https://app-re.sm-monirul-islam-rs.workers.dev/sonic-hindi/index.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-09" tvg-name="Sonic Hindi TEST 09" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 09
-https://stream.ottplus.live/live/sonic_abr/index.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-10" tvg-name="Sonic Hindi TEST 10" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 10
-http://103.140.254.2:3500/live/815.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-11" tvg-name="Sonic Hindi TEST 11" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 11
-https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-12" tvg-name="Sonic Hindi TEST 12" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 12
-https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-13" tvg-name="Sonic Hindi TEST 13" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 13
-https://playyonogames.in/live.php?id=815&format=.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-14" tvg-name="Sonic Hindi TEST 14" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 14
-https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-15" tvg-name="Sonic Hindi TEST 15" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 15
-http://103.68.28.58:5001/live/815.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-16" tvg-name="Sonic Hindi TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 16
-https://colorsscreen.com/live.php?id=815&extension=.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-17" tvg-name="Sonic Hindi TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 17
-http://103.83.80.54:6088/play/a0g4/index.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-18" tvg-name="Sonic Hindi TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 18
-http://103.135.253.32:8080/SONIC/index.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-19" tvg-name="Sonic Hindi TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 19
-http://103.135.253.32:8080/SONIC-HD/index.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-20" tvg-name="Sonic Hindi TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 20
-http://103.185.24.134:3001/SONIC/index.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-21" tvg-name="Sonic Hindi TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 21
-http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-22" tvg-name="Sonic Hindi TEST 22" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 22
-https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-23" tvg-name="Sonic Hindi TEST 23" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 23
-https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-24" tvg-name="Sonic Hindi TEST 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 24
-http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-25" tvg-name="Sonic Hindi TEST 25" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 25
-http://103.229.254.25:7001/play/a0dl/index.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-26" tvg-name="Sonic Hindi TEST 26" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 26
-http://103.162.136.235:4500/play/a01k/index.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-27" tvg-name="Sonic Hindi TEST 27" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 27
-http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8
-#EXTINF:-1 tvg-id="fav-sonic-hindi-28" tvg-name="Sonic Hindi TEST 28" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="9 | TEST - Sonic Hindi",Sonic Hindi TEST 28
-https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8
