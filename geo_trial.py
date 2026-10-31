@@ -18,6 +18,10 @@ OUTPUT = ROOT / "geo_trials.m3u"
 STATUS = ROOT / "status.json"
 EXTRA_TEST = ("Channel 24", "Sonic Bangla", "Sonic Hindi",
               "Discovery Bangla", "Nat Geo HD Bangla")
+# The user reported that the three missing-channel TEST entries do not play
+# on Link3. Suppress them until real media, channel identity and language
+# have been checked; do not republish known-failed test candidates.
+HELD_THREE = frozenset(("Disney HD Hindi", "Sonic Hindi", "Sonic Bangla"))
 
 def favorites():
     result = []
@@ -48,10 +52,13 @@ def main():
         "#EXTM3U",
         "# Favorites TEST only. Stable source numbers, max 30 distinct URLs per channel.",
         "# Unverified on Link3; identity, language, rights and no-buffer playback not guaranteed.",
-        "# Now includes Channel 24, Sonic Bangla/Hindi, Discovery and Nat Geo tests.",
+        "# Missing Disney HD Hindi, Sonic Hindi and Sonic Bangla tests are held after user playback failures.",
     ]
     counts = {}
     for name in favorites_list:
+        if name in HELD_THREE:
+            counts[name] = 0
+            continue
         record = registry.get("channels", {}).get(name, {})
         candidates = record.get("candidates", [])
         logo = record.get("logo", "")
@@ -76,7 +83,7 @@ def main():
         counts[name] = count
     # Fail safely: never overwrite a populated test playlist with zero channels.
     expected = sum(len(registry.get("channels", {}).get(n, {}).get("candidates", [])[:30])
-                   for n in favorites_list)
+                   for n in favorites_list if n not in HELD_THREE)
     if len(favorites_list) < 25 or sum(counts.values()) != expected:
         raise RuntimeError(
             f"Refusing to publish incomplete TEST playlist: {sum(counts.values())} "
@@ -95,6 +102,7 @@ def main():
         "max_per_channel": 30,
         "stable_test_numbers": True,
         "extra_test_groups": list(EXTRA_TEST),
+        "held_missing_channel_tests": sorted(HELD_THREE),
         "warning": "Testing only; streams not verified on user's Link3. Production playlist is not altered. TEST numbers map to fixed registry URLs.",
     }
     STATUS.write_text(json.dumps(status, indent=2, ensure_ascii=False) + "\n",
