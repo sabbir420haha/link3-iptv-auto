@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-31T19:32:13.967940+00:00",
+  "checked_utc": "2026-10-31T19:35:13.190152+00:00",
   "evaluated": 109,
   "new_remote_verified": 0,
   "newly_published": [],
@@ -861,8 +861,7 @@
       "url": "https://sonyliv.07in.workers.dev/live/999/999/sony-yay.m3u8",
       "source": "maybetv/jojo Clarity.m3u; explicitly tagged Sony Yay Hindi",
       "hindi_claim": true,
-      "status": "remote_90s_video_verified",
-      "live_advancement_confirmed": false,
+      "status": "video_decoded_hls_advancement_unproven",
       "height": 1080,
       "decoded_frame_counts": [
         18,
@@ -870,8 +869,7 @@
         18
       ],
       "audio_tags": [],
-      "hindi_audio_metadata": false,
-      "manifest_advanced": false,
+      "live_advancement_confirmed": false,
       "probe_checks": 3,
       "approximate_probe_span_seconds": 64
     },
