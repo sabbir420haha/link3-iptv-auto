@@ -1,5 +1,5 @@
 #EXTM3U
 # Shared TEST playlist: Sonic Hindi and Sony YAY Hindi.
 # Sony YAY Hindi previous 16 test entries removed: user confirmed all failed on Link3.
-# Newly checked Sony YAY source count 65; ZERO verified live via 3 media checks.
+# Checked Sony YAY source count 80 (through 2026-11-01 00:22 Asia/Dhaka); ZERO verified live via repeated FFmpeg media checks.
 # No unverified/broken URLs are presented as working. MAIN remains untouched.
