@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '.github/workflows/gopal-shinchan-probe-20261031.yml'
+      - 'gopal_shinchan_probe_20261031.py'
   workflow_dispatch:
 permissions:
   contents: write
