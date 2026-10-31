@@ -1,0 +1,25 @@
+{
+  "checked_utc": "2026-10-31T01:00:21.189335+00:00",
+  "results": [
+    {
+      "url": "https://snehtv.in1.bitmana.io/live.php?c=Sonic_Nickelodeon&q=250&e=.m3u8",
+      "source": "Arun9dec/IPTV old Kids (Hindi) Sonic Nickelodeon public listing",
+      "verified": false,
+      "reason": "DNS [Errno -2] Name or service not known"
+    },
+    {
+      "url": "https://mini.allinonereborn.online/jiotv-ww323/app/ts_live_815.m3u8",
+      "source": "rkbro23/rk_playlist JIOTV.m3u Sonic Hindi tvg-language Hindi",
+      "verified": false,
+      "reason": "DNS [Errno -5] No address associated with hostname"
+    },
+    {
+      "url": "https://jio.jiotv.link/api/app/live.php?id=815&e=.m3u8",
+      "source": "AlahiMajnurOsama/Tv JioTv.m3u Jio channel 815 Sonic Hindi",
+      "verified": false,
+      "reason": "DNS [Errno -2] Name or service not known"
+    }
+  ],
+  "published": [],
+  "link3_verified": false
+}
