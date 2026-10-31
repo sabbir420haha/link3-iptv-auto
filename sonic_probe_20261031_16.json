@@ -1,0 +1,13 @@
+{
+  "checked_utc": "2026-10-31T03:54:05.357324+00:00",
+  "results": [
+    {
+      "url": "http://pkr.cinepex.tv:8278/sonichindikdin/playlist.m3u8",
+      "source": "TamannaJain2710/iptv Customised_iptv.m3u public Sonic Hindi listing",
+      "verified": false,
+      "reason": "manifest <urlopen error [Errno 111] Connection refused>"
+    }
+  ],
+  "published": [],
+  "link3_verified": false
+}
