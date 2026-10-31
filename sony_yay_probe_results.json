@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-31T19:35:13.190152+00:00",
-  "evaluated": 109,
+  "checked_utc": "2026-10-31T20:28:33.187250+00:00",
+  "evaluated": 118,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -888,6 +888,78 @@
       "hindi_claim": true,
       "status": "failed",
       "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y110",
+      "url": "https://dai.google.com/ssai/event/40H5HfwWTZadFGYkBTqagg/master.m3u8",
+      "source": "JioV24/Jio.V20.3 playlist; Sony Yay Hindi Google DAI",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y111",
+      "url": "https://dai.google.com/linear/hls/event/40H5HfwWTZadFGYkBTqagg/master.m3u8",
+      "source": "Sonuiptvnew/Sony_Liv2.m3u Google DAI Sony YAY",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y112",
+      "url": "https://otttv.co.in/d2h/livestream/sony-yay/master.m3u8",
+      "source": "fahadskt/IPTV-Playlists Dishtv; explicit Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y113",
+      "url": "https://raw.githubusercontent.com/channeliptv0/IPTV/refs/heads/main/SONYM3U8/SonyYAYHD.m3u8",
+      "source": "channeliptv0/IPTV NewIPTVOld.m3u Sony Yay HD",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y114",
+      "url": "https://hiskidxd.com/T5/JIOTV/app/live.php?id=872&e=.m3u8",
+      "source": "GhostHostBD/tvlink Jio TV hiskidxd Sony Yay Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y115",
+      "url": "https://jio.jiotv.link/api/app/live.php?id=872&e=.m3u8",
+      "source": "AlahiMajnurOsama/Tv JioTv.m3u Sony Yay Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y116",
+      "url": "https://qrpay.fun/TS-JioTV-main/app/live.php?id=872&e=.m3u8",
+      "source": "riyazkhan111/mhgfvcdfx.github.io tvtelugu.js Jio Sony Yay Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y117",
+      "url": "http://103.81.104.118/hls/sonyyay.m3u8",
+      "source": "Sonuiptvnew/Sonuiptvskystream Sony Yay",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error timed out>"
+    },
+    {
+      "id": "Y118",
+      "url": "http://stream.asdd.cc:9191/Sony-YAY/index.m3u8",
+      "source": "durjoyrozario/Iptv sunplex.m3u8 সনি ইয়ে হিন্দি",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno 101] Network is unreachable>"
     }
   ]
 }
