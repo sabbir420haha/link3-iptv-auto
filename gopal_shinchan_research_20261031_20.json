@@ -1,0 +1,68 @@
+{
+  "checked_local": "2026-10-31 20:01 Asia/Dhaka",
+  "status": "NO NEW VERIFIED 24/7 dedicated Gopal Bhar Bengali or Shinchan Hindi direct HLS/M3U8; playlists intentionally untouched",
+  "newly_checked": [
+    {
+      "source": "sm-monirulislam/SM-IPTV Cartoon.m3u and Combined_Live_TV.m3u",
+      "show": "Gopal Bhar",
+      "finding": "Only excluded giatv-209611 BozzTV origin"
+    },
+    {
+      "source": "saeidrahmanbd/BDIX-IPTV IPTV-Playlist.m3u",
+      "show": "Gopal Bhar",
+      "finding": "Only excluded giatv-209611 origin"
+    },
+    {
+      "source": "shanzfy/iptv playlist/kids.m3u8",
+      "show": "Gopal Bhar",
+      "finding": "Only excluded giatv-209611 origin"
+    },
+    {
+      "source": "channeliptv0/IPTV TV.m3u, TV1.m3u",
+      "show": "Gopal Bhar and Shinchan",
+      "finding": "cloudfrontnet 209611/209901 aliases, both excluded"
+    },
+    {
+      "source": "thetest19/iptv-player livetv.m3u and sohelkhan812421/boss SK2025.m3u",
+      "show": "both",
+      "finding": "cloudfrontnet 209611/209901 aliases, both excluded"
+    },
+    {
+      "source": "memevaiya2O/streamobhai api.html",
+      "show": "Gopal Bhar",
+      "finding": "TPlay /playlist/kids/gopal-bhar/index.m3u8 already tested earlier and failed; no distinct new origin established"
+    },
+    {
+      "source": "StevoSure123/Kids-IPTV kids-24-7.m3u",
+      "show": "Shinchan",
+      "finding": "starshare.live/147724 already failed validation (non-manifest)"
+    },
+    {
+      "source": "ayusht26/iptv custom-shows-data.ts",
+      "show": "Shinchan",
+      "finding": "random episode embed/webpage, not continuous direct HLS; previously reviewed"
+    },
+    {
+      "source": "still on air public guide",
+      "show": "Shinchan Hindi",
+      "finding": "Watch page only, no exposed direct verified HLS; previously reviewed"
+    },
+    {
+      "source": "shovo127/IPTV-By-Shovo, Zaman-Topu/Ip-tv-Collection and saeidrahmanbd/BDIX-IPTV GitHub searches",
+      "show": "both",
+      "finding": "No independent new show-only direct media URL; shovo expected streams/index.m3u not present, Zaman active playlist empty in GitHub connector"
+    }
+  ],
+  "verification": "No eligible NEW independent direct HLS candidate found. Accordingly, no new manifest/video/audio probe can establish show identity and Hindi. Do not label web player, general channel, mirror, or old failing relay as verified.",
+  "previous_probe_reference": [
+    "gopal_shinchan_probe_20261031.json",
+    "cartoon_gopal_shinchan_new_health.json",
+    "gopal_shinchan_research_20261031_14.json"
+  ],
+  "playlist_integrity": {
+    "test_entries": 19,
+    "main_entries": 75,
+    "modified": false
+  },
+  "next": "Continue scheduled discovery; only add after fresh manifest, media, show and Hindi audio independent verification. Link3 cannot be proven remotely."
+}
