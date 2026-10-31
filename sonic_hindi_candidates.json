@@ -787,6 +787,13 @@
       "source": "Gowtham174/Gowtham174.github.io Jio.html; Sonic Hindi 815",
       "feed": "Sonic India; language unverified",
       "remote_probe": "GitHub Actions 2026-10-31T03:29:15.372612+00:00: DNS error [Errno -2] Name or service not known; two-fetch decode not verified"
+    },
+    {
+      "id": "S125",
+      "url": "http://pkr.cinepex.tv:8278/sonichindikdin/playlist.m3u8",
+      "source": "TamannaJain2710/iptv Customised_iptv.m3u; public Sonic Hindi listing",
+      "feed": "Sonic Hindi, source label unverified",
+      "remote_probe": "GitHub Actions 2026-10-31T03:54:05Z run 41166294566: HLS manifest fetch connection refused (Errno 111); no decoded video; not eligible"
     }
   ]
 }
