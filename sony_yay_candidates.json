@@ -464,6 +464,24 @@
       "url": "http://103.81.104.222/live/sony-yay/index.m3u8",
       "source": "fahadskt/IPTV-Playlists Sony Yay old stream",
       "hindi_claim": false
+    },
+    {
+      "id": "Y78",
+      "url": "https://d20fdzcwhk7szz.cloudfront.net/SONY_YAY.m3u8",
+      "source": "sx3in/bdix eboxlive: Sony YAY CloudFront CDN",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y79",
+      "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/a20fe53e482cc33.m3u8",
+      "source": "imranemon1/emon Playlist-Kids: Sony YAY HINDI",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y80",
+      "url": "https://mhdtvweb.com/sliv/stream.php?id=sony-yay&e=.m3u8",
+      "source": "GitHub Sony LIV playlists: Sony Yay stream PHP",
+      "hindi_claim": true
     }
   ]
 }
