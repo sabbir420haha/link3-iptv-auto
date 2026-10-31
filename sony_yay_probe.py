@@ -67,6 +67,14 @@ def probe(c):
                              for x in a["audio_language_metadata"] if x))
         live_confirmed=(all(a["seq"] is not None for a in observations)
                         or all(a["segment"] is not None for a in observations))
+        if not live_confirmed:
+            row.update(status="video_decoded_hls_advancement_unproven",
+                       height=min(x["height"] for x in observations),
+                       decoded_frame_counts=[x["frames_decoded"] for x in observations],
+                       audio_tags=languages,
+                       live_advancement_confirmed=False,
+                       probe_checks=3, approximate_probe_span_seconds=64)
+            return row
         row.update(status="remote_90s_video_verified",
                    live_advancement_confirmed=live_confirmed,
                    height=min(x["height"] for x in observations),
