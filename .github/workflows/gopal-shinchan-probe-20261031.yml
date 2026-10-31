@@ -1,0 +1,28 @@
+name: Gopal Shinchan candidate verification 2026-10-31
+on:
+  push:
+    paths:
+      - '.github/workflows/gopal-shinchan-probe-20261031.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check manifest, fresh media segment and codec
+        run: python gopal_shinchan_probe_20261031.py
+      - name: Store results without modifying any playlists
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add gopal_shinchan_probe_20261031.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record independent Gopal/Shinchan 2026-10-31 candidate probes"
+            git push
+          fi
