@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-31T12:14:11.186510+00:00",
+  "updated_utc": "2026-10-31T12:21:27.860102+00:00",
   "channels": 75,
   "target_channels": 99,
   "groups": {
@@ -596,6 +596,15 @@
     },
     {
       "name": "Disney HD Hindi",
+      "url": "http://45.249.187.238:8081/hls/live0.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
       "url": "https://sonamul3535.vercel.app/Disney.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
@@ -633,15 +642,6 @@
     {
       "name": "Disney HD Hindi",
       "url": "https://fifabd.xyz/KIDxRANAPK/play.m3u8?id=167551",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Disney HD Hindi",
-      "url": "https://fifabd.xyz/KID/play.m3u8?id=167551",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -1772,7 +1772,7 @@
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-10-31T12:14:20.288691+00:00",
+    "updated_utc": "2026-10-31T12:21:36.692204+00:00",
     "channel_count": 25,
     "entries": 475,
     "by_name": {
