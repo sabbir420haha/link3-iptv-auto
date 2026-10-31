@@ -548,6 +548,10 @@ def request_headers(uri, cap):
     if hostname == "ranapkz.site":
         # Only the publicly declared User-Agent; no token or DRM bypass.
         h["User-Agent"] = "RANAPK"
+    if hostname == "mhdtvstream.com":
+        # Public M3U explicitly supplies this ordinary HTTP Referer.
+        h["Referer"] = "https://mhdtvstream.com/"
+        h["User-Agent"] = "Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.6943.49 Mobile Safari/537.36"
     if hostname == "hey-lookme.shop":
         # This public playlist explicitly declares this HTTP Referer.
         h["Referer"] = "https://hey-lookme.shop/"
