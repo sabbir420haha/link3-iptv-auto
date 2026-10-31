@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-31T18:31:26.373741+00:00",
-  "evaluated": 104,
+  "checked_utc": "2026-10-31T19:29:26.588348+00:00",
+  "evaluated": 109,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -38,7 +38,7 @@
       "source": "tg-aadi/sony-liv stream Hindi metadata",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "HTTP Error 403: Forbidden"
+      "reason": "HTTP Error 500: Internal Server Error"
     },
     {
       "id": "Y05",
@@ -62,7 +62,7 @@
       "source": "sm-monirulislam/SM-IPTV Hindi Sony LIV ID",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "no_decodable_video_height_0"
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "Y08",
@@ -422,7 +422,7 @@
       "source": "Salimtech353/NetPlay Sony Yay Jio 872",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "HTTP Error 502: Bad Gateway"
+      "reason": "HTTP Error 500: Internal Server Error"
     },
     {
       "id": "Y53",
@@ -839,6 +839,57 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y105",
+      "url": "https://jio.drmlive.au/jio/bpk-tv/Sony_Yay_Hindi_MOB/Fallback/index.m3u8",
+      "source": "MAUSHAMRAJ/Jiotv jio.m3u8 and tvbd/json; explicit Sony Yay Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y106",
+      "url": "http://stream-7b694ce7e.nmbs.top/m3u/Kids/33c579a90c.m3u8",
+      "source": "lolz1990/my kids.m3u; explicit SONY YAY HINDI",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "Remote end closed connection without response"
+    },
+    {
+      "id": "Y107",
+      "url": "https://sonyliv.07in.workers.dev/live/999/999/sony-yay.m3u8",
+      "source": "maybetv/jojo Clarity.m3u; explicitly tagged Sony Yay Hindi",
+      "hindi_claim": true,
+      "status": "remote_90s_video_verified",
+      "live_advancement_confirmed": false,
+      "height": 1080,
+      "decoded_frame_counts": [
+        18,
+        18,
+        18
+      ],
+      "audio_tags": [],
+      "hindi_audio_metadata": false,
+      "manifest_advanced": false,
+      "probe_checks": 3,
+      "approximate_probe_span_seconds": 64
+    },
+    {
+      "id": "Y108",
+      "url": "https://holmes-highs-heather-img.trycloudflare.com/app/live.php?id=872&e=.m3u8",
+      "source": "appplaylist/hls jioffeb.m3u; Sony Yay Hindi id 872; temporary public tunnel",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y109",
+      "url": "https://condo-located-vitamins-please.trycloudflare.com/app/live.php?id=872&e=.m3u8",
+      "source": "Azeemkureshi/My-Playlist My.Playlist.m3u8; Sony Yay Hindi id 872; temporary public tunnel",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
     }
   ]
 }
