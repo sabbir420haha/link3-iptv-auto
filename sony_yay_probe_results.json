@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-31T18:29:35.714482+00:00",
-  "evaluated": 89,
+  "checked_utc": "2026-10-31T18:30:38.289511+00:00",
+  "evaluated": 104,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -662,7 +662,7 @@
       "source": "Sonuiptvnew jio.m3u; Sony Yay Hindi direct",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "<urlopen error [Errno 111] Connection refused>"
+      "reason": "<urlopen error timed out>"
     },
     {
       "id": "Y83",
@@ -719,6 +719,126 @@
       "hindi_claim": true,
       "status": "failed",
       "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y90",
+      "url": "https://sonamul3535.vercel.app/Sony-yay.m3u8",
+      "source": "arafat-anowar/iptv: Sony Yay proxy",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y91",
+      "url": "https://m-c066-j2apps.s.llnwi.net/hls_hd/7027.SonyYay.in.m3u8",
+      "source": "Shadmanislam/bdiptv: Sony Yay live feed (distinct from DVR)",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y92",
+      "url": "http://mumsite.cdnsrv.jio.com/jiotv.live.cdn.jio.com/Sony_Yay_Hindi/Sony_Yay_Hindi_800.m3u8",
+      "source": "chand999-coder/random: Jio Sony Yay Hindi feed",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y93",
+      "url": "https://madplay.live/jiotv/app/live/872/null/index.m3u8",
+      "source": "hasanmamunctg/hasanmamunctg: Jio Sony Yay Hindi id 872",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error timed out>"
+    },
+    {
+      "id": "Y94",
+      "url": "https://jioapi.sports247.eu.org/api/app/live.php?id=872&e=.m3u8",
+      "source": "SArun61/IPTV: Jio Sony Yay Hindi id 872",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "id": "Y95",
+      "url": "https://reshort.in/autoq.php?c=Sony_Yay_Hindi",
+      "source": "theForg8/SomethingOrdinary: Sony Yay Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y96",
+      "url": "http://mohitweb.zapto.org:7878/live/high/872.m3u8",
+      "source": "Bhavesh0a/Index: Sony Yay Hindi high",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -5] No address associated with hostname>"
+    },
+    {
+      "id": "Y97",
+      "url": "http://smiletv.live:4110/getm3u8/872/master.m3u8",
+      "source": "sudiptobd2/jio: Sony Yay Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -5] No address associated with hostname>"
+    },
+    {
+      "id": "Y98",
+      "url": "https://node103074-join-us-on-telegram-streamkinglive.in1.bitmana.io/autoq.php?c=Sony_Yay_Hindi",
+      "source": "Sonuiptvnew/Jio TV: Sony Yay Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y99",
+      "url": "https://piratesiptv.shortcm.li/sonyyay.m3u8",
+      "source": "imranemon1/emon: Sony Yay",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -5] No address associated with hostname>"
+    },
+    {
+      "id": "Y100",
+      "url": "https://tvapp-hellotech.easypecker.com/SONY-YAY/index.m3u8",
+      "source": "maopu2001/personal_isp_iptv: Sony Yay",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error timed out>"
+    },
+    {
+      "id": "Y101",
+      "url": "https://play.denver1769.in/set/index.php?id=sony-yay",
+      "source": "Mrdk475/mrdknew: Sony Yay PHP stream",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y102",
+      "url": "http://ranapk-june2.in1.bitmana.io/autoxxx.php?c=Sony_Yay_Hindi",
+      "source": "Sonuiptvnew/sonuiptvjioenjoy: Sony Yay Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y103",
+      "url": "https://shounwifi.net/api/toffee/ferdos.php?id=sony_yay",
+      "source": "masum1580/masum: Sony Yay Toffee (language unverified, may be Bangla)",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y104",
+      "url": "https://sm-monirul.xyz/@monirul_Islam_SM/toffee/play/sonyyay.m3u8",
+      "source": "sm-monirulislam/SM-IPTV: Sony Yay Toffee (language unverified)",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
     }
   ]
 }
