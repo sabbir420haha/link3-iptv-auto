@@ -752,6 +752,48 @@
       "url": "https://blah-engineers-lady-rpg.trycloudflare.com/app/live.php?id=872&e=.m3u",
       "source": "Junan02/bdiptvtest jiotv.index; Sony Yay Hindi; public temporary tunnel",
       "hindi_claim": true
+    },
+    {
+      "id": "Y126",
+      "url": "http://mohitweb.zapto.org:7878/live/872.m3u8",
+      "source": "Bhavesh0a/Index Index3.html; Sony Yay Hindi public Jio relay",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y127",
+      "url": "https://apis.nettv.fun/j/live.php?id=872&format=.m3u8",
+      "source": "amanhfbdshdf/PlayMax JioTV_CodeCrafter; Sony Yay Hindi public relay",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y128",
+      "url": "http://pkr.cinepex.tv:8278/sonyyayhindikdin/playlist.m3u8",
+      "source": "arunprajapati249/iptv Playlist_20210817; explicitly sonyyayhindikdin",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y129",
+      "url": "https://sonyliv.cricindia95.workers.dev/sony-yay.m3u8",
+      "source": "hardiksaini10/rdp nash.m3u; Sony YAY with Hindi Jio logo, language unverified",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y130",
+      "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0367/master.m3u8",
+      "source": "iptv-org/iptv issue #34048 Sony Yay SD; public non-BDIX Indian endpoint; audio unverified",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y131",
+      "url": "http://iptv.kitv.live:1935/live/Shari/MTV-P/66.m3u8",
+      "source": "3rR0r-Pr1Nc3/iptv; Sony Yay Hindi logo, audio unverified",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y132",
+      "url": "https://keralamaxtv.com/insurance/stream.php?id=168569&e=.m3u8",
+      "source": "Ferdos-Live-Tv/VIP jagobd non hls.m3u8; Sony Yay with Referer noted, audio unverified",
+      "hindi_claim": false
     }
   ]
 }
