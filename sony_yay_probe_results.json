@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-31T20:28:33.187250+00:00",
-  "evaluated": 118,
+  "checked_utc": "2026-10-31T21:22:47.045315+00:00",
+  "evaluated": 125,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -662,7 +662,7 @@
       "source": "Sonuiptvnew jio.m3u; Sony Yay Hindi direct",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "<urlopen error timed out>"
+      "reason": "<urlopen error [Errno 111] Connection refused>"
     },
     {
       "id": "Y83",
@@ -960,6 +960,62 @@
       "hindi_claim": true,
       "status": "failed",
       "reason": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "id": "Y119",
+      "url": "https://keralamaxtv.com/sliv/stream.php?id=168569",
+      "source": "khankimagi23221/okk-1 kids.m3u; explicitly Sony Yay Hindi, requires Referer per playlist",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y120",
+      "url": "https://newhub247.store/newsh/live.m3u8?id=872",
+      "source": "xamilzahid690/KobirAllinOne.m3u; explicitly Sony Yay Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y121",
+      "url": "https://the-nayeemparvez.xyz/jiotvnew/app/play.php?id=872&e=.m3u8",
+      "source": "niptv/tvtelugu.github.io jio.html; Sony Yay Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y122",
+      "url": "https://colorsscreen.com/live.php?id=872&extension=.m3u8",
+      "source": "KMABIDHASAN63/XYZ JIO_TV.m3u; Sony Yay Hindi",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y123",
+      "url": "https://sl.vodep39240327.workers.dev/channel/SONY%20YAY.m3u8",
+      "source": "iptv-org issue 36971 Sony YAY 1080p; audio language unproven",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "no_decodable_video_height_0"
+    },
+    {
+      "id": "Y124",
+      "url": "https://editorials-fill-ruled-sudden.trycloudflare.com/app/live.php?id=872&e=.m3u",
+      "source": "Gowtham174/Gowtham174.github.io Jio.html; Sony Yay Hindi; public temporary tunnel",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y125",
+      "url": "https://blah-engineers-lady-rpg.trycloudflare.com/app/live.php?id=872&e=.m3u",
+      "source": "Junan02/bdiptvtest jiotv.index; Sony Yay Hindi; public temporary tunnel",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
     }
   ]
 }
