@@ -1,0 +1,20 @@
+{
+  "checked_utc": "2026-10-31T16:48:57.057270+00:00",
+  "results": [
+    {
+      "url": "https://node103074-join-us-on-telegram-streamkinglive.in1.bitmana.io/autoq.php?c=sonic_Hindi",
+      "source": "Sonuiptvnew/Sonuiptvnew Jio TV.m3u; tvg-id 815; tvg-language Hindi",
+      "verified": false,
+      "reason": "DNS [Errno -2] Name or service not known"
+    },
+    {
+      "url": "https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=sonic_Hindi&e=.m3u8",
+      "source": "GhostHostBD/tvlink JIO serverbackupchannel; explicitly Sonic Hindi",
+      "verified": false,
+      "manifest_http_status": 200,
+      "reason": "not a real HLS manifest"
+    }
+  ],
+  "published": [],
+  "link3_verified": false
+}
