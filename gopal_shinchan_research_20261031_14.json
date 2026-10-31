@@ -1,0 +1,42 @@
+{
+  "checked_local": "2026-10-31 14:07 Asia/Dhaka",
+  "result": "No independently verified new dedicated 24/7 Gopal Bhar Bengali or Shinchan Hindi direct HLS/M3U8; do not add to TEST.",
+  "validation_rule": "Only a direct show-only HLS URL with live manifest, fresh decodable media, visual programme identity and requested audio qualifies. Link3 playback cannot be established from remote GitHub runners.",
+  "new_leads": [
+    {
+      "show": "Shinchan",
+      "source": "ayusht26/iptv lib/iptv/custom-shows-data.ts and app/api/doraemon-stream/route.ts",
+      "url": "https://github.com/ayusht26/iptv/blob/main/lib/iptv/custom-shows-data.ts",
+      "status": "REJECTED as direct IPTV source",
+      "reason": "Website pseudo-24/7 uses randomized episode pages and third-party iframe/embed URLs, not a dedicated continuous HLS/M3U8 stream; no Hindi audio proof."
+    },
+    {
+      "show": "Gopal Bhar",
+      "source": "ShopnerBD public TV site",
+      "url": "https://tv.shopnerbd.com/",
+      "status": "UNVERIFIED and not added",
+      "reason": "Recent channels label lists Gopal Bhar but public indexed page does not expose a direct HLS media URL; no independent media/identity verification."
+    },
+    {
+      "show": "Gopal Bhar",
+      "source": "Sakirul-18/Sakiruls-IPTV playlist",
+      "url": "https://github.com/Sakirul-18/Sakiruls-IPTV/blob/main/SAKIRULs%20IPTV.m3u",
+      "status": "EXCLUDED duplicate",
+      "reason": "Only giatv-209611 BozzTV already rejected."
+    },
+    {
+      "show": "Gopal Bhar",
+      "source": "raselscb-ai/Rasel-tv Playlist.m3u",
+      "url": "https://github.com/raselscb-ai/Rasel-tv/blob/main/Playlist.m3u",
+      "status": "REJECTED invalid URL",
+      "reason": "Uses https://gopalbhar.m3u8 as placeholder; not a resolvable valid host."
+    }
+  ],
+  "checked_prior": "gopal_shinchan_probe_20261031.json (UTC 02:15) reports TPlay Gopal closed connection, bd.ottbd Shinchan 404, ranapkx Shinchan timeout; all unverified. Prior cartoon_gopal_shinchan_new_health.json records other 402/403/523/DNS failures.",
+  "playlist_integrity": {
+    "test_entries": 19,
+    "main_entries": 75,
+    "test_modified": false,
+    "main_modified": false
+  }
+}
