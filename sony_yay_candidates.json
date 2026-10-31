@@ -626,6 +626,36 @@
       "url": "https://sm-monirul.xyz/@monirul_Islam_SM/toffee/play/sonyyay.m3u8",
       "source": "sm-monirulislam/SM-IPTV: Sony Yay Toffee (language unverified)",
       "hindi_claim": false
+    },
+    {
+      "id": "Y105",
+      "url": "https://jio.drmlive.au/jio/bpk-tv/Sony_Yay_Hindi_MOB/Fallback/index.m3u8",
+      "source": "MAUSHAMRAJ/Jiotv jio.m3u8 and tvbd/json; explicit Sony Yay Hindi",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y106",
+      "url": "http://stream-7b694ce7e.nmbs.top/m3u/Kids/33c579a90c.m3u8",
+      "source": "lolz1990/my kids.m3u; explicit SONY YAY HINDI",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y107",
+      "url": "https://sonyliv.07in.workers.dev/live/999/999/sony-yay.m3u8",
+      "source": "maybetv/jojo Clarity.m3u; explicitly tagged Sony Yay Hindi",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y108",
+      "url": "https://holmes-highs-heather-img.trycloudflare.com/app/live.php?id=872&e=.m3u8",
+      "source": "appplaylist/hls jioffeb.m3u; Sony Yay Hindi id 872; temporary public tunnel",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y109",
+      "url": "https://condo-located-vitamins-please.trycloudflare.com/app/live.php?id=872&e=.m3u8",
+      "source": "Azeemkureshi/My-Playlist My.Playlist.m3u8; Sony Yay Hindi id 872; temporary public tunnel",
+      "hindi_claim": true
     }
   ]
 }
