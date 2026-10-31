@@ -710,6 +710,48 @@
       "url": "http://stream.asdd.cc:9191/Sony-YAY/index.m3u8",
       "source": "durjoyrozario/Iptv sunplex.m3u8 সনি ইয়ে হিন্দি",
       "hindi_claim": true
+    },
+    {
+      "id": "Y119",
+      "url": "https://keralamaxtv.com/sliv/stream.php?id=168569",
+      "source": "khankimagi23221/okk-1 kids.m3u; explicitly Sony Yay Hindi, requires Referer per playlist",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y120",
+      "url": "https://newhub247.store/newsh/live.m3u8?id=872",
+      "source": "xamilzahid690/KobirAllinOne.m3u; explicitly Sony Yay Hindi",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y121",
+      "url": "https://the-nayeemparvez.xyz/jiotvnew/app/play.php?id=872&e=.m3u8",
+      "source": "niptv/tvtelugu.github.io jio.html; Sony Yay Hindi",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y122",
+      "url": "https://colorsscreen.com/live.php?id=872&extension=.m3u8",
+      "source": "KMABIDHASAN63/XYZ JIO_TV.m3u; Sony Yay Hindi",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y123",
+      "url": "https://sl.vodep39240327.workers.dev/channel/SONY%20YAY.m3u8",
+      "source": "iptv-org issue 36971 Sony YAY 1080p; audio language unproven",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y124",
+      "url": "https://editorials-fill-ruled-sudden.trycloudflare.com/app/live.php?id=872&e=.m3u",
+      "source": "Gowtham174/Gowtham174.github.io Jio.html; Sony Yay Hindi; public temporary tunnel",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y125",
+      "url": "https://blah-engineers-lady-rpg.trycloudflare.com/app/live.php?id=872&e=.m3u",
+      "source": "Junan02/bdiptvtest jiotv.index; Sony Yay Hindi; public temporary tunnel",
+      "hindi_claim": true
     }
   ]
 }
