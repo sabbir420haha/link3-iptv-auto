@@ -1,0 +1,19 @@
+{
+  "checked_utc": "2026-10-31T20:25:32.111994+00:00",
+  "results": [
+    {
+      "url": "https://snehtv.in1.bitmana.io/live.php?c=Sonic_Nickelodeon&q=250&e=.m3u8",
+      "source": "Arun9dec/IPTV IPTV Old, Kids (Hindi) Sonic Nickelodeon public listing",
+      "verified": false,
+      "reason": "DNS [Errno -2] Name or service not known"
+    },
+    {
+      "url": "https://qrpay.fun/TS-JioTV-main/app/live.php?id=2774&e=.m3u8",
+      "source": "freedish2024/personal-project.sr Kids playlist, adjacent to Sonic entry; Hindi identity unconfirmed",
+      "verified": false,
+      "reason": "manifest HTTP Error 404: Not Found"
+    }
+  ],
+  "published": [],
+  "link3_verified": false
+}
