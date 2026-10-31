@@ -15,6 +15,13 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-10-31 new independent GitHub-discovered alternatives, runner audit only; never auto-publish.
+    {"channel":"Sonic Hindi","url":"https://mhdtvstream.com/live.php?id=815&e=.m3u8","evidence":"github.com/sohelkhan812421/boss SOHELKHANIPTV2025.m3u; explicitly Sonic Hindi Jio ID 815, source-specified Referer/User-Agent; no login bypass","expected_audio":"hi"},
+    {"channel":"Sonic Bangla","url":"https://mhdtvstream.com/live.php?id=1345&e=.m3u8","evidence":"github.com/MohammadKobirShah/KobirIPTV KobirIPTV.m3u; Sonic Bangla ID 1345, Bengali tvg-language and source-specified Referer/User-Agent","expected_audio":"bn"},
+    {"channel":"Sonic Hindi","url":"https://live.drmlive-02.workers.dev/jc/815.m3u8","evidence":"github.com/sreshtantbohidar/WATCH-LIVE-TV channels_1.m3u; public alternate for Nickelodeon Sonic; Hindi language not independently established","expected_audio":"hi"},
+    {"channel":"Sonic Hindi","url":"https://drmlive.in/voot/web/815.m3u8","evidence":"github.com/sreshtantbohidar/WATCH-LIVE-TV channels_1.m3u; source labels Nickelodeon Sonic; media/audio verification pending","expected_audio":"hi"},
+    {"channel":"Sonic Hindi","url":"https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8","evidence":"github.com/sreshtantbohidar/WATCH-LIVE-TV channels_1.m3u; explicit sonic_Hindi Jio feed; geo/DRM and audio not confirmed","expected_audio":"hi"},
+    {"channel":"Sonic Hindi","url":"https://colorsscreen.com/stream.php?id=815&e=.m3u8","evidence":"github.com/BahyOsama/marioo dd.m3u; explicitly Sonic Hindi; public alternate path, referrer may be required","expected_audio":"hi"},
     # 2026-10-31 independent public GitHub sources; runner audit only, no publication.
     {"channel":"Sonic Bangla","url":"http://103.204.43.87:8080/live/1/1/274.m3u8","evidence":"github.com/tasinislam17/test FiFa 2026 WC IPTV Channels.m3u8; exact Sonic Bangla label, network may be BDIX-only","expected_audio":"bn"},
     {"channel":"Sonic Bangla","url":"https://jio.drmlive.au/jio/bpk-tv/Sonic_Bangla_MOB/Fallback/index.m3u8","evidence":"github.com/tvbd/json tv/tv.json; Sonic Bangla ID 1345, Bengali language label; public endpoint may require access","expected_audio":"bn"},
