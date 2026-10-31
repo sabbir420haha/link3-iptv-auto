@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-31T18:21:08.228353+00:00",
-  "evaluated": 77,
+  "checked_utc": "2026-10-31T18:22:38.404100+00:00",
+  "evaluated": 80,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -374,7 +374,7 @@
       "source": "shafiul1050/mytv Sony Yay",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "HTTP Error 403: Forbidden"
+      "reason": "<urlopen error timed out>"
     },
     {
       "id": "Y47",
@@ -623,6 +623,30 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "<urlopen error timed out>"
+    },
+    {
+      "id": "Y78",
+      "url": "https://d20fdzcwhk7szz.cloudfront.net/SONY_YAY.m3u8",
+      "source": "sx3in/bdix eboxlive: Sony YAY CloudFront CDN",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -5] No address associated with hostname>"
+    },
+    {
+      "id": "Y79",
+      "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/a20fe53e482cc33.m3u8",
+      "source": "imranemon1/emon Playlist-Kids: Sony YAY HINDI",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error timed out>"
+    },
+    {
+      "id": "Y80",
+      "url": "https://mhdtvweb.com/sliv/stream.php?id=sony-yay&e=.m3u8",
+      "source": "GitHub Sony LIV playlists: Sony Yay stream PHP",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
     }
   ]
 }
