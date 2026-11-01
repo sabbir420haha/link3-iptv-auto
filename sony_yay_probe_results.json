@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-01T17:16:37.860631+00:00",
-  "evaluated": 190,
+  "checked_utc": "2026-11-01T18:39:13.767266+00:00",
+  "evaluated": 192,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -1337,7 +1337,7 @@
       "hindi_claim": true,
       "referer": "https://techandeat.online/",
       "status": "failed",
-      "reason": "The read operation timed out"
+      "reason": "segment_not_video"
     },
     {
       "id": "Y166",
@@ -1552,6 +1552,23 @@
       "manifest_advanced": true,
       "probe_checks": 3,
       "approximate_probe_span_seconds": 64
+    },
+    {
+      "id": "Y191",
+      "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/2705f26aaabdf72.m3u8",
+      "source": "imranemon1/emon Playlist-Kids.m3u8; specifically labelled SONY YAY HINDI, public endpoint; found 2026-11-02; age of source unknown, unverified",
+      "hindi_claim": true,
+      "user_agent": "stream",
+      "status": "failed",
+      "reason": "not_hls"
+    },
+    {
+      "id": "Y192",
+      "url": "http://iptv.kitv.live:1935/live/Shari/MTV-P/172.m3u8",
+      "source": "Shadmanislam/bdiptv BD IPTV.m3u; labelled Sony Yay, public HLS URL; found 2026-11-02; Hindi audio unverified, could be ISP restricted",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
     }
   ]
 }
