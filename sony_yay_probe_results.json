@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-10-31T23:32:58.454678+00:00",
-  "evaluated": 136,
+  "checked_utc": "2026-11-01T00:49:57.864072+00:00",
+  "evaluated": 140,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -62,7 +62,7 @@
       "source": "sm-monirulislam/SM-IPTV Hindi Sony LIV ID",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "HTTP Error 429: Too Many Requests"
+      "reason": "no_decodable_video_height_0"
     },
     {
       "id": "Y08",
@@ -374,7 +374,7 @@
       "source": "shafiul1050/mytv Sony Yay",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "<urlopen error timed out>"
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "id": "Y47",
@@ -1104,6 +1104,38 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "<urlopen error timed out>"
+    },
+    {
+      "id": "Y137",
+      "url": "https://mhdtvhub.com/sliv/stream.php?id=1000001971&e=.m3u8",
+      "source": "arijitreza/web download.m3u, Sony Yay, source listed with referrer https://www.mhdtvhub.com/; Hindi unverified",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y138",
+      "url": "http://14.102.123.50:5001/live/872.m3u8",
+      "source": "ItsIsmailRobin/SkyBDIPTV index.html, Sony Yay Hindi tvg-language=Hindi; ISP restriction unknown",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "id": "Y139",
+      "url": "http://103.118.77.30:1935/live/Shari/MTV-P/172.m3u8",
+      "source": "fahadskt/IPTV-Playlists Old/KITV, explicitly Sony Yay (Hindi), Pakistan network, old unverified",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "id": "Y140",
+      "url": "https://github.com/alluringabhi/iptv1/raw/master/sonyyay.m3u8",
+      "source": "alluringabhi/iptv1 ashu.m3u, Sony YAY, GitHub raw redirect, Hindi unverified",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "not_hls"
     }
   ]
 }
