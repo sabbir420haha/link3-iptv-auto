@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-01T19:34:46.627602+00:00",
+  "checked_utc": "2026-11-01T20:36:02.023916+00:00",
   "video_report": "sony_yay_probe_results.json",
   "tested_audio_count": 1,
   "newly_published": [],
@@ -14,14 +14,14 @@
       "audio_checks": [
         {
           "language": "es",
-          "language_probability": 0.929,
-          "speech_text_excerpt": "creyeron que no veríamos su hella en el ataque a nuestro pueblo? Para compensar sus faltantes, aceptare como adición al tributo... 40 agotis. No muy v",
+          "language_probability": 0.979,
+          "speech_text_excerpt": "Camina, que caminés!",
           "devanagari_characters": 0
         },
         {
           "language": "es",
-          "language_probability": 0.987,
-          "speech_text_excerpt": "Me sorprende que hayan venido a la meseta a caballo. Si los mordieron las moscas, les podría dar el mal del sueño. A veces un ratón puede derribar a u",
+          "language_probability": 0.382,
+          "speech_text_excerpt": "¡Más yo para uno más! ¡Eso es!",
           "devanagari_characters": 0
         }
       ],

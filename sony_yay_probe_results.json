@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-01T19:33:44.401220+00:00",
-  "evaluated": 192,
+  "checked_utc": "2026-11-01T20:34:59.519224+00:00",
+  "evaluated": 195,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -1569,6 +1569,30 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y193",
+      "url": "https://allinonereborn.com/sonylive.m3u8?ch=SonyYaySD&id=2011746",
+      "source": "Arsks12/stalker Thor's TataPlay.m3u, explicitly Sony YAY SonyLIV 2011746; discovered 2026-11-02; Hindi audio not proven",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "id": "Y194",
+      "url": "https://imnoob.site/SONYBD/play.php?id=2011746/SonyYaySD",
+      "source": "CricZone/BDStreamHub index.html, SonyYaySD relay listed next to SonyLIV streams; discovered 2026-11-02; Hindi audio not proven",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y195",
+      "url": "https://dish.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8",
+      "source": "omarmourmiydghjd/main induama.m3u, public SonyYaySD HLS endpoint; discovered 2026-11-02; Hindi audio and accessibility not proven",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 403: Forbidden"
     }
   ]
 }
