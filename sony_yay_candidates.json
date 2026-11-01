@@ -1158,6 +1158,27 @@
       "url": "http://iptv.kitv.live:1935/live/Shari/MTV-P/172.m3u8",
       "source": "Shadmanislam/bdiptv BD IPTV.m3u; labelled Sony Yay, public HLS URL; found 2026-11-02; Hindi audio unverified, could be ISP restricted",
       "hindi_claim": false
+    },
+    {
+      "id": "Y193",
+      "url": "https://allinonereborn.com/sonylive.m3u8?ch=SonyYaySD&id=2011746",
+      "source": "Arsks12/stalker Thor's TataPlay.m3u, explicitly Sony YAY SonyLIV 2011746; discovered 2026-11-02; Hindi audio not proven",
+      "hindi_claim": false,
+      "verification": "NOT TESTED: no direct network access for ffmpeg/ffprobe or spaced HLS media probes in this run"
+    },
+    {
+      "id": "Y194",
+      "url": "https://imnoob.site/SONYBD/play.php?id=2011746/SonyYaySD",
+      "source": "CricZone/BDStreamHub index.html, SonyYaySD relay listed next to SonyLIV streams; discovered 2026-11-02; Hindi audio not proven",
+      "hindi_claim": false,
+      "verification": "NOT TESTED: no direct network access for ffmpeg/ffprobe or spaced HLS media probes in this run"
+    },
+    {
+      "id": "Y195",
+      "url": "https://dish.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8",
+      "source": "omarmourmiydghjd/main induama.m3u, public SonyYaySD HLS endpoint; discovered 2026-11-02; Hindi audio and accessibility not proven",
+      "hindi_claim": false,
+      "verification": "NOT TESTED: no direct network access for ffmpeg/ffprobe or spaced HLS media probes in this run"
     }
   ]
 }
