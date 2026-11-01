@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-01T07:28:50.994997+00:00",
-  "evaluated": 171,
+  "checked_utc": "2026-11-01T08:41:09.110937+00:00",
+  "evaluated": 173,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -38,7 +38,7 @@
       "source": "tg-aadi/sony-liv stream Hindi metadata",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "HTTP Error 403: Forbidden"
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "Y05",
@@ -1337,7 +1337,7 @@
       "hindi_claim": true,
       "referer": "https://techandeat.online/",
       "status": "failed",
-      "reason": "The read operation timed out"
+      "reason": "segment_not_video"
     },
     {
       "id": "Y166",
@@ -1354,7 +1354,7 @@
       "hindi_claim": true,
       "referer": "https://hey-lookme.shop/",
       "status": "failed",
-      "reason": "HTTP Error 403: Forbidden"
+      "reason": "HTTP Error 508: Loop Detected"
     },
     {
       "id": "Y168",
@@ -1387,6 +1387,22 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "[Errno 104] Connection reset by peer"
+    },
+    {
+      "id": "Y172",
+      "url": "https://live4wab.pages.dev/?id=872",
+      "source": "ultron3000/ultron channels1.json; explicitly Sony Yay Hindi Jio channel 872; discovered 2026-11-01",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y173",
+      "url": "https://prox.assadikb.workers.dev/watch/872JP",
+      "source": "AssadikBitul/playlist alltvx.m3u; explicitly Sony Yay Hindi, distinct from Bengali/Tamil; discovered 2026-11-01",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "no_decodable_video_height_0"
     }
   ]
 }
