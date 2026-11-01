@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-01T18:39:47.233825+00:00",
+  "checked_utc": "2026-11-01T19:34:46.627602+00:00",
   "video_report": "sony_yay_probe_results.json",
   "tested_audio_count": 1,
   "newly_published": [],
@@ -11,9 +11,21 @@
       "id": "Y190",
       "url": "http://138.121.15.230:9002/SONY/index.m3u8",
       "video_verified": true,
-      "audio_checks": [],
-      "hindi_spoken_confirmed": false,
-      "error": "open() got an unexpected keyword argument 'metadata_errors'"
+      "audio_checks": [
+        {
+          "language": "es",
+          "language_probability": 0.929,
+          "speech_text_excerpt": "creyeron que no veríamos su hella en el ataque a nuestro pueblo? Para compensar sus faltantes, aceptare como adición al tributo... 40 agotis. No muy v",
+          "devanagari_characters": 0
+        },
+        {
+          "language": "es",
+          "language_probability": 0.987,
+          "speech_text_excerpt": "Me sorprende que hayan venido a la meseta a caballo. Si los mordieron las moscas, les podría dar el mal del sueño. A veces un ratón puede derribar a u",
+          "devanagari_characters": 0
+        }
+      ],
+      "hindi_spoken_confirmed": false
     }
   ]
 }
