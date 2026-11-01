@@ -10,7 +10,7 @@ http://103.135.253.32:8080/HUNGAMA/index.m3u8
 
 # SONIC HINDI LARGE BATCH 111-133 | 2026-11-02
 # Previous user-reported failed Sonic Hindi TEST 104-110 removed.
-# 30 independently listed candidate URLs; some have shared Jio upstream or alternative relay/CDN.
+# 23 distinct publicly listed test URLs; 7 of 30 searched were excluded as previously tried, duplicated, or unsuitable.
 # No bare-IP, private-LAN, local host or BDIX-labelled link was included in this batch.
 # UNVERIFIED: no successful direct video segment or Hindi audio verification; Link3 may block/fail any.
 # Some old provider/geo/DRM or subscription-only streams cannot play in IPTV Pro.
