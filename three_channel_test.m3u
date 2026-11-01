@@ -157,3 +157,53 @@ http://103.229.254.25:7001/play/a0cl/index.m3u8
 # TEST 08: Unverified public source; do not promote to Main before viewer confirms actual channel, Hindi audio, and playback.
 #EXTINF:-1 tvg-id="sonyyay-test-08-nov01" tvg-name="Sony YAY TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony YAY TEST 08
 http://103.165.93.31:8095/sonyYay/index.m3u8
+
+# SOURCE: publiciptv.com/countries/in/m3u; GitHub hmraju/TV
+# UNVERIFIED: Publicly listed as Hungama TV, but no HLS media-byte, actual channel, Link3 or audio test passed here. Viewer test only; Main MUST stay unchanged.
+#EXTINF:-1 tvg-id="hungama-trial-46-20261101" tvg-name="Hungama NEW TEST 46" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama NEW TEST 46
+http://103.185.24.134:3001/HUNGAMA/index.m3u8
+
+# SOURCE: GitHub kilirushi/iptv in.m3u and existing updater candidate
+# UNVERIFIED: Publicly listed as Hungama TV, but no HLS media-byte, actual channel, Link3 or audio test passed here. Viewer test only; Main MUST stay unchanged.
+#EXTINF:-1 tvg-id="hungama-trial-47-20261101" tvg-name="Hungama NEW TEST 47" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama NEW TEST 47
+http://66.102.126.10:8000/play/a023/index.m3u8
+
+# SOURCE: GitHub Quincunx33/Ip-tv iptv-master/streams/in.m3u
+# UNVERIFIED: Publicly listed as Hungama TV, but no HLS media-byte, actual channel, Link3 or audio test passed here. Viewer test only; Main MUST stay unchanged.
+#EXTINF:-1 tvg-id="hungama-trial-48-20261101" tvg-name="Hungama NEW TEST 48" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama NEW TEST 48
+http://149.71.34.166:8000/play/a075/index.m3u8
+
+# SOURCE: GitHub SArun61/IPTV Astra.m3u
+# UNVERIFIED: Publicly listed as Hungama TV, but no HLS media-byte, actual channel, Link3 or audio test passed here. Viewer test only; Main MUST stay unchanged.
+#EXTINF:-1 tvg-id="hungama-trial-49-20261101" tvg-name="Hungama NEW TEST 49" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama NEW TEST 49
+http://103.157.210.165:8000/play/a00q/index.m3u8
+
+# SOURCE: GitHub ryuzein/Pandawa-Eazy-Tools IPTV/sport.m3u
+# UNVERIFIED: Publicly listed as Hungama TV, but no HLS media-byte, actual channel, Link3 or audio test passed here. Viewer test only; Main MUST stay unchanged.
+#EXTINF:-1 tvg-id="hungama-trial-50-20261101" tvg-name="Hungama NEW TEST 50" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama NEW TEST 50
+http://175.107.244.52:4455/play/a03d/index.m3u8
+
+# SOURCE: GitHub rabbyos/rabbyos Tplay
+# UNVERIFIED: Publicly listed as Hungama TV, but no HLS media-byte, actual channel, Link3 or audio test passed here. Viewer test only; Main MUST stay unchanged.
+#EXTINF:-1 tvg-id="hungama-trial-51-20261101" tvg-name="Hungama NEW TEST 51" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama NEW TEST 51
+http://119.152.240.15:8001/play/a0cs/index.m3u8
+
+# SOURCE: GitHub Sonuiptvnew/Sonuiptvnew indian (1).m3u8
+# UNVERIFIED: Publicly listed as Hungama TV - extensionless, but no HLS media-byte, actual channel, Link3 or audio test passed here. Viewer test only; Main MUST stay unchanged.
+#EXTINF:-1 tvg-id="hungama-trial-52-20261101" tvg-name="Hungama NEW TEST 52" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama NEW TEST 52
+http://103.153.39.36:8000/play/a01x
+
+# SOURCE: GitHub SArun61/IPTV Astra.m3u
+# UNVERIFIED: Publicly listed as Hungama TV - extensionless, but no HLS media-byte, actual channel, Link3 or audio test passed here. Viewer test only; Main MUST stay unchanged.
+#EXTINF:-1 tvg-id="hungama-trial-53-20261101" tvg-name="Hungama NEW TEST 53" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama NEW TEST 53
+http://103.169.98.53:8000/play/a09c
+
+# SOURCE: GitHub SArun61/IPTV Astra.m3u
+# UNVERIFIED: Publicly listed as Hungama TV - extensionless, but no HLS media-byte, actual channel, Link3 or audio test passed here. Viewer test only; Main MUST stay unchanged.
+#EXTINF:-1 tvg-id="hungama-trial-54-20261101" tvg-name="Hungama NEW TEST 54" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama NEW TEST 54
+http://103.174.195.4:8000/play/a00o
+
+# SOURCE: GitHub inocente3000/pruebaLatina Ingles.m3u
+# UNVERIFIED: Publicly listed as Hungama TV - extensionless, but no HLS media-byte, actual channel, Link3 or audio test passed here. Viewer test only; Main MUST stay unchanged.
+#EXTINF:-1 tvg-id="hungama-trial-55-20261101" tvg-name="Hungama NEW TEST 55" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama NEW TEST 55
+http://103.166.102.58:8000/play/a01x
