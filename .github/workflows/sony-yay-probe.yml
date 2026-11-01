@@ -29,7 +29,7 @@ jobs:
       - name: Decode repeated video frames and inspect live segment advancement
         run: python sony_yay_probe.py
       - name: Install multilingual audio language detector
-        run: python -m pip install --quiet faster-whisper
+        run: python -m pip install --quiet 'faster-whisper==1.2.1' 'av<18'
       - name: Check spoken Hindi twice on video-verified sources only
         run: python sony_yay_audio_probe.py
       - name: Commit ONLY Sony YAY TEST and its results
