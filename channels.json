@@ -529,9 +529,8 @@
     "aliases": [
       "Sony YAY"
     ],
-    "locked": false,
-    "last_known_url": "",
-    "refresh_on_unhealthy": true,
+    "locked": true,
+    "last_known_url": "https://stream.ottplus.live/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8",
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
     "exclude_urls": [
@@ -540,7 +539,10 @@
     "user_reported_failures": [
       "https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000001971"
     ],
-    "source_quality_note": "User reported previous worker URL unplayable on Link3 2026-11-01. Every refresh must require readable HLS manifest and video bytes; never silently retain failed source. Alternative source identity and Hindi audio require viewer confirmation."
+    "source_quality_note": "User confirmed Sony YAY TEST 04 plays on Link3 2026-11-01. Main uses this exact direct HLS URL. Pin so 6-hour auto-refresh cannot replace it with an unverified candidate. Hindi audio and future uptime not independently confirmed.",
+    "user_verified_link3": true,
+    "player_tvg_id": "sony-yay-main-working-20261101",
+    "player_tvg_name": "Sony Yay"
   },
   {
     "name": "Super Hungama",
