@@ -117,51 +117,57 @@
     }
   ],
   "latest_research": {
-    "checked_local": "2026-11-01 20:05 Asia/Dhaka",
-    "status": "No independently validated new single-show 24/7 HLS for Gopal Bhar Bengali or Shinchan Hindi. No additions.",
-    "reviewed": [
+    "checked_local": "2026-11-02 02:14 Asia/Dhaka",
+    "status": "No new independently validated dedicated 24/7 HLS/M3U8 for Gopal Bhar Bengali or Shinchan Hindi; no additions",
+    "source_reviews": [
       {
-        "source": "vinod-rajput-vg/My-India-TV Category Channels/kids.txt",
-        "claimed_show": "Shinchan 24/7",
-        "url": "https://live20.bozztv.com/giatvplayout7/giatv-210780/tracks-v1a1/mono.ts.m3u8",
-        "finding": "MISLABELED/CONFLICTING CONTENT: independent tplaylive/stream playlist/mix/crime-patrol-bengali.index.m3u8 and freedish2024/personal-project.sr JAGOBD.m3u8 explicitly map SAME 210780 stream to Crime Patrol Bengali. Previous Oct 31 remote GitHub Actions probe showed manifest 200 + TS segment 200, but ffprobe missing, no decoded visual or Hindi audio proof. Therefore not a verified Shinchan source; exclude."
+        "source": "tv.shopnerbd.com",
+        "show": "Gopal Bhar",
+        "finding": "Site's Recent Channels names Gopal Bhar but publicly indexed content exposes no direct show-only media URL; a watch page/channel name is not an M3U8."
       },
       {
-        "source": "sm-monirulislam/SM-IPTV Cartoon.m3u (Oct 27 update)",
-        "claimed_show": "Gopal Bhar",
-        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8",
-        "finding": "Rejected previously; same giatv-209611 BozzTV origin, not new."
+        "source": "tv-watch.vercel.app (Alpha TV)",
+        "show": "Gopal Bhar",
+        "finding": "Lists Gopal Bhar as a channel, but no independent direct HLS source or origin identity confirmed; cannot rule out rejected giatv-209611 mirror."
       },
       {
-        "source": "wizakorhd/iptv playlist-hindi.m3u and playlist-anime.m3u",
-        "finding": "Checked first-party FAST/iptv-org curated Hindi and anime lists; no entries matching Gopal Bhar or Shinchan."
+        "source": "shanzfy/iptv playlist/kids.m3u8; Salimtech353/NetPlay FAST-IPTV-main/7skt.m3u.m3u8; sadabx/iptv README.md",
+        "show": "Gopal Bhar",
+        "finding": "All link to already rejected live20.bozztv.com giatv-209611, despite varying index.m3u8 and mono.ts.m3u8 paths; one underlying source."
       },
       {
-        "source": "sheikhshariarnehal/Goplay backend/migrations/seed_playz_channels.sql",
-        "claimed_show": "Gopal Bhar 24/7",
-        "finding": "Gopal Bhar stream_url is an opaque relative pro/...txt path, not a directly accessible public HLS/M3U8 manifest."
+        "source": "tvbd/m3uplayer tplay/main.js",
+        "show": "Gopal Bhar",
+        "finding": "Two 'servers' resolve to same excluded giatv-209611 BozzTV/TPlay origin; not independent."
       },
       {
         "source": "ayusht26/iptv lib/iptv/custom-shows-data.ts",
-        "claimed_show": "Shinchan 24/7",
-        "finding": "Only sourceUrl is piratexplay.cc series watch page, not a direct 24/7 HLS."
+        "show": "Shinchan Hindi",
+        "finding": "'Shinchan 24/7' is VOD show metadata pointing to piratexplay.cc series webpage, not direct HLS/M3U8; Hindi track not independently established."
       },
       {
-        "source": "StevoSure123/Kids-IPTV kids-24-7.m3u",
-        "claimed_show": "Shinchan 24/7",
-        "finding": "Same previously rejected starshare.live Habib/147724 endpoint; earlier response not M3U8."
+        "source": "StevoSure123/Kids-IPTV; vinod-rajput-vg/My-India-TV; r1d3x6/djwahwjwywhwnsmslksnsmslg",
+        "show": "Shinchan Hindi",
+        "finding": "Same previously rejected starshare.live 147724, mislabeled giatv-210780 (Crime Patrol Bengali), and erroneous giatv-209901 (Oxygen Music) respectively."
       },
       {
-        "source": "2026-11-01 web searches and GitHub global code search",
-        "finding": "No new eligible independent direct dedicated source identified; only general TV channels, reused 209611/209901, old broken endpoints, and watch pages."
+        "source": "WizakorHD iptv-org/FAST directories; 2026-11-01 Doubo free playlist directory; first-party FAST queries",
+        "show": "Both",
+        "finding": "No newly confirmed dedicated single-show direct HLS with verified correct language; general entertainment/cartoon channels excluded."
+      },
+      {
+        "source": "Sony YAY EPG 2026-10-31 through 2026-11-02",
+        "show": "Gopal Bhar",
+        "finding": "Program guide shows Gopal Bhar scheduled among other cartoons; confirms Sony YAY is not 24/7 single-show and is excluded."
       }
     ],
     "independent_verified_new_feeds": 0,
     "new_test_playlist_entries": 0,
-    "test_playlist_entries": 19,
-    "main_playlist_entries": "Unmodified; previously verified 75",
-    "link3_playback": "No new candidate verified on Link3",
-    "actions": "No playlist modifications. Existing non-Gopal/Shinchan test entries and main playlist preserved."
+    "test_playlist_entries": 62,
+    "main_playlist_entries": 75,
+    "manifest_and_media_validation": "No genuinely NEW independent direct media URL survived origin/content screening, so no fresh GitHub Actions stream-decoding probe was warranted. Existing old probe statuses retained; none passed show identity and Hindi audio validation.",
+    "link3_playback": "No newly identified feed independently tested on Link3.",
+    "actions": "Read and deduplicated against current test playlist and stored candidate health/leads; playlist.m3u and three_channel_test.m3u untouched."
   },
   "research_history": [
     {
@@ -208,6 +214,59 @@
       "playlist_test_entries": 19,
       "playlist_main_entries": 75,
       "link3_playback": "Not established for any new dedicated show source"
+    },
+    {
+      "checked_local": "2026-11-02 02:14 Asia/Dhaka",
+      "status": "No new independently validated dedicated 24/7 HLS/M3U8 for Gopal Bhar Bengali or Shinchan Hindi; no additions",
+      "source_reviews": [
+        {
+          "source": "tv.shopnerbd.com",
+          "show": "Gopal Bhar",
+          "finding": "Site's Recent Channels names Gopal Bhar but publicly indexed content exposes no direct show-only media URL; a watch page/channel name is not an M3U8."
+        },
+        {
+          "source": "tv-watch.vercel.app (Alpha TV)",
+          "show": "Gopal Bhar",
+          "finding": "Lists Gopal Bhar as a channel, but no independent direct HLS source or origin identity confirmed; cannot rule out rejected giatv-209611 mirror."
+        },
+        {
+          "source": "shanzfy/iptv playlist/kids.m3u8; Salimtech353/NetPlay FAST-IPTV-main/7skt.m3u.m3u8; sadabx/iptv README.md",
+          "show": "Gopal Bhar",
+          "finding": "All link to already rejected live20.bozztv.com giatv-209611, despite varying index.m3u8 and mono.ts.m3u8 paths; one underlying source."
+        },
+        {
+          "source": "tvbd/m3uplayer tplay/main.js",
+          "show": "Gopal Bhar",
+          "finding": "Two 'servers' resolve to same excluded giatv-209611 BozzTV/TPlay origin; not independent."
+        },
+        {
+          "source": "ayusht26/iptv lib/iptv/custom-shows-data.ts",
+          "show": "Shinchan Hindi",
+          "finding": "'Shinchan 24/7' is VOD show metadata pointing to piratexplay.cc series webpage, not direct HLS/M3U8; Hindi track not independently established."
+        },
+        {
+          "source": "StevoSure123/Kids-IPTV; vinod-rajput-vg/My-India-TV; r1d3x6/djwahwjwywhwnsmslksnsmslg",
+          "show": "Shinchan Hindi",
+          "finding": "Same previously rejected starshare.live 147724, mislabeled giatv-210780 (Crime Patrol Bengali), and erroneous giatv-209901 (Oxygen Music) respectively."
+        },
+        {
+          "source": "WizakorHD iptv-org/FAST directories; 2026-11-01 Doubo free playlist directory; first-party FAST queries",
+          "show": "Both",
+          "finding": "No newly confirmed dedicated single-show direct HLS with verified correct language; general entertainment/cartoon channels excluded."
+        },
+        {
+          "source": "Sony YAY EPG 2026-10-31 through 2026-11-02",
+          "show": "Gopal Bhar",
+          "finding": "Program guide shows Gopal Bhar scheduled among other cartoons; confirms Sony YAY is not 24/7 single-show and is excluded."
+        }
+      ],
+      "independent_verified_new_feeds": 0,
+      "new_test_playlist_entries": 0,
+      "test_playlist_entries": 62,
+      "main_playlist_entries": 75,
+      "manifest_and_media_validation": "No genuinely NEW independent direct media URL survived origin/content screening, so no fresh GitHub Actions stream-decoding probe was warranted. Existing old probe statuses retained; none passed show identity and Hindi audio validation.",
+      "link3_playback": "No newly identified feed independently tested on Link3.",
+      "actions": "Read and deduplicated against current test playlist and stored candidate health/leads; playlist.m3u and three_channel_test.m3u untouched."
     }
   ]
 }
