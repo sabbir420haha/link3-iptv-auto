@@ -142,7 +142,8 @@
     "group": "02 | BD General & Entertainment",
     "aliases": [],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "player_logo": "https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/btv_chittagong.png"
   },
   {
     "name": "ATN Bangla",
@@ -239,7 +240,8 @@
     "group": "02 | BD General & Entertainment",
     "aliases": [],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "player_logo": "https://i.imgur.com/fraEjzm.png"
   },
   {
     "name": "Ananda TV",
@@ -267,7 +269,8 @@
     "group": "02 | BD General & Entertainment",
     "aliases": [],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "player_logo": "https://raw.githubusercontent.com/zeroflixxyz/livetv/master/logo/wide/nan_tv.png"
   },
   {
     "name": "ATN Music",
@@ -295,7 +298,8 @@
     "group": "02 | BD General & Entertainment",
     "aliases": [],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "player_logo": "https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/enter_tv.png"
   },
   {
     "name": "Channel S",
@@ -309,7 +313,8 @@
     "group": "02 | BD General & Entertainment",
     "aliases": [],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "player_logo": "https://raw.githubusercontent.com/time2shine/IPTV-logos/main/logos/deshe_bideshe.png"
   },
   {
     "name": "Islamic TV",
@@ -351,7 +356,8 @@
     "group": "02 | BD General & Entertainment",
     "aliases": [],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "player_logo": "https://raw.githubusercontent.com/zeroflixxyz/livetv/master/logo/wide/nrb_tv.png"
   },
   {
     "name": "Thikana TV",
@@ -418,7 +424,8 @@
     "group": "03 | Indian Bangla",
     "aliases": [],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "player_logo": "https://banglajagotv.com/wp-content/themes/BANGLAJAGOTV/images/logo.png"
   },
   {
     "name": "DD Bangla",
@@ -453,7 +460,8 @@
     "group": "03 | Indian Bangla",
     "aliases": [],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "player_logo": "https://raw.githubusercontent.com/zeroflixxyz/livetv/master/logo/wide/ruposhi_bangla.png"
   },
   {
     "name": "Amar Bangla",
@@ -507,7 +515,7 @@
     "last_known_url": "https://2025.telegram-akshaybk29.workers.dev/channel?id=1",
     "player_tvg_id": "hungama-newnov-113",
     "player_tvg_name": "Hungama TEST 113",
-    "player_logo": "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama-test-29.png?v=iptv-tightfit-20261023",
+    "player_logo": "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=logo-fix-20261101",
     "user_verified_link3": true,
     "source_quality_note": "User confirmed Hungama TEST 113 works on Link3 on 2026-11-01. Main Hungama must stay locked to this exact URL; do not auto-replace. Former Main retained in separate Hungama Backup channel."
   },
@@ -519,7 +527,7 @@
     "last_known_url": "http://103.135.253.32:8080/HUNGAMA/index.m3u8",
     "player_tvg_id": "hungama-backup-old-20261101",
     "player_tvg_name": "Hungama Backup",
-    "player_logo": "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama-test-29.png?v=iptv-tightfit-20261023",
+    "player_logo": "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=logo-fix-20261101",
     "user_verified_link3": false,
     "source_quality_note": "Former Main Hungama source, retained at user's request on 2026-11-01 as an independent backup entry. Do not auto-swap; its present playback is not freshly verified."
   },
@@ -849,7 +857,8 @@
     "group": "06 | Sports",
     "aliases": [],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "player_logo": "https://s3.aynaott.com/storage/748d28752dcf95740561f1ac39e15fc3"
   },
   {
     "name": "Red Bull TV",
