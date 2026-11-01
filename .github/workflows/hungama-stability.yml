@@ -1,0 +1,38 @@
+name: Hungama TEST 17 Three Audio Video Checks
+on:
+  push:
+    branches: [main]
+    paths:
+      - hungama_stability_probe.py
+      - .github/workflows/hungama-stability.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: hungama-stability
+  cancel-in-progress: false
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Three spaced decode checks and audio track inspection (read-only)
+        run: |
+          python3 -m py_compile hungama_stability_probe.py
+          python3 hungama_stability_probe.py
+      - name: Commit result only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add hungama_stability_results.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record Hungama TEST 17 remote audio and spaced video probe'
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git fetch origin main
+              git rebase -X theirs origin/main
+              sleep 2
+            done
+            exit 1
+          fi
