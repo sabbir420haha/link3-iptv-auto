@@ -15,8 +15,7 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
-    # 2026-11-02 independently published Sonic alternatives. AUDIT ONLY; user says earlier test feeds failed on Link3.
-    {"channel":"Sonic Hindi","url":"https://fifabangladesh.live/VHOD/go.php?id=Sonic_Nickelodeon_voot_MOB","evidence":"2026-11-02 github.com/Mostak840590/All-In-Onee Fredflix.html explicitly labels Sonic Nickelodeon (VOOT Worldwide); requires independent Hindi audio, segment, and non-BDIX checks","expected_audio":"hi"},
+    # 2026-11-02 independently published Sonic Bangla candidate; AUDIT ONLY, never auto-publish.
     {"channel":"Sonic Bangla","url":"https://its-nayeemparvez.xyz/thunder-streamz/playlist.m3u8?id=47ef0cc5248f51856","evidence":"2026-11-02 github.com/tvbd/m3uplayer m3u/subirmaxpro.m3u labels this secondary Sonic link after Sonic_Bangla_MOB; confirm identity and Bengali audio before any publication","expected_audio":"bn"},
     # 2026-11-01 newly found, publicly labeled candidates. AUDIT ONLY, never main playlist without identity, language and media proof.
     {"channel":"Disney HD Hindi","url":"https://vt-ip.vodep39240327.workers.dev/2546.m3u8","evidence":"2026-11-01 github.com/eishakilei-bd08/eitv dormns20.m3u labels Disney HD Tata Play 4; verify India identity, Hindi audio, >=720p HLS and segment","expected_audio":"hi","min_height":720},
