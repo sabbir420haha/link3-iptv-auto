@@ -685,6 +685,7 @@ def main():
         "Disney HD Hindi",
         "Duronto TV",
         "Hungama",
+        "Hungama Backup",
         "Sony MAX HD",
         "Jamuna TV",
         "Maasranga TV",
@@ -698,7 +699,7 @@ def main():
         "Sony Ten 3 HD",
     )
     FAVORITES_SET = set(FAVORITES_ORDER)
-    required_pins = {"Hungama", "Sony Aath", "Channel 24", "Independent TV"}
+    required_pins = {"Hungama", "Hungama Backup", "Sony Aath", "Channel 24", "Independent TV"}
     actual_pins = {x["name"] for x in channels if x.get("locked")}
     # User specifically excluded six non-playing channels. Never silently restore them.
     user_excluded = {"Jago News 24", "TBN24", "Green TV", "Nexus TV",
@@ -880,11 +881,11 @@ def main():
             name = clean(item["name"])
             group = clean("00 | MY FAVORITES" if item["name"] in (FAVORITES_SET | {"Channel 24 YT HLS TEST"}) else
                           "98 | TEST - Unverified Non-BDIX" if state == "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED" else item["group"])
-            logo = clean(chosen.get("logo", ""))
-            # A standalone Hungama TEST 29 playlist plays using a fresh channel
-            # identity on IPTV Pro. Reuse only its tvg-id/name metadata in Main,
-            # retaining the direct HLS URL, Favorites position and visible name.
-            # This is an app-identity/cache trial, NOT a buffer/relay adjustment.
+            # User-pinned player artwork must survive automatic playlist regeneration.
+            logo = clean(item.get("player_logo") or chosen.get("logo", ""))
+            # Preserve user-confirmed player identity for pinned streams.
+            # The Hungama TEST 113 metadata is used in Main while the former
+            # Hungama stream is a separately pinned Hungama Backup channel.
             player_id = clean(item.get("player_tvg_id", ""))
             player_name = clean(item.get("player_tvg_name", name))
             tvg_id_attribute = f' tvg-id="{player_id}"' if player_id else ""
