@@ -1,0 +1,404 @@
+#EXTM3U
+# REFRESH COPY created 2026-11-02 (cache bust): Sonic Hindi TEST 92-103. All other source entries preserved.
+# TEST ONLY. Unverified on Link3, not part of main playlist.
+# Manual TEST playlist | Hungama large-batch trials after TEST 29 | 2026-11-01
+# Existing user-confirmed failed URLs, HTTP 403/404, invalid DNS/cert, expiring tokens, private IPs, and duplicates excluded.
+# For any confirmed working TEST number, pin direct URL in Main only after viewer confirmation.
+# IMPORTANT: Hungama TEST 29 intentionally unchanged.
+#EXTINF:-1 tvg-id="hungama-test3-29" tvg-name="Hungama TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 29
+http://103.135.253.32:8080/HUNGAMA/index.m3u8
+
+# SONIC HINDI NON-BDIX CANDIDATE BATCH | 2026-11-02 | TEST 92-103
+# USER REPORTED TEST 73-91 FAILED; removed all 19 from this TEST playlist.
+# No bare-IP, localhost, private network, or known BDIX-only source in this new batch.
+# WARNING: All streams are unverified and some may need authentication, be geoblocked/expired, or carry non-Hindi audio.
+# No source is marked WORKING. TEST only, do not copy to Main without on-device playback confirmation.
+# IPTV Pro may not support some Jio/Tata encrypted or non-M3U8 (.ts) endpoints.
+#
+# SOURCE Sonic Hindi TEST 92: tvbd/json tv/tv.json - Jio DRMLive AU
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-92-nov02" tvg-name="Sonic Hindi TEST 92" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 92
+https://jio.drmlive.au/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8
+
+# SOURCE Sonic Hindi TEST 93: CricZone/BDStreamHub index.html - JioTV Nepal CDN path
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-93-nov02" tvg-name="Sonic Hindi TEST 93" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 93
+https://live.dinesh29.com.np/stream/jiotv/sonichindi/master.m3u8
+
+# SOURCE Sonic Hindi TEST 94: freedish2024/personal-project.sr Kids - Tata Play Sonic Nickelodeon
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-94-nov02" tvg-name="Sonic Hindi TEST 94" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 94
+https://tplay.dinesh29.com.np/live/tataplay-universal/sonic-nickelodeon/index.ts
+
+# SOURCE Sonic Hindi TEST 95: sreshtantbohidar/WATCH-LIVE-TV channels_1.m3u - Jio DRMLive NET
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-95-nov02" tvg-name="Sonic Hindi TEST 95" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 95
+https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8
+
+# SOURCE Sonic Hindi TEST 96: sreshtantbohidar/WATCH-LIVE-TV channels_1.m3u - alternate Cloudflare Worker (source commented)
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-96-nov02" tvg-name="Sonic Hindi TEST 96" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 96
+https://live.drmlive-02.workers.dev/jc/815.m3u8
+
+# SOURCE Sonic Hindi TEST 97: sreshtantbohidar/WATCH-LIVE-TV channels_1.m3u - DRMLive Voot relay (source commented)
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-97-nov02" tvg-name="Sonic Hindi TEST 97" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 97
+https://drmlive.in/voot/web/815.m3u8
+
+# SOURCE Sonic Hindi TEST 98: khankimagi23221/okk-1 Jiocinema.m3u - JioCinema relay
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-98-nov02" tvg-name="Sonic Hindi TEST 98" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 98
+#EXTVLCOPT:http-referrer=https://neestreamtv.com/jcinema/
+https://neestreamtv.com/jcinema/stream.m3u8?id=3774149
+
+# SOURCE Sonic Hindi TEST 99: opensourceflix/Friday vottobd.m3u8 - Hindi-audio labeled JioCinema stream
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-99-nov02" tvg-name="Sonic Hindi TEST 99" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 99
+https://fifabdmob.site/new.php?id=JC_SonicNick/JCHLS/JC_SonicNick-audio_108041_hin=108000-video=662800.m3u8
+
+# SOURCE Sonic Hindi TEST 100: freedish2024/personal-project.sr Kids - Keralamax
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-100-nov02" tvg-name="Sonic Hindi TEST 100" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 100
+https://keralamaxtv.com/vt/stream.m3u8?id=Sonic_Nickelodeon
+
+# SOURCE Sonic Hindi TEST 101: Shaharum1010/Cartoon-channel- Shaharum - Voot Sonic relay
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-101-nov02" tvg-name="Sonic Hindi TEST 101" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 101
+https://fifabangladesh2-xyz-ekkj.spidy.online/VHOD/NEW/go.php?id=Sonic_Nickelodeon_voot_MOB
+
+# SOURCE Sonic Hindi TEST 102: Shaharum1010/Cartoon-channel- Shaharum - Jio Sonic Hindi relay
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-102-nov02" tvg-name="Sonic Hindi TEST 102" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 102
+#EXTVLCOPT:http-referrer=https://playyonogames.in/
+https://playyonogames.in/live.php?id=815&extension=.m3u8
+
+# SOURCE Sonic Hindi TEST 103: Samarthsattani66/Tg-teamrohitoffical4500 index (2).html - Hindi HLS rendition
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-103-nov02" tvg-name="Sonic Hindi TEST 103" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 103
+https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/JC_SonicNick-audio_98841_hin=98800-video=301200/master.m3u8
+
+# HUNGAMA NOVEMBER 01 SECOND BATCH — USER-TEST ONLY
+# Newly found source-labelled URLs, NOT confirmed working, no Link3 or video/audio validation.
+# Check Hungama TV TEST 106–116; 117 is explicitly a Kids variant and may be different content.
+
+# SOURCE Hungama TEST 106: Jahangirkhan12345/Sunrise-IPTV-Playlist / Jannat IPTV.m3u | Listed as Hungama TV
+# UNVERIFIED: actual station/audio, manifest and link accessibility are not independently confirmed.
+#EXTINF:-1 tvg-id="hungama-newnov-106" tvg-name="Hungama TEST 106" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 106
+http://58.27.219.166:8000/play/a06f/index.m3u8
+
+# SOURCE Hungama TEST 107: mxonlive/mxonlive.github.io / playlists/kids.m3u | Listed as Hungama TV
+# UNVERIFIED: actual station/audio, manifest and link accessibility are not independently confirmed.
+#EXTINF:-1 tvg-id="hungama-newnov-107" tvg-name="Hungama TEST 107" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 107
+http://mxonlive-restream.atwebpages.com/opplex/x1.php/62169.m3u8
+
+# SOURCE Hungama TEST 108: Mahesh-Bardoliya/tv-2 / index.html | Listed as Hungama TV
+# UNVERIFIED: actual station/audio, manifest and link accessibility are not independently confirmed.
+#EXTINF:-1 tvg-id="hungama-newnov-108" tvg-name="Hungama TEST 108" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 108
+https://air2stem.playlivtv.workers.dev/?id=137788
+
+# SOURCE Hungama TEST 109: Sonuiptvnew/Sonuiptvnew / ONLY CARTOON CHANNEL .m3u | Listed as Hungama Hindi
+# UNVERIFIED: actual station/audio, manifest and link accessibility are not independently confirmed.
+#EXTINF:-1 tvg-id="hungama-newnov-109" tvg-name="Hungama TEST 109" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 109
+http://www.ridx7.1.mywebsites.link/redx.php?id=48164&e=.m3u8
+
+# SOURCE Hungama TEST 110: sayedhossaint2/iptv / Star Playlist | Listed as Hungama TV
+# UNVERIFIED: actual station/audio, manifest and link accessibility are not independently confirmed.
+#EXTINF:-1 tvg-id="hungama-newnov-110" tvg-name="Hungama TEST 110" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 110
+https://rana-pk5.ml/apizx/star/play.m3u8?id=48164
+
+# SOURCE Hungama TEST 111: gameralive2005/IPTV-TELUGU-MOVIES / iptvtelugumovies | Listed as Hungama TV
+# UNVERIFIED: actual station/audio, manifest and link accessibility are not independently confirmed.
+#EXTINF:-1 tvg-id="hungama-newnov-111" tvg-name="Hungama TEST 111" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 111
+https://the-nayeemparvez.ml/star7api/star7.php?chid=48164
+
+# SOURCE Hungama TEST 112: Raisanbd/moive-rplex / Sports.m3u | Listed as Hungama TV
+# UNVERIFIED: actual station/audio, manifest and link accessibility are not independently confirmed.
+#EXTINF:-1 tvg-id="hungama-newnov-112" tvg-name="Hungama TEST 112" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 112
+http://monirul.bro.bd/smm/stream.php?id=hungama&e=.m3u8
+
+# SOURCE Hungama TEST 113: softwaresign/DevServerStreams / akshay_channels.m3u | Listed as Hungama TV
+# UNVERIFIED: actual station/audio, manifest and link accessibility are not independently confirmed.
+#EXTINF:-1 tvg-id="hungama-newnov-113" tvg-name="Hungama TEST 113" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 113
+https://2025.telegram-akshaybk29.workers.dev/channel?id=1
+
+# SOURCE Hungama TEST 114: mehedihasandipu31/Mehediiptv / Iptv.m3u | Listed as Hungama TV
+# UNVERIFIED: actual station/audio, manifest and link accessibility are not independently confirmed.
+#EXTINF:-1 tvg-id="hungama-newnov-114" tvg-name="Hungama TEST 114" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 114
+https://tgaadi-web.tech/api/iptv.php?tv=22175
+
+# SOURCE Hungama TEST 115: StreamHub7/voot / stream/livetv.m3u | Listed as Hungama TV
+# UNVERIFIED: actual station/audio, manifest and link accessibility are not independently confirmed.
+#EXTINF:-1 tvg-id="hungama-newnov-115" tvg-name="Hungama TEST 115" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 115
+http://tgaadi-web.tech/aadi.php?id=11646
+
+# SOURCE Hungama TEST 116: Mrlivetv/Fredlix / tata.html | Listed as Hungama TV
+# UNVERIFIED: actual station/audio, manifest and link accessibility are not independently confirmed.
+#EXTINF:-1 tvg-id="hungama-newnov-116" tvg-name="Hungama TEST 116" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 116
+http://tgaadi-web.tech/stalker/play.m3u8?tv=251
+
+# SOURCE Hungama TEST 117: StevoSure123/Kids-IPTV / M3UPlus-Playlist-20241019222427.m3u | Listed as Hungama Kids / not verified as main TV
+# UNVERIFIED: actual station/audio, manifest and link accessibility are not independently confirmed.
+#EXTINF:-1 tvg-id="hungama-newnov-117" tvg-name="Hungama TEST 117" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 117
+https://unknown-playlists.vercel.app/hungama-by-stevosure.m3u8
+
+# HUNGAMA TV AND KIDS EXTRA TRIAL BATCH — 2026-11-01
+# Source-backed public links only. None confirmed on Link3 or even to be currently online.
+# TEST 118-128: specifically listed Hungama TV. TEST 129-140: separate Hungama Kids-labelled alternatives.
+# Several alternative feeds may proxy the same upstream despite distinct URLs.
+
+# SOURCE Hungama TEST 118: rudrow/iptv shima
+# CHANNEL_LABEL: Hungama TV. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-118-20261101" tvg-name="Hungama TEST 118" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 118
+http://59.103.244.239:8001/play/a00k/index.m3u8
+
+# SOURCE Hungama TEST 119: reyad27s/Tv
+# CHANNEL_LABEL: Hungama TV. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-119-20261101" tvg-name="Hungama TEST 119" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 119
+https://amd.agelraje5.workers.dev/stream.m3u8?id=49
+
+# SOURCE Hungama TEST 120: mdsirome/LiveTV
+# CHANNEL_LABEL: Hungama TV BD. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-120-20261101" tvg-name="Hungama TEST 120" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 120
+https://fifabangladesh.xyz/API/KIDS3/RANAPK/play.m3u8?id=246770
+
+# SOURCE Hungama TEST 121: fakeall12398-sketch/JIO_TV
+# CHANNEL_LABEL: Hungama TV. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-121-20261101" tvg-name="Hungama TEST 121" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 121
+https://public.kliv.fun/Mac21o/play.php?id=11646
+
+# SOURCE Hungama TEST 122: swapnilpachare2/tv
+# CHANNEL_LABEL: Hungama TV HD. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-122-20261101" tvg-name="Hungama TEST 122" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 122
+http://zeestb1.online/dhoom.php?id=7613
+
+# SOURCE Hungama TEST 123: Vivek-9689/Project-
+# CHANNEL_LABEL: Hungama TV IN. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-123-20261101" tvg-name="Hungama TEST 123" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 123
+https://allinonereborn.com/allinone.php?id=475135
+
+# SOURCE Hungama TEST 124: Vivek-9689/Project-
+# CHANNEL_LABEL: Hungama Hindi HD. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-124-20261101" tvg-name="Hungama TEST 124" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 124
+https://allinonereborn.com/allinone.php?id=4910
+
+# SOURCE Hungama TEST 125: Mrlivetv/Fredlix
+# CHANNEL_LABEL: Hungama TV. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-125-20261101" tvg-name="Hungama TEST 125" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 125
+https://port.yuvraj49.in/xegd/master.m3u8?id=4019
+
+# SOURCE Hungama TEST 126: bhavy20110/Kkklakwk
+# CHANNEL_LABEL: Hungama TV. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-126-20261101" tvg-name="Hungama TEST 126" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 126
+http://port.denver1769.in/ulpl2.php?tv=4019
+
+# SOURCE Hungama TEST 127: thetest19/iptv-player
+# CHANNEL_LABEL: Hungama TV. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-127-20261101" tvg-name="Hungama TEST 127" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 127
+https://redbooks.site/2026/166/index.ts
+
+# SOURCE Hungama TEST 128: krish-93/gugl
+# CHANNEL_LABEL: Hungama TV. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-128-20261101" tvg-name="Hungama TEST 128" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 128
+https://yowaimo.in/Artl/live.php?watchid=HUNGAMA&userid=SFDHJ3UZ
+
+# SOURCE Hungama KIDS ALT TEST 129: coding-A412/JakSmJ
+# CHANNEL_LABEL: Hungama Kids (alternative). PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-129-20261101" tvg-name="Hungama KIDS ALT TEST 129" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 129
+https://tgaadi-web.tech/api/spice.php?tv=9400
+
+# SOURCE Hungama KIDS ALT TEST 130: khankimagi23221/okk-1
+# CHANNEL_LABEL: Hungama Kids (alternative). PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-130-20261101" tvg-name="Hungama KIDS ALT TEST 130" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 130
+https://cricfyranahin.xyz/sportzx/line.m3u8?id=150480
+
+# SOURCE Hungama KIDS ALT TEST 131: Prtstream820894/Api
+# CHANNEL_LABEL: Hungama Kids Hindi (alternative). PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-131-20261101" tvg-name="Hungama KIDS ALT TEST 131" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 131
+https://ranapkx.site/RANAPK33k/TVD/play.php?id=1433211&e=.m3u8
+
+# SOURCE Hungama KIDS ALT TEST 132: labib5556/Labi-h
+# CHANNEL_LABEL: Hungama Kids SD (possibly ISP-only). PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-132-20261101" tvg-name="Hungama KIDS ALT TEST 132" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 132
+http://117.102.16.2:34567/play/a09c/index.m3u8
+
+# SOURCE Hungama KIDS ALT TEST 133: 3rR0r-Pr1Nc3/iptv
+# CHANNEL_LABEL: Hungama Kids (alternative). PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-133-20261101" tvg-name="Hungama KIDS ALT TEST 133" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 133
+https://tivimateplaylists.live/hungamakidzszs
+
+# SOURCE Hungama KIDS ALT TEST 134: ShahirTech/Shahir-TV-Playlist
+# CHANNEL_LABEL: Hungama Kids (alternative). PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-134-20261101" tvg-name="Hungama KIDS ALT TEST 134" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 134
+https://yowaimo.in/Sflex-ArtlPVT0719/hungama.m3u8
+
+# SOURCE Hungama KIDS ALT TEST 135: rkbro23/rk_playlist
+# CHANNEL_LABEL: Hungama Kids alternate feed A. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-135-20261101" tvg-name="Hungama KIDS ALT TEST 135" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 135
+https://allinonereborn.com/ipl123.m3u8?id=18456
+
+# SOURCE Hungama KIDS ALT TEST 136: rkbro23/rk_playlist
+# CHANNEL_LABEL: Hungama Kids alternate feed B. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-136-20261101" tvg-name="Hungama KIDS ALT TEST 136" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 136
+https://allinonereborn.com/ipl769.m3u8?id=18456
+
+# SOURCE Hungama KIDS ALT TEST 137: rkbro23/rk_playlist
+# CHANNEL_LABEL: Hungama Kids alternate feed C. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-137-20261101" tvg-name="Hungama KIDS ALT TEST 137" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 137
+https://allinonereborn.com/ipl553.m3u8?id=18456
+
+# SOURCE Hungama KIDS ALT TEST 138: wickedakshay/MyTv.m3u
+# CHANNEL_LABEL: Hungama Kids (alternative). PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-138-20261101" tvg-name="Hungama KIDS ALT TEST 138" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 138
+https://allinonereborn.in/allinone.php?id=56032
+
+# SOURCE Hungama KIDS ALT TEST 139: swapnilpachare2/tv
+# CHANNEL_LABEL: Hungama Kids shortlink (alternative). PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-139-20261101" tvg-name="Hungama KIDS ALT TEST 139" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 139
+https://daem.short.gy/HungamaKids_FreeDishBhai.m3u8
+
+# SOURCE Hungama KIDS ALT TEST 140: aoestudios57/aoestudios57.github.io
+# CHANNEL_LABEL: Hungama Kids (alternative). PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-140-20261101" tvg-name="Hungama KIDS ALT TEST 140" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 140
+http://AllLiveSportsLinks-Stream.chadasaniya.cf:8080/hls/Hungama-Kids/playlist.m3u8
+
+# ---- NEW OCT-27 2026: REQUESTED SHOW-ONLY 24x7 TEST SOURCES ----
+# Each URL is different; NOT a promise of video/audio in Bangladesh, region accessibility, unbroken 24 hours, or licensing.
+# GitHub runner 2026-10-27T13:47:45.929510+00:00 confirmed manifest AND media bytes in 11/11 candidates; programme identity/language and Link3 playback NOT yet confirmed.
+# Do not promote any source to Main until viewer checks actual show, Hindi audio where requested, and buffering.
+# Gopal Bhar: user previously rejected repeated BozzTV subscription-slate source. No acceptable independent direct HLS found.
+# Shinchan (Hindi) and Thakumar Jhuli: no source independently verified as both dedicated and directly playable; no random links added.
+
+# SOURCE: iptv-org / SM-IPTV
+# STATUS: GitHub media sample passed 2026-10-24; Hindi not checked
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="tom-jerry-hindi-oct27-001" tvg-name="Tom and Jerry Hindi Audio Check TEST 001" group-title="TEST CHANNELS - SINGLE GROUP",Tom and Jerry Hindi Audio Check TEST 001
+https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
+
+# SOURCE: SM-IPTV
+# STATUS: GitHub media sample passed 2026-10-24; Link3 playback unverified
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="bantul-great-oct27-001" tvg-name="Bantul the Great TEST 001" group-title="TEST CHANNELS - SINGLE GROUP",Bantul the Great TEST 001
+https://live20.bozztv.com/giatvplayout7/giatv-209869/tracks-v1a1/mono.ts.m3u8
+
+# SOURCE: Rakuten FAST; previous user GitHub media check
+# STATUS: GitHub media sample passed 2026-10-24
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="mrbean-animated-oct27-001" tvg-name="Mr Bean Animated TEST 001" group-title="TEST CHANNELS - SINGLE GROUP",Mr Bean Animated TEST 001
+https://amg00627-amg00627c28-rakuten-uk-3984.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanukcc-rakutenuk/playlist.m3u8
+
+# SOURCE: Samsung FAST; previous user GitHub media check
+# STATUS: GitHub media sample passed 2026-10-24
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="mrbean-animated-oct27-002" tvg-name="Mr Bean Animated TEST 002" group-title="TEST CHANNELS - SINGLE GROUP",Mr Bean Animated TEST 002
+https://amg00627-amg00627c23-samsung-gb-3927.playouts.now.amagi.tv/playlist.m3u8
+
+# SOURCE: iptv-org / Samsung FAST
+# STATUS: GitHub media sample passed 2026-10-24
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="mrbean-animated-oct27-003" tvg-name="Mr Bean Animated TEST 003" group-title="TEST CHANNELS - SINGLE GROUP",Mr Bean Animated TEST 003
+https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8
+
+# SOURCE: iptv-org / Rakuten FAST
+# STATUS: Needs fresh HTTP and user region check
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="mrbean-animated-oct27-004" tvg-name="Mr Bean Animated TEST 004" group-title="TEST CHANNELS - SINGLE GROUP",Mr Bean Animated TEST 004
+https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
+
+# SOURCE: iptv-org / Rakuten FAST
+# STATUS: Needs fresh HTTP and user region check
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="mrbean-animated-oct27-005" tvg-name="Mr Bean Animated TEST 005" group-title="TEST CHANNELS - SINGLE GROUP",Mr Bean Animated TEST 005
+https://amg00627-amg00627c30-rakuten-es-3990.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanescc-rakutenes/playlist.m3u8
+
+# SOURCE: iptv-org / Rakuten FAST
+# STATUS: Needs fresh HTTP and user region check
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="mrbean-animated-oct27-006" tvg-name="Mr Bean Animated TEST 006" group-title="TEST CHANNELS - SINGLE GROUP",Mr Bean Animated TEST 006
+https://amg00627-amg00627c31-rakuten-fr-3991.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanfrcc-rakutenfr/playlist.m3u8
+
+# SOURCE: iptv-org approved stream / Banijay FAST
+# STATUS: Needs fresh HTTP and user region check
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="mrbean-real-oct27-001" tvg-name="Mr Bean Real TEST 001" group-title="TEST CHANNELS - SINGLE GROUP",Mr Bean Real TEST 001
+https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
+
+# SOURCE: iptv-org / Samsung FAST
+# STATUS: Needs fresh HTTP and user region check
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="mrbean-real-oct27-002" tvg-name="Mr Bean Real TEST 002" group-title="TEST CHANNELS - SINGLE GROUP",Mr Bean Real TEST 002
+https://amg00627-amg00627c39-samsung-gb-5569.playouts.now.amagi.tv/playlist.m3u8
+
+# SOURCE: SM-IPTV
+# STATUS: Needs fresh HTTP and Hindi audio check
+# NOTE: Programme-only label from source; test for true content, stability, and language in IPTV Pro.
+#EXTINF:-1 tvg-id="oggy-hindi-oct27-001" tvg-name="Oggy Hindi Audio Check TEST 001" group-title="TEST CHANNELS - SINGLE GROUP",Oggy Hindi Audio Check TEST 001
+https://live20.bozztv.com/giatvplayout7/giatv-210728/tracks-v1a1/mono.ts.m3u8
+
+# ---- OCT-27: BENGALI ANIMATED CARTOONS ----
+# SOURCE: iptv-org in.m3u / ZillarBarta Network (classified Bengali 1080p there)
+# Previous 2026-10-24 runner downloaded valid HLS video bytes. October-27 ffprobe re-check pending.
+# Bengali cartoon programme verified by public programme listings; actual playback/resolution on Link3 still user-unverified.
+#EXTINF:-1 tvg-id="zb-cartoon-bangla-hd-oct27-001" tvg-name="ZB Cartoon Bangla HD TEST 001" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zbcatun.png" group-title="TEST CHANNELS - SINGLE GROUP",ZB Cartoon Bangla HD TEST 001
+https://server.zillarbarta.com/zbcatun/video.m3u8
+
+# Oct 27 2026 independent runner check: HLS manifest and video segment bytes PASS at 2026-10-27T14:08:16.428307+00:00.
+# Source from sm-monirulislam/SM-IPTV, community also calls it 24/7 Bangla Doraemon.
+# CAVEAT: HTTP media test != decoded Doraemon footage, Bangla audio, or playback on Link3. IPTV Pro manual confirmation required.
+#EXTINF:-1 tvg-id="doraemon-bangla-oct27-test01" tvg-name="Doraemon Bangla TEST 001" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/bd/Doraemon_character.png" group-title="TEST CHANNELS - SINGLE GROUP",Doraemon Bangla TEST 001
+https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
+
+# Source: iptv-org streams/in.m3u ; broadcaster Rongeen TV schedule (https://rongeentv.com/shows).
+# GitHub video check 2026-10-27T14:16:20.296619+00:00: 1280x720 moving H264 frames and audio stream present.
+# IMPORTANT: NOT a dedicated 24/7 cartoon channel. Bengali animation Magajastra airs on published schedule (Monday-Friday, noon station time); rest of programming includes music, film and lifestyle.
+# Actual Bengali language and Link3 playback not independently user-confirmed. TEST ONLY.
+#EXTINF:-1 tvg-id="rongeen-bangla-animation-scheduled-test-001" tvg-name="Rongeen TV Bangla Animation Schedule TEST 001" group-title="TEST CHANNELS - SINGLE GROUP",Rongeen TV Bangla Animation Schedule TEST 001
+https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8
+
+# From GitHub Actions PyAV decode 2026-10-27T14:31:42.548455+00:00, distinct HLS feed and active moving video+audio.
+# Kids animation. Independent BD OTT stream decoded moving 720p video and audio; Bengali dubbing NOT verified (stream tag absent). Distinct CDN to already-in-MAIN Sony Yay, offered as playback/audio comparison only.
+#EXTINF:-1 tvg-id="sony-yay-bd-bn-audio-check-oct27" tvg-name="Sony YAY BD Bangla Audio CHECK 001" group-title="TEST CHANNELS - SINGLE GROUP",Sony YAY BD Bangla Audio CHECK 001
+https://stream.ottplus.live/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8
+
+# From GitHub Actions PyAV decode 2026-10-27T14:31:42.548455+00:00, distinct HLS feed and active moving video+audio.
+# Rongeen TV alternative CDN. Carries the same channel as TEST 001; NOT a new programme. Mixed programmes incl. scheduled Magajastra, not 24x7 cartoons. Video and audio verified; Bangla audio and Link3 not independently confirmed.
+#EXTINF:-1 tvg-id="rongeen-tv-mumbai-bk-oct27" tvg-name="Rongeen TV Bengali Animation BACKUP 002" group-title="TEST CHANNELS - SINGLE GROUP",Rongeen TV Bengali Animation BACKUP 002
+https://mumbai-edge.smartplaytv.in/RongeenTV/index.m3u8
+
+# October 27, 2026: new, show-specific India FAST animated The Jungle Book feed, sourced from iptv-org/iptv streams/in.m3u.
+# 2026-10-27T14:42:39.384797+00:00 PyAV: decoded moving video (7 frames) and audio present; published HLS maximum 1920x1080, no BENGALI or bn audio-language tags.
+# IMPORTANT: BENGALI DUBBING / AUDIO NOT CONFIRMED; actual programme scenes and Link3 playback require viewer verification. Do NOT treat as a verified Bengali cartoon channel.
+#EXTINF:-1 tvg-id="jungle-book-cartoon-bn-audio-check-oct27-001" tvg-name="The Jungle Book Cartoon - Bengali Audio CHECK 001" group-title="TEST CHANNELS - SINGLE GROUP",The Jungle Book Cartoon - Bengali Audio CHECK 001
+https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8
+# Public, unencrypted open-movie HLS demo from Mux. NOT a Gon episode.
+# For testing whether IPTV Pro/Link3 can play VOD-style HLS; safe to remove after diagnosis.
+#EXTINF:-1 tvg-name="IPTV PLAYER CHECK - Big Buck Bunny HLS VOD (NOT GON)" group-title="TEST CHANNELS - SINGLE GROUP",IPTV PLAYER CHECK - Big Buck Bunny HLS VOD (NOT GON)
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+# SOURCE: iptv-org approved March 2026; playback in Bangladesh and Link3 UNVERIFIED. Do not move to Main without confirmation.
+#EXTINF:-1 tvg-id="sonyyay-test-01-nov01" tvg-name="Sony YAY TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony YAY TEST 01
+https://sliv.tgaadi.workers.dev/sonyyaysd.m3u8
+# TEST 02: Unverified public source; do not promote to Main before viewer confirms actual channel, Hindi audio, and playback.
+#EXTINF:-1 tvg-id="sonyyay-test-02-nov01" tvg-name="Sony YAY TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony YAY TEST 02
+https://cloudplay-sonyliv.pages.dev/yay.m3u8
+# TEST 03: Unverified public source; do not promote to Main before viewer confirms actual channel, Hindi audio, and playback.
+#EXTINF:-1 tvg-id="sonyyay-test-03-nov01" tvg-name="Sony YAY TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony YAY TEST 03
+https://pubads.g.doubleclick.net/ssai/event/40H5HfwWTZadFGYkBTqagg/master.m3u8
+# TEST 04: Unverified public source; do not promote to Main before viewer confirms actual channel, Hindi audio, and playback.
+#EXTINF:-1 tvg-id="sonyyay-test-04-nov01" tvg-name="Sony YAY TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony YAY TEST 04
+https://stream.ottplus.live/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8
+# TEST 05: Unverified public source; do not promote to Main before viewer confirms actual channel, Hindi audio, and playback.
+#EXTINF:-1 tvg-id="sonyyay-test-05-nov01" tvg-name="Sony YAY TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony YAY TEST 05
+#EXTVLCOPT:http-referrer=https://nxtlive.net/
+https://nxtlive.net/sliv/stream.php?id=0657898986&e=.m3u8
+# TEST 06: Unverified public source; do not promote to Main before viewer confirms actual channel, Hindi audio, and playback.
+#EXTINF:-1 tvg-id="sonyyay-test-06-nov01" tvg-name="Sony YAY TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony YAY TEST 06
+http://103.83.80.54:6088/play/a0et/index.m3u8
+# TEST 07: Unverified public source; do not promote to Main before viewer confirms actual channel, Hindi audio, and playback.
+#EXTINF:-1 tvg-id="sonyyay-test-07-nov01" tvg-name="Sony YAY TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony YAY TEST 07
+http://103.229.254.25:7001/play/a0cl/index.m3u8
+# TEST 08: Unverified public source; do not promote to Main before viewer confirms actual channel, Hindi audio, and playback.
+#EXTINF:-1 tvg-id="sonyyay-test-08-nov01" tvg-name="Sony YAY TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony YAY TEST 08
+http://103.165.93.31:8095/sonyYay/index.m3u8
+
+# SOURCE: publiciptv.com/countries/in/m3u; GitHub hmraju/TV
+# UNVERIFIED: Publicly listed as Hungama TV, but no HLS media-byte, actual channel, Link3 or audio test passed here. Viewer test only; Main MUST stay unchanged.
