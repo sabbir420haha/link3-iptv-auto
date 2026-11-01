@@ -130,3 +130,30 @@ http://ajkiptv.ridsys.in/riptv/live/HUNGAMA/index.m3u8
 # SOURCE: iptv-org approved March 2026; playback in Bangladesh and Link3 UNVERIFIED. Do not move to Main without confirmation.
 #EXTINF:-1 tvg-name="Hungama NEW TEST 45" group-title="TEST CHANNELS - SINGLE GROUP",Hungama NEW TEST 45
 http://iptvcasomsapi.jprdigital.in/x-media/C0408/master.m3u8
+
+# SONY YAY HINDI - eight explicitly labeled test candidates; link availability/audio/Link3 playback UNVERIFIED.
+# TEST 01: Unverified public source; do not promote to Main before viewer confirms actual channel, Hindi audio, and playback.
+#EXTINF:-1 tvg-id="sonyyay-test-01-nov01" tvg-name="Sony YAY TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony YAY TEST 01
+https://sliv.tgaadi.workers.dev/sonyyaysd.m3u8
+# TEST 02: Unverified public source; do not promote to Main before viewer confirms actual channel, Hindi audio, and playback.
+#EXTINF:-1 tvg-id="sonyyay-test-02-nov01" tvg-name="Sony YAY TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony YAY TEST 02
+https://cloudplay-sonyliv.pages.dev/yay.m3u8
+# TEST 03: Unverified public source; do not promote to Main before viewer confirms actual channel, Hindi audio, and playback.
+#EXTINF:-1 tvg-id="sonyyay-test-03-nov01" tvg-name="Sony YAY TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony YAY TEST 03
+https://pubads.g.doubleclick.net/ssai/event/40H5HfwWTZadFGYkBTqagg/master.m3u8
+# TEST 04: Unverified public source; do not promote to Main before viewer confirms actual channel, Hindi audio, and playback.
+#EXTINF:-1 tvg-id="sonyyay-test-04-nov01" tvg-name="Sony YAY TEST 04" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony YAY TEST 04
+https://stream.ottplus.live/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8
+# TEST 05: Unverified public source; do not promote to Main before viewer confirms actual channel, Hindi audio, and playback.
+#EXTINF:-1 tvg-id="sonyyay-test-05-nov01" tvg-name="Sony YAY TEST 05" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony YAY TEST 05
+#EXTVLCOPT:http-referrer=https://nxtlive.net/
+https://nxtlive.net/sliv/stream.php?id=0657898986&e=.m3u8
+# TEST 06: Unverified public source; do not promote to Main before viewer confirms actual channel, Hindi audio, and playback.
+#EXTINF:-1 tvg-id="sonyyay-test-06-nov01" tvg-name="Sony YAY TEST 06" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony YAY TEST 06
+http://103.83.80.54:6088/play/a0et/index.m3u8
+# TEST 07: Unverified public source; do not promote to Main before viewer confirms actual channel, Hindi audio, and playback.
+#EXTINF:-1 tvg-id="sonyyay-test-07-nov01" tvg-name="Sony YAY TEST 07" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony YAY TEST 07
+http://103.229.254.25:7001/play/a0cl/index.m3u8
+# TEST 08: Unverified public source; do not promote to Main before viewer confirms actual channel, Hindi audio, and playback.
+#EXTINF:-1 tvg-id="sonyyay-test-08-nov01" tvg-name="Sony YAY TEST 08" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony YAY TEST 08
+http://103.165.93.31:8095/sonyYay/index.m3u8
