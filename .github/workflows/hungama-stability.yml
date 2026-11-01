@@ -17,6 +17,8 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+      - name: Install FFmpeg tools
+        run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg
       - name: Three spaced decode checks and audio track inspection (read-only)
         run: |
           python3 -m py_compile hungama_stability_probe.py
