@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-01T15:46:45.520371+00:00",
+  "checked_utc": "2026-11-01T19:12:29.412078+00:00",
   "scope": "GitHub network ONLY; not Link3/mobile/TV",
   "relay_active": false,
   "changed_playlist": false,
@@ -18,7 +18,7 @@
       "media_host": null,
       "samples": [
         {
-          "at_seconds": 1.0,
+          "at_seconds": 0.9,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
@@ -67,87 +67,60 @@
     },
     {
       "name": "Hungama",
-      "status": "advancing_on_github",
-      "successful_polls": 9,
+      "status": "manifest_unreachable",
+      "successful_polls": 0,
       "attempted_polls": 9,
-      "observed_changes": 8,
+      "observed_changes": 0,
       "media_sequence_regressions": 0,
       "old_segment_replays": 0,
       "max_stalled_observation_seconds": 0.0,
-      "target_duration_seconds": 7,
-      "media_host": "103.135.253.32",
+      "target_duration_seconds": null,
+      "media_host": null,
       "samples": [
         {
-          "at_seconds": 1.0,
-          "seq": 54159,
-          "latest_segment_fingerprint": "fcf49d2e54cc4335",
-          "target_duration_seconds": 7,
-          "media_host": "103.135.253.32",
-          "ok": true
+          "at_seconds": 1.1,
+          "ok": false,
+          "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 8.9,
-          "seq": 54160,
-          "latest_segment_fingerprint": "19c133273e4e18ff",
-          "target_duration_seconds": 7,
-          "media_host": "103.135.253.32",
-          "ok": true
+          "at_seconds": 9.1,
+          "ok": false,
+          "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 16.9,
-          "seq": 54161,
-          "latest_segment_fingerprint": "1bf8bcf09f9aeeeb",
-          "target_duration_seconds": 7,
-          "media_host": "103.135.253.32",
-          "ok": true
+          "at_seconds": 17.1,
+          "ok": false,
+          "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 24.9,
-          "seq": 54163,
-          "latest_segment_fingerprint": "c15b35c1e024aa7d",
-          "target_duration_seconds": 7,
-          "media_host": "103.135.253.32",
-          "ok": true
+          "at_seconds": 25.9,
+          "ok": false,
+          "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 32.9,
-          "seq": 54164,
-          "latest_segment_fingerprint": "4ddb1e91c43d9d3e",
-          "target_duration_seconds": 7,
-          "media_host": "103.135.253.32",
-          "ok": true
+          "at_seconds": 33.1,
+          "ok": false,
+          "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 40.9,
-          "seq": 54165,
-          "latest_segment_fingerprint": "62c23b4aa78d5a6e",
-          "target_duration_seconds": 7,
-          "media_host": "103.135.253.32",
-          "ok": true
+          "at_seconds": 41.0,
+          "ok": false,
+          "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 48.9,
-          "seq": 54167,
-          "latest_segment_fingerprint": "774869ca0e4b3d11",
-          "target_duration_seconds": 7,
-          "media_host": "103.135.253.32",
-          "ok": true
+          "at_seconds": 49.1,
+          "ok": false,
+          "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 56.9,
-          "seq": 54168,
-          "latest_segment_fingerprint": "2d4312e2340ee4e4",
-          "target_duration_seconds": 7,
-          "media_host": "103.135.253.32",
-          "ok": true
+          "at_seconds": 57.0,
+          "ok": false,
+          "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 64.9,
-          "seq": 54169,
-          "latest_segment_fingerprint": "51cdc71b94dee4f3",
-          "target_duration_seconds": 7,
-          "media_host": "103.135.253.32",
-          "ok": true
+          "at_seconds": 65.1,
+          "ok": false,
+          "error": "ValueError: HLS manifest unavailable to GitHub"
         }
       ],
       "note": "GitHub vantage point only; no guarantee of IPTV Pro or Link3 playback"
@@ -157,81 +130,81 @@
       "status": "advancing_on_github",
       "successful_polls": 9,
       "attempted_polls": 9,
-      "observed_changes": 8,
+      "observed_changes": 7,
       "media_sequence_regressions": 0,
       "old_segment_replays": 0,
-      "max_stalled_observation_seconds": 0.0,
+      "max_stalled_observation_seconds": 8.1,
       "target_duration_seconds": 4,
       "media_host": "drk6xq0vhn.gpcdn.net",
       "samples": [
         {
-          "at_seconds": 1.3,
-          "seq": 747,
-          "latest_segment_fingerprint": "98fc3fe57e5ae31e",
+          "at_seconds": 0.4,
+          "seq": 3833,
+          "latest_segment_fingerprint": "81a8cfb6c00f0b16",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 8.8,
-          "seq": 749,
-          "latest_segment_fingerprint": "d6f1205e3bed7f16",
+          "at_seconds": 8.5,
+          "seq": 3833,
+          "latest_segment_fingerprint": "81a8cfb6c00f0b16",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 16.5,
-          "seq": 751,
-          "latest_segment_fingerprint": "5a47980f104c4e3b",
+          "at_seconds": 16.8,
+          "seq": 3837,
+          "latest_segment_fingerprint": "e50acc26c9bf202c",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 24.5,
-          "seq": 753,
-          "latest_segment_fingerprint": "faaed854de186ebb",
+          "at_seconds": 24.6,
+          "seq": 3839,
+          "latest_segment_fingerprint": "1307539d6194faee",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 32.7,
-          "seq": 755,
-          "latest_segment_fingerprint": "675ee97ed7890e3e",
+          "at_seconds": 32.9,
+          "seq": 3841,
+          "latest_segment_fingerprint": "6e0da594fe5529c9",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 40.5,
-          "seq": 757,
-          "latest_segment_fingerprint": "2aef5dbb9b0572d6",
+          "at_seconds": 40.6,
+          "seq": 3843,
+          "latest_segment_fingerprint": "19b77699ab9887e2",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 48.8,
-          "seq": 759,
-          "latest_segment_fingerprint": "6f0fc31912e95e96",
+          "at_seconds": 48.6,
+          "seq": 3845,
+          "latest_segment_fingerprint": "c284d0d56d1b7d96",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 56.5,
-          "seq": 761,
-          "latest_segment_fingerprint": "e11e359541ab46d9",
+          "at_seconds": 56.8,
+          "seq": 3847,
+          "latest_segment_fingerprint": "8fe7170132b67dd7",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 64.9,
-          "seq": 763,
-          "latest_segment_fingerprint": "e7a094ae66bf7423",
+          "at_seconds": 64.7,
+          "seq": 3849,
+          "latest_segment_fingerprint": "9b7d8113f70a7e7e",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
