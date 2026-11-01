@@ -938,6 +938,12 @@
       "url": "http://103.68.28.58:5001/live/872.m3u8",
       "source": "iptv-org/iptv issue 19597; Sony Yay 720p older public source; language unverified",
       "hindi_claim": false
+    },
+    {
+      "id": "Y157",
+      "url": "https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/protv.m3u8?id=2802",
+      "source": "Junan02/bdiptvtest check ok.m3u (GitHub search 2026-11-01); Sony YAY India; audio language unverified; public URL without keys or credentials",
+      "hindi_claim": false
     }
   ]
 }
