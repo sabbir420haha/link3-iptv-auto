@@ -46,6 +46,19 @@ SOURCES = [
 
 # These are candidate public URLs only, not a guarantee of rights or playback.
 EXTRA_CANDIDATES = {
+    # Public Sony YAY Hindi/Indian-feed candidates. Manifests and actual video
+    # fragments must pass current GitHub checks before main publication.
+    # Hindi audio and Link3 regional playback are only viewer-verifiable.
+    "Sony Yay": [
+        "https://sliv.tgaadi.workers.dev/sonyyaysd.m3u8",
+        "https://cloudplay-sonyliv.pages.dev/yay.m3u8",
+        "https://pubads.g.doubleclick.net/ssai/event/40H5HfwWTZadFGYkBTqagg/master.m3u8",
+        "https://stream.ottplus.live/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8",
+        "https://nxtlive.net/sliv/stream.php?id=0657898986&e=.m3u8",
+        "http://103.83.80.54:6088/play/a0et/index.m3u8",
+        "http://103.229.254.25:7001/play/a0cl/index.m3u8",
+        "http://103.165.93.31:8095/sonyYay/index.m3u8",
+    ],
     # The original user-confirmed Hungama is pinned separately and never replaced.
     "Hungama HD": [
         "http://103.185.24.134:3001/HUNGAMA/index.m3u8",
@@ -537,6 +550,8 @@ def request_headers(uri, cap):
         h["User-Agent"] = "oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1"
     if hostname == "playyonogames.in":
         h["Referer"] = "https://playyonogames.in/"
+    if hostname == "nxtlive.net":
+        h["Referer"] = "https://nxtlive.net/"
     if hostname == "tamilultra.tv":
         # Public source declares this Referer and browser User-Agent.
         h["Referer"] = "https://tamilultra.tv/api/"
@@ -734,23 +749,23 @@ def main():
             if c["url"] not in seen_urls:
                 dedup.append(c)
                 seen_urls.add(c["url"])
-        limit = 24 if item["name"] in {"Disney HD Hindi", "Sonic Hindi", "Sonic Bangla", "Discovery Bangla"} else 9
+        limit = 24 if item["name"] in {"Disney HD Hindi", "Sonic Hindi", "Sonic Bangla", "Discovery Bangla", "Sony Yay"} else 9
         tasks.append((item, current, dedup[:limit]))
 
     candidates = []
     for item, old, choices in tasks:
         if not item.get("locked"):
-            limit = 24 if item["name"] in {"Disney HD Hindi", "Sonic Hindi", "Sonic Bangla", "Discovery Bangla"} else 6
+            limit = 24 if item["name"] in {"Disney HD Hindi", "Sonic Hindi", "Sonic Bangla", "Discovery Bangla", "Sony Yay"} else 6
             candidates += [c["url"] for c in choices[:limit]]
     candidates = list(dict.fromkeys(candidates))
     with concurrent.futures.ThreadPoolExecutor(max_workers=20) as pool:
         health = dict(zip(candidates, pool.map(probe, candidates)))
     hd_urls = list(dict.fromkeys(c["url"] for item, old, choices in tasks
-                   if item.get("quality") == "hd" for c in choices[:24 if item["name"] in {"Disney HD Hindi", "Sonic Hindi", "Sonic Bangla", "Discovery Bangla"} else 6] if health.get(c["url"])))
+                   if item.get("quality") == "hd" for c in choices[:24 if item["name"] in {"Disney HD Hindi", "Sonic Hindi", "Sonic Bangla", "Discovery Bangla", "Sony Yay"} else 6] if health.get(c["url"])))
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
         heights = dict(zip(hd_urls, pool.map(hd_resolution, hd_urls)))
     priority_urls = list(dict.fromkeys(c["url"] for item, old, choices in tasks
-                    if item.get("requires_media_segment") for c in choices[:24 if item["name"] in {"Disney HD Hindi", "Sonic Hindi", "Sonic Bangla"} else 9]
+                    if item.get("requires_media_segment") for c in choices[:24 if item["name"] in {"Disney HD Hindi", "Sonic Hindi", "Sonic Bangla", "Sony Yay"} else 9]
                     if health.get(c["url"])))
     with concurrent.futures.ThreadPoolExecutor(max_workers=14) as pool:
         segments = dict(zip(priority_urls, pool.map(segment_probe, priority_urls)))
@@ -782,7 +797,9 @@ def main():
             if (current and allowed(current) and
                     matches_channel(item, current) and
                     current not in item.get("exclude_urls", []) and
-                    current not in used):
+                    current not in used and
+                    (not item.get("refresh_on_unhealthy") or
+                     (health.get(current, False) and segments.get(current, False)))):
                 chosen = {"url": current, "logo": "", "source": "stable-existing"}
                 state = "CURRENT_LINK3_STABLE_RETAINED"
             else:
@@ -807,6 +824,7 @@ def main():
                     state = ("REMOTE_HD_MANIFEST" if item.get("quality") == "hd" and heights.get(chosen["url"], 0) >= 720
                              else "REMOTE_HLS_SEGMENT_RESOLUTION_UNVERIFIED" if item.get("quality") == "hd"
                              else "BEST_AVAILABLE_NOT_VERIFIED_HD" if item.get("quality") == "best_available"
+                             else "REMOTE_HLS_MEDIA_SEGMENT_VERIFIED" if item.get("requires_media_segment")
                              else "REMOTE_MANIFEST_REACHABLE")
                 else:
                     old = item.get("last_known_url", "")
@@ -944,7 +962,7 @@ def main():
                  "manifest_ok": bool(health.get(e["url"])),
                  "segment_ok": bool(segments.get(e["url"])),
                  "manifest_height": heights.get(e["url"], 0)}
-                for e in alternatives[:24 if target["name"] in {"Disney HD Hindi", "Sonic Hindi", "Sonic Bangla", "Discovery Bangla"} else 9]
+                for e in alternatives[:24 if target["name"] in {"Disney HD Hindi", "Sonic Hindi", "Sonic Bangla", "Discovery Bangla", "Sony Yay"} else 9]
             ],
             "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
         })
@@ -952,7 +970,7 @@ def main():
     # Never change their user-confirmed Link3 URLs from a runner result.
     # This is separate from the main playlist selection and cannot publish a
     # feed without independent identity/language and (Disney) >=720p evidence.
-    missing_target_names = {"Disney HD Hindi", "Sonic Hindi", "Sonic Bangla"}
+    missing_target_names = {"Disney HD Hindi", "Sonic Hindi", "Sonic Bangla", "Sony Yay"}
     pinned_target_audit = []
     for item in channels:
         if item["name"] not in missing_target_names:
