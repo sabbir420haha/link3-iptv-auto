@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-01T13:15:07.389233+00:00",
+  "updated_utc": "2026-11-01T15:28:05.667605+00:00",
   "channels": 75,
   "target_channels": 99,
   "groups": {
@@ -14,10 +14,65 @@
     "08 | Hindi Entertainment": 1
   },
   "remote_manifests_probed": 314,
-  "media_segments_probed": 1,
+  "media_segments_probed": 3,
   "experimental_unverified": 0,
   "backup_streams": [],
   "candidate_audit": [
+    {
+      "name": "Sony Yay",
+      "candidates": [
+        {
+          "source": "Zaman-Active",
+          "url": "https://cloudplay-sonyliv.pages.dev/yay.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "SM-IPTV",
+          "url": "https://stream.ottplus.live/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8",
+          "manifest_ok": true,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "public-SonyLIV-candidates",
+          "url": "https://dai.google.com/linear/hls/event/GPY7RqOrSkmKJ8z1GbVNhg/master.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "public-Indian-family-candidates",
+          "url": "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sony_yay",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "fresh-India-public-geo",
+          "url": "https://s3.itcnbd.live/channel/b22941f1341d7243.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "2026-India-experimental",
+          "url": "https://sl.vodep39240327.workers.dev/channel/SONY%20YAY.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "SM-IPTV",
+          "url": "http://live.balajibroadband.com:3500/live/872.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        }
+      ],
+      "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
+    },
     {
       "name": "Disney HD Hindi",
       "candidates": [
@@ -1538,10 +1593,10 @@
     },
     {
       "name": "Sony Yay",
-      "state": "CURRENT_LINK3_STABLE_RETAINED",
-      "stream": "https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000001971",
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "https://sl.vodep39240327.workers.dev/channel/SONY%20YAY.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": false
+      "media_segment_checked": true
     },
     {
       "name": "Super Hungama",
@@ -1772,7 +1827,7 @@
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-11-01T13:15:15.126898+00:00",
+    "updated_utc": "2026-11-01T15:28:21.672668+00:00",
     "channel_count": 25,
     "entries": 475,
     "by_name": {
