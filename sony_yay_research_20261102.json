@@ -1,0 +1,49 @@
+{
+  "checked_local": "2026-11-02 02:30 Asia/Dhaka",
+  "scope": "Public GitHub IPTV code search, iptv-org issue reports, repository candidate and prior probe audit",
+  "existing_candidate_count_before": 192,
+  "new_candidates": [
+    {
+      "id": "Y193",
+      "source": "Arsks12/stalker Thor's TataPlay.m3u",
+      "status": "UNVERIFIED",
+      "hindi_audio_confirmed": false,
+      "hls_advancement_confirmed": false,
+      "decoded_video_samples": 0
+    },
+    {
+      "id": "Y194",
+      "source": "CricZone/BDStreamHub index.html",
+      "status": "UNVERIFIED",
+      "hindi_audio_confirmed": false,
+      "hls_advancement_confirmed": false,
+      "decoded_video_samples": 0
+    },
+    {
+      "id": "Y195",
+      "source": "omarmourmiydghjd/main induama.m3u",
+      "status": "UNVERIFIED",
+      "hindi_audio_confirmed": false,
+      "hls_advancement_confirmed": false,
+      "decoded_video_samples": 0
+    }
+  ],
+  "existing_results_reviewed": [
+    {
+      "id": "Y190",
+      "finding": "Three spaced remote video decodes and HLS advancement previously passed, but audio metadata spa (Spanish), NOT Hindi; reject."
+    },
+    {
+      "id": "Y107",
+      "finding": "Three 1080p remote video decodes previously passed; live HLS advancement and Hindi audio not established; keep unverified."
+    }
+  ],
+  "run_limitations": "This execution environment cannot reach external HLS media URLs for ffmpeg/ffprobe decoding. Web page retrieval is not a substitute for video decoding or timed HLS checks. No new source qualifies for test playlist.",
+  "new_remote_verified": 0,
+  "newly_published": [],
+  "main_unchanged": true,
+  "favorites_unchanged": true,
+  "documentary_hd_tests_unchanged": true,
+  "link3_playback_not_verified": true,
+  "next_validation_required": "Run spaced HLS manifest+segment capture and ffmpeg/ffprobe decoding for each new candidate; confirm live segment sequence advance and Hindi audio metadata or spoken Hindi before appending to documentary_hd_tests.m3u. User's Link3 test still needed."
+}
