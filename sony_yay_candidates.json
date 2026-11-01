@@ -1103,6 +1103,36 @@
       "url": "https://www.redbooks.site/x11.php?id=26187.m3u8",
       "source": "fakeall12398-sketch/JIO_TV kids.m3u; IN | SONY YAY channel 26187; discovered 2026-11-01, Hindi NOT proven",
       "hindi_claim": false
+    },
+    {
+      "id": "Y184",
+      "url": "https://tvs1.aynaott.com/SonyYay/tracks-v1a1/mono.m3u8",
+      "source": "sashagor786/iptv iptv10.m3u8; SonyYay-labelled AynaOTT CDN, newly found 2026-11-01; Hindi audio unverified",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y185",
+      "url": "https://streamer-1.toffeelive.com/live/sony_yay_720/index.m3u8",
+      "source": "fahadskt/IPTV-Playlists Old/gopa iptv; Sony Yay labelled Toffee CDN, language unverified; discovered 2026-11-01",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y186",
+      "url": "https://tv.googledrivelinks.com/live.php?c=Sony_Yay_Hindi&q=800&e=.m3u8",
+      "source": "r0m35h/main iptv.m3u; explicitly Sony_Yay_Hindi; discovered 2026-11-01; Hindi audio unverified",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y187",
+      "url": "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sony_yay",
+      "source": "anasselkadii/jcartoondashboard epesodes/toffee.m3u8; Sony Yay labelled Toffee public relay, Hindi unverified; discovered 2026-11-01",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y188",
+      "url": "https://allottplay.com/tv/toffee/live.php?id=sonyyay&e=.m3u8",
+      "source": "konanda-sg/LIVE_nurmd2006 deleted SonyYay manifest (2025); source not fresh, no audio-language evidence; checked as alternate CDN 2026-11-01",
+      "hindi_claim": false
     }
   ]
 }
