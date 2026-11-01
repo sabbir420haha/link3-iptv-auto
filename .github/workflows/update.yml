@@ -57,18 +57,22 @@ jobs:
         run: python three_playback_health.py
       - name: Commit updated playlist and status
         run: |
+          # A refresh can run using a checkout made BEFORE the user confirms
+          # and pins a new working stream. Never publish old generated M3U
+          # over a newer channels.json or manually fixed playlist.m3u.
+          git fetch origin main
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+            echo "::warning::Main changed during refresh. Skipping stale generated playlist; a newer run will use the latest channel pins."
+            exit 0
+          fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add playlist.m3u geo_trials.m3u favorites_tests.m3u status.json tv_stream_health.json three_missing_probe.json three_playback_health.json logos/
           if ! git diff --cached --quiet; then
             git commit -m 'Update curated Link3 IPTV playlist'
-            for attempt in 1 2 3; do
-              if git push; then
-                exit 0
-              fi
-              git fetch origin main
-              git rebase -X theirs origin/main
-              sleep 2
-            done
-            exit 1
+            # Never rebase a stale generated M3U over newer user changes.
+            if ! git push; then
+              echo "::warning::Main advanced before the push. Dropping stale generated output instead of overwriting a user-confirmed pin."
+              exit 0
+            fi
           fi
