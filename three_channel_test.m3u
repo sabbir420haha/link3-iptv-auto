@@ -81,6 +81,37 @@ https://colorsscreen.com/stream.php?id=815&e=.m3u8|Referer=https://colorsscreen.
 #EXTVLCOPT:http-referrer=https://colorsscreen.com/
 https://colorsscreen.com/live.php?id=815&extension=.m3u8|Referer=https://colorsscreen.com//&key=BDStreamHub
 
+# SOURCE Sonic Hindi TEST 86: imranemon1/emon Playlist-Kids.m3u8 (non-BDIX domain; HTTP with custom user-agent)
+# STATUS: UNVERIFIED, global web/non-BDIX named source, Link3 playback not validated
+#EXTINF:-1 tvg-id="sonic-hindi-trial-86-nov02" tvg-name="Sonic Hindi TEST 86" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 86
+#EXTVLCOPT:http-user-agent=stream
+http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8
+
+# SOURCE Sonic Hindi TEST 87: sadman-al-rafi playlist.m3u8 (Cloudflare Pages)
+# STATUS: UNVERIFIED, global web/non-BDIX named source, Link3 playback not validated
+#EXTINF:-1 tvg-id="sonic-hindi-trial-87-nov02" tvg-name="Sonic Hindi TEST 87" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 87
+https://sar.pages.dev/sonic.m3u8
+
+# SOURCE Sonic Hindi TEST 88: hardiksaini10/rdp nash.m3u (JioTV+ Nepal web relay)
+# STATUS: UNVERIFIED, global web/non-BDIX named source, Link3 playback not validated
+#EXTINF:-1 tvg-id="sonic-hindi-trial-88-nov02" tvg-name="Sonic Hindi TEST 88" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 88
+https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8
+
+# SOURCE Sonic Hindi TEST 89: ttoor5/discoveryplus jc.json (JioCinema events CDN)
+# STATUS: UNVERIFIED, global web/non-BDIX named source, Link3 playback not validated
+#EXTINF:-1 tvg-id="sonic-hindi-trial-89-nov02" tvg-name="Sonic Hindi TEST 89" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 89
+https://jcevents.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8
+
+# SOURCE Sonic Hindi TEST 90: r0m35h/main iptv.m3u (non-BDIX web domain)
+# STATUS: UNVERIFIED, global web/non-BDIX named source, Link3 playback not validated
+#EXTINF:-1 tvg-id="sonic-hindi-trial-90-nov02" tvg-name="Sonic Hindi TEST 90" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 90
+https://tv.googledrivelinks.com/live.php?c=sonic_Hindi&q=800&e=.m3u8
+
+# SOURCE Sonic Hindi TEST 91: MuzammilShah51214/Live-Tv-786 IndianTV-Live.html (Jio relay)
+# STATUS: UNVERIFIED, global web/non-BDIX named source, Link3 playback not validated
+#EXTINF:-1 tvg-id="sonic-hindi-trial-91-nov02" tvg-name="Sonic Hindi TEST 91" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 91
+https://redmi.allinonereborn.xyz/jiotv-ww/app/live.php?id=815&e=.m3u8
+
 # HUNGAMA NOVEMBER 01 SECOND BATCH — USER-TEST ONLY
 # Newly found source-labelled URLs, NOT confirmed working, no Link3 or video/audio validation.
 # Check Hungama TV TEST 106–116; 117 is explicitly a Kids variant and may be different content.
