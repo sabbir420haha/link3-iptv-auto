@@ -1,83 +1,48 @@
 #EXTM3U
-# Manual TEST playlist | Updated 2026-11-01 | Hungama TEST 61-74 appear immediately after Hungama TEST 29
+# Manual TEST playlist | Updated 2026-11-01 | NEW Hungama TEST 75-81 immediately after TEST 29
 # Existing user-confirmed failed URLs, HTTP 403/404, invalid DNS/cert, expiring tokens, private IPs, and duplicates excluded.
 # For any confirmed working TEST number, pin direct URL in Main only after viewer confirmation.
 # IMPORTANT: Hungama TEST 29 intentionally unchanged.
 #EXTINF:-1 tvg-id="hungama-test3-29" tvg-name="Hungama TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 29
 http://103.135.253.32:8080/HUNGAMA/index.m3u8
 
-# NEW HUNGAMA TRIALS 61-74 | VERIFIED IN GITHUB PLAYLIST FILE, NOT LINK3 PLAYBACK.
-# Single group. This block is deliberately placed at the TOP for IPTV Pro visibility.
+# HUNGAMA FRESH TEST 75-81 (2026-11-01)
+# Public third-party listings; none confirmed to play on Link3. One explicitly Hungama Kids alternative.
 
-# Hungama TEST 61 candidate source: simantobd/needs file 1; freedish2024/personal-project.sr Sun.m3u
-# UNVERIFIED: No confirmed HLS media-byte or Hindi audio test on Link3; do not promote to Main.
-#EXTINF:-1 tvg-id="hungama-nov01-61" tvg-name="Hungama TEST 61" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 61
-https://kingkohli.pages.dev/Play/Kid/HungamaTV.m3u8
+# Source: Raisanbd/moive-rplex/toffee.m3u; PyashDth/Pyash_Dth; labeled Hungama
+# TEST ONLY: media and Hindi audio not independently verified; Main playlist must not change.
+#EXTINF:-1 tvg-id="hungama-20261101-75" tvg-name="Hungama TEST 75" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 75
+https://live.dinesh29.com.np/stream/jiotvplus/hungama/master.m3u8
 
-# Hungama TEST 62 candidate source: simantobd/needs file 1; labeled Hungama TV King
-# UNVERIFIED: No confirmed HLS media-byte or Hindi audio test on Link3; do not promote to Main.
-#EXTINF:-1 tvg-id="hungama-nov01-62" tvg-name="Hungama TEST 62" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 62
-https://kingkohli.pages.dev/Play/Kid/HungamaTV2.m3u8
+# Source: Farabi-2005/Farabi/Future Network; AlahiMajnurOsama/Tv/indian.m3u; labeled Hungama TV
+# TEST ONLY: media and Hindi audio not independently verified; Main playlist must not change.
+#EXTINF:-1 tvg-id="hungama-20261101-76" tvg-name="Hungama TEST 76" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 76
+http://119.156.26.155:8000/play/a05t/index.m3u8
 
-# Hungama TEST 63 candidate source: galibahsan89/Cofs_TV tv_channels.json Hungama
-# UNVERIFIED: No confirmed HLS media-byte or Hindi audio test on Link3; do not promote to Main.
-#EXTINF:-1 tvg-id="hungama-nov01-63" tvg-name="Hungama TEST 63" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 63
-http://198.195.239.50:8095/HUNGAMA/index.m3u8
+# Source: Sonuiptvnew/Sonuiptvnew/sonuindia.m3u8; labeled Hungama TV SD
+# TEST ONLY: media and Hindi audio not independently verified; Main playlist must not change.
+#EXTINF:-1 tvg-id="hungama-20261101-77" tvg-name="Hungama TEST 77" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 77
+http://103.99.249.107/play/a023
 
-# Hungama TEST 64 candidate source: Sonuiptvnew/Sonuiptvnew sonuiptvindia.m3u Hungama TV Hindi
-# UNVERIFIED: No confirmed HLS media-byte or Hindi audio test on Link3; do not promote to Main.
-#EXTINF:-1 tvg-id="hungama-nov01-64" tvg-name="Hungama TEST 64" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 64
-http://103.153.39.34:8000/play/a04l/index.m3u8
+# Source: ThisIsSuperS1/playlist/m3u/main.m3u; labeled Hungama
+# TEST ONLY: media and Hindi audio not independently verified; Main playlist must not change.
+#EXTINF:-1 tvg-id="hungama-20261101-78" tvg-name="Hungama TEST 78" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 78
+http://103.61.73.220:8000/play/a05u
 
-# Hungama TEST 65 candidate source: Sonuiptvnew/Sonuiptvnew sonuiptvindia.m3u Hungama TV Hindi not 24/7
-# UNVERIFIED: No confirmed HLS media-byte or Hindi audio test on Link3; do not promote to Main.
-#EXTINF:-1 tvg-id="hungama-nov01-65" tvg-name="Hungama TEST 65" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 65
-http://70.39.83.58:8278/hungamahindikdin/playlist.m3u8
+# Source: lolz1990/my/kids.m3u; labeled Hungama Tv
+# TEST ONLY: media and Hindi audio not independently verified; Main playlist must not change.
+#EXTINF:-1 tvg-id="hungama-20261101-79" tvg-name="Hungama TEST 79" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 79
+http://stream-7b694ce7e.nmbs.top/m3u/Kids/85a27ab7bf.m3u8
 
-# Hungama TEST 66 candidate source: pk3011/myinof Server1 Hungama Hindi
-# UNVERIFIED: No confirmed HLS media-byte or Hindi audio test on Link3; do not promote to Main.
-#EXTINF:-1 tvg-id="hungama-nov01-66" tvg-name="Hungama TEST 66" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 66
-http://dpny5.1234.uno:6061/hungamatv/index.m3u8
+# Source: apurbo26/iptv/jago tv.m3u; labeled Hungama Kids, TV identity not established
+# TEST ONLY: media and Hindi audio not independently verified; Main playlist must not change.
+#EXTINF:-1 tvg-id="hungama-20261101-80" tvg-name="Hungama Kids Alternative TEST 80" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama Kids Alternative TEST 80
+http://stream-e30453a4b.nmbs.top/m3u/Kids/1f3e9e6679.m3u8
 
-# Hungama TEST 67 candidate source: weihaoxie/iptv streams/in.m3u Hungama TV
-# UNVERIFIED: No confirmed HLS media-byte or Hindi audio test on Link3; do not promote to Main.
-#EXTINF:-1 tvg-id="hungama-nov01-67" tvg-name="Hungama TEST 67" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 67
-http://87.255.35.150:18811
-
-# Hungama TEST 68 candidate source: cancerbikash-oss/01 Hindi 510CH-2083.01.13.m3u Hungama TV
-# UNVERIFIED: No confirmed HLS media-byte or Hindi audio test on Link3; do not promote to Main.
-#EXTINF:-1 tvg-id="hungama-nov01-68" tvg-name="Hungama TEST 68" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 68
-https://mini.allinonereborn.fun/tata.php?id=11647
-
-# Hungama TEST 69 candidate source: rabbyos/rabbyos Dd Free dush Hungama TV
-# UNVERIFIED: No confirmed HLS media-byte or Hindi audio test on Link3; do not promote to Main.
-#EXTINF:-1 tvg-id="hungama-nov01-69" tvg-name="Hungama TEST 69" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 69
-http://14.102.123.50:6969/play/a05u
-
-# Hungama TEST 70 candidate source: Hasibfy37/Iptv Playlist_rough.m3u Hungama TV
-# UNVERIFIED: No confirmed HLS media-byte or Hindi audio test on Link3; do not promote to Main.
-#EXTINF:-1 tvg-id="hungama-nov01-70" tvg-name="Hungama TEST 70" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 70
-http://14.102.123.50:8500/play/a05u
-
-# Hungama TEST 71 candidate source: GhostHostBD/tvlink 14.102.123.50 Hungama TV
-# UNVERIFIED: No confirmed HLS media-byte or Hindi audio test on Link3; do not promote to Main.
-#EXTINF:-1 tvg-id="hungama-nov01-71" tvg-name="Hungama TEST 71" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 71
-http://14.102.123.50:4000/play/a05u
-
-# Hungama TEST 72 candidate source: kumar1244/Devops_201_course Tata Play m3u 67.m3u8 Hungama TV
-# UNVERIFIED: No confirmed HLS media-byte or Hindi audio test on Link3; do not promote to Main.
-#EXTINF:-1 tvg-id="hungama-nov01-72" tvg-name="Hungama TEST 72" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 72
-http://103.147.87.13:8000/play/a00o/index.m3u8
-
-# Hungama TEST 73 candidate source: jaztv/Asia jazztv1 Hungama TV
-# UNVERIFIED: No confirmed HLS media-byte or Hindi audio test on Link3; do not promote to Main.
-#EXTINF:-1 tvg-id="hungama-nov01-73" tvg-name="Hungama TEST 73" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 73
-http://103.84.57.155:8000/play/a03t/index.m3u8
-
-# Hungama TEST 74 candidate source: aoestudios57/aoestudios57.github.io INDIA NEW.m3u8 Hungama TV
-# UNVERIFIED: No confirmed HLS media-byte or Hindi audio test on Link3; do not promote to Main.
-#EXTINF:-1 tvg-id="hungama-nov01-74" tvg-name="Hungama TEST 74" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 74
-http://180.178.188.152:8000/play/a01x
+# Source: Habib2399/Meghna/tv; labeled Hungama Tv; shortlink target unknown
+# TEST ONLY: media and Hindi audio not independently verified; Main playlist must not change.
+#EXTINF:-1 tvg-id="hungama-20261101-81" tvg-name="Hungama TV Shortlink TEST 81" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TV Shortlink TEST 81
+https://is.gd/N7vaq0.m3u8
 
 # ---- NEW OCT-27 2026: REQUESTED SHOW-ONLY 24x7 TEST SOURCES ----
 # Each URL is different; NOT a promise of video/audio in Bangladesh, region accessibility, unbroken 24 hours, or licensing.
@@ -220,17 +185,3 @@ http://103.165.93.31:8095/sonyYay/index.m3u8
 
 # SOURCE: publiciptv.com/countries/in/m3u; GitHub hmraju/TV
 # UNVERIFIED: Publicly listed as Hungama TV, but no HLS media-byte, actual channel, Link3 or audio test passed here. Viewer test only; Main MUST stay unchanged.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
