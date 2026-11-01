@@ -15,6 +15,13 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-11-01 newly found, publicly labeled candidates. AUDIT ONLY, never main playlist without identity, language and media proof.
+    {"channel":"Disney HD Hindi","url":"https://vt-ip.vodep39240327.workers.dev/2546.m3u8","evidence":"2026-11-01 github.com/eishakilei-bd08/eitv dormns20.m3u labels Disney HD Tata Play 4; verify India identity, Hindi audio, >=720p HLS and segment","expected_audio":"hi","min_height":720},
+    {"channel":"Disney HD Hindi","url":"https://ranapkx.site/FLEX/play.php?id=246763","evidence":"2026-11-01 github.com/eishakilei-bd08/eitv dormns20.m3u labels Disney HD Tata Play 5; verify real HLS and >=720p, no substitute","expected_audio":"hi","min_height":720},
+    {"channel":"Disney HD Hindi","url":"https://yowaimo.in/SF-SS/19741.m3u8","evidence":"2026-11-01 github.com/eishakilei-bd08/eitv dormns20.m3u labels Disney HD Tata Play 6; audio/identity/HD unverified","expected_audio":"hi","min_height":720},
+    {"channel":"Sonic Hindi","url":"http://103.180.212.191:3500/live/815.m3u8","evidence":"2026-11-01 github.com/eishakilei-bd08/eitv dormns20.m3u labels Sonic Jio ID 815; check global reachability, HLS segment, spoken Hindi; likely ISP-only","expected_audio":"hi"},
+    {"channel":"Sonic Bangla","url":"http://103.139.171.5:5001/live.php?c=Sonic_Bangla&q=800&e=junk.m3u8","evidence":"2026-11-01 github.com/hmamun16/hmamun16 Bappi 2 explicitly Sonic Bangla; inspect segment and Bengali audio; possible ISP-only","expected_audio":"bn"},
+    {"channel":"Sonic Bangla","url":"http://103.159.180.34:5001/live/1345.m3u8","evidence":"2026-11-01 github.com/maybetv/jojo Clarity.m3u lists Sonic Bangla Jio 1345; likely ISP-only, no publication unless independent segment/audio checks","expected_audio":"bn"},
     # 2026-11-01 newly discovered exact Sonic Hindi Jio ID 815, from nepalicana/iptv Jio FHD.m3u8; audit only.
     {"channel":"Sonic Hindi","url":"https://snehjiotv.in1.bitmana.io/snehjioox.php?c=sonic_Hindi&q=1200&e=junk.m3u8","evidence":"github.com/nepalicana/iptv Jio FHD.m3u8 labels Sonic Hindi (Jio 815); requires real HLS media and Hindi audio evidence; not user-verified","expected_audio":"hi"},
     # 2026-10-31 newly located GitHub-labeled Disney Channel INDIA; no HD/Hindi proof.
