@@ -1,0 +1,66 @@
+{
+  "checked_local": "2026-11-01 13:51 Asia/Dhaka",
+  "scope": "Fresh publicly accessible independent 24/7 dedicated Gopal Bhar Bengali and Shinchan Hindi direct HLS/M3U8",
+  "result": "NO independently validated new correct-show playable stream; NO playlist changes.",
+  "sources_reviewed": [
+    {
+      "repo": "alaminislam203/my_playlist",
+      "file": "24*7.m3u",
+      "finding": "Gopal 209611 and Shinchan 209901 both previously rejected; aliases only."
+    },
+    {
+      "repo": "MRM3UK/New-try",
+      "file": "Bdiptv.m3u, mixsports.m3u",
+      "finding": "Both series map to previously rejected cloudfrontnet 209611/209901."
+    },
+    {
+      "repo": "ahsam991/Live-TV-Channel-",
+      "file": "src/data/hexaChannels.ts",
+      "finding": "Only excluded 209611 and 209901 plus known aliases."
+    },
+    {
+      "repo": "vinod-rajput-vg/My-India-TV",
+      "file": "Category Channels/kids.txt",
+      "finding": "giatv-210780 labelled Shinchan; already examined 2026-11-01 08:26 BD and cross-labelled Crime Patrol Bengali; not Shinchan. Previously tested manifest 200 and fresh media bytes but no show/audio proof. Rejected."
+    },
+    {
+      "repo": "sadabx/iptv",
+      "file": "js/channel-catalog.js",
+      "finding": "Gopal Bhar maps to excluded BozzTV giatv-209611."
+    },
+    {
+      "repo": "memevaiya2O/streamobhai",
+      "file": "api.html",
+      "finding": "Gopal Bhar tplay.live/playlist/kids/gopal-bhar/index.m3u8, previously failed and likely same origin."
+    },
+    {
+      "repo": "channeliptv0/IPTV",
+      "file": "TV1.m3u",
+      "finding": "Both shows map to excluded cloudfrontnet 209611/209901."
+    },
+    {
+      "repo": "wizakorhd/iptv",
+      "file": "playlist-anime.m3u, playlist-hindi.m3u",
+      "finding": "No direct dedicated Gopal Bhar or Shinchan Hindi entry."
+    },
+    {
+      "repo": "gnaidu05/Iptv",
+      "file": "playlists/india-active.m3u, playlists/samsung-india.m3u",
+      "finding": "No dedicated Gopal Bhar or Shinchan Hindi entry."
+    },
+    {
+      "repo": "r1d3x6/djwahwjwywhwnsmslksnsmslg",
+      "file": "aysbwor",
+      "finding": "Shinchan 209901 alias, excluded."
+    }
+  ],
+  "probe_note": "No genuinely new distinct candidate remains after origin deduplication, so no new GitHub Actions media verification was warranted. Existing giatv-210780 had manifest+bytes on prior run but wrong-show cross-identification. Current runtime container lacks outbound DNS, so do not claim direct playback verification.",
+  "playlist_integrity": {
+    "test_entries": 19,
+    "test_sha": "a48f1e6d963b0d14f8afbd00ff56070eb68f5d69",
+    "main_entries": 75,
+    "main_sha": "6245f295af3d997bb98aba4cbb038656e2ee7fb7",
+    "modified": false
+  },
+  "decision": "Do not notify user; continue scheduled search. Only add independent verified dedicated show-only feed with correct language."
+}
