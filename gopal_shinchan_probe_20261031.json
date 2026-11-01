@@ -1,7 +1,25 @@
 {
-  "utc": "2026-10-31T02:15:33.830076+00:00",
+  "utc": "2026-11-01T02:26:26.442955+00:00",
   "note": "Media bytes do not verify show identity or spoken language. No playlist edits permitted without independently verified programme and audio.",
   "results": [
+    {
+      "name": "shinchan_bozz_210780_new_claim",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-210780/tracks-v1a1/mono.ts.m3u8",
+      "status": "unverified",
+      "manifest_valid": true,
+      "media_bytes_valid": true,
+      "video_decoded": false,
+      "show_verified": false,
+      "hindi_audio_verified": false,
+      "http": 200,
+      "final_url": "https://live20.bozztv.com/giatvplayout7/giatv-210780/tracks-v1a1/mono.ts.m3u8",
+      "content_type": "application/vnd.apple.mpegurl",
+      "first_bytes": "#EXTM3U\n#EXT-X-TARGETDURATION:15\n#EXT-X-VERSION:3\n#EXT-",
+      "segment_http": 200,
+      "segment_bytes": 16000,
+      "segment_prefix_hex": "474000100000b00d0001c100",
+      "error": "[Errno 2] No such file or directory: 'ffprobe'"
+    },
     {
       "name": "gopal_tplay_kids_path",
       "url": "https://tplay.live/playlist/kids/gopal-bhar/index.m3u8",
