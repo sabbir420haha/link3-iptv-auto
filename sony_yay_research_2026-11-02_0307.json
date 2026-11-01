@@ -1,0 +1,96 @@
+{
+  "research_local_time": "2026-11-02T03:07:48+06:00",
+  "latest_prior_remote_probe_utc": "2026-11-01T20:34:59.519224+00:00",
+  "scope": "Sony YAY! Hindi only, public unauthenticated non-BDIX live streams; preserve all existing playlists",
+  "search_surfaces": [
+    "GitHub code search: Sony Yay Hindi, SonyYaySD, Sony_Yay_Hindi, sony_yay_abr, m3u8",
+    "GitHub issues: iptv-org/iptv Sony Yay, recent stream reports",
+    "Web search: newly updated Sony YAY Hindi IPTV playlists and issue reports"
+  ],
+  "existing_candidate_count": 195,
+  "latest_prior_probe_summary": {
+    "failed": 193,
+    "video_decoded_hls_advancement_unproven": 1,
+    "remote_90s_video_verified_but_not_hindi": 1,
+    "new_verified_hindi": 0
+  },
+  "decoded_exceptions": [
+    {
+      "id": "Y107",
+      "url": "https://sonyliv.07in.workers.dev/live/999/999/sony-yay.m3u8",
+      "samples": 3,
+      "decoded_frames": [
+        18,
+        18,
+        18
+      ],
+      "span_seconds": 64,
+      "hls_advancing": false,
+      "hindi_audio_metadata": false,
+      "result": "NOT QUALIFIED: no verified advancing live HLS or Hindi audio"
+    },
+    {
+      "id": "Y190",
+      "url": "http://138.121.15.230:9002/SONY/index.m3u8",
+      "samples": 3,
+      "decoded_frames": [
+        18,
+        18,
+        18
+      ],
+      "span_seconds": 64,
+      "hls_advancing": true,
+      "audio_tags": [
+        "spa"
+      ],
+      "hindi_audio_metadata": false,
+      "result": "NOT QUALIFIED: Spanish audio tag, no Hindi evidence"
+    }
+  ],
+  "newly_reviewed_issue": {
+    "url": "https://github.com/iptv-org/iptv/issues/57300",
+    "stream_url": "http://103.165.93.31:8095/sonyYay/index.m3u8",
+    "finding": "Reported not loading. Already known as Y14; excluded from re-adding."
+  },
+  "deduped_research_examples": [
+    {
+      "url": "https://stream.ottplus.bd/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8",
+      "prior_id": "Y50"
+    },
+    {
+      "url": "http://stream-7b694ce7e.nmbs.top/m3u/Kids/33c579a90c.m3u8",
+      "prior_id": "Y106"
+    },
+    {
+      "url": "https://plugsony.cstds.workers.dev/sligni/sony.php/yay.m3u8",
+      "prior_id": "Y33"
+    },
+    {
+      "url": "http://mumsite.cdnsrv.jio.com/jiotv.live.cdn.jio.com/Sony_Yay_Hindi/Sony_Yay_Hindi_800.m3u8",
+      "prior_id": "Y92"
+    },
+    {
+      "url": "https://d20fdzcwhk7szz.cloudfront.net/SONY_YAY.m3u8",
+      "prior_id": "Y78"
+    },
+    {
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyyay/playlist.m3u8",
+      "prior_id": "Y62",
+      "reason": "BDIX / Hindi unverified"
+    },
+    {
+      "url": "https://tataplay.slivcdn.com/hls/live/2011746/SonyYaySD/master_2000.m3u8",
+      "prior_id": "Y162"
+    },
+    {
+      "url": "https://qrpay.fun/TS-JioTV-main/app/live.php?id=872&e=.m3u8",
+      "prior_id": "Y116"
+    }
+  ],
+  "current_run_probe_limitation": "This runtime has no direct outbound stream network access; fresh 3-interval ffprobe decoding cannot be performed here. Existing GitHub-runner report was reviewed instead. No false success claims.",
+  "outcome": "No new remotely validated advancing Sony YAY Hindi source. No playlist entry added.",
+  "test_playlist_modified": false,
+  "main_playlist_modified": false,
+  "favorites_modified": false,
+  "next_action": "Only add a new source after successful spaced ffprobe decode, live HLS advancement and positive Hindi audio evidence. Link3 test remains essential."
+}
