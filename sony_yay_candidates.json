@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-11-01",
   "main_baseline": "https://drk6xq0vhn.gpcdn.net/live/sony_yay_abr/index.m3u8",
   "purpose": "Solve main Sony Yay freeze; test only, no main edit",
   "candidates": [
@@ -968,6 +968,18 @@
       "url": "https://stream.imotv.online/toffe/live.php?id=edf7ba617dc5&e=.m3u8",
       "source": "farhad-iptv/freeflix toffee/playlist.m3u8; Sony YAY (IN) public HTTPS relay; newly discovered 2026-11-01; remote access and Hindi audio UNVERIFIED; not assumed Link3 compatible",
       "hindi_claim": false
+    },
+    {
+      "id": "Y162",
+      "url": "https://tataplay.slivcdn.com/hls/live/2011746/SonyYaySD/master_2000.m3u8",
+      "source": "honarab24/rs K + server.js public Sony Yay HLS variant (found 2026-11-01); Hindi channel label not independently verified",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y163",
+      "url": "https://tataplay.slivcdn.com/hls/live/2011746/SonyYaySD/master_1300.m3u8",
+      "source": "TarunG78/livetv sony_playlist.m3u explicitly Sony Yay Hindi (found 2026-11-01); remote decode/audio unverified",
+      "hindi_claim": true
     }
   ]
 }
