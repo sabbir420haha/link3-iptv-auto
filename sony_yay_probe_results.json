@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-01T15:27:30.912699+00:00",
-  "evaluated": 188,
+  "checked_utc": "2026-11-01T17:12:31.367233+00:00",
+  "evaluated": 190,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -110,7 +110,7 @@
       "source": "OTTPlus HD playlist, spoken language unknown",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "<urlopen error timed out>"
+      "reason": "segment_not_video"
     },
     {
       "id": "Y14",
@@ -534,7 +534,7 @@
       "source": "Your-Tribal-Chief/LiveTV Sony YAY from channel map",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "<urlopen error timed out>"
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "id": "Y67",
@@ -1337,7 +1337,7 @@
       "hindi_claim": true,
       "referer": "https://techandeat.online/",
       "status": "failed",
-      "reason": "segment_not_video"
+      "reason": "The read operation timed out"
     },
     {
       "id": "Y166",
@@ -1523,6 +1523,35 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y189",
+      "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0408/master.m3u8",
+      "source": "iptv-org/iptv issue #854, 2026-03-13 commenter says this Sony Yay source 'was working'; discovered for remote recheck 2026-11-01; language and current availability UNVERIFIED",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "segment_not_video"
+    },
+    {
+      "id": "Y190",
+      "url": "http://138.121.15.230:9002/SONY/index.m3u8",
+      "source": "samaratul/nanna-iptv playlist_baseline.m3u8; labelled Sony YAY in English-Kids group; found 2026-11-01; Hindi NOT proven, network scope unknown",
+      "hindi_claim": false,
+      "status": "remote_90s_video_verified",
+      "live_advancement_confirmed": true,
+      "height": 1080,
+      "decoded_frame_counts": [
+        18,
+        18,
+        18
+      ],
+      "audio_tags": [
+        "spa"
+      ],
+      "hindi_audio_metadata": false,
+      "manifest_advanced": true,
+      "probe_checks": 3,
+      "approximate_probe_span_seconds": 64
     }
   ]
 }
