@@ -9,9 +9,44 @@ import json
 import re
 import subprocess
 import time
+import threading
+import ipaddress
+import urllib.parse as up
+import urllib.request as req
 from pathlib import Path
+import documentary_probe as _documentary
+import sonic_probe as _sonic
 from sonic_probe import playlist_window
 from documentary_probe import manifest
+
+# Only explicitly declared, ordinary public Referer/User-Agent headers.
+# Per-thread headers avoid leaking one channel's settings into another probe.
+_request_local = threading.local()
+_original_fetch = _documentary.fetch
+
+def _fetch_with_public_headers(url, maxbytes=160000):
+    extra = getattr(_request_local, "headers", {})
+    if not extra:
+        return _original_fetch(url, maxbytes)
+    p = up.urlsplit(url)
+    if p.scheme not in ("http", "https") or not p.hostname or p.username or p.password:
+        raise ValueError("bad_url")
+    try:
+        address = ipaddress.ip_address(p.hostname)
+        if not address.is_global:
+            raise ValueError("non_public_ip")
+    except ValueError as error:
+        if str(error) == "non_public_ip":
+            raise
+    headers = dict(_documentary.HEADERS)
+    headers.update(extra)
+    with req.urlopen(req.Request(url, headers=headers), timeout=8) as response:
+        if response.status >= 400:
+            raise ValueError("HTTP " + str(response.status))
+        return response.read(maxbytes), response.url, response.headers.get("content-type", "")
+
+_documentary.fetch = _fetch_with_public_headers
+_sonic.fetch = _fetch_with_public_headers
 
 ROOT=Path(__file__).resolve().parent
 DATA=json.loads((ROOT/"sony_yay_candidates.json").read_text(encoding="utf-8"))
@@ -23,8 +58,14 @@ LOGO="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos
 def sample_frames(url):
     # Each checkpoint decodes fresh packets from live playback.
     cmd=["ffmpeg","-hide_banner","-nostdin","-loglevel","error",
-         "-rw_timeout","9000000","-i",url,"-map","0:v:0",
-         "-an","-frames:v","18","-f","null","-","-progress","pipe:1"]
+         "-rw_timeout","9000000"]
+    headers = getattr(_request_local, "headers", {})
+    if headers.get("User-Agent"):
+        cmd += ["-user_agent", headers["User-Agent"]]
+    if headers.get("Referer"):
+        cmd += ["-referer", headers["Referer"]]
+    cmd += ["-i",url,"-map","0:v:0",
+            "-an","-frames:v","18","-f","null","-","-progress","pipe:1"]
     try:
         p=subprocess.run(cmd,capture_output=True,text=True,timeout=38)
     except subprocess.TimeoutExpired:
@@ -38,6 +79,15 @@ def sample_frames(url):
 def probe(c):
     row={k:c[k] for k in ("id","url","source","hindi_claim")}
     u=c["url"]
+    headers={}
+    for field, header in (("referer", "Referer"), ("user_agent", "User-Agent")):
+        value = str(c.get(field, "")).strip()
+        if value:
+            if "\r" in value or "\n" in value:
+                raise ValueError("unsafe_http_header")
+            headers[header] = value
+            row[field] = value
+    _request_local.headers = headers
     try:
         if re.search(r"(?:[?&]mac=|/play/live\.php|/stalker/)",u,re.I):
             raise ValueError("credential_portal")
@@ -85,6 +135,8 @@ def probe(c):
                    probe_checks=3,
                    approximate_probe_span_seconds=64)
     except Exception as exc:row.update(status="failed",reason=str(exc)[:260])
+    finally:
+        _request_local.headers = {}
     return row
 
 def main():

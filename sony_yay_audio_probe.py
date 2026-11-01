@@ -20,13 +20,18 @@ AUDIO_RESULTS = ROOT / "sony_yay_audio_probe_results.json"
 TEST = ROOT / "documentary_hd_tests.m3u"
 LOGO = "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png"
 
-def record_audio(url, seconds=20):
+def record_audio(url, seconds=20, referer=None, user_agent=None):
     with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp:
         path = tmp.name
     cmd = ["ffmpeg", "-hide_banner", "-nostdin", "-loglevel", "error",
-           "-rw_timeout", "15000000", "-i", url, "-map", "0:a:0",
-           "-vn", "-ac", "1", "-ar", "16000", "-t", str(seconds),
-           "-y", path]
+           "-rw_timeout", "15000000"]
+    if user_agent:
+        cmd += ["-user_agent", user_agent]
+    if referer:
+        cmd += ["-referer", referer]
+    cmd += ["-i", url, "-map", "0:a:0",
+            "-vn", "-ac", "1", "-ar", "16000", "-t", str(seconds),
+            "-y", path]
     try:
         p = subprocess.run(cmd, capture_output=True, text=True, timeout=65)
         if p.returncode != 0 or os.path.getsize(path) < 16000 * 2 * 8:
@@ -54,7 +59,8 @@ def main():
                 from faster_whisper import WhisperModel
                 model = WhisperModel("base", device="cpu", compute_type="int8")
             for i in range(2):
-                wav = record_audio(row["url"])
+                wav = record_audio(row["url"], referer=row.get("referer"),
+                                   user_agent=row.get("user_agent"))
                 try:
                     segments, info = model.transcribe(
                         wav, beam_size=2, vad_filter=True,
