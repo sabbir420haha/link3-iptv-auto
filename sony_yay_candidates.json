@@ -818,6 +818,30 @@
       "url": "https://redmi.allinonereborn.xyz/jiotv-ww/app/live.php?id=279&e=.m3u8",
       "source": "MuzammilShah51214/Live-Tv-786 IndianTV-Live; Sony Yay, Hindi unconfirmed",
       "hindi_claim": false
+    },
+    {
+      "id": "Y137",
+      "url": "https://mhdtvhub.com/sliv/stream.php?id=1000001971&e=.m3u8",
+      "source": "arijitreza/web download.m3u, Sony Yay, source listed with referrer https://www.mhdtvhub.com/; Hindi unverified",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y138",
+      "url": "http://14.102.123.50:5001/live/872.m3u8",
+      "source": "ItsIsmailRobin/SkyBDIPTV index.html, Sony Yay Hindi tvg-language=Hindi; ISP restriction unknown",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y139",
+      "url": "http://103.118.77.30:1935/live/Shari/MTV-P/172.m3u8",
+      "source": "fahadskt/IPTV-Playlists Old/KITV, explicitly Sony Yay (Hindi), Pakistan network, old unverified",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y140",
+      "url": "https://github.com/alluringabhi/iptv1/raw/master/sonyyay.m3u8",
+      "source": "alluringabhi/iptv1 ashu.m3u, Sony YAY, GitHub raw redirect, Hindi unverified",
+      "hindi_claim": false
     }
   ]
 }
