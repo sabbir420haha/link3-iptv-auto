@@ -1,5 +1,5 @@
 #EXTM3U
-# REFRESH COPY created 2026-11-02 (cache bust): Sonic Hindi TEST 92-103. All other source entries preserved.
+# REFRESH TEST playlist | Sonic Hindi trials user-reported failed and removed on 2026-11-02; future verified candidates only.
 # TEST ONLY. Unverified on Link3, not part of main playlist.
 # Manual TEST playlist | Hungama large-batch trials after TEST 29 | 2026-11-01
 # Existing user-confirmed failed URLs, HTTP 403/404, invalid DNS/cert, expiring tokens, private IPs, and duplicates excluded.
@@ -8,33 +8,13 @@
 #EXTINF:-1 tvg-id="hungama-test3-29" tvg-name="Hungama TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 29
 http://103.135.253.32:8080/HUNGAMA/index.m3u8
 
-# SONIC HINDI NEW SOURCED TRIALS 134-137 | 2026-11-02
-# USER CONFIRMED 111-133 ALL FAILED. Those 23 old Sonic entries have been removed.
-# Four previously untested endpoints only. Other 12 collected candidates matched past tried/failed sources and were excluded.
-# No BDIX-only or direct-IP host URL was selected. HTTPS site does NOT imply playable stream.
-# All four are UNVERIFIED on Link3. Geo, rights, DRM, authentication, or format restrictions may prevent playback.
-# Not a change to MAIN; Hungama TEST 29 and all non-Sonic entries preserved.
+# SONIC HINDI UNAVAILABLE / FAIL REPORT | 2026-11-02
+# USER CONFIRMED Sonic Hindi TEST 134-137 did not play on Link3 / IPTV Pro.
+# All tested Sonic attempts 44-137 have been reported unsuccessful; none verified working.
+# Previously failed Sonic 134-137 removed; do not restore until playback evidence exists.
+# Future new Sonic links must be independently sourced and require Link3/video/Hindi verification.
+# Other channels including Hungama TEST 29 remain unchanged. MAIN playlist untouched.
 #
-# SOURCE: nepalicana/iptv Jio FHD.m3u8
-# STATUS: UNVERIFIED; audio/Hindi not independently confirmed
-#EXTINF:-1 tvg-id="sonic-hindi-test-134-nov02" tvg-name="Sonic Hindi TEST 134" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 134
-https://snehjiotv.in1.bitmana.io/snehjioox.php?c=sonic_Hindi&q=1200&e=junk.m3u8
-
-# SOURCE: Zahidsdlbd/jio mix.m3u8
-# STATUS: UNVERIFIED; audio/Hindi not independently confirmed
-#EXTINF:-1 tvg-id="sonic-hindi-test-135-nov02" tvg-name="Sonic Hindi TEST 135" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 135
-https://jio.dinesh29.com.np/live/jio-universal/sonic-hindi/index.ts
-
-# SOURCE: anasselkadii/jcartoondashboard epesodes/toffee.m3u8
-# STATUS: UNVERIFIED; audio/Hindi not independently confirmed
-#EXTINF:-1 tvg-id="sonic-hindi-test-136-nov02" tvg-name="Sonic Hindi TEST 136" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 136
-https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sonic
-
-# SOURCE: konanda-sg/teststst tplay/main.js
-# STATUS: UNVERIFIED; audio/Hindi not independently confirmed
-#EXTINF:-1 tvg-id="sonic-hindi-test-137-nov02" tvg-name="Sonic Hindi TEST 137" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 137
-https://anywhere.pwisetthon.com/http://203.18.159.115/SONIC/tracks-v1a1/mono.m3u8
-
 # HUNGAMA NOVEMBER 01 SECOND BATCH — USER-TEST ONLY
 # Newly found source-labelled URLs, NOT confirmed working, no Link3 or video/audio validation.
 # Check Hungama TV TEST 106–116; 117 is explicitly a Kids variant and may be different content.
