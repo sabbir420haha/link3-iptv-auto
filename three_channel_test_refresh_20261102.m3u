@@ -15,23 +15,12 @@ http://103.135.253.32:8080/HUNGAMA/index.m3u8
 # Future new Sonic links must be independently sourced and require Link3/video/Hindi verification.
 # Other channels including Hungama TEST 29 remain unchanged. MAIN playlist untouched.
 #
-# DEEP-SEARCH 2026-11-02 — TWO DISTINCT NEW SONIC IPTV TEST SOURCES (138-139)
-# Sources obtained from published GitHub provider playlists; no guessed endpoints.
-# Neither stream has confirmed HTTP 200 + #EXTM3U + media segment + Hindi audio on Link3.
-# TEST 138 shares previous failed source SERVER with different advertised manifest path.
-# TEST 139: Tamil/Bangla language possible; published as Sonic Tata Play; Hindi not confirmed.
-# Prior failed 134-137 removed. No MAIN playlist modifications; other tests unchanged.
+# SONIC HINDI 2026-11-02 STATUS: USER CONFIRMED ALL NEW 138-139 LINKS FAIL ON LINK3
+# These 2 failing source entries were removed. Other public Sonic source families had also failed.
+# See sonic_hindi_deep_research_20261102.md for testing evidence and candidate exclusion policy.
+# No source is now marked working; do not add guessed, expired, DRM-protected, or BDIX-only URLs.
+# Main playlist and other (including Hungama TEST 29) channel tests preserved.
 #
-# SOURCE: darkbyteprojects/iptv_png/provider_5/categories/Kids.json
-# CAUTION: Same server family as an earlier failed tracks-v1a1 URL; alternate /index manifest not playback-tested
-#EXTINF:-1 tvg-id="sonic-hindi-deep-138-20261102" tvg-name="Sonic Hindi TEST 138" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 138
-http://144.217.70.181:9587/hin2/SONIC/index.m3u8
-
-# SOURCE: eishakilei-bd08/eitv/dormns20.m3u
-# CAUTION: Source calls it Sonic (Tata Play)1 but labels logo Bangla; actual language and Link3 access unverified
-#EXTINF:-1 tvg-id="sonic-hindi-deep-139-20261102" tvg-name="Sonic Hindi TEST 139" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 139
-http://66.102.126.10:8000/play/a00p/index.m3u8
-
 # HUNGAMA NOVEMBER 01 SECOND BATCH — USER-TEST ONLY
 # Newly found source-labelled URLs, NOT confirmed working, no Link3 or video/audio validation.
 # Check Hungama TV TEST 106–116; 117 is explicitly a Kids variant and may be different content.
