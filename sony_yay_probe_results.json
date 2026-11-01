@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-01T02:16:52.149511+00:00",
-  "evaluated": 156,
+  "checked_utc": "2026-11-01T03:18:35.629196+00:00",
+  "evaluated": 157,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -1264,6 +1264,14 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "<urlopen error timed out>"
+    },
+    {
+      "id": "Y157",
+      "url": "https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/protv.m3u8?id=2802",
+      "source": "Junan02/bdiptvtest check ok.m3u (GitHub search 2026-11-01); Sony YAY India; audio language unverified; public URL without keys or credentials",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
     }
   ]
 }
