@@ -1,28 +1,168 @@
 #EXTM3U
-# Manual TEST playlist | Updated 2026-11-01 | Hungama TEST 82-84 immediately after TEST 29
+# Manual TEST playlist | Hungama large-batch trials after TEST 29 | 2026-11-01
 # Existing user-confirmed failed URLs, HTTP 403/404, invalid DNS/cert, expiring tokens, private IPs, and duplicates excluded.
 # For any confirmed working TEST number, pin direct URL in Main only after viewer confirmation.
 # IMPORTANT: Hungama TEST 29 intentionally unchanged.
 #EXTINF:-1 tvg-id="hungama-test3-29" tvg-name="Hungama TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 29
 http://103.135.253.32:8080/HUNGAMA/index.m3u8
 
-# NEW Hungama independent sources 82-84, 2026-11-01
-# GitHub-public candidate links only; NOT confirmed playing on Link3; NOT tested for full HLS segments.
+# HUNGAMA LARGE BATCH 2026-11-01 — Public playlist URLs, NOT confirmed playing on Link3.
+# All trial sources are distinct URLs; no user-rejected URLs intentionally reused.
 
-# SOURCE Hungama TEST 82: maopu2001/personal_isp_iptv personal.m3u8 | Hungama (HelloTech)
-# IMPORTANT: Possible HelloTech ISP restriction; Link3 unverified
-#EXTINF:-1 tvg-id="hungama-nov2026-82" tvg-name="Hungama TEST 82" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 82
-https://tvapp-hellotech.easypecker.com/HUNGAMA/index.m3u8
+# SOURCE Hungama TEST 85: https://github.com/mahmud31132/bdix-tv/blob/79a6443f6a4a1cece0d7bc9f6ac725a61968b715/Dump
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-85" tvg-name="Hungama TEST 85" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 85
+http://103.179.246.243:8000/play/a01x
 
-# SOURCE Hungama TEST 83: tvbd/m3uplayer m3u/subirmaxpro.m3u | Hungama TV
-# IMPORTANT: Unverified third-party relay; could expire or be blocked
-#EXTINF:-1 tvg-id="hungama-nov2026-83" tvg-name="Hungama TEST 83" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 83
-https://its-nayeemparvez.xyz/thunder-streamz/playlist.m3u8?id=41a15257f3d69e742
+# SOURCE Hungama TEST 86: https://github.com/mahmud31132/bdix-tv/blob/79a6443f6a4a1cece0d7bc9f6ac725a61968b715/Not working.m3u8
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-86" tvg-name="Hungama TEST 86" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 86
+http://103.162.136.235:4500/play/a01h/index.m3u8
 
-# SOURCE Hungama TEST 84: labib5556/Labi-h my list.m3u | hungama tv
-# IMPORTANT: Unverified third-party relay; could expire or be blocked
-#EXTINF:-1 tvg-id="hungama-nov2026-84" tvg-name="Hungama TEST 84" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 84
-https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/tiptop-op.m3u8?id=1094
+# SOURCE Hungama TEST 87: https://github.com/ahsam991/tvdekh/blob/ab2f49023285d001fe8074e9e4d0e4ebb9ac7f92/index_1.html
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-87" tvg-name="Hungama TEST 87" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 87
+http://103.182.170.32:8888/play/a04b
+
+# SOURCE Hungama TEST 88: https://github.com/rajushaw/iptb.raw.github.io/blob/cdf3fc30e26dfb567db3cf6e6f7e9dad515c443b/99yfile.m3u
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-88" tvg-name="Hungama TEST 88" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 88
+http://144.217.70.181:9587/hin2/HUNGAMA/tracks-v1a1/mono.m3u8
+
+# SOURCE Hungama TEST 89: https://github.com/riyad456/supernetIPTV/blob/f0620b6c8ebc680c5aa0a7eea0d80993c3ea497d/live
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-89" tvg-name="Hungama TEST 89" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 89
+http://103.157.237.18:8000/play/407
+
+# SOURCE Hungama TEST 90: https://github.com/hasan-psl/Leaf-TV/blob/80096b3c5103849f9ebee26ab68ed73bdd135095/resources/stream/Leaf-TV.m3u
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-90" tvg-name="Hungama TEST 90" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 90
+https://url-conv.vercel.app/play/a023/index.m3u8
+
+# SOURCE Hungama TEST 91: https://github.com/softwaresign/DevServerStreams/blob/ce7eb14e7f09e0f7259566864814f3727a7bc0c8/hindi_channels_ns.m3u
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-91" tvg-name="Hungama TEST 91" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 91
+http://111.88.78.21:8000/play/a0z1/index.m3u8
+
+# SOURCE Hungama TEST 92: https://github.com/Farabi-2005/Farabi/blob/3d58455d6b05f8d85e0b5364ba8f8e1b5ccc9751/m3u
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-92" tvg-name="Hungama TEST 92" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 92
+http://lifetvbd.xyz:8080/637274728473/1020304050/90.ts
+
+# SOURCE Hungama TEST 93: https://github.com/sx3in/bdix/blob/8e70358c1b022bda75c24202774292dd451a75ae/dhakaflix
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-93" tvg-name="Hungama TEST 93" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 93
+https://sbc-prod-dub-ak.akamaized.net/out/v1/2eb1ad0f29984a339bc0fce4ce94dcbb/index.m3u8
+
+# SOURCE Hungama TEST 94: https://github.com/GhostHostBD/tvlink/blob/048834b8f087d8a1a819c94b18746d3c373412f6/Indian
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-94" tvg-name="Hungama TEST 94" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 94
+http://202.125.144.115:8000/play/a00g/index.m3u8
+
+# SOURCE Hungama TEST 95: https://github.com/Live-Anime-Cartoon-bot/Record-bot/blob/f90a860f9447b3ca63eb45879ebf5e7afcd3f90c/playlist.m3u8
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-95" tvg-name="Hungama TEST 95" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 95
+http://51.75.127.199:3141/hungama/index.m3u8
+
+# SOURCE Hungama TEST 96: https://github.com/Mpdishtv/MPDISHTV/blob/a66dafaf93c83aef22553b465d5ad0c88141ed39/README.md
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-96" tvg-name="Hungama TEST 96" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 96
+https://fifabd.xyz/KID/play.m3u8?id=150480
+
+# SOURCE Hungama TEST 97: https://github.com/Vikassm73/AjaykRepo/blob/249037a318d750a1c7e062030c2c00e41bff4c0e/Zips/India.m3u
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-97" tvg-name="Hungama TEST 97" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 97
+http://iptv.prosto.tv:7000/ch207/video.m3u8
+
+# SOURCE Hungama TEST 98: https://github.com/passthepopcorn/sam/blob/174b504f9210f44c1610e7356264e92a3ddeed6b/channels.m3u8
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-98" tvg-name="Hungama TEST 98" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 98
+https://sangamp94.github.io/filmaxxplay/filmaxxlivehungama.m3u8
+
+# SOURCE Hungama TEST 99: https://github.com/ranapk73/BDIX/blob/f6991bd2747b7037752053f7c3044cc0d55d7992/star7indiabyRanaPk.m3u8
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-99" tvg-name="Hungama TEST 99" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 99
+https://ranapkz5.1.mywebsites.link/fckk.php?id=48164&e=.m3u8
+
+# SOURCE Hungama TEST 100: https://github.com/brandenp198483-collab/branden-tv/blob/4489fb0749df3060ad619f0c7e8425b40a08fd93/github_m3u_cache/shahakshay938-shahakshay938.github.io__backups-streams-2026-05-09-hungamatv-in-sd.m3u8
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-100" tvg-name="Hungama TEST 100" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 100
+http://ajkiptv.ridsys.in/riptv/live/HUNGAMA/index.m3u8
+
+# SOURCE Hungama TEST 101: https://github.com/Sonuiptvnew/Sonuiptvnew/blob/5d4cca3c9e8258373feeaf556b1a9e58bc4cf32e/Sonuiptvskystream
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-101" tvg-name="Hungama TEST 101" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 101
+http://mygoodstream.pw/proxy.php/http://70.39.83.58:8278/hungamahindikdin/playlist.m3u8
+
+# SOURCE Hungama TEST 102: https://github.com/aoestudios57/aoestudios57.github.io/blob/99b635ac97e173c6c2612e541b12564cc8a8dff1/aoe-tv/CONTENT/mix/files/Star7 playlist.m3u8
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-102" tvg-name="Hungama TEST 102" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 102
+https://akiliv.herokuapp.com/app/master.php?id=48164&e=.m3u8
+
+# SOURCE Hungama TEST 103: https://github.com/johirxofficial/johirxofficial.github.io/blob/f785f1e0d3db2d7e5bf696abe02570ecef950878/live/otv_bd_may.m3u
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-103" tvg-name="Hungama TEST 103" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 103
+https://filoox.vercel.app/live/150480.m3u8
+
+# SOURCE Hungama TEST 104: https://github.com/mtbtv/tataplay/blob/226e6caee983402eebd42c03290b75a966389600/playlist.m3u
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-104" tvg-name="Hungama TEST 104" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 104
+http://103.84.57.155:8000/play/a03t/94494770.m3u8
+
+# SOURCE Hungama TEST 105: https://github.com/mcvraghavan1963/IPTV/blob/5d60b3e94aa6cc9dfdbb9f4718efd212d0213807/indiatv.m3u
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-105" tvg-name="Hungama TEST 105" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 105
+http://iptvcasomsapi.jprdigital.in/x-media/C0408/master.m3u8
+
+# SOURCE Hungama TEST 106: https://github.com/brandenp198483-collab/branden-tv/blob/4489fb0749df3060ad619f0c7e8425b40a08fd93/github_m3u_cache/OinktechLLC-livem3u__data-playlists-Kids.m3u
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-106" tvg-name="Hungama TEST 106" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 106
+https://secure-272717.tatnet.app/secure-272717.tatnet.app/149.71.34.166:8000/play/a075/index.m3u8
+
+# SOURCE Hungama TEST 107: https://github.com/ramprasanna1/Tvchannels/blob/b0cc18dfb4d47c22887ad624aad2bfb5390bf5a1/tv.m3u
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-107" tvg-name="Hungama TEST 107" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 107
+http://103.131.214.129:9985/stream/channel/c9f30c14011704a865861e0a072d431f?profile=pass
+
+# SOURCE Hungama TEST 108: https://github.com/alopoki/Itsnee/blob/ef94cb27b8bb9f3516493b7a1ef3b8a3877b0531/TataIndex.html
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-108" tvg-name="Hungama TEST 108" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 108
+http://14.102.123.50:9080/play/a05u
+
+# SOURCE Hungama TEST 109: https://github.com/tvbd/m3uplayer/blob/754dead313ecf2dc81a55771773181d909dbc90e/m3u/rabbyos.m3u
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-109" tvg-name="Hungama TEST 109" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 109
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/bollywoodhungama_live_https/master.m3u8
+
+# SOURCE Hungama TEST 110: https://github.com/amtoresize/TV/blob/dbd399850e2d6600357483d7371d9edd2137e634/Playlist/Kids.m3u
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-110" tvg-name="Hungama TEST 110" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 110
+https://tamilultra.tv/master.m3u8?c=HUNGAMA_TAMIL&server=3
+
+# SOURCE Hungama TEST 111: https://github.com/heartlog/worldtv/blob/85761cbe3238f8214b14b79c1caec423960b973b/india.m3u
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-111" tvg-name="Hungama TEST 111" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 111
+https://alex4528.site/k7m2q9x4b8nc/stream.ts?id=132887
+
+# SOURCE Hungama TEST 112: https://github.com/AH-616/AH-MEDIA/blob/8c3834f1780c95e98601fd51cc96173952f66849/assets/AH.m3u
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-112" tvg-name="Hungama TEST 112" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 112
+http://103.253.18.58:8000/play/a01c
+
+# SOURCE Hungama TEST 113: https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/SUBIR
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-113" tvg-name="Hungama TEST 113" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 113
+http://202.163.117.6:9981/stream/channelid/1357890196
+
+# SOURCE Hungama TEST 114: https://github.com/musfikur-rahman/iptv/blob/e1711d9f94c304d86eb72c78e025109719a32236/Allutv1.m3u
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-114" tvg-name="Hungama TEST 114" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 114
+http://202.163.117.6:9981/stream/channelid/1357890196?codec=mpegts&profile=pass
+
+# SOURCE Hungama TEST 115: https://github.com/freedish2024/personal-project.sr/blob/9836e226b13f3b3605b4e264c6c2c1a31ed95ed8/Kids
+# UNVERIFIED: public GitHub listing only; may be offline, wrong mapping or ISP-restricted.
+#EXTINF:-1 tvg-id="hungama-batch-115" tvg-name="Hungama TEST 115" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 115
+https://raw.githubusercontent.com/freedishbhai/FreeDish-Channels-Link-Headers/main/%2B%22Channels/freedishbhai2.m3u8
 
 # ---- NEW OCT-27 2026: REQUESTED SHOW-ONLY 24x7 TEST SOURCES ----
 # Each URL is different; NOT a promise of video/audio in Bangladesh, region accessibility, unbroken 24 hours, or licensing.
