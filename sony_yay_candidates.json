@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "main_baseline": "https://drk6xq0vhn.gpcdn.net/live/sony_yay_abr/index.m3u8",
   "purpose": "Solve main Sony Yay freeze; test only, no main edit",
   "candidates": [
@@ -1144,6 +1144,19 @@
       "id": "Y190",
       "url": "http://138.121.15.230:9002/SONY/index.m3u8",
       "source": "samaratul/nanna-iptv playlist_baseline.m3u8; labelled Sony YAY in English-Kids group; found 2026-11-01; Hindi NOT proven, network scope unknown",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y191",
+      "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/2705f26aaabdf72.m3u8",
+      "source": "imranemon1/emon Playlist-Kids.m3u8; specifically labelled SONY YAY HINDI, public endpoint; found 2026-11-02; age of source unknown, unverified",
+      "hindi_claim": true,
+      "user_agent": "stream"
+    },
+    {
+      "id": "Y192",
+      "url": "http://iptv.kitv.live:1935/live/Shari/MTV-P/172.m3u8",
+      "source": "Shadmanislam/bdiptv BD IPTV.m3u; labelled Sony Yay, public HLS URL; found 2026-11-02; Hindi audio unverified, could be ISP restricted",
       "hindi_claim": false
     }
   ]
