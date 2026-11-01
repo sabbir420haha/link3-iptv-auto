@@ -842,6 +842,30 @@
       "url": "https://github.com/alluringabhi/iptv1/raw/master/sonyyay.m3u8",
       "source": "alluringabhi/iptv1 ashu.m3u, Sony YAY, GitHub raw redirect, Hindi unverified",
       "hindi_claim": false
+    },
+    {
+      "id": "Y141",
+      "url": "http://103.81.104.118/hls/stream32.m3u8",
+      "source": "SArun61/IPTV TV1.m3u, Sony YAY Hindi explicit tvg-language Hindi; public IP, no credentials",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y142",
+      "url": "http://116.90.120.151:8000/play/a0hf/index.m3u8",
+      "source": "iptv-org/iptv issue 34597 Sony Yay SD 576p; audio not verified",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y143",
+      "url": "https://roarzone.geoclaster.xyz/main/stream.php?id=ZWRnZTMvc29ueS15YXk%3D&name=Sony+Yay&format=.m3u8",
+      "source": "badalbd53/Rocket-OTV bdixtest Roarzone; Sony Yay alternative proxy; language unknown",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y144",
+      "url": "https://legendary-orbit-r44wx4gj9xq6fwxqx-8080.app.github.dev/stream/sony_yay/index.m3u8",
+      "source": "Prtstream820894/GitHub UAE.txt; Sony Yay, temporary public codespace host; language unverified",
+      "hindi_claim": false
     }
   ]
 }
