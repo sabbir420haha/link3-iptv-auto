@@ -6,111 +6,74 @@
 #EXTINF:-1 tvg-id="hungama-test3-29" tvg-name="Hungama TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 29
 http://103.135.253.32:8080/HUNGAMA/index.m3u8
 
-# SONIC HINDI NEW NON-BDIX WEB SOURCE TRIALS | 2026-11-02
-# Replaces USER-FAILED Sonic Hindi TEST 69-72. Historic fails 01-68 not re-added.
-# NO BDIX/local ISP hosts, private IPs, or raw numeric IP stream URLs used.
-# PUBLIC SOURCE-LISTED ONLY: NOT HTTP/VIDEO/HD/AUDIO-verified and NOT Link3 verified.
-# Some Jio/HLS sources may be geoblocked, encrypted, expired, subscription-only, or not true Sonic Hindi.
-# Some may share the same upstream Jio channel despite different endpoint URLs.
-# TEST playlist only. DO NOT change Main or auto-promote failed tests.
+# SONIC HINDI NON-BDIX CANDIDATE BATCH | 2026-11-02 | TEST 92-103
+# USER REPORTED TEST 73-91 FAILED; removed all 19 from this TEST playlist.
+# No bare-IP, localhost, private network, or known BDIX-only source in this new batch.
+# WARNING: All streams are unverified and some may need authentication, be geoblocked/expired, or carry non-Hindi audio.
+# No source is marked WORKING. TEST only, do not copy to Main without on-device playback confirmation.
+# IPTV Pro may not support some Jio/Tata encrypted or non-M3U8 (.ts) endpoints.
+#
+# SOURCE Sonic Hindi TEST 92: tvbd/json tv/tv.json - Jio DRMLive AU
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-92-nov02" tvg-name="Sonic Hindi TEST 92" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 92
+https://jio.drmlive.au/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8
 
-# SOURCE Sonic Hindi TEST 73: sm-monirulislam/SM-IPTV iptv_bd.m3u
-# STATUS: UNVERIFIED | external web source | BDIX NOT claimed or used
-#EXTINF:-1 tvg-id="sonic-hindi-trial-73-nov02" tvg-name="Sonic Hindi TEST 73" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 73
-https://madanitv.assadikb.workers.dev/live.php?id=815&e=.m3u8
+# SOURCE Sonic Hindi TEST 93: CricZone/BDStreamHub index.html - JioTV Nepal CDN path
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-93-nov02" tvg-name="Sonic Hindi TEST 93" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 93
+https://live.dinesh29.com.np/stream/jiotv/sonichindi/master.m3u8
 
-# SOURCE Sonic Hindi TEST 74: arafat-anowar/iptv ip.m3u8
-# STATUS: UNVERIFIED | external web source | BDIX NOT claimed or used
-#EXTINF:-1 tvg-id="sonic-hindi-trial-74-nov02" tvg-name="Sonic Hindi TEST 74" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 74
-https://sonamul3535.vercel.app/Sonic-Hindi.m3u8
+# SOURCE Sonic Hindi TEST 94: freedish2024/personal-project.sr Kids - Tata Play Sonic Nickelodeon
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-94-nov02" tvg-name="Sonic Hindi TEST 94" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 94
+https://tplay.dinesh29.com.np/live/tataplay-universal/sonic-nickelodeon/index.ts
 
-# SOURCE Sonic Hindi TEST 75: SArun61/IPTV Jio.m3u
-# STATUS: UNVERIFIED | external web source | BDIX NOT claimed or used
-#EXTINF:-1 tvg-id="sonic-hindi-trial-75-nov02" tvg-name="Sonic Hindi TEST 75" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 75
-https://jioapi.sports247.eu.org/api/app/live.php?id=815&e=.m3u8
+# SOURCE Sonic Hindi TEST 95: sreshtantbohidar/WATCH-LIVE-TV channels_1.m3u - Jio DRMLive NET
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-95-nov02" tvg-name="Sonic Hindi TEST 95" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 95
+https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8
 
-# SOURCE Sonic Hindi TEST 76: LazaHaze aria.m3u JioCinema non-production
-# STATUS: UNVERIFIED | external web source | BDIX NOT claimed or used
-#EXTINF:-1 tvg-id="sonic-hindi-trial-76-nov02" tvg-name="Sonic Hindi TEST 76" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 76
-https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8
+# SOURCE Sonic Hindi TEST 96: sreshtantbohidar/WATCH-LIVE-TV channels_1.m3u - alternate Cloudflare Worker (source commented)
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-96-nov02" tvg-name="Sonic Hindi TEST 96" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 96
+https://live.drmlive-02.workers.dev/jc/815.m3u8
 
-# SOURCE Sonic Hindi TEST 77: mdsarfraj1ali/play JioHotstar.json
-# STATUS: UNVERIFIED | external web source | BDIX NOT claimed or used
-#EXTINF:-1 tvg-id="sonic-hindi-trial-77-nov02" tvg-name="Sonic Hindi TEST 77" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 77
-https://jcevents.hotstar.com/bpk-tv/JC_SonicNick/JCHLS/hls.m3u8
+# SOURCE Sonic Hindi TEST 97: sreshtantbohidar/WATCH-LIVE-TV channels_1.m3u - DRMLive Voot relay (source commented)
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-97-nov02" tvg-name="Sonic Hindi TEST 97" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 97
+https://drmlive.in/voot/web/815.m3u8
 
-# SOURCE Sonic Hindi TEST 78: opensourceflix/Friday jcinema.m3u
-# STATUS: UNVERIFIED | external web source | BDIX NOT claimed or used
-#EXTINF:-1 tvg-id="sonic-hindi-trial-78-nov02" tvg-name="Sonic Hindi TEST 78" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 78
-https://jcevents.hotstar.com/bpk-tv/JC_SonicNick/JCHLS/JC_SonicNick.m3u8
+# SOURCE Sonic Hindi TEST 98: khankimagi23221/okk-1 Jiocinema.m3u - JioCinema relay
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-98-nov02" tvg-name="Sonic Hindi TEST 98" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 98
+#EXTVLCOPT:http-referrer=https://neestreamtv.com/jcinema/
+https://neestreamtv.com/jcinema/stream.m3u8?id=3774149
 
-# SOURCE Sonic Hindi TEST 79: Hasibfy37/Iptv Final.m3u Hindi audio rendition
-# STATUS: UNVERIFIED | external web source | BDIX NOT claimed or used
-#EXTINF:-1 tvg-id="sonic-hindi-trial-79-nov02" tvg-name="Sonic Hindi TEST 79" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 79
-https://prod-ent-live-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=765200.m3u8
+# SOURCE Sonic Hindi TEST 99: opensourceflix/Friday vottobd.m3u8 - Hindi-audio labeled JioCinema stream
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-99-nov02" tvg-name="Sonic Hindi TEST 99" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 99
+https://fifabdmob.site/new.php?id=JC_SonicNick/JCHLS/JC_SonicNick-audio_108041_hin=108000-video=662800.m3u8
 
-# SOURCE Sonic Hindi TEST 80: hasanmamunctg/hasanmamunctg manik
-# STATUS: UNVERIFIED | external web source | BDIX NOT claimed or used
-#EXTINF:-1 tvg-id="sonic-hindi-trial-80-nov02" tvg-name="Sonic Hindi TEST 80" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 80
-https://madplay.live/jiotv/app/live/815/null/index.m3u8
+# SOURCE Sonic Hindi TEST 100: freedish2024/personal-project.sr Kids - Keralamax
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-100-nov02" tvg-name="Sonic Hindi TEST 100" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 100
+https://keralamaxtv.com/vt/stream.m3u8?id=Sonic_Nickelodeon
 
-# SOURCE Sonic Hindi TEST 81: sm-monirulislam/SM-IPTV jio_tv.m3u
-# STATUS: UNVERIFIED | external web source | BDIX NOT claimed or used
-#EXTINF:-1 tvg-id="sonic-hindi-trial-81-nov02" tvg-name="Sonic Hindi TEST 81" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 81
-https://hey-lookme.shop/live.php?id=815
+# SOURCE Sonic Hindi TEST 101: Shaharum1010/Cartoon-channel- Shaharum - Voot Sonic relay
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-101-nov02" tvg-name="Sonic Hindi TEST 101" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 101
+https://fifabangladesh2-xyz-ekkj.spidy.online/VHOD/NEW/go.php?id=Sonic_Nickelodeon_voot_MOB
 
-# SOURCE Sonic Hindi TEST 82: TheSamimMandal/SamimWorld SamimJio.m3u
-# STATUS: UNVERIFIED | external web source | BDIX NOT claimed or used
-#EXTINF:-1 tvg-id="sonic-hindi-trial-82-nov02" tvg-name="Sonic Hindi TEST 82" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 82
-https://techiesneh.in1.bitmana.io/snehapi/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8
+# SOURCE Sonic Hindi TEST 102: Shaharum1010/Cartoon-channel- Shaharum - Jio Sonic Hindi relay
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-102-nov02" tvg-name="Sonic Hindi TEST 102" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 102
+#EXTVLCOPT:http-referrer=https://playyonogames.in/
+https://playyonogames.in/live.php?id=815&extension=.m3u8
 
-# SOURCE Sonic Hindi TEST 83: arshdeep1112/Indian-IPTV iptv_kids.m3u8
-# STATUS: UNVERIFIED | external web source | BDIX NOT claimed or used
-#EXTINF:-1 tvg-id="sonic-hindi-trial-83-nov02" tvg-name="Sonic Hindi TEST 83" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 83
-https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8
-
-# SOURCE Sonic Hindi TEST 84: BahyOsama/marioo Sonic Hindi alternate stream.php
-# STATUS: UNVERIFIED | external web source | BDIX NOT claimed or used
-#EXTINF:-1 tvg-id="sonic-hindi-trial-84-nov02" tvg-name="Sonic Hindi TEST 84" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 84
-#EXTVLCOPT:http-referrer=https://colorsscreen.com/
-https://colorsscreen.com/stream.php?id=815&e=.m3u8|Referer=https://colorsscreen.com//&key=BDStreamHub
-
-# SOURCE Sonic Hindi TEST 85: BahyOsama/marioo Sonic Hindi alternate live.php
-# STATUS: UNVERIFIED | external web source | BDIX NOT claimed or used
-#EXTINF:-1 tvg-id="sonic-hindi-trial-85-nov02" tvg-name="Sonic Hindi TEST 85" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 85
-#EXTVLCOPT:http-referrer=https://colorsscreen.com/
-https://colorsscreen.com/live.php?id=815&extension=.m3u8|Referer=https://colorsscreen.com//&key=BDStreamHub
-
-# SOURCE Sonic Hindi TEST 86: imranemon1/emon Playlist-Kids.m3u8 (non-BDIX domain; HTTP with custom user-agent)
-# STATUS: UNVERIFIED, global web/non-BDIX named source, Link3 playback not validated
-#EXTINF:-1 tvg-id="sonic-hindi-trial-86-nov02" tvg-name="Sonic Hindi TEST 86" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 86
-#EXTVLCOPT:http-user-agent=stream
-http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8
-
-# SOURCE Sonic Hindi TEST 87: sadman-al-rafi playlist.m3u8 (Cloudflare Pages)
-# STATUS: UNVERIFIED, global web/non-BDIX named source, Link3 playback not validated
-#EXTINF:-1 tvg-id="sonic-hindi-trial-87-nov02" tvg-name="Sonic Hindi TEST 87" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 87
-https://sar.pages.dev/sonic.m3u8
-
-# SOURCE Sonic Hindi TEST 88: hardiksaini10/rdp nash.m3u (JioTV+ Nepal web relay)
-# STATUS: UNVERIFIED, global web/non-BDIX named source, Link3 playback not validated
-#EXTINF:-1 tvg-id="sonic-hindi-trial-88-nov02" tvg-name="Sonic Hindi TEST 88" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 88
-https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8
-
-# SOURCE Sonic Hindi TEST 89: ttoor5/discoveryplus jc.json (JioCinema events CDN)
-# STATUS: UNVERIFIED, global web/non-BDIX named source, Link3 playback not validated
-#EXTINF:-1 tvg-id="sonic-hindi-trial-89-nov02" tvg-name="Sonic Hindi TEST 89" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 89
-https://jcevents.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8
-
-# SOURCE Sonic Hindi TEST 90: r0m35h/main iptv.m3u (non-BDIX web domain)
-# STATUS: UNVERIFIED, global web/non-BDIX named source, Link3 playback not validated
-#EXTINF:-1 tvg-id="sonic-hindi-trial-90-nov02" tvg-name="Sonic Hindi TEST 90" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 90
-https://tv.googledrivelinks.com/live.php?c=sonic_Hindi&q=800&e=.m3u8
-
-# SOURCE Sonic Hindi TEST 91: MuzammilShah51214/Live-Tv-786 IndianTV-Live.html (Jio relay)
-# STATUS: UNVERIFIED, global web/non-BDIX named source, Link3 playback not validated
-#EXTINF:-1 tvg-id="sonic-hindi-trial-91-nov02" tvg-name="Sonic Hindi TEST 91" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 91
-https://redmi.allinonereborn.xyz/jiotv-ww/app/live.php?id=815&e=.m3u8
+# SOURCE Sonic Hindi TEST 103: Samarthsattani66/Tg-teamrohitoffical4500 index (2).html - Hindi HLS rendition
+# STATUS: UNVERIFIED | Candidate only | User/Link3 playback check required
+#EXTINF:-1 tvg-id="sonic-hindi-trial-103-nov02" tvg-name="Sonic Hindi TEST 103" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sonic-hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 103
+https://prod-ent-live-gm.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/JC_SonicNick-audio_98841_hin=98800-video=301200/master.m3u8
 
 # HUNGAMA NOVEMBER 01 SECOND BATCH — USER-TEST ONLY
 # Newly found source-labelled URLs, NOT confirmed working, no Link3 or video/audio validation.
