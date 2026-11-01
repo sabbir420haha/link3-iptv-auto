@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-01T10:52:07.281235+00:00",
-  "evaluated": 177,
+  "checked_utc": "2026-11-01T11:13:03.845321+00:00",
+  "evaluated": 179,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -1433,6 +1433,22 @@
       "url": "https://tataplay.slivcdn.com/hls/live/2011746-b/SonyYaySD/master_3500.m3u8",
       "source": "crictos99/liv sony.m3u; distinct public SonyYaySD 3500 rendition, audio not verified; newly discovered 2026-11-01",
       "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y178",
+      "url": "https://game.playindia.fun/Jtv/oops.m3u8?id=sliv_872",
+      "source": "Arsks12/stalker sony.json; explicitly tagged Sony Yay Hindi; public channel 872, no credential parameters; discovered 2026-11-01",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "Y179",
+      "url": "https://allinonereborn.in/allinone.php?id=34198",
+      "source": "Vishal8595 HD.m3u8 gist; explicitly labeled SONY YAY HINDI; old 2024 source, newly considered 2026-11-01, unverified",
+      "hindi_claim": true,
       "status": "failed",
       "reason": "<urlopen error [Errno -2] Name or service not known>"
     }
