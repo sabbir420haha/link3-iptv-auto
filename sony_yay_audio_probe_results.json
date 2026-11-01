@@ -1,10 +1,19 @@
 {
-  "checked_utc": "2026-11-01T17:12:39.242036+00:00",
+  "checked_utc": "2026-11-01T17:17:12.351091+00:00",
   "video_report": "sony_yay_probe_results.json",
-  "tested_audio_count": 0,
+  "tested_audio_count": 1,
   "newly_published": [],
   "method": "Two independent 20-second audio excerpts, 15 seconds apart; faster-whisper base int8 language identification. Require both hi >=0.80 and >=10 Devanagari characters. Video already decoded at three spaced intervals.",
   "Link3_not_verified": true,
   "MAIN_unchanged": true,
-  "results": []
+  "results": [
+    {
+      "id": "Y190",
+      "url": "http://138.121.15.230:9002/SONY/index.m3u8",
+      "video_verified": true,
+      "audio_checks": [],
+      "hindi_spoken_confirmed": false,
+      "error": "open() got an unexpected keyword argument 'metadata_errors'"
+    }
+  ]
 }
