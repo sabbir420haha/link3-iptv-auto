@@ -1043,6 +1043,30 @@
       "url": "https://prox.assadikb.workers.dev/watch/872JP",
       "source": "AssadikBitul/playlist alltvx.m3u; explicitly Sony Yay Hindi, distinct from Bengali/Tamil; discovered 2026-11-01",
       "hindi_claim": true
+    },
+    {
+      "id": "Y174",
+      "url": "https://yuvraj49.xyz/sliv/index.m3u8?ch=SonyYaySD&id=2011746",
+      "source": "Anmol1184/chu TVs/SonyLiv.m3u; Sony YAY SonyLIV feed ID 2011746, no auth token; newly discovered 2026-11-01",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y175",
+      "url": "https://shoebplaylive.qzz.io/sliv/sony.php?url=https://sliv.tgaadi.workers.dev/sonyyaysd.m3u8",
+      "source": "srhady/Hady sonychannel.m3u; explicitly Hindi Sony YAY relay of known Y04, no credentials; newly discovered 2026-11-01",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y176",
+      "url": "https://ranapkx.site/RANAPK33t/TVD/play.php?id=373067",
+      "source": "MrHackrer/Playlist india_hindi_channels.m3u; explicitly HINDI Sony YAY HD, public endpoint; newly discovered 2026-11-01",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y177",
+      "url": "https://tataplay.slivcdn.com/hls/live/2011746-b/SonyYaySD/master_3500.m3u8",
+      "source": "crictos99/liv sony.m3u; distinct public SonyYaySD 3500 rendition, audio not verified; newly discovered 2026-11-01",
+      "hindi_claim": false
     }
   ]
 }
