@@ -962,6 +962,12 @@
       "url": "https://b4uplay.com/sliv/stream.m3u8?id=1000001971",
       "source": "mdarif2743/Cmcl-digital-mpd README.m3u commented alternative for Sony Yay; language unverified",
       "hindi_claim": false
+    },
+    {
+      "id": "Y161",
+      "url": "https://stream.imotv.online/toffe/live.php?id=edf7ba617dc5&e=.m3u8",
+      "source": "farhad-iptv/freeflix toffee/playlist.m3u8; Sony YAY (IN) public HTTPS relay; newly discovered 2026-11-01; remote access and Hindi audio UNVERIFIED; not assumed Link3 compatible",
+      "hindi_claim": false
     }
   ]
 }
