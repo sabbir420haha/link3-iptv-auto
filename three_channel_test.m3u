@@ -6,128 +6,32 @@
 #EXTINF:-1 tvg-id="hungama-test3-29" tvg-name="Hungama TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 29
 http://103.135.253.32:8080/HUNGAMA/index.m3u8
 
-# SONIC HINDI LARGE BATCH 111-133 | 2026-11-02
-# Previous user-reported failed Sonic Hindi TEST 104-110 removed.
-# 23 distinct publicly listed test URLs; 7 of 30 searched were excluded as previously tried, duplicated, or unsuitable.
-# No bare-IP, private-LAN, local host or BDIX-labelled link was included in this batch.
-# UNVERIFIED: no successful direct video segment or Hindi audio verification; Link3 may block/fail any.
-# Some old provider/geo/DRM or subscription-only streams cannot play in IPTV Pro.
-# Main Playlist untouched; Hungama TEST 29 pinned unchanged.
+# SONIC HINDI NEW SOURCED TRIALS 134-137 | 2026-11-02
+# USER CONFIRMED 111-133 ALL FAILED. Those 23 old Sonic entries have been removed.
+# Four previously untested endpoints only. Other 12 collected candidates matched past tried/failed sources and were excluded.
+# No BDIX-only or direct-IP host URL was selected. HTTPS site does NOT imply playable stream.
+# All four are UNVERIFIED on Link3. Geo, rights, DRM, authentication, or format restrictions may prevent playback.
+# Not a change to MAIN; Hungama TEST 29 and all non-Sonic entries preserved.
 #
-# SOURCE: tvbd/m3uplayer Sonic HD via OPLLX
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-111-batch-nov02" tvg-name="Sonic Hindi TEST 111" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 111
-https://fifabd.xyz/OPLLX/play.m3u8?id=34011
+# SOURCE: nepalicana/iptv Jio FHD.m3u8
+# STATUS: UNVERIFIED; audio/Hindi not independently confirmed
+#EXTINF:-1 tvg-id="sonic-hindi-test-134-nov02" tvg-name="Sonic Hindi TEST 134" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 134
+https://snehjiotv.in1.bitmana.io/snehjioox.php?c=sonic_Hindi&q=1200&e=junk.m3u8
 
-# SOURCE: aoestudios57 Jio Sonic Hindi
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-112-batch-nov02" tvg-name="Sonic Hindi TEST 112" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 112
-https://tsneh.vercel.app/denver4567948
+# SOURCE: Zahidsdlbd/jio mix.m3u8
+# STATUS: UNVERIFIED; audio/Hindi not independently confirmed
+#EXTINF:-1 tvg-id="sonic-hindi-test-135-nov02" tvg-name="Sonic Hindi TEST 135" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 135
+https://jio.dinesh29.com.np/live/jio-universal/sonic-hindi/index.ts
 
-# SOURCE: Bhavesh0a/Index Tata Sonic Hindi relay
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-113-batch-nov02" tvg-name="Sonic Hindi TEST 113" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 113
-https://allinonereborn.com/tatatv.php?id=11667
+# SOURCE: anasselkadii/jcartoondashboard epesodes/toffee.m3u8
+# STATUS: UNVERIFIED; audio/Hindi not independently confirmed
+#EXTINF:-1 tvg-id="sonic-hindi-test-136-nov02" tvg-name="Sonic Hindi TEST 136" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 136
+https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sonic
 
-# SOURCE: fahadskt/IPTV-Playlists Jiocinema Sonic
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-114-batch-nov02" tvg-name="Sonic Hindi TEST 114" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 114
-https://moonkerala.xyz/jcinema/stream.m3u8?id=3774149
-
-# SOURCE: mxonlive kids Sonic Nick HD
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-115-batch-nov02" tvg-name="Sonic Hindi TEST 115" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 115
-http://mxonlive.atwebpages.com/_default.php/246767.m3u8
-
-# SOURCE: aviarun/m3u Nitro-X Jio Sonic 815
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-116-batch-nov02" tvg-name="Sonic Hindi TEST 116" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 116
-https://bflixhd.com/NITRO-X-JIOTV/master.m3u8?id=815
-
-# SOURCE: grtesdwq IPTV Tamasha Sonic (Hindi not verified)
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-117-batch-nov02" tvg-name="Sonic Hindi TEST 117" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 117
-https://cdn23lhr.tamashaweb.com:8087/jazzauth/Sonic-abr/playlist.m3u8
-
-# SOURCE: Techandy4u Sonic Nickelodeon legacy CDN
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-118-batch-nov02" tvg-name="Sonic Hindi TEST 118" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 118
-http://smumcdnems02.cdnsrv.jio.com/jiotv.live.cdn.jio.com/Sonic_Nickelodeon/Sonic_Nickelodeon.m3u8
-
-# SOURCE: Public JioCinema JC Sonic Nick alternate HLS (archival)
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-119-batch-nov02" tvg-name="Sonic Hindi TEST 119" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 119
-https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/JC_SonicNick.m3u8
-
-# SOURCE: Public JioCinema Sonic Nick events HLS (archival)
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-120-batch-nov02" tvg-name="Sonic Hindi TEST 120" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 120
-https://jcevents.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/JC_SonicNick.m3u8
-
-# SOURCE: Riaz-123/Tekox Tamasha Sonic alternate edge (Hindi not verified)
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-121-batch-nov02" tvg-name="Sonic Hindi TEST 121" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 121
-https://cdn22lhr.tamashaweb.com:8087/jazzauth/Sonic-abr/playlist.m3u8
-
-# SOURCE: mxonlive D2H Sonic Hindi alternate relay
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-122-batch-nov02" tvg-name="Sonic Hindi TEST 122" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 122
-http://mxonlive-restream.atwebpages.com/opplex/x1.php/62179.m3u8
-
-# SOURCE: lolz1990/my kids Sonic Nickelodeon
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-123-batch-nov02" tvg-name="Sonic Hindi TEST 123" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 123
-http://stream-7b694ce7e.nmbs.top/m3u/Kids/ae4d2ba214.m3u8
-
-# SOURCE: Able TV Sonic Hindi public listing
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-124-batch-nov02" tvg-name="Sonic Hindi TEST 124" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 124
-https://wxca.cf/j/sonic_Hindi/master.m3u8
-
-# SOURCE: ak-office-pvt JioCinema Sonic Hindi rendition
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-125-batch-nov02" tvg-name="Sonic Hindi TEST 125" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 125
-https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=765200.m3u8
-
-# SOURCE: AmikArchive legacy Jio sonic_Hindi direct CDN
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-126-batch-nov02" tvg-name="Sonic Hindi TEST 126" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 126
-http://mumsite.cdnsrv.jio.com/jiotv.live.cdn.jio.com/sonic_Hindi/sonic_Hindi_800.m3u8
-
-# SOURCE: riyazkhan111 TS JioTV Sonic Hindi 815
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-127-batch-nov02" tvg-name="Sonic Hindi TEST 127" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 127
-https://qrpay.fun/TS-JioTV-main/app/live.php?id=815&e=.m3u8
-
-# SOURCE: rkbro23/opplex Sonic 380965
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-128-batch-nov02" tvg-name="Sonic Hindi TEST 128" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 128
-http://opstorm-001-site1.ltempurl.com/Puboplxo/opplx5.php?id=380965
-
-# SOURCE: dodoniyi JioTV Sonic Hindi 800
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-129-batch-nov02" tvg-name="Sonic Hindi TEST 129" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 129
-https://tvstream.fun/jtv/live_world_wow.php?c=sonic_Hindi&q=800&e=junk.m3u8
-
-# SOURCE: public old Nayeemparvez Jio Sonic Hindi relay
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-130-batch-nov02" tvg-name="Sonic Hindi TEST 130" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 130
-https://jiotv.nayeemparvez.workers.dev/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8
-
-# SOURCE: fahadskt/IPTV-Playlists Sonic Nick HDMI NEEStream alternate path
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-131-batch-nov02" tvg-name="Sonic Hindi TEST 131" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 131
-https://neestreamtv.com/fuck-your-mother-ass-jared-solomon/stream.m3u8?id=3774149
-
-# SOURCE: Samarthsattani66 JioCinema Sonic Hindi rendition alt regional CDN
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-132-batch-nov02" tvg-name="Sonic Hindi TEST 132" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 132
-https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/JC_SonicNick-audio_98841_hin=98800-video=301200/master.m3u8
-
-# SOURCE: rkbro23/opplex alternate Sonic ID 380860 (Hindi uncertain)
-# STATUS: UNVERIFIED. WEB-INDEXED CANDIDATE ONLY. Link3/video/audio not verified.
-#EXTINF:-1 tvg-id="sonic-hindi-test-133-batch-nov02" tvg-name="Sonic Hindi TEST 133" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 133
-http://opstorm-001-site1.ltempurl.com/Puboplxo/opplx5.php?id=380860
+# SOURCE: konanda-sg/teststst tplay/main.js
+# STATUS: UNVERIFIED; audio/Hindi not independently confirmed
+#EXTINF:-1 tvg-id="sonic-hindi-test-137-nov02" tvg-name="Sonic Hindi TEST 137" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 137
+https://anywhere.pwisetthon.com/http://203.18.159.115/SONIC/tracks-v1a1/mono.m3u8
 
 # HUNGAMA NOVEMBER 01 SECOND BATCH — USER-TEST ONLY
 # Newly found source-labelled URLs, NOT confirmed working, no Link3 or video/audio validation.
