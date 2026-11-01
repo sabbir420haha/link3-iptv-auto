@@ -1,7 +1,7 @@
 #EXTM3U
 # Shared TEST playlist: Sonic Hindi and Sony YAY Hindi.
 # Sony YAY Hindi previous 16 test entries removed: user confirmed all failed on Link3.
-# Checked Sony YAY source count 157 (2026-11-01 09:18 Asia/Dhaka); ZERO proven Hindi live sources.
+# Checked Sony YAY source count 173 (2026-11-01 14:41 Asia/Dhaka); ZERO remotely verified Hindi live sources.
 # Y107: 1080p frames decoded in 3 remote checks; Hindi audio and HLS advancement UNVERIFIED. USER REQUESTED Link3 trial.
 # Trial is NOT described as working. MAIN remains untouched.
 #EXTINF:-1 tvg-id="sony-yay-hindi-y107-trial" tvg-name="Sony YAY Hindi Y107 TEST (UNVERIFIED)" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png" group-title="SONY YAY HINDI | LINK3 TRIAL",Sony YAY Hindi Y107 TEST (UNVERIFIED)
