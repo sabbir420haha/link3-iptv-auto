@@ -3,6 +3,8 @@
 
 Only a source that already passed three spaced FFmpeg video/segment checks can
 be promoted. Two fresh audio excerpts must independently be recognized as Hindi.
+Probe all video-verified candidates lacking Hindi HLS metadata, including ones
+whose source did not explicitly claim Hindi, so valid Hindi audio is not missed.
 No recordings are committed or retained. MAIN playlists are never opened.
 """
 import datetime as dt
@@ -46,8 +48,7 @@ def main():
     candidates = [r for r in data["results"]
                   if r.get("status") == "remote_90s_video_verified"
                   and r.get("live_advancement_confirmed")
-                  and not r.get("hindi_audio_metadata")
-                  and r.get("hindi_claim")]
+                  and not r.get("hindi_audio_metadata")]
     results = []
     published = []
     model = None
