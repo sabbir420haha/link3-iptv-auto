@@ -209,6 +209,10 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        # Newly found public listings, probe only; never promote without verified segments and language.
+        "https://jio.drmlive.net/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8",
+        "https://live.drmlive-02.workers.dev/jc/815.m3u8",
+        "https://drmlive.in/voot/web/815.m3u8",
         # 2026-10-30: newly located explicitly named Sonic Hindi on independent public playlist; audit only.
         "https://live.dinesh29.com.np/stream/jiotv/sonichindi/master.m3u8",
 
@@ -283,6 +287,8 @@ EXTRA_CANDIDATES = {
         "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
     ],
     "Sonic Bangla": [
+        # Newly found public listings, probe only; never promote without verified segments and language.
+        "https://playyonogames.in/live.php?id=1345&extension=.m3u8",
         # New 2026-10-30 GitHub-published Bengali Sonic relay; audit only, no auto-publication.
         "https://cdn.nayeemparvez.workers.dev/bpk-tv/Sonic_Bangla_MOB/Fallback/index.m3u8",
         # 2026-10-30: newly located explicitly named Sonic Bangla on independent public playlist; audit only.
