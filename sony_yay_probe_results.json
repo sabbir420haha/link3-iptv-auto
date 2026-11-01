@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-01T14:52:33.652726+00:00",
-  "evaluated": 183,
+  "checked_utc": "2026-11-01T15:27:30.912699+00:00",
+  "evaluated": 188,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -110,7 +110,7 @@
       "source": "OTTPlus HD playlist, spoken language unknown",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "segment_not_video"
+      "reason": "<urlopen error timed out>"
     },
     {
       "id": "Y14",
@@ -534,7 +534,7 @@
       "source": "Your-Tribal-Chief/LiveTV Sony YAY from channel map",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "HTTP Error 403: Forbidden"
+      "reason": "<urlopen error timed out>"
     },
     {
       "id": "Y67",
@@ -1483,6 +1483,46 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "id": "Y184",
+      "url": "https://tvs1.aynaott.com/SonyYay/tracks-v1a1/mono.m3u8",
+      "source": "sashagor786/iptv iptv10.m3u8; SonyYay-labelled AynaOTT CDN, newly found 2026-11-01; Hindi audio unverified",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y185",
+      "url": "https://streamer-1.toffeelive.com/live/sony_yay_720/index.m3u8",
+      "source": "fahadskt/IPTV-Playlists Old/gopa iptv; Sony Yay labelled Toffee CDN, language unverified; discovered 2026-11-01",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y186",
+      "url": "https://tv.googledrivelinks.com/live.php?c=Sony_Yay_Hindi&q=800&e=.m3u8",
+      "source": "r0m35h/main iptv.m3u; explicitly Sony_Yay_Hindi; discovered 2026-11-01; Hindi audio unverified",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -5] No address associated with hostname>"
+    },
+    {
+      "id": "Y187",
+      "url": "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sony_yay",
+      "source": "anasselkadii/jcartoondashboard epesodes/toffee.m3u8; Sony Yay labelled Toffee public relay, Hindi unverified; discovered 2026-11-01",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y188",
+      "url": "https://allottplay.com/tv/toffee/live.php?id=sonyyay&e=.m3u8",
+      "source": "konanda-sg/LIVE_nurmd2006 deleted SonyYay manifest (2025); source not fresh, no audio-language evidence; checked as alternate CDN 2026-11-01",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
     }
   ]
 }
