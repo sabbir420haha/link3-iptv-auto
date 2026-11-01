@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-01T04:36:58.745225+00:00",
-  "evaluated": 160,
+  "checked_utc": "2026-11-01T05:31:07.398499+00:00",
+  "evaluated": 161,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -1207,7 +1207,7 @@
       "source": "rajushaw/iptb.raw.github.io 99yfile.m3u; Sony YAY Jio Hindi feed",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "<urlopen error timed out>"
+      "reason": "<urlopen error [Errno 111] Connection refused>"
     },
     {
       "id": "Y150",
@@ -1296,6 +1296,14 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y161",
+      "url": "https://stream.imotv.online/toffe/live.php?id=edf7ba617dc5&e=.m3u8",
+      "source": "farhad-iptv/freeflix toffee/playlist.m3u8; Sony YAY (IN) public HTTPS relay; newly discovered 2026-11-01; remote access and Hindi audio UNVERIFIED; not assumed Link3 compatible",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 401: Unauthorized"
     }
   ]
 }
