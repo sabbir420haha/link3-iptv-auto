@@ -1,0 +1,246 @@
+{
+  "created_date": "2026-11-01",
+  "target": "Hungama TV Hindi (not music Hungama and not Super Hungama)",
+  "test_playlist": "hungama_link3_trials.m3u",
+  "favorites_playlist": "favorites_tests.m3u",
+  "main_playlist_untouched": true,
+  "baseline_main_url": "http://103.135.253.32:8080/HUNGAMA/index.m3u8",
+  "warning": "All are unverified. No verified long playback, Hindi audio, or Link3 compatibility. Categories include known remote failures.",
+  "count": 26,
+  "candidates": [
+    {
+      "number": 17,
+      "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0408/master.m3u8",
+      "source": "iptv-org/iptv issue 33947, approved Hindi March 2026",
+      "category": "NEW 2026",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 18,
+      "url": "https://kingkohli.pages.dev/Play/Kid/HungamaTV.m3u8",
+      "source": "simantobd/needs public kids playlist",
+      "category": "NEW CDN",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 19,
+      "url": "https://is.gd/N7vaq0.m3u8",
+      "source": "Habib2399/Meghna tv, Hungama TV",
+      "category": "NEW MIRROR",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 20,
+      "url": "https://allinonereborn.com/allinone.php?id=4910",
+      "source": "Vivek-9689/Project index.html, Hindi Hungama HD",
+      "category": "NEW HD CLAIM",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 21,
+      "url": "http://175.107.244.52:4455/play/a00z/index.m3u8",
+      "source": "rudrow/iptv urbee",
+      "category": "NEW ISP",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 22,
+      "url": "http://223.29.231.66:8000/play/a01u/index.m3u8",
+      "source": "Fabiosilva653/CCTV NOVA INTER",
+      "category": "NEW ISP",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 23,
+      "url": "http://103.99.249.107/play/a023",
+      "source": "Sonuiptvnew/Sonuiptvnew sonuindia.m3u8",
+      "category": "NEW ISP",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 24,
+      "url": "http://103.153.39.36:8000/play/a01x",
+      "source": "Sonuiptvnew/Sonuiptvnew indian (1).m3u8",
+      "category": "NEW ISP",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 25,
+      "url": "http://14.102.123.50:8500/play/a05u",
+      "source": "Hasibfy37/Iptv Playlist_rough.m3u",
+      "category": "NEW ISP",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 26,
+      "url": "http://144.217.70.181:9587/hin2/HUNGAMA/index.m3u8",
+      "source": "Public M3U Hungama multilingual HLS, alternate path to prior host",
+      "category": "NEW CDN",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 27,
+      "url": "http://ms.towkai.com/hungama_ml/index.m3u8",
+      "source": "badalbd53/Rocket-OTV; language may be Malayalam",
+      "category": "AUDIO UNKNOWN",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 28,
+      "url": "https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/tiptop-himu.m3u8?id=1094",
+      "source": "mahmud31132/bdix-tv mahmud3.m3u",
+      "category": "NEW MIRROR",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 29,
+      "url": "http://111.88.78.21:8000/play/a0z1/index.m3u8",
+      "source": "iptv-org/iptv issue 33744 approved March 2026",
+      "category": "RETEST",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 30,
+      "url": "http://ajkiptv.ridsys.in/riptv/live/HUNGAMA/index.m3u8",
+      "source": "iptv-org/iptv issue 35345 approved April 2026; remote 403 Oct",
+      "category": "RETEST 403",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 31,
+      "url": "http://119.156.26.155:8000/play/a05t/index.m3u8",
+      "source": "Farabi-2005/Farabi Future Network",
+      "category": "RETEST",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 32,
+      "url": "http://103.179.246.243:8000/play/a01x",
+      "source": "rajushaw/iptb.raw.github.io bestfile.txt",
+      "category": "RETEST",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 33,
+      "url": "http://117.102.16.2:34567/play/a09c/index.m3u8",
+      "source": "BrosatIPTV/Siaran India",
+      "category": "RETEST",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 34,
+      "url": "http://103.182.170.32:8888/play/a04b",
+      "source": "ahsam991/tvdekh index.html",
+      "category": "RETEST",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 35,
+      "url": "http://103.153.39.34:8000/play/a04l/index.m3u8",
+      "source": "Robertlittle2469 Kids Playlist",
+      "category": "RETEST",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 36,
+      "url": "https://live.dinesh29.com.np/stream/jiotvplus/hungama/master.m3u8",
+      "source": "channeliptv0/IPTV Master jiotvplus",
+      "category": "RETEST CDN",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 37,
+      "url": "https://redbooks.site/2026/166/index.ts",
+      "source": "thetest19/iptv-player 2026 Hungama",
+      "category": "RETEST 2026",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 38,
+      "url": "https://s2.itcnbd.live/hungama/index.m3u8",
+      "source": "Your-Tribal-Chief/LiveTV channels.ts; previously remote 403",
+      "category": "RETEST CDN",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 39,
+      "url": "http://202.125.144.115:8000/play/a00g/index.m3u8",
+      "source": "GhostHostBD/tvlink; previous connection refused",
+      "category": "RETEST DOWN",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 40,
+      "url": "http://70.39.83.58:8278/hungamahindikdin/playlist.m3u8",
+      "source": "Sonuiptvnew Hungama Hindi; previous connection refused",
+      "category": "RETEST DOWN",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 41,
+      "url": "https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/tiptop-op.m3u8?id=1094",
+      "source": "arif626/OTT ALL CHANNEL; previous DNS failure",
+      "category": "RETEST DNS",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    },
+    {
+      "number": 42,
+      "url": "http://103.131.214.129:9985/stream/channel/c9f30c14011704a865861e0a072d431f?profile=pass",
+      "source": "ramprasanna1/Tvchannels Hungama",
+      "category": "RETEST ISP",
+      "link3_verified": false,
+      "audio_verified": false,
+      "continuous_playback_verified": false
+    }
+  ]
+}
