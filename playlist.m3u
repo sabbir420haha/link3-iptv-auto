@@ -131,7 +131,9 @@ http://live-stream.amarbanglatv.in:8080/hls/sanandatv/index.m3u8
 #EXTINF:-1 tvg-name="Bangla Plus" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/bangla-plus.png?v=iptv-tightfit-20261023" group-title="03 | Indian Bangla",Bangla Plus
 https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8
 #EXTINF:-1 tvg-name="Sony Yay" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-yay.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Sony Yay
-https://drk6xq0vhn.gpcdn.net/live/sony_yay_abr/index.m3u8
+#EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
+#EXTVLCOPT:http-referrer=https://playyonogames.in/sliv/stream.m3u8?id=1000001971
+https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000001971
 #EXTINF:-1 tvg-name="Pogo" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/pogo.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Pogo
 https://drk6xq0vhn.gpcdn.net/live/pogo_sd_abr/index.m3u8
 #EXTINF:-1 tvg-name="Discovery Kids" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-kids.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Discovery Kids
