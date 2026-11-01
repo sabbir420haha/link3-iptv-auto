@@ -1,0 +1,43 @@
+{
+  "checked_utc": "2026-11-01T02:26:30Z",
+  "scope": "Gopal Bhar Bengali and Shinchan Hindi dedicated 24/7 direct HLS/M3U8",
+  "outcome": "No new independently verified eligible stream. No playlist changes.",
+  "discovery": [
+    {
+      "name": "Shinchan 24/7 claimed BozzTV giatv-210780",
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-210780/tracks-v1a1/mono.ts.m3u8",
+      "source_claim": "https://github.com/vinod-rajput-vg/My-India-TV/blob/main/Category%20Channels/kids.txt",
+      "contradictory_identification": [
+        "https://github.com/tplaylive/stream/blob/main/playlist/mix/crime-patrol-bengali.index.m3u8",
+        "https://github.com/Rajaghosh0007/RajaIPTV",
+        "https://github.com/freedish2024/personal-project.sr"
+      ],
+      "manifest_http": 200,
+      "manifest_valid": true,
+      "fresh_segment_valid": true,
+      "video_decode": "unverified: ffprobe absent on runner",
+      "show_verified": false,
+      "hindi_audio_verified": false,
+      "decision": "REJECT: same giatv-210780 feed independently identified as Crime Patrol Bengali, not Shinchan. Valid HLS != correct show."
+    },
+    {
+      "name": "Gopal Bhar 24/7",
+      "finding": "New Github search matches recycle excluded giatv-209611 BozzTV/TPlay/cloudfront origin. No independent new verified dedicated stream."
+    },
+    {
+      "name": "First-party FAST/live catalogs",
+      "finding": "No independently identified direct 24/7 Gopal Bhar or Shinchan Hindi feed; general Sony AATH/Hungama/Sony YAY channels excluded."
+    }
+  ],
+  "previous_rejected_retested": {
+    "gopal_tplay": "remote closed connection",
+    "shinchan_bdott": "HTTP 404",
+    "shinchan_ranapk": "timeout"
+  },
+  "playlist_integrity": {
+    "test_entries": 19,
+    "main_entries": 75,
+    "modified": false
+  },
+  "future_note": "Do not retry giatv-210780 as Shinchan; source is labeled Crime Patrol Bengali. For any new candidates install ffprobe/ffmpeg in GitHub runner, and confirm visual/audio show identity before test playlist edits."
+}
