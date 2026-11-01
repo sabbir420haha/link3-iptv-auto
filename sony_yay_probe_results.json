@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-01T06:23:13.512934+00:00",
-  "evaluated": 163,
+  "checked_utc": "2026-11-01T07:28:50.994997+00:00",
+  "evaluated": 171,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -1320,6 +1320,73 @@
       "hindi_claim": true,
       "status": "failed",
       "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y164",
+      "url": "https://allinonereborn2.online/sony-new/playlists/sony_yay.m3u8",
+      "source": "Krishanuk009/555 playlists/sony3.m3u; Sony YAY logo explicitly Sony_Yay_Hindi; public Referer declared; discovered 2026-11-01",
+      "hindi_claim": true,
+      "referer": "https://allinonereborn2.online",
+      "status": "failed",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "Y165",
+      "url": "https://techandeat.online/sliv/stream.m3u8?id=1000001971",
+      "source": "moajzim47/moajzimofficials It's-Unique-Hex-Tivimate-MoAj-STREAMZ-PLAY.M3U; Sony YAY SonyLIV ID 1000001971 (Hindi feed); public Referer declared; discovered 2026-11-01",
+      "hindi_claim": true,
+      "referer": "https://techandeat.online/",
+      "status": "failed",
+      "reason": "The read operation timed out"
+    },
+    {
+      "id": "Y166",
+      "url": "http://indtv.online/Sony_Yay_Hindi.m3u8",
+      "source": "fahadskt/IPTV-Playlists Old/Palash Raj; explicitly labeled Sony Yay (Hindi); discovered 2026-11-01",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y167",
+      "url": "https://hey-lookme.shop/live.php?id=872",
+      "source": "sm-monirulislam/SM-IPTV jio_tv.m3u; explicitly Sony Yay Hindi ID 872 with public Referer; discovered 2026-11-01",
+      "hindi_claim": true,
+      "referer": "https://hey-lookme.shop/",
+      "status": "failed",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "Y168",
+      "url": "https://avisha.aifyapps.in/wp-content/uploads/work/zio/live.php?id=872&format=.m3u8",
+      "source": "noobalex616/cricfytv jiotv.m3u; explicitly Sony Yay Hindi ID 872; discovered 2026-11-01",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y169",
+      "url": "https://bflixhd.com/NITRO-X-JIOTV/master.m3u8?id=872",
+      "source": "aviarun/m3u BFLIX JIO TV.m3u; explicitly Sony Yay Hindi ID 872; discovered 2026-11-01",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error timed out>"
+    },
+    {
+      "id": "Y170",
+      "url": "https://yashrajmod.tk/master.m3u8/?id=872",
+      "source": "dgr8akki/awesome-iptv JIO.m3u; explicitly Sony Yay Hindi ID 872; discovered 2026-11-01",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y171",
+      "url": "http://indo51.gcdn.co/kids-SonyYay/tracks-v1a1/mono.m3u8",
+      "source": "lolz1990/my Test.m3u; Sony Yay unspecified language (NOT verified Hindi); discovered 2026-11-01",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "[Errno 104] Connection reset by peer"
     }
   ]
 }
