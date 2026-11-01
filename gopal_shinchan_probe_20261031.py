@@ -4,6 +4,7 @@ import concurrent.futures, datetime, json, subprocess, ssl, urllib.error, urllib
 from pathlib import Path
 
 CANDIDATES = {
+    "shinchan_bozz_210780_new_claim": "https://live20.bozztv.com/giatvplayout7/giatv-210780/tracks-v1a1/mono.ts.m3u8",
     "gopal_tplay_kids_path": "https://tplay.live/playlist/kids/gopal-bhar/index.m3u8",
     "shinchan_bdott_named": "http://bd.ottbd.online:2082/live/Durjoy859/01327184859/19978.m3u8",
     "shinchan_ranapk_hindi_named": "https://ranapkx.site/RANAPK33k/TVD/play.php?id=734314&e=.m3u8",
