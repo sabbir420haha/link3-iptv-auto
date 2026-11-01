@@ -1,5 +1,5 @@
 #EXTM3U
-# Favorites TEST only. Stable source numbers, max 30 distinct URLs per channel.
+# Favorites TEST only. Stable source numbers. Hungama now includes extra user-requested trials above 30; all unverified.
 # Unverified on Link3; identity, language, rights and no-buffer playback not guaranteed.
 # Missing Disney HD Hindi, Sonic Hindi and Sonic Bangla tests are held after user playback failures.
 #EXTINF:-1 tvg-id="fav-zee-bangla-hd-01" tvg-name="Zee Bangla HD TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-hd.png?v=zee-original-clear-20261023" group-title="9 | TEST - Zee Bangla HD",Zee Bangla HD TEST 01
@@ -952,3 +952,58 @@ http://103.122.74.6:8888/hls/SONY.SPORTS.3.m3u8
 https://feed.play.mv/live/10005200/RG2fKR6d9p/master.m3u8
 #EXTINF:-1 tvg-id="fav-sony-ten-3-hd-16" tvg-name="Sony Ten 3 HD TEST 16" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=iptv-tightfit-20261023" group-title="9 | TEST - Sony Ten 3 HD",Sony Ten 3 HD TEST 16
 https://cloudplay-sonyliv.pages.dev/ten3.m3u8
+# Hungama additional TEST 17-42: from distinct public playlists and mirrors; do not treat as verified on Link3.
+# Categories NEW are new additions to this collection, not proof the upstream URLs recently started streaming.
+# 2026-11-01: Main Hungama and every other Main channel untouched.
+#EXTINF:-1 tvg-id="hungama-link3-trial-17" tvg-name="Hungama TEST 17" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA NEW 2026",Hungama TEST 17
+http://iptvcasomsapi.jprdigital.in/x-media/C0408/master.m3u8
+#EXTINF:-1 tvg-id="hungama-link3-trial-18" tvg-name="Hungama TEST 18" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA NEW CDN",Hungama TEST 18
+https://kingkohli.pages.dev/Play/Kid/HungamaTV.m3u8
+#EXTINF:-1 tvg-id="hungama-link3-trial-19" tvg-name="Hungama TEST 19" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA NEW MIRROR",Hungama TEST 19
+https://is.gd/N7vaq0.m3u8
+#EXTINF:-1 tvg-id="hungama-link3-trial-20" tvg-name="Hungama TEST 20" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA NEW HD CLAIM",Hungama TEST 20
+https://allinonereborn.com/allinone.php?id=4910
+#EXTINF:-1 tvg-id="hungama-link3-trial-21" tvg-name="Hungama TEST 21" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA NEW ISP",Hungama TEST 21
+http://175.107.244.52:4455/play/a00z/index.m3u8
+#EXTINF:-1 tvg-id="hungama-link3-trial-22" tvg-name="Hungama TEST 22" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA NEW ISP",Hungama TEST 22
+http://223.29.231.66:8000/play/a01u/index.m3u8
+#EXTINF:-1 tvg-id="hungama-link3-trial-23" tvg-name="Hungama TEST 23" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA NEW ISP",Hungama TEST 23
+http://103.99.249.107/play/a023
+#EXTINF:-1 tvg-id="hungama-link3-trial-24" tvg-name="Hungama TEST 24" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA NEW ISP",Hungama TEST 24
+http://103.153.39.36:8000/play/a01x
+#EXTINF:-1 tvg-id="hungama-link3-trial-25" tvg-name="Hungama TEST 25" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA NEW ISP",Hungama TEST 25
+http://14.102.123.50:8500/play/a05u
+#EXTINF:-1 tvg-id="hungama-link3-trial-26" tvg-name="Hungama TEST 26" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA NEW CDN",Hungama TEST 26
+http://144.217.70.181:9587/hin2/HUNGAMA/index.m3u8
+#EXTINF:-1 tvg-id="hungama-link3-trial-27" tvg-name="Hungama TEST 27" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA AUDIO UNKNOWN",Hungama TEST 27
+http://ms.towkai.com/hungama_ml/index.m3u8
+#EXTINF:-1 tvg-id="hungama-link3-trial-28" tvg-name="Hungama TEST 28" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA NEW MIRROR",Hungama TEST 28
+https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/tiptop-himu.m3u8?id=1094
+#EXTINF:-1 tvg-id="hungama-link3-trial-29" tvg-name="Hungama TEST 29" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA RETEST",Hungama TEST 29
+http://111.88.78.21:8000/play/a0z1/index.m3u8
+#EXTINF:-1 tvg-id="hungama-link3-trial-30" tvg-name="Hungama TEST 30" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA RETEST 403",Hungama TEST 30
+http://ajkiptv.ridsys.in/riptv/live/HUNGAMA/index.m3u8
+#EXTINF:-1 tvg-id="hungama-link3-trial-31" tvg-name="Hungama TEST 31" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA RETEST",Hungama TEST 31
+http://119.156.26.155:8000/play/a05t/index.m3u8
+#EXTINF:-1 tvg-id="hungama-link3-trial-32" tvg-name="Hungama TEST 32" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA RETEST",Hungama TEST 32
+http://103.179.246.243:8000/play/a01x
+#EXTINF:-1 tvg-id="hungama-link3-trial-33" tvg-name="Hungama TEST 33" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA RETEST",Hungama TEST 33
+http://117.102.16.2:34567/play/a09c/index.m3u8
+#EXTINF:-1 tvg-id="hungama-link3-trial-34" tvg-name="Hungama TEST 34" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA RETEST",Hungama TEST 34
+http://103.182.170.32:8888/play/a04b
+#EXTINF:-1 tvg-id="hungama-link3-trial-35" tvg-name="Hungama TEST 35" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA RETEST",Hungama TEST 35
+http://103.153.39.34:8000/play/a04l/index.m3u8
+#EXTINF:-1 tvg-id="hungama-link3-trial-36" tvg-name="Hungama TEST 36" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA RETEST CDN",Hungama TEST 36
+https://live.dinesh29.com.np/stream/jiotvplus/hungama/master.m3u8
+#EXTINF:-1 tvg-id="hungama-link3-trial-37" tvg-name="Hungama TEST 37" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA RETEST 2026",Hungama TEST 37
+https://redbooks.site/2026/166/index.ts
+#EXTINF:-1 tvg-id="hungama-link3-trial-38" tvg-name="Hungama TEST 38" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA RETEST CDN",Hungama TEST 38
+https://s2.itcnbd.live/hungama/index.m3u8
+#EXTINF:-1 tvg-id="hungama-link3-trial-39" tvg-name="Hungama TEST 39" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA RETEST DOWN",Hungama TEST 39
+http://202.125.144.115:8000/play/a00g/index.m3u8
+#EXTINF:-1 tvg-id="hungama-link3-trial-40" tvg-name="Hungama TEST 40" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA RETEST DOWN",Hungama TEST 40
+http://70.39.83.58:8278/hungamahindikdin/playlist.m3u8
+#EXTINF:-1 tvg-id="hungama-link3-trial-41" tvg-name="Hungama TEST 41" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA RETEST DNS",Hungama TEST 41
+https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/tiptop-op.m3u8?id=1094
+#EXTINF:-1 tvg-id="hungama-link3-trial-42" tvg-name="Hungama TEST 42" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="9 | HUNGAMA RETEST ISP",Hungama TEST 42
+http://103.131.214.129:9985/stream/channel/c9f30c14011704a865861e0a072d431f?profile=pass
