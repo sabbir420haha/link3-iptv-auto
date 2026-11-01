@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-01T05:31:07.398499+00:00",
-  "evaluated": 161,
+  "checked_utc": "2026-11-01T06:23:13.512934+00:00",
+  "evaluated": 163,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -1207,7 +1207,7 @@
       "source": "rajushaw/iptb.raw.github.io 99yfile.m3u; Sony YAY Jio Hindi feed",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "<urlopen error [Errno 111] Connection refused>"
+      "reason": "<urlopen error timed out>"
     },
     {
       "id": "Y150",
@@ -1304,6 +1304,22 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "HTTP Error 401: Unauthorized"
+    },
+    {
+      "id": "Y162",
+      "url": "https://tataplay.slivcdn.com/hls/live/2011746/SonyYaySD/master_2000.m3u8",
+      "source": "honarab24/rs K + server.js public Sony Yay HLS variant (found 2026-11-01); Hindi channel label not independently verified",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y163",
+      "url": "https://tataplay.slivcdn.com/hls/live/2011746/SonyYaySD/master_1300.m3u8",
+      "source": "TarunG78/livetv sony_playlist.m3u explicitly Sony Yay Hindi (found 2026-11-01); remote decode/audio unverified",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
     }
   ]
 }
