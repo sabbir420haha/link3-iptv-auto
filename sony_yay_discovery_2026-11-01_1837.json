@@ -1,0 +1,38 @@
+{
+  "checked_local": "2026-11-01 18:37 Asia/Dhaka",
+  "purpose": "Sony YAY Hindi fresh-source discovery; no claim of working playback",
+  "existing_candidate_registry": "sony_yay_candidates.json",
+  "existing_candidate_count": 179,
+  "existing_link3_failures_excluded": true,
+  "remote_validation": {
+    "hls_manifest": null,
+    "decoded_frames": null,
+    "spaced_interval_checks": 0,
+    "hls_segments_advanced": null,
+    "hindi_audio_verified": false,
+    "link3_verified": false,
+    "reason": "This runtime cannot resolve external streaming host DNS; web fetch does not expose decodable media. Do not publish as verified."
+  },
+  "new_unverified_discovery": [
+    {
+      "url": "https://server.itcnbd.live/stream/sonyyay.m3u8",
+      "source_repository": "theahmedsabbir/m3utube",
+      "source_file": "playlist-d1.m3u",
+      "source_label": "SONY YAY VIP",
+      "language_claim": "none; possible Bangladesh feed",
+      "status": "UNVERIFIED - NOT ELIGIBLE FOR TEST PLAYLIST UNDER VERIFIED-ONLY POLICY"
+    }
+  ],
+  "reviewed_but_previously_catalogued": [
+    "https://tataplay.slivcdn.com/hls/live/2011746/SonyYaySD/master_1300.m3u8",
+    "https://sonyliv.07in.workers.dev/live/999/999/sony-yay.m3u8"
+  ],
+  "excluded_signed_access_examples": [
+    "sportlive18/Sonyliv-Playlist-Autoupdate/sony.m3u",
+    "kajju027/SonyLiv-Events-Json/data/slivchannel.json"
+  ],
+  "new_remote_verified": 0,
+  "test_playlist_unchanged": true,
+  "main_playlist_unchanged": true,
+  "notification": "none"
+}
