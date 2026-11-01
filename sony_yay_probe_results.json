@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-01T13:01:22.680628+00:00",
-  "evaluated": 181,
+  "checked_utc": "2026-11-01T14:52:33.652726+00:00",
+  "evaluated": 183,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -638,7 +638,7 @@
       "source": "imranemon1/emon Playlist-Kids: Sony YAY HINDI",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "<urlopen error [Errno 111] Connection refused>"
+      "reason": "<urlopen error timed out>"
     },
     {
       "id": "Y80",
@@ -1303,7 +1303,7 @@
       "source": "farhad-iptv/freeflix toffee/playlist.m3u8; Sony YAY (IN) public HTTPS relay; newly discovered 2026-11-01; remote access and Hindi audio UNVERIFIED; not assumed Link3 compatible",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "<urlopen error [Errno 111] Connection refused>"
+      "reason": "HTTP Error 401: Unauthorized"
     },
     {
       "id": "Y162",
@@ -1467,6 +1467,22 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y182",
+      "url": "https://filoox.vercel.app/live/26187.m3u8",
+      "source": "johirxofficial/johirxofficial.github.io live/otv_bd_may.m3u; Sony YAY Indian EPG channel 26187; discovered 2026-11-01, Hindi NOT proven",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 402: Payment Required"
+    },
+    {
+      "id": "Y183",
+      "url": "https://www.redbooks.site/x11.php?id=26187.m3u8",
+      "source": "fakeall12398-sketch/JIO_TV kids.m3u; IN | SONY YAY channel 26187; discovered 2026-11-01, Hindi NOT proven",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -3] Temporary failure in name resolution>"
     }
   ]
 }
