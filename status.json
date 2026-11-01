@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-01T15:34:55.844199+00:00",
+  "updated_utc": "2026-11-01T15:41:53.875618+00:00",
   "channels": 75,
   "target_channels": 99,
   "groups": {
@@ -13,8 +13,8 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 321,
-  "media_segments_probed": 3,
+  "remote_manifests_probed": 308,
+  "media_segments_probed": 1,
   "experimental_unverified": 0,
   "backup_streams": [],
   "candidate_audit": [
@@ -23,91 +23,7 @@
       "candidates": [
         {
           "source": "curated-candidate",
-          "url": "https://pubads.g.doubleclick.net/ssai/event/40H5HfwWTZadFGYkBTqagg/master.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
           "url": "https://stream.ottplus.live/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8",
-          "manifest_ok": true,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://sliv.tgaadi.workers.dev/sonyyaysd.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://cloudplay-sonyliv.pages.dev/yay.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "https://nxtlive.net/sliv/stream.php?id=0657898986&e=.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.83.80.54:6088/play/a0et/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.229.254.25:7001/play/a0cl/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "curated-candidate",
-          "url": "http://103.165.93.31:8095/sonyYay/index.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "public-SonyLIV-candidates",
-          "url": "https://dai.google.com/linear/hls/event/GPY7RqOrSkmKJ8z1GbVNhg/master.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "public-Indian-family-candidates",
-          "url": "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sony_yay",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "fresh-India-public-geo",
-          "url": "https://s3.itcnbd.live/channel/b22941f1341d7243.m3u8",
-          "manifest_ok": false,
-          "segment_ok": false,
-          "manifest_height": 0
-        },
-        {
-          "source": "2026-India-experimental",
-          "url": "https://sl.vodep39240327.workers.dev/channel/SONY%20YAY.m3u8",
-          "manifest_ok": true,
-          "segment_ok": true,
-          "manifest_height": 0
-        },
-        {
-          "source": "SM-IPTV",
-          "url": "http://live.balajibroadband.com:3500/live/872.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -571,11 +487,11 @@
   "pinned_target_audit": [
     {
       "name": "Sony Yay",
-      "url": "",
-      "manifest_ok": false,
+      "url": "https://stream.ottplus.live/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8",
+      "manifest_ok": true,
       "segment_ok": false,
       "manifest_height": 0,
-      "viewer_confirmed_link3": false,
+      "viewer_confirmed_link3": true,
       "identity_audio_verified_by_runner": false,
       "note": "GitHub runner network only; a failure does not invalidate a Link3 user-confirmed pin."
     },
@@ -633,15 +549,6 @@
       "name": "Sony Yay",
       "url": "https://pubads.g.doubleclick.net/ssai/event/40H5HfwWTZadFGYkBTqagg/master.m3u8",
       "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sony Yay",
-      "url": "https://stream.ottplus.live/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8",
-      "manifest_ok": true,
       "segment_ok": false,
       "manifest_height": 0,
       "identity_audio_verified_by_runner": false,
@@ -1717,10 +1624,10 @@
     },
     {
       "name": "Sony Yay",
-      "state": "REMOTE_HLS_MEDIA_SEGMENT_VERIFIED",
-      "stream": "https://sl.vodep39240327.workers.dev/channel/SONY%20YAY.m3u8",
+      "state": "PINNED_USER_WORKING",
+      "stream": "https://stream.ottplus.live/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8",
       "manifest_height": 0,
-      "media_segment_checked": true
+      "media_segment_checked": false
     },
     {
       "name": "Super Hungama",
@@ -1951,7 +1858,7 @@
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-11-01T15:35:07.608025+00:00",
+    "updated_utc": "2026-11-01T15:42:02.411979+00:00",
     "channel_count": 25,
     "entries": 475,
     "by_name": {
