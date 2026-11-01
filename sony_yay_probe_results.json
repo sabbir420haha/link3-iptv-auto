@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-01T01:29:40.101420+00:00",
-  "evaluated": 144,
+  "checked_utc": "2026-11-01T01:31:42.996847+00:00",
+  "evaluated": 148,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -38,7 +38,7 @@
       "source": "tg-aadi/sony-liv stream Hindi metadata",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "HTTP Error 403: Forbidden"
+      "reason": "HTTP Error 500: Internal Server Error"
     },
     {
       "id": "Y05",
@@ -662,7 +662,7 @@
       "source": "Sonuiptvnew jio.m3u; Sony Yay Hindi direct",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "<urlopen error timed out>"
+      "reason": "<urlopen error [Errno 111] Connection refused>"
     },
     {
       "id": "Y83",
@@ -1168,6 +1168,38 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y145",
+      "url": "https://allinonereborn.tech/sliv/sony-yay.m3u8",
+      "source": "Mrlivetv/Fredlix Voot_Sony_Liv_Zee5_M3u.html; Sony YAY, Hindi not confirmed",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y146",
+      "url": "https://nettv.fun/script/sliv/stream.php?id=1000001971&e=.m3u8",
+      "source": "amanhfbdshdf/PlayMax Sony_Liv_Channels_2025-11-28.m3u; Sony Yay SonyLIV public relay; language unverified",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y147",
+      "url": "https://allinonereborn.in/jiobe11.m3u8?id=1120",
+      "source": "Bhavesh0a/Index Index.html; SONY YAY KIDS public relay; language unverified",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y148",
+      "url": "https://snehtv.in1.bitmana.io/live.php?c=Sony_Yay_Hindi&q=800&e=.m3u8",
+      "source": "Arun9dec/IPTV Old; explicitly Sony_Yay_Hindi Jio endpoint; no credentials in URL",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
     }
   ]
 }
