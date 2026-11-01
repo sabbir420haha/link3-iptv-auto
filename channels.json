@@ -530,7 +530,17 @@
       "Sony YAY"
     ],
     "locked": false,
-    "last_known_url": ""
+    "last_known_url": "",
+    "refresh_on_unhealthy": true,
+    "requires_media_segment": true,
+    "skip_unverified_fallback": true,
+    "exclude_urls": [
+      "https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000001971"
+    ],
+    "user_reported_failures": [
+      "https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000001971"
+    ],
+    "source_quality_note": "User reported previous worker URL unplayable on Link3 2026-11-01. Every refresh must require readable HLS manifest and video bytes; never silently retain failed source. Alternative source identity and Hindi audio require viewer confirmation."
   },
   {
     "name": "Super Hungama",
