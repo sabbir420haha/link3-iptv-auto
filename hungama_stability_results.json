@@ -1,0 +1,37 @@
+{
+  "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0408/master.m3u8",
+  "checked_utc": "2026-11-01T12:45:51.761781+00:00",
+  "scope": "GitHub runner, NOT user's Link3",
+  "reliable_link3_playback": null,
+  "confirmed_hindi_audio": null,
+  "stream_types": [],
+  "audio_tracks_found": 0,
+  "video_tracks_found": 0,
+  "ffprobe_error": "[hls @ 0x557e86523780] Unable to open key file http://iptvcasomsapi.jprdigital.in/api/casoms/channel/drm-license/key_1793536979.key\n[hls @ 0x557e86523780] Error when loading first segment 'http://iptvcasomsapi.jprdigital.in/x-media/C0408/segment-10590.ts'\nhttp://iptvcasomsapi.jprdigital.in/x-media/C0408/master.m3u8: Invalid data found when processing input\n",
+  "rounds": [
+    {
+      "point": 1,
+      "decode_exit": 183,
+      "max_frames": 0,
+      "out_time": null,
+      "error": "[hls @ 0x55fac223f440] Unable to open key file http://iptvcasomsapi.jprdigital.in/api/casoms/channel/drm-license/key_1793536979.key\n[hls @ 0x55fac223f440] Error when loading first segment 'http://iptvcasomsapi.jprdigital.in/x-media/C0408/segment-10590.ts'\n[in#0 @ 0x55fac223f340] Error opening input: Invalid data found when processing input\nError opening input file http://iptvcasomsapi.jprdigital.in/x-media/C0408/master.m3u8.\nError opening input files: Invalid data found when processing input\n"
+    },
+    {
+      "point": 2,
+      "decode_exit": 183,
+      "max_frames": 0,
+      "out_time": null,
+      "error": "[hls @ 0x55c706c86440] Unable to open key file http://iptvcasomsapi.jprdigital.in/api/casoms/channel/drm-license/key_1793536979.key\n[hls @ 0x55c706c86440] Error when loading first segment 'http://iptvcasomsapi.jprdigital.in/x-media/C0408/segment-10595.ts'\n[in#0 @ 0x55c706c86340] Error opening input: Invalid data found when processing input\nError opening input file http://iptvcasomsapi.jprdigital.in/x-media/C0408/master.m3u8.\nError opening input files: Invalid data found when processing input\n"
+    },
+    {
+      "point": 3,
+      "decode_exit": 183,
+      "max_frames": 0,
+      "out_time": null,
+      "error": "[hls @ 0x558e18e96440] Unable to open key file http://iptvcasomsapi.jprdigital.in/api/casoms/channel/drm-license/key_1793536979.key\n[hls @ 0x558e18e96440] Error when loading first segment 'http://iptvcasomsapi.jprdigital.in/x-media/C0408/segment-10600.ts'\n[in#0 @ 0x558e18e96340] Error opening input: Invalid data found when processing input\nError opening input file http://iptvcasomsapi.jprdigital.in/x-media/C0408/master.m3u8.\nError opening input files: Invalid data found when processing input\n"
+    }
+  ],
+  "three_video_checkpoints": false,
+  "audio_present_and_three_video_checkpoints": false,
+  "warning": "Does not prove uninterrupted audio or Hindi speech over minutes, and cannot establish Link3-specific reliability."
+}
