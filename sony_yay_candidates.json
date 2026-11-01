@@ -944,6 +944,24 @@
       "url": "https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/protv.m3u8?id=2802",
       "source": "Junan02/bdiptvtest check ok.m3u (GitHub search 2026-11-01); Sony YAY India; audio language unverified; public URL without keys or credentials",
       "hindi_claim": false
+    },
+    {
+      "id": "Y158",
+      "url": "https://yowaimo.in/Sflex-ArtlPVT0719/SONY_yay.m3u8",
+      "source": "got7ar/jkbbj zz.m3u; Sony Yay Kids; newly surfaced GitHub search 2026-11-01; language unverified",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y159",
+      "url": "https://playyonogames.in/sliv/stream.m3u8?id=1000001971",
+      "source": "mdarif2743/Cmcl-digital-mpd README.m3u referer for Sony Yay ID 1000001971; may require Referer; Hindi unverified",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y160",
+      "url": "https://b4uplay.com/sliv/stream.m3u8?id=1000001971",
+      "source": "mdarif2743/Cmcl-digital-mpd README.m3u commented alternative for Sony Yay; language unverified",
+      "hindi_claim": false
     }
   ]
 }
