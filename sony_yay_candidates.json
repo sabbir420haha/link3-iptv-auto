@@ -1091,6 +1091,18 @@
       "url": "http://maxotts.maxdigitaltv.com/x-media/C39/master.m3u8",
       "source": "konanda-sg/teststst tplay/main.js Sony Yay Server 1 origin; discovered 2026-11-01",
       "hindi_claim": false
+    },
+    {
+      "id": "Y182",
+      "url": "https://filoox.vercel.app/live/26187.m3u8",
+      "source": "johirxofficial/johirxofficial.github.io live/otv_bd_may.m3u; Sony YAY Indian EPG channel 26187; discovered 2026-11-01, Hindi NOT proven",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y183",
+      "url": "https://www.redbooks.site/x11.php?id=26187.m3u8",
+      "source": "fakeall12398-sketch/JIO_TV kids.m3u; IN | SONY YAY channel 26187; discovered 2026-11-01, Hindi NOT proven",
+      "hindi_claim": false
     }
   ]
 }
