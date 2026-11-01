@@ -709,7 +709,7 @@ def main():
     actual_pins = {x["name"] for x in channels if x.get("locked")}
     # User specifically excluded six non-playing channels. Never silently restore them.
     user_excluded = {"Jago News 24", "TBN24", "Green TV", "Nexus TV",
-                     "Colors Bangla", "Aakaash Aath"}
+                     "Colors Bangla", "Aakaash Aath", "Bangla Jago TV"}
     all_names = {x["name"] for x in channels}
     if (len(channels) < 97 or not required_pins.issubset(actual_pins)
             or user_excluded.intersection(all_names)):
