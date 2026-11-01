@@ -709,9 +709,14 @@ def main():
             or user_excluded.intersection(all_names)):
         raise ValueError("Channel catalog, excluded names, or original pinned streams unexpectedly changed")
     previous = {}
+    previous_logos = {}
     if OUTPUT.exists():
         for c in parse_m3u(OUTPUT.read_text(encoding="utf-8")):
             previous[key(c["name"])] = c["url"]
+            # Retain branded artwork for existing streams during every
+            # automatic refresh; a reused URL does not contain logo metadata.
+            if c.get("logo"):
+                previous_logos[key(c["name"])] = c["logo"]
 
     source_stats = []
     found = defaultdict(list)
@@ -881,8 +886,11 @@ def main():
             name = clean(item["name"])
             group = clean("00 | MY FAVORITES" if item["name"] in (FAVORITES_SET | {"Channel 24 YT HLS TEST"}) else
                           "98 | TEST - Unverified Non-BDIX" if state == "EXPERIMENTAL_NOT_PLAYBACK_VERIFIED" else item["group"])
-            # User-pinned player artwork must survive automatic playlist regeneration.
-            logo = clean(item.get("player_logo") or chosen.get("logo", ""))
+            # Prefer a curated channel-specific logo. A chosen URL copied
+            # from the previous M3U often carries no logo itself, so preserve
+            # the previous channel artwork as the final fallback.
+            logo = clean(item.get("player_logo") or chosen.get("logo") or
+                         previous_logos.get(key(item["name"]), ""))
             # Preserve user-confirmed player identity for pinned streams.
             # The Hungama TEST 113 metadata is used in Main while the former
             # Hungama stream is a separately pinned Hungama Backup channel.
