@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-11-01",
   "purpose": "Test 3 Hungama channel and separately-labelled Super Hungama candidate URLs; no media playback claims",
-  "warning": "CDN does not guarantee unrestricted access; some are known-broken, same backend variants, historical streams, or audio/content unverified. These are 40 tests, 31 Hungama TV + 9 Super Hungama, not 40 confirmed sources.",
+  "warning": "Includes 26 new user-requested Hungama trials numbered 17-42 plus original sources. Remote network checks do not prove uninterrupted video/audio on Link3. MAIN unchanged.",
   "sources": [
     {
       "id": "Hungama",
@@ -362,6 +362,126 @@
       "status": "not verified on Link3",
       "github_http": "not checked",
       "is_hungama_tv": false
+    },
+    {
+      "id": "Hungama",
+      "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0408/master.m3u8",
+      "source": "iptv-org/iptv issue 33947, approved Hindi March 2026",
+      "bucket": "recent",
+      "status": "UNVERIFIED on Link3; user to test; remote check only",
+      "github_http": "scheduled",
+      "is_hungama_tv": true,
+      "trial_number": 17
+    },
+    {
+      "id": "Hungama",
+      "url": "https://kingkohli.pages.dev/Play/Kid/HungamaTV.m3u8",
+      "source": "simantobd/needs public kids playlist",
+      "bucket": "recent",
+      "status": "UNVERIFIED on Link3; user to test; remote check only",
+      "github_http": "scheduled",
+      "is_hungama_tv": true,
+      "trial_number": 18
+    },
+    {
+      "id": "Hungama",
+      "url": "https://is.gd/N7vaq0.m3u8",
+      "source": "Habib2399/Meghna tv, Hungama TV",
+      "bucket": "recent",
+      "status": "UNVERIFIED on Link3; user to test; remote check only",
+      "github_http": "scheduled",
+      "is_hungama_tv": true,
+      "trial_number": 19
+    },
+    {
+      "id": "Hungama",
+      "url": "https://allinonereborn.com/allinone.php?id=4910",
+      "source": "Vivek-9689/Project index.html, Hindi Hungama HD",
+      "bucket": "curated",
+      "status": "UNVERIFIED on Link3; user to test; remote check only",
+      "github_http": "scheduled",
+      "is_hungama_tv": true,
+      "trial_number": 20
+    },
+    {
+      "id": "Hungama",
+      "url": "http://175.107.244.52:4455/play/a00z/index.m3u8",
+      "source": "rudrow/iptv urbee",
+      "bucket": "curated",
+      "status": "UNVERIFIED on Link3; user to test; remote check only",
+      "github_http": "scheduled",
+      "is_hungama_tv": true,
+      "trial_number": 21
+    },
+    {
+      "id": "Hungama",
+      "url": "http://223.29.231.66:8000/play/a01u/index.m3u8",
+      "source": "Fabiosilva653/CCTV NOVA INTER",
+      "bucket": "curated",
+      "status": "UNVERIFIED on Link3; user to test; remote check only",
+      "github_http": "scheduled",
+      "is_hungama_tv": true,
+      "trial_number": 22
+    },
+    {
+      "id": "Hungama",
+      "url": "http://103.99.249.107/play/a023",
+      "source": "Sonuiptvnew/Sonuiptvnew sonuindia.m3u8",
+      "bucket": "curated",
+      "status": "UNVERIFIED on Link3; user to test; remote check only",
+      "github_http": "scheduled",
+      "is_hungama_tv": true,
+      "trial_number": 23
+    },
+    {
+      "id": "Hungama",
+      "url": "http://103.153.39.36:8000/play/a01x",
+      "source": "Sonuiptvnew/Sonuiptvnew indian (1).m3u8",
+      "bucket": "curated",
+      "status": "UNVERIFIED on Link3; user to test; remote check only",
+      "github_http": "scheduled",
+      "is_hungama_tv": true,
+      "trial_number": 24
+    },
+    {
+      "id": "Hungama",
+      "url": "http://14.102.123.50:8500/play/a05u",
+      "source": "Hasibfy37/Iptv Playlist_rough.m3u",
+      "bucket": "curated",
+      "status": "UNVERIFIED on Link3; user to test; remote check only",
+      "github_http": "scheduled",
+      "is_hungama_tv": true,
+      "trial_number": 25
+    },
+    {
+      "id": "Hungama",
+      "url": "http://144.217.70.181:9587/hin2/HUNGAMA/index.m3u8",
+      "source": "Public M3U Hungama multilingual HLS, alternate path to prior host",
+      "bucket": "recent",
+      "status": "UNVERIFIED on Link3; user to test; remote check only",
+      "github_http": "scheduled",
+      "is_hungama_tv": true,
+      "trial_number": 26
+    },
+    {
+      "id": "Hungama",
+      "url": "http://ms.towkai.com/hungama_ml/index.m3u8",
+      "source": "badalbd53/Rocket-OTV; language may be Malayalam",
+      "bucket": "curated",
+      "status": "UNVERIFIED on Link3; user to test; remote check only",
+      "github_http": "scheduled",
+      "is_hungama_tv": true,
+      "trial_number": 27
+    },
+    {
+      "id": "Hungama",
+      "url": "https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/tiptop-himu.m3u8?id=1094",
+      "source": "mahmud31132/bdix-tv mahmud3.m3u",
+      "bucket": "recent",
+      "status": "UNVERIFIED on Link3; user to test; remote check only",
+      "github_http": "scheduled",
+      "is_hungama_tv": true,
+      "trial_number": 28
     }
   ]
 }
