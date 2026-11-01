@@ -1079,6 +1079,18 @@
       "url": "https://allinonereborn.in/allinone.php?id=34198",
       "source": "Vishal8595 HD.m3u8 gist; explicitly labeled SONY YAY HINDI; old 2024 source, newly considered 2026-11-01, unverified",
       "hindi_claim": true
+    },
+    {
+      "id": "Y180",
+      "url": "https://os.mxonlive.workers.dev/azers/276923.m3u8",
+      "source": "mahabubur016823/Drm mix.m3u; Sony YAY-labelled public worker; discovered 2026-11-01",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y181",
+      "url": "http://maxotts.maxdigitaltv.com/x-media/C39/master.m3u8",
+      "source": "konanda-sg/teststst tplay/main.js Sony Yay Server 1 origin; discovered 2026-11-01",
+      "hindi_claim": false
     }
   ]
 }
