@@ -1,0 +1,65 @@
+{
+  "checked_at_local": "2026-11-02 04:53 Asia/Dhaka",
+  "purpose": "Sony YAY! Hindi-only, genuinely live and sustained, Link3-safe discovery audit",
+  "prior_candidates_count": 195,
+  "previous_user_confirmed_failed_test_entries": 16,
+  "sources_consulted": [
+    {
+      "type": "repository",
+      "url": "https://github.com/sabbir420haha/link3-iptv-auto/blob/main/sony_yay_candidates.json",
+      "finding": "195 existing candidate URLs; reviewed to avoid recycling"
+    },
+    {
+      "type": "repository",
+      "url": "https://github.com/sabbir420haha/link3-iptv-auto/blob/main/sony_yay_probe_results.json",
+      "finding": "0 new remotely verified Hindi streams as of prior recorded probe"
+    },
+    {
+      "type": "issue",
+      "url": "https://github.com/iptv-org/iptv/issues/57300",
+      "finding": "Sony Yay stream http://103.165.93.31:8095/sonyYay/index.m3u8 reported not loading; excluded"
+    },
+    {
+      "type": "issue",
+      "url": "https://github.com/mitthu786/tvepg/issues/26",
+      "finding": "Issue concerns Tamil catch-up only, not Hindi live; excluded"
+    },
+    {
+      "type": "github_code_search",
+      "finding": "Reviewed Sony Yay Hindi, SonyYaySD, m3u8, workers.dev, and recent playlist search results; viable-looking public Hindi links were already in the 195-candidate registry or unproven"
+    },
+    {
+      "type": "web_search",
+      "finding": "Recent public web and GitHub issue search did not establish a new stable Hindi live stream"
+    }
+  ],
+  "explicitly_excluded": [
+    {
+      "url": "http://103.165.93.31:8095/sonyYay/index.m3u8",
+      "reason": "Issue #57300 reports not loading"
+    },
+    {
+      "url": "https://sm-monirul.top/Toffee/live.php?id=57bd9c2493c1&e=.m3u8",
+      "reason": "Sony YAY VIP labelled, but Hindi audio not evidenced; Toffee relay with no remotely verified playback"
+    },
+    {
+      "url": "http://138.121.15.230:9002/SONY/index.m3u8",
+      "reason": "Prior Y190 had video decoding and live advancement, but audio metadata was spa (Spanish), not Hindi"
+    }
+  ],
+  "remote_media_probe": {
+    "executed_this_run": false,
+    "reason": "This runtime cannot resolve public stream hosts from the media-decoding container; ffmpeg/ffprobe cannot fetch segments. GitHub connector can inspect repository text but has no workflow-dispatch capability.",
+    "spaced_video_decoding": false,
+    "hls_segment_advancement": false,
+    "hindi_audio_verified": false
+  },
+  "verified_new_hindi_sources": [],
+  "playlist_update": "none",
+  "protected_files_unchanged": [
+    "playlist.m3u",
+    "favorites_tests.m3u",
+    "documentary_hd_tests.m3u"
+  ],
+  "conclusion": "No genuinely new, remotely verified sustained Sony YAY Hindi source found; no TEST playlist channel was added. Local Link3 verification remains necessary for any future candidate."
+}
