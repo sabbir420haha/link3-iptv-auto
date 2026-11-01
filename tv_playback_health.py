@@ -26,6 +26,7 @@ PROGRESS_CHANNELS = {
     "Channel 24", "Hungama", "Zee Bangla", "Zee Bangla HD",
     "Jamuna TV", "Somoy TV", "Discovery Bangla",
     "Nat Geo HD Bangla", "Independent TV", "Sony Ten 1 HD",
+    "Sony Yay",  # Link3 viewer-confirmed TEST 04 pinned in Main.
 }
 
 
