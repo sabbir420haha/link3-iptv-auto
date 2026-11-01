@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-01T15:28:05.667605+00:00",
+  "updated_utc": "2026-11-01T15:34:55.844199+00:00",
   "channels": 75,
   "target_channels": 99,
   "groups": {
@@ -13,7 +13,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 314,
+  "remote_manifests_probed": 321,
   "media_segments_probed": 3,
   "experimental_unverified": 0,
   "backup_streams": [],
@@ -22,16 +22,58 @@
       "name": "Sony Yay",
       "candidates": [
         {
-          "source": "Zaman-Active",
+          "source": "curated-candidate",
+          "url": "https://pubads.g.doubleclick.net/ssai/event/40H5HfwWTZadFGYkBTqagg/master.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://stream.ottplus.live/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8",
+          "manifest_ok": true,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://sliv.tgaadi.workers.dev/sonyyaysd.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
           "url": "https://cloudplay-sonyliv.pages.dev/yay.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
         },
         {
-          "source": "SM-IPTV",
-          "url": "https://stream.ottplus.live/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8",
-          "manifest_ok": true,
+          "source": "curated-candidate",
+          "url": "https://nxtlive.net/sliv/stream.php?id=0657898986&e=.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.83.80.54:6088/play/a0et/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.229.254.25:7001/play/a0cl/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.165.93.31:8095/sonyYay/index.m3u8",
+          "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
         },
@@ -528,6 +570,16 @@
   ],
   "pinned_target_audit": [
     {
+      "name": "Sony Yay",
+      "url": "",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "viewer_confirmed_link3": false,
+      "identity_audio_verified_by_runner": false,
+      "note": "GitHub runner network only; a failure does not invalidate a Link3 user-confirmed pin."
+    },
+    {
       "name": "Disney HD Hindi",
       "url": "http://ranapkz.site/TATABD/play.php?id=167551&format=.m3u8",
       "manifest_ok": true,
@@ -559,6 +611,78 @@
     }
   ],
   "missing_target_candidate_audit": [
+    {
+      "name": "Sony Yay",
+      "url": "https://sliv.tgaadi.workers.dev/sonyyaysd.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sony Yay",
+      "url": "https://cloudplay-sonyliv.pages.dev/yay.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sony Yay",
+      "url": "https://pubads.g.doubleclick.net/ssai/event/40H5HfwWTZadFGYkBTqagg/master.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sony Yay",
+      "url": "https://stream.ottplus.live/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8",
+      "manifest_ok": true,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sony Yay",
+      "url": "https://nxtlive.net/sliv/stream.php?id=0657898986&e=.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sony Yay",
+      "url": "http://103.83.80.54:6088/play/a0et/index.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sony Yay",
+      "url": "http://103.229.254.25:7001/play/a0cl/index.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sony Yay",
+      "url": "http://103.165.93.31:8095/sonyYay/index.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
     {
       "name": "Disney HD Hindi",
       "url": "https://raw.githubusercontent.com/Hasanmahmud000/Yt/main/Disney_Channel_HD.index.m3u8",
@@ -1593,7 +1717,7 @@
     },
     {
       "name": "Sony Yay",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "REMOTE_HLS_MEDIA_SEGMENT_VERIFIED",
       "stream": "https://sl.vodep39240327.workers.dev/channel/SONY%20YAY.m3u8",
       "manifest_height": 0,
       "media_segment_checked": true
@@ -1827,7 +1951,7 @@
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-11-01T15:28:21.672668+00:00",
+    "updated_utc": "2026-11-01T15:35:07.608025+00:00",
     "channel_count": 25,
     "entries": 475,
     "by_name": {
