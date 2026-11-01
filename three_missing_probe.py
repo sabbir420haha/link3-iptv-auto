@@ -15,6 +15,8 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-11-01 newly discovered exact Sonic Hindi Jio ID 815, from nepalicana/iptv Jio FHD.m3u8; audit only.
+    {"channel":"Sonic Hindi","url":"https://snehjiotv.in1.bitmana.io/snehjioox.php?c=sonic_Hindi&q=1200&e=junk.m3u8","evidence":"github.com/nepalicana/iptv Jio FHD.m3u8 labels Sonic Hindi (Jio 815); requires real HLS media and Hindi audio evidence; not user-verified","expected_audio":"hi"},
     # 2026-10-31 newly located GitHub-labeled Disney Channel INDIA; no HD/Hindi proof.
     {"channel":"Disney HD Hindi","url":"http://45.249.187.238:8081/hls/live0.m3u8","evidence":"github.com/GraphicMiles/chan-watchparty server-lib/iptv.js labels Disney Channel india; require >=720p manifest, Hindi audio and identity; audit only","expected_audio":"hi","min_height":720},
     # 2026-10-31 new independent GitHub-discovered alternatives, runner audit only; never auto-publish.
