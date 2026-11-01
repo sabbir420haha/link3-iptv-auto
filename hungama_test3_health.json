@@ -1,9 +1,9 @@
 {
-  "checked_at_utc": "2026-10-26T06:37:31.135135+00:00",
+  "checked_at_utc": "2026-11-01T12:42:33.878781+00:00",
   "scope": "GitHub Actions runner only, NEVER Link3 ISP",
-  "checked": 40,
-  "manifest_count": 1,
-  "segment_count": 1,
+  "checked": 52,
+  "manifest_count": 3,
+  "segment_count": 2,
   "warning": "Video bytes do not independently establish actual Hungama TV identity, Hindi audio, legal rights or playback on Link3.",
   "results": [
     {
@@ -93,6 +93,46 @@
       "manifest_ok": false,
       "segment_ok": false,
       "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "id": "Hungama",
+      "url": "http://iptvcasomsapi.jprdigital.in/x-media/C0408/master.m3u8",
+      "bucket": "recent",
+      "manifest_ok": true,
+      "segment_ok": true,
+      "error": null
+    },
+    {
+      "id": "Hungama",
+      "url": "https://kingkohli.pages.dev/Play/Kid/HungamaTV.m3u8",
+      "bucket": "recent",
+      "manifest_ok": true,
+      "segment_ok": false,
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Hungama",
+      "url": "https://is.gd/N7vaq0.m3u8",
+      "bucket": "recent",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Hungama",
+      "url": "http://144.217.70.181:9587/hin2/HUNGAMA/index.m3u8",
+      "bucket": "recent",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "Hungama",
+      "url": "https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/tiptop-himu.m3u8?id=1094",
+      "bucket": "recent",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "error": "<urlopen error [Errno -2] Name or service not known>"
     },
     {
       "id": "Hungama",
@@ -325,6 +365,62 @@
       "manifest_ok": false,
       "segment_ok": false,
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Hungama",
+      "url": "https://allinonereborn.com/allinone.php?id=4910",
+      "bucket": "curated",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "error": "No direct m3u8 extension (kept as IPTV Pro trial)"
+    },
+    {
+      "id": "Hungama",
+      "url": "http://175.107.244.52:4455/play/a00z/index.m3u8",
+      "bucket": "curated",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Hungama",
+      "url": "http://223.29.231.66:8000/play/a01u/index.m3u8",
+      "bucket": "curated",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "id": "Hungama",
+      "url": "http://103.99.249.107/play/a023",
+      "bucket": "curated",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "error": "No direct m3u8 extension (kept as IPTV Pro trial)"
+    },
+    {
+      "id": "Hungama",
+      "url": "http://103.153.39.36:8000/play/a01x",
+      "bucket": "curated",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "error": "No direct m3u8 extension (kept as IPTV Pro trial)"
+    },
+    {
+      "id": "Hungama",
+      "url": "http://14.102.123.50:8500/play/a05u",
+      "bucket": "curated",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "error": "No direct m3u8 extension (kept as IPTV Pro trial)"
+    },
+    {
+      "id": "Hungama",
+      "url": "http://ms.towkai.com/hungama_ml/index.m3u8",
+      "bucket": "curated",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "error": "<urlopen error timed out>"
     }
   ]
 }
