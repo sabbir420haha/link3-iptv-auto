@@ -70,6 +70,126 @@ http://tgaadi-web.tech/stalker/play.m3u8?tv=251
 #EXTINF:-1 tvg-id="hungama-newnov-117" tvg-name="Hungama TEST 117" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 117
 https://unknown-playlists.vercel.app/hungama-by-stevosure.m3u8
 
+# HUNGAMA TV AND KIDS EXTRA TRIAL BATCH — 2026-11-01
+# Source-backed public links only. None confirmed on Link3 or even to be currently online.
+# TEST 118-128: specifically listed Hungama TV. TEST 129-140: separate Hungama Kids-labelled alternatives.
+# Several alternative feeds may proxy the same upstream despite distinct URLs.
+
+# SOURCE Hungama TEST 118: rudrow/iptv shima
+# CHANNEL_LABEL: Hungama TV. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-118-20261101" tvg-name="Hungama TEST 118" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 118
+http://59.103.244.239:8001/play/a00k/index.m3u8
+
+# SOURCE Hungama TEST 119: reyad27s/Tv
+# CHANNEL_LABEL: Hungama TV. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-119-20261101" tvg-name="Hungama TEST 119" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 119
+https://amd.agelraje5.workers.dev/stream.m3u8?id=49
+
+# SOURCE Hungama TEST 120: mdsirome/LiveTV
+# CHANNEL_LABEL: Hungama TV BD. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-120-20261101" tvg-name="Hungama TEST 120" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 120
+https://fifabangladesh.xyz/API/KIDS3/RANAPK/play.m3u8?id=246770
+
+# SOURCE Hungama TEST 121: fakeall12398-sketch/JIO_TV
+# CHANNEL_LABEL: Hungama TV. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-121-20261101" tvg-name="Hungama TEST 121" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 121
+https://public.kliv.fun/Mac21o/play.php?id=11646
+
+# SOURCE Hungama TEST 122: swapnilpachare2/tv
+# CHANNEL_LABEL: Hungama TV HD. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-122-20261101" tvg-name="Hungama TEST 122" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 122
+http://zeestb1.online/dhoom.php?id=7613
+
+# SOURCE Hungama TEST 123: Vivek-9689/Project-
+# CHANNEL_LABEL: Hungama TV IN. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-123-20261101" tvg-name="Hungama TEST 123" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 123
+https://allinonereborn.com/allinone.php?id=475135
+
+# SOURCE Hungama TEST 124: Vivek-9689/Project-
+# CHANNEL_LABEL: Hungama Hindi HD. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-124-20261101" tvg-name="Hungama TEST 124" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 124
+https://allinonereborn.com/allinone.php?id=4910
+
+# SOURCE Hungama TEST 125: Mrlivetv/Fredlix
+# CHANNEL_LABEL: Hungama TV. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-125-20261101" tvg-name="Hungama TEST 125" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 125
+https://port.yuvraj49.in/xegd/master.m3u8?id=4019
+
+# SOURCE Hungama TEST 126: bhavy20110/Kkklakwk
+# CHANNEL_LABEL: Hungama TV. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-126-20261101" tvg-name="Hungama TEST 126" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 126
+http://port.denver1769.in/ulpl2.php?tv=4019
+
+# SOURCE Hungama TEST 127: thetest19/iptv-player
+# CHANNEL_LABEL: Hungama TV. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-127-20261101" tvg-name="Hungama TEST 127" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 127
+https://redbooks.site/2026/166/index.ts
+
+# SOURCE Hungama TEST 128: krish-93/gugl
+# CHANNEL_LABEL: Hungama TV. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-128-20261101" tvg-name="Hungama TEST 128" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama TEST 128
+https://yowaimo.in/Artl/live.php?watchid=HUNGAMA&userid=SFDHJ3UZ
+
+# SOURCE Hungama KIDS ALT TEST 129: coding-A412/JakSmJ
+# CHANNEL_LABEL: Hungama Kids (alternative). PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-129-20261101" tvg-name="Hungama KIDS ALT TEST 129" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 129
+https://tgaadi-web.tech/api/spice.php?tv=9400
+
+# SOURCE Hungama KIDS ALT TEST 130: khankimagi23221/okk-1
+# CHANNEL_LABEL: Hungama Kids (alternative). PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-130-20261101" tvg-name="Hungama KIDS ALT TEST 130" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 130
+https://cricfyranahin.xyz/sportzx/line.m3u8?id=150480
+
+# SOURCE Hungama KIDS ALT TEST 131: Prtstream820894/Api
+# CHANNEL_LABEL: Hungama Kids Hindi (alternative). PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-131-20261101" tvg-name="Hungama KIDS ALT TEST 131" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 131
+https://ranapkx.site/RANAPK33k/TVD/play.php?id=1433211&e=.m3u8
+
+# SOURCE Hungama KIDS ALT TEST 132: labib5556/Labi-h
+# CHANNEL_LABEL: Hungama Kids SD (possibly ISP-only). PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-132-20261101" tvg-name="Hungama KIDS ALT TEST 132" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 132
+http://117.102.16.2:34567/play/a09c/index.m3u8
+
+# SOURCE Hungama KIDS ALT TEST 133: 3rR0r-Pr1Nc3/iptv
+# CHANNEL_LABEL: Hungama Kids (alternative). PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-133-20261101" tvg-name="Hungama KIDS ALT TEST 133" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 133
+https://tivimateplaylists.live/hungamakidzszs
+
+# SOURCE Hungama KIDS ALT TEST 134: ShahirTech/Shahir-TV-Playlist
+# CHANNEL_LABEL: Hungama Kids (alternative). PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-134-20261101" tvg-name="Hungama KIDS ALT TEST 134" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 134
+https://yowaimo.in/Sflex-ArtlPVT0719/hungama.m3u8
+
+# SOURCE Hungama KIDS ALT TEST 135: rkbro23/rk_playlist
+# CHANNEL_LABEL: Hungama Kids alternate feed A. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-135-20261101" tvg-name="Hungama KIDS ALT TEST 135" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 135
+https://allinonereborn.com/ipl123.m3u8?id=18456
+
+# SOURCE Hungama KIDS ALT TEST 136: rkbro23/rk_playlist
+# CHANNEL_LABEL: Hungama Kids alternate feed B. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-136-20261101" tvg-name="Hungama KIDS ALT TEST 136" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 136
+https://allinonereborn.com/ipl769.m3u8?id=18456
+
+# SOURCE Hungama KIDS ALT TEST 137: rkbro23/rk_playlist
+# CHANNEL_LABEL: Hungama Kids alternate feed C. PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-137-20261101" tvg-name="Hungama KIDS ALT TEST 137" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 137
+https://allinonereborn.com/ipl553.m3u8?id=18456
+
+# SOURCE Hungama KIDS ALT TEST 138: wickedakshay/MyTv.m3u
+# CHANNEL_LABEL: Hungama Kids (alternative). PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-138-20261101" tvg-name="Hungama KIDS ALT TEST 138" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 138
+https://allinonereborn.in/allinone.php?id=56032
+
+# SOURCE Hungama KIDS ALT TEST 139: swapnilpachare2/tv
+# CHANNEL_LABEL: Hungama Kids shortlink (alternative). PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-139-20261101" tvg-name="Hungama KIDS ALT TEST 139" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 139
+https://daem.short.gy/HungamaKids_FreeDishBhai.m3u8
+
+# SOURCE Hungama KIDS ALT TEST 140: aoestudios57/aoestudios57.github.io
+# CHANNEL_LABEL: Hungama Kids (alternative). PLAYBACK: UNVERIFIED on Link3; check if it really displays Hungama TV.
+#EXTINF:-1 tvg-id="hungama-extra-140-20261101" tvg-name="Hungama KIDS ALT TEST 140" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama KIDS ALT TEST 140
+http://AllLiveSportsLinks-Stream.chadasaniya.cf:8080/hls/Hungama-Kids/playlist.m3u8
+
 # ---- NEW OCT-27 2026: REQUESTED SHOW-ONLY 24x7 TEST SOURCES ----
 # Each URL is different; NOT a promise of video/audio in Bangladesh, region accessibility, unbroken 24 hours, or licensing.
 # GitHub runner 2026-10-27T13:47:45.929510+00:00 confirmed manifest AND media bytes in 11/11 candidates; programme identity/language and Link3 playback NOT yet confirmed.
