@@ -877,6 +877,13 @@ def main():
                 ua = str(item["stream_user_agent"]).replace("\\r", "").replace("\\n", "").strip()
                 if ua:
                     output.append(f"#EXTVLCOPT:http-user-agent={ua}")
+            # Sony YAY: retain the publicly stated playback headers from the
+            # user-selected README.m3u feed on every six-hour regeneration.
+            # This is a requested Link3 trial; playback is NOT verified.
+            if (item["name"] == "Sony Yay" and
+                    chosen["url"].startswith("https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971")):
+                output.append("#EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1")
+                output.append("#EXTVLCOPT:http-referrer=https://playyonogames.in/sliv/stream.m3u8?id=1000001971")
             # IPTV Pro consumes the M3U channel URL; no verified M3U tag
             # can enforce a 15-second rolling buffer in its built-in player.
             # Do not emit misleading VLC-specific caching/reconnect options.
