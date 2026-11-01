@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-01T03:18:35.629196+00:00",
-  "evaluated": 157,
+  "checked_utc": "2026-11-01T04:36:58.745225+00:00",
+  "evaluated": 160,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -1272,6 +1272,30 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y158",
+      "url": "https://yowaimo.in/Sflex-ArtlPVT0719/SONY_yay.m3u8",
+      "source": "got7ar/jkbbj zz.m3u; Sony Yay Kids; newly surfaced GitHub search 2026-11-01; language unverified",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "id": "Y159",
+      "url": "https://playyonogames.in/sliv/stream.m3u8?id=1000001971",
+      "source": "mdarif2743/Cmcl-digital-mpd README.m3u referer for Sony Yay ID 1000001971; may require Referer; Hindi unverified",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error timed out>"
+    },
+    {
+      "id": "Y160",
+      "url": "https://b4uplay.com/sliv/stream.m3u8?id=1000001971",
+      "source": "mdarif2743/Cmcl-digital-mpd README.m3u commented alternative for Sony Yay; language unverified",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
     }
   ]
 }
