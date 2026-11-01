@@ -1,0 +1,138 @@
+name: Sonic Hindi isolated novel candidate verification 2026-11-02
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/sonic-hindi-novel-20261102.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ensure ffprobe and ffmpeg
+        run: command -v ffprobe && command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+      - name: Two-fetch decoded Sonic Hindi video verification
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import datetime, ipaddress, json, pathlib, re, socket, subprocess, time, urllib.parse, urllib.request
+          root = pathlib.Path(".")
+          candidates = [
+              {"url": "https://jio.jiotv.link/api/app/live.php?id=815&e=.m3u8", "source": "AlahiMajnurOsama/Tv JioTv.m3u explicitly Sonic Hindi channel 815"},
+              {"url": "http://mohitweb.zapto.org:7878/live/815.m3u8", "source": "Bhavesh0a/Index Index3.html explicitly Sonic Hindi channel 815"},
+              {"url": "http://ranapk-june2.in1.bitmana.io/autoxxx.php?c=sonic_Hindi", "source": "Sonuiptvnew/Sonuiptvnew sonuiptvjioenjoy.m3u explicitly Sonic Hindi"}
+          ]
+          previous = json.loads((root/"sonic_hindi_candidates.json").read_text())
+          favorites = json.loads((root/"favorites_test_registry.json").read_text())
+          playlist_path = root/"documentary_hd_tests.m3u"
+          playlist = playlist_path.read_text()
+          excluded = set()
+          def gather(obj):
+              if isinstance(obj, dict):
+                  for key, value in obj.items():
+                      if key == "url" and isinstance(value, str): excluded.add(value.strip())
+                      gather(value)
+              elif isinstance(obj, list):
+                  for value in obj: gather(value)
+          gather(previous)
+          gather(favorites)
+          excluded.update(re.findall(r"(?m)^https?://[^\s]+", playlist))
+          bad = re.compile(r"(?:[?&](?:token|auth|mac|license|signature|hdntl|hdnts|session|play_token|key|sig|exp)=|/stalker/|widevine|\.mpd(?:\?|$))", re.I)
+          def command(args, timeout=45):
+              try:
+                  p = subprocess.run(args, capture_output=True, text=True, timeout=timeout)
+                  return p.returncode, p.stdout, p.stderr[-350:]
+              except Exception as e:
+                  return 125, "", str(e)[:350]
+          def manifest(url):
+              req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+              with urllib.request.urlopen(req, timeout=17) as response:
+                  body = response.read(110000).decode("utf-8", "replace")
+                  final = response.geturl()
+              if not body.lstrip().startswith("#EXTM3U") or not re.search(r"#EXT-X-(STREAM-INF|TARGETDURATION|MEDIA-SEQUENCE)", body):
+                  raise ValueError("Not a real HLS manifest")
+              if re.search(r"#EXT-X-(?:KEY|SESSION-KEY|DEFINE):", body):
+                  raise ValueError("HLS encryption or variable/key manifest")
+              for line in body.splitlines():
+                  line = line.strip()
+                  if line and not line.startswith("#") and bad.search(urllib.parse.urljoin(final, line)):
+                      raise ValueError("Token/credential in HLS referenced URI")
+              return body, final
+          def live_position(url):
+              for depth in range(4):
+                  body, final = manifest(url)
+                  lines = [x.strip() for x in body.splitlines() if x.strip()]
+                  variants = []
+                  for i, line in enumerate(lines[:-1]):
+                      if line.startswith("#EXT-X-STREAM-INF"):
+                          nxt = next((x for x in lines[i+1:] if not x.startswith("#")), None)
+                          if nxt: variants.append(urllib.parse.urljoin(final, nxt))
+                  if variants:
+                      url = variants[0]
+                      continue
+                  seq = re.search(r"#EXT-X-MEDIA-SEQUENCE:(\d+)", body)
+                  segments = [urllib.parse.urljoin(final, lines[i+1]) for i,x in enumerate(lines[:-1]) if x.startswith("#EXTINF:") and not lines[i+1].startswith("#")]
+                  if not segments: raise ValueError("No HLS media segments")
+                  if "#EXT-X-ENDLIST" in body: raise ValueError("Not a live HLS playlist")
+                  return {"seq": int(seq.group(1))+len(segments)-1 if seq else None, "segment": segments[-1], "hindi_tag": bool(re.search(r"LANGUAGE=[\"']?(?:hi|hin|hindi)\b|_hin=", body, re.I))}
+              raise ValueError("Too many HLS variant levels")
+          def validate(item):
+              url = item["url"]
+              result = {"url": url, "source": item["source"], "verified": False}
+              try:
+                  if url in excluded: raise ValueError("Excluded: already tried, in Favorites or published")
+                  parsed = urllib.parse.urlsplit(url)
+                  if parsed.scheme not in ("http","https") or not parsed.hostname or bad.search(url): raise ValueError("Invalid or authenticated URL")
+                  addresses = {r[4][0] for r in socket.getaddrinfo(parsed.hostname, parsed.port or (443 if parsed.scheme=="https" else 80))}
+                  if not addresses or any(not ipaddress.ip_address(a).is_global for a in addresses): raise ValueError("Private, reserved, or nonpublic address")
+                  first = live_position(url)
+                  checks = []
+                  for n in (1,2):
+                      rc, out, err = command(["ffprobe","-v","error","-rw_timeout","12000000","-show_entries","stream=codec_type,codec_name,width,height:stream_tags=language","-of","json",url], 42)
+                      streams = json.loads(out).get("streams", []) if rc == 0 else []
+                      video = [s for s in streams if s.get("codec_type")=="video"]
+                      audio = [s for s in streams if s.get("codec_type")=="audio"]
+                      drc, decoded, derr = command(["ffmpeg","-nostdin","-hide_banner","-loglevel","error","-rw_timeout","12000000","-i",url,"-map","0:v:0","-an","-frames:v","16","-progress","pipe:1","-f","null","-"], 50)
+                      frames = max([int(x) for x in re.findall(r"(?m)^frame=(\d+)", decoded)] or [0])
+                      checks.append({"fetch":n,"ffprobe_rc":rc,"ffmpeg_rc":drc,"video":video[0] if video else None,"audio":audio,"decoded_frames":frames,"error":(err+" "+derr)[-350:]})
+                      if n == 1: time.sleep(12)
+                  second = live_position(url)
+                  advanced = ((first["seq"] is not None and second["seq"] is not None and second["seq"] > first["seq"]) or first["segment"] != second["segment"])
+                  hindi = first["hindi_tag"] or second["hindi_tag"] or any(a.get("tags",{}).get("language","").lower() in ("hin","hi","hindi") for c in checks for a in c["audio"])
+                  passed = all(c["ffprobe_rc"]==0 and c["ffmpeg_rc"]==0 and c["video"] and c["audio"] and c["decoded_frames"]>=8 for c in checks)
+                  result.update(checks=checks, live_advanced=advanced, hindi_audio_metadata=hindi, hindi_source_corroboration=True, verified=bool(passed and advanced), reason="two decoded video fetches, live advancement and explicit Sonic Hindi source" if passed and advanced else "insufficient real live video verification")
+              except Exception as e:
+                  result["reason"] = str(e)[:300]
+              return result
+          results = [validate(c) for c in candidates]
+          for r in results: print("SONIC_HINDI_RESULT "+json.dumps(r, ensure_ascii=False), flush=True)
+          published = []
+          num = max([int(n) for n in re.findall(r"Sonic Hindi TEST\s*(\d+)", playlist)] or [0])
+          for r in results:
+              if not r["verified"] or r["url"] in playlist: continue
+              num += 1
+              label = f"Sonic Hindi TEST {num:02d} (remote verified, Link3 untested)"
+              playlist += f'\n#EXTINF:-1 tvg-name="{label}" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/Nickelodeon_Sonic_logo.png" group-title="SONIC HINDI TEST",{label}\n{r["url"]}\n'
+              published.append({"number": num, "url": r["url"], "checks": r["checks"], "live_advanced": r["live_advanced"], "hindi_audio_metadata": r["hindi_audio_metadata"]})
+          if published:
+              playlist_path.write_text(playlist)
+              (root/"sonic_hindi_probe_20261102_report.json").write_text(json.dumps({"checked_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),"published":published,"results":results,"Link3_confirmed":False}, indent=2)+"\n")
+          print("SONIC_HINDI_PUBLISHED "+json.dumps(published), flush=True)
+          PY
+      - name: Commit only verified Sonic Hindi TEST changes
+        shell: bash
+        run: |
+          if [ ! -f sonic_hindi_probe_20261102_report.json ]; then
+            echo "No verified new Sonic Hindi stream; no playlist update."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add documentary_hd_tests.m3u sonic_hindi_probe_20261102_report.json
+          git commit -m 'Append remotely verified Sonic Hindi TEST only'
+          git pull --rebase origin main
+          git push origin HEAD:main
