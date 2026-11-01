@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-01T00:49:57.864072+00:00",
-  "evaluated": 140,
+  "checked_utc": "2026-11-01T01:29:40.101420+00:00",
+  "evaluated": 144,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -1136,6 +1136,38 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "not_hls"
+    },
+    {
+      "id": "Y141",
+      "url": "http://103.81.104.118/hls/stream32.m3u8",
+      "source": "SArun61/IPTV TV1.m3u, Sony YAY Hindi explicit tvg-language Hindi; public IP, no credentials",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error timed out>"
+    },
+    {
+      "id": "Y142",
+      "url": "http://116.90.120.151:8000/play/a0hf/index.m3u8",
+      "source": "iptv-org/iptv issue 34597 Sony Yay SD 576p; audio not verified",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "id": "Y143",
+      "url": "https://roarzone.geoclaster.xyz/main/stream.php?id=ZWRnZTMvc29ueS15YXk%3D&name=Sony+Yay&format=.m3u8",
+      "source": "badalbd53/Rocket-OTV bdixtest Roarzone; Sony Yay alternative proxy; language unknown",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "id": "Y144",
+      "url": "https://legendary-orbit-r44wx4gj9xq6fwxqx-8080.app.github.dev/stream/sony_yay/index.m3u8",
+      "source": "Prtstream820894/GitHub UAE.txt; Sony Yay, temporary public codespace host; language unverified",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
     }
   ]
 }
