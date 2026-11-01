@@ -1031,6 +1031,18 @@
       "url": "http://indo51.gcdn.co/kids-SonyYay/tracks-v1a1/mono.m3u8",
       "source": "lolz1990/my Test.m3u; Sony Yay unspecified language (NOT verified Hindi); discovered 2026-11-01",
       "hindi_claim": false
+    },
+    {
+      "id": "Y172",
+      "url": "https://live4wab.pages.dev/?id=872",
+      "source": "ultron3000/ultron channels1.json; explicitly Sony Yay Hindi Jio channel 872; discovered 2026-11-01",
+      "hindi_claim": true
+    },
+    {
+      "id": "Y173",
+      "url": "https://prox.assadikb.workers.dev/watch/872JP",
+      "source": "AssadikBitul/playlist alltvx.m3u; explicitly Sony Yay Hindi, distinct from Bengali/Tamil; discovered 2026-11-01",
+      "hindi_claim": true
     }
   ]
 }
