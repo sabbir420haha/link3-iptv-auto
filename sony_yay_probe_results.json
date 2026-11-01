@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-01T08:41:09.110937+00:00",
-  "evaluated": 173,
+  "checked_utc": "2026-11-01T10:52:07.281235+00:00",
+  "evaluated": 177,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -62,7 +62,7 @@
       "source": "sm-monirulislam/SM-IPTV Hindi Sony LIV ID",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "no_decodable_video_height_0"
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "Y08",
@@ -1354,7 +1354,7 @@
       "hindi_claim": true,
       "referer": "https://hey-lookme.shop/",
       "status": "failed",
-      "reason": "HTTP Error 508: Loop Detected"
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "id": "Y168",
@@ -1403,6 +1403,38 @@
       "hindi_claim": true,
       "status": "failed",
       "reason": "no_decodable_video_height_0"
+    },
+    {
+      "id": "Y174",
+      "url": "https://yuvraj49.xyz/sliv/index.m3u8?ch=SonyYaySD&id=2011746",
+      "source": "Anmol1184/chu TVs/SonyLiv.m3u; Sony YAY SonyLIV feed ID 2011746, no auth token; newly discovered 2026-11-01",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y175",
+      "url": "https://shoebplaylive.qzz.io/sliv/sony.php?url=https://sliv.tgaadi.workers.dev/sonyyaysd.m3u8",
+      "source": "srhady/Hady sonychannel.m3u; explicitly Hindi Sony YAY relay of known Y04, no credentials; newly discovered 2026-11-01",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "id": "Y176",
+      "url": "https://ranapkx.site/RANAPK33t/TVD/play.php?id=373067",
+      "source": "MrHackrer/Playlist india_hindi_channels.m3u; explicitly HINDI Sony YAY HD, public endpoint; newly discovered 2026-11-01",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "The read operation timed out"
+    },
+    {
+      "id": "Y177",
+      "url": "https://tataplay.slivcdn.com/hls/live/2011746-b/SonyYaySD/master_3500.m3u8",
+      "source": "crictos99/liv sony.m3u; distinct public SonyYaySD 3500 rendition, audio not verified; newly discovered 2026-11-01",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
     }
   ]
 }
