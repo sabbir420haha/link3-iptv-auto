@@ -22,9 +22,9 @@ jobs:
           import datetime, ipaddress, json, pathlib, re, socket, subprocess, time, urllib.parse, urllib.request
           root = pathlib.Path(".")
           candidates = [
-              {"url": "https://jio.jiotv.link/api/app/live.php?id=815&e=.m3u8", "source": "AlahiMajnurOsama/Tv JioTv.m3u explicitly Sonic Hindi channel 815"},
-              {"url": "http://mohitweb.zapto.org:7878/live/815.m3u8", "source": "Bhavesh0a/Index Index3.html explicitly Sonic Hindi channel 815"},
-              {"url": "http://ranapk-june2.in1.bitmana.io/autoxxx.php?c=sonic_Hindi", "source": "Sonuiptvnew/Sonuiptvnew sonuiptvjioenjoy.m3u explicitly Sonic Hindi"}
+              {"url": "https://prod-ent-live-fa.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8", "source": "arunprajapati249/iptv playlist.m3u lists Sonic Nickelodeon; Hindi metadata must be confirmed", "source_hindi": False},
+              {"url": "https://livevoot.co.in/voot/master.m3u8?id=Sonic_Nickelodeon_voot_MOB", "source": "mdsirome/LiveTV DiscoverTV.m3u Sonic Nickelodeon; Hindi metadata must be confirmed", "source_hindi": False},
+              {"url": "https://madplay.live/player/jiotv.php?id=sonic_Hindi_MOB/Fallback/index.m3u8", "source": "tvs6/livetv index.html explicit Sonic Hindi mobile stream, public player URL", "source_hindi": True}
           ]
           previous = json.loads((root/"sonic_hindi_candidates.json").read_text())
           favorites = json.loads((root/"favorites_test_registry.json").read_text())
@@ -104,7 +104,7 @@ jobs:
                   advanced = ((first["seq"] is not None and second["seq"] is not None and second["seq"] > first["seq"]) or first["segment"] != second["segment"])
                   hindi = first["hindi_tag"] or second["hindi_tag"] or any(a.get("tags",{}).get("language","").lower() in ("hin","hi","hindi") for c in checks for a in c["audio"])
                   passed = all(c["ffprobe_rc"]==0 and c["ffmpeg_rc"]==0 and c["video"] and c["audio"] and c["decoded_frames"]>=8 for c in checks)
-                  result.update(checks=checks, live_advanced=advanced, hindi_audio_metadata=hindi, hindi_source_corroboration=True, verified=bool(passed and advanced), reason="two decoded video fetches, live advancement and explicit Sonic Hindi source" if passed and advanced else "insufficient real live video verification")
+                  result.update(checks=checks, live_advanced=advanced, hindi_audio_metadata=hindi, hindi_source_corroboration=item["source_hindi"], verified=bool(passed and advanced and (hindi or item["source_hindi"])), reason="two decoded video fetches, live advancement and Hindi evidence" if passed and advanced and (hindi or item["source_hindi"]) else "insufficient decoded live video or Hindi evidence")
               except Exception as e:
                   result["reason"] = str(e)[:300]
               return result
