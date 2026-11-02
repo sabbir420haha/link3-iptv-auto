@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "purpose": "Sonic Hindi tests only; no MAIN edits",
   "candidates": [
     {
@@ -850,6 +850,20 @@
       "source": "tvs6/livetv index.html Sonic Hindi",
       "feed": "Sonic India; Hindi audio unverified",
       "remote_probe": "GitHub Actions run 41380140474 2026-11-02T02:54Z: HTTP content was not a real HLS manifest; no video decoded"
+    },
+    {
+      "url": "http://mygoodstream.pw/proxy.php/http://70.39.83.58:8278/sonichindikdin/playlist.m3u8",
+      "source": "Sonuiptvnew/Sonuiptvnew Sonuiptvfree Sonic Nickeloden Hindi proxy listing",
+      "feed": "Sonic Hindi labelled; not verified",
+      "remote_probe": "GitHub Actions run 41449565004 2026-11-02T13:03Z: returned content was not a real HLS manifest; zero decoded frames; two-fetch verification not possible",
+      "id": "S134"
+    },
+    {
+      "url": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=176400.m3u8",
+      "source": "ak-office-pvt/aklive-v3 master/m3u8/Voot/Sonic_Nickelodeon.m3u8",
+      "feed": "Sonic Nickelodeon Hindi audio-labelled variant; not verified",
+      "remote_probe": "GitHub Actions run 41449565004 2026-11-02T13:03Z: TLS certificate verification failed (expired certificate); zero decoded frames; two-fetch verification not possible",
+      "id": "S135"
     }
   ]
 }
