@@ -1228,6 +1228,20 @@
       "url": "http://tv.pmcon.net/hls/stream32.m3u8",
       "source": "asifurarif41/Tv Live tv; channel listed directly as Sony Yay, no language tag; legacy source discovered 2026-11-02, likely stale",
       "hindi_claim": false
+    },
+    {
+      "id": "Y204",
+      "url": "https://pubads.g.doubleclick.net/ssai/event/l6F6b0ymTie7-HCLhXoOYg/master.m3u8",
+      "source": "pravashranjan/entwld 21JULY.m3u8, public Google DAI HLS endpoint immediately after SONY YAY listing; discovered 2026-11-02; feed identity, Hindi audio, current availability and sustained playback unverified",
+      "hindi_claim": false,
+      "verification": "UNVERIFIED; queued for repeated video decode, advancing segments and audio-language probes; do not publish without all checks"
+    },
+    {
+      "id": "Y205",
+      "url": "https://tp.yg050.workers.dev/ch/991.m3u8",
+      "source": "p30364476/Tata-Play GitHub issue #2, Sony Yay channel 991; public HLS URL; discovered 2026-11-02; access scope, Hindi audio and sustained playback unverified",
+      "hindi_claim": false,
+      "verification": "UNVERIFIED; no credentials or keys used; do not publish unless open HLS and all video/audio checks pass"
     }
   ]
 }
