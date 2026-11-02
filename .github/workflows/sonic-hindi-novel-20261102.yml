@@ -22,7 +22,9 @@ jobs:
           import datetime, ipaddress, json, pathlib, re, socket, subprocess, time, urllib.parse, urllib.request
           root = pathlib.Path(".")
           candidates = [
-              {"url": "https://tv.googledrivelinks.com/play.php?c=sonic_Hindi&q=1200&e=junk.m3u8", "source": "Public Jio TV channel listing (PDFCoffee); named Sonic Hindi, old unverified URL; requires actual Hindi audio metadata", "source_hindi": False}
+              {"url": "http://mohitweb.zapto.org:7878/live/815.m3u8", "source": "Bhavesh0a/Index Index3.html public Jio TV channel 815 Sonic Hindi listing", "source_hindi": True},
+              {"url": "http://103.168.18.83/zan/app/live.php?id=815&e=.m3u8", "source": "imlovekumar/Loves kids playlist explicit Sonic Hindi; require remote proof to exclude BDIX-only", "source_hindi": True},
+              {"url": "https://iamranapk-com-wcc9.spidy.online/VOT/go.php?id=Sonic_Nickelodeon_voot_MOB", "source": "Xybernaut-tech/binge-play playlist/voot.m3u named Sonic Nickelodeon; Hindi requires metadata", "source_hindi": False}
           ]
           previous = json.loads((root/"sonic_hindi_candidates.json").read_text())
           favorites = json.loads((root/"favorites_test_registry.json").read_text())
