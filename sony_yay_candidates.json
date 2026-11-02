@@ -1216,6 +1216,18 @@
       "source": "brutal-45/IPTV-source streams/in.m3u; 1080p Sony Yay-labelled public Cloudflare Worker; marked geo-blocked; found 2026-11-02. Hindi audio, identity and sustained playback unverified; never publish until multi-interval video decode and Hindi audio proof.",
       "hindi_claim": false,
       "verification": "NOT YET VERIFIED; queued for repository's existing GitHub Actions Sony YAY probe"
+    },
+    {
+      "id": "Y202",
+      "url": "https://server.itcnbd.live/stream/sonyyay.m3u8",
+      "source": "Your-Tribal-Chief/LiveTV src/data/channels.ts; Sony YAY VIP public endpoint, distinct from previously failed s2.itcnbd.live; discovered 2026-11-02",
+      "hindi_claim": false
+    },
+    {
+      "id": "Y203",
+      "url": "http://tv.pmcon.net/hls/stream32.m3u8",
+      "source": "asifurarif41/Tv Live tv; channel listed directly as Sony Yay, no language tag; legacy source discovered 2026-11-02, likely stale",
+      "hindi_claim": false
     }
   ]
 }
