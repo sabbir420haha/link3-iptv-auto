@@ -134,5 +134,81 @@
       "newly_published": []
     },
     "language_validation": "Y190 Spanish (es), first speech sample p=0.921; second p=0.498; neither Hindi. Y107 no advancement/Hindi proof."
+  },
+  "followup_2026_11_03_0534_dhaka": {
+    "checked_at_local": "2026-11-03 05:34 Asia/Dhaka",
+    "scope": "New public Sony YAY Hindi sources and recent issue reports; no main or favorites edits",
+    "candidate_file": "sony_yay_candidates.json",
+    "candidate_count": 216,
+    "remote_video_probe": "sony_yay_probe_results.json",
+    "remote_video_probe_utc": "2026-11-02T22:21:24.229518+00:00",
+    "remote_audio_probe": "sony_yay_audio_probe_results.json",
+    "remote_audio_probe_utc": "2026-11-02T22:22:38.992555+00:00",
+    "remote_evaluated": 216,
+    "remote_verified_hindi": 0,
+    "remote_published": [],
+    "unqualified_results": [
+      {
+        "id": "Y107",
+        "finding": "Video decoded, but advancing HLS and Hindi audio not demonstrated"
+      },
+      {
+        "id": "Y190",
+        "finding": "Spaced 90s video playback confirmed, audio language Spanish (spa), not Hindi"
+      },
+      {
+        "id": "Y215",
+        "finding": "DNS resolution failure in previous remote probe"
+      },
+      {
+        "id": "Y216",
+        "finding": "TLS certificate verification failure in previous remote probe"
+      },
+      {
+        "id": "Y217",
+        "finding": "DNS resolution failure in previous remote probe"
+      }
+    ],
+    "research": [
+      {
+        "source": "https://github.com/iptv-org/iptv/issues/57300",
+        "finding": "Sony Yay stream reported not loading; matches prior candidate Y14, excluded"
+      },
+      {
+        "source": "https://github.com/iptv-org/iptv/issues/50106",
+        "finding": "Older approved cloudplay source is known Y03 and failed 404; excluded"
+      },
+      {
+        "source": "https://github.com/iptv-org/iptv/issues/36971",
+        "finding": "Reported broken and looping Sony Yay relay; existing candidate; excluded"
+      },
+      {
+        "source": "https://github.com/iptv-org/iptv/issues/48129",
+        "finding": "S3 ITCNBD source already tracked as Y54; not new"
+      },
+      {
+        "source": "https://github.com/judy-gotv/iptv/blob/main/BD.m3u",
+        "finding": "Direct Toffee CDN Sony Yay URL already tracked as Y62; source labelled BDIX, not demonstrated Hindi/Link3"
+      },
+      {
+        "source": "https://github.com/ashraful-developer/bostaflix/blob/main/play.html",
+        "finding": "OTTPlus URL with repeated /live/ path likely malformed variant of previously failed OTTPlus Y13; no independent proof, not published"
+      },
+      {
+        "source": "https://github.com/Sonuiptvnew/Sonuiptvnew/blob/main/Sonuiptvskystream",
+        "finding": "Explicit Hindi source on 70.39.83.58 is existing failed Y60; proxy would recycle same backend, excluded"
+      },
+      {
+        "source": "https://github.com/sportlive18/Sonyliv-Playlist-Autoupdate/blob/main/sony.m3u",
+        "finding": "Signed cookie and access-token-bearing stream; excluded under user restrictions"
+      }
+    ],
+    "new_qualified_streams": [],
+    "new_candidates_added": [],
+    "playlist_changed": false,
+    "main_playlists_changed": false,
+    "link3_test": "Not available remotely; actual ISP-specific reliability cannot be inferred",
+    "local_network_test": "Container DNS unavailable; latest GitHub Actions decoded-video and speech-language reports were reviewed",
+    "notification_eligible": false
   }
 }
