@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-02T19:43:29.970786+00:00",
-  "evaluated": 213,
+  "checked_utc": "2026-11-02T20:23:26.754494+00:00",
+  "evaluated": 215,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -1737,6 +1737,22 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y215",
+      "url": "https://air2stem.playlivtv.workers.dev/?id=137787",
+      "source": "Mahesh-Bardoliya/tv-2 index.html (GitHub code search 2026-11-03): Sony YAY labelled in Kids group; public Airtel-style relay, no credentials visible; Hindi audio UNVERIFIED",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y216",
+      "url": "https://stream-7b694ce7e.nmbs.top/m3u/Kids/33c579a90c.m3u8",
+      "source": "lolz1990/my kids.m3u GitHub code search 2026-11-03: explicitly labelled SONY YAY HINDI; public stream URL; audio and playback UNVERIFIED",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-02T19:44:51.068998+00:00",
+  "checked_utc": "2026-11-02T20:24:38.367204+00:00",
   "video_report": "sony_yay_probe_results.json",
   "tested_audio_count": 1,
   "newly_published": [],
@@ -14,14 +14,14 @@
       "audio_checks": [
         {
           "language": "es",
-          "language_probability": 0.96,
-          "speech_text_excerpt": "Si no es un árbol, entonces qué es? En la subasta moncada dijo que era un crucifijo de altar. No lo pensé entonces, pero significa que la cruz fue hec",
+          "language_probability": 0.913,
+          "speech_text_excerpt": "Pues tu madre y yo hemos decidido darles un cheque para su boda. ¿Qué cosa? Claro que sí, eh. ¡Wow! ¡Wow! ¡Exacto! Pues qué gran oferta.",
           "devanagari_characters": 0
         },
         {
-          "language": "es",
-          "language_probability": 0.975,
-          "speech_text_excerpt": "Llea del pino. Debe ser aquí. Puede que si se hace un genio. Genio es una exageración. ¿Así? Echale un ojo. Para que sepas por qué lo traje. La cruza ",
+          "language": "en",
+          "language_probability": 0.568,
+          "speech_text_excerpt": "",
           "devanagari_characters": 0
         }
       ],
