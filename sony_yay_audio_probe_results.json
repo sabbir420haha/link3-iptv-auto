@@ -1,31 +1,10 @@
 {
-  "checked_utc": "2026-11-02T09:11:01.930923+00:00",
+  "checked_utc": "2026-11-02T11:14:58.274065+00:00",
   "video_report": "sony_yay_probe_results.json",
-  "tested_audio_count": 1,
+  "tested_audio_count": 0,
   "newly_published": [],
   "method": "Two independent 20-second audio excerpts, 15 seconds apart; faster-whisper base int8 language identification. Require both hi >=0.80 and >=10 Devanagari characters. Video already decoded at three spaced intervals.",
   "Link3_not_verified": true,
   "MAIN_unchanged": true,
-  "results": [
-    {
-      "id": "Y190",
-      "url": "http://138.121.15.230:9002/SONY/index.m3u8",
-      "video_verified": true,
-      "audio_checks": [
-        {
-          "language": "es",
-          "language_probability": 0.966,
-          "speech_text_excerpt": "que caracteriza a las películas de acción. Y en orgas. Soy un organismo cibernético, tejido viviente sobre esqueleto metálico. Les quiero mostrar algo",
-          "devanagari_characters": 0
-        },
-        {
-          "language": "es",
-          "language_probability": 0.95,
-          "speech_text_excerpt": "Tiene. Si ves que no vuelvo, cuenla todo el lugar. El que acelera cuando todos frenan. Jamás. Jamás nos rentimos. Sin miedo. Con la cabeza en alto. Se",
-          "devanagari_characters": 0
-        }
-      ],
-      "hindi_spoken_confirmed": false
-    }
-  ]
+  "results": []
 }

@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-02T09:09:53.799847+00:00",
-  "evaluated": 203,
+  "checked_utc": "2026-11-02T11:14:48.670703+00:00",
+  "evaluated": 205,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -374,7 +374,7 @@
       "source": "shafiul1050/mytv Sony Yay",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "HTTP Error 403: Forbidden"
+      "reason": "<urlopen error timed out>"
     },
     {
       "id": "Y47",
@@ -1537,21 +1537,8 @@
       "url": "http://138.121.15.230:9002/SONY/index.m3u8",
       "source": "samaratul/nanna-iptv playlist_baseline.m3u8; labelled Sony YAY in English-Kids group; found 2026-11-01; Hindi NOT proven, network scope unknown",
       "hindi_claim": false,
-      "status": "remote_90s_video_verified",
-      "live_advancement_confirmed": true,
-      "height": 1080,
-      "decoded_frame_counts": [
-        18,
-        18,
-        18
-      ],
-      "audio_tags": [
-        "spa"
-      ],
-      "hindi_audio_metadata": false,
-      "manifest_advanced": true,
-      "probe_checks": 3,
-      "approximate_probe_span_seconds": 64
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
     },
     {
       "id": "Y191",
@@ -1657,6 +1644,22 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y204",
+      "url": "https://pubads.g.doubleclick.net/ssai/event/l6F6b0ymTie7-HCLhXoOYg/master.m3u8",
+      "source": "pravashranjan/entwld 21JULY.m3u8, public Google DAI HLS endpoint immediately after SONY YAY listing; discovered 2026-11-02; feed identity, Hindi audio, current availability and sustained playback unverified",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y205",
+      "url": "https://tp.yg050.workers.dev/ch/991.m3u8",
+      "source": "p30364476/Tata-Play GitHub issue #2, Sony Yay channel 991; public HLS URL; discovered 2026-11-02; access scope, Hindi audio and sustained playback unverified",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
     }
   ]
 }
