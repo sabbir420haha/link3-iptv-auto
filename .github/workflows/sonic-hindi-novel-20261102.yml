@@ -1,4 +1,4 @@
-name: Sonic Hindi isolated new-source probe 2026-11-02 1300Z
+name: Sonic Hindi isolated new-source probe 2026-11-03 0045 Dhaka
 on:
   push:
     branches: [main]
@@ -22,8 +22,7 @@ jobs:
           import datetime, ipaddress, json, pathlib, re, socket, subprocess, time, urllib.parse, urllib.request
           root = pathlib.Path(".")
           candidates = [
-              {"url": "http://mygoodstream.pw/proxy.php/http://70.39.83.58:8278/sonichindikdin/playlist.m3u8", "source": "Sonuiptvnew/Sonuiptvnew Sonuiptvfree public Sonic Nickeloden Hindi proxy listing; older, not previously in exclusion registry", "source_hindi": True},
-              {"url": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=176400.m3u8", "source": "ak-office-pvt/aklive-v3 master/m3u8/Voot/Sonic_Nickelodeon.m3u8; Hindi audio_98835_hin variant; original JioCinema host previously failed", "source_hindi": True}
+              {"url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8", "source": "imranemon1/emon Playlist-Kids.m3u8; labelled SONIC NICKELODEON SONIC HINDI with public HLS URL and User-Agent stream", "source_hindi": True}
           ]
           previous = json.loads((root/"sonic_hindi_candidates.json").read_text())
           favorites = json.loads((root/"favorites_test_registry.json").read_text())
