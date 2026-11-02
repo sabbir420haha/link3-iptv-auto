@@ -1242,6 +1242,13 @@
       "source": "p30364476/Tata-Play GitHub issue #2, Sony Yay channel 991; public HLS URL; discovered 2026-11-02; access scope, Hindi audio and sustained playback unverified",
       "hindi_claim": false,
       "verification": "UNVERIFIED; no credentials or keys used; do not publish unless open HLS and all video/audio checks pass"
+    },
+    {
+      "id": "Y207",
+      "url": "http://3.110.187.2/tsjiotv/live.php?c=Sony_Yay_Hindi&q=800&e=junk.m3u8",
+      "source": "aoestudios57/aoestudios57.github.io aoe-tv/CONTENT/mix/files/jio720p.m3u, explicitly Sony Yay Hindi channel 872; public IP, no credentials; discovered 2026-11-02; unverified remote and Link3",
+      "hindi_claim": true,
+      "verification": "UNVERIFIED; queued for GitHub Actions multi-interval video/audio check; no user playlist publication unless passed"
     }
   ]
 }
