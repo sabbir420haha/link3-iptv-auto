@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "main_baseline": "https://drk6xq0vhn.gpcdn.net/live/sony_yay_abr/index.m3u8",
   "purpose": "Solve main Sony Yay freeze; test only, no main edit",
   "candidates": [
@@ -1284,6 +1284,20 @@
       "source": "zeroflixxyz/IPTV cast/PlayTV.m3u; labelled Sony Yay (jio) and Sony_Yay_Hindi; discovered 2026-11-02; no credentials, keys or tokens; unverified",
       "hindi_claim": true,
       "verification": "UNVERIFIED: require three spaced video decodes, advancing HLS and Hindi audio proof before any TEST playlist publication. Never publish if dead, non-Hindi, static, or BDIX-only."
+    },
+    {
+      "id": "Y213",
+      "url": "https://tiger-hub.vercel.app/SONY/YAY/tracks-v1a1/mono.ts.m3u8",
+      "source": "everylive/Live-Dish public Kids playlist, GitHub code search 2026-11-03; public Vercel endpoint; Hindi audio and independent backend UNVERIFIED; no credentials embedded",
+      "hindi_claim": false,
+      "verification": "UNVERIFIED; probe 3 spaced FFmpeg decodes, live HLS advancement, and two spoken Hindi excerpts; do not publish unless all pass"
+    },
+    {
+      "id": "Y214",
+      "url": "http://jmrj02jibon02khan.vercel.app/tracks-v1a1/sonyyay/mono.ts.m3u8",
+      "source": "tvbd/m3uplayer public playlist Sony Yay entry, GitHub code search 2026-11-03; public Vercel relay; Hindi audio UNVERIFIED; no credentials embedded",
+      "hindi_claim": false,
+      "verification": "UNVERIFIED; probe 3 spaced FFmpeg decodes, live HLS advancement, and two spoken Hindi excerpts; do not publish unless all pass"
     }
   ]
 }
