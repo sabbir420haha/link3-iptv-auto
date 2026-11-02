@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-02T12:14:38.023378+00:00",
+  "checked_utc": "2026-11-02T14:03:32.637745+00:00",
   "video_report": "sony_yay_probe_results.json",
   "tested_audio_count": 1,
   "newly_published": [],
@@ -14,14 +14,14 @@
       "audio_checks": [
         {
           "language": "es",
-          "language_probability": 0.945,
-          "speech_text_excerpt": "Abo mis cosas, hasta juego con mi perrito, que miedo al dolor. Para mí, o Megardep, no solo alivió mis articulaciones, me devolvió la vida, y eso no t",
+          "language_probability": 0.952,
+          "speech_text_excerpt": "Tengo una agencia de publicidad, trabajo remoto. Liza en la radical de las dos. Es abogada y vendió su buffet antes de empezar este viaje. Interesante",
           "devanagari_characters": 0
         },
         {
           "language": "es",
-          "language_probability": 0.955,
-          "speech_text_excerpt": "Esa es su tecnología, software, Omega Red. No necesita agua para ser consumido. Porque cuando tu cuerpo tiene lo Omega 3 que necesita, todo empieza a ",
+          "language_probability": 0.943,
+          "speech_text_excerpt": "entonces estamos juntas sin reuniones, sin estrés, sólo Emilio y se lebramos todos los días. Suspecho fractura del radio cerca de la muñeca. Ralloseki",
           "devanagari_characters": 0
         }
       ],

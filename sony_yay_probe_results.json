@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-02T12:13:33.863020+00:00",
-  "evaluated": 206,
+  "checked_utc": "2026-11-02T14:02:27.333451+00:00",
+  "evaluated": 210,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -1111,7 +1111,7 @@
       "source": "arijitreza/web download.m3u, Sony Yay, source listed with referrer https://www.mhdtvhub.com/; Hindi unverified",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "HTTP Error 404: Not Found"
+      "reason": "The read operation timed out"
     },
     {
       "id": "Y138",
@@ -1681,6 +1681,38 @@
       "hindi_claim": true,
       "status": "failed",
       "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y208",
+      "url": "https://sliv.kratosgod.io/api/sonyyay.m3u8",
+      "source": "riyazkhan111/mhgfvcdfx.github.io tp.html, Sony YAY!-labelled public SonyLIV HLS relay; discovered 2026-11-02; no credentials embedded; Hindi audio, identity and live continuity UNVERIFIED",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y209",
+      "url": "https://s2.itcnbd.live/server-2/stream/sonyyay.m3u8",
+      "source": "bugsfreeweb/LiveTVCollector BugsfreeStreams/StreamsTV-BD/sony_yay_69c0a0a8.m3u8; separate public path from previously tested s2.itcnbd.live/sony-yay; discovered 2026-11-02; backend may overlap and audio UNVERIFIED",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "Y210",
+      "url": "https://join-livetvwithshuvo1.bdtubebd.xyz/ltws/live/index.m3u8?channel=sony_yay",
+      "source": "sudiptobd2/jio jio; Sony Yay-labelled public HTTPS relay of Toffee, no login or cookies embedded; discovered 2026-11-02; may be geo or ISP limited, Hindi UNVERIFIED; exclude if BDIX-only",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y211",
+      "url": "https://toffee-thecodecrafters.vercel.app/auto/sony_yay.m3u8",
+      "source": "LiKH0N/BDIXTV_1 toffee by freeiptv25.m3u8; public Vercel HTTPS Toffee relay Sony Yay; discovered 2026-11-02; backend might be BDIX/geo restricted, no credentials supplied; Hindi UNVERIFIED; exclude if BDIX-only",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 402: Payment Required"
     }
   ]
 }
