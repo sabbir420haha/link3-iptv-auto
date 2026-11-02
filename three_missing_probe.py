@@ -15,6 +15,18 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-11-02 additional public-list discoveries. AUDIT ONLY: these are NOT verified streams.
+    # No publishing from labels alone; require readable HLS media, independent channel/audio evidence,
+    # and Disney >=720p. Reject a URL that redirects to a login page, DRM, or unrelated channel.
+    {"channel":"Sonic Hindi","url":"https://public.kliv.fun/Mac21o/play.php?id=11667",
+     "evidence":"github.com/fakeall12398-sketch/JIO_TV kids.m3u explicitly labels 11667 SONIC HINDI; access/identity/audio unknown",
+     "expected_audio":"hi"},
+    {"channel":"Sonic Bangla","url":"https://ccntv.anytv.live/nick/index.m3u8",
+     "evidence":"github.com/sajubd/IPtv m3u labels URL Nick Sonic Bangla, but path says nick; high wrong-channel risk; audit only",
+     "expected_audio":"bn"},
+    {"channel":"Disney HD Hindi","url":"https://public.kliv.fun/Mac21o/play.php?id=11639",
+     "evidence":"github.com/fakeall12398-sketch/JIO_TV kids.m3u labels DISNEY CHANNEL INDIA, separately from Disney Junior; HD/Hindi unverified",
+     "expected_audio":"hi","min_height":720},
     # 2026-11-02 public JioTV channel-815 Sonic Hindi listing, non-BDIX host; runner audit only.
     {"channel":"Sonic Hindi","url":"https://jioapi.sports247.eu.org/api/app/live.php?id=815&e=.m3u8","evidence":"2026-11-02 github.com/SArun61/IPTV Jio.m3u explicitly labels channel 815 Sonic Hindi; independent identity and Hindi audio not established","expected_audio":"hi"},
     # 2026-11-02 independently published Sonic Bangla candidate; AUDIT ONLY, never auto-publish.
