@@ -1,7 +1,7 @@
 {
-  "checked_utc": "2026-11-02T13:04:36.170713+00:00",
-  "newly_checked": 0,
-  "total_results": 95,
+  "checked_utc": "2026-11-02T18:30:11.249298+00:00",
+  "newly_checked": 3,
+  "total_results": 98,
   "remote_verified_new": 0,
   "published": [],
   "remote_only_not_Link3": true,
@@ -766,6 +766,30 @@
       "source": "konanda-sg/teststst tplay/main.js; public Sonic channel explicitly categorized Hindi India; third-party relay",
       "status": "rejected",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "S136",
+      "url": "https://jio.jiotv.link/api/app/live.php?id=815&e=.m3u8",
+      "feed": "Sonic Hindi (JioTV channel 815); source label only",
+      "source": "AlahiMajnurOsama/Tv JioTv.m3u public Sonic Hindi listing",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "S137",
+      "url": "http://vootliv.rf.gd/play/?id=815",
+      "feed": "Sonic Hindi (JioTV channel 815); source label only",
+      "source": "SKSMARTTV/sksmarttv index.html public Sonic Hindi listing",
+      "status": "rejected",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "S138",
+      "url": "http://ranapk-june2.in1.bitmana.io/autoxxx.php?c=sonic_Hindi",
+      "feed": "Sonic Hindi; source label only",
+      "source": "Sonuiptvnew/Sonuiptvnew sonuiptvjioenjoy.m3u public listing",
+      "status": "rejected",
+      "error": "<urlopen error [Errno -2] Name or service not known>"
     }
   ]
 }
