@@ -1298,6 +1298,20 @@
       "source": "tvbd/m3uplayer public playlist Sony Yay entry, GitHub code search 2026-11-03; public Vercel relay; Hindi audio UNVERIFIED; no credentials embedded",
       "hindi_claim": false,
       "verification": "UNVERIFIED; probe 3 spaced FFmpeg decodes, live HLS advancement, and two spoken Hindi excerpts; do not publish unless all pass"
+    },
+    {
+      "id": "Y215",
+      "url": "https://air2stem.playlivtv.workers.dev/?id=137787",
+      "source": "Mahesh-Bardoliya/tv-2 index.html (GitHub code search 2026-11-03): Sony YAY labelled in Kids group; public Airtel-style relay, no credentials visible; Hindi audio UNVERIFIED",
+      "hindi_claim": false,
+      "verification": "UNVERIFIED candidate only; require 3 spaced FFmpeg video decodes, advancing HLS, and explicit Hindi audio metadata; do not publish on label alone; local Link3 still unverified"
+    },
+    {
+      "id": "Y216",
+      "url": "https://stream-7b694ce7e.nmbs.top/m3u/Kids/33c579a90c.m3u8",
+      "source": "lolz1990/my kids.m3u GitHub code search 2026-11-03: explicitly labelled SONY YAY HINDI; public stream URL; audio and playback UNVERIFIED",
+      "hindi_claim": true,
+      "verification": "UNVERIFIED candidate only; require 3 spaced FFmpeg video decodes, advancing HLS, and explicit Hindi audio metadata; do not publish on label alone; local Link3 still unverified"
     }
   ]
 }
