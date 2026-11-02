@@ -889,6 +889,27 @@
       "source": "Public Jio TV playlist at PDFCoffee; Sonic Hindi labelled (historical)",
       "feed": "Sonic Hindi; unverified",
       "remote_probe": "GitHub Actions run 41514388818 (2026-11-02 19:56:57 UTC): DNS resolution failed: [Errno -5] No address associated with hostname; zero decoded video; two-fetch verification impossible; not published"
+    },
+    {
+      "id": "S140",
+      "url": "http://mohitweb.zapto.org:7878/live/815.m3u8",
+      "source": "Bhavesh0a/Index Index3.html",
+      "feed": "Sonic Hindi source label; stream and audio unverified",
+      "remote_probe": "GitHub Actions 41546138639: DNS [Errno -5] No address associated with hostname"
+    },
+    {
+      "id": "S141",
+      "url": "http://103.168.18.83/zan/app/live.php?id=815&e=.m3u8",
+      "source": "imlovekumar/Loves kids",
+      "feed": "Sonic Hindi source label; stream and audio unverified",
+      "remote_probe": "GitHub Actions 41546138639: HTTP 404 Not Found"
+    },
+    {
+      "id": "S142",
+      "url": "https://iamranapk-com-wcc9.spidy.online/VOT/go.php?id=Sonic_Nickelodeon_voot_MOB",
+      "source": "Xybernaut-tech/binge-play playlist/voot.m3u",
+      "feed": "Sonic Hindi source label; stream and audio unverified",
+      "remote_probe": "GitHub Actions 41546138639: DNS [Errno -2] Name or service not known"
     }
   ]
 }
