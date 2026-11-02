@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-02T17:41:08.387326+00:00",
+  "checked_utc": "2026-11-02T19:22:38.034594+00:00",
   "scope": "GitHub Actions network, NOT Link3. No channel identities confirmed.",
   "candidate_count": 109,
   "verified_media_candidates": 1,
@@ -907,7 +907,7 @@
       "link3_verified": false,
       "publish_eligible": false,
       "note": "GitHub runner-only test. Playlist is unchanged.",
-      "error": "No HLS manifest"
+      "error": "ValueError: No readable HLS data: HTTP Error 403: Forbidden"
     },
     {
       "channel": "Sonic Bangla",
@@ -923,7 +923,7 @@
       "link3_verified": false,
       "publish_eligible": false,
       "note": "GitHub runner-only test. Playlist is unchanged.",
-      "error": "No HLS manifest"
+      "error": "ValueError: No readable HLS data: HTTP Error 403: Forbidden"
     },
     {
       "channel": "Sonic Hindi",
