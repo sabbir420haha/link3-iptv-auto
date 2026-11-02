@@ -1,4 +1,4 @@
-name: Sonic Hindi isolated novel candidate verification 2026-11-02 0637Z
+name: Sonic Hindi isolated new-source probe 2026-11-02 1300Z
 on:
   push:
     branches: [main]
@@ -22,7 +22,8 @@ jobs:
           import datetime, ipaddress, json, pathlib, re, socket, subprocess, time, urllib.parse, urllib.request
           root = pathlib.Path(".")
           candidates = [
-              {"url": "http://hlsnorthextra-lh.akamaihd.net/i/ams44_sonic@310235/index_1100.m3u8", "source": "ravikumarbeniwal/IP-TV-M3U-PLAYLIST-INDIA channel_list_3.m3u, Sonic Nickelodeon; older Akamai source; Hindi metadata unconfirmed", "source_hindi": False}
+              {"url": "http://mygoodstream.pw/proxy.php/http://70.39.83.58:8278/sonichindikdin/playlist.m3u8", "source": "Sonuiptvnew/Sonuiptvnew Sonuiptvfree public Sonic Nickeloden Hindi proxy listing; older, not previously in exclusion registry", "source_hindi": True},
+              {"url": "https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/Sonic_Nickelodeon_voot_MOB-audio_98835_hin=98800-video=176400.m3u8", "source": "ak-office-pvt/aklive-v3 master/m3u8/Voot/Sonic_Nickelodeon.m3u8; Hindi audio_98835_hin variant; original JioCinema host previously failed", "source_hindi": True}
           ]
           previous = json.loads((root/"sonic_hindi_candidates.json").read_text())
           favorites = json.loads((root/"favorites_test_registry.json").read_text())
@@ -118,19 +119,19 @@ jobs:
               published.append({"number": num, "url": r["url"], "checks": r["checks"], "live_advanced": r["live_advanced"], "hindi_audio_metadata": r["hindi_audio_metadata"]})
           if published:
               playlist_path.write_text(playlist)
-              (root/"sonic_hindi_probe_20261102_0637_report.json").write_text(json.dumps({"checked_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),"published":published,"results":results,"Link3_confirmed":False}, indent=2)+"\n")
+              (root/"sonic_hindi_probe_20261102_1300_report.json").write_text(json.dumps({"checked_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),"published":published,"results":results,"Link3_confirmed":False}, indent=2)+"\n")
           print("SONIC_HINDI_PUBLISHED "+json.dumps(published), flush=True)
           PY
       - name: Commit only verified Sonic Hindi TEST changes
         shell: bash
         run: |
-          if [ ! -f sonic_hindi_probe_20261102_0637_report.json ]; then
+          if [ ! -f sonic_hindi_probe_20261102_1300_report.json ]; then
             echo "No verified new Sonic Hindi stream; no playlist update."
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add documentary_hd_tests.m3u sonic_hindi_probe_20261102_0637_report.json
+          git add documentary_hd_tests.m3u sonic_hindi_probe_20261102_1300_report.json
           git commit -m 'Append remotely verified Sonic Hindi TEST only'
           git pull --rebase origin main
           git push origin HEAD:main
