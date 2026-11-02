@@ -113,11 +113,26 @@
       "bdix_only": "not established; direct Toffee CDN may be geo or network restricted"
     },
     "probe_workflow": "https://github.com/sabbir420haha/link3-iptv-auto/actions/runs/41536094870",
-    "probe_state_at_report": "in_progress",
+    "probe_state_at_report": "completed_success; no Hindi stream qualified",
     "existing_failed_candidates": "not recycled",
     "test_playlist_changed": false,
     "main_playlists_changed": false,
     "notification_eligible": false,
-    "reason": "Candidate is not proven sustained Hindi live video; publishing would violate test-only verification threshold."
+    "reason": "Candidate is not proven sustained Hindi live video; publishing would violate test-only verification threshold.",
+    "probe_completed_utc": "2026-11-02T22:22:38.992555+00:00",
+    "new_candidate_result": {
+      "id": "Y217",
+      "status": "failed",
+      "reason": "<urlopen error [Errno -5] No address associated with hostname>"
+    },
+    "remote_probe_summary": {
+      "evaluated": 216,
+      "failed": 214,
+      "video_decoded_hls_advancement_unproven": 1,
+      "remote_90s_video_verified_but_non_hindi": 1,
+      "hindi_verified": 0,
+      "newly_published": []
+    },
+    "language_validation": "Y190 Spanish (es), first speech sample p=0.921; second p=0.498; neither Hindi. Y107 no advancement/Hindi proof."
   }
 }
