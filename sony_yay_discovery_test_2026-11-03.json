@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-03",
+  "scope": "Sony YAY Hindi alternative discovery; TEST files only",
+  "previous_remote_probe_utc": "2026-11-02T19:43:29.970786+00:00",
+  "previous_probe_evaluated": 213,
+  "previous_remote_hindi_verified": 0,
+  "previous_published": [],
+  "previous_nonfailed_results": [
+    {
+      "id": "Y107",
+      "status": "video_decoded_hls_advancement_unproven",
+      "audio_tags": [],
+      "live_advancement_confirmed": false
+    },
+    {
+      "id": "Y190",
+      "status": "remote_90s_video_verified",
+      "audio_tags": [
+        "spa"
+      ],
+      "live_advancement_confirmed": true
+    }
+  ],
+  "newly_queued_unprobed": [
+    {
+      "id": "Y215",
+      "url": "https://air2stem.playlivtv.workers.dev/?id=137787",
+      "source": "Mahesh-Bardoliya/tv-2",
+      "hindi_audio": "not proven",
+      "video_decode": "not run",
+      "hls_advancement": "not run"
+    },
+    {
+      "id": "Y216",
+      "url": "https://stream-7b694ce7e.nmbs.top/m3u/Kids/33c579a90c.m3u8",
+      "source": "lolz1990/my",
+      "hindi_audio": "source label only; not proven",
+      "video_decode": "not run",
+      "hls_advancement": "not run"
+    }
+  ],
+  "fresh_issue_notes": [
+    {
+      "url": "https://github.com/iptv-org/iptv/issues/57300",
+      "finding": "public Sony Yay source reported not loading; excluded because previously tested"
+    },
+    {
+      "url": "https://github.com/mitthu786/tvepg/issues/26",
+      "finding": "Tamil Sony Yay catchup issue, excluded for language mismatch"
+    }
+  ],
+  "local_Link3_test": "not possible from remote runtime",
+  "remote_network_test_new_candidates": "not possible in this run: execution container cannot resolve external hosts; existing GitHub Actions probe will need to evaluate queued candidates",
+  "playlist_changed": false,
+  "main_playlist_changed": false,
+  "notification_eligible": false
+}
