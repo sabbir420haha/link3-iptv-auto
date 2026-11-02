@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-02T01:53:41+00:00",
+  "checked_utc": "2026-11-02T13:59:33+00:00",
   "warning": "HTTP media success alone never proves show identity, Hindi audio, Bangladesh viewing or 24x7 reliability; do not auto-add to test/main.",
   "results": [
     {
@@ -117,55 +117,112 @@
     }
   ],
   "latest_research": {
-    "checked_local": "2026-11-02 07:53 Asia/Dhaka",
-    "status": "No independently verified new dedicated Gopal Bhar Bengali or Shinchan Hindi 24/7 HLS/M3U8 feed; no playlist changes.",
+    "checked_local": "2026-11-02 19:59 Asia/Dhaka",
+    "status": "No independently verified NEW dedicated 24/7 Gopal Bhar Bengali or Shinchan Hindi direct HLS feed; no playlist additions.",
     "source_reviews": [
       {
-        "source": "stream.codecloud.bd (indexed live portal), corroborated by md-towsif/Towsif-s-Live-TV src/data.ts",
+        "source": "GitHub 2026-11-01 updated abusaeeidx/Mrgify-BDIX-IPTV Channels_data.json and recent sm-monirulislam/SM-IPTV playlist",
         "show": "Gopal Bhar Bengali",
-        "finding": "A 'Gopal Bhar TV' entry exists on the portal, but the matching public GitHub channel record resolves to excluded BozzTV giatv-209611. The portal alone is a watch page; independent direct show-only HLS unproven.",
+        "finding": "The purported dedicated Gopal Bhar TV entry still points to excluded BozzTV giatv-209611; multiple reposts are not independent.",
         "references": [
-          "https://stream.codecloud.bd/",
-          "https://github.com/md-towsif/Towsif-s-Live-TV/blob/main/src/data.ts"
-        ]
-      },
-      {
-        "source": "2026-10-27 updated sm-monirulislam/SM-IPTV Combined_Live_TV.m3u; newer GitHub IPTV files",
-        "show": "Gopal Bhar Bengali",
-        "finding": "Gopal Bhar TV points to excluded live20.bozztv.com/giatvplayout7/giatv-209611; all variants of this origin are rejected.",
-        "references": [
+          "https://github.com/abusaeeidx/Mrgify-BDIX-IPTV/blob/main/Channels_data.json",
           "https://github.com/sm-monirulislam/SM-IPTV/blob/main/Combined_Live_TV.m3u"
         ]
       },
       {
-        "source": "GitHub code search 'Shinchan Hindi 24/7', 'shinchan hindi live m3u8'",
-        "show": "Shinchan Hindi",
-        "finding": "Apparent 24/7 candidates re-use rejected cloudfrontnet.vercel.app/tplay/playout/209901 (Oxygen Music), or describe mixed Hungama, or point to a VOD scraper, not a continuous dedicated verified Hindi show stream."
-      },
-      {
-        "source": "JioTV Sony AATH Gopal Bhar program page and Sony YAY 2026 program guide",
+        "source": "GitHub tvbd/m3uplayer tplay/main.js and memevaiya2O/streamobhai api.html",
         "show": "Gopal Bhar Bengali",
-        "finding": "Scheduled programs are not dedicated 24/7 single-show feeds. Neither Sony AATH nor Sony YAY meets user's direct-feed requirement.",
+        "finding": "TPlay path /tplay/playout/209611 and /playlist/kids/gopal-bhar are mirrors/ambiguous paths for previously rejected 209611, not an independently verified new origin.",
         "references": [
-          "https://www.jiotv.com/live-channel/sony-aath/697/gopal-bhar/260304697013",
-          "https://epg.pw/channels/369811/20250710.html?lang=en&timezone=QW1lcmljYS9DaGljYWdv"
+          "https://github.com/tvbd/m3uplayer/blob/main/tplay/main.js",
+          "https://github.com/memevaiya2O/streamobhai/blob/main/api.html"
         ]
       },
       {
-        "source": "Fresh GitHub searches for independent Gopal Bhar/Shinchan M3U8 and 2026 FAST broadcaster catalogs",
-        "show": "Both",
-        "finding": "No distinct, publicly accessible direct manifest candidate with independently proven show identity and required audio. No fresh media probe warranted."
+        "source": "GitHub Joyanto005/STRUCTURE dekhbe_tumi",
+        "show": "Shinchan Hindi",
+        "candidate": "http://bd.ottbd.online:2082/live/Durjoy859/01327184859/19978.m3u8",
+        "finding": "Newly surfaced labeled Shinchan direct-path URL, but embeds IPTV account credentials, source authorization/24x7 status unknown, no verified HLS manifest, media bytes, show identity or Hindi track. Web direct-open failed. Do not publish or count as playable.",
+        "references": [
+          "https://github.com/Joyanto005/STRUCTURE/blob/main/dekhbe_tumi"
+        ]
+      },
+      {
+        "source": "GitHub ayusht26/iptv lib/iptv/custom-shows-data.ts",
+        "show": "Shinchan Hindi",
+        "finding": "Shinchan 24/7 marketing label resolves to piratexplay.cc/series/... watch/series page, not a verified 24/7 direct HLS feed.",
+        "references": [
+          "https://github.com/ayusht26/iptv/blob/main/lib/iptv/custom-shows-data.ts"
+        ]
+      },
+      {
+        "source": "Official Shinchan TV program and ABS-CBN Shinchan release; current Sony YAY/Hungama listings",
+        "show": "Shinchan Hindi",
+        "finding": "Official programming is scheduled episodes, including Tagalog dubbed VOD, and mixed general channels. None constitutes a dedicated Hindi-only 24/7 direct M3U8.",
+        "references": [
+          "https://www.shinchan-app.jp/anime/tv/",
+          "https://corporate.abs-cbn.com/newsroom/news-releases/2026/8/3/crayon-shin-chan-brings-all-new-tagalog-dubbed-episodes-to-iwant-and-free-tv?lang=fil"
+        ]
       }
     ],
     "independent_verified_new_feeds": 0,
     "new_test_playlist_entries": 0,
     "test_playlist_entries": 62,
     "main_playlist_entries": 75,
-    "manifest_and_media_validation": "No new candidate passed identity and origin screening; no claim of verified manifest/video/audio. Existing rejected sources remain excluded.",
-    "link3_playback": "No new feed tested over Link3; no Link3 compatibility claim.",
-    "actions": "Checked user playlists and existing candidate health file, deduplicated fresh sources, and logged research only; did not modify either playlist."
+    "manifest_and_media_validation": "No candidate cleared independent origin + public authorization + true show-only screening; no manifest/video/audio proof claimed.",
+    "link3_playback": "No new verified Link3-compatible feed.",
+    "actions": "Read current TEST and MAIN playlist and stored candidates; deduplicated fresh GitHub/public sources. Only updated research JSON; neither playlist changed."
   },
   "research_history": [
+    {
+      "checked_local": "2026-11-02 07:53 Asia/Dhaka",
+      "status": "No independently verified new dedicated Gopal Bhar Bengali or Shinchan Hindi 24/7 HLS/M3U8 feed; no playlist changes.",
+      "source_reviews": [
+        {
+          "source": "stream.codecloud.bd (indexed live portal), corroborated by md-towsif/Towsif-s-Live-TV src/data.ts",
+          "show": "Gopal Bhar Bengali",
+          "finding": "A 'Gopal Bhar TV' entry exists on the portal, but the matching public GitHub channel record resolves to excluded BozzTV giatv-209611. The portal alone is a watch page; independent direct show-only HLS unproven.",
+          "references": [
+            "https://stream.codecloud.bd/",
+            "https://github.com/md-towsif/Towsif-s-Live-TV/blob/main/src/data.ts"
+          ]
+        },
+        {
+          "source": "2026-10-27 updated sm-monirulislam/SM-IPTV Combined_Live_TV.m3u; newer GitHub IPTV files",
+          "show": "Gopal Bhar Bengali",
+          "finding": "Gopal Bhar TV points to excluded live20.bozztv.com/giatvplayout7/giatv-209611; all variants of this origin are rejected.",
+          "references": [
+            "https://github.com/sm-monirulislam/SM-IPTV/blob/main/Combined_Live_TV.m3u"
+          ]
+        },
+        {
+          "source": "GitHub code search 'Shinchan Hindi 24/7', 'shinchan hindi live m3u8'",
+          "show": "Shinchan Hindi",
+          "finding": "Apparent 24/7 candidates re-use rejected cloudfrontnet.vercel.app/tplay/playout/209901 (Oxygen Music), or describe mixed Hungama, or point to a VOD scraper, not a continuous dedicated verified Hindi show stream."
+        },
+        {
+          "source": "JioTV Sony AATH Gopal Bhar program page and Sony YAY 2026 program guide",
+          "show": "Gopal Bhar Bengali",
+          "finding": "Scheduled programs are not dedicated 24/7 single-show feeds. Neither Sony AATH nor Sony YAY meets user's direct-feed requirement.",
+          "references": [
+            "https://www.jiotv.com/live-channel/sony-aath/697/gopal-bhar/260304697013",
+            "https://epg.pw/channels/369811/20250710.html?lang=en&timezone=QW1lcmljYS9DaGljYWdv"
+          ]
+        },
+        {
+          "source": "Fresh GitHub searches for independent Gopal Bhar/Shinchan M3U8 and 2026 FAST broadcaster catalogs",
+          "show": "Both",
+          "finding": "No distinct, publicly accessible direct manifest candidate with independently proven show identity and required audio. No fresh media probe warranted."
+        }
+      ],
+      "independent_verified_new_feeds": 0,
+      "new_test_playlist_entries": 0,
+      "test_playlist_entries": 62,
+      "main_playlist_entries": 75,
+      "manifest_and_media_validation": "No new candidate passed identity and origin screening; no claim of verified manifest/video/audio. Existing rejected sources remain excluded.",
+      "link3_playback": "No new feed tested over Link3; no Link3 compatibility claim.",
+      "actions": "Checked user playlists and existing candidate health file, deduplicated fresh sources, and logged research only; did not modify either playlist."
+    },
     {
       "checked_local": "2026-10-31 01:27 Asia/Dhaka",
       "status": "No independently verified new 24/7 dedicated HLS/M3U8 stream; no playlist additions",
