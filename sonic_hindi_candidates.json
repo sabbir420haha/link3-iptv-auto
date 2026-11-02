@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "purpose": "Sonic Hindi tests only; no MAIN edits",
   "candidates": [
     {
@@ -864,6 +864,24 @@
       "feed": "Sonic Nickelodeon Hindi audio-labelled variant; not verified",
       "remote_probe": "GitHub Actions run 41449565004 2026-11-02T13:03Z: TLS certificate verification failed (expired certificate); zero decoded frames; two-fetch verification not possible",
       "id": "S135"
+    },
+    {
+      "id": "S136",
+      "url": "https://jio.jiotv.link/api/app/live.php?id=815&e=.m3u8",
+      "source": "AlahiMajnurOsama/Tv JioTv.m3u public Sonic Hindi listing",
+      "feed": "Sonic Hindi (JioTV channel 815); source label only"
+    },
+    {
+      "id": "S137",
+      "url": "http://vootliv.rf.gd/play/?id=815",
+      "source": "SKSMARTTV/sksmarttv index.html public Sonic Hindi listing",
+      "feed": "Sonic Hindi (JioTV channel 815); source label only"
+    },
+    {
+      "id": "S138",
+      "url": "http://ranapk-june2.in1.bitmana.io/autoxxx.php?c=sonic_Hindi",
+      "source": "Sonuiptvnew/Sonuiptvnew sonuiptvjioenjoy.m3u public listing",
+      "feed": "Sonic Hindi; source label only"
     }
   ]
 }
