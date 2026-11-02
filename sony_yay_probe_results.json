@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-01T20:34:59.519224+00:00",
-  "evaluated": 195,
+  "checked_utc": "2026-11-02T00:01:33.310988+00:00",
+  "evaluated": 198,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -374,7 +374,7 @@
       "source": "shafiul1050/mytv Sony Yay",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "HTTP Error 403: Forbidden"
+      "reason": "<urlopen error timed out>"
     },
     {
       "id": "Y47",
@@ -1593,6 +1593,30 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "Y196",
+      "url": "https://dai.google.com/ssai/event/RP1mckhwQQChze2hZfnZlA/master.m3u8",
+      "source": "junzed/junzed.github.io vlis.m3u; second HLS endpoint directly under Sony Yay Hindi entry; discovered 2026-11-02; Hindi audio NOT independently proven",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y197",
+      "url": "http://jo123.biz/jweb/m3u8.php?c=Sony_Yay_Hindi&q=800&e=junk.m3u8",
+      "source": "mahmud31132/bdix-tv mahmud.m3u; explicitly Sony Yay Jio Hindi; discovered 2026-11-02; public relay, may be ISP-limited; Hindi NOT proven",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y198",
+      "url": "https://tataplay.slivcdn.com/hls/live/2011746-b/SonyYaySD/master.m3u8",
+      "source": "crictos99/liv sony.json; Sony YAY SonyLIV HLS master (not 3500 variant); discovered 2026-11-02; Hindi metadata NOT proven, geo/auth may block",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
     }
   ]
 }
