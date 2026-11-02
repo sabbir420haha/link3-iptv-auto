@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-02T20:24:38.367204+00:00",
+  "checked_utc": "2026-11-02T22:22:38.992555+00:00",
   "video_report": "sony_yay_probe_results.json",
   "tested_audio_count": 1,
   "newly_published": [],
@@ -14,14 +14,14 @@
       "audio_checks": [
         {
           "language": "es",
-          "language_probability": 0.913,
-          "speech_text_excerpt": "Pues tu madre y yo hemos decidido darles un cheque para su boda. ¿Qué cosa? Claro que sí, eh. ¡Wow! ¡Wow! ¡Exacto! Pues qué gran oferta.",
+          "language_probability": 0.921,
+          "speech_text_excerpt": "¡Tros falsos! ¡No me agrada perder así! Estamos dejando que se burlen. Tenemos que defendernos. Hay que darles la vuelta. Hacerlos que se humillen. ¿Q",
           "devanagari_characters": 0
         },
         {
-          "language": "en",
-          "language_probability": 0.568,
-          "speech_text_excerpt": "",
+          "language": "es",
+          "language_probability": 0.498,
+          "speech_text_excerpt": "Tigo en juego! No se se pidió, no hay, somos tus compañeros! No creas enganyarnos, perdá! Y olvidaste que la diría así, Julio!",
           "devanagari_characters": 0
         }
       ],

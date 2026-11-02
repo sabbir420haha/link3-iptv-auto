@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-02T20:23:26.754494+00:00",
-  "evaluated": 215,
+  "checked_utc": "2026-11-02T22:21:24.229518+00:00",
+  "evaluated": 216,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -38,7 +38,7 @@
       "source": "tg-aadi/sony-liv stream Hindi metadata",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "HTTP Error 500: Internal Server Error"
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "id": "Y05",
@@ -1111,7 +1111,7 @@
       "source": "arijitreza/web download.m3u, Sony Yay, source listed with referrer https://www.mhdtvhub.com/; Hindi unverified",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "The read operation timed out"
+      "reason": "HTTP Error 404: Not Found"
     },
     {
       "id": "Y138",
@@ -1753,6 +1753,14 @@
       "hindi_claim": true,
       "status": "failed",
       "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+    },
+    {
+      "id": "Y217",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_yay/playlist.m3u8",
+      "source": "mdnisobuj00/sobujmiji sobujtoffetv.m3u8, explicit SONY YAY direct Toffee CDN entry found 2026-11-03; public HTTPS HLS endpoint, no credentials/tokens; may be geoblocked or Toffee-restricted; NOT VERIFIED Hindi audio or playback",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -5] No address associated with hostname>"
     }
   ]
 }
