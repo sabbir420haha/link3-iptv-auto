@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-02T16:24:48.408163+00:00",
+  "checked_utc": "2026-11-02T19:44:51.068998+00:00",
   "video_report": "sony_yay_probe_results.json",
   "tested_audio_count": 1,
   "newly_published": [],
@@ -14,14 +14,14 @@
       "audio_checks": [
         {
           "language": "es",
-          "language_probability": 0.996,
-          "speech_text_excerpt": "que el radiólogo nos ven, Kirofano, hay que prepararlo para subirlo. Así que se te pasa. ¿Pienzas en eso ahora? Puedes seguir luchando y tener más tie",
+          "language_probability": 0.96,
+          "speech_text_excerpt": "Si no es un árbol, entonces qué es? En la subasta moncada dijo que era un crucifijo de altar. No lo pensé entonces, pero significa que la cruz fue hec",
           "devanagari_characters": 0
         },
         {
           "language": "es",
-          "language_probability": 0.961,
-          "speech_text_excerpt": "Voy a necesitar un arma, el jueves, está en mi mira.",
+          "language_probability": 0.975,
+          "speech_text_excerpt": "Llea del pino. Debe ser aquí. Puede que si se hace un genio. Genio es una exageración. ¿Así? Echale un ojo. Para que sepas por qué lo traje. La cruza ",
           "devanagari_characters": 0
         }
       ],

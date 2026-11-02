@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-02T16:23:41.864438+00:00",
-  "evaluated": 211,
+  "checked_utc": "2026-11-02T19:43:29.970786+00:00",
+  "evaluated": 213,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -374,7 +374,7 @@
       "source": "shafiul1050/mytv Sony Yay",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "HTTP Error 403: Forbidden"
+      "reason": "<urlopen error timed out>"
     },
     {
       "id": "Y47",
@@ -662,7 +662,7 @@
       "source": "Sonuiptvnew jio.m3u; Sony Yay Hindi direct",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "<urlopen error [Errno 111] Connection refused>"
+      "reason": "<urlopen error timed out>"
     },
     {
       "id": "Y83",
@@ -1207,7 +1207,7 @@
       "source": "rajushaw/iptb.raw.github.io 99yfile.m3u; Sony YAY Jio Hindi feed",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "<urlopen error [Errno 111] Connection refused>"
+      "reason": "<urlopen error timed out>"
     },
     {
       "id": "Y150",
@@ -1721,6 +1721,22 @@
       "hindi_claim": true,
       "status": "failed",
       "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y213",
+      "url": "https://tiger-hub.vercel.app/SONY/YAY/tracks-v1a1/mono.ts.m3u8",
+      "source": "everylive/Live-Dish public Kids playlist, GitHub code search 2026-11-03; public Vercel endpoint; Hindi audio and independent backend UNVERIFIED; no credentials embedded",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 451: Unavailable For Legal Reasons"
+    },
+    {
+      "id": "Y214",
+      "url": "http://jmrj02jibon02khan.vercel.app/tracks-v1a1/sonyyay/mono.ts.m3u8",
+      "source": "tvbd/m3uplayer public playlist Sony Yay entry, GitHub code search 2026-11-03; public Vercel relay; Hindi audio UNVERIFIED; no credentials embedded",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
     }
   ]
 }
