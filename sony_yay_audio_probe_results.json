@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-02T04:38:36.822271+00:00",
+  "checked_utc": "2026-11-02T09:11:01.930923+00:00",
   "video_report": "sony_yay_probe_results.json",
   "tested_audio_count": 1,
   "newly_published": [],
@@ -13,15 +13,15 @@
       "video_verified": true,
       "audio_checks": [
         {
-          "language": "it",
-          "language_probability": 0.861,
-          "speech_text_excerpt": "Mottè! Nel fratello è stato ammazzato le vostre strade. Portademi chi l'ha ucciso e ti ricapezzerò! Alta Mottè! Nel fratello è stato ammazzato le vost",
+          "language": "es",
+          "language_probability": 0.966,
+          "speech_text_excerpt": "que caracteriza a las películas de acción. Y en orgas. Soy un organismo cibernético, tejido viviente sobre esqueleto metálico. Les quiero mostrar algo",
           "devanagari_characters": 0
         },
         {
-          "language": "hr",
-          "language_probability": 0.222,
-          "speech_text_excerpt": "Mi je potme cero! Tu zapeg je state. Lišo by je ti zafrola? Abraš si malo da, nu čuš pa!",
+          "language": "es",
+          "language_probability": 0.95,
+          "speech_text_excerpt": "Tiene. Si ves que no vuelvo, cuenla todo el lugar. El que acelera cuando todos frenan. Jamás. Jamás nos rentimos. Sin miedo. Con la cabeza en alto. Se",
           "devanagari_characters": 0
         }
       ],

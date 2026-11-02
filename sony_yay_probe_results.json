@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-02T04:37:40.098314+00:00",
-  "evaluated": 201,
+  "checked_utc": "2026-11-02T09:09:53.799847+00:00",
+  "evaluated": 203,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -1111,7 +1111,7 @@
       "source": "arijitreza/web download.m3u, Sony Yay, source listed with referrer https://www.mhdtvhub.com/; Hindi unverified",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "The read operation timed out"
+      "reason": "HTTP Error 404: Not Found"
     },
     {
       "id": "Y138",
@@ -1576,7 +1576,7 @@
       "source": "Arsks12/stalker Thor's TataPlay.m3u, explicitly Sony YAY SonyLIV 2011746; discovered 2026-11-02; Hindi audio not proven",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "HTTP Error 401: Unauthorized"
+      "reason": "not_hls"
     },
     {
       "id": "Y194",
@@ -1641,6 +1641,22 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "no_decodable_video_height_0"
+    },
+    {
+      "id": "Y202",
+      "url": "https://server.itcnbd.live/stream/sonyyay.m3u8",
+      "source": "Your-Tribal-Chief/LiveTV src/data/channels.ts; Sony YAY VIP public endpoint, distinct from previously failed s2.itcnbd.live; discovered 2026-11-02",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1010)>"
+    },
+    {
+      "id": "Y203",
+      "url": "http://tv.pmcon.net/hls/stream32.m3u8",
+      "source": "asifurarif41/Tv Live tv; channel listed directly as Sony Yay, no language tag; legacy source discovered 2026-11-02, likely stale",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
     }
   ]
 }
