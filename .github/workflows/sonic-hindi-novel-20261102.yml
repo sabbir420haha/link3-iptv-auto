@@ -1,4 +1,4 @@
-name: Sonic Hindi isolated new-source probe 2026-11-03 0045 Dhaka
+name: Sonic Hindi isolated new-source probe 2026-11-03 0153 Dhaka
 on:
   push:
     branches: [main]
@@ -22,7 +22,7 @@ jobs:
           import datetime, ipaddress, json, pathlib, re, socket, subprocess, time, urllib.parse, urllib.request
           root = pathlib.Path(".")
           candidates = [
-              {"url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8", "source": "imranemon1/emon Playlist-Kids.m3u8; labelled SONIC NICKELODEON SONIC HINDI with public HLS URL and User-Agent stream", "source_hindi": True}
+              {"url": "https://tv.googledrivelinks.com/play.php?c=sonic_Hindi&q=1200&e=junk.m3u8", "source": "Public Jio TV channel listing (PDFCoffee); named Sonic Hindi, old unverified URL; requires actual Hindi audio metadata", "source_hindi": False}
           ]
           previous = json.loads((root/"sonic_hindi_candidates.json").read_text())
           favorites = json.loads((root/"favorites_test_registry.json").read_text())
@@ -118,19 +118,19 @@ jobs:
               published.append({"number": num, "url": r["url"], "checks": r["checks"], "live_advanced": r["live_advanced"], "hindi_audio_metadata": r["hindi_audio_metadata"]})
           if published:
               playlist_path.write_text(playlist)
-              (root/"sonic_hindi_probe_20261102_1300_report.json").write_text(json.dumps({"checked_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),"published":published,"results":results,"Link3_confirmed":False}, indent=2)+"\n")
+              (root/"sonic_hindi_probe_20261103_0153_report.json").write_text(json.dumps({"checked_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),"published":published,"results":results,"Link3_confirmed":False}, indent=2)+"\n")
           print("SONIC_HINDI_PUBLISHED "+json.dumps(published), flush=True)
           PY
       - name: Commit only verified Sonic Hindi TEST changes
         shell: bash
         run: |
-          if [ ! -f sonic_hindi_probe_20261102_1300_report.json ]; then
+          if [ ! -f sonic_hindi_probe_20261103_0153_report.json ]; then
             echo "No verified new Sonic Hindi stream; no playlist update."
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add documentary_hd_tests.m3u sonic_hindi_probe_20261102_1300_report.json
+          git add documentary_hd_tests.m3u sonic_hindi_probe_20261103_0153_report.json
           git commit -m 'Append remotely verified Sonic Hindi TEST only'
           git pull --rebase origin main
           git push origin HEAD:main
