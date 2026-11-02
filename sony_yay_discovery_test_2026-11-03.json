@@ -97,5 +97,27 @@
       "https://github.com/brutal-45/IPTV-source/issues/2",
       "https://github.com/iptv-org/iptv/issues/53410"
     ]
+  },
+  "followup_2026_11_03_0417_dhaka": {
+    "checked_at_local": "2026-11-03 04:17 Asia/Dhaka",
+    "fresh_public_source": {
+      "id": "Y217",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_yay/playlist.m3u8",
+      "origin_repository": "mdnisobuj00/sobujmiji",
+      "origin_file": "sobujtoffetv.m3u8",
+      "origin_channel_label": "SONY YAY",
+      "uniqueness": "Not present in previous 215 Sony YAY candidate URLs; no login, DRM keys, MAC identifiers, or access tokens embedded.",
+      "hindi_audio": "UNVERIFIED; source label alone is not language proof",
+      "stream_video": "UNVERIFIED; queued for 3 spaced FFmpeg video decodes and advancing HLS segments",
+      "link3": "UNVERIFIED; remote test cannot establish Link3 playback",
+      "bdix_only": "not established; direct Toffee CDN may be geo or network restricted"
+    },
+    "probe_workflow": "https://github.com/sabbir420haha/link3-iptv-auto/actions/runs/41536094870",
+    "probe_state_at_report": "in_progress",
+    "existing_failed_candidates": "not recycled",
+    "test_playlist_changed": false,
+    "main_playlists_changed": false,
+    "notification_eligible": false,
+    "reason": "Candidate is not proven sustained Hindi live video; publishing would violate test-only verification threshold."
   }
 }
