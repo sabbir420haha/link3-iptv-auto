@@ -1249,6 +1249,34 @@
       "source": "aoestudios57/aoestudios57.github.io aoe-tv/CONTENT/mix/files/jio720p.m3u, explicitly Sony Yay Hindi channel 872; public IP, no credentials; discovered 2026-11-02; unverified remote and Link3",
       "hindi_claim": true,
       "verification": "UNVERIFIED; queued for GitHub Actions multi-interval video/audio check; no user playlist publication unless passed"
+    },
+    {
+      "id": "Y208",
+      "url": "https://sliv.kratosgod.io/api/sonyyay.m3u8",
+      "source": "riyazkhan111/mhgfvcdfx.github.io tp.html, Sony YAY!-labelled public SonyLIV HLS relay; discovered 2026-11-02; no credentials embedded; Hindi audio, identity and live continuity UNVERIFIED",
+      "hindi_claim": false,
+      "verification": "UNVERIFIED: queued for three spaced decoded-video/advancing-HLS checks and two independent Hindi-speech samples. TEST-only; do not publish until proven. No Link3 proof."
+    },
+    {
+      "id": "Y209",
+      "url": "https://s2.itcnbd.live/server-2/stream/sonyyay.m3u8",
+      "source": "bugsfreeweb/LiveTVCollector BugsfreeStreams/StreamsTV-BD/sony_yay_69c0a0a8.m3u8; separate public path from previously tested s2.itcnbd.live/sony-yay; discovered 2026-11-02; backend may overlap and audio UNVERIFIED",
+      "hindi_claim": false,
+      "verification": "UNVERIFIED: queued for three spaced decoded-video/advancing-HLS checks and two independent Hindi-speech samples. TEST-only; do not publish until proven. No Link3 proof."
+    },
+    {
+      "id": "Y210",
+      "url": "https://join-livetvwithshuvo1.bdtubebd.xyz/ltws/live/index.m3u8?channel=sony_yay",
+      "source": "sudiptobd2/jio jio; Sony Yay-labelled public HTTPS relay of Toffee, no login or cookies embedded; discovered 2026-11-02; may be geo or ISP limited, Hindi UNVERIFIED; exclude if BDIX-only",
+      "hindi_claim": false,
+      "verification": "UNVERIFIED: queued for three spaced decoded-video/advancing-HLS checks and two independent Hindi-speech samples. TEST-only; do not publish until proven. No Link3 proof."
+    },
+    {
+      "id": "Y211",
+      "url": "https://toffee-thecodecrafters.vercel.app/auto/sony_yay.m3u8",
+      "source": "LiKH0N/BDIXTV_1 toffee by freeiptv25.m3u8; public Vercel HTTPS Toffee relay Sony Yay; discovered 2026-11-02; backend might be BDIX/geo restricted, no credentials supplied; Hindi UNVERIFIED; exclude if BDIX-only",
+      "hindi_claim": false,
+      "verification": "UNVERIFIED: queued for three spaced decoded-video/advancing-HLS checks and two independent Hindi-speech samples. TEST-only; do not publish until proven. No Link3 proof."
     }
   ]
 }
