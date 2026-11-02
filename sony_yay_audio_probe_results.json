@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-02T00:02:30.883910+00:00",
+  "checked_utc": "2026-11-02T01:51:39.290292+00:00",
   "video_report": "sony_yay_probe_results.json",
   "tested_audio_count": 1,
   "newly_published": [],
@@ -14,14 +14,14 @@
       "audio_checks": [
         {
           "language": "es",
-          "language_probability": 0.719,
-          "speech_text_excerpt": "de sería que llegáramos, y estuvieran bien, que Cleary reverse equivocada, que lo deban Luis solo, fuera un accidente, moriremos todos cierto.",
+          "language_probability": 0.974,
+          "speech_text_excerpt": "¿En que dos para entrenamiento no valen y como chatarra? ¿Qué esperas que haga con eso? ¿El zoológico? Llevarlo al zoológico. Mañana tiene una pelea. ",
           "devanagari_characters": 0
         },
         {
-          "language": "es",
-          "language_probability": 0.972,
-          "speech_text_excerpt": "Ya ha murido el segundo, un chico de 15 años. Espero que estén listos.",
+          "language": "en",
+          "language_probability": 0.568,
+          "speech_text_excerpt": "",
           "devanagari_characters": 0
         }
       ],

@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-02T00:01:33.310988+00:00",
-  "evaluated": 198,
+  "checked_utc": "2026-11-02T01:50:37.925795+00:00",
+  "evaluated": 200,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -38,7 +38,7 @@
       "source": "tg-aadi/sony-liv stream Hindi metadata",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "HTTP Error 429: Too Many Requests"
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "id": "Y05",
@@ -62,7 +62,7 @@
       "source": "sm-monirulislam/SM-IPTV Hindi Sony LIV ID",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "HTTP Error 429: Too Many Requests"
+      "reason": "no_decodable_video_height_0"
     },
     {
       "id": "Y08",
@@ -374,7 +374,7 @@
       "source": "shafiul1050/mytv Sony Yay",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "<urlopen error timed out>"
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "id": "Y47",
@@ -1617,6 +1617,22 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y199",
+      "url": "https://snehtv.in1.bitmana.io/live.php?c=Sony_Yay_Hindi&q=250&e=.m3u8",
+      "source": "Arun9dec/IPTV IPTV Old; explicitly labelled Kids (Hindi) Sony Yay, distinct public SnehTV endpoint; found 2026-11-02, remote video and Hindi audio unverified",
+      "hindi_claim": true,
+      "status": "failed",
+      "reason": "<urlopen error [Errno -2] Name or service not known>"
+    },
+    {
+      "id": "Y200",
+      "url": "http://mygoodstream.pw/proxy.php/https://d20fdzcwhk7szz.cloudfront.net/SONY_YAY.m3u8",
+      "source": "Sonuiptvnew/Sonuiptvnew Sonuiptvfree; public proxy of SONY_YAY-named CloudFront stream, found 2026-11-02; Hindi audio unspecified, possible old source",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "not_hls"
     }
   ]
 }
