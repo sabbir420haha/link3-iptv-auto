@@ -1312,6 +1312,13 @@
       "source": "lolz1990/my kids.m3u GitHub code search 2026-11-03: explicitly labelled SONY YAY HINDI; public stream URL; audio and playback UNVERIFIED",
       "hindi_claim": true,
       "verification": "UNVERIFIED candidate only; require 3 spaced FFmpeg video decodes, advancing HLS, and explicit Hindi audio metadata; do not publish on label alone; local Link3 still unverified"
+    },
+    {
+      "id": "Y217",
+      "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_yay/playlist.m3u8",
+      "source": "mdnisobuj00/sobujmiji sobujtoffetv.m3u8, explicit SONY YAY direct Toffee CDN entry found 2026-11-03; public HTTPS HLS endpoint, no credentials/tokens; may be geoblocked or Toffee-restricted; NOT VERIFIED Hindi audio or playback",
+      "hindi_claim": false,
+      "verification": "UNVERIFIED; queued for GitHub Actions repeated FFmpeg video decode, advancing HLS and two speech-language checks; do not publish until all pass; Link3 ISP unverified"
     }
   ]
 }
