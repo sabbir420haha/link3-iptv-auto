@@ -1,10 +1,31 @@
 {
-  "checked_utc": "2026-11-02T11:14:58.274065+00:00",
+  "checked_utc": "2026-11-02T12:14:38.023378+00:00",
   "video_report": "sony_yay_probe_results.json",
-  "tested_audio_count": 0,
+  "tested_audio_count": 1,
   "newly_published": [],
   "method": "Two independent 20-second audio excerpts, 15 seconds apart; faster-whisper base int8 language identification. Require both hi >=0.80 and >=10 Devanagari characters. Video already decoded at three spaced intervals.",
   "Link3_not_verified": true,
   "MAIN_unchanged": true,
-  "results": []
+  "results": [
+    {
+      "id": "Y190",
+      "url": "http://138.121.15.230:9002/SONY/index.m3u8",
+      "video_verified": true,
+      "audio_checks": [
+        {
+          "language": "es",
+          "language_probability": 0.945,
+          "speech_text_excerpt": "Abo mis cosas, hasta juego con mi perrito, que miedo al dolor. Para mí, o Megardep, no solo alivió mis articulaciones, me devolvió la vida, y eso no t",
+          "devanagari_characters": 0
+        },
+        {
+          "language": "es",
+          "language_probability": 0.955,
+          "speech_text_excerpt": "Esa es su tecnología, software, Omega Red. No necesita agua para ser consumido. Porque cuando tu cuerpo tiene lo Omega 3 que necesita, todo empieza a ",
+          "devanagari_characters": 0
+        }
+      ],
+      "hindi_spoken_confirmed": false
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-02T11:14:48.670703+00:00",
-  "evaluated": 205,
+  "checked_utc": "2026-11-02T12:13:33.863020+00:00",
+  "evaluated": 206,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -1537,8 +1537,21 @@
       "url": "http://138.121.15.230:9002/SONY/index.m3u8",
       "source": "samaratul/nanna-iptv playlist_baseline.m3u8; labelled Sony YAY in English-Kids group; found 2026-11-01; Hindi NOT proven, network scope unknown",
       "hindi_claim": false,
-      "status": "failed",
-      "reason": "HTTP Error 404: Not Found"
+      "status": "remote_90s_video_verified",
+      "live_advancement_confirmed": true,
+      "height": 1080,
+      "decoded_frame_counts": [
+        18,
+        18,
+        18
+      ],
+      "audio_tags": [
+        "spa"
+      ],
+      "hindi_audio_metadata": false,
+      "manifest_advanced": true,
+      "probe_checks": 3,
+      "approximate_probe_span_seconds": 64
     },
     {
       "id": "Y191",
@@ -1563,7 +1576,7 @@
       "source": "Arsks12/stalker Thor's TataPlay.m3u, explicitly Sony YAY SonyLIV 2011746; discovered 2026-11-02; Hindi audio not proven",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "not_hls"
+      "reason": "HTTP Error 401: Unauthorized"
     },
     {
       "id": "Y194",
@@ -1658,6 +1671,14 @@
       "url": "https://tp.yg050.workers.dev/ch/991.m3u8",
       "source": "p30364476/Tata-Play GitHub issue #2, Sony Yay channel 991; public HLS URL; discovered 2026-11-02; access scope, Hindi audio and sustained playback unverified",
       "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "Y207",
+      "url": "http://3.110.187.2/tsjiotv/live.php?c=Sony_Yay_Hindi&q=800&e=junk.m3u8",
+      "source": "aoestudios57/aoestudios57.github.io aoe-tv/CONTENT/mix/files/jio720p.m3u, explicitly Sony Yay Hindi channel 872; public IP, no credentials; discovered 2026-11-02; unverified remote and Link3",
+      "hindi_claim": true,
       "status": "failed",
       "reason": "HTTP Error 404: Not Found"
     }
