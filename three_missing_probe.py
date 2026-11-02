@@ -15,6 +15,8 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-11-02 public JioTV channel-815 Sonic Hindi listing, non-BDIX host; runner audit only.
+    {"channel":"Sonic Hindi","url":"https://jioapi.sports247.eu.org/api/app/live.php?id=815&e=.m3u8","evidence":"2026-11-02 github.com/SArun61/IPTV Jio.m3u explicitly labels channel 815 Sonic Hindi; independent identity and Hindi audio not established","expected_audio":"hi"},
     # 2026-11-02 independently published Sonic Bangla candidate; AUDIT ONLY, never auto-publish.
     {"channel":"Sonic Bangla","url":"https://its-nayeemparvez.xyz/thunder-streamz/playlist.m3u8?id=47ef0cc5248f51856","evidence":"2026-11-02 github.com/tvbd/m3uplayer m3u/subirmaxpro.m3u labels this secondary Sonic link after Sonic_Bangla_MOB; confirm identity and Bengali audio before any publication","expected_audio":"bn"},
     # 2026-11-01 newly found, publicly labeled candidates. AUDIT ONLY, never main playlist without identity, language and media proof.
