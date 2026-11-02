@@ -15,6 +15,17 @@ from update import fetch_hls_bytes, allowed, direct_media_ok
 
 OUT = Path(__file__).with_name("three_missing_probe.json")
 CANDIDATES = [
+    # 2026-11-03: independent public GitHub listings, non-BDIX-oriented HTTPS
+    # candidates. Do NOT publish without actual media and channel/audio proof.
+    {"channel":"Sonic Hindi","url":"https://madplay.live/hls/jiotv/stream.php?id=815&e=.m3u8",
+     "evidence":"github.com/Mrlivetv/Fredlix playlist.html explicitly labels Sonic Hindi Jio 815; unverified media and audio",
+     "expected_audio":"hi"},
+    {"channel":"Sonic Bangla","url":"https://tootvnet.xyz/Jio/stream.m3u8?id=1345&e=.m3u8",
+     "evidence":"github.com/Mrlivetv/DD_PORTAL BD_Playlist_by_@Fredflix1.m3u labels Sonic Bangla Jio 1345; unverified media and audio",
+     "expected_audio":"bn"},
+    {"channel":"Sonic Bangla","url":"https://playyonogames.in/live.php?id=1345&extension=.m3u8",
+     "evidence":"github.com/Shaharum1010/Cartoon-channel- Shaharum labels Sonic Bangla 1345; source mentions referer; unauthenticated HLS probe only",
+     "expected_audio":"bn"},
     # 2026-11-02 additional public-list discoveries. AUDIT ONLY: these are NOT verified streams.
     # No publishing from labels alone; require readable HLS media, independent channel/audio evidence,
     # and Disney >=720p. Reject a URL that redirects to a login page, DRM, or unrelated channel.
@@ -355,9 +366,28 @@ def test(entry):
     return result
 
 def main():
+    # Do not repeatedly probe URLs the user already reported as broken or
+    # explicitly excluded. Deduplicate independent public-list mirrors too.
+    catalog = json.loads(Path(__file__).with_name("channels.json").read_text(encoding="utf-8"))
+    blocked = {
+        channel["name"]: set(channel.get("user_reported_failures", []))
+        | set(channel.get("exclude_urls", []))
+        for channel in catalog
+    }
+    seen = set()
+    to_probe = []
+    skipped = 0
+    for entry in CANDIDATES:
+        key = (entry["channel"], entry["url"])
+        if key in seen or entry["url"] in blocked.get(entry["channel"], set()):
+            skipped += 1
+            continue
+        seen.add(key)
+        to_probe.append(entry)
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
-        results = list(pool.map(test, CANDIDATES))
+        results = list(pool.map(test, to_probe))
     report = {
+        "skipped_duplicate_or_user_failed": skipped,
         "checked_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "scope": "GitHub Actions network, NOT Link3. No channel identities confirmed.",
         "candidate_count": len(results),
