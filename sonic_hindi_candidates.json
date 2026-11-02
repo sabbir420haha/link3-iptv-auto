@@ -829,6 +829,27 @@
       "source": "freedish2024/personal-project.sr Kids playlist adjacent to Sonic listing; identity uncertain",
       "feed": "Sonic association uncertain; Hindi unverified",
       "remote_probe": "GitHub Actions run 41238814606 2026-10-31T20:25:32Z: manifest HTTP 404 Not Found; no decoded video; two-fetch verification failed"
+    },
+    {
+      "id": "S131",
+      "url": "https://prod-ent-live-fa.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8",
+      "source": "arunprajapati249/iptv playlist.m3u Sonic Nickelodeon",
+      "feed": "Sonic India; Hindi audio unverified",
+      "remote_probe": "GitHub Actions run 41380140474 2026-11-02T02:54Z: HTTP 403 Forbidden; no HLS/video decoded"
+    },
+    {
+      "id": "S132",
+      "url": "https://livevoot.co.in/voot/master.m3u8?id=Sonic_Nickelodeon_voot_MOB",
+      "source": "mdsirome/LiveTV DiscoverTV.m3u Sonic Nickelodeon",
+      "feed": "Sonic India; Hindi audio unverified",
+      "remote_probe": "GitHub Actions run 41380140474 2026-11-02T02:54Z: DNS name resolution failed; no HLS/video decoded"
+    },
+    {
+      "id": "S133",
+      "url": "https://madplay.live/player/jiotv.php?id=sonic_Hindi_MOB/Fallback/index.m3u8",
+      "source": "tvs6/livetv index.html Sonic Hindi",
+      "feed": "Sonic India; Hindi audio unverified",
+      "remote_probe": "GitHub Actions run 41380140474 2026-11-02T02:54Z: HTTP content was not a real HLS manifest; no video decoded"
     }
   ]
 }
