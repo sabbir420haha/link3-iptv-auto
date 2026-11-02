@@ -53,5 +53,49 @@
   "remote_network_test_new_candidates": "not possible in this run: execution container cannot resolve external hosts; existing GitHub Actions probe will need to evaluate queued candidates",
   "playlist_changed": false,
   "main_playlist_changed": false,
-  "notification_eligible": false
+  "notification_eligible": false,
+  "followup_2026_11_03_0335_dhaka": {
+    "reviewed_at_local": "2026-11-03 03:35 Asia/Dhaka",
+    "latest_remote_probe_utc": "2026-11-02T20:23:26.754494+00:00",
+    "latest_remote_evaluated": 215,
+    "latest_new_verified": 0,
+    "latest_published": [],
+    "latest_status_counts": {
+      "failed": 213,
+      "video_decoded_hls_advancement_unproven": 1,
+      "remote_90s_video_verified": 1
+    },
+    "recent_candidates": [
+      {
+        "id": "Y215",
+        "status": "failed",
+        "reason": "<urlopen error [Errno -2] Name or service not known>"
+      },
+      {
+        "id": "Y216",
+        "status": "failed",
+        "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      }
+    ],
+    "notable_unqualified": [
+      {
+        "id": "Y107",
+        "status": "video decoded but HLS advancement and Hindi audio not proven"
+      },
+      {
+        "id": "Y190",
+        "status": "90s remote video verified but audio language spa (Spanish), not Hindi"
+      }
+    ],
+    "discovery": "Searched 2026-11-03 public GitHub playlists, IPTV issue reports and current indexed pages; most plausible sources were repeats of the 215 known candidates. Unproven new URLs were not published. Avoided Tamil/Bengali, BDIX-only, credentials, DRM and expiring tokens.",
+    "new_qualified_streams": [],
+    "test_playlist_modified": false,
+    "main_playlists_modified": false,
+    "reason_no_publication": "No source demonstrated sustained advancing live video and proven Hindi audio. Container network DNS prevents independent decoding; existing GitHub Actions report is the latest remote evidence. Local Link3 playback cannot be inferred.",
+    "reference_issues": [
+      "https://github.com/iptv-org/iptv/issues/57300",
+      "https://github.com/brutal-45/IPTV-source/issues/2",
+      "https://github.com/iptv-org/iptv/issues/53410"
+    ]
+  }
 }
