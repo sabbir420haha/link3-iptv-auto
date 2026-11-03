@@ -1319,6 +1319,20 @@
       "source": "mdnisobuj00/sobujmiji sobujtoffetv.m3u8, explicit SONY YAY direct Toffee CDN entry found 2026-11-03; public HTTPS HLS endpoint, no credentials/tokens; may be geoblocked or Toffee-restricted; NOT VERIFIED Hindi audio or playback",
       "hindi_claim": false,
       "verification": "UNVERIFIED; queued for GitHub Actions repeated FFmpeg video decode, advancing HLS and two speech-language checks; do not publish until all pass; Link3 ISP unverified"
+    },
+    {
+      "id": "Y218",
+      "url": "https://sm-monirul.xyz/@monirul_Islam_SM/stream.php?id=sony_yay&sm=.m3u8",
+      "source": "iptv-org/iptv issue #57507 submitted 2026-11-03 18:46 UTC; claimed 24/7 576p unblocked, NOT independently verified; Hindi unspecified",
+      "hindi_claim": false,
+      "verification": "UNVERIFIED. Container DNS unavailable. Require 3 spaced FFmpeg decodes, advancing HLS segments, explicit Hindi audio proof and local Link3 trial before publication."
+    },
+    {
+      "id": "Y219",
+      "url": "https://livetv.shamon-cable.net:8443/sony_yay/index.m3u8",
+      "source": "iptv-org/iptv issue #57484 submitted 2026-11-03 18:39 UTC; claimed 24/7 576p unblocked, NOT independently verified; Hindi unspecified",
+      "hindi_claim": false,
+      "verification": "UNVERIFIED. Container DNS unavailable. Require 3 spaced FFmpeg decodes, advancing HLS segments, explicit Hindi audio proof and local Link3 trial before publication."
     }
   ]
 }
