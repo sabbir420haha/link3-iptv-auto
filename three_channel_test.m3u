@@ -159,6 +159,16 @@ https://www.redbooks.site/x11.php?id=34011.m3u8
 #EXTVLCOPT:http-referrer=https://colorsscreen.com/
 https://colorsscreen.com/stream.php?id=815&e=.m3u8
 
+# PUBLIC SOURCE: omarufulislam/mafdfg GitHub Gist (older public playlist): Nick Sonic / BOL
+# UNVERIFIED old BOL Digijadoo CDN feed; possibly provider or BDIX restricted; channel feed/audio and Link3 playback NOT verified.
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-174" tvg-name="Sonic Hindi TEST 174" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 174
+https://bol.iptv.digijadoo.net/live/sonic/chunks.m3u8
+
+# PUBLIC SOURCE: omarufulislam/mafdfg GitHub Gist (older public playlist): Nick Sonic / IBox
+# UNVERIFIED old IBox-labelled Nick Sonic; possibly ISP/BDIX restricted; Hindi audio and Link3 playback NOT verified.
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-175" tvg-name="Sonic Hindi TEST 175" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 175
+http://103.135.208.14/live/ibox/bd/58.m3u8
+
 # HUNGAMA NOVEMBER 01 SECOND BATCH — USER-TEST ONLY
 # Newly found source-labelled URLs, NOT confirmed working, no Link3 or video/audio validation.
 # Check Hungama TV TEST 106–116; 117 is explicitly a Kids variant and may be different content.
