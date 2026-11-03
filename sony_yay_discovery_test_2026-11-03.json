@@ -313,5 +313,28 @@
     "test_playlist_changed": false,
     "main_playlists_changed": false,
     "notification_eligible": false
+  },
+  "followup_2026_11_03_2233_dhaka": {
+    "checked_at_local": "2026-11-03 22:33 Asia/Dhaka",
+    "github_search": "Four code-search families: Sony YAY m3u8, Sony Yay Hindi m3u8, sony_yay m3u8, SonyYay workers.dev; cross-checked against 215 unique existing candidate URLs.",
+    "new_unverified_public_reference": {
+      "url": "https://mflixott.com/tv/toffee-by-maruf/live.php?id=sonyyay&e=.m3u8",
+      "source": "hacker-ferdous/hacker-ferdous.github.io tv.html",
+      "status": "Not remotely video decoded; Toffee relay may be geo/BDIX restricted and language unspecified. Not eligible for publication."
+    },
+    "duplicates_seen": [
+      "https://sl.vodep39240327.workers.dev/channel/SONY+YAY.m3u8",
+      "https://hdabgh.mnbd.workers.dev/cdn/live/sonyyay/playlist.m3u8",
+      "https://sliv.tgaadi.workers.dev/sonyyaysd.m3u8",
+      "https://cloudplay-sonyliv.pages.dev/yay.m3u8",
+      "https://sonamul3535.vercel.app/Sony-yay.m3u8"
+    ],
+    "remote_decode_performed": false,
+    "hls_advancement_verified": false,
+    "hindi_audio_verified": false,
+    "verified_new_sources": [],
+    "test_playlist_changed": false,
+    "main_playlist_changed": false,
+    "notification_eligible": false
   }
 }
