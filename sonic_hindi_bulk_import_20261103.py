@@ -108,7 +108,7 @@ def admissible(url: str) -> bool:
     """Keep public unprotected stream URLs; user will verify the playback."""
     if len(url) > 650 or not url.startswith(("http://", "https://")):
         return False
-    if BLOCK_RX.search(url) or PRIVATE_RX.search(url) or re.search(r"[$\x27\x22]|%7C", url, re.I):
+    if BLOCK_RX.search(url) or PRIVATE_RX.search(url) or re.search(r"[$\x27\x22]|%7C|hdntl=|hdnts=|~hmac=|moonkerala\.xyz", url, re.I):
         return False
     if re.search(r"sonic[-_]?bangla|sonic[-_]?marathi|sonic[-_]?gujarati|sonicbangla|(?:[?&]id=134[56](?:[&#]|$))|(?:[?&]c=Sonic_(?:Marathi|Gujarati|Bangla))|animetv/animetv|sat7kids", url, re.I):
         return False
