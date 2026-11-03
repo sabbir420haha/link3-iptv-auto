@@ -24,54 +24,8 @@ http://103.135.253.32:8080/HUNGAMA/index.m3u8
 # Previously attempted URLs must never be re-added without fresh independent working evidence.
 # MAIN, Hungama and non-Sonic TEST entries preserved.
 
-# SONIC HINDI FRESH CANDIDATES | 2026-11-03 | ALL UNVERIFIED
-# Previous TEST 140-175 were confirmed failed and removed. Do not re-add their URLs or known equivalently failed streams.
-# TEST 176 PUBLIC SOURCE: sportlive18/sportlink-update/tstar.m3u; independently mirrored by Krishanuk009/555/playlists/hotstar.m3u
-# WARNING: JioHotstar Sonic-labelled HLS. Publicly listed but may require India-region or entitlement; NO Link3/video/audio verification.
-#EXTINF:-1 tvg-id="sonic-hindi-new-176" tvg-name="Sonic Hindi TEST 176" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 176
-https://jcevents.hotstar.com/bpk-tv/JS_SonicNick/JioHotstar/JS_SonicNick.m3u8
-
-# TEST 177 PUBLIC SOURCE: foysal-ahamed/playlist/backup_f2mlink.m3u8, labeled Sonic
-# WARNING: Sonic-labeled Pakistani-network relay; IPTV Pro and Hindi audio unverified. Source is old, uptime unknown.
-#EXTINF:-1 tvg-id="sonic-hindi-new-177" tvg-name="Sonic Hindi TEST 177" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 177
-http://110.39.27.47:8001/play/a00m/index.m3u8
-
-# TEST 178 PUBLIC SOURCE: sohelkhan812421/boss/SOHELKHANIPTV2025.m3u, labeled Sonic Hindi / 815
-# WARNING: Published link included URL-encoded Referer and User-Agent settings; reconstructed standard M3U header option, not remotely validated. Might be blocked.
-#EXTINF:-1 tvg-id="sonic-hindi-new-178" tvg-name="Sonic Hindi TEST 178" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 178
-#EXTVLCOPT:http-referrer=https://mhdtvstream.com//
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.6943.49 Mobile Safari/537.36
-https://mhdtvstream.com/live.php?id=815&e=.m3u8
-
-# TEST 179 PUBLIC SOURCE: rfd0/0/0/kids.m3u8 — Sonic Rs 2
-# WARNING: Regional provider may block, stream and Hindi audio unverified.
-#EXTINF:-1 tvg-id="sonic-hindi-new-179" tvg-name="Sonic Hindi TEST 179" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 179
-http://103.157.210.165:8000/play/a00v/index.m3u8
-
-# TEST 180 PUBLIC SOURCE: rfd0/0/0/kids.m3u8 — Sonic Rs 2
-# WARNING: Extensionless stream entry; IPTV Pro support unknown; audio unverified.
-#EXTINF:-1 tvg-id="sonic-hindi-new-180" tvg-name="Sonic Hindi TEST 180" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 180
-http://103.174.195.4:8000/play/a00s
-
-# TEST 181 PUBLIC SOURCE: zawad1804/iptvpublic/a.m3u8 — SONIC
-# WARNING: Potential ISP-restricted relay; no media test or Hindi proof.
-#EXTINF:-1 tvg-id="sonic-hindi-new-181" tvg-name="Sonic Hindi TEST 181" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 181
-http://103.153.39.36:8000/play/a021
-
-# TEST 182 PUBLIC SOURCE: eishakilei-bd08/eitv/dormns20.m3u — Sonic (Tata Play) 2
-# WARNING: Unverified third-party relay, could require access to content or be geo-blocked.
-#EXTINF:-1 tvg-id="sonic-hindi-new-182" tvg-name="Sonic Hindi TEST 182" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 182
-https://alex4528.site/k7m2q9x4b8nc/stream.ts?id=40476
-
-# TEST 183 PUBLIC SOURCE: shafiul1050/mytv/favorite.m3u8 — NICKELODEON SONIC
-# WARNING: Extensionless source, likely short-lived; video and Hindi language unverified.
-#EXTINF:-1 tvg-id="sonic-hindi-new-183" tvg-name="Sonic Hindi TEST 183" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 183
-http://103.151.60.174/test2028
-
-# TEST 184 PUBLIC SOURCE: johirxofficial/johirxofficial.github.io/live/otv_bd_may.m3u — NICK SONIC
-# WARNING: Unverified relay, may be offline, region-specific or blocked.
-#EXTINF:-1 tvg-id="sonic-hindi-new-184" tvg-name="Sonic Hindi TEST 184" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 184
-https://filoox.vercel.app/live/34011.m3u8
+# SONIC HINDI TEST 176–184 USER-CONFIRMED FAILED ON LINK3, REMOVED 2026-11-03
+# Old URLs must not be re-added, including TEST 1–184. Historical links retained in GitHub commits and Sonic research indexes.
 
 # HUNGAMA NOVEMBER 01 SECOND BATCH — USER-TEST ONLY
 # Newly found source-labelled URLs, NOT confirmed working, no Link3 or video/audio validation.
