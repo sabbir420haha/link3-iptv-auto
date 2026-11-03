@@ -1,0 +1,46 @@
+name: Sonic Hindi 150 Novel Public TEST Sources
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/sonic-hindi-bulk-import-20261103.yml
+      - sonic_hindi_bulk_import_20261103.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sonic-hindi-bulk-public-test
+  cancel-in-progress: false
+
+jobs:
+  collect-and-append:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout user playlist repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install HTTP client
+        run: python -m pip install --disable-pip-version-check requests
+      - name: Collect published Sonic links, discard known old URLs, append TEST only
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python sonic_hindi_bulk_import_20261103.py
+      - name: Record test list and evidence without modifying Main
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add three_channel_test_refresh_20261102.m3u three_channel_test.m3u sonic_hindi_bulk_result_20261103.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Add sourced novel Sonic Hindi TEST candidates (unverified, Main unchanged)'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
