@@ -27,6 +27,18 @@ http://103.135.253.32:8080/HUNGAMA/index.m3u8
 # SONIC HINDI TEST 176–184 USER-CONFIRMED FAILED ON LINK3, REMOVED 2026-11-03
 # Old URLs must not be re-added, including TEST 1–184. Historical links retained in GitHub commits and Sonic research indexes.
 
+# SONIC HINDI NEW TEST BATCH AFTER 1-184 FAILED | 2026-11-03
+# User-confirmed prior failures include TEST 140-184. These entries are distinct candidates and do not imply success.
+# PUBLIC SOURCE: arijitreza/web/playlist.m3u — SONIC_SD, entry 1
+# UNVERIFIED: Public SONIC_SD listing, Hindi audio/Link3 access/active HLS NOT independently verified; may be ISP-specific.
+#EXTINF:-1 tvg-id="sonic-hindi-unverified-185" tvg-name="Sonic Hindi TEST 185" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 185
+http://103.161.153.165:8000/play/a013/index.m3u8
+
+# PUBLIC SOURCE: arijitreza/web/playlist.m3u — SONIC_SD, entry 2
+# UNVERIFIED: Distinct public SONIC_SD URL, Hindi audio/Link3 playback NOT verified; same provider as TEST 185, may be ISP-specific.
+#EXTINF:-1 tvg-id="sonic-hindi-unverified-186" tvg-name="Sonic Hindi TEST 186" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 186
+http://103.161.153.165:8000/play/a015/index.m3u8
+
 # HUNGAMA NOVEMBER 01 SECOND BATCH — USER-TEST ONLY
 # Newly found source-labelled URLs, NOT confirmed working, no Link3 or video/audio validation.
 # Check Hungama TV TEST 106–116; 117 is explicitly a Kids variant and may be different content.
