@@ -1,7 +1,7 @@
 {
-  "checked_utc": "2026-11-02T22:22:38.992555+00:00",
+  "checked_utc": "2026-11-03T22:59:00.364767+00:00",
   "video_report": "sony_yay_probe_results.json",
-  "tested_audio_count": 1,
+  "tested_audio_count": 2,
   "newly_published": [],
   "method": "Two independent 20-second audio excerpts, 15 seconds apart; faster-whisper base int8 language identification. Require both hi >=0.80 and >=10 Devanagari characters. Video already decoded at three spaced intervals.",
   "Link3_not_verified": true,
@@ -14,14 +14,34 @@
       "audio_checks": [
         {
           "language": "es",
-          "language_probability": 0.921,
-          "speech_text_excerpt": "¡Tros falsos! ¡No me agrada perder así! Estamos dejando que se burlen. Tenemos que defendernos. Hay que darles la vuelta. Hacerlos que se humillen. ¿Q",
+          "language_probability": 0.963,
+          "speech_text_excerpt": "¿Qué? ¿Qué están haciendo? Se fue la línea, señor. Han visto dos más sobre la tántico. Uno va a ser una mayor. El otro se dirige hacia esta dirección.",
           "devanagari_characters": 0
         },
         {
           "language": "es",
-          "language_probability": 0.498,
-          "speech_text_excerpt": "Tigo en juego! No se se pidió, no hay, somos tus compañeros! No creas enganyarnos, perdá! Y olvidaste que la diría así, Julio!",
+          "language_probability": 0.915,
+          "speech_text_excerpt": "Permanecer en sus casas. Sí, señor. Roy, Dean. Alex, contacta a los miembros de Gabinete. Haz que será una en aquí y lo llevaremos a No Rat. Señor pre",
+          "devanagari_characters": 0
+        }
+      ],
+      "hindi_spoken_confirmed": false
+    },
+    {
+      "id": "Y218",
+      "url": "https://sm-monirul.xyz/@monirul_Islam_SM/stream.php?id=sony_yay&sm=.m3u8",
+      "video_verified": true,
+      "audio_checks": [
+        {
+          "language": "ja",
+          "language_probability": 0.555,
+          "speech_text_excerpt": "さぁ… デッカル",
+          "devanagari_characters": 0
+        },
+        {
+          "language": "hi",
+          "language_probability": 0.997,
+          "speech_text_excerpt": "Superb, see you. Yehaast be a.. Gakka nai, hai hai. So, who is the guy here? I will go home. I will tell you. I will first pick up this bell and tell ",
           "devanagari_characters": 0
         }
       ],

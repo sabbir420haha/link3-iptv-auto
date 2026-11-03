@@ -1,6 +1,6 @@
 {
-  "checked_utc": "2026-11-02T22:21:24.229518+00:00",
-  "evaluated": 216,
+  "checked_utc": "2026-11-03T22:56:46.677167+00:00",
+  "evaluated": 218,
   "new_remote_verified": 0,
   "newly_published": [],
   "MAIN_unchanged": true,
@@ -38,7 +38,7 @@
       "source": "tg-aadi/sony-liv stream Hindi metadata",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "HTTP Error 403: Forbidden"
+      "reason": "HTTP Error 500: Internal Server Error"
     },
     {
       "id": "Y05",
@@ -62,7 +62,7 @@
       "source": "sm-monirulislam/SM-IPTV Hindi Sony LIV ID",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "no_decodable_video_height_0"
+      "reason": "HTTP Error 429: Too Many Requests"
     },
     {
       "id": "Y08",
@@ -390,7 +390,7 @@
       "source": "freedish2024/personal-project.sr Sony YAY",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "<urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1010)>"
+      "reason": "<urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1011)>"
     },
     {
       "id": "Y49",
@@ -398,7 +398,7 @@
       "source": "ibrahim4250 GitHub Sony Yay",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "<urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1010)>"
+      "reason": "<urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1011)>"
     },
     {
       "id": "Y50",
@@ -406,7 +406,7 @@
       "source": "sadabx/iptv listed Sony Yay (non-Jio feed; language unconfirmed)",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.ottplus.bd'. (_ssl.c:1010)>"
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'stream.ottplus.bd'. (_ssl.c:1011)>"
     },
     {
       "id": "Y51",
@@ -526,7 +526,7 @@
       "source": "Sonuiptvnew Sony Yay alternative BDIX likely",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'cdn.nowhdtime.com.bd'. (_ssl.c:1010)>"
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'cdn.nowhdtime.com.bd'. (_ssl.c:1011)>"
     },
     {
       "id": "Y66",
@@ -582,7 +582,7 @@
       "source": "FREDFLIX-APP/All-channel-php Sony Yay",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1010)>"
+      "reason": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1011)>"
     },
     {
       "id": "Y73",
@@ -1576,7 +1576,7 @@
       "source": "Arsks12/stalker Thor's TataPlay.m3u, explicitly Sony YAY SonyLIV 2011746; discovered 2026-11-02; Hindi audio not proven",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "not_hls"
+      "reason": "HTTP Error 401: Unauthorized"
     },
     {
       "id": "Y194",
@@ -1600,7 +1600,7 @@
       "source": "junzed/junzed.github.io vlis.m3u; second HLS endpoint directly under Sony Yay Hindi entry; discovered 2026-11-02; Hindi audio NOT independently proven",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "HTTP Error 404: Not Found"
+      "reason": "HTTP Error 403: Forbidden"
     },
     {
       "id": "Y197",
@@ -1648,7 +1648,7 @@
       "source": "Your-Tribal-Chief/LiveTV src/data/channels.ts; Sony YAY VIP public endpoint, distinct from previously failed s2.itcnbd.live; discovered 2026-11-02",
       "hindi_claim": false,
       "status": "failed",
-      "reason": "<urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1010)>"
+      "reason": "<urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1011)>"
     },
     {
       "id": "Y203",
@@ -1752,7 +1752,7 @@
       "source": "lolz1990/my kids.m3u GitHub code search 2026-11-03: explicitly labelled SONY YAY HINDI; public stream URL; audio and playback UNVERIFIED",
       "hindi_claim": true,
       "status": "failed",
-      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
       "id": "Y217",
@@ -1761,6 +1761,33 @@
       "hindi_claim": false,
       "status": "failed",
       "reason": "<urlopen error [Errno -5] No address associated with hostname>"
+    },
+    {
+      "id": "Y218",
+      "url": "https://sm-monirul.xyz/@monirul_Islam_SM/stream.php?id=sony_yay&sm=.m3u8",
+      "source": "iptv-org/iptv issue #57507 submitted 2026-11-03 18:46 UTC; claimed 24/7 576p unblocked, NOT independently verified; Hindi unspecified",
+      "hindi_claim": false,
+      "status": "remote_90s_video_verified",
+      "live_advancement_confirmed": true,
+      "height": 576,
+      "decoded_frame_counts": [
+        18,
+        18,
+        18
+      ],
+      "audio_tags": [],
+      "hindi_audio_metadata": false,
+      "manifest_advanced": true,
+      "probe_checks": 3,
+      "approximate_probe_span_seconds": 64
+    },
+    {
+      "id": "Y219",
+      "url": "https://livetv.shamon-cable.net:8443/sony_yay/index.m3u8",
+      "source": "iptv-org/iptv issue #57484 submitted 2026-11-03 18:39 UTC; claimed 24/7 576p unblocked, NOT independently verified; Hindi unspecified",
+      "hindi_claim": false,
+      "status": "failed",
+      "reason": "HTTP Error 404: Not Found"
     }
   ]
 }
