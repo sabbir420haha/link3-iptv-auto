@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
   "query_count": 13,
-  "total_unique_files": 899,
+  "total_unique_files": 926,
   "files": [
     {
       "repo": "Sonuiptvnew/Sonuiptvnew",
@@ -4497,6 +4497,141 @@
       "repo": "fahadskt/IPTV-Playlists",
       "path": "jio_tv.m3u",
       "via": "\"SONIC\" \"live/815.m3u8\""
+    },
+    {
+      "repo": "143maha/ATHADU",
+      "path": "Meghana.m3u",
+      "via": "\"SONIC HD\" \"m3u8\""
+    },
+    {
+      "repo": "21522009-spec/StReAm",
+      "path": "server/core/initializers/constants.ts",
+      "via": "\"SONIC HD\" \"m3u8\""
+    },
+    {
+      "repo": "Salimtech353/NetPlay",
+      "path": "FAST-IPTV-main/ap2s_playlist.m3u",
+      "via": "\"SONIC HD\" \"m3u8\""
+    },
+    {
+      "repo": "Jazzdar1/darfree.tv",
+      "path": "dt.m3u",
+      "via": "\"Sonic Hindi HD\""
+    },
+    {
+      "repo": "arif626/OTT.m3u",
+      "path": "Sport.m3u",
+      "via": "\"Sonic Hindi HD\""
+    },
+    {
+      "repo": "Jazzdar1/darfree.tv",
+      "path": "tv_channels_35965060 (1).m3u",
+      "via": "\"Sonic Hindi HD\""
+    },
+    {
+      "repo": "Jazzdar1/darfree.tv",
+      "path": "tv_channels_35965061_plus.m3u",
+      "via": "\"Sonic Hindi HD\""
+    },
+    {
+      "repo": "Jazzdar1/jwplayer-master",
+      "path": "tv_channels_35965060 (1).m3u",
+      "via": "\"Sonic Hindi HD\""
+    },
+    {
+      "repo": "rajhodedara/live-sport-plugin",
+      "path": "src/resolver/sktech/SkTechChannelResolver.js",
+      "via": "\"Sonic\" \"JioTV+\""
+    },
+    {
+      "repo": "nikhilmenghani/nikTv",
+      "path": "docs/cricfy-tv-backend-inventory-2026-10-28.json",
+      "via": "\"Sonic\" \"JioTV+\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/4/AA-Spain.txt",
+      "via": "\"SONIC\" \"IN\" \"m3u8\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/4/AA-Chile.txt",
+      "via": "\"SONIC\" \"IN\" \"m3u8\""
+    },
+    {
+      "repo": "StarFlixofficial/Personal-File",
+      "path": "Jio Tv .m3u",
+      "via": "\"SONIC-HINDI\""
+    },
+    {
+      "repo": "ABIDHASANIPTV/JIO_CINEMA",
+      "path": "jio_cinema.m3u",
+      "via": "\"SONIC-HINDI\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/zin_music/baked/AA-AF___afghanistan.txt",
+      "via": "\"sonic\" \"Nick\" \"m3u8\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/9/baked/AA-Pop.txt",
+      "via": "\"sonic\" \"Nick\" \"m3u8\""
+    },
+    {
+      "repo": "fahadskt/IPTV-Playlists",
+      "path": "Old/Bangladesh IPTV",
+      "via": "\"sonic\" \"Nick\" \"m3u8\""
+    },
+    {
+      "repo": "GraphicMiles/chan-watchparty",
+      "path": "server-lib/iptv.js",
+      "via": "\"sonic\" \"Nick\" \"m3u8\""
+    },
+    {
+      "repo": "fahadskt/IPTV-Playlists",
+      "path": "Old/Digiiptv",
+      "via": "\"sonic\" \"Nick\" \"m3u8\""
+    },
+    {
+      "repo": "fahadskt/IPTV-Playlists",
+      "path": "Old/All BDIX 2",
+      "via": "\"sonic\" \"Nick\" \"m3u8\""
+    },
+    {
+      "repo": "alopoki/yuuuu",
+      "path": "api/playlist.php",
+      "via": "\"sonic\" \"Nick\" \"m3u8\""
+    },
+    {
+      "repo": "alopoki/bablubh",
+      "path": "api/playlist.php",
+      "via": "\"sonic\" \"Nick\" \"m3u8\""
+    },
+    {
+      "repo": "kkxstream/Tm",
+      "path": "api/playlist.php",
+      "via": "\"sonic\" \"Nick\" \"m3u8\""
+    },
+    {
+      "repo": "alopoki/myrepoyvvv",
+      "path": "api/playlist.php",
+      "via": "\"sonic\" \"Nick\" \"m3u8\""
+    },
+    {
+      "repo": "freedish2024/personal-project.sr",
+      "path": "All kids channel.m3u",
+      "via": "\"Sonic_Nickelodeon\" \"HLS\""
+    },
+    {
+      "repo": "freedish2024/personal-project.sr",
+      "path": "Channel kid.m3u",
+      "via": "\"Sonic_Nickelodeon\" \"HLS\""
+    },
+    {
+      "repo": "freedish2024/personal-project.sr",
+      "path": "All cantrey kids.m3u",
+      "via": "\"Sonic_Nickelodeon\" \"HLS\""
     }
   ],
   "processed": 0
