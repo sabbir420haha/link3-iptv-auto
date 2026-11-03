@@ -1,0 +1,29 @@
+{
+  "checked_at_local": "2026-11-04 04:52 Asia/Dhaka",
+  "purpose": "Sony YAY Hindi sustained playback discovery; TEST-only; no main playlist changes",
+  "fresh_issue_sources": [
+    {
+      "id": "Y218",
+      "issue": "https://github.com/iptv-org/iptv/issues/57507",
+      "submitted_utc": "2026-11-03T18:46:45Z",
+      "claimed": "Sony Yay SD 576p 24/7 unblocked",
+      "verified": false,
+      "hindi_audio_verified": false
+    },
+    {
+      "id": "Y219",
+      "issue": "https://github.com/iptv-org/iptv/issues/57484",
+      "submitted_utc": "2026-11-03T18:39:48Z",
+      "claimed": "Sony Yay SD 576p 24/7 unblocked",
+      "verified": false,
+      "hindi_audio_verified": false
+    }
+  ],
+  "github_search": "Four code-search query families and newly updated iptv-org issues; filtered private, credential-bearing, BDIX-only, Tamil/Bengali, duplicates and historical dead links.",
+  "container_probe": "Both new issue hosts failed DNS resolution from this execution container; no remote video decode, multi-interval segment advance, or audio language confirmation possible.",
+  "remote_verified_hindi": 0,
+  "published_to_documentary_hd_tests": false,
+  "main_and_favorites_unchanged": true,
+  "notification_eligible": false,
+  "next_required": "Use network-enabled GitHub Actions FFmpeg probe to decode three spaced samples, compare HLS media sequence advancement, verify Hindi speech/metadata; only then append a proven source to documentary_hd_tests.m3u."
+}
