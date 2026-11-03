@@ -153,6 +153,12 @@ https://tp.yg050.workers.dev/ch/127.m3u8
 #EXTINF:-1 tvg-id="sonic-hindi-bulk-172" tvg-name="Sonic Hindi TEST 172" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 172
 https://www.redbooks.site/x11.php?id=34011.m3u8
 
+# PUBLIC SOURCE: ibrahim4250/ibrahim.m3u (GitHub Gist; last active 2024), listing: Sonic Hindi (JioTV ID 815).
+# UNVERIFIED: media/video, audio language, Link3 playback and stream freshness NOT verified. Older source; viewer trial only.
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-173" tvg-name="Sonic Hindi TEST 173" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 173
+#EXTVLCOPT:http-referrer=https://colorsscreen.com/
+https://colorsscreen.com/stream.php?id=815&e=.m3u8
+
 # HUNGAMA NOVEMBER 01 SECOND BATCH — USER-TEST ONLY
 # Newly found source-labelled URLs, NOT confirmed working, no Link3 or video/audio validation.
 # Check Hungama TV TEST 106–116; 117 is explicitly a Kids variant and may be different content.
