@@ -275,5 +275,43 @@
     "main_playlists_changed": false,
     "notification_eligible": false,
     "network_limitations": "Container DNS cannot resolve external hosts, so no independent ffmpeg playback test here. Used existing GitHub Actions FFmpeg multi-interval video report and audio-language probe; no candidate meets Hindi plus sustained live threshold. Link3-specific reliability requires local user test."
+  },
+  "followup_2026_11_03_0653_dhaka": {
+    "checked_at_local": "2026-11-03 06:53 Asia/Dhaka",
+    "github_code_search": "Reviewed 9 public GitHub code-search query families (Sony Yay, Sony Yay Hindi, SonyYay, m3u8, workers.dev, 2026, CDN) and inspected exact Sony YAY playlist entries from 12 public repositories. Candidate matches were cross-checked against the 217 existing recorded URLs; new search results with credible Sony YAY Hindi identity were duplicates of existing candidates or unusable private-IP, credential-bearing, Bengali/Tamil, and non-Sony streams.",
+    "github_issue_search": "Searched issues updated since 2026-10-25; iptv-org/iptv issue #57300 reports Sony Yay source not loading and was already known. No new working Sony YAY Hindi issue report.",
+    "notable_duplicate_urls": [
+      {
+        "url": "http://cdn.ihub.live:8080/SonyYay/tracks-v1a1/mono.m3u8",
+        "existing_id": "Y16"
+      },
+      {
+        "url": "https://stream.ottplus.bd/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8",
+        "existing_id": "Y50"
+      },
+      {
+        "url": "https://sflex07.fun:443/07/jio/app/ts_live_872.m3u8",
+        "existing_id": "Y23"
+      },
+      {
+        "url": "http://live.balajibroadband.com:3500/live/872.m3u8",
+        "existing_id": "Y52"
+      },
+      {
+        "url": "https://live.drmlive-02.workers.dev/sliv/yay.m3u8",
+        "existing_id": "Y05"
+      }
+    ],
+    "remote_probe_checked_utc": "2026-11-02T22:21:24.229518+00:00",
+    "remote_probe_evaluated": 216,
+    "remote_probe_new_hindi_verified": 0,
+    "audio_probe_checked_utc": "2026-11-02T22:22:38.992555+00:00",
+    "audio_probe_finding": "Y190 passed 90s advancing video but two audio samples classified Spanish, not Hindi; Y107 video decodes without proven advancing HLS or Hindi.",
+    "fresh_video_decode_this_run": false,
+    "reason_no_new_decode": "This execution container cannot resolve external stream hostnames (curl DNS failure); relied on last published GitHub Actions FFmpeg multi-interval video and audio reports. No novel eligible candidate survived screening for remote validation.",
+    "new_candidates_added": [],
+    "test_playlist_changed": false,
+    "main_playlists_changed": false,
+    "notification_eligible": false
   }
 }
