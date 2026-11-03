@@ -30,3 +30,15 @@ A genuinely useful verification needs:
 4. User confirmation specifically on Link3/IPTV Pro (or VLC). A stream passing GitHub runner tests is not equivalent to Link3 playback.
 
 If 1–3 cannot be verified, label sources UNVERIFIED and refrain from telling the user they work. Never insert expired tokens, account credentials, or DRM circumvention material. No working new Sonic Hindi stream was confirmed in this session.
+
+## Update — 2026-11-03 (live search + existing GitHub Actions evidence)
+
+- Checked [JioTV official Sonic Hindi page](https://origin-prod.jiotv.com/live-channel/sonic-hindi/815), confirming that the *channel exists*; this is **not** proof of an open Link3-compatible HLS stream.
+- Examined the repo's [remote probe results](sonic_hindi_probe_results.json): latest saved report **2026-11-02T23:33:41Z** (2026-11-03 05:33 Bangladesh); **98 source results, 0 new remotely verified streams, 0 published**. Results include timeout, DNS, HTTP 403/404, SSL expiry, and no decoded video.
+- Checked currently indexed [iptv-org Indian channel list](https://github.com/iptv-org/iptv/blob/master/streams/in.m3u), independent repository mirrors, and JioTV/JioCinema relays. Many repeat already failed upstream sources, particularly `103.185.24.134:3001/SONIC`, `103.151.60.162:2122/play/a02v`, and JioTV 815.
+- Investigated recent/public GitHub mentions of `http://103.83.80.54:6088/play/a0g4/index.m3u8` (skiesmate/m3u) and `http://103.140.254.2:3500/live/815.m3u8` (notes.io). **Both URLs already appear in this repo's exclusion/candidate index and recent remote probe results**, so were **not re-added**.
+- Investigated public HLS variants in `ak-office-pvt/aklive-v3/master/m3u8/Voot/Sonic_Nickelodeon.m3u8`; they point to the old JioCinema `prod-sports-north-gm.jiocinema.com` origin, previously inaccessible. Another GitHub `Sonic Bangla.m3u8` manifest used a 2025-expired signed session and Bengali audio; excluded.
+- IPTV Cat's list shows a nominal 1080p Sonic Hindi item checked 2026-11-02 but does not expose a distinct independently verified public link through current available retrieval; a green listing does not establish usable Link3 video decoding.
+- The existing Sonic Hindi hourly watch was also run on demand in this conversation; no separately proven stream was identified in the immediate investigation.
+
+**Result:** no new Sonic Hindi candidate met the *two video fetches + live advancement + Hindi language corroboration* rule. **Neither `playlist.m3u` MAIN nor any TEST playlist has been changed in the Nov 3 check**. Do not publish a "working" claim or reinsert previously failed candidates.
