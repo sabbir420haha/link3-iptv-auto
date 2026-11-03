@@ -1,6 +1,6 @@
 {
   "skipped_duplicate_or_user_failed": 2,
-  "checked_utc": "2026-11-03T07:41:29.551566+00:00",
+  "checked_utc": "2026-11-03T13:34:08.791765+00:00",
   "scope": "GitHub Actions network, NOT Link3. No channel identities confirmed.",
   "candidate_count": 110,
   "verified_media_candidates": 1,
@@ -141,7 +141,7 @@
       "evidence": "2026-11-01 github.com/eishakilei-bd08/eitv dormns20.m3u labels Disney HD Tata Play 4; verify India identity, Hindi audio, >=720p HLS and segment",
       "expected_audio": "hi",
       "min_height": 720,
-      "manifest_ok": false,
+      "manifest_ok": true,
       "media_segment_verified": false,
       "advertised_max_height": 0,
       "advertised_audio_languages": [],
@@ -149,8 +149,7 @@
       "hindi_or_bangla_audio_verified": false,
       "link3_verified": false,
       "publish_eligible": false,
-      "note": "GitHub runner-only test. Playlist is unchanged.",
-      "error": "ValueError: No readable HLS data: HTTP Error 403: Forbidden"
+      "note": "GitHub runner-only test. Playlist is unchanged. Disney HD requirement not verified. No valid MPEG-TS/fMP4 fragment fetched."
     },
     {
       "channel": "Disney HD Hindi",
