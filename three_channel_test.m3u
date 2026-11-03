@@ -24,6 +24,25 @@ http://103.135.253.32:8080/HUNGAMA/index.m3u8
 # Previously attempted URLs must never be re-added without fresh independent working evidence.
 # MAIN, Hungama and non-Sonic TEST entries preserved.
 
+# SONIC HINDI FRESH CANDIDATES | 2026-11-03 | ALL UNVERIFIED
+# Previous TEST 140-175 were confirmed failed and removed. Do not re-add their URLs or known equivalently failed streams.
+# TEST 176 PUBLIC SOURCE: sportlive18/sportlink-update/tstar.m3u; independently mirrored by Krishanuk009/555/playlists/hotstar.m3u
+# WARNING: JioHotstar Sonic-labelled HLS. Publicly listed but may require India-region or entitlement; NO Link3/video/audio verification.
+#EXTINF:-1 tvg-id="sonic-hindi-new-176" tvg-name="Sonic Hindi TEST 176" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 176
+https://jcevents.hotstar.com/bpk-tv/JS_SonicNick/JioHotstar/JS_SonicNick.m3u8
+
+# TEST 177 PUBLIC SOURCE: foysal-ahamed/playlist/backup_f2mlink.m3u8, labeled Sonic
+# WARNING: Sonic-labeled Pakistani-network relay; IPTV Pro and Hindi audio unverified. Source is old, uptime unknown.
+#EXTINF:-1 tvg-id="sonic-hindi-new-177" tvg-name="Sonic Hindi TEST 177" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 177
+http://110.39.27.47:8001/play/a00m/index.m3u8
+
+# TEST 178 PUBLIC SOURCE: sohelkhan812421/boss/SOHELKHANIPTV2025.m3u, labeled Sonic Hindi / 815
+# WARNING: Published link included URL-encoded Referer and User-Agent settings; reconstructed standard M3U header option, not remotely validated. Might be blocked.
+#EXTINF:-1 tvg-id="sonic-hindi-new-178" tvg-name="Sonic Hindi TEST 178" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 178
+#EXTVLCOPT:http-referrer=https://mhdtvstream.com//
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; SM-S911B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.6943.49 Mobile Safari/537.36
+https://mhdtvstream.com/live.php?id=815&e=.m3u8
+
 # HUNGAMA NOVEMBER 01 SECOND BATCH — USER-TEST ONLY
 # Newly found source-labelled URLs, NOT confirmed working, no Link3 or video/audio validation.
 # Check Hungama TV TEST 106–116; 117 is explicitly a Kids variant and may be different content.
