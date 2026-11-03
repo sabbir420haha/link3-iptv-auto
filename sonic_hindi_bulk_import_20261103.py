@@ -36,16 +36,16 @@ HISTORY = [
     "documentary_hd_tests.m3u",
 ] + [str(p) for p in TARGETS]
 URL_RX = re.compile(r'https?://[^\s"''<>]+', re.I)
-EXTINF_RX = re.compile(r"^#EXTINF:.*?,\s*(.+)$", re.I)
+EXTINF_RX = re.compile(r"^#EXTINF:.*,\s*(.+)$", re.I)
 SONIC_RX = re.compile(r"sonic", re.I)
 NOT_HINDI_RX = re.compile(
-    r"bangla|bengali|tamil|malayalam|telugu|kannada|sonic the hedgehog",
+    r"bangla|bengali|tamil|malayalam|telugu|kannada|marathi|gujarati|sonic the hedgehog|super sonic|sonic tv|sonic 2|in-mar",
     re.I,
 )
 BLOCK_RX = re.compile(
     r"widevine|drm_key|license_key|\.mpd(?:[?#]|$)|/stalker/|"
     r"[?&](?:token|signature|sig|hdntl|hdnts|auth|mac|play_token|"
-    r"key|cookie|session|exp)=|wmsAuthSign=",
+    r"key|cookie|session|exp|uid|deviceMac|u|p)=|wmsAuthSign=|checkedby",
     re.I,
 )
 PRIVATE_RX = re.compile(
@@ -75,7 +75,16 @@ def history_urls() -> set[str]:
         path = ROOT / filename
         if not path.is_file():
             continue
-        for m in URL_RX.finditer(path.read_text(errors="replace")):
+        contents = path.read_text(errors="replace")
+        if filename in [str(p) for p in TARGETS]:
+            marker = "# SONIC HINDI BULK TEST 2026-11-03 — ALL UNVERIFIED"
+            if marker in contents:
+                begin = contents.index(marker)
+                anchor = contents.find("# HUNGAMA NOVEMBER 01 SECOND BATCH", begin)
+                if anchor < 0:
+                    raise RuntimeError("Missing safe anchor in previous bulk TEST")
+                contents = contents[:begin] + contents[anchor:]
+        for m in URL_RX.finditer(contents):
             seen.add(normalize(m.group()))
         if path.suffix == ".json":
             try:
@@ -99,11 +108,13 @@ def admissible(url: str) -> bool:
     """Keep public unprotected stream URLs; user will verify the playback."""
     if len(url) > 650 or not url.startswith(("http://", "https://")):
         return False
-    if BLOCK_RX.search(url) or PRIVATE_RX.search(url):
+    if BLOCK_RX.search(url) or PRIVATE_RX.search(url) or re.search(r"[$\x27\x22]|%7C", url, re.I):
+        return False
+    if re.search(r"sonic[-_]?bangla|sonic[-_]?marathi|sonic[-_]?gujarati|sonicbangla|(?:[?&]id=134[56](?:[&#]|$))|(?:[?&]c=Sonic_(?:Marathi|Gujarati|Bangla))|animetv/animetv|sat7kids", url, re.I):
         return False
     if not STREAM_RX.search(url):
         return False
-    if re.search(r"/live/[^/]+/[^/]+/\d+\.ts", url, re.I):
+    if re.search(r"/live/[^/]+/[^/]+/\d+\.(?:ts|m3u8)", url, re.I):
         return False  # third-party reseller credentials
     if re.search(r"\.(?:jpeg|jpg|png|gif|svg|mp3|aac)(?:[?#]|$)", url, re.I):
         return False
@@ -253,7 +264,15 @@ def main() -> None:
         block = marker + "".join(inserted_sections) + "\n"
         originals = [p.read_text() for p in TARGETS]
         for path, original in zip(TARGETS, originals):
-            if not original.startswith("#EXTM3U") or marker in original:
+            if not original.startswith("#EXTM3U"):
+                raise RuntimeError(f"Unsafe TEST playlist state: {path}")
+            if marker in original:
+                bulk_start = original.index(marker)
+                bulk_end = original.find("# HUNGAMA NOVEMBER 01 SECOND BATCH", bulk_start)
+                if bulk_end < 0:
+                    raise RuntimeError(f"Cannot replace existing bulk section: {path}")
+                original = original[:bulk_start] + original[bulk_end:]
+            if not original.startswith("#EXTM3U"):
                 raise RuntimeError(f"Unsafe TEST playlist state: {path}")
             if "Hungama TEST 29" not in original:
                 raise RuntimeError(f"Missing existing Hungama TEST 29 in {path}")
