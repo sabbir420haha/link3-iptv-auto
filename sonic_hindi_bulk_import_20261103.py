@@ -39,13 +39,13 @@ URL_RX = re.compile(r'https?://[^\s"''<>]+', re.I)
 EXTINF_RX = re.compile(r"^#EXTINF:.*,\s*(.+)$", re.I)
 SONIC_RX = re.compile(r"sonic", re.I)
 NOT_HINDI_RX = re.compile(
-    r"bangla|bengali|tamil|malayalam|telugu|kannada|marathi|gujarati|sonic the hedgehog|super sonic|sonic tv|sonic 2|in-mar",
+    r"bangla|bengali|tamil|malayalam|telugu|kannada|marathi|gujarati|sonic the hedgehog|mario vs sonic|super sonic|sonic tv|sonic 2|in-mar|inmar|intm",
     re.I,
 )
 BLOCK_RX = re.compile(
     r"widevine|drm_key|license_key|\.mpd(?:[?#]|$)|/stalker/|"
     r"[?&](?:token|signature|sig|hdntl|hdnts|auth|mac|play_token|"
-    r"key|cookie|session|exp|uid|deviceMac|u|p)=|wmsAuthSign=|checkedby",
+    r"key|cookie|session|exp|uid|deviceMac|u|p|jct|pxe)=|wmsAuthSign=|checkedby",
     re.I,
 )
 PRIVATE_RX = re.compile(
@@ -108,9 +108,11 @@ def admissible(url: str) -> bool:
     """Keep public unprotected stream URLs; user will verify the playback."""
     if len(url) > 650 or not url.startswith(("http://", "https://")):
         return False
-    if BLOCK_RX.search(url) or PRIVATE_RX.search(url) or re.search(r"[$\x27\x22]|%7C|hdntl=|hdnts=|~hmac=|moonkerala\.xyz", url, re.I):
+    if BLOCK_RX.search(url) or PRIVATE_RX.search(url) or re.search(r"[$\x27\x22]|%7C|hdntl=|hdnts=|~hmac=|moonkerala\.xyz|\|", url, re.I):
         return False
-    if re.search(r"sonic[-_]?bangla|sonic[-_]?marathi|sonic[-_]?gujarati|sonicbangla|(?:[?&]id=134[56](?:[&#]|$))|(?:[?&]c=Sonic_(?:Marathi|Gujarati|Bangla))|animetv/animetv|sat7kids", url, re.I):
+    if urllib.parse.urlsplit(url).username:
+        return False
+    if re.search(r"sonic[-_]?bangla|sonic[-_]?marathi|sonic[-_]?gujarati|sonicbangla|(?:[?&]id=(?:134[56]|380828|380860|380965)(?:[&#]|$))|(?:[?&]c=Sonic_(?:Marathi|Gujarati|Bangla))|animetv/animetv|sat7kids", url, re.I):
         return False
     if not STREAM_RX.search(url):
         return False
