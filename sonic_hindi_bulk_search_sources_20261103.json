@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
   "query_count": 13,
-  "total_unique_files": 661,
+  "total_unique_files": 899,
   "files": [
     {
       "repo": "Sonuiptvnew/Sonuiptvnew",
@@ -3307,6 +3307,1196 @@
       "repo": "abusaeeidx/Tv-Channel-Logo",
       "path": "New/Update-Assets/index.html",
       "via": "\"Sonic\" \"jio\" \"m3u8\""
+    },
+    {
+      "repo": "Rega23/sc-auto",
+      "path": "huhu.m3u",
+      "via": "\"Sonic\" \"group-title=Kids\""
+    },
+    {
+      "repo": "nsaermo/movie.nser.tv",
+      "path": "Sonic the Hedgehog 3 (2024) 1080p WEB-DL.NSAER TV.mp4",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "euzu/tuliprox",
+      "path": "shared/src/model/playlist/m3u.rs",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "ekowahyoedie/keliki2022",
+      "path": "anvaya kids",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-bo.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-no.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-gt.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-ba.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-ve.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-jazz-music.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-do.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-bosnian.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-tropical.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-vallenato.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-rock.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-ranchera.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-merengue.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-catholic.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-Jamaica.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-norwegian.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-bolero.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-Panama.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-Curacao.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-pt.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-soft-pop.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-portuguese.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-ecuadorian.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "everylive/Live-Dish",
+      "path": "Kids",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-pop-rock.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-flamenco.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-Belize.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-Nicaragua.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-caribbean.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-business.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-urban.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-new_wave.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-k-pop.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-ardo.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-reggaeton.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-grunge.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-20s.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-latin-jazz.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-sv.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-cl.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-bolero.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-panama.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-curacao.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-Puerto_Rico.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-norsk.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-belize.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-tango.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-pakistan.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-singapore.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-dj.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-slovenia.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-nicaragua.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-business.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "gameralive2005/IPTV-TELUGU-MOVIES",
+      "path": "iptvtelugumovies",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-soundtrack.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-saudi-arabia.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-progressive_rock.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-Uruguay.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-ly/baked/AA-classic-country.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-bosanski.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "fahadskt/IPTV-Playlists",
+      "path": "Old/IBOX TV",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-banda.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-bollywood.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-puerto-rico.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio-stations_live/baked/AA-comedy.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "Farabi-2005/Farabi",
+      "path": "m3u",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/radio_spinner/baked/AA-Bosnia_and_Herzegovina.txt",
+      "via": "\"Sonic\" \"tvg-logo\""
+    },
+    {
+      "repo": "sadman-al-rafi/sadman-al-rafi.github.io",
+      "path": "master.m3u",
+      "via": "\"Nickelodeon Sonic\" \"m3u8\""
+    },
+    {
+      "repo": "emon-g999/Customer",
+      "path": "mahin0164232656.m3u",
+      "via": "\"Nickelodeon Sonic\" \"m3u8\""
+    },
+    {
+      "repo": "Ferdos-Live-Tv/VIP",
+      "path": "akash_go.m3u",
+      "via": "\"Nickelodeon Sonic\" \"m3u8\""
+    },
+    {
+      "repo": "bdiptv24/test",
+      "path": "new/playlist.m3u",
+      "via": "\"Nickelodeon Sonic\" \"m3u8\""
+    },
+    {
+      "repo": "Shwapno06/Home",
+      "path": "Home.m3u",
+      "via": "\"Nickelodeon Sonic\" \"m3u8\""
+    },
+    {
+      "repo": "junaid33/dark",
+      "path": "india.m3u",
+      "via": "\"Nickelodeon Sonic\" \"m3u8\""
+    },
+    {
+      "repo": "Jahangirkhan12345/Sunrise-IPTV-Playlist",
+      "path": "Jannat IPTV.m3u",
+      "via": "\"Nickelodeon Sonic\" \"m3u8\""
+    },
+    {
+      "repo": "Germs16bit/SenorTacos",
+      "path": "Muchotv.m3u",
+      "via": "\"Nickelodeon Sonic\" \"m3u8\""
+    },
+    {
+      "repo": "Germs16bit/SenorTacos",
+      "path": "Latest6-13-25.m3u",
+      "via": "\"Nickelodeon Sonic\" \"m3u8\""
+    },
+    {
+      "repo": "brandenp198483-collab/branden-tv",
+      "path": "github_m3u_cache/imdhiru-bloginstall-iptv__bloginstall-iptv.m3u",
+      "via": "\"Nickelodeon Sonic\" \"m3u8\""
+    },
+    {
+      "repo": "Shwapno06/BanglaFlixBD",
+      "path": "Test.m3u",
+      "via": "\"Nickelodeon Sonic\" \"m3u8\""
+    },
+    {
+      "repo": "anupamdasrabin/adr2024",
+      "path": "adr2024.m3u",
+      "via": "\"Sonic Hindi\" \"http\""
+    },
+    {
+      "repo": "Rajkumar184-cloud/m3u-playlist-",
+      "path": "playlist.m3u",
+      "via": "\"Sonic Hindi\" \"http\""
+    },
+    {
+      "repo": "Robertlittle2469/porn",
+      "path": "Zee5 & Sony Playlist/voot.m3u",
+      "via": "\"Sonic Hindi\" \"http\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "world-s_radio/Spain.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "world-s_radio/checked/Spain.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "web-radio_directory/Chile.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "mahmud31132/bdix-tv",
+      "path": "Don't try",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "my.world_tuner/spain.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "top-radio/georgia.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "my.world_tuner/checked/spain.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+merged+/l/loca_ge.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "openradio.app/lang-ka.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "openradio.app/loca-ge.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "fahadskt/IPTV-Playlists",
+      "path": "Old/Amrbd Live",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "LITUATUI/M3UPT",
+      "path": "M3U/M3UPT.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "my.world_tuner/espa.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "Sumon2021/Sumon-IPTV",
+      "path": "SUMON-IPTV.1",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "zin_music/spain.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "radio.menu/checked/loca-es.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "radio.menu/loca-es.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+checked+/m/movies.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+merged+/e/el.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+merged+/t/tv.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+merged+/m/mi.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+merged+/h/hit.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+merged+/m/movies.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "web-radio_directory/Spain.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+merged+/l/loca_es.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "radio_browser/e/el.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "radio_browser/m/mi.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/checked/raw/06/chile___aaaq.txt",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+checked+/e/eclectic.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "my.world_tuner/checked/espa.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "pcradio_app/eclectic.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "web-radio_directory/Top_40.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "allradio.net/Ireland.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "web-radio_directory/Latin.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "radio_browser/checked/e/el.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+merged+/d/dominica.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "web-radio_directory/RnB.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "all-online_radio/pop.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "kuasark/categories/movies.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "pcradio_app/checked/eclectic.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "web-radio_directory/Brazil.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "all-online_radio/checked/pop.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "mayaxcn/getM3U8",
+      "path": "tv.txt",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "kuasark/checked/continents/asia.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/checked/baked/merged/01/A-chile___aaaq.txt",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/web-radio_directory/baked/AA-Chile.txt",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "FCNch/E-Fiber",
+      "path": "bd.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+merged+/g/global.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "radio_browser/g/global.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "md-towsif/Towsif-s-Live-TV",
+      "path": "src/data.ts",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "Maxmentor/Ajaykrepo_Kodi",
+      "path": "Zips/India.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/checked/raw/08/pop___aafz.txt",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "MkMeheran/iptv-player",
+      "path": "data/ddd.js",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "fahadskt/IPTV-Playlists",
+      "path": "Old/Abdalla",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "FCNch/Enet-Fiber",
+      "path": "ind.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "mahmud31132/bdix-tv",
+      "path": "Not working.m3u8",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/checked/raw/07/spain___aaax.txt",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "rajushaw/iptb.raw.github.io",
+      "path": "99yfile.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "my.world_tuner/checked/the-russian-federation.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "jassa007/IPTV",
+      "path": "28092017.txt",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "r0m35h/main",
+      "path": "IPTVBD.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "Pibyto/montegrandeplayer",
+      "path": "DIOS TV",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/top-radio/baked/AA-georgia.txt",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "Sonuiptvnew/Sonuiptvnew",
+      "path": "sonuiptvjunennew.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "CloneTV/VLC-TV-Remote",
+      "path": "docs/media/online.list",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "fahadskt/IPTV-Playlists",
+      "path": "Old/Badhon",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "cuetbd/bdixiptv",
+      "path": "bdixiptv.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-temp",
+      "path": "old/checked/baked/yet_2_merge/02/A-pop___aafz.txt",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "junguler/m3u-temp-aux",
+      "path": "old/baked/AA-Chile.txt",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "ryuzein/Pandawa-Eazy-Tools",
+      "path": "IPTV/bola.m3u",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "Shaharum1010/Cartoon-channel-",
+      "path": "Sojib",
+      "via": "\"SONIC\" \"tracks-v1a1\""
+    },
+    {
+      "repo": "freedish2024/personal-project.sr",
+      "path": "Free kids.m3u",
+      "via": "\"Sonic Hindi\" \"https\""
+    },
+    {
+      "repo": "freedish2024/personal-project.sr",
+      "path": "Kid channel.m3u",
+      "via": "\"Sonic Hindi\" \"https\""
+    },
+    {
+      "repo": "freedish2024/personal-project.sr",
+      "path": "My kid.m3u",
+      "via": "\"Sonic Hindi\" \"https\""
+    },
+    {
+      "repo": "freedish2024/personal-project.sr",
+      "path": "All kid channels.m3u",
+      "via": "\"Sonic Hindi\" \"https\""
+    },
+    {
+      "repo": "freedish2024/personal-project.sr",
+      "path": "All kids free.m3u",
+      "via": "\"Sonic Hindi\" \"https\""
+    },
+    {
+      "repo": "freedish2024/personal-project.sr",
+      "path": "A kids.m3u",
+      "via": "\"Sonic Hindi\" \"https\""
+    },
+    {
+      "repo": "freedish2024/personal-project.sr",
+      "path": "Free kids all.m3u",
+      "via": "\"Sonic Hindi\" \"https\""
+    },
+    {
+      "repo": "freedish2024/personal-project.sr",
+      "path": "All my kid.m3u",
+      "via": "\"Sonic Hindi\" \"https\""
+    },
+    {
+      "repo": "freedish2024/personal-project.sr",
+      "path": "All my kids.m3u",
+      "via": "\"Sonic Hindi\" \"https\""
+    },
+    {
+      "repo": "freedish2024/personal-project.sr",
+      "path": "Alll mix kid.m3u",
+      "via": "\"Sonic Hindi\" \"https\""
+    },
+    {
+      "repo": "freedish2024/personal-project.sr",
+      "path": "All cuntery kid.m3u",
+      "via": "\"Sonic Hindi\" \"https\""
+    },
+    {
+      "repo": "fakeall12398-sketch/M3U",
+      "path": "channel.json",
+      "via": "\"Sonic Hindi\" \"https\""
+    },
+    {
+      "repo": "m3u-iptv/live",
+      "path": "O/VIP.txt",
+      "via": "\"Sonic\" \"Tata Play\""
+    },
+    {
+      "repo": "qwerty180506/Geo",
+      "path": "src/playlist.js",
+      "via": "\"Sonic\" \"Tata Play\""
+    },
+    {
+      "repo": "Arsks12/stalker",
+      "path": "channel.json",
+      "via": "\"Sonic\" \"Tata Play\""
+    },
+    {
+      "repo": "angel7544/epg-personal",
+      "path": "tataplay.m3u",
+      "via": "\"Sonic\" \"Tata Play\""
+    },
+    {
+      "repo": "eishakilei-bd08/eitv",
+      "path": "dormns20.m3u",
+      "via": "\"Sonic\" \"Tata Play\""
+    },
+    {
+      "repo": "EdenwareApps/tv-channels-by-country",
+      "path": "channels/in.json",
+      "via": "\"Sonic\" \"Tata Play\""
+    },
+    {
+      "repo": "mani5grockers/hifitechindia",
+      "path": "iptvtamil.m3u",
+      "via": "\"Sonic\" \"Tata Play\""
+    },
+    {
+      "repo": "Jazzdar1/darfree.tv",
+      "path": "dartv_premium.m3u",
+      "via": "\"Sonic\" \"Tata Play\""
+    },
+    {
+      "repo": "pravashranjan/entwld",
+      "path": "TATAPLAY.m3u",
+      "via": "\"Sonic\" \"Tata Play\""
+    },
+    {
+      "repo": "IPTVVlogs/MAC-",
+      "path": "TataPlay.m3u",
+      "via": "\"Sonic\" \"Tata Play\""
+    },
+    {
+      "repo": "Jazzdar1/darfree.tv",
+      "path": "allChannelPlaylist.m3u",
+      "via": "\"Sonic\" \"Tata Play\""
+    },
+    {
+      "repo": "AGCcreato/AGC-Files",
+      "path": "AGC-TV.m3u",
+      "via": "\"Sonic\" \"Tata Play\""
+    },
+    {
+      "repo": "Mdas109/TBL",
+      "path": "1A.M3U",
+      "via": "\"Sonic\" \"Tata Play\""
+    },
+    {
+      "repo": "iptv-org/iptv",
+      "path": "streams/us.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "iptv-org/iptv",
+      "path": "streams/ru.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+merged+/e/espanol_colombia.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+checked+/e/espanol_colombia.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "my.world_tuner/espanol-colombia.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "my.world_tuner/checked/espanol-colombia.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+checked+/e/espa.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "app_radio-fm/locations/0-9/_Washington_USA.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+merged+/e/espa.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "radio_guide.fm/classic.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "my.world_tuner/colombia.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "Hasibfy37/Iptv",
+      "path": "Playlist_rough.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "apurbo26/iptv",
+      "path": "H.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "radio_guide.fm/oldies.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "brandenp198483-collab/branden-tv",
+      "path": "github_m3u_cache/shahakshay938-shahakshay938.github.io__backups-streams-2026-05-09-sonic-in-sd.m3u8",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "radio_guide.fm/rock.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+merged+/m/musica_y_noticias.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+checked+/c/colombia.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "my.world_tuner/checked/colombia.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "my.world_tuner/musica-y-noticias.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+checked+/n/noticias_locales.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "maybetv/jojo",
+      "path": "Asi.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "app_radio-fm/checked/locations/W/Washington.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "sohag1192/live-tv-m3u8",
+      "path": "iptv.txt",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "ahsam991/Live-TV-Channel-",
+      "path": "src/data/megapackChannels.ts",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "AlahiMajnurOsama/Tv",
+      "path": "Bdix.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "arishtech/arishtech.github.io",
+      "path": "TV_Channels_List.txt",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "AeonCoreX-Lab/streamx-iptv-data",
+      "path": "backups/kids.json_20260515_035854.bak",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "AeonCoreX-Lab/streamx-iptv-data",
+      "path": "backups/kids.json_20260516_043942.bak",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "AeonCoreX-Lab/streamx-iptv-data",
+      "path": "backups/kids.json_20260515_073347.bak",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "bugsfreeweb/LiveTVCollector",
+      "path": "Movies/Worldwide/Movies.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "junguler/m3u-radio-music-playlists",
+      "path": "+merged+/n/noticias_locales.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "AeonCoreX-Lab/streamx-iptv-data",
+      "path": "backups/india.json_20260515_143055.bak",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "AeonCoreX-Lab/streamx-iptv-data",
+      "path": "backups/india.json_20260516_041513.bak",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "AeonCoreX-Lab/streamx-iptv-data",
+      "path": "backups/india.json_20260515_070540.bak",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "r0m35h/main",
+      "path": "Airtelserver.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "loverss/Sufi-",
+      "path": "sftv.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "alaminislam203/my_playlist",
+      "path": "qplay.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "ytprobd7890-sketch/Astra-Premium-M3U",
+      "path": "playlists/by_country/20.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "muhammadsahal2002/CS3",
+      "path": "tata.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "zeroflixxyz/IPTV",
+      "path": "cast/PlayTV.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "arijitreza/web",
+      "path": "playlist.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "ryuzein/Pandawa-Eazy-Tools",
+      "path": "IPTV/sport.m3u",
+      "via": "\"SONIC\" \"play/a0\""
+    },
+    {
+      "repo": "angel7544/epg-personal",
+      "path": "india.m3u",
+      "via": "\"SONIC\" \"live/815.m3u8\""
+    },
+    {
+      "repo": "KaneenApp/NeuroSources",
+      "path": "playlist/b1otto-Kids.m3u",
+      "via": "\"SONIC\" \"live/815.m3u8\""
+    },
+    {
+      "repo": "rahulandyou/MAHARASHTRA-IPTV",
+      "path": "JiotvGoMH.m3u",
+      "via": "\"SONIC\" \"live/815.m3u8\""
+    },
+    {
+      "repo": "Anmol1184/chu",
+      "path": "TVs/jiotv_playlist.m3u",
+      "via": "\"SONIC\" \"live/815.m3u8\""
+    },
+    {
+      "repo": "BIHAR11FORECAST/Pankaj-bhaiya-m3u",
+      "path": "pankajbhaiya_playlist.m3u",
+      "via": "\"SONIC\" \"live/815.m3u8\""
+    },
+    {
+      "repo": "Mrlivetv/Fredlix",
+      "path": "jiotv.m3u",
+      "via": "\"SONIC\" \"live/815.m3u8\""
+    },
+    {
+      "repo": "Joy43/OpenTv",
+      "path": "opentv-app/worldcup/tvnetwork.m3u",
+      "via": "\"SONIC\" \"live/815.m3u8\""
+    },
+    {
+      "repo": "Developer-Kishor/livetv",
+      "path": "channels.m3u",
+      "via": "\"SONIC\" \"live/815.m3u8\""
+    },
+    {
+      "repo": "deep002993/india-IPTV-public-",
+      "path": "jiotv_playlist.m3u",
+      "via": "\"SONIC\" \"live/815.m3u8\""
+    },
+    {
+      "repo": "cancerbikash-oss/01",
+      "path": "Hindi 510CH- 2083.01.13.m3u",
+      "via": "\"SONIC\" \"live/815.m3u8\""
+    },
+    {
+      "repo": "geekyhimanshu/KP-Channels",
+      "path": "Jiotv_Playlist_Updated.m3u",
+      "via": "\"SONIC\" \"live/815.m3u8\""
+    },
+    {
+      "repo": "cancerbikash-oss/01",
+      "path": "India 1155 CH 2083.01.13.m3u",
+      "via": "\"SONIC\" \"live/815.m3u8\""
+    },
+    {
+      "repo": "softwaresign/TestServerStreams",
+      "path": "Test1.m3u",
+      "via": "\"SONIC\" \"live/815.m3u8\""
+    },
+    {
+      "repo": "fahadskt/IPTV-Playlists",
+      "path": "jio_tv.m3u",
+      "via": "\"SONIC\" \"live/815.m3u8\""
     }
   ],
   "processed": 0
