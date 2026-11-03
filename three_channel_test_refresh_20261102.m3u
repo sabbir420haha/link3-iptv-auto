@@ -26,26 +26,26 @@ http://103.135.253.32:8080/HUNGAMA/index.m3u8
 # UNVERIFIED USER TRIAL: Nick Sonic Hindi Bracnet; not tested on Link3, no claim of Hindi audio or video working.
 #EXTINF:-1 tvg-id="sonic-hindi-bulk-140" tvg-name="Sonic Hindi TEST 140" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 140
 https://bracnet.iptv.jadoodigital.com/live/sonic/chunks.m3u8
-# PUBLIC SOURCE: himanshukhowal/tsjiotv/localplaylist.m3u
+# PUBLIC SOURCE: StarFlixofficial/Personal-File/Jio Tv .m3u
 # UNVERIFIED USER TRIAL: Sonic Hindi; not tested on Link3, no claim of Hindi audio or video working.
 #EXTINF:-1 tvg-id="sonic-hindi-bulk-141" tvg-name="Sonic Hindi TEST 141" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 141
+https://noxmovie.000webhostapp.com/server.php?id=sonic-hindi
+# PUBLIC SOURCE: himanshukhowal/tsjiotv/localplaylist.m3u
+# UNVERIFIED USER TRIAL: Sonic Hindi; not tested on Link3, no claim of Hindi audio or video working.
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-142" tvg-name="Sonic Hindi TEST 142" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 142
 https://tsjiotv.herokuapp.com/autoq.php?c=sonic_Hindi
 # PUBLIC SOURCE: eishakilei-bd08/eitv/dormns20.m3u
 # UNVERIFIED USER TRIAL: SONIC (Sun); not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-142" tvg-name="Sonic Hindi TEST 142" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 142
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-143" tvg-name="Sonic Hindi TEST 143" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 143
 http://103.165.93.31:8095/sonic/tracks-v1a1/mono.m3u8
 # PUBLIC SOURCE: yashsidhu26/solegasm/hehe.m3u
 # UNVERIFIED USER TRIAL: Sonic Hindi; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-143" tvg-name="Sonic Hindi TEST 143" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 143
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-144" tvg-name="Sonic Hindi TEST 144" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 144
 http://moj.drakedsshitpost.repl.co/getm3u8/815/master.m3u8
 # PUBLIC SOURCE: jahidkex/MY-TV/combined_playlist.m3u
 # UNVERIFIED USER TRIAL: SONIC; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-144" tvg-name="Sonic Hindi TEST 144" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 144
-http://monirul.bro.bd/sm/stream.php?id=sonic&e=.m3u8
-# PUBLIC SOURCE: ErenYeager-AttackTitan/Mikasa-Ackerman/fixed.m3u
-# UNVERIFIED USER TRIAL: Sonic Nickelodeon; not tested on Link3, no claim of Hindi audio or video working.
 #EXTINF:-1 tvg-id="sonic-hindi-bulk-145" tvg-name="Sonic Hindi TEST 145" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 145
-http://mumsite.cdnsrv.jio.com/jiotv.live.cdn.jio.com/Sonic_Nickelodeon/Sonic_Nickelodeon_1200.m3u8?jct=H3bVPDoZkXrRjADgylrLPg&pxe=1560552085&st=2rABpyTLSDzkoYSlKcWJhg|user-agent=
+http://monirul.bro.bd/sm/stream.php?id=sonic&e=.m3u8
 # PUBLIC SOURCE: tvbd/m3uplayer/m3u/honeywatch_bdix.m3u
 # UNVERIFIED USER TRIAL: HINDI| NICK SONIC HINDI; not tested on Link3, no claim of Hindi audio or video working.
 #EXTINF:-1 tvg-id="sonic-hindi-bulk-146" tvg-name="Sonic Hindi TEST 146" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 146
@@ -62,113 +62,97 @@ https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/tiptop-himu.m3u8?id=1
 # UNVERIFIED USER TRIAL: Sonic; not tested on Link3, no claim of Hindi audio or video working.
 #EXTINF:-1 tvg-id="sonic-hindi-bulk-149" tvg-name="Sonic Hindi TEST 149" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 149
 https://beastplayer.tk/LiveTv/ToffeeTv/index.m3u8?id=sonic
+# PUBLIC SOURCE: fahadskt/IPTV-Playlists/Old/Bangladesh IPTV
+# UNVERIFIED USER TRIAL: SONIC; not tested on Link3, no claim of Hindi audio or video working.
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-150" tvg-name="Sonic Hindi TEST 150" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 150
+https://bracnet.iptv.jadoodigital.com/live/sonic/playlist.m3u8
 # PUBLIC SOURCE: Azeemkureshi/My-Playlist/My.Playlist.m3u8
 # UNVERIFIED USER TRIAL: Sonic Hindi; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-150" tvg-name="Sonic Hindi TEST 150" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 150
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-151" tvg-name="Sonic Hindi TEST 151" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 151
 https://condo-located-vitamins-please.trycloudflare.com/app/live.php?id=815&e=.m3u8
 # PUBLIC SOURCE: Shadmanislam/bdiptv/BD IPTV.m3u
 # UNVERIFIED USER TRIAL: 131.Sonic; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-151" tvg-name="Sonic Hindi TEST 151" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 151
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-152" tvg-name="Sonic Hindi TEST 152" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 152
 https://edge01.iptv.digijadoo.net:443/live/sonic/chunks.m3u8
 # PUBLIC SOURCE: sadman-al-rafi/sadman-al-rafi.github.io/master.m3u
 # UNVERIFIED USER TRIAL: 53. Nickelodeon Sonic; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-152" tvg-name="Sonic Hindi TEST 152" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 152
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-153" tvg-name="Sonic Hindi TEST 153" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 153
 https://edge4.bioscopelive.com/hls/anonymous/0yKlrWIIug1NCRVzNtDq8A/1706328118/live3-sonic.m3u8
 # PUBLIC SOURCE: Abinanthankv/tv.m3u/jio.json
 # UNVERIFIED USER TRIAL: Sonic Hindi; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-153" tvg-name="Sonic Hindi TEST 153" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 153
-https://fifaxbd.fun/JIOxRANAPK/stream.m3u8?id=815&e=.m3u8
-# PUBLIC SOURCE: Mrlivetv/BD_Playlist_by_-Fredflix1.m3u/index.m3u
-# UNVERIFIED USER TRIAL: Sonic Hindi; not tested on Link3, no claim of Hindi audio or video working.
 #EXTINF:-1 tvg-id="sonic-hindi-bulk-154" tvg-name="Sonic Hindi TEST 154" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 154
+https://fifaxbd.fun/JIOxRANAPK/stream.m3u8?id=815&e=.m3u8
+# PUBLIC SOURCE: Mostak840590/BD_Playlist_400-_Channels/index.m3u
+# UNVERIFIED USER TRIAL: Sonic Hindi; not tested on Link3, no claim of Hindi audio or video working.
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-155" tvg-name="Sonic Hindi TEST 155" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 155
 https://fundamental-ie-dish-sing.trycloudflare.com/app/live.php?id=815&e=.m3u
 # PUBLIC SOURCE: appplaylist/hls/jioffeb.m3u
 # UNVERIFIED USER TRIAL: Sonic Hindi; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-155" tvg-name="Sonic Hindi TEST 155" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 155
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-156" tvg-name="Sonic Hindi TEST 156" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 156
 https://holmes-highs-heather-img.trycloudflare.com/app/live.php?id=815&e=.m3u8
 # PUBLIC SOURCE: sonnt136/m3utv/list IPTV
 # UNVERIFIED USER TRIAL: Nick Sonic; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-156" tvg-name="Sonic Hindi TEST 156" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 156
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-157" tvg-name="Sonic Hindi TEST 157" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 157
 https://hyfytvapp.com/NkQLb6uUFt33NkJ1122VVv88GAX/Sonic_Nickelodeon/Sonic_Nickelodeon_800.m3u8
 # PUBLIC SOURCE: tvbd/m3uplayer/m3u/splaylist.m3u
 # UNVERIFIED USER TRIAL: IN: sonic_Hindi; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-157" tvg-name="Sonic Hindi TEST 157" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 157
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-158" tvg-name="Sonic Hindi TEST 158" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 158
 https://ninjatv.host/star/ninjatv.m3u8?id=207.ts
 # PUBLIC SOURCE: fakeall12398-sketch/M3U/channel.json
 # UNVERIFIED USER TRIAL: Sonic Hindi; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-158" tvg-name="Sonic Hindi TEST 158" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 158
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-159" tvg-name="Sonic Hindi TEST 159" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 159
 https://playflix.icu/mahesh/Jiotv/manifest.php?id=815
 # PUBLIC SOURCE: mdsirome/LiveTV/DiscoverTV.m3u
 # UNVERIFIED USER TRIAL: Sonic Nickelodeon; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-159" tvg-name="Sonic Hindi TEST 159" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 159
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-160" tvg-name="Sonic Hindi TEST 160" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 160
 https://ranapk.xyz/VOOT/play.m3u8?id=Sonic_Nickelodeon_voot_MOB
 # PUBLIC SOURCE: khankimagi23221/okk-1/kids.m3u
 # UNVERIFIED USER TRIAL: Sonic Hindi; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-160" tvg-name="Sonic Hindi TEST 160" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 160
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-161" tvg-name="Sonic Hindi TEST 161" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 161
 https://tamilultra.tv/api/jiotv.m3u8?id=815
 # PUBLIC SOURCE: dgr8akki/awesome-iptv/JIO.m3u
 # UNVERIFIED USER TRIAL: Sonic Hindi; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-161" tvg-name="Sonic Hindi TEST 161" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 161
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-162" tvg-name="Sonic Hindi TEST 162" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 162
 https://yashrajmod.tk/master.m3u8/?id=815
 # PUBLIC SOURCE: cancerbikash-oss/01/TV.m3u
 # UNVERIFIED USER TRIAL: Sonic; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-162" tvg-name="Sonic Hindi TEST 162" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 162
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-163" tvg-name="Sonic Hindi TEST 163" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 163
 http://103.157.248.140:8000/play/a00m/index.m3u8
 # PUBLIC SOURCE: arijitreza/web/playlist.m3u
 # UNVERIFIED USER TRIAL: SONIC_SD; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-163" tvg-name="Sonic Hindi TEST 163" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 163
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-164" tvg-name="Sonic Hindi TEST 164" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 164
 http://103.161.153.165:8000/play/a013/index.m3u8
 # PUBLIC SOURCE: arijitreza/web/playlist.m3u
 # UNVERIFIED USER TRIAL: SONIC_SD; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-164" tvg-name="Sonic Hindi TEST 164" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 164
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-165" tvg-name="Sonic Hindi TEST 165" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 165
 http://103.161.153.165:8000/play/a015/index.m3u8
 # PUBLIC SOURCE: ryuzein/Pandawa-Eazy-Tools/IPTV/bola.m3u
 # UNVERIFIED USER TRIAL: SONIC- Rs 2; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-165" tvg-name="Sonic Hindi TEST 165" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 165
-http://175.107.244.52:4455/play/a03h/index.m3u8
-# PUBLIC SOURCE: CloneTV/VLC-TV-Remote/docs/media/online.list
-# UNVERIFIED USER TRIAL: Mario vs Sonic; not tested on Link3, no claim of Hindi audio or video working.
 #EXTINF:-1 tvg-id="sonic-hindi-bulk-166" tvg-name="Sonic Hindi TEST 166" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 166
-http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dc02ece31f6050009de4b39/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=f706cc00-33bf-11eb-bb3e-5b164828c024&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=f353fea4-88e6-403f-bea8-499065e8bdfd&userId=&serverSideAds=true
+http://175.107.244.52:4455/play/a03h/index.m3u8
 # PUBLIC SOURCE: rkbro23/rk_playlist/Opplex.m3u
 # UNVERIFIED USER TRIAL: In Nick Sonic; not tested on Link3, no claim of Hindi audio or video working.
 #EXTINF:-1 tvg-id="sonic-hindi-bulk-167" tvg-name="Sonic Hindi TEST 167" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 167
 https://allinonereborn.com/oplex.m3u8?id=34011
-# PUBLIC SOURCE: rkbro23/rk_playlist/Opplex.m3u
-# UNVERIFIED USER TRIAL: Inmar Sonic Nickelodeon; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-168" tvg-name="Sonic Hindi TEST 168" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 168
-https://allinonereborn.com/oplex.m3u8?id=380828
-# PUBLIC SOURCE: rkbro23/rk_playlist/Opplex.m3u
-# UNVERIFIED USER TRIAL: Inmar Sonic; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-169" tvg-name="Sonic Hindi TEST 169" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 169
-https://allinonereborn.com/oplex.m3u8?id=380860
-# PUBLIC SOURCE: rkbro23/rk_playlist/Opplex.m3u
-# UNVERIFIED USER TRIAL: Intm Sonic; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-170" tvg-name="Sonic Hindi TEST 170" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 170
-https://allinonereborn.com/oplex.m3u8?id=380965
 # PUBLIC SOURCE: Xybernaut-tech/yotasys/fetch/kids.json
 # UNVERIFIED USER TRIAL: Sonic; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-171" tvg-name="Sonic Hindi TEST 171" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 171
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-168" tvg-name="Sonic Hindi TEST 168" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 168
 https://jtvxweb.pages.dev/pind?id=815
 # PUBLIC SOURCE: khankimagi23221/okk-1/Jiocinema.m3u
 # UNVERIFIED USER TRIAL: Nickelodeon Sonic; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-172" tvg-name="Sonic Hindi TEST 172" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 172
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-169" tvg-name="Sonic Hindi TEST 169" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 169
 https://neestreamtv.com/jcinema/stream.m3u8?id=3774149
 # PUBLIC SOURCE: G21325/Mod/Mod.m3u
 # UNVERIFIED USER TRIAL: SONIC MULTIPLE; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-173" tvg-name="Sonic Hindi TEST 173" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 173
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-170" tvg-name="Sonic Hindi TEST 170" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 170
 https://tamilultratv.co.in/api/jiotv.m3u8?id=815&e=.m3u8
-# PUBLIC SOURCE: StevoSure123/Kids-IPTV/M3UPlus-Playlist-20241019222427.m3u
-# UNVERIFIED USER TRIAL: Sonic (Multi); not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-174" tvg-name="Sonic Hindi TEST 174" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 174
-https://thenayeemparvez@tamilultratv.co.in/api/jiotv.m3u8?id=815&e=.m3u8
 # PUBLIC SOURCE: Arsks12/stalker/Thor's TataPlay.m3u
 # UNVERIFIED USER TRIAL: Sonic Nickelodeon; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-175" tvg-name="Sonic Hindi TEST 175" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 175
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-171" tvg-name="Sonic Hindi TEST 171" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 171
 https://tp.yg050.workers.dev/ch/127.m3u8
 # PUBLIC SOURCE: fakeall12398-sketch/JIO_TV/kids.m3u
 # UNVERIFIED USER TRIAL: IN: NICK SONIC; not tested on Link3, no claim of Hindi audio or video working.
-#EXTINF:-1 tvg-id="sonic-hindi-bulk-176" tvg-name="Sonic Hindi TEST 176" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 176
+#EXTINF:-1 tvg-id="sonic-hindi-bulk-172" tvg-name="Sonic Hindi TEST 172" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 172
 https://www.redbooks.site/x11.php?id=34011.m3u8
 
 # HUNGAMA NOVEMBER 01 SECOND BATCH — USER-TEST ONLY

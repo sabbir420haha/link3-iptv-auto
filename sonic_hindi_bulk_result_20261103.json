@@ -1,19 +1,19 @@
 {
-  "checked_utc": "2026-11-03T06:45:21.410494+00:00",
-  "source_count": 899,
-  "all_new_candidates": 37,
-  "added_to_each_test_playlist": 37,
+  "checked_utc": "2026-11-03T06:49:02.165126+00:00",
+  "source_count": 926,
+  "all_new_candidates": 33,
+  "added_to_each_test_playlist": 33,
   "test_start": 140,
-  "test_end": 176,
+  "test_end": 172,
   "unverified": true,
   "main_playlist_touched": false,
   "other_test_channels_touched": false,
   "counts": {
-    "source_fetch_ok": 899,
-    "raw_sonic_entries": 899,
-    "previously_recorded": 468,
-    "blocked_or_not_stream": 392,
-    "repeated_in_other_repo": 2
+    "source_fetch_ok": 926,
+    "raw_sonic_entries": 923,
+    "previously_recorded": 477,
+    "blocked_or_not_stream": 410,
+    "repeated_in_other_repo": 3
   },
   "entries": [
     {
@@ -28,6 +28,16 @@
     },
     {
       "test_id": 141,
+      "url": "https://noxmovie.000webhostapp.com/server.php?id=sonic-hindi",
+      "source": "StarFlixofficial/Personal-File/Jio Tv .m3u",
+      "label": "Sonic Hindi",
+      "method": "m3u",
+      "remote_verified": false,
+      "link3_verified": false,
+      "hindi_verified": false
+    },
+    {
+      "test_id": 142,
       "url": "https://tsjiotv.herokuapp.com/autoq.php?c=sonic_Hindi",
       "source": "himanshukhowal/tsjiotv/localplaylist.m3u",
       "label": "Sonic Hindi",
@@ -37,7 +47,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 142,
+      "test_id": 143,
       "url": "http://103.165.93.31:8095/sonic/tracks-v1a1/mono.m3u8",
       "source": "eishakilei-bd08/eitv/dormns20.m3u",
       "label": "SONIC (Sun)",
@@ -47,7 +57,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 143,
+      "test_id": 144,
       "url": "http://moj.drakedsshitpost.repl.co/getm3u8/815/master.m3u8",
       "source": "yashsidhu26/solegasm/hehe.m3u",
       "label": "Sonic Hindi",
@@ -57,20 +67,10 @@
       "hindi_verified": false
     },
     {
-      "test_id": 144,
+      "test_id": 145,
       "url": "http://monirul.bro.bd/sm/stream.php?id=sonic&e=.m3u8",
       "source": "jahidkex/MY-TV/combined_playlist.m3u",
       "label": "SONIC",
-      "method": "m3u",
-      "remote_verified": false,
-      "link3_verified": false,
-      "hindi_verified": false
-    },
-    {
-      "test_id": 145,
-      "url": "http://mumsite.cdnsrv.jio.com/jiotv.live.cdn.jio.com/Sonic_Nickelodeon/Sonic_Nickelodeon_1200.m3u8?jct=H3bVPDoZkXrRjADgylrLPg&pxe=1560552085&st=2rABpyTLSDzkoYSlKcWJhg|user-agent=",
-      "source": "ErenYeager-AttackTitan/Mikasa-Ackerman/fixed.m3u",
-      "label": "Sonic Nickelodeon",
       "method": "m3u",
       "remote_verified": false,
       "link3_verified": false,
@@ -118,6 +118,16 @@
     },
     {
       "test_id": 150,
+      "url": "https://bracnet.iptv.jadoodigital.com/live/sonic/playlist.m3u8",
+      "source": "fahadskt/IPTV-Playlists/Old/Bangladesh IPTV",
+      "label": "SONIC",
+      "method": "m3u",
+      "remote_verified": false,
+      "link3_verified": false,
+      "hindi_verified": false
+    },
+    {
+      "test_id": 151,
       "url": "https://condo-located-vitamins-please.trycloudflare.com/app/live.php?id=815&e=.m3u8",
       "source": "Azeemkureshi/My-Playlist/My.Playlist.m3u8",
       "label": "Sonic Hindi",
@@ -127,7 +137,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 151,
+      "test_id": 152,
       "url": "https://edge01.iptv.digijadoo.net:443/live/sonic/chunks.m3u8",
       "source": "Shadmanislam/bdiptv/BD IPTV.m3u",
       "label": "131.Sonic",
@@ -137,7 +147,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 152,
+      "test_id": 153,
       "url": "https://edge4.bioscopelive.com/hls/anonymous/0yKlrWIIug1NCRVzNtDq8A/1706328118/live3-sonic.m3u8",
       "source": "sadman-al-rafi/sadman-al-rafi.github.io/master.m3u",
       "label": "53. Nickelodeon Sonic",
@@ -147,7 +157,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 153,
+      "test_id": 154,
       "url": "https://fifaxbd.fun/JIOxRANAPK/stream.m3u8?id=815&e=.m3u8",
       "source": "Abinanthankv/tv.m3u/jio.json",
       "label": "Sonic Hindi",
@@ -157,9 +167,9 @@
       "hindi_verified": false
     },
     {
-      "test_id": 154,
+      "test_id": 155,
       "url": "https://fundamental-ie-dish-sing.trycloudflare.com/app/live.php?id=815&e=.m3u",
-      "source": "Mrlivetv/BD_Playlist_by_-Fredflix1.m3u/index.m3u",
+      "source": "Mostak840590/BD_Playlist_400-_Channels/index.m3u",
       "label": "Sonic Hindi",
       "method": "m3u",
       "remote_verified": false,
@@ -167,7 +177,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 155,
+      "test_id": 156,
       "url": "https://holmes-highs-heather-img.trycloudflare.com/app/live.php?id=815&e=.m3u8",
       "source": "appplaylist/hls/jioffeb.m3u",
       "label": "Sonic Hindi",
@@ -177,7 +187,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 156,
+      "test_id": 157,
       "url": "https://hyfytvapp.com/NkQLb6uUFt33NkJ1122VVv88GAX/Sonic_Nickelodeon/Sonic_Nickelodeon_800.m3u8",
       "source": "sonnt136/m3utv/list IPTV",
       "label": "Nick Sonic",
@@ -187,7 +197,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 157,
+      "test_id": 158,
       "url": "https://ninjatv.host/star/ninjatv.m3u8?id=207.ts",
       "source": "tvbd/m3uplayer/m3u/splaylist.m3u",
       "label": "IN: sonic_Hindi",
@@ -197,7 +207,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 158,
+      "test_id": 159,
       "url": "https://playflix.icu/mahesh/Jiotv/manifest.php?id=815",
       "source": "fakeall12398-sketch/M3U/channel.json",
       "label": "Sonic Hindi",
@@ -207,7 +217,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 159,
+      "test_id": 160,
       "url": "https://ranapk.xyz/VOOT/play.m3u8?id=Sonic_Nickelodeon_voot_MOB",
       "source": "mdsirome/LiveTV/DiscoverTV.m3u",
       "label": "Sonic Nickelodeon",
@@ -217,7 +227,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 160,
+      "test_id": 161,
       "url": "https://tamilultra.tv/api/jiotv.m3u8?id=815",
       "source": "khankimagi23221/okk-1/kids.m3u",
       "label": "Sonic Hindi",
@@ -227,7 +237,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 161,
+      "test_id": 162,
       "url": "https://yashrajmod.tk/master.m3u8/?id=815",
       "source": "dgr8akki/awesome-iptv/JIO.m3u",
       "label": "Sonic Hindi",
@@ -237,7 +247,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 162,
+      "test_id": 163,
       "url": "http://103.157.248.140:8000/play/a00m/index.m3u8",
       "source": "cancerbikash-oss/01/TV.m3u",
       "label": "Sonic",
@@ -247,7 +257,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 163,
+      "test_id": 164,
       "url": "http://103.161.153.165:8000/play/a013/index.m3u8",
       "source": "arijitreza/web/playlist.m3u",
       "label": "SONIC_SD",
@@ -257,7 +267,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 164,
+      "test_id": 165,
       "url": "http://103.161.153.165:8000/play/a015/index.m3u8",
       "source": "arijitreza/web/playlist.m3u",
       "label": "SONIC_SD",
@@ -267,20 +277,10 @@
       "hindi_verified": false
     },
     {
-      "test_id": 165,
+      "test_id": 166,
       "url": "http://175.107.244.52:4455/play/a03h/index.m3u8",
       "source": "ryuzein/Pandawa-Eazy-Tools/IPTV/bola.m3u",
       "label": "SONIC- Rs 2",
-      "method": "m3u",
-      "remote_verified": false,
-      "link3_verified": false,
-      "hindi_verified": false
-    },
-    {
-      "test_id": 166,
-      "url": "http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dc02ece31f6050009de4b39/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=f706cc00-33bf-11eb-bb3e-5b164828c024&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=f353fea4-88e6-403f-bea8-499065e8bdfd&userId=&serverSideAds=true",
-      "source": "CloneTV/VLC-TV-Remote/docs/media/online.list",
-      "label": "Mario vs Sonic",
       "method": "m3u",
       "remote_verified": false,
       "link3_verified": false,
@@ -298,36 +298,6 @@
     },
     {
       "test_id": 168,
-      "url": "https://allinonereborn.com/oplex.m3u8?id=380828",
-      "source": "rkbro23/rk_playlist/Opplex.m3u",
-      "label": "Inmar Sonic Nickelodeon",
-      "method": "m3u",
-      "remote_verified": false,
-      "link3_verified": false,
-      "hindi_verified": false
-    },
-    {
-      "test_id": 169,
-      "url": "https://allinonereborn.com/oplex.m3u8?id=380860",
-      "source": "rkbro23/rk_playlist/Opplex.m3u",
-      "label": "Inmar Sonic",
-      "method": "m3u",
-      "remote_verified": false,
-      "link3_verified": false,
-      "hindi_verified": false
-    },
-    {
-      "test_id": 170,
-      "url": "https://allinonereborn.com/oplex.m3u8?id=380965",
-      "source": "rkbro23/rk_playlist/Opplex.m3u",
-      "label": "Intm Sonic",
-      "method": "m3u",
-      "remote_verified": false,
-      "link3_verified": false,
-      "hindi_verified": false
-    },
-    {
-      "test_id": 171,
       "url": "https://jtvxweb.pages.dev/pind?id=815",
       "source": "Xybernaut-tech/yotasys/fetch/kids.json",
       "label": "Sonic",
@@ -337,7 +307,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 172,
+      "test_id": 169,
       "url": "https://neestreamtv.com/jcinema/stream.m3u8?id=3774149",
       "source": "khankimagi23221/okk-1/Jiocinema.m3u",
       "label": "Nickelodeon Sonic",
@@ -347,7 +317,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 173,
+      "test_id": 170,
       "url": "https://tamilultratv.co.in/api/jiotv.m3u8?id=815&e=.m3u8",
       "source": "G21325/Mod/Mod.m3u",
       "label": "SONIC MULTIPLE",
@@ -357,17 +327,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 174,
-      "url": "https://thenayeemparvez@tamilultratv.co.in/api/jiotv.m3u8?id=815&e=.m3u8",
-      "source": "StevoSure123/Kids-IPTV/M3UPlus-Playlist-20241019222427.m3u",
-      "label": "Sonic (Multi)",
-      "method": "m3u",
-      "remote_verified": false,
-      "link3_verified": false,
-      "hindi_verified": false
-    },
-    {
-      "test_id": 175,
+      "test_id": 171,
       "url": "https://tp.yg050.workers.dev/ch/127.m3u8",
       "source": "Arsks12/stalker/Thor's TataPlay.m3u",
       "label": "Sonic Nickelodeon",
@@ -377,7 +337,7 @@
       "hindi_verified": false
     },
     {
-      "test_id": 176,
+      "test_id": 172,
       "url": "https://www.redbooks.site/x11.php?id=34011.m3u8",
       "source": "fakeall12398-sketch/JIO_TV/kids.m3u",
       "label": "IN: NICK SONIC",
