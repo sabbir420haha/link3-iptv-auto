@@ -210,5 +210,70 @@
     "link3_test": "Not available remotely; actual ISP-specific reliability cannot be inferred",
     "local_network_test": "Container DNS unavailable; latest GitHub Actions decoded-video and speech-language reports were reviewed",
     "notification_eligible": false
+  },
+  "followup_2026_11_03_0610_dhaka": {
+    "checked_at_local": "2026-11-03 06:10 Asia/Dhaka",
+    "source_search": "Fresh web-indexed GitHub IPTV playlists, GitHub code search (Sony YAY, Sony Yay Hindi, Sony_Yay_Hindi, SonyYay, workers.dev, 2026-11), issue reports including iptv-org and mitthu786, user repo dedupe.",
+    "candidate_total": 216,
+    "latest_remote_probe_utc": "2026-11-02T22:21:24.229518+00:00",
+    "latest_audio_probe_utc": "2026-11-02T22:22:38.992555+00:00",
+    "latest_remote_probe_evaluated": 216,
+    "latest_remote_probe_status_counts": {
+      "failed": 214,
+      "video_decoded_hls_advancement_unproven": 1,
+      "remote_90s_video_verified": 1
+    },
+    "new_remote_verified": 0,
+    "newly_published": [],
+    "observations": [
+      {
+        "id": "Y190",
+        "finding": "Advancing 90-second live video remotely; language classified Spanish (spa), not Hindi. Excluded."
+      },
+      {
+        "id": "Y107",
+        "finding": "Video frames decoded but live HLS segment advancement and Hindi audio unproven. Existing unverified test remains untouched."
+      },
+      {
+        "id": "Y215-Y217",
+        "finding": "Previously added candidates failed latest remote probe (DNS/TLS failures); no retry or recycling into test playlist."
+      }
+    ],
+    "sources_rechecked": [
+      {
+        "source": "hridoy65/IPTV Airtelxstream.m3u",
+        "finding": "Sony Yay entry is MPEG-DASH .mpd, not verified clear HLS and unsuitable for requested no-DRM IPTV Pro stream; not queued."
+      },
+      {
+        "source": "hmripon66/JEO-IPTV-Playlist-By-Techedubyte Sony YAY Google DAI",
+        "finding": "Google DAI URL already candidate Y02; no repeat."
+      },
+      {
+        "source": "iptv-org/iptv issue 26868",
+        "finding": "nxtlive Sony Yay Hindi endpoint already candidate Y06; no repeat."
+      },
+      {
+        "source": "JioV24/Jio.V20.3 Sony Yay Hindi Google DAI",
+        "finding": "DAI endpoint already candidate Y110; no repeat."
+      },
+      {
+        "source": "Abhiboss07/HindiIPTVValidator",
+        "finding": "Sony Yay Hindi claimed PASS September 30 2026 but URL already candidate Y67; latest remote probe failed; no repeat."
+      },
+      {
+        "source": "iptv-org/iptv issue 57300",
+        "finding": "Broken Sony Yay source; previously reported and excluded."
+      },
+      {
+        "source": "mitthu786/tvepg issue 26",
+        "finding": "Sony Yay Tamil catchup issue; language mismatch; excluded."
+      }
+    ],
+    "fresh_qualifying_public_candidates": [],
+    "new_candidates_queued": [],
+    "playlist_changed": false,
+    "main_playlists_changed": false,
+    "notification_eligible": false,
+    "network_limitations": "Container DNS cannot resolve external hosts, so no independent ffmpeg playback test here. Used existing GitHub Actions FFmpeg multi-interval video report and audio-language probe; no candidate meets Hindi plus sustained live threshold. Link3-specific reliability requires local user test."
   }
 }
