@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-04T07:46:55.989127+00:00",
+  "checked_utc": "2026-11-04T13:38:27.942570+00:00",
   "scope": "GitHub network ONLY; not Link3/mobile/TV",
   "relay_active": false,
   "changed_playlist": false,
@@ -23,127 +23,7 @@
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 8.9,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
-        },
-        {
-          "at_seconds": 16.9,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
-        },
-        {
-          "at_seconds": 25.0,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
-        },
-        {
-          "at_seconds": 33.0,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
-        },
-        {
-          "at_seconds": 41.0,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
-        },
-        {
-          "at_seconds": 48.9,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
-        },
-        {
-          "at_seconds": 56.9,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
-        },
-        {
-          "at_seconds": 64.9,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
-        }
-      ],
-      "note": "GitHub vantage point only; no guarantee of IPTV Pro or Link3 playback"
-    },
-    {
-      "name": "Hungama",
-      "status": "manifest_unreachable",
-      "successful_polls": 0,
-      "attempted_polls": 9,
-      "observed_changes": 0,
-      "media_sequence_regressions": 0,
-      "old_segment_replays": 0,
-      "max_stalled_observation_seconds": 0.0,
-      "target_duration_seconds": null,
-      "media_host": null,
-      "samples": [
-        {
-          "at_seconds": 1.1,
-          "ok": false,
-          "error": "ValueError: HLS manifest unavailable to GitHub"
-        },
-        {
-          "at_seconds": 9.8,
-          "ok": false,
-          "error": "ValueError: HLS manifest unavailable to GitHub"
-        },
-        {
-          "at_seconds": 17.7,
-          "ok": false,
-          "error": "ValueError: HLS manifest unavailable to GitHub"
-        },
-        {
-          "at_seconds": 25.1,
-          "ok": false,
-          "error": "ValueError: HLS manifest unavailable to GitHub"
-        },
-        {
-          "at_seconds": 33.1,
-          "ok": false,
-          "error": "ValueError: HLS manifest unavailable to GitHub"
-        },
-        {
-          "at_seconds": 41.1,
-          "ok": false,
-          "error": "ValueError: HLS manifest unavailable to GitHub"
-        },
-        {
-          "at_seconds": 49.2,
-          "ok": false,
-          "error": "ValueError: HLS manifest unavailable to GitHub"
-        },
-        {
-          "at_seconds": 57.0,
-          "ok": false,
-          "error": "ValueError: HLS manifest unavailable to GitHub"
-        },
-        {
-          "at_seconds": 65.1,
-          "ok": false,
-          "error": "ValueError: HLS manifest unavailable to GitHub"
-        }
-      ],
-      "note": "GitHub vantage point only; no guarantee of IPTV Pro or Link3 playback"
-    },
-    {
-      "name": "Zee Bangla",
-      "status": "manifest_unreachable",
-      "successful_polls": 0,
-      "attempted_polls": 9,
-      "observed_changes": 0,
-      "media_sequence_regressions": 0,
-      "old_segment_replays": 0,
-      "max_stalled_observation_seconds": 0.0,
-      "target_duration_seconds": null,
-      "media_host": null,
-      "samples": [
-        {
-          "at_seconds": 1.1,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
-        },
-        {
-          "at_seconds": 9.1,
+          "at_seconds": 8.8,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
@@ -153,12 +33,12 @@
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 24.9,
+          "at_seconds": 24.8,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 33.0,
+          "at_seconds": 32.8,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
@@ -178,9 +58,156 @@
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 65.0,
+          "at_seconds": 64.8,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+        }
+      ],
+      "note": "GitHub vantage point only; no guarantee of IPTV Pro or Link3 playback"
+    },
+    {
+      "name": "Hungama",
+      "status": "manifest_unreachable",
+      "successful_polls": 0,
+      "attempted_polls": 9,
+      "observed_changes": 0,
+      "media_sequence_regressions": 0,
+      "old_segment_replays": 0,
+      "max_stalled_observation_seconds": 0.0,
+      "target_duration_seconds": null,
+      "media_host": null,
+      "samples": [
+        {
+          "at_seconds": 1.5,
+          "ok": false,
+          "error": "ValueError: HLS manifest unavailable to GitHub"
+        },
+        {
+          "at_seconds": 9.0,
+          "ok": false,
+          "error": "ValueError: HLS manifest unavailable to GitHub"
+        },
+        {
+          "at_seconds": 17.2,
+          "ok": false,
+          "error": "ValueError: HLS manifest unavailable to GitHub"
+        },
+        {
+          "at_seconds": 25.1,
+          "ok": false,
+          "error": "ValueError: HLS manifest unavailable to GitHub"
+        },
+        {
+          "at_seconds": 33.0,
+          "ok": false,
+          "error": "ValueError: HLS manifest unavailable to GitHub"
+        },
+        {
+          "at_seconds": 41.2,
+          "ok": false,
+          "error": "ValueError: HLS manifest unavailable to GitHub"
+        },
+        {
+          "at_seconds": 49.0,
+          "ok": false,
+          "error": "ValueError: HLS manifest unavailable to GitHub"
+        },
+        {
+          "at_seconds": 57.1,
+          "ok": false,
+          "error": "ValueError: HLS manifest unavailable to GitHub"
+        },
+        {
+          "at_seconds": 65.1,
+          "ok": false,
+          "error": "ValueError: HLS manifest unavailable to GitHub"
+        }
+      ],
+      "note": "GitHub vantage point only; no guarantee of IPTV Pro or Link3 playback"
+    },
+    {
+      "name": "Zee Bangla",
+      "status": "advancing_on_github",
+      "successful_polls": 9,
+      "attempted_polls": 9,
+      "observed_changes": 7,
+      "media_sequence_regressions": 0,
+      "old_segment_replays": 0,
+      "max_stalled_observation_seconds": 7.8,
+      "target_duration_seconds": 4,
+      "media_host": "drk6xq0vhn.gpcdn.net",
+      "samples": [
+        {
+          "at_seconds": 0.6,
+          "seq": 2065,
+          "latest_segment_fingerprint": "9e272d7f7e442dfd",
+          "target_duration_seconds": 4,
+          "media_host": "drk6xq0vhn.gpcdn.net",
+          "ok": true
+        },
+        {
+          "at_seconds": 8.4,
+          "seq": 2065,
+          "latest_segment_fingerprint": "9e272d7f7e442dfd",
+          "target_duration_seconds": 4,
+          "media_host": "drk6xq0vhn.gpcdn.net",
+          "ok": true
+        },
+        {
+          "at_seconds": 16.6,
+          "seq": 2069,
+          "latest_segment_fingerprint": "49894c834f13c6ed",
+          "target_duration_seconds": 4,
+          "media_host": "drk6xq0vhn.gpcdn.net",
+          "ok": true
+        },
+        {
+          "at_seconds": 24.7,
+          "seq": 2071,
+          "latest_segment_fingerprint": "845a4bc23dc4aa6c",
+          "target_duration_seconds": 4,
+          "media_host": "drk6xq0vhn.gpcdn.net",
+          "ok": true
+        },
+        {
+          "at_seconds": 32.8,
+          "seq": 2073,
+          "latest_segment_fingerprint": "5b6ab2f9d0d4e658",
+          "target_duration_seconds": 4,
+          "media_host": "drk6xq0vhn.gpcdn.net",
+          "ok": true
+        },
+        {
+          "at_seconds": 40.5,
+          "seq": 2075,
+          "latest_segment_fingerprint": "34d2e20a0052255c",
+          "target_duration_seconds": 4,
+          "media_host": "drk6xq0vhn.gpcdn.net",
+          "ok": true
+        },
+        {
+          "at_seconds": 48.5,
+          "seq": 2077,
+          "latest_segment_fingerprint": "6deea5900c456bee",
+          "target_duration_seconds": 4,
+          "media_host": "drk6xq0vhn.gpcdn.net",
+          "ok": true
+        },
+        {
+          "at_seconds": 56.5,
+          "seq": 2079,
+          "latest_segment_fingerprint": "b8af4cea66325fad",
+          "target_duration_seconds": 4,
+          "media_host": "drk6xq0vhn.gpcdn.net",
+          "ok": true
+        },
+        {
+          "at_seconds": 64.6,
+          "seq": 2081,
+          "latest_segment_fingerprint": "28b704227c5c7974",
+          "target_duration_seconds": 4,
+          "media_host": "drk6xq0vhn.gpcdn.net",
+          "ok": true
         }
       ],
       "note": "GitHub vantage point only; no guarantee of IPTV Pro or Link3 playback"
