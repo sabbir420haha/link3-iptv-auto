@@ -1,6 +1,6 @@
 {
   "skipped_duplicate_or_user_failed": 2,
-  "checked_utc": "2026-11-04T19:27:21.303190+00:00",
+  "checked_utc": "2026-11-05T01:35:52.462556+00:00",
   "scope": "GitHub Actions network, NOT Link3. No channel identities confirmed.",
   "candidate_count": 110,
   "verified_media_candidates": 1,
@@ -328,7 +328,7 @@
       "link3_verified": false,
       "publish_eligible": false,
       "note": "GitHub runner-only test. Playlist is unchanged.",
-      "error": "No HLS manifest"
+      "error": "ValueError: No readable HLS data: <urlopen error timed out>"
     },
     {
       "channel": "Sonic Hindi",
