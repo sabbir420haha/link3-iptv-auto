@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-06T07:45:41.244483+00:00",
+  "checked_utc": "2026-11-06T13:36:38.791803+00:00",
   "scope": "GitHub network ONLY; not Link3/mobile/TV",
   "relay_active": false,
   "changed_playlist": false,
@@ -23,7 +23,7 @@
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 8.9,
+          "at_seconds": 9.0,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
@@ -43,7 +43,7 @@
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 40.9,
+          "at_seconds": 41.1,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
@@ -53,7 +53,7 @@
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 56.9,
+          "at_seconds": 57.0,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
@@ -78,47 +78,47 @@
       "media_host": null,
       "samples": [
         {
-          "at_seconds": 0.9,
+          "at_seconds": 1.1,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 8.9,
+          "at_seconds": 9.0,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 16.7,
+          "at_seconds": 16.9,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 24.8,
+          "at_seconds": 25.3,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 32.7,
+          "at_seconds": 33.3,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 40.7,
+          "at_seconds": 41.1,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 48.6,
+          "at_seconds": 49.0,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 56.6,
+          "at_seconds": 57.3,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 64.6,
+          "at_seconds": 64.9,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         }
@@ -138,73 +138,73 @@
       "media_host": "drk6xq0vhn.gpcdn.net",
       "samples": [
         {
-          "at_seconds": 2.2,
-          "seq": 14403,
-          "latest_segment_fingerprint": "c4d0e3cd35b8b8dc",
+          "at_seconds": 1.9,
+          "seq": 19667,
+          "latest_segment_fingerprint": "ae2a1592ed9b17c4",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 10.1,
-          "seq": 14405,
-          "latest_segment_fingerprint": "2a079d5a9977fc83",
+          "at_seconds": 9.8,
+          "seq": 19669,
+          "latest_segment_fingerprint": "c6aed0fdb7ce75b6",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 18.2,
-          "seq": 14407,
-          "latest_segment_fingerprint": "5fbf36225feb8a33",
+          "at_seconds": 17.8,
+          "seq": 19671,
+          "latest_segment_fingerprint": "d34d8b698b054ba6",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 26.2,
-          "seq": 14409,
-          "latest_segment_fingerprint": "7fcc040844adbd88",
+          "at_seconds": 25.8,
+          "seq": 19673,
+          "latest_segment_fingerprint": "544fde9ccc33ff01",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 34.1,
-          "seq": 14410,
-          "latest_segment_fingerprint": "4472d292f12d89ed",
+          "at_seconds": 33.9,
+          "seq": 19675,
+          "latest_segment_fingerprint": "bcfbfd000e37b5b4",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 42.2,
-          "seq": 14413,
-          "latest_segment_fingerprint": "45de947f03226966",
+          "at_seconds": 41.9,
+          "seq": 19677,
+          "latest_segment_fingerprint": "21fbf84f6d4c5c04",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 50.2,
-          "seq": 14415,
-          "latest_segment_fingerprint": "9ea5e8c1a1b0e4d2",
+          "at_seconds": 49.9,
+          "seq": 19679,
+          "latest_segment_fingerprint": "b46532c2d285fde8",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 58.1,
-          "seq": 14417,
-          "latest_segment_fingerprint": "e42089e21617dbcc",
+          "at_seconds": 57.8,
+          "seq": 19681,
+          "latest_segment_fingerprint": "d20d2a83934fccd9",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
         },
         {
-          "at_seconds": 66.2,
-          "seq": 14419,
-          "latest_segment_fingerprint": "bdaad41d91e3fa76",
+          "at_seconds": 65.8,
+          "seq": 19683,
+          "latest_segment_fingerprint": "127fe77bd6ded5c5",
           "target_duration_seconds": 4,
           "media_host": "drk6xq0vhn.gpcdn.net",
           "ok": true
