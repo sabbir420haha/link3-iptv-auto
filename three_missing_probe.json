@@ -1,6 +1,6 @@
 {
   "skipped_duplicate_or_user_failed": 2,
-  "checked_utc": "2026-11-05T19:22:37.427628+00:00",
+  "checked_utc": "2026-11-06T01:39:06.517578+00:00",
   "scope": "GitHub Actions network, NOT Link3. No channel identities confirmed.",
   "candidate_count": 110,
   "verified_media_candidates": 1,
@@ -167,7 +167,7 @@
       "link3_verified": false,
       "publish_eligible": false,
       "note": "GitHub runner-only test. Playlist is unchanged.",
-      "error": "ValueError: No readable HLS data: The read operation timed out"
+      "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
     },
     {
       "channel": "Disney HD Hindi",
@@ -329,7 +329,7 @@
       "link3_verified": false,
       "publish_eligible": false,
       "note": "GitHub runner-only test. Playlist is unchanged.",
-      "error": "ValueError: No readable HLS data: <urlopen error timed out>"
+      "error": "No HLS manifest"
     },
     {
       "channel": "Sonic Hindi",
