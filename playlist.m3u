@@ -136,6 +136,8 @@ https://stream.ottplus.live/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8
 https://drk6xq0vhn.gpcdn.net/live/pogo_sd_abr/index.m3u8
 #EXTINF:-1 tvg-name="Discovery Kids" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-kids.png?v=iptv-tightfit-20261023" group-title="04 | Kids",Discovery Kids
 https://drk6xq0vhn.gpcdn.net/live/discovery_kids_abr/index.m3u8
+#EXTINF:-1 tvg-name="T Sports" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/t-sports.png?v=iptv-tightfit-20261023" group-title="06 | Sports",T Sports
+http://103.135.253.32:8080/T-SPORTS-FULL-HD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="DD Sports" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/dd-sports.png?v=iptv-tightfit-20261023" group-title="06 | Sports",DD Sports
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index_3.m3u8
 #EXTINF:-1 tvg-name="PTV Sports" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ptv-sports.png?v=iptv-tightfit-20261023" group-title="06 | Sports",PTV Sports

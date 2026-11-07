@@ -1,6 +1,6 @@
 {
-  "updated_utc": "2026-11-06T13:31:35.168870+00:00",
-  "channels": 76,
+  "updated_utc": "2026-11-07T01:27:09.455794+00:00",
+  "channels": 77,
   "target_channels": 99,
   "groups": {
     "01 | BD News": 16,
@@ -13,7 +13,7 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 307,
+  "remote_manifests_probed": 310,
   "media_segments_probed": 1,
   "experimental_unverified": 0,
   "backup_streams": [],
@@ -529,6 +529,33 @@
   "missing_target_candidate_audit": [
     {
       "name": "Sony Yay",
+      "url": "https://pubads.g.doubleclick.net/ssai/event/40H5HfwWTZadFGYkBTqagg/master.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sony Yay",
+      "url": "https://nxtlive.net/sliv/stream.php?id=0657898986&e=.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sony Yay",
+      "url": "http://103.83.80.54:6088/play/a0et/index.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sony Yay",
       "url": "http://103.229.254.25:7001/play/a0cl/index.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
@@ -558,51 +585,6 @@
       "name": "Sony Yay",
       "url": "https://cloudplay-sonyliv.pages.dev/yay.m3u8",
       "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sony Yay",
-      "url": "https://pubads.g.doubleclick.net/ssai/event/40H5HfwWTZadFGYkBTqagg/master.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sony Yay",
-      "url": "https://nxtlive.net/sliv/stream.php?id=0657898986&e=.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sony Yay",
-      "url": "http://103.83.80.54:6088/play/a0et/index.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Disney HD Hindi",
-      "url": "https://stream.kliv.in/ROPX/opp233/167551.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Disney HD Hindi",
-      "url": "https://hls-coolxtream.vercel.app/channel/167551&format=.m3u8",
-      "manifest_ok": true,
       "segment_ok": false,
       "manifest_height": 0,
       "identity_audio_verified_by_runner": false,
@@ -735,8 +717,17 @@
       "published_as_replacement": false
     },
     {
-      "name": "Sonic Hindi",
-      "url": "https://sonamul3535.vercel.app/Sonic-Hindi.m3u8",
+      "name": "Disney HD Hindi",
+      "url": "http://45.249.187.238:8081/hls/live0.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Disney HD Hindi",
+      "url": "https://sonamul3535.vercel.app/Disney.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -745,7 +736,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "https://jiotv.hadinetbd.tech/jio/v1/Sonic_Hindi/Sonic_Hindi/Sonic_Hindi.m3u8",
+      "url": "https://colorsscreen.com/live.php?id=815&extension=.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -754,7 +745,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "https://techiesneh.in1.bitmana.io/snehapi/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "url": "https://madanitv.assadikb.workers.dev/live.php?id=815&e=.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -763,7 +754,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "https://allinonereborn.com/tatatv.php?id=11667",
+      "url": "http://103.83.80.54:6088/play/a0g4/index.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -772,7 +763,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "https://tv.001133.xyz/live/815.m3u8",
+      "url": "http://103.135.253.32:8080/SONIC/index.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -781,7 +772,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "http://jo123.biz/jweb/m3u8.php?c=sonic_Hindi&q=1200&e=.m3u8",
+      "url": "http://103.135.253.32:8080/SONIC-HD/index.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -790,7 +781,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "https://keralamaxtv.com/vt/stream.m3u8?id=Sonic_Nickelodeon",
+      "url": "http://103.185.24.134:3001/SONIC/index.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -799,7 +790,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/tiptop-op.m3u8?id=1134",
+      "url": "http://144.217.70.181:9587/hin2/SONIC/tracks-v1a1/mono.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -808,7 +799,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "https://admin.himel-op.top/Join-Telegram-@HimelOP_Official/tiptop-himu.m3u8?id=1134",
+      "url": "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -817,7 +808,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "https://tamilultra.tv/api/jiotv.m3u8?id=815",
+      "url": "https://live.dinesh29.com.np/stream/jiotvplus/sonichindi/master.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -826,7 +817,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "https://jio.drmlive.au/jio/bpk-tv/sonic_Hindi_MOB/Fallback/index.m3u8",
+      "url": "http://198.195.239.50:8095/sonic/tracks-v1a1/mono.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -835,7 +826,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "http://70.39.83.58:8278/sonichindikdin/playlist.m3u8",
+      "url": "http://103.151.60.162:2122/play/a02v/index.m3u8?hls",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -844,7 +835,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "https://fifabangladesh2-xyz-ekkj.spidy.online/VHOD/NEW/go.php?id=Sonic_Nickelodeon_voot_MOB",
+      "url": "http://103.229.254.25:7001/play/a0dl/index.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -853,7 +844,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "https://serverbackupchannel.xyz/jiotvchannel/autoq.php?c=sonic_Hindi&e=.m3u8",
+      "url": "http://103.72.101.252:8080/live/815.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -862,7 +853,7 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "https://mini1.allinonereborn.xyz/jiotv-ww192/app/ts_live_815.m3u8",
+      "url": "http://103.162.136.235:4500/play/a01k/index.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -871,7 +862,142 @@
     },
     {
       "name": "Sonic Hindi",
-      "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8",
+      "url": "http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/4415aa98f2f6f59.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Hindi",
+      "url": "https://robi.iptv.digijadoo.net/live/sonic/chunks.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "https://live.dinesh29.com.np/stream/jiotv/sonicbangla/master.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "https://ott.bingebd.com/live/ngrp:APNTn-asdt-t1asnd2a-sWgtsrhQW_AQTY1025_sonicPQRT_98sdfhs0_f36erxty_forsgst63_DH/chunklist.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "http://103.135.208.14/live/ibox/bd/58.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "https://live.dinesh29.com.np/stream/jiotvplus/sonicbangla/master.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "https://techiesneh.in1.bitmana.io/snehapi/jioapi/snehjioxx.php?c=Sonic_Bangla&q=800&e=junk.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "https://bracnet.iptv.jadoodigital.com:443/live/sonic/chunks.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "https://jiotv.nayeemparvez.workers.dev/bpk-tv/Sonic_Bangla_MOB/Fallback/index.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "https://mhdtv.co.in/jio/app/live/1345/Sonic_Bangla/index.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "https://fifabangladesh.live/@RANAPKX73/stream.m3u8?id=1345&e=.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "https://tamilultra.tv/api/jiotv.m3u8?id=1345",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "https://iptvcable.netlify.app/Altogether-007/Cartoon/SONIC.m3u8",
+      "manifest_ok": true,
+      "segment_ok": true,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "https://tv.googledrivelinks.com/live.php?c=Sonic_Bangla&q=1200&e=junk.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "https://tvstream.space//jtv/ooo.php?c=Sonic_Bangla&q=800&e=junk.m3u8",
+      "manifest_ok": false,
+      "segment_ok": false,
+      "manifest_height": 0,
+      "identity_audio_verified_by_runner": false,
+      "published_as_replacement": false
+    },
+    {
+      "name": "Sonic Bangla",
+      "url": "http://103.102.27.173:84/SONIC-BANGLA/tracks-v1a1/mono.m3u8",
       "manifest_ok": false,
       "segment_ok": false,
       "manifest_height": 0,
@@ -895,173 +1021,47 @@
       "manifest_height": 0,
       "identity_audio_verified_by_runner": false,
       "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "https://serverbackupchannel.xyz/jiotvchannel/app/live/1345/Sonic_Bangla/index.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Sonic_Bangla&q=800&e=junk.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sonicPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "https://sports247.eu.org/api/app/live.php?id=1345&e=.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "https://hey-lookme.shop/live.php?id=1345",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "https://jio.instream.ml/jio.php?c=Sonic_Bangla&q=600&e=.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "http://198.195.239.50:8095/sonic/index.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "https://sflex07.fun:443/07/jio/app/ts_live_1345.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "https://app-re.sm-monirul-islam-rs.workers.dev/sonic-bangla/index.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "https://stream.ottplus.live/live/sonic_bangla_abr/index.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "http://103.182.170.32:8888/play/a02s",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "https://stream.amrbd.com/Sonic/tracks-v1a1/mono.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "https://playyonogames.in/live.php?id=1345&format=.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
-    },
-    {
-      "name": "Sonic Bangla",
-      "url": "https://nonprod-sports-cohort.jiocinema.com/bpk-tv/JC_SonicNick/JCHLS/index.m3u8",
-      "manifest_ok": false,
-      "segment_ok": false,
-      "manifest_height": 0,
-      "identity_audio_verified_by_runner": false,
-      "published_as_replacement": false
     }
   ],
   "sources": [
     {
       "source": "iptv-bd",
-      "count": 42,
+      "count": 47,
       "error": null
     },
     {
       "source": "iptv-in",
-      "count": 845,
+      "count": 863,
       "error": null
     },
     {
       "source": "iptv-ben",
-      "count": 104,
+      "count": 107,
       "error": null
     },
     {
       "source": "iptv-hin",
-      "count": 372,
+      "count": 388,
       "error": null
     },
     {
       "source": "iptv-kids",
-      "count": 434,
+      "count": 437,
       "error": null
     },
     {
       "source": "iptv-sports",
-      "count": 477,
+      "count": 479,
       "error": null
     },
     {
       "source": "iptv-entertainment",
-      "count": 904,
+      "count": 911,
       "error": null
     },
     {
       "source": "iptv-documentary",
-      "count": 255,
+      "count": 257,
       "error": null
     },
     {
@@ -1071,7 +1071,7 @@
     },
     {
       "source": "SM-IPTV",
-      "count": 1412,
+      "count": 1468,
       "error": null
     },
     {
@@ -1081,7 +1081,7 @@
     },
     {
       "source": "iptv-org-india-raw",
-      "count": 1664,
+      "count": 1795,
       "error": null
     },
     {
@@ -1715,8 +1715,8 @@
     },
     {
       "name": "T Sports",
-      "state": "NO_STREAM_AVAILABLE",
-      "stream": null,
+      "state": "REMOTE_MANIFEST_REACHABLE",
+      "stream": "http://103.135.253.32:8080/T-SPORTS-FULL-HD/tracks-v1a1/mono.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1729,7 +1729,7 @@
     },
     {
       "name": "PTV Sports",
-      "state": "REMOTE_MANIFEST_REACHABLE",
+      "state": "CURRENT_LINK3_STABLE_RETAINED",
       "stream": "https://tvsen5.aynaott.com/kP9vX2mZ7qL5wN3t/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -1842,23 +1842,23 @@
   ],
   "warning": "Channels in 98 TEST Experimental are unverified public playlist candidates, NOT known working. Remote checks do not prove Link3 playback, rights, HD quality or buffering",
   "logos": {
-    "logo_count": 76,
+    "logo_count": 77,
     "methods": {
-      "current-broadcaster": 47,
+      "current-broadcaster": 48,
       "text-fallback": 23,
       "verified-recent-provider-logo": 6
     },
     "note": "Text fallback logos are custom labels, not official broadcaster logos."
   },
   "local_logos": {
-    "total": 76,
-    "from_image_sources": 57,
+    "total": 77,
+    "from_image_sources": 58,
     "clear_name_fallbacks": 19,
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-11-06T13:31:44.118651+00:00",
+    "updated_utc": "2026-11-07T01:27:16.922922+00:00",
     "channel_count": 26,
     "entries": 475,
     "by_name": {
