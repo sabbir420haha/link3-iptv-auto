@@ -1,6 +1,6 @@
 {
   "skipped_duplicate_or_user_failed": 2,
-  "checked_utc": "2026-11-07T07:30:18.024529+00:00",
+  "checked_utc": "2026-11-07T13:20:14.977985+00:00",
   "scope": "GitHub Actions network, NOT Link3. No channel identities confirmed.",
   "candidate_count": 110,
   "verified_media_candidates": 1,
@@ -994,16 +994,18 @@
       "url": "http://live.balajibroadband.com:3500/live/1345.m3u8",
       "evidence": "github.com/sm-monirulislam/SM-IPTV Combined_Live_TV.m3u, 2026-10-27 explicitly Sonic Bangla, India-hosted ISP; non-BDIX not proven",
       "expected_audio": "bn",
-      "manifest_ok": false,
+      "manifest_ok": true,
       "media_segment_verified": false,
-      "advertised_max_height": 0,
-      "advertised_audio_languages": [],
+      "advertised_max_height": 576,
+      "advertised_audio_languages": [
+        "bn"
+      ],
       "channel_identity_verified": false,
       "hindi_or_bangla_audio_verified": false,
       "link3_verified": false,
       "publish_eligible": false,
       "note": "GitHub runner-only test. Playlist is unchanged.",
-      "error": "ValueError: No readable HLS data: HTTP Error 500: Internal Server Error"
+      "error": "ValueError: filtered remote URL"
     },
     {
       "channel": "Sonic Hindi",
