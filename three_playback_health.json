@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-09T07:56:36.918382+00:00",
+  "checked_utc": "2026-11-09T13:44:20.421538+00:00",
   "scope": "GitHub network ONLY; not Link3/mobile/TV",
   "relay_active": false,
   "changed_playlist": false,
@@ -18,47 +18,47 @@
       "media_host": null,
       "samples": [
         {
-          "at_seconds": 0.9,
+          "at_seconds": 1.6,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 8.9,
+          "at_seconds": 9.9,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 16.8,
+          "at_seconds": 17.7,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 24.9,
+          "at_seconds": 25.8,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 32.9,
+          "at_seconds": 33.5,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 40.8,
+          "at_seconds": 41.5,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 48.8,
+          "at_seconds": 49.5,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 56.8,
+          "at_seconds": 57.8,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 64.9,
+          "at_seconds": 65.5,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         }
@@ -78,47 +78,47 @@
       "media_host": null,
       "samples": [
         {
-          "at_seconds": 1.6,
+          "at_seconds": 1.2,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 8.8,
+          "at_seconds": 9.1,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 17.1,
+          "at_seconds": 17.0,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 25.7,
+          "at_seconds": 25.1,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 33.6,
+          "at_seconds": 33.0,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 41.0,
+          "at_seconds": 41.1,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 49.2,
+          "at_seconds": 49.7,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 57.1,
+          "at_seconds": 57.4,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 65.1,
+          "at_seconds": 65.0,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         }
@@ -143,17 +143,17 @@
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 9.8,
+          "at_seconds": 9.9,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 17.8,
+          "at_seconds": 17.9,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 25.8,
+          "at_seconds": 25.9,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
@@ -163,12 +163,12 @@
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 41.8,
+          "at_seconds": 41.9,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
         {
-          "at_seconds": 49.8,
+          "at_seconds": 49.9,
           "ok": false,
           "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
         },
