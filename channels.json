@@ -6,9 +6,9 @@
       "Channel24"
     ],
     "locked": true,
-    "last_known_url": "https://iptvlive.ahmed-bd-org.workers.dev/channel-24-hd-1/index.m3u8",
+    "last_known_url": "https://tvsen6.aynaott.com/YrVDF8gujkdh/index.m3u8",
     "user_verified_link3": true,
-    "source_quality_note": "User-confirmed working on Link3: Channel 24 TEST 03. Preserve as locked main."
+    "source_quality_note": "User confirmed Channel 24 AUTO TEST 03 plays on Link3 / IPTV Pro on 2026-11-10; pinned in Main. Do not auto-replace from remote runner probes."
   },
   {
     "name": "Channel 24 YT HLS TEST",
@@ -32,8 +32,10 @@
     "aliases": [
       "Somoy Tv HD"
     ],
-    "locked": false,
-    "last_known_url": ""
+    "locked": true,
+    "last_known_url": "http://116.204.149.16/somoytv/index.m3u8",
+    "user_verified_link3": true,
+    "source_quality_note": "User confirmed Somoy TV AUTO TEST 02 plays on Link3 / IPTV Pro on 2026-11-10; pinned in Main. Do not auto-replace from remote runner probes."
   },
   {
     "name": "Jamuna TV",
@@ -151,8 +153,10 @@
     "aliases": [
       "ATN Bangla D2H"
     ],
-    "locked": false,
-    "last_known_url": ""
+    "locked": true,
+    "last_known_url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/atnbd-8-org.stream/playlist.m3u8",
+    "user_verified_link3": true,
+    "source_quality_note": "User confirmed ATN Bangla AUTO TEST 01 plays on Link3 / IPTV Pro on 2026-11-10; pinned in Main. Do not auto-replace from remote runner probes."
   },
   {
     "name": "BanglaVision",
@@ -387,9 +391,11 @@
     "name": "Zee Bangla",
     "group": "03 | Indian Bangla",
     "aliases": [],
-    "locked": false,
-    "last_known_url": "",
-    "prefer_current": true
+    "locked": true,
+    "last_known_url": "https://d1rc86nwwc9fag.cloudfront.net/260723/smil:zeebangla.smil/chunklist_b896000.m3u8",
+    "prefer_current": true,
+    "user_verified_link3": true,
+    "source_quality_note": "User confirmed Zee Bangla REPAIR TEST 02 plays on Link3 / IPTV Pro on 2026-11-10; pinned in Main. Do not auto-replace from remote runner probes."
   },
   {
     "name": "Zee Bangla HD",
@@ -580,8 +586,10 @@
       "Cartoon Net HD Hindi",
       "Cartoon Network HD Hindi"
     ],
-    "locked": false,
-    "last_known_url": ""
+    "locked": true,
+    "last_known_url": "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/playlist.m3u8",
+    "user_verified_link3": true,
+    "source_quality_note": "User confirmed Cartoon Network REPAIR TEST 04 plays on Link3 / IPTV Pro on 2026-11-10; pinned in Main. Do not auto-replace from remote runner probes."
   },
   {
     "name": "Discovery Kids",
