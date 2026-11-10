@@ -13,6 +13,7 @@ on:
       - favorites_test_registry.json
       - tv_playback_health.py
       - main_pin_diagnostic.py
+      - main_pin_policy_test.py
       - three_missing_probe.py
       - three_playback_health.py
       - .github/workflows/update.yml
@@ -33,8 +34,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Validate script
-        run: python -m py_compile update.py geo_trial.py three_playback_health.py tv_playback_health.py main_pin_diagnostic.py
+      - name: Validate script and Main pin policy
+        run: |
+          python -m py_compile update.py geo_trial.py three_playback_health.py tv_playback_health.py main_pin_diagnostic.py main_pin_policy_test.py
+          python -m unittest main_pin_policy_test.py repair_nine_smoke_test.py
       - name: Install image tools
         run: python -m pip install Pillow==11.3.0
       - name: Install ffprobe for audio metadata checks
