@@ -51,6 +51,13 @@ REGISTRY_KEYS = {
 MAX_CANDIDATES_PER_CHANNEL = 32
 MAX_RESULTS_PER_CHANNEL = 4
 WORKERS = 12
+# These are subscription channels. Do not publish third-party raw URLs or
+# attempt to bypass a licensed provider's sign-in, cookies, tokens or DRM.
+SUBSCRIPTION_ONLY = {
+    "Cartoon Network", "Hungama Backup", "Sony MAX HD",
+    "Nat Geo HD Bangla", "Nick Bangla", "Sony Aath",
+    "Sony Ten 1 HD", "Sony Ten 3 HD",
+}
 LIVE_WINDOW_SECONDS = 9
 BLOCKED_HOSTS = (
     "toffeelive.com", "slivcdn.com", "sonyliv.com", "jiocinema.com",
@@ -153,6 +160,8 @@ def collect_candidates(main_text: str, test_text: str, catalog: list[dict]) -> t
         else:
             source_map = data.get("sources", {})
         for target, keys in REGISTRY_KEYS.items():
+            if target in SUBSCRIPTION_ONLY:
+                continue
             for key in keys:
                 raw_candidates = source_map.get(key, []) or []
                 if isinstance(raw_candidates, dict):
@@ -186,11 +195,16 @@ def collect_candidates(main_text: str, test_text: str, catalog: list[dict]) -> t
                 if not url or url in excluded:
                     continue
                 for target in TARGETS:
+                    if target in SUBSCRIPTION_ONLY:
+                        continue
                     if target_match(target, title, url):
                         add_candidate(bag, target, url, name, title)
 
     # Exclude every URL already present in either live playlist or catalog exclusions.
     for target in TARGETS:
+        if target in SUBSCRIPTION_ONLY:
+            bag[target] = {}
+            continue
         bag[target] = {
             url: item for url, item in bag[target].items()
             if url not in excluded and updater.allowed(url) and not blocked_url(url)
@@ -358,6 +372,7 @@ def main():
             "checked": len(checked[target]),
             "runner_live_hls_pass": len(rows),
             "added_to_test": len(passed[target]),
+            "note": "Official subscription source required; no third-party raw URL is published." if target in SUBSCRIPTION_ONLY else "Public candidate probe only; Link3 playback still needs user confirmation.",
         }
 
     # Rebuild only the repair section. Previously user-reported failed repair
@@ -373,6 +388,7 @@ def main():
         "checked_utc": now,
         "scope": "GitHub runner only; not Link3 or IPTV Pro",
         "targets": TARGETS,
+        "subscription_only_targets": sorted(SUBSCRIPTION_ONLY),
         "summary": summary,
         "source_fetches": fetch_report,
         "results": {name: checked[name] for name in TARGETS},
