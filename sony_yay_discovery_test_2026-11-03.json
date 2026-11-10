@@ -336,5 +336,45 @@
     "test_playlist_changed": false,
     "main_playlist_changed": false,
     "notification_eligible": false
+  },
+  "followup_2026_11_11_0516_dhaka": {
+    "checked_at_local": "2026-11-11 05:16 Asia/Dhaka",
+    "sources_checked": [
+      "GitHub code search: Sony YAY Hindi m3u8; SonyYay.in@SD; sony_yay playlist.m3u8; Sony Yay 2026",
+      "iptv-org/iptv issue listing updated 2026-11-10",
+      "Public web search November 2026 Sony YAY Hindi IPTV"
+    ],
+    "candidate_inventory_unique": 218,
+    "existing_candidate_file": "sony_yay_candidates.json",
+    "examples_screened": [
+      {
+        "url": "https://livetv.shamon-cable.net:8443/sony_yay/index.m3u8",
+        "status": "EXISTING Y219, prior 404; excluded"
+      },
+      {
+        "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_yay/playlist.m3u8",
+        "status": "EXISTING Y217, prior DNS failure; excluded"
+      },
+      {
+        "url": "https://sliv.tgaadi.workers.dev/sonyyaysd.m3u8",
+        "status": "Previously catalogued/failed; excluded"
+      },
+      {
+        "url": "http://103.229.254.25:7001/play/a0cl/index.m3u8",
+        "status": "Tamil group listing; excluded"
+      },
+      {
+        "url": "https://tvstream.space//jtv/uuu.php?c=Sony_Yay_Hindi&q=800&e=junk.m3u8",
+        "status": "GitHub playlist labelled Hindi; not established fresh or remotely decoded; not eligible for publication"
+      }
+    ],
+    "new_remote_video_decodes": 0,
+    "spaced_hls_advancement_proven": false,
+    "hindi_audio_proven": false,
+    "newly_verified_sources": [],
+    "test_playlist_changed": false,
+    "main_playlist_changed": false,
+    "notification_eligible": false,
+    "note": "No newly discovered source satisfied actual repeated video decoding, advancing live HLS, and Hindi audio proof. No unverified stream published. No GitHub Actions live probe was run in this execution."
   }
 }
