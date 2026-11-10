@@ -35,6 +35,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Start from latest serialized Main revision
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
       - name: Validate script and Main pin policy
         run: |
           python -m py_compile update.py geo_trial.py three_playback_health.py tv_playback_health.py main_pin_diagnostic.py main_pin_policy_test.py
