@@ -1,0 +1,26 @@
+name: Main pin policy regression tests
+on:
+  push:
+    branches: [main]
+    paths:
+      - update.py
+      - channels.json
+      - main_pin_policy_test.py
+      - repair_nine_smoke_test.py
+      - .github/workflows/main-pin-policy-test.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile and run regression tests
+        run: |
+          python -m py_compile update.py main_pin_policy_test.py repair_probe.py
+          python -m unittest main_pin_policy_test.py repair_nine_smoke_test.py
