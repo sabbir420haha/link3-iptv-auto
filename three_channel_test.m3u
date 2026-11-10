@@ -760,3 +760,53 @@ http://103.135.253.32:8080/Indipendent/index.m3u8
 # STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
 #EXTINF:-1 tvg-id="main-repair-20261110-independent-tv-05" tvg-name="Independent TV REPAIR TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Independent TV REPAIR TEST 05
 https://bdsl.jagobd.com:444/cZVydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZT00U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/independent-8-org.stream/chunks.m3u8
+
+# SMART RECHECK RESULTS | only fresh auto-generated tests
+# GitHub runner manifest + media-segment + live-progress checks passed.
+# NOT Link3 verified. Check actual channel identity, language, quality and playback in IPTV Pro.
+# Only TEST playlist is updated; Main playlist is never modified.
+# SOURCE: SM-IPTV
+# RUNNER CHECK: manifest=PASS; media-segment=PASS; live-progress=PASS; advertised-height=720
+# UNVERIFIED: Link3/IPTV Pro playback and actual audio/channel identity must be checked by the user.
+#EXTINF:-1 tvg-id="repair-auto-atn-bangla-01" tvg-name="ATN Bangla RECHECK 01" tvg-logo="" group-title="TEST CHANNELS - SINGLE GROUP",ATN Bangla RECHECK 01
+https://tvsen5.aynaott.com/atnbangla/index.m3u8
+# SOURCE: SM-IPTV
+# RUNNER CHECK: manifest=PASS; media-segment=PASS; live-progress=PASS; advertised-height=0
+# UNVERIFIED: Link3/IPTV Pro playback and actual audio/channel identity must be checked by the user.
+#EXTINF:-1 tvg-id="repair-auto-atn-bangla-02" tvg-name="ATN Bangla RECHECK 02" tvg-logo="" group-title="TEST CHANNELS - SINGLE GROUP",ATN Bangla RECHECK 02
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/atnbd-8-org.stream/tracks-v1a1/mono.m3u8
+# SOURCE: iptv-kids
+# RUNNER CHECK: manifest=PASS; media-segment=PASS; live-progress=PASS; advertised-height=720
+# UNVERIFIED: Link3/IPTV Pro playback and actual audio/channel identity must be checked by the user.
+#EXTINF:-1 tvg-id="repair-auto-cartoon-network-01" tvg-name="Cartoon Network RECHECK 01" tvg-logo="" group-title="TEST CHANNELS - SINGLE GROUP",Cartoon Network RECHECK 01
+https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network.m3u8
+# SOURCE: iptv-kids
+# RUNNER CHECK: manifest=PASS; media-segment=PASS; live-progress=PASS; advertised-height=720
+# UNVERIFIED: Link3/IPTV Pro playback and actual audio/channel identity must be checked by the user.
+#EXTINF:-1 tvg-id="repair-auto-cartoon-network-02" tvg-name="Cartoon Network RECHECK 02" tvg-logo="" group-title="TEST CHANNELS - SINGLE GROUP",Cartoon Network RECHECK 02
+http://212.5.144.156:8080/cartoon/index.m3u8
+# SOURCE: iptv-kids
+# RUNNER CHECK: manifest=PASS; media-segment=PASS; live-progress=PASS; advertised-height=0
+# UNVERIFIED: Link3/IPTV Pro playback and actual audio/channel identity must be checked by the user.
+#EXTINF:-1 tvg-id="repair-auto-cartoon-network-03" tvg-name="Cartoon Network RECHECK 03" tvg-logo="" group-title="TEST CHANNELS - SINGLE GROUP",Cartoon Network RECHECK 03
+http://185.227.34.104/stream/122/index.m3u8
+# SOURCE: iptv-kids
+# RUNNER CHECK: manifest=PASS; media-segment=PASS; live-progress=PASS; advertised-height=0
+# UNVERIFIED: Link3/IPTV Pro playback and actual audio/channel identity must be checked by the user.
+#EXTINF:-1 tvg-id="repair-auto-cartoon-network-04" tvg-name="Cartoon Network RECHECK 04" tvg-logo="" group-title="TEST CHANNELS - SINGLE GROUP",Cartoon Network RECHECK 04
+http://176.65.153.40:6002/play/a013/index.m3u8
+# SOURCE: Zaman-Active
+# RUNNER CHECK: manifest=PASS; media-segment=PASS; live-progress=PASS; advertised-height=1080
+# UNVERIFIED: Link3/IPTV Pro playback and actual audio/channel identity must be checked by the user.
+#EXTINF:-1 tvg-id="repair-auto-channel-24-01" tvg-name="Channel 24 RECHECK 01" tvg-logo="" group-title="TEST CHANNELS - SINGLE GROUP",Channel 24 RECHECK 01
+https://livestream.telvue.com/santamariactv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+# SOURCE: Zaman-Active
+# RUNNER CHECK: manifest=PASS; media-segment=PASS; live-progress=PASS; advertised-height=720
+# UNVERIFIED: Link3/IPTV Pro playback and actual audio/channel identity must be checked by the user.
+#EXTINF:-1 tvg-id="repair-auto-channel-24-02" tvg-name="Channel 24 RECHECK 02" tvg-logo="" group-title="TEST CHANNELS - SINGLE GROUP",Channel 24 RECHECK 02
+https://livestream.telvue.com/lompoccmttv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
+# SOURCE: SM-IPTV
+# RUNNER CHECK: manifest=PASS; media-segment=PASS; live-progress=PASS; advertised-height=720
+# UNVERIFIED: Link3/IPTV Pro playback and actual audio/channel identity must be checked by the user.
+#EXTINF:-1 tvg-id="repair-auto-duronto-tv-01" tvg-name="Duronto TV RECHECK 01" tvg-logo="" group-title="TEST CHANNELS - SINGLE GROUP",Duronto TV RECHECK 01
+https://tvsen5.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.fmp4.m3u8
