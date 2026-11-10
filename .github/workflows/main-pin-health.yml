@@ -1,0 +1,42 @@
+name: Diagnose nine broken Main IPTV pins
+on:
+  push:
+    branches: [main]
+    paths:
+      - main_pin_diagnostic.py
+      - .github/workflows/main-pin-health.yml
+  workflow_dispatch:
+  schedule:
+    - cron: '41 */3 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: link3-main-pin-health
+  cancel-in-progress: false
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile diagnostics
+        run: python -m py_compile update.py tv_playback_health.py main_pin_diagnostic.py
+      - name: Check nine current Main URLs only (read-only)
+        run: python main_pin_diagnostic.py
+      - name: Save sanitized diagnostic report only
+        run: |
+          git fetch origin main
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+            echo "::warning::Main changed during diagnostic; skipping stale report commit."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add main_pin_health.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Record read-only diagnostics for nine Main IPTV pins'
+            git push
+          fi
