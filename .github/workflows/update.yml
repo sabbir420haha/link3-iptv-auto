@@ -14,6 +14,7 @@ on:
       - tv_playback_health.py
       - main_pin_diagnostic.py
       - main_pin_policy_test.py
+      - repair_nine_smoke_test.py
       - three_missing_probe.py
       - three_playback_health.py
       - .github/workflows/update.yml
