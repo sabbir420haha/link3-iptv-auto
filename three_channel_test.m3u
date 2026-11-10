@@ -570,10 +570,6 @@ http://103.153.39.36:8000/play/a01x
 #EXTINF:-1 tvg-id="main-repair-20261110-hungama-backup-04" tvg-name="Hungama Backup REPAIR TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Hungama Backup REPAIR TEST 04
 http://103.179.246.243:8000/play/a01x
 
-# SOURCE: Raisanbd Sports - labelled Super Hungama, DIFFERENT channel
-# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
-#EXTINF:-1 tvg-id="main-repair-20261110-hungama-backup-05" tvg-name="Hungama Backup REPAIR TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Hungama Backup REPAIR TEST 05
-http://103.175.73.12:8080/live/128/128_0.m3u8
 
 # SOURCE: tg-aadi Sony Liv
 # STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
