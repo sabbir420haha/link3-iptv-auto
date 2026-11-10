@@ -419,3 +419,28 @@ https://tvsen6.aynaott.com/4XcqdovJzbbC9WdJA9gk/index.m3u8
 # UNVERIFIED: Link3/IPTV Pro playback and actual audio/channel identity must be checked by the user.
 #EXTINF:-1 tvg-id="repair-auto-somoy-tv-02" tvg-name="Somoy TV AUTO TEST 02" tvg-logo="" group-title="TEST CHANNELS - SINGLE GROUP",Somoy TV AUTO TEST 02
 http://116.204.149.16/somoytv/index.m3u8
+
+# SONIC HINDI TEST 187-190 | CANDIDATES RECOVERED FROM 2026-11-09 RESEARCH
+# Added to TEST only at user's request. None has been verified for Link3 playback, active HLS video, or Hindi audio.
+# Previously failed TEST 1-184 are not restored. TEST 185-186 remain unchanged.
+# TEST 060 madanitv.assadikb.workers.dev was previously rejected (video not detected) and is intentionally excluded.
+# SOURCE Sonic Hindi TEST 187: arafat-anowar/iptv — ip.m3u8 (public playlist labels this feed Sonic Hindi)
+# STATUS: UNVERIFIED — public playlist listing only; Link3/IPTV Pro playback and Hindi audio require user-side confirmation.
+#EXTINF:-1 tvg-id="sonic-hindi-unverified-187" tvg-name="Sonic Hindi TEST 187" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 187
+https://sonamul3535.vercel.app/Sonic-Hindi.m3u8
+
+# SOURCE Sonic Hindi TEST 188: sadman-al-rafi/sadman-al-rafi.github.io — playlist.m3u8 (public playlist labels this feed Sonic Hindi)
+# STATUS: UNVERIFIED — public playlist listing only; Link3/IPTV Pro playback and Hindi audio require user-side confirmation.
+#EXTINF:-1 tvg-id="sonic-hindi-unverified-188" tvg-name="Sonic Hindi TEST 188" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 188
+https://sar.pages.dev/sonic.m3u8
+
+# SOURCE Sonic Hindi TEST 189: arshdeep1112/Indian-IPTV — channels/iptv_kids.m3u8 (SnehJio Sonic Hindi relay)
+# STATUS: UNVERIFIED — public playlist listing only; Link3/IPTV Pro playback and Hindi audio require user-side confirmation.
+#EXTINF:-1 tvg-id="sonic-hindi-unverified-189" tvg-name="Sonic Hindi TEST 189" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 189
+https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8
+
+# SOURCE Sonic Hindi TEST 190: imdhiru/bloginstall-iptv — bloginstall-iptv.m3u (JioCinema CDN Sonic Hindi 1080p-labelled feed)
+# STATUS: UNVERIFIED — public playlist listing only; Link3/IPTV Pro playback and Hindi audio require user-side confirmation.
+#EXTINF:-1 tvg-id="sonic-hindi-unverified-190" tvg-name="Sonic Hindi TEST 190" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 190
+https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8
+
