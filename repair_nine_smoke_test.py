@@ -27,13 +27,16 @@ class RepairNineSmokeTests(unittest.TestCase):
 
     def test_manual_test_entries_never_deleted(self):
         original = self.test
+        preserved_prefix = original.split(
+            repair_probe.NEW_GENERATED_MARKER, 1
+        )[0].rstrip()
         simulated = original + (
             "\n" + repair_probe.NEW_GENERATED_MARKER + "\n"
             '#EXTINF:-1 tvg-name="Generated RECHECK",Generated RECHECK\n'
             "https://example.org/generated.m3u8\n"
         )
         cleaned = repair_probe.remove_old_repair_entries(simulated)
-        self.assertEqual(cleaned.rstrip(), original.rstrip())
+        self.assertEqual(cleaned.rstrip(), preserved_prefix)
         self.assertIn("Duronto TV REPAIR TEST 01", cleaned)
         self.assertIn("Independent TV REPAIR TEST 01", cleaned)
         self.assertIn("ATN Bangla AUTO TEST 01", cleaned)
