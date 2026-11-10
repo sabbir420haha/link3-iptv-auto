@@ -58,6 +58,9 @@ REMAINING_TARGETS = (
     "Nick Bangla", "Sony Aath", "Sony Ten 1 HD", "Sony Ten 3 HD",
     "Independent TV",
 )
+# Distinct from the historical AUTO REPAIR marker: those old AUTO TEST IDs
+# are already being used by the user to identify working sources.
+NEW_GENERATED_MARKER = "# SMART RECHECK RESULTS | only fresh auto-generated tests"
 # These are subscription channels. Do not publish third-party raw URLs or
 # attempt to bypass a licensed provider's sign-in, cookies, tokens or DRM.
 # These names may require a licensed subscription. Publicly posted stream
@@ -302,7 +305,7 @@ def remove_old_repair_entries(text: str) -> str:
     never delete REPAIR TEST or AUTO TEST IDs: the user uses these numbers to
     identify playback-verified streams and choose MAIN replacements.
     """
-    marker = "# AUTO REPAIR TESTS | Generated from fresh public source checks"
+    marker = NEW_GENERATED_MARKER
     if marker in text:
         return text.split(marker, 1)[0].rstrip() + "\n"
     return text.rstrip() + "\n"
@@ -344,7 +347,7 @@ def build_entries(passed: dict, catalog: list[dict]) -> str:
     logos = {x.get("name"): x.get("logo", "") for x in catalog}
     lines = [
         "",
-        "# AUTO REPAIR TESTS | Generated from fresh public source checks",
+        NEW_GENERATED_MARKER,
         "# GitHub runner manifest + media-segment + live-progress checks passed.",
         "# NOT Link3 verified. Check actual channel identity, language, quality and playback in IPTV Pro.",
         "# Only TEST playlist is updated; Main playlist is never modified.",
@@ -434,8 +437,6 @@ def main():
     # entries are removed so they cannot clutter the new test list.
     clean_test = remove_old_repair_entries(test_text)
     new_section = build_entries(passed, catalog)
-    if "# AUTO REPAIR TESTS | Generated from fresh public source checks" in clean_test:
-        clean_test = clean_test.split("# AUTO REPAIR TESTS | Generated from fresh public source checks", 1)[0].rstrip() + "\n"
     clean_test = clean_test.rstrip() + "\n" + new_section
     TEST.write_text(clean_test, encoding="utf-8")
 
