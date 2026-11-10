@@ -1,6 +1,6 @@
 {
   "skipped_duplicate_or_user_failed": 2,
-  "checked_utc": "2026-11-10T01:32:21.572014+00:00",
+  "checked_utc": "2026-11-10T07:41:16.552340+00:00",
   "scope": "GitHub Actions network, NOT Link3. No channel identities confirmed.",
   "candidate_count": 110,
   "verified_media_candidates": 1,
@@ -1152,7 +1152,7 @@
       "link3_verified": false,
       "publish_eligible": false,
       "note": "GitHub runner-only test. Playlist is unchanged.",
-      "error": "ValueError: No readable HLS data: <urlopen error timed out>"
+      "error": "ValueError: No readable HLS data: <urlopen error [Errno 111] Connection refused>"
     },
     {
       "channel": "Sonic Hindi",
@@ -1574,7 +1574,7 @@
       "link3_verified": false,
       "publish_eligible": false,
       "note": "GitHub runner-only test. Playlist is unchanged.",
-      "error": "ValueError: No readable HLS data: <urlopen error [Errno 111] Connection refused>"
+      "error": "ValueError: No readable HLS data: <urlopen error timed out>"
     },
     {
       "channel": "Disney HD Hindi",
