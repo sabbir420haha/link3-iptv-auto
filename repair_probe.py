@@ -75,7 +75,7 @@ def target_match(target: str, title: str, url: str) -> bool:
     if target == "Duronto TV":
         return "duronto" in value or "duranto" in value
     if target == "Hungama Backup":
-        return "hungama" in value and not any(x in value for x in ("super hungama", "hungama music", "bollywood", "pop pataka", "kadak hits", "dil de", "bol hadipa"))
+        return "hungama" in value and not any(x in value for x in ("super hungama", "hungama music", "bollywood", "pop pataka", "kadak hits", "dil de", "bol hadipa", "hungama kids"))
     if target == "Sony MAX HD":
         return "sony max" in value and not any(x in value for x in ("sony max 2", "sonymax2"))
     if target == "Nat Geo HD Bangla":
@@ -154,9 +154,15 @@ def collect_candidates(main_text: str, test_text: str, catalog: list[dict]) -> t
             source_map = data.get("sources", {})
         for target, keys in REGISTRY_KEYS.items():
             for key in keys:
-                for candidate in source_map.get(key, []) or []:
-                    url = candidate.get("url", "")
-                    origin = candidate.get("origin", candidate.get("source", path.name))
+                for index, candidate in enumerate(source_map.get(key, []) or [], 1):
+                    if isinstance(candidate, str):
+                        url = candidate
+                        origin = f"{path.name}:{key}:candidate-{index:02d}"
+                    elif isinstance(candidate, dict):
+                        url = candidate.get("url", "")
+                        origin = candidate.get("origin", candidate.get("source", path.name))
+                    else:
+                        continue
                     if url and url not in excluded:
                         add_candidate(bag, target, url, origin, target)
 
