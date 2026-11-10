@@ -23,8 +23,24 @@
     "name": "Independent TV",
     "group": "01 | BD News",
     "aliases": [],
-    "locked": true,
-    "last_known_url": "https://drk6xq0vhn.gpcdn.net/live/independent_tv_abr/index.m3u8"
+    "locked": false,
+    "last_known_url": "https://drk6xq0vhn.gpcdn.net/live/independent_tv_abr/index.m3u8",
+    "user_verified_link3": false,
+    "require_link3_confirmation": true,
+    "preserve_last_known_if_no_replacement": true,
+    "refresh_on_unhealthy": true,
+    "requires_media_segment": true,
+    "skip_unverified_fallback": true,
+    "allow_unverified": false,
+    "user_reported_failure_at": "2026-11-10",
+    "user_reported_failures": [
+      "https://drk6xq0vhn.gpcdn.net/live/independent_tv_abr/index.m3u8"
+    ],
+    "exclude_urls": [
+      "https://drk6xq0vhn.gpcdn.net/live/independent_tv_abr/index.m3u8"
+    ],
+    "user_quality_feedback": "User reports the previously selected Main stream is no longer playing on Link3 as of 2026-11-10. The earlier confirmation is historical only; do not label this URL as currently working.",
+    "source_quality_note": "STALE MAIN PIN: current user-reported failure on Link3 (2026-11-10). Keep visible as last-known fallback, audit alternatives, and do not promote any replacement until user confirms playback on Link3."
   },
   {
     "name": "Somoy TV",
@@ -384,8 +400,24 @@
       "Sony AATH",
       "Sony Aath D2H"
     ],
-    "locked": true,
-    "last_known_url": "https://stream.ottplus.live/live/sony_aath_abr/index.m3u8"
+    "locked": false,
+    "last_known_url": "https://stream.ottplus.live/live/sony_aath_abr/index.m3u8",
+    "user_verified_link3": false,
+    "require_link3_confirmation": true,
+    "preserve_last_known_if_no_replacement": true,
+    "refresh_on_unhealthy": true,
+    "requires_media_segment": true,
+    "skip_unverified_fallback": true,
+    "allow_unverified": false,
+    "user_reported_failure_at": "2026-11-10",
+    "user_reported_failures": [
+      "https://stream.ottplus.live/live/sony_aath_abr/index.m3u8"
+    ],
+    "exclude_urls": [
+      "https://stream.ottplus.live/live/sony_aath_abr/index.m3u8"
+    ],
+    "user_quality_feedback": "User reports the previously selected Main stream is no longer playing on Link3 as of 2026-11-10. The earlier confirmation is historical only; do not label this URL as currently working.",
+    "source_quality_note": "STALE MAIN PIN: current user-reported failure on Link3 (2026-11-10). Keep visible as last-known fallback, audit alternatives, and do not promote any replacement until user confirms playback on Link3."
   },
   {
     "name": "Zee Bangla",
@@ -521,13 +553,27 @@
     "name": "Hungama Backup",
     "group": "04 | Kids",
     "aliases": [],
-    "locked": true,
+    "locked": false,
     "last_known_url": "http://103.135.253.32:8080/HUNGAMA/index.m3u8",
     "player_tvg_id": "hungama-backup-old-20261101",
     "player_tvg_name": "Hungama Backup",
     "player_logo": "https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama.png?v=logo-fix-20261101",
     "user_verified_link3": false,
-    "source_quality_note": "Former Main Hungama source, retained at user's request on 2026-11-01 as an independent backup entry. Do not auto-swap; its present playback is not freshly verified."
+    "source_quality_note": "STALE MAIN PIN: current user-reported failure on Link3 (2026-11-10). Keep visible as last-known fallback, audit alternatives, and do not promote any replacement until user confirms playback on Link3.",
+    "require_link3_confirmation": true,
+    "preserve_last_known_if_no_replacement": true,
+    "refresh_on_unhealthy": true,
+    "requires_media_segment": true,
+    "skip_unverified_fallback": true,
+    "allow_unverified": false,
+    "user_reported_failure_at": "2026-11-10",
+    "user_reported_failures": [
+      "http://103.135.253.32:8080/HUNGAMA/index.m3u8"
+    ],
+    "exclude_urls": [
+      "http://103.135.253.32:8080/HUNGAMA/index.m3u8"
+    ],
+    "user_quality_feedback": "User reports the previously selected Main stream is no longer playing on Link3 as of 2026-11-10. The earlier confirmation is historical only; do not label this URL as currently working."
   },
   {
     "name": "Hungama HD",
@@ -782,20 +828,29 @@
       "Nickelodeon Bangla",
       "Nickelodeon Bengali"
     ],
-    "locked": true,
+    "locked": false,
     "last_known_url": "http://103.135.253.32:8080/NICK/index.m3u8",
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
     "allow_unverified": false,
     "experimental_urls": [],
     "exclude_urls": [
-      "https://jiotvmblive.cdn.jio.com/bpk-tv/Nick_voot_MOB/output03/index.m3u8"
+      "https://jiotvmblive.cdn.jio.com/bpk-tv/Nick_voot_MOB/output03/index.m3u8",
+      "http://103.135.253.32:8080/NICK/index.m3u8"
     ],
-    "user_verified_link3": true,
+    "user_verified_link3": false,
     "user_confirmed_at": "2026-10-23",
-    "user_quality_feedback": "User confirms smooth playback on Link3 and explicitly reports Bangla audio, not Hindi. Preserve original pinned stream.",
+    "user_quality_feedback": "User reports the previously selected Main stream is no longer playing on Link3 as of 2026-11-10. The earlier confirmation is historical only; do not label this URL as currently working.",
     "user_confirmed_audio_language": "bn",
-    "corrected_channel_name_from": "Nick Hindi"
+    "corrected_channel_name_from": "Nick Hindi",
+    "require_link3_confirmation": true,
+    "preserve_last_known_if_no_replacement": true,
+    "refresh_on_unhealthy": true,
+    "user_reported_failure_at": "2026-11-10",
+    "user_reported_failures": [
+      "http://103.135.253.32:8080/NICK/index.m3u8"
+    ],
+    "source_quality_note": "STALE MAIN PIN: current user-reported failure on Link3 (2026-11-10). Keep visible as last-known fallback, audit alternatives, and do not promote any replacement until user confirms playback on Link3."
   },
   {
     "name": "Duronto TV",
@@ -803,19 +858,27 @@
     "aliases": [
       "Duranto TV"
     ],
-    "locked": true,
+    "locked": false,
     "last_known_url": "http://103.135.253.32:8080/DORONTU-TV/index.m3u8",
     "exclude_urls": [
-      "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
+      "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8",
+      "http://103.135.253.32:8080/DORONTU-TV/index.m3u8"
     ],
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
     "user_reported_failures": [
-      "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8"
+      "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8",
+      "http://103.135.253.32:8080/DORONTU-TV/index.m3u8"
     ],
-    "user_verified_link3": true,
+    "user_verified_link3": false,
     "user_confirmed_at": "2026-10-23",
-    "user_quality_feedback": "User confirms smooth playback on Link3; channel language/HD resolution not independently measured"
+    "user_quality_feedback": "User reports the previously selected Main stream is no longer playing on Link3 as of 2026-11-10. The earlier confirmation is historical only; do not label this URL as currently working.",
+    "require_link3_confirmation": true,
+    "preserve_last_known_if_no_replacement": true,
+    "refresh_on_unhealthy": true,
+    "allow_unverified": false,
+    "user_reported_failure_at": "2026-11-10",
+    "source_quality_note": "STALE MAIN PIN: current user-reported failure on Link3 (2026-11-10). Keep visible as last-known fallback, audit alternatives, and do not promote any replacement until user confirms playback on Link3."
   },
   {
     "name": "T Sports",
@@ -917,7 +980,7 @@
       "Sony Ten 1 HD",
       "Sony Ten 1 Hd"
     ],
-    "locked": true,
+    "locked": false,
     "last_known_url": "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_abr/index.m3u8",
     "quality": "hd",
     "min_height": 720,
@@ -927,13 +990,21 @@
     "experimental_urls": [],
     "exclude_urls": [
       "https://dai.google.com/linear/hls/event/wG75n5U8RrOKiFzaWObXbA/master.m3u8",
-      "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8"
+      "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8",
+      "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_abr/index.m3u8"
     ],
     "user_reported_failures": [
-      "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8"
+      "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8",
+      "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_abr/index.m3u8"
     ],
-    "user_verified_link3": true,
-    "user_confirmed_at": "2026-10-23"
+    "user_verified_link3": false,
+    "user_confirmed_at": "2026-10-23",
+    "require_link3_confirmation": true,
+    "preserve_last_known_if_no_replacement": true,
+    "refresh_on_unhealthy": true,
+    "user_reported_failure_at": "2026-11-10",
+    "user_quality_feedback": "User reports the previously selected Main stream is no longer playing on Link3 as of 2026-11-10. The earlier confirmation is historical only; do not label this URL as currently working.",
+    "source_quality_note": "STALE MAIN PIN: current user-reported failure on Link3 (2026-11-10). Keep visible as last-known fallback, audit alternatives, and do not promote any replacement until user confirms playback on Link3."
   },
   {
     "name": "Sony Ten 3 HD",
@@ -943,7 +1014,7 @@
       "Sony Sports Ten 3 Hindi HD",
       "Sony Ten 3 Hd"
     ],
-    "locked": true,
+    "locked": false,
     "last_known_url": "http://103.135.253.32:8080/TEN-3/index.m3u8",
     "quality": "hd",
     "min_height": 720,
@@ -953,15 +1024,22 @@
     "experimental_urls": [],
     "exclude_urls": [
       "https://dai.google.com/linear/hls/event/ltsCG7TBSCSDmyq0rQtvSA/master.m3u8",
-      "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8"
+      "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8",
+      "http://103.135.253.32:8080/TEN-3/index.m3u8"
     ],
     "user_reported_failures": [
-      "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8"
+      "https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8",
+      "http://103.135.253.32:8080/TEN-3/index.m3u8"
     ],
-    "user_verified_link3": true,
+    "user_verified_link3": false,
     "user_confirmed_at": "2026-10-23",
-    "user_quality_feedback": "User confirms channel plays on Link3 but perceived image sharpness/resolution is low. Do not replace working URL. Try alternate high-quality stream separately.",
-    "quality_note": "Plays on Link3 according to user, picture appears soft despite 1080p height reported by GitHub; preserve current URL."
+    "user_quality_feedback": "User reports the previously selected Main stream is no longer playing on Link3 as of 2026-11-10. The earlier confirmation is historical only; do not label this URL as currently working.",
+    "quality_note": "Plays on Link3 according to user, picture appears soft despite 1080p height reported by GitHub; preserve current URL.",
+    "require_link3_confirmation": true,
+    "preserve_last_known_if_no_replacement": true,
+    "refresh_on_unhealthy": true,
+    "user_reported_failure_at": "2026-11-10",
+    "source_quality_note": "STALE MAIN PIN: current user-reported failure on Link3 (2026-11-10). Keep visible as last-known fallback, audit alternatives, and do not promote any replacement until user confirms playback on Link3."
   },
   {
     "name": "Discovery Bangla",
@@ -996,18 +1074,27 @@
       "National Geographic Bangla HD",
       "Nat Geo Bangla"
     ],
-    "locked": true,
+    "locked": false,
     "last_known_url": "http://103.135.253.32:8080/NATGEO-HD/index.m3u8",
     "requires_media_segment": true,
     "skip_unverified_fallback": true,
     "allow_unverified": false,
     "experimental_urls": [],
     "exclude_urls": [
-      "http://tv.pmcon.net/hls/stream13.m3u8"
+      "http://tv.pmcon.net/hls/stream13.m3u8",
+      "http://103.135.253.32:8080/NATGEO-HD/index.m3u8"
     ],
-    "user_verified_link3": true,
+    "user_verified_link3": false,
     "user_confirmed_at": "2026-10-23",
-    "user_quality_feedback": "User confirms smooth playback on Link3; channel language/HD resolution not independently measured"
+    "user_quality_feedback": "User reports the previously selected Main stream is no longer playing on Link3 as of 2026-11-10. The earlier confirmation is historical only; do not label this URL as currently working.",
+    "require_link3_confirmation": true,
+    "preserve_last_known_if_no_replacement": true,
+    "refresh_on_unhealthy": true,
+    "user_reported_failure_at": "2026-11-10",
+    "user_reported_failures": [
+      "http://103.135.253.32:8080/NATGEO-HD/index.m3u8"
+    ],
+    "source_quality_note": "STALE MAIN PIN: current user-reported failure on Link3 (2026-11-10). Keep visible as last-known fallback, audit alternatives, and do not promote any replacement until user confirms playback on Link3."
   },
   {
     "name": "Sony MAX HD",
@@ -1015,7 +1102,7 @@
     "aliases": [
       "Sony Max HD"
     ],
-    "locked": true,
+    "locked": false,
     "last_known_url": "https://stream.ottplus.live/live/max_hd_abr/index.m3u8",
     "quality": "hd",
     "min_height": 720,
@@ -1026,15 +1113,23 @@
     "exclude_urls": [
       "https://dai.google.com/linear/hls/event/UcjHNJmCQ1WRlGKlZm73QA/master.m3u8",
       "http://103.151.60.162:2122/play/a014/index.m3u8?hls",
-      "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8"
+      "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8",
+      "https://stream.ottplus.live/live/max_hd_abr/index.m3u8"
     ],
     "known_user_failures": [
       "http://103.151.60.162:2122/play/a014/index.m3u8?hls"
     ],
     "user_reported_failures": [
-      "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8"
+      "https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8",
+      "https://stream.ottplus.live/live/max_hd_abr/index.m3u8"
     ],
-    "user_verified_link3": true,
-    "user_confirmed_at": "2026-10-23"
+    "user_verified_link3": false,
+    "user_confirmed_at": "2026-10-23",
+    "require_link3_confirmation": true,
+    "preserve_last_known_if_no_replacement": true,
+    "refresh_on_unhealthy": true,
+    "user_reported_failure_at": "2026-11-10",
+    "user_quality_feedback": "User reports the previously selected Main stream is no longer playing on Link3 as of 2026-11-10. The earlier confirmation is historical only; do not label this URL as currently working.",
+    "source_quality_note": "STALE MAIN PIN: current user-reported failure on Link3 (2026-11-10). Keep visible as last-known fallback, audit alternatives, and do not promote any replacement until user confirms playback on Link3."
   }
 ]
