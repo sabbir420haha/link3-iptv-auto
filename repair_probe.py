@@ -50,9 +50,19 @@ REGISTRY_KEYS = {
 }
 MAX_CANDIDATES_PER_CHANNEL = 32
 MAX_RESULTS_PER_CHANNEL = 4
-WORKERS = 12
+WORKERS = 16
+# These nine remain unverified on the user's Link3 IPTV Pro. Check sources,
+# but do NOT modify or replace their MAIN channel URLs.
+REMAINING_TARGETS = (
+    "Duronto TV", "Hungama Backup", "Sony MAX HD", "Nat Geo HD Bangla",
+    "Nick Bangla", "Sony Aath", "Sony Ten 1 HD", "Sony Ten 3 HD",
+    "Independent TV",
+)
 # These are subscription channels. Do not publish third-party raw URLs or
 # attempt to bypass a licensed provider's sign-in, cookies, tokens or DRM.
+# These names may require a licensed subscription. Publicly posted stream
+# URLs may be tested read-only for clear, unauthenticated HLS only. Never
+# bypass DRM, geo-restrictions, credentials, tokens or provider access control.
 SUBSCRIPTION_ONLY = {
     "Cartoon Network", "Hungama Backup", "Sony MAX HD",
     "Nat Geo HD Bangla", "Nick Bangla", "Sony Aath",
@@ -160,8 +170,6 @@ def collect_candidates(main_text: str, test_text: str, catalog: list[dict]) -> t
         else:
             source_map = data.get("sources", {})
         for target, keys in REGISTRY_KEYS.items():
-            if target in SUBSCRIPTION_ONLY:
-                continue
             for key in keys:
                 raw_candidates = source_map.get(key, []) or []
                 if isinstance(raw_candidates, dict):
@@ -195,16 +203,12 @@ def collect_candidates(main_text: str, test_text: str, catalog: list[dict]) -> t
                 if not url or url in excluded:
                     continue
                 for target in TARGETS:
-                    if target in SUBSCRIPTION_ONLY:
-                        continue
                     if target_match(target, title, url):
                         add_candidate(bag, target, url, name, title)
 
     # Exclude every URL already present in either live playlist or catalog exclusions.
+    # Restrict to public, non-authenticated HTTP(S) candidates via updater.allowed().
     for target in TARGETS:
-        if target in SUBSCRIPTION_ONLY:
-            bag[target] = {}
-            continue
         bag[target] = {
             url: item for url, item in bag[target].items()
             if url not in excluded and updater.allowed(url) and not blocked_url(url)
@@ -292,21 +296,49 @@ def is_old_repair_extinf(line: str) -> bool:
     return any(name.startswith(target + " ") for target in TARGETS) or name.startswith("Zee Bangla REPAIR TEST")
 
 def remove_old_repair_entries(text: str) -> str:
+    """Preserve every pre-existing TEST ID, including user-confirmed sources.
+
+    Only replace our own latest auto-generated tail section. In particular,
+    never delete REPAIR TEST or AUTO TEST IDs: the user uses these numbers to
+    identify playback-verified streams and choose MAIN replacements.
+    """
+    marker = "# AUTO REPAIR TESTS | Generated from fresh public source checks"
+    if marker in text:
+        return text.split(marker, 1)[0].rstrip() + "\n"
+    return text.rstrip() + "\n"
+
+
+def existing_nine_test_candidates(text: str) -> dict[str, list[dict]]:
+    """Gather stable, already-published REPAIR TEST IDs for read-only checks."""
+    result = {name: [] for name in REMAINING_TARGETS}
+    seen = {name: set() for name in REMAINING_TARGETS}
     lines = text.splitlines()
-    out = []
-    i = 0
-    while i < len(lines):
-        if is_old_repair_extinf(lines[i]):
-            # Remove source/warning comments immediately before this failed entry.
-            while out and out[-1].startswith("#") and not out[-1].startswith("#EXTINF"):
-                out.pop()
-            i += 1
-            while i < len(lines) and not lines[i].startswith("#EXTINF"):
-                i += 1
+    for i, line in enumerate(lines):
+        if not line.startswith("#EXTINF:"):
             continue
-        out.append(lines[i])
-        i += 1
-    return "\n".join(out).rstrip() + "\n"
+        label = line.rsplit(",", 1)[-1].strip()
+        target = next((
+            target for target in REMAINING_TARGETS
+            if label.startswith(target + " REPAIR TEST ")
+            or label.startswith(target + " AUTO TEST ")
+        ), None)
+        if target is None:
+            continue
+        url = next((
+            lines[j].strip()
+            for j in range(i + 1, min(len(lines), i + 7))
+            if lines[j].startswith(("http://", "https://"))
+            and not any(lines[k].startswith("#EXTINF:") for k in range(i + 1, j))
+        ), "")
+        if not url or url in seen[target] or not updater.allowed(url) or blocked_url(url):
+            continue
+        seen[target].add(url)
+        result[target].append({
+            "url": url, "source": "Existing TEST playlist: " + label,
+            "title": target, "test_id": label,
+        })
+    return result
+
 
 def build_entries(passed: dict, catalog: list[dict]) -> str:
     logos = {x.get("name"): x.get("logo", "") for x in catalog}
@@ -320,7 +352,7 @@ def build_entries(passed: dict, catalog: list[dict]) -> str:
     for target in TARGETS:
         rows = passed.get(target, [])[:MAX_RESULTS_PER_CHANNEL]
         for index, row in enumerate(rows, 1):
-            label = f"{target} AUTO TEST {index:02d}"
+            label = f"{target} RECHECK {index:02d}"
             tvgid = re.sub(r"[^a-z0-9]+", "-", target.lower()).strip("-")
             lines.extend([
                 f"# SOURCE: {row['source']}",
@@ -350,6 +382,26 @@ def main():
         for row in rows:
             all_jobs.append((target, row))
 
+    # Actively re-check the prior TEST candidates as well. They remain on TEST
+    # under their original names, even when remote probes return errors.
+    manual = existing_nine_test_candidates(test_text)
+    manual_results = {target: [] for target in REMAINING_TARGETS}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        manual_futures = {
+            pool.submit(check_candidate, row): target
+            for target, rows in manual.items()
+            for row in rows
+        }
+        for future in concurrent.futures.as_completed(manual_futures):
+            target = manual_futures[future]
+            try:
+                result = future.result()
+            except Exception as exc:
+                result = {"status": "probe_error", "error": str(exc)[:220]}
+            manual_results[target].append(result)
+    for target in REMAINING_TARGETS:
+        manual_results[target].sort(key=lambda x: x.get("test_id", ""))
+
     checked = {target: [] for target in TARGETS}
     with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as pool:
         futures = {pool.submit(check_candidate, row): target for target, row in all_jobs}
@@ -372,7 +424,10 @@ def main():
             "checked": len(checked[target]),
             "runner_live_hls_pass": len(rows),
             "added_to_test": len(passed[target]),
-            "note": "Official subscription source required; no third-party raw URL is published." if target in SUBSCRIPTION_ONLY else "Public candidate probe only; Link3 playback still needs user confirmation.",
+            "note": ("Read-only public URL probe; a licensed provider may be required. "
+                     "No authenticated/DRM feed is accessed; Link3 playback is not confirmed.")
+                    if target in SUBSCRIPTION_ONLY else
+                    "Public candidate probe only; Link3 playback still needs user confirmation.",
         }
 
     # Rebuild only the repair section. Previously user-reported failed repair
@@ -389,6 +444,15 @@ def main():
         "scope": "GitHub runner only; not Link3 or IPTV Pro",
         "targets": TARGETS,
         "subscription_only_targets": sorted(SUBSCRIPTION_ONLY),
+        "remaining_nine_existing_test_checks": {
+            name: {
+                "checked": len(manual_results[name]),
+                "manifest_pass": sum(bool(x.get("manifest_ok")) for x in manual_results[name]),
+                "media_pass": sum(bool(x.get("segment_ok")) for x in manual_results[name]),
+                "live_progress_pass": sum(bool(x.get("live_progress")) for x in manual_results[name]),
+            } for name in REMAINING_TARGETS
+        },
+        "remaining_nine_existing_test_results": manual_results,
         "summary": summary,
         "source_fetches": fetch_report,
         "results": {name: checked[name] for name in TARGETS},
