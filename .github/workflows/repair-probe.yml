@@ -1,0 +1,44 @@
+name: Repair broken Link3 channels - TEST only
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - repair_probe.py
+      - .github/workflows/repair-probe.yml
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */2 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: link3-iptv-refresh
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Probe fresh public candidates (manifest, media bytes, live progress)
+        run: python repair_probe.py
+      - name: Commit TEST playlist only and diagnostic report
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add three_channel_test.m3u repair_probe_results.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh live-checked broken-channel TEST candidates'
+            git fetch origin main
+            if [ "$(git rev-parse HEAD^)" != "$(git rev-parse origin/main)" ]; then
+              echo "::warning::Main advanced during probe; avoid pushing stale test output."
+              exit 0
+            fi
+            git push
+          fi
