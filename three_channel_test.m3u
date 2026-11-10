@@ -498,3 +498,19 @@ https://bldcmprod-cdn.toffeelive.com/cdn/live/independent_tv/playlist.m3u8
 # STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
 #EXTINF:-1 tvg-id="user-independent-tv-alt-02-20261110" tvg-name="Independent TV ALT 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/independent-tv.png" group-title="TEST CHANNELS - SINGLE GROUP",Independent TV ALT 02
 https://tvsen6.aynaott.com/Wef2Vj67njeYGDqQNFB9/index.m3u8
+
+# NOVEMBER 10 - ZEE BANGLA (SD) - MAIN REPAIR TEST (do NOT change Main)
+# SOURCE: GitHub PrattoySaha/IPTV OrangeTv; Zee Bangla SD feed listed in existing favorites registry
+# UNVERIFIED: actual Zee Bangla SD identity, HLS media and Link3 playback not yet verified; user TEST only.
+#EXTINF:-1 tvg-id="repair-zee-bangla-nov10-1" tvg-name="Zee Bangla REPAIR TEST 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="TEST CHANNELS - SINGLE GROUP",Zee Bangla REPAIR TEST 01
+https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeebangla/default/index.m3u8
+
+# SOURCE: GitHub Zahidsdlbd/zee zeenetwork; Zee Bangla feed in existing favorites registry
+# UNVERIFIED: actual Zee Bangla SD identity, HLS media and Link3 playback not yet verified; user TEST only.
+#EXTINF:-1 tvg-id="repair-zee-bangla-nov10-2" tvg-name="Zee Bangla REPAIR TEST 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="TEST CHANNELS - SINGLE GROUP",Zee Bangla REPAIR TEST 02
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebangla1/default/Zeebangla1.m3u8
+
+# SOURCE: GitHub Shapod/tv Bangla.txt; Zee Bangla feed in existing favorites registry
+# UNVERIFIED: actual Zee Bangla SD identity, HLS media and Link3 playback not yet verified; user TEST only.
+#EXTINF:-1 tvg-id="repair-zee-bangla-nov10-3" tvg-name="Zee Bangla REPAIR TEST 03" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/zee-bangla-legacy-sd.png?v=zee-original-clear-20261023" group-title="TEST CHANNELS - SINGLE GROUP",Zee Bangla REPAIR TEST 03
+https://live.drmlive-02.workers.dev/zee/zeebangla.m3u8
