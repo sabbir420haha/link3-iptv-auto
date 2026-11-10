@@ -1,0 +1,1589 @@
+{
+  "checked_utc": "2026-11-10T08:37:56.005543+00:00",
+  "scope": "GitHub runner only; not Link3 or IPTV Pro",
+  "targets": [
+    "ATN Bangla",
+    "Cartoon Network",
+    "Channel 24",
+    "Duronto TV",
+    "Hungama Backup",
+    "Sony MAX HD",
+    "Nat Geo HD Bangla",
+    "Nick Bangla",
+    "Somoy TV",
+    "Sony Aath",
+    "Sony Ten 1 HD",
+    "Sony Ten 3 HD",
+    "Independent TV"
+  ],
+  "subscription_only_targets": [
+    "Cartoon Network",
+    "Hungama Backup",
+    "Nat Geo HD Bangla",
+    "Nick Bangla",
+    "Sony Aath",
+    "Sony MAX HD",
+    "Sony Ten 1 HD",
+    "Sony Ten 3 HD"
+  ],
+  "summary": {
+    "ATN Bangla": {
+      "candidates": 32,
+      "checked": 32,
+      "runner_live_hls_pass": 5,
+      "added_to_test": 4,
+      "note": "Public candidate probe only; Link3 playback still needs user confirmation."
+    },
+    "Cartoon Network": {
+      "candidates": 0,
+      "checked": 0,
+      "runner_live_hls_pass": 0,
+      "added_to_test": 0,
+      "note": "Official subscription source required; no third-party raw URL is published."
+    },
+    "Channel 24": {
+      "candidates": 31,
+      "checked": 31,
+      "runner_live_hls_pass": 4,
+      "added_to_test": 4,
+      "note": "Public candidate probe only; Link3 playback still needs user confirmation."
+    },
+    "Duronto TV": {
+      "candidates": 29,
+      "checked": 29,
+      "runner_live_hls_pass": 0,
+      "added_to_test": 0,
+      "note": "Public candidate probe only; Link3 playback still needs user confirmation."
+    },
+    "Hungama Backup": {
+      "candidates": 0,
+      "checked": 0,
+      "runner_live_hls_pass": 0,
+      "added_to_test": 0,
+      "note": "Official subscription source required; no third-party raw URL is published."
+    },
+    "Sony MAX HD": {
+      "candidates": 0,
+      "checked": 0,
+      "runner_live_hls_pass": 0,
+      "added_to_test": 0,
+      "note": "Official subscription source required; no third-party raw URL is published."
+    },
+    "Nat Geo HD Bangla": {
+      "candidates": 0,
+      "checked": 0,
+      "runner_live_hls_pass": 0,
+      "added_to_test": 0,
+      "note": "Official subscription source required; no third-party raw URL is published."
+    },
+    "Nick Bangla": {
+      "candidates": 0,
+      "checked": 0,
+      "runner_live_hls_pass": 0,
+      "added_to_test": 0,
+      "note": "Official subscription source required; no third-party raw URL is published."
+    },
+    "Somoy TV": {
+      "candidates": 32,
+      "checked": 32,
+      "runner_live_hls_pass": 2,
+      "added_to_test": 2,
+      "note": "Public candidate probe only; Link3 playback still needs user confirmation."
+    },
+    "Sony Aath": {
+      "candidates": 0,
+      "checked": 0,
+      "runner_live_hls_pass": 0,
+      "added_to_test": 0,
+      "note": "Official subscription source required; no third-party raw URL is published."
+    },
+    "Sony Ten 1 HD": {
+      "candidates": 0,
+      "checked": 0,
+      "runner_live_hls_pass": 0,
+      "added_to_test": 0,
+      "note": "Official subscription source required; no third-party raw URL is published."
+    },
+    "Sony Ten 3 HD": {
+      "candidates": 0,
+      "checked": 0,
+      "runner_live_hls_pass": 0,
+      "added_to_test": 0,
+      "note": "Official subscription source required; no third-party raw URL is published."
+    },
+    "Independent TV": {
+      "candidates": 8,
+      "checked": 8,
+      "runner_live_hls_pass": 0,
+      "added_to_test": 0,
+      "note": "Public candidate probe only; Link3 playback still needs user confirmation."
+    }
+  },
+  "source_fetches": {
+    "iptv-sports": {
+      "ok": true,
+      "entries": 508,
+      "error": null
+    },
+    "iptv-bd": {
+      "ok": true,
+      "entries": 45,
+      "error": null
+    },
+    "iptv-ben": {
+      "ok": true,
+      "entries": 106,
+      "error": null
+    },
+    "iptv-hin": {
+      "ok": true,
+      "entries": 366,
+      "error": null
+    },
+    "iptv-documentary": {
+      "ok": true,
+      "entries": 254,
+      "error": null
+    },
+    "iptv-kids": {
+      "ok": true,
+      "entries": 444,
+      "error": null
+    },
+    "iptv-in": {
+      "ok": true,
+      "entries": 836,
+      "error": null
+    },
+    "iptv-entertainment": {
+      "ok": true,
+      "entries": 909,
+      "error": null
+    },
+    "fresh-Bangladesh-genre": {
+      "ok": false,
+      "entries": 0,
+      "error": "HTTP Error 404: Not Found"
+    },
+    "iptv-org-india-raw": {
+      "ok": true,
+      "entries": 1741,
+      "error": null
+    },
+    "public-Indian-family-candidates": {
+      "ok": true,
+      "entries": 64,
+      "error": null
+    },
+    "indian-kids-special": {
+      "ok": true,
+      "entries": 37,
+      "error": null
+    },
+    "Bengali-public-collection": {
+      "ok": true,
+      "entries": 104,
+      "error": null
+    },
+    "SM-IPTV": {
+      "ok": true,
+      "entries": 1389,
+      "error": null
+    },
+    "fresh-India-public-geo": {
+      "ok": true,
+      "entries": 166,
+      "error": null
+    },
+    "updated-Hindi-streams": {
+      "ok": true,
+      "entries": 333,
+      "error": null
+    },
+    "fresh-India-weekly-verified": {
+      "ok": true,
+      "entries": 865,
+      "error": null
+    },
+    "public-SonyLIV-candidates": {
+      "ok": true,
+      "entries": 61,
+      "error": null
+    },
+    "recent-BD-India": {
+      "ok": true,
+      "entries": 86,
+      "error": null
+    },
+    "2026-India-experimental": {
+      "ok": true,
+      "entries": 736,
+      "error": null
+    },
+    "public-cartoon-2026": {
+      "ok": true,
+      "entries": 134,
+      "error": null
+    },
+    "regional-sports-2026": {
+      "ok": true,
+      "entries": 74,
+      "error": null
+    },
+    "updated-Hindi-top": {
+      "ok": true,
+      "entries": 180,
+      "error": null
+    },
+    "Zaman-Active": {
+      "ok": true,
+      "entries": 10850,
+      "error": null
+    }
+  },
+  "results": {
+    "ATN Bangla": [
+      {
+        "url": "https://linkerstv-hls.telelivebd.com/cZMLmVyX3RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnbd-8-org.stream/chunks.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/Global Bangla",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://tv5.hoichoi24.com/1126/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/rahulsaha28/ss/blob/9bafb0f50a2148510d4ccd7043410574dd0d92fe/L.m3u8",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1722/output/index.m3u8",
+        "source": "https://github.com/mrkaday/kaday/blob/9fe48fc0b83e4e1a1eedd8bf5cdbacb0ae2ff08a/tata.m3u8",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://app.ncare.live/live-orgin/atnbd-8-org.stream/playlist.m3u8",
+        "source": "https://github.com/Miraz6755/My-tv/blob/51859defc59083c5e27c143f9c0925508d685bd1/mytv.m3u8",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://bd.jagobd.com:444/c2VydmVyX4RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnbd-8-org.stream/live-orgin/atnbd-8-org.stream/chunks.m3u8",
+        "source": "https://github.com/zawad1804/iptvpublic/blob/48d25372779783f97230adb5cd2fb08eeb428235/a.m3u8",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://livess.ncare.live/live-orgin/atnbanglauk-off.stream/playlist.m3u8",
+        "source": "https://github.com/freedish2024/personal-project.sr/blob/329ea35074a5377c36e27fd3e4d4fd198fd38e7e/Al bangla cx",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://livess.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8",
+        "source": "https://github.com/freedish2024/personal-project.sr/blob/329ea35074a5377c36e27fd3e4d4fd198fd38e7e/Abc bangla",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://livess.ncare.live/live-orgin/atnbd-8-org.stream/chunks.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/jagobd palki",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://tempsignature.jagobd.com:444/cZVydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZT00U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnbd-8-org.stream/chunks.m3u8",
+        "source": "https://github.com/skmasum98/IPTV/blob/31b2c2cbcd01fb3c6e784bebb5b8d8c976378df7/Jagobd",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbd-8-org.stream/playlist.m3u8",
+        "source": "https://github.com/mrkaday/kaday/blob/9fe48fc0b83e4e1a1eedd8bf5cdbacb0ae2ff08a/tata.m3u8",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://tempx.jagobd.com:441/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PT0mdFsaWRtaW51aiPhnPTI/atnbd-8-org.stream/chunks.m3u8",
+        "source": "https://github.com/mdmehedi12/mehedi/blob/5ab139b3f589f1d0fa849ee5fb11936b2f8903ee/Jagobd BDIX",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=atn_bangla",
+        "source": "public-Indian-family-candidates",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://isp.top10bhaluka.com/tv/stream.m3u8?id=ATN-BANGLA&e=.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Bdix",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://iptvlive.ahmed-bd-org.workers.dev/atn-bangla-1/index.m3u8",
+        "source": "SM-IPTV",
+        "title": "ATN Bangla_191",
+        "manifest_ok": true,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "segment_failed"
+      },
+      {
+        "url": "https://edge01.iptv.digijadoo.net/live/atn_bangla/chunks.m3u8",
+        "source": "https://github.com/imranemon1/emon/blob/71dbcda09ccbc09efd474ae3cbe2272b2390a17f/Bangla",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://isp.top10bhaluka.com/tv/stream.m3u8?id=ATN-BANGLA",
+        "source": "https://github.com/Shapod/tv/blob/1d322ecd2b7e1574ca33869c0e3da405c291608c/Bangla.txt",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://iptvbd.jagobd.com:1931/live-orgin/atnbd-8-org.stream/chunks.m3u8",
+        "source": "https://github.com/monetareq/iptv1/blob/33323bfb3eda093c7bd7c64221de1435f7c954df/iptv2",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_atn_banglaPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
+        "source": "Bengali-public-collection",
+        "title": "Atn Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8",
+        "source": "https://github.com/sksobuj240/Live-TV-BOX/blob/d92071453a64fd2e72c8518be2b9fe2a2a2b405c/ALL.M3U8",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://38.96.178.201/live/ATNBangla/index.m3u8",
+        "source": "https://github.com/mrkaday/kaday/blob/9fe48fc0b83e4e1a1eedd8bf5cdbacb0ae2ff08a/tata.m3u8",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8",
+        "source": "https://github.com/sacuar/MyIPTV/blob/ab22139e04cc3b9cc46fbb6099a683b78a9a5185/play.m3u",
+        "title": "ATN Bangla",
+        "manifest_ok": true,
+        "segment_ok": true,
+        "live_progress": true,
+        "height": 576,
+        "status": "runner_live_hls_pass"
+      },
+      {
+        "url": "https://app.ncare.live/live-orgin/atnbanglauk-off.stream/playlist.m3u8",
+        "source": "https://github.com/sacuar/MyIPTV/blob/ab22139e04cc3b9cc46fbb6099a683b78a9a5185/play.m3u",
+        "title": "ATN Bangla",
+        "manifest_ok": true,
+        "segment_ok": true,
+        "live_progress": true,
+        "height": 576,
+        "status": "runner_live_hls_pass"
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/atnbd-8-org.stream/tracks-v1a1/mono.m3u8",
+        "source": "SM-IPTV",
+        "title": "ATN Bangla_190",
+        "manifest_ok": true,
+        "segment_ok": true,
+        "live_progress": true,
+        "height": 0,
+        "status": "runner_live_hls_pass"
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/atnbd-8-org.stream/playlist.m3u8",
+        "source": "SM-IPTV",
+        "title": "ATN Bangla_500",
+        "manifest_ok": true,
+        "segment_ok": true,
+        "live_progress": true,
+        "height": 1080,
+        "status": "runner_live_hls_pass"
+      },
+      {
+        "url": "https://livess.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/chunks.m3u8",
+        "source": "https://github.com/Sumon2021/Sumon-IPTV/blob/1f277e9673396dc5b32db3966395515147d8f19d/Carnival Internet",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://itpolly.iptv.digijadoo.net/live/atn_bangla/chunks.m3u8",
+        "source": "https://github.com/rana00iptv/rana_iptv/blob/dad7061fc45ab80bcd0cdd74a5bcf44e1f984f9d/Bangladeshi",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://bdsatv24.000webhostapp.com/bdaynaa.php?ic=9&e=.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/OrangeTv",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.205.133.21/hls/atnbangla.m3u8",
+        "source": "https://github.com/imranemon1/emon/blob/71dbcda09ccbc09efd474ae3cbe2272b2390a17f/3rd.m3u8",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.81.104.118/hls/stream17.m3u8",
+        "source": "https://github.com/arunprajapati249/iptv/blob/429d32f852132a6d4b90fef18f56ec5ae2efba2c/in.m3u8",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://tv.dugdugilive.com:8080/0ne$ky23/AtnBangla/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/rabbyos/rabbyos/blob/81bc074736dc1a568d3abb276b7ddab5e09f4b13/Bdix",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://tv.ebox.live:8080/live/atnbd1.m3u8",
+        "source": "https://github.com/skmasum98/IPTV/blob/31b2c2cbcd01fb3c6e784bebb5b8d8c976378df7/Ebox",
+        "title": "ATN Bangla",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://tvsen5.aynaott.com/P3y2URgG7LDe/index.m3u8",
+        "source": "https://github.com/rabbyos/rabbyos/blob/81bc074736dc1a568d3abb276b7ddab5e09f4b13/Choda",
+        "title": "ATN Bangla",
+        "manifest_ok": true,
+        "segment_ok": true,
+        "live_progress": true,
+        "height": 720,
+        "status": "runner_live_hls_pass"
+      }
+    ],
+    "Cartoon Network": [],
+    "Channel 24": [
+      {
+        "url": "https://utube.buddyxiptv.com/@channel24digital.m3u8",
+        "source": "GitHub public listing 02 | YouTube IPTV Relay",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://ch24cdn.ncare.live/channel24/ch24office/index.m3u8",
+        "source": "GitHub public listing 01 | Ncare Channel24 Office",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://d1e7rcqq4o2ma.cloudfront.net/bpk-tv/1703/output/index.m3u8",
+        "source": "GitHub public listing 04 | Cloudfront Akash Feed",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://aynapubluc.vercel.app/api/stream/89247cb9-3c3e-465c-bbc7-d444b0d65424.m3u8",
+        "source": "GitHub public listing 05 | Ayna Vercel API",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://livess.ncare.live/live-orgin/channel24-sg-e8e.stream/chunks.m3u8",
+        "source": "GitHub public listing 06 | Ncare Livess Origin",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channel24-sg-e8e.stream/playlist.m3u8",
+        "source": "GitHub public listing 07 | Ncare App Origin",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://global.ncare.live/live-orgin/channel24-sg-e8e.stream/playlist.m3u8",
+        "source": "GitHub public listing 08 | Ncare Global HLS",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/channel24-sg-e8e.stream/playlist.m3u8",
+        "source": "GitHub public listing 10 | JagoBD CDN AppV",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://us170.jagobd.com:447/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/channel24-sg-e8e.stream/playlist.m3u8",
+        "source": "GitHub public listing 11 | JagoBD US170",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://app.jagobd.com.bd/live-orgin/channel24-sg-e8e.stream/playlist.m3u8",
+        "source": "GitHub public listing 09 | JagoBD App Live",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://tempsignature.jagobd.com:444/cZVydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZT00U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/channel24-sg-e8e.stream/chunks.m3u8",
+        "source": "Bengali-public-collection",
+        "title": "CHANNEL 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_channel_24PQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
+        "source": "Bengali-public-collection",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://live20.bozztv.com/dvrfl06/astv/astv-channel24africa/index.m3u8",
+        "source": "Zaman-Active",
+        "title": "Channels 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://tempx.jagobd.com:441/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PT0mdFsaWRtaW51aiPhnPTI/channel24-sg-e8e.stream/chunks.m3u8",
+        "source": "Zaman-Active",
+        "title": "11.CHANNEL 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://drk6xq0vhn.gpcdn.net/live/channel_24_abr/index.m3u8",
+        "source": "SM-IPTV",
+        "title": "Channel 24_99",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://stream.ottplus.live/live/channel_24_abr/index.m3u8",
+        "source": "SM-IPTV",
+        "title": "Channel 24_101",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
+        "source": "Zaman-Active",
+        "title": "Channel 24 HD",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.213.238.70:8080/live/channel_24/chunks.m3u8",
+        "source": "GitHub public listing 19 | Channel24 Ihub IP",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://segment.yuppcdn.net/110322/channel24/playlist.m3u8",
+        "source": "iptv-org-india-raw",
+        "title": "24 News (396p)",
+        "manifest_ok": true,
+        "segment_ok": true,
+        "live_progress": true,
+        "height": 396,
+        "status": "runner_live_hls_pass"
+      },
+      {
+        "url": "http://103.135.253.32:8080/Channel-24/index.m3u8",
+        "source": "SM-IPTV",
+        "title": "Channel 24_98",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://livestream.telvue.com/santamariactv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+        "source": "Zaman-Active",
+        "title": "SMCTV Channel 24 (720p)",
+        "manifest_ok": true,
+        "segment_ok": true,
+        "live_progress": true,
+        "height": 1080,
+        "status": "runner_live_hls_pass"
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel24-sg-e8e.stream/playlist.m3u8",
+        "source": "SM-IPTV",
+        "title": "Channel 24_509",
+        "manifest_ok": true,
+        "segment_ok": true,
+        "live_progress": false,
+        "height": 0,
+        "status": "no_live_progress"
+      },
+      {
+        "url": "https://livestream.telvue.com/lompoccmttv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
+        "source": "Zaman-Active",
+        "title": "TAP TV Channel 24 (720p)",
+        "manifest_ok": true,
+        "segment_ok": true,
+        "live_progress": true,
+        "height": 720,
+        "status": "runner_live_hls_pass"
+      },
+      {
+        "url": "https://itpolly.iptv.digijadoo.net/live/channel_24/chunks.m3u8",
+        "source": "GitHub public listing 13 | Digijadoo Itpolly",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://cdn01.palki.tv:80/live/Channel24-M/tracks-v1a1/mono.m3u8",
+        "source": "GitHub public listing 20 | Channel24 Palki",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://triangle.iptv.digijadoo.net/live/channel_24/chunks.m3u8",
+        "source": "GitHub public listing 14 | Digijadoo Triangle",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://tvsen6.aynaott.com/YrVDF8gujkdh/index.m3u8",
+        "source": "GitHub public listing 12 | AynaOTT Mirror",
+        "title": "Channel 24",
+        "manifest_ok": true,
+        "segment_ok": true,
+        "live_progress": true,
+        "height": 720,
+        "status": "runner_live_hls_pass"
+      },
+      {
+        "url": "http://103.205.133.14/hls/channel24.m3u8",
+        "source": "GitHub public listing 16 | Channel24 IP HLS 14",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://robi.iptv.digijadoo.net/live/channel_24/chunks.m3u8",
+        "source": "GitHub public listing 15 | Digijadoo Robi",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.205.133.19/hls/channel24.m3u8",
+        "source": "GitHub public listing 17 | Channel24 IP HLS 19",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.141.66.36/bpk-tv/10008/default/index.m3u8",
+        "source": "GitHub public listing 18 | Channel24 Akash IP",
+        "title": "Channel 24",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      }
+    ],
+    "Duronto TV": [
+      {
+        "url": "https://tv5.hoichoi24.com/1103/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/rahulsaha28/ss/blob/9bafb0f50a2148510d4ccd7043410574dd0d92fe/L.m3u8",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://tv5.hoichoi24.com/1005/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/Sonaton11/M3/blob/16254f0db46ba1c6b4207fa5b224e8a8d11e2cb1/New.m3u8",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://streamingxfireflix.vercel.app/api/stream?id=245955.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Bd-tv-channel.m3u",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://tvsen4.aynaott.com/durontotv/index.m3u8",
+        "source": "https://github.com/spookyhost1/yarr-stremio/blob/750e234dcfa783873c9261504dd9021ef5ee2de6/src/iptv/m3u-sources/bd.m3u",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_duronto_tvPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
+        "source": "Bengali-public-collection",
+        "title": "Duronto Tv",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
+        "source": "https://github.com/SojebSikder/iptv-web/blob/3f7d30f50b6a8f33fdb9cc56aadf9297dcdf76f1/data/tv.m3u8",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://tvsen5.aynaott.com/durontotv/index.m3u8",
+        "source": "existing-automated-discovery",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://trs1.aynaott.com/duronto/index.m3u8",
+        "source": "fresh-India-public-geo",
+        "title": "Duronto TV (720p)",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://iptv.kitv.live:1935/live/Shari/MTV-P/169.m3u8",
+        "source": "https://github.com/fnnaeem1881/tv_broadcast/blob/1c17069e5348345141dd9a345bf4ebfea9063df5/BDIX-IPTV-main/BDIX IPTV 3.m3u8",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://ctgiptv.kitv.live:1935/live/test/test1/12.m3u8",
+        "source": "https://github.com/Shetara/ab/blob/20b71f74474cba9fd023cb8a7c2ae3cc19dd5ecf/Web-Tv",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://cdn01.palki.tv/live/Duronto-M/index.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/Palki.m3u8",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://tv.cloudcdn.me/live.ts?channelId=74553&uid=13433&deviceMac=00:1A:79:00:97:A1",
+        "source": "https://github.com/puttyroot/attempt/blob/9ae119797800c34e6e5fbd66b82fa79c3b15e1de/Ultra.m3u8",
+        "title": "Duronto TV",
+        "manifest_ok": true,
+        "segment_ok": true,
+        "live_progress": false,
+        "height": 0,
+        "status": "not_live_or_unreadable"
+      },
+      {
+        "url": "http://89.187.185.89:3232/ban-duronto/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/MAHSHARY/IPTV-MSI/blob/af0d7bcf5124d3f49fd7ff1fb94132e01bc85e01/Shihab Tv .m3u",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://itpolly.iptv.digijadoo.net/live/duronto_tv/chunks.m3u8",
+        "source": "https://github.com/aniksarakash/IPTV/blob/1bf273ea9d6edde877637955b9a58c805ec850a6/BDIXI_IPTV.m3u",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://tvsen5.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.fmp4.m3u8",
+        "source": "SM-IPTV",
+        "title": "Duronto TV_286",
+        "manifest_ok": true,
+        "segment_ok": true,
+        "live_progress": false,
+        "height": 0,
+        "status": "no_live_progress"
+      },
+      {
+        "url": "http://172.32.1.88:1935/tvprogram/Duronto-TV/playlist.m3u8",
+        "source": "https://github.com/fnnaeem1881/tv_broadcast/blob/1c17069e5348345141dd9a345bf4ebfea9063df5/smartiptv-playlist-master/New Playlists/SUN IPTV.m3u8",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.102.136.106:8080/cmcltv/duronto_th.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/Robi Iptv",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://premiumtvs.space:80/live/PeH5kPWFfG/infamous7funny/433.ts",
+        "source": "existing-automated-discovery",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.49.168.172:8081/ebox/bd_duronto_tv/chunks.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/Ebox TV 2",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.204.43.87:8080/live/1/1/290.m3u8",
+        "source": "https://github.com/tasinislam17/test/blob/f9750f12a08eb06138accfb4835c01058e2043b3/FiFa 2026 WC IPTV Channels.m3u8",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://otv.ftpbd.net:8082/Duronto-Tv-HD/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/imranemon1/emon/blob/71dbcda09ccbc09efd474ae3cbe2272b2390a17f/FTPbd TV server❤️.m3u",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.121.14.18/hls/duranta.m3u8",
+        "source": "https://github.com/sefatdsi/dth/blob/a8c502e891f9cdf14d60537febcc378978bdc6a0/0102.m3u8",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.107.79.87:8080/CH8108HD01/video.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/Devilbox.m3u8",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://15.1.1.34:8282/duronto-tv/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/fnnaeem1881/tv_broadcast/blob/1c17069e5348345141dd9a345bf4ebfea9063df5/BDIX-IPTV-main/BDIX IPTV.m3u8",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.107.79.87:8080/CH8108SD01/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/Stable.m3u8",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://tvserver.aliflailabd.com:8989/duronto-tv/index.m3u8",
+        "source": "https://github.com/Efbd/E-fiber/blob/34e42db0d2efa75a19807cd18b78cb79ed7edb03/live-tv",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.102.27.173:84/Duronto-TV/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/cvmmehedy/SHADHIN-TV/blob/5202680519c752ae3c07669563c2fd88f5e80d8f/SHADHIN TV",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.205.133.50/hls/duronto.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/ICC IPTV",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://180.94.28.28:8097//Duronto-TV/index.fmp4.m3u8",
+        "source": "https://github.com/Salimtech353/NetPlay/blob/4fd1b013fdce9a7d50ca2691285781abe6ce2914/FAST-IPTV-main/cygk_m3u.m3u8",
+        "title": "Duronto TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      }
+    ],
+    "Hungama Backup": [],
+    "Sony MAX HD": [],
+    "Nat Geo HD Bangla": [],
+    "Nick Bangla": [],
+    "Somoy TV": [
+      {
+        "url": "https://bongohub.pw/bioscope.php?cc=somoy-tv&e=.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Live Tv",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/somoyt000011226615544544.stream/playlist.m3u8",
+        "source": "https://github.com/puttyroot/attempt/blob/9ae119797800c34e6e5fbd66b82fa79c3b15e1de/GitIPTV.m3u8",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
+        "source": "https://github.com/Mitchell-00/FTP-BD/blob/57fed6a692794638ffed11c371dae9cda5d48321/TV 2",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://ythls.armelin.one/channel/UCxHoBXkY88Tb8z1Ssj6CWsQ.m3u8",
+        "source": "https://github.com/popularblog/Bd-News/blob/472503eea4e4bce6a544f023b058d7287c14e7d6/tv channel",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://utube.buddyxiptv.com/@somoynews360.m3u8",
+        "source": "https://github.com/MaksBieber/IPTV/blob/ee0d53d19d7b9e7611c21978bdc5df3ceb927ae8/LiveIPTV.m3u8",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://himel-op.top/Join-Telegram-@HimelOP_Official/yt-op.m3u8?live=@somoytvbulletin",
+        "source": "https://github.com/khankimagi23221/okk-1/blob/96ba0e07d9611ed03c1a1dd20860a349f9c1c040/bd-tv.m3u",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://app.ncare.live/live-orgin/somoyt000011226615544544.stream/playlist.m3u8",
+        "source": "https://github.com/Miraz6755/My-tv/blob/51859defc59083c5e27c143f9c0925508d685bd1/mytv.m3u8",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
+        "source": "https://github.com/nhnasim333/live_tv/blob/8623d914f6181245d9c4c38a3cce3da5499e0da1/public/playlists/iptv.m3u8",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://s1.itcnbd.live/somoy/index.m3u8",
+        "source": "https://github.com/puttyroot/attempt/blob/9ae119797800c34e6e5fbd66b82fa79c3b15e1de/SyncQuery.m3u8",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://global.ncare.live/live-orgin/somoyt000011226615544544.stream/playlist.m3u8",
+        "source": "https://github.com/Mostak840590/Jagoobd/blob/806d6af59ce9bccd769889db1291b4e5abfa5057/Jagoobd.m3u8",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://s1.itcnbd.live/somoy/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/puttyroot/attempt/blob/9ae119797800c34e6e5fbd66b82fa79c3b15e1de/SyncQuery.m3u8",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_somoy_newsPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
+        "source": "Bengali-public-collection",
+        "title": "Somoy Tv",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://tempx.jagobd.com:441/c5V6mmMyX7RpbEU9Mi8xNy8yMDEOGIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PT0mdFsaWRtaW51aiPhnPTI/somoyt000011226615544544.stream/chunks.m3u8",
+        "source": "Zaman-Active",
+        "title": "30.Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://bdsl.jagobd.com:444/cZVydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZT00U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/somoyt000011226615544544.stream/chunks.m3u8",
+        "source": "Zaman-Active",
+        "title": "SOMOY TV (3)",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://bdsl.jagobd.com:444/cZVydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZT00U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/somoyt000011226615544544.stream/chunks.m3u8?@ShamimHossainOfficial",
+        "source": "Zaman-Active",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://iptvbd.jagobd.com:1931/live-orgin/somoyt000011226615544544.stream/chunks.m3u8",
+        "source": "https://github.com/softbdteam/BDIX-IPTV/blob/9da344956da6cec3841457d519bc31f7944e40f0/jago bd.m3u8",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://tvsen7.aynaott.com/Sports4/index.m3u8",
+        "source": "SM-IPTV",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDDEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFsaWRtaW51aiPhnPTI2/somoyt000011226615544544.stream/playlist.m3u8",
+        "source": "Zaman-Active",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://iptvlive.ahmed-bd-org.workers.dev/somoy-tv-2/index.m3u8",
+        "source": "SM-IPTV",
+        "title": "Somoy TV_466",
+        "manifest_ok": true,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "segment_failed"
+      },
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/1702-audio_113322_eng=113200-video=1692000.m3u8",
+        "source": "Zaman-Active",
+        "title": "Somoy Tv",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/1702-audio_113322_eng=113200-video=2202800.m3u8",
+        "source": "Zaman-Active",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://iptvbd.jagobd.com:1931/live-orgin/somoyt000011226615544544.stream/playlist.m3u8",
+        "source": "https://github.com/imranemon1/emon/blob/71dbcda09ccbc09efd474ae3cbe2272b2390a17f/freecatv.m3u8",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://itpolly.iptv.digijadoo.net/live/somoy_news/chunks.m3u8",
+        "source": "https://github.com/asif017/ip-tv-updated-7-02-20/blob/c2dded4d8ecc5f4fd0f0b06ade63b52e720da3ca/Ip tv new update",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.102.136.106:8080/cmcltv/somoy_th.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/CMCL TV.",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.175.242.10:8080/55-Andpicture/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/puttyroot/attempt/blob/9ae119797800c34e6e5fbd66b82fa79c3b15e1de/GitIPTV.m3u8",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.49.168.172:8081/ebox/bd_somoy/chunks.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/Ebox TV 2",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://45.249.187.238:8081/hls/hdmi2.m3u8",
+        "source": "https://github.com/fahadskt/IPTV-Playlists/blob/99b880872ea2ead1ba01acaf0b5f6314a21c5b32/Old/tv.mymoviebazar",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://116.204.149.16/somoytv/index.m3u8",
+        "source": "https://github.com/razuahammad55/live-tv-hub/blob/fc81cc4be19cf5b82c14b5df6a29e4cfbce032fb/tv.m3u",
+        "title": "Somoy TV",
+        "manifest_ok": true,
+        "segment_ok": true,
+        "live_progress": true,
+        "height": 720,
+        "status": "runner_live_hls_pass"
+      },
+      {
+        "url": "https://tvsen6.aynaott.com/4XcqdovJzbbC9WdJA9gk/index.m3u8",
+        "source": "SM-IPTV",
+        "title": "Somoy TV_30",
+        "manifest_ok": true,
+        "segment_ok": true,
+        "live_progress": true,
+        "height": 720,
+        "status": "runner_live_hls_pass"
+      },
+      {
+        "url": "http://103.141.2.37:25461/web/web/597.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/BDIX IPTV.m3u8",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://pgplex.net:8080/SomoyTv/index.m3u8",
+        "source": "https://github.com/PrattoySaha/IPTV/blob/670ffe6818857befadbec939e1b65219de2322aa/pgplex.m3u8",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8",
+        "source": "https://github.com/opensourceflix/OpenSourceFlix/blob/3168bd056c3b1173ee3b224514b98dc4a14c5f82/papaos.m3u8",
+        "title": "Somoy TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      }
+    ],
+    "Sony Aath": [],
+    "Sony Ten 1 HD": [],
+    "Sony Ten 3 HD": [],
+    "Independent TV": [
+      {
+        "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_independent_tvPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
+        "source": "Bengali-public-collection",
+        "title": "Independent Tv",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://drk6xq0vhn.gpcdn.net/live/independent_tv_abr/live/independent_tv_720/chunks.m3u8",
+        "source": "SM-IPTV",
+        "title": "Independent TV_135",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://bozztv.com/rongo/rongo-IndependentTV/index.m3u8",
+        "source": "Zaman-Active",
+        "title": "Independent TV (1080p)",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.135.253.32:8080/Indipendent/index.m3u8",
+        "source": "SM-IPTV",
+        "title": "Independent TV_132",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/independent-8-org.stream/tracks-v1a1/mono.m3u8",
+        "source": "SM-IPTV",
+        "title": "Independent TV_133",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/independent-8-org.stream/playlist.m3u8",
+        "source": "SM-IPTV",
+        "title": "Independent TV_520",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://12.1.1.1:8082/Independent-Tv/index.m3u8",
+        "source": "public-SonyLIV-candidates",
+        "title": "Independent TV",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      },
+      {
+        "url": "http://103.49.168.172:8081/ebox/bd_independent_tv/chunks.m3u8",
+        "source": "Zaman-Active",
+        "title": "Independent",
+        "manifest_ok": false,
+        "segment_ok": false,
+        "live_progress": false,
+        "height": 0,
+        "status": "manifest_failed"
+      }
+    ]
+  },
+  "policy": "No Main edits; no auth/cookie/token/DRM/geo bypass; no known-failed URL reuse.",
+  "max_candidates_per_channel": 32,
+  "max_results_per_channel": 4,
+  "test_playlist": "three_channel_test.m3u",
+  "main_playlist_untouched": true
+}
