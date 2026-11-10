@@ -364,3 +364,137 @@ http://103.165.93.31:8095/sonyYay/index.m3u8
 
 # SOURCE: publiciptv.com/countries/in/m3u; GitHub hmraju/TV
 # UNVERIFIED: Publicly listed as Hungama TV, but no HLS media-byte, actual channel, Link3 or audio test passed here. Viewer test only; Main MUST stay unchanged.
+
+# USER-REQUESTED 13 CHANNEL REPLACEMENT TESTS | 2026-11-10
+# Main playlist playlist.m3u was NOT changed. Existing Zee Bangla entries remain exactly as they were.
+# 26 newly sourced candidates, two per requested channel. Public listing is not proof of playback, rights, language, Link3 compatibility or long-run stability.
+# Toffee CDN/relays may be subscriber-, region- or app-restricted; no DRM or subscription restrictions are bypassed.
+# SOURCE ATN Bangla ALT 01: bugsfreeweb/LiveTVCollector — Bangladesh stream index; source label ATN Bangla 720p
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-atn-bangla-alt-01-20261110" tvg-name="ATN Bangla ALT 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png" group-title="TEST CHANNELS - SINGLE GROUP",ATN Bangla ALT 01
+https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeStreams/StreamsTV-BD/atn_bangla_720p_15bbe1c7.m3u8
+
+# SOURCE ATN Bangla ALT 02: sportstvofc/sportstv-channels — Bangladesh playlist; source label ATN Bangla
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-atn-bangla-alt-02-20261110" tvg-name="ATN Bangla ALT 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-bangla.png" group-title="TEST CHANNELS - SINGLE GROUP",ATN Bangla ALT 02
+http://103.175.242.10:8080/atnbangla/index.m3u8
+
+# SOURCE Cartoon Network ALT 01: johirxofficial/Toffee-Auto-Playlist — Toffee CDN; source label Cartoon Network HD+
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-cartoon-network-alt-01-20261110" tvg-name="Cartoon Network ALT 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png" group-title="TEST CHANNELS - SINGLE GROUP",Cartoon Network ALT 01
+https://bldcmprod-cdn.toffeelive.com/cdn/live/cartoon_network_hd/playlist.m3u8
+
+# SOURCE Cartoon Network ALT 02: bugsfreeweb/LiveTVCollector — Bangladesh stream index; source label Cartoon Network
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-cartoon-network-alt-02-20261110" tvg-name="Cartoon Network ALT 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/cartoon-network.png" group-title="TEST CHANNELS - SINGLE GROUP",Cartoon Network ALT 02
+https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeStreams/StreamsTV-BD/cartoon_network_7b8b09c9.m3u8
+
+# SOURCE Channel 24 ALT 01: Zaman-Topu/Ip-tv-Collection — source label Channel 24 HD
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-channel-24-alt-01-20261110" tvg-name="Channel 24 ALT 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="TEST CHANNELS - SINGLE GROUP",Channel 24 ALT 01
+https://bozztv.com/rongo/rongo-Channel24HD/index.m3u8
+
+# SOURCE Channel 24 ALT 02: sportstvofc/sportstv-channels — Bangladesh playlist; source label Channel 24
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-channel-24-alt-02-20261110" tvg-name="Channel 24 ALT 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/channel-24.png" group-title="TEST CHANNELS - SINGLE GROUP",Channel 24 ALT 02
+http://103.175.242.10:8080/channel24/index.m3u8
+
+# SOURCE Duronto TV ALT 01: myfriendqaz/LiveTVCollector — source label Duronto TV 1080p
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-duronto-tv-alt-01-20261110" tvg-name="Duronto TV ALT 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png" group-title="TEST CHANNELS - SINGLE GROUP",Duronto TV ALT 01
+https://livetv.shamon-cable.net:8443/Duronto/index.m3u8
+
+# SOURCE Duronto TV ALT 02: bugsfreeweb/LiveTVCollector — Bangladesh stream index; source label Duronto TV 720p
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-duronto-tv-alt-02-20261110" tvg-name="Duronto TV ALT 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png" group-title="TEST CHANNELS - SINGLE GROUP",Duronto TV ALT 02
+https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeStreams/StreamsTV-BD/duronto_tv_720p_aefb7334.m3u8
+
+# SOURCE Hungama Backup ALT 01: dineshkn-dev/hyper-tv — source label Hungama TV 576p
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering. # Confirm that this is the main Hungama TV feed, not another Hungama-branded channel.
+#EXTINF:-1 tvg-id="user-hungama-backup-alt-01-20261110" tvg-name="Hungama Backup ALT 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama-backup.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama Backup ALT 01
+http://87.255.35.150:18811?checkedby:iptvcat.com
+
+# SOURCE Hungama Backup ALT 02: imranemon1/emon Playlist-Kids — source label Hungama TV Hindi
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering. # Confirm that this is the main Hungama TV feed, not another Hungama-branded channel.
+#EXTINF:-1 tvg-id="user-hungama-backup-alt-02-20261110" tvg-name="Hungama Backup ALT 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama-backup.png" group-title="TEST CHANNELS - SINGLE GROUP",Hungama Backup ALT 02
+http://4ce5e2d62ee2c10e43c709f9b87c44d5.streamhost.cc/m3u8/Kids/c36fa382a5bf123.m3u8
+
+# SOURCE Sony MAX HD ALT 01: johirxofficial/Toffee-Auto-Playlist — Toffee CDN; Sony MAX HD
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-sony-max-hd-alt-01-20261110" tvg-name="Sony MAX HD ALT 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony MAX HD ALT 01
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_max_hd/playlist.m3u8
+
+# SOURCE Sony MAX HD ALT 02: LiKH0N/BDIXTV_1 Toffee playlist — Sony MAX HD auto relay
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-sony-max-hd-alt-02-20261110" tvg-name="Sony MAX HD ALT 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony MAX HD ALT 02
+https://toffee-thecodecrafters.vercel.app/auto/set_max_hd.m3u8
+
+# SOURCE Nat Geo HD Bangla ALT 01: hmripon66/TechEduByte — explicitly labelled NAT GEO HD Bangla
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-nat-geo-hd-bangla-alt-01-20261110" tvg-name="Nat Geo HD Bangla ALT 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="TEST CHANNELS - SINGLE GROUP",Nat Geo HD Bangla ALT 01
+http://103.167.167.5:8111/play/a036/index.m3u8
+
+# SOURCE Nat Geo HD Bangla ALT 02: mdnisobuj00/sobujtv — explicitly labelled NAT GEO HD BANGLA
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-nat-geo-hd-bangla-alt-02-20261110" tvg-name="Nat Geo HD Bangla ALT 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png" group-title="TEST CHANNELS - SINGLE GROUP",Nat Geo HD Bangla ALT 02
+http://103.132.181.118:82/play/a006
+
+# SOURCE Nick Bangla ALT 01: myfriendqaz/LiveTVCollector — Bangladesh playlist; source label Nick
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-nick-bangla-alt-01-20261110" tvg-name="Nick Bangla ALT 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png" group-title="TEST CHANNELS - SINGLE GROUP",Nick Bangla ALT 01
+http://103.175.242.10:8080/nick/index.m3u8
+
+# SOURCE Nick Bangla ALT 02: LiKH0N/BDIXTV_1 Toffee playlist — source label Nick; audio language to verify
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering. # Audio language not confirmed; verify that this is Bangla Nick.
+#EXTINF:-1 tvg-id="user-nick-bangla-alt-02-20261110" tvg-name="Nick Bangla ALT 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png" group-title="TEST CHANNELS - SINGLE GROUP",Nick Bangla ALT 02
+https://toffee-thecodecrafters.vercel.app/auto/nick.m3u8
+
+# SOURCE Somoy TV ALT 01: johirxofficial/Toffee-Auto-Playlist — Toffee CDN; Somoy TV
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-somoy-tv-alt-01-20261110" tvg-name="Somoy TV ALT 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png" group-title="TEST CHANNELS - SINGLE GROUP",Somoy TV ALT 01
+https://bldcmprod-cdn.toffeelive.com/cdn/live/somoy_tv/playlist.m3u8
+
+# SOURCE Somoy TV ALT 02: LiKH0N/BDIXTV_1 Toffee playlist — Somoy TV auto relay
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-somoy-tv-alt-02-20261110" tvg-name="Somoy TV ALT 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png" group-title="TEST CHANNELS - SINGLE GROUP",Somoy TV ALT 02
+https://toffee-thecodecrafters.vercel.app/auto/somoy_tv.m3u8
+
+# SOURCE Sony Aath ALT 01: johirxofficial/Toffee-Auto-Playlist — Toffee CDN; Sony Aath
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-sony-aath-alt-01-20261110" tvg-name="Sony Aath ALT 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony Aath ALT 01
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyaath/playlist.m3u8
+
+# SOURCE Sony Aath ALT 02: iptv-org/iptv streams/in.m3u — source label Sony Aath 576p
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-sony-aath-alt-02-20261110" tvg-name="Sony Aath ALT 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony Aath ALT 02
+https://livetv.shamon-cable.net:8443/Sony-8/index.m3u8
+
+# SOURCE Sony Ten 1 HD ALT 01: johirxofficial/Toffee-Auto-Playlist — Toffee CDN; Sony Ten Sports 1 HD
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-sony-ten-1-hd-alt-01-20261110" tvg-name="Sony Ten 1 HD ALT 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 1 HD ALT 01
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sony_sports_1_hd/playlist.m3u8
+
+# SOURCE Sony Ten 1 HD ALT 02: LiKH0N/BDIXTV_1 Toffee playlist — Sony TEN 1 HD auto relay
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-sony-ten-1-hd-alt-02-20261110" tvg-name="Sony Ten 1 HD ALT 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 1 HD ALT 02
+https://toffee-thecodecrafters.vercel.app/auto/sony_ten1_hd.m3u8
+
+# SOURCE Sony Ten 3 HD ALT 01: LiKH0N/BDIXTV_1 Toffee playlist — Sony TEN 3 HD auto relay
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-sony-ten-3-hd-alt-01-20261110" tvg-name="Sony Ten 3 HD ALT 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 3 HD ALT 01
+https://toffee-thecodecrafters.vercel.app/auto/sony_ten3_hd.m3u8
+
+# SOURCE Sony Ten 3 HD ALT 02: masum1580/masum Toffee playlist — Sony TEN 3 HD relay
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-sony-ten-3-hd-alt-02-20261110" tvg-name="Sony Ten 3 HD ALT 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 3 HD ALT 02
+https://shounwifi.net/api/toffee/ferdos.php?id=sony_ten3_hd
+
+# SOURCE Independent TV ALT 01: johirxofficial/Toffee-Auto-Playlist — Toffee CDN; Independent TV
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-independent-tv-alt-01-20261110" tvg-name="Independent TV ALT 01" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/independent-tv.png" group-title="TEST CHANNELS - SINGLE GROUP",Independent TV ALT 01
+https://bldcmprod-cdn.toffeelive.com/cdn/live/independent_tv/playlist.m3u8
+
+# SOURCE Independent TV ALT 02: sm-monirulislam/SM-IPTV — AynaOTT Independent TV entry
+# STATUS: Publicly listed candidate only; NOT verified on user's Link3 / IPTV Pro. Test actual channel, audio, stability and buffering.
+#EXTINF:-1 tvg-id="user-independent-tv-alt-02-20261110" tvg-name="Independent TV ALT 02" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/independent-tv.png" group-title="TEST CHANNELS - SINGLE GROUP",Independent TV ALT 02
+https://tvsen6.aynaott.com/Wef2Vj67njeYGDqQNFB9/index.m3u8
