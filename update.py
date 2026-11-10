@@ -642,6 +642,21 @@ def matches_channel(item, url):
     }
     return not any(x in url_low for x in wrong.get(label, ()))
 
+
+def preserve_main_pin_pending_link3(item, current, used):
+    """Keep a reported-failed Main URL visible, but never call it working.
+
+    Candidate discovery and HLS checks still run for this unlocked channel.
+    A new source is not promoted until the user confirms playback on Link3.
+    """
+    if not item.get("require_link3_confirmation"):
+        return None
+    old = item.get("last_known_url") or current
+    if old and allowed(old) and matches_channel(item, old) and old not in used:
+        return {"url": old, "logo": "", "source": "last-known-unverified"}
+    return None
+
+
 def score(item, entry, old):
     url = entry["url"]
     host = urllib.parse.urlsplit(url).hostname or ""
@@ -705,15 +720,15 @@ def main():
         "Sony Ten 3 HD",
     )
     FAVORITES_SET = set(FAVORITES_ORDER)
-    required_pins = {"Hungama", "Hungama Backup", "Sony Aath", "Channel 24", "Independent TV"}
-    actual_pins = {x["name"] for x in channels if x.get("locked")}
-    # User specifically excluded six non-playing channels. Never silently restore them.
+    required_channels = {"Hungama", "Hungama Backup", "Sony Aath", "Channel 24", "Independent TV"}
+    all_names = {x["name"] for x in channels}
+    # Required channel entries must remain present; reported-failed Main URLs
+    # are deliberately no longer locked as user-working.
     user_excluded = {"Jago News 24", "TBN24", "Green TV", "Nexus TV",
                      "Colors Bangla", "Aakaash Aath", "Bangla Jago TV"}
-    all_names = {x["name"] for x in channels}
-    if (len(channels) < 97 or not required_pins.issubset(actual_pins)
+    if (len(channels) < 97 or not required_channels.issubset(all_names)
             or user_excluded.intersection(all_names)):
-        raise ValueError("Channel catalog, excluded names, or original pinned streams unexpectedly changed")
+        raise ValueError("Channel catalog, required entries, or user exclusions unexpectedly changed")
     previous = {}
     previous_logos = {}
     if OUTPUT.exists():
@@ -797,7 +812,11 @@ def main():
     for item, current, choices in tasks:
         chosen = None
         state = "NO_STREAM_AVAILABLE"
-        if item.get("locked"):
+        if item.get("require_link3_confirmation"):
+            chosen = preserve_main_pin_pending_link3(item, current, used)
+            state = ("AWAITING_LINK3_CONFIRMATION_LAST_KNOWN_RETAINED"
+                     if chosen else "AWAITING_LINK3_CONFIRMATION_NO_VALID_LAST_KNOWN")
+        elif item.get("locked"):
             chosen = {"url": item["last_known_url"], "logo": "", "source": "user-confirmed"}
             state = "PINNED_USER_WORKING"
         else:
