@@ -28,7 +28,7 @@ class RepairNineSmokeTests(unittest.TestCase):
     def test_manual_test_entries_never_deleted(self):
         original = self.test
         simulated = original + (
-            "\n# AUTO REPAIR TESTS | Generated from fresh public source checks\n"
+            "\n" + repair_probe.NEW_GENERATED_MARKER + "\n"
             '#EXTINF:-1 tvg-name="Generated RECHECK",Generated RECHECK\n'
             "https://example.org/generated.m3u8\n"
         )
@@ -52,10 +52,12 @@ class RepairNineSmokeTests(unittest.TestCase):
                 "Zee Bangla", "Cartoon Network",
             ):
                 continue
-            next_lines = [
-                l.strip() for l in lines[i + 1 : i + 5]
-                if l.startswith(("https://", "http://"))
-            ]
+            next_lines = []
+            for item in lines[i + 1 :]:
+                if item.startswith("#EXTINF:"):
+                    break
+                if item.startswith(("https://", "http://")):
+                    next_lines.append(item.strip())
             self.assertEqual(len(next_lines), 1)
             main_urls[label] = next_lines[0]
         for name, url in main_urls.items():
