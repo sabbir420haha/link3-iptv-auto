@@ -1,0 +1,260 @@
+#EXTM3U
+# CLEAN TEST PLAYLIST — only the 64 newly added ALT TEST entries for the nine requested channels.
+# All sources are candidates, not Link3/IPTV Pro verified. User will identify which ones play.
+# Keep only entries with actual playback; promote to Main only after user confirmation.
+# SOURCE: E-Fiber public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-duronto-tv-01" tvg-name="Duronto TV ALT TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Duronto TV ALT TEST 01
+http://tvserver.aliflailabd.com:8989/duronto-tv/index.m3u8
+# SOURCE: KITV public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-duronto-tv-02" tvg-name="Duronto TV ALT TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Duronto TV ALT TEST 02
+http://ctgiptv.kitv.live:1935/live/Shari/MTV-P/169.m3u8
+# SOURCE: EBOX public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-duronto-tv-03" tvg-name="Duronto TV ALT TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Duronto TV ALT TEST 03
+http://103.49.168.172:8081/ebox/bd_duronto_tv/chunks.m3u8
+# SOURCE: FTPBD public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-duronto-tv-04" tvg-name="Duronto TV ALT TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Duronto TV ALT TEST 04
+http://otv.ftpbd.net:8082/Duronto-Tv-HD/tracks-v1a1/mono.m3u8
+# SOURCE: Hoichoi24 public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-duronto-tv-05" tvg-name="Duronto TV ALT TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Duronto TV ALT TEST 05
+https://tv5.hoichoi24.com/1103/tracks-v1a1/mono.m3u8
+# SOURCE: Palki public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-duronto-tv-06" tvg-name="Duronto TV ALT TEST 06" group-title="TEST CHANNELS - SINGLE GROUP",Duronto TV ALT TEST 06
+http://cdn01.palki.tv/live/Duronto-M/index.m3u8
+# SOURCE: Devilbox public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-duronto-tv-07" tvg-name="Duronto TV ALT TEST 07" group-title="TEST CHANNELS - SINGLE GROUP",Duronto TV ALT TEST 07
+http://103.107.79.87:8080/CH8108SD01/tracks-v1a1/mono.m3u8
+# SOURCE: iptv-org approved stream listing
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-hungama-backup-01" tvg-name="Hungama Backup ALT TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Hungama Backup ALT TEST 01
+http://ajkiptv.ridsys.in/riptv/live/HUNGAMA/index.m3u8
+# SOURCE: iptv-org approved stream listing
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-hungama-backup-02" tvg-name="Hungama Backup ALT TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Hungama Backup ALT TEST 02
+http://iptvcasomsapi.jprdigital.in/x-media/C0408/master.m3u8
+# SOURCE: Freecatv public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-hungama-backup-03" tvg-name="Hungama Backup ALT TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Hungama Backup ALT TEST 03
+http://103.162.136.235:4500/play/a01h/index.m3u8
+# SOURCE: Jazztv public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-hungama-backup-04" tvg-name="Hungama Backup ALT TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Hungama Backup ALT TEST 04
+http://103.84.57.155:8000/play/a03t/index.m3u8
+# SOURCE: LiveIPTV public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-hungama-backup-05" tvg-name="Hungama Backup ALT TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Hungama Backup ALT TEST 05
+http://119.156.26.155:8000/play/a05t/index.m3u8
+# SOURCE: Live-Anime-Cartoon public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-hungama-backup-06" tvg-name="Hungama Backup ALT TEST 06" group-title="TEST CHANNELS - SINGLE GROUP",Hungama Backup ALT TEST 06
+http://51.75.127.199:3141/hungama/index.m3u8
+# SOURCE: Public IPTV source listing
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-hungama-backup-07" tvg-name="Hungama Backup ALT TEST 07" group-title="TEST CHANNELS - SINGLE GROUP",Hungama Backup ALT TEST 07
+http://103.185.24.134:3001/HUNGAMA/index.m3u8
+# SOURCE: Sony Liv public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-max-hd-01" tvg-name="Sony MAX HD ALT TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Sony MAX HD ALT TEST 01
+https://dai.google.com/linear/hls/event/UcjHNJmCQ1WRlGKlZm73QA/master.m3u8
+# SOURCE: Sony Liv public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-max-hd-02" tvg-name="Sony MAX HD ALT TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Sony MAX HD ALT TEST 02
+https://pubads.g.doubleclick.net/ssai/event/Qyqz40bSQriqSuAC7R8_Fw/master.m3u8
+# SOURCE: D2H public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-max-hd-03" tvg-name="Sony MAX HD ALT TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Sony MAX HD ALT TEST 03
+http://103.115.126.26:8000/play/a03r/index.m3u8
+# SOURCE: E-Fiber public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-max-hd-04" tvg-name="Sony MAX HD ALT TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Sony MAX HD ALT TEST 04
+http://103.55.144.46/hls/sony-maxhd.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-max-hd-05" tvg-name="Sony MAX HD ALT TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Sony MAX HD ALT TEST 05
+http://bb.thenayeemparvez.xyz/SonyMaxFHD/index.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-max-hd-06" tvg-name="Sony MAX HD ALT TEST 06" group-title="TEST CHANNELS - SINGLE GROUP",Sony MAX HD ALT TEST 06
+http://humsab.xyz/IN_SonyMaxHD/index.m3u8
+# SOURCE: D2H public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-max-hd-07" tvg-name="Sony MAX HD ALT TEST 07" group-title="TEST CHANNELS - SINGLE GROUP",Sony MAX HD ALT TEST 07
+http://208.86.19.13:81/7066.stream/index.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-max-hd-08" tvg-name="Sony MAX HD ALT TEST 08" group-title="TEST CHANNELS - SINGLE GROUP",Sony MAX HD ALT TEST 08
+http://89.187.177.137:8081/SONYMAX/index.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-max-hd-09" tvg-name="Sony MAX HD ALT TEST 09" group-title="TEST CHANNELS - SINGLE GROUP",Sony MAX HD ALT TEST 09
+http://dx3.gcdn.co/hindi-SONYMAXHD/index.m3u8
+# SOURCE: TechEduByte public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-nat-geo-hd-bangla-01" tvg-name="Nat Geo HD Bangla ALT TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Nat Geo HD Bangla ALT TEST 01
+http://103.167.167.5:8111/play/a036/index.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-nat-geo-hd-bangla-02" tvg-name="Nat Geo HD Bangla ALT TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Nat Geo HD Bangla ALT TEST 02
+http://11plus.live/live/ngohd/index.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-nat-geo-hd-bangla-03" tvg-name="Nat Geo HD Bangla ALT TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Nat Geo HD Bangla ALT TEST 03
+http://103.229.254.25:7001/play/a038/index.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-nat-geo-hd-bangla-04" tvg-name="Nat Geo HD Bangla ALT TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Nat Geo HD Bangla ALT TEST 04
+http://103.107.79.87:8080/CH8110SD07/tracks-v1a1/mono.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-nat-geo-hd-bangla-05" tvg-name="Nat Geo HD Bangla ALT TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Nat Geo HD Bangla ALT TEST 05
+http://103.153.175.254:8080/hls/stream13.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-nat-geo-hd-bangla-06" tvg-name="Nat Geo HD Bangla ALT TEST 06" group-title="TEST CHANNELS - SINGLE GROUP",Nat Geo HD Bangla ALT TEST 06
+http://221.120.204.3/NAT-GEO-HD-LOCKLE/tracks-v1a1/mono.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-nat-geo-hd-bangla-07" tvg-name="Nat Geo HD Bangla ALT TEST 07" group-title="TEST CHANNELS - SINGLE GROUP",Nat Geo HD Bangla ALT TEST 07
+http://103.89.248.130:8082/National-geo-graphy-bangla/index.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-nat-geo-hd-bangla-08" tvg-name="Nat Geo HD Bangla ALT TEST 08" group-title="TEST CHANNELS - SINGLE GROUP",Nat Geo HD Bangla ALT TEST 08
+http://tv.pmcon.net/hls/stream13.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-nick-bangla-01" tvg-name="Nick Bangla ALT TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Nick Bangla ALT TEST 01
+http://14.102.123.50:5001/live/1341.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-nick-bangla-02" tvg-name="Nick Bangla ALT TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Nick Bangla ALT TEST 02
+https://sar.pages.dev/nick_bangla.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-nick-bangla-03" tvg-name="Nick Bangla ALT TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Nick Bangla ALT TEST 03
+https://live.dinesh29.com.np/stream/jiotv/nickbangla/master.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-nick-bangla-04" tvg-name="Nick Bangla ALT TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Nick Bangla ALT TEST 04
+https://tv.googledrivelinks.com/live.php?c=Nick_Bangla&q=1200&e=.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-nick-bangla-05" tvg-name="Nick Bangla ALT TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Nick Bangla ALT TEST 05
+https://fprk.short.gy/SmartFlixtvnickbn.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-nick-bangla-06" tvg-name="Nick Bangla ALT TEST 06" group-title="TEST CHANNELS - SINGLE GROUP",Nick Bangla ALT TEST 06
+http://103.109.56.116/live/funtime110/index.m3u8
+# SOURCE: Sony Liv public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-aath-01" tvg-name="Sony Aath ALT TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Sony Aath ALT TEST 01
+https://pubads.g.doubleclick.net/ssai/event/pSVzGmMpQR6jdmwwJg87OQ/master.m3u8
+# SOURCE: Sony Liv public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-aath-02" tvg-name="Sony Aath ALT TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Sony Aath ALT TEST 02
+https://dai.google.com/linear/hls/event/j-YEIDwORxubtP_967VcZg/master.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-aath-03" tvg-name="Sony Aath ALT TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Sony Aath ALT TEST 03
+http://14.102.123.50:5001/live/697.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-aath-04" tvg-name="Sony Aath ALT TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Sony Aath ALT TEST 04
+https://cloudplay-sonyliv.pages.dev/aath.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-aath-05" tvg-name="Sony Aath ALT TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Sony Aath ALT TEST 05
+http://103.205.133.19/hls/sony8.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-aath-06" tvg-name="Sony Aath ALT TEST 06" group-title="TEST CHANNELS - SINGLE GROUP",Sony Aath ALT TEST 06
+http://103.205.133.21/hls/sony8.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-aath-07" tvg-name="Sony Aath ALT TEST 07" group-title="TEST CHANNELS - SINGLE GROUP",Sony Aath ALT TEST 07
+http://198.195.239.50:8095/SonyAath/tracks-v1a1/mono.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-aath-08" tvg-name="Sony Aath ALT TEST 08" group-title="TEST CHANNELS - SINGLE GROUP",Sony Aath ALT TEST 08
+http://103.109.56.116/live/skyfeed1016/index.m3u8
+# SOURCE: Jazztv public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-ten-1-hd-01" tvg-name="Sony Ten 1 HD ALT TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 1 HD ALT TEST 01
+http://103.84.57.155:8000/play/a027/index.m3u8
+# SOURCE: E-Fiber public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-ten-1-hd-02" tvg-name="Sony Ten 1 HD ALT TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 1 HD ALT TEST 02
+http://tvserver.aliflailabd.com:8989/sony-ten1-hd/index.m3u8
+# SOURCE: Tplay public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-ten-1-hd-03" tvg-name="Sony Ten 1 HD ALT TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 1 HD ALT TEST 03
+http://119.152.240.15:8001/play/a0av/index.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-ten-1-hd-04" tvg-name="Sony Ten 1 HD ALT TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 1 HD ALT TEST 04
+http://103.205.133.14/hls/ten1.m3u8
+# SOURCE: Sony Liv public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-ten-1-hd-05" tvg-name="Sony Ten 1 HD ALT TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 1 HD ALT TEST 05
+https://dai.google.com/linear/hls/event/wG75n5U8RrOKiFzaWObXbA/master.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-ten-1-hd-06" tvg-name="Sony Ten 1 HD ALT TEST 06" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 1 HD ALT TEST 06
+http://103.162.136.235:4500/play/a01k/index.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-ten-1-hd-07" tvg-name="Sony Ten 1 HD ALT TEST 07" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 1 HD ALT TEST 07
+http://51.15.8.16:8081/lolind2/sonyten1hd/playlist.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-ten-3-hd-01" tvg-name="Sony Ten 3 HD ALT TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 3 HD ALT TEST 01
+http://103.84.57.155:8000/play/a02q/index.m3u8
+# SOURCE: EBOX public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-ten-3-hd-02" tvg-name="Sony Ten 3 HD ALT TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 3 HD ALT TEST 02
+http://tv.ebox.live:8080/live/sonyten-3.m3u8
+# SOURCE: D2H public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-ten-3-hd-03" tvg-name="Sony Ten 3 HD ALT TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 3 HD ALT TEST 03
+https://otttv.co.in/d2h/livestream/sony-ten-3-hd/master.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-ten-3-hd-04" tvg-name="Sony Ten 3 HD ALT TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 3 HD ALT TEST 04
+http://103.205.133.14/hls/ten3.m3u8
+# SOURCE: Sony Liv public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-ten-3-hd-05" tvg-name="Sony Ten 3 HD ALT TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 3 HD ALT TEST 05
+https://dai.google.com/linear/hls/event/ltsCG7TBSCSDmyq0rQtvSA/master.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-ten-3-hd-06" tvg-name="Sony Ten 3 HD ALT TEST 06" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 3 HD ALT TEST 06
+http://103.162.136.235:4500/play/a018/index.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-sony-ten-3-hd-07" tvg-name="Sony Ten 3 HD ALT TEST 07" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 3 HD ALT TEST 07
+http://51.15.8.16:8081/lolind2/sonyten3/playlist.m3u8
+# SOURCE: Palki public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-independent-tv-01" tvg-name="Independent TV ALT TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Independent TV ALT TEST 01
+http://cdn01.palki.tv/live/Independent-M/index.m3u8
+# SOURCE: Independent Television official YouTube live channel via public HLS proxy
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-independent-tv-02" tvg-name="Independent TV ALT TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Independent TV ALT TEST 02
+https://ythls.armelin.one/channel/UCATUkaOHwO9EP_W87zCiPbA.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-independent-tv-03" tvg-name="Independent TV ALT TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Independent TV ALT TEST 03
+http://103.205.133.19/hls/independent.m3u8
+# SOURCE: Public IPTV playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-independent-tv-04" tvg-name="Independent TV ALT TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Independent TV ALT TEST 04
+http://103.205.133.21/hls/independent.m3u8
+# SOURCE: Jagobd public playlist
+# STATUS: Publicly listed candidate only; Link3/IPTV Pro playback and channel/audio identity are not verified.
+#EXTINF:-1 tvg-id="user-alt-independent-tv-05" tvg-name="Independent TV ALT TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Independent TV ALT TEST 05
+https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/independent-8-org.stream/playlist.m3u8
