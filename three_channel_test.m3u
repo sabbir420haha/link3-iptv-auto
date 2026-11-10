@@ -392,13 +392,9 @@ https://app.ncare.live/live-orgin/atnbanglauk-off.stream/playlist.m3u8
 # SOURCE: Zaman-Active
 # RUNNER CHECK: manifest=PASS; media-segment=PASS; live-progress=PASS; advertised-height=1080
 # UNVERIFIED: Link3/IPTV Pro playback and actual audio/channel identity must be checked by the user.
-#EXTINF:-1 tvg-id="repair-auto-channel-24-01" tvg-name="Channel 24 AUTO TEST 01" tvg-logo="" group-title="TEST CHANNELS - SINGLE GROUP",Channel 24 AUTO TEST 01
-https://livestream.telvue.com/santamariactv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 # SOURCE: Zaman-Active
 # RUNNER CHECK: manifest=PASS; media-segment=PASS; live-progress=PASS; advertised-height=720
 # UNVERIFIED: Link3/IPTV Pro playback and actual audio/channel identity must be checked by the user.
-#EXTINF:-1 tvg-id="repair-auto-channel-24-02" tvg-name="Channel 24 AUTO TEST 02" tvg-logo="" group-title="TEST CHANNELS - SINGLE GROUP",Channel 24 AUTO TEST 02
-https://livestream.telvue.com/lompoccmttv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 # SOURCE: GitHub public listing 12 | AynaOTT Mirror
 # RUNNER CHECK: manifest=PASS; media-segment=PASS; live-progress=PASS; advertised-height=720
 # UNVERIFIED: Link3/IPTV Pro playback and actual audio/channel identity must be checked by the user.
@@ -420,27 +416,351 @@ https://tvsen6.aynaott.com/4XcqdovJzbbC9WdJA9gk/index.m3u8
 #EXTINF:-1 tvg-id="repair-auto-somoy-tv-02" tvg-name="Somoy TV AUTO TEST 02" tvg-logo="" group-title="TEST CHANNELS - SINGLE GROUP",Somoy TV AUTO TEST 02
 http://116.204.149.16/somoytv/index.m3u8
 
-# SONIC HINDI TEST 187-190 | CANDIDATES RECOVERED FROM 2026-11-09 RESEARCH
-# Added to TEST only at user's request. None has been verified for Link3 playback, active HLS video, or Hindi audio.
-# Previously failed TEST 1-184 are not restored. TEST 185-186 remain unchanged.
-# TEST 060 madanitv.assadikb.workers.dev was previously rejected (video not detected) and is intentionally excluded.
-# SOURCE Sonic Hindi TEST 187: arafat-anowar/iptv — ip.m3u8 (public playlist labels this feed Sonic Hindi)
-# STATUS: UNVERIFIED — public playlist listing only; Link3/IPTV Pro playback and Hindi audio require user-side confirmation.
-#EXTINF:-1 tvg-id="sonic-hindi-unverified-187" tvg-name="Sonic Hindi TEST 187" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 187
-https://sonamul3535.vercel.app/Sonic-Hindi.m3u8
+# MAIN FAVORITES REPAIR CANDIDATES — November 10 2026
+# User requested these 14 channel groups in TEST playlist, not Sonic. All are unverified public listings; no Link3/IPTV Pro playback claim.
+# Preserve original Main playlist and already-working Zee Bangla. Verify channel identity, audio, resolution and playback before promotion.
 
-# SOURCE Sonic Hindi TEST 188: sadman-al-rafi/sadman-al-rafi.github.io — playlist.m3u8 (public playlist labels this feed Sonic Hindi)
-# STATUS: UNVERIFIED — public playlist listing only; Link3/IPTV Pro playback and Hindi audio require user-side confirmation.
-#EXTINF:-1 tvg-id="sonic-hindi-unverified-188" tvg-name="Sonic Hindi TEST 188" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 188
-https://sar.pages.dev/sonic.m3u8
+# SOURCE: SM-IPTV Combined
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-zee-bangla-01" tvg-name="Zee Bangla REPAIR TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Zee Bangla REPAIR TEST 01
+https://livetv.shamon-cable.net:8443/ZEE-Bangla/index.m3u8
 
-# SOURCE Sonic Hindi TEST 189: arshdeep1112/Indian-IPTV — channels/iptv_kids.m3u8 (SnehJio Sonic Hindi relay)
-# STATUS: UNVERIFIED — public playlist listing only; Link3/IPTV Pro playback and Hindi audio require user-side confirmation.
-#EXTINF:-1 tvg-id="sonic-hindi-unverified-189" tvg-name="Sonic Hindi TEST 189" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 189
-https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=sonic_Hindi&q=800&e=junk.m3u8
+# SOURCE: SM-IPTV Combined
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-zee-bangla-02" tvg-name="Zee Bangla REPAIR TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Zee Bangla REPAIR TEST 02
+https://d1rc86nwwc9fag.cloudfront.net/260723/smil:zeebangla.smil/chunklist_b896000.m3u8
 
-# SOURCE Sonic Hindi TEST 190: imdhiru/bloginstall-iptv — bloginstall-iptv.m3u (JioCinema CDN Sonic Hindi 1080p-labelled feed)
-# STATUS: UNVERIFIED — public playlist listing only; Link3/IPTV Pro playback and Hindi audio require user-side confirmation.
-#EXTINF:-1 tvg-id="sonic-hindi-unverified-190" tvg-name="Sonic Hindi TEST 190" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" group-title="TEST CHANNELS - SINGLE GROUP",Sonic Hindi TEST 190
-https://prod-sports-north-gm.jiocinema.com/bpk-tv/Sonic_Nickelodeon_voot_MOB/Fallback/index.m3u8
+# SOURCE: SM-IPTV Combined
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-zee-bangla-03" tvg-name="Zee Bangla REPAIR TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Zee Bangla REPAIR TEST 03
+https://iptvlive.ahmed-bd-org.workers.dev/zee-bangla-hd-2/index.m3u8
 
+# SOURCE: Raisanbd Sports
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-zee-bangla-04" tvg-name="Zee Bangla REPAIR TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Zee Bangla REPAIR TEST 04
+http://27.124.71.27/Zee_Bangla/index.m3u8
+
+# SOURCE: merajcs8799 IPTV
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-atn-bangla-01" tvg-name="ATN Bangla REPAIR TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",ATN Bangla REPAIR TEST 01
+https://robi.iptv.digijadoo.net/live/atn_bangla/chunks.m3u8
+
+# SOURCE: iptv-org Bangladesh
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-atn-bangla-02" tvg-name="ATN Bangla REPAIR TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",ATN Bangla REPAIR TEST 02
+http://tvsen5.aynascope.net/atnbangla/index.m3u8
+
+# SOURCE: SM-IPTV Combined
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-atn-bangla-03" tvg-name="ATN Bangla REPAIR TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",ATN Bangla REPAIR TEST 03
+https://iptvlive.ahmed-bd-org.workers.dev/atn-bangla-1/index.m3u8
+
+# SOURCE: imranemon1 Bangla
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-atn-bangla-04" tvg-name="ATN Bangla REPAIR TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",ATN Bangla REPAIR TEST 04
+https://edge01.iptv.digijadoo.net/live/atn_bangla/chunks.m3u8
+
+# SOURCE: iptv-org India
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-cartoon-network-01" tvg-name="Cartoon Network REPAIR TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Cartoon Network REPAIR TEST 01
+https://drk6xq0vhn.gpcdn.net/live/cn_hd_abr/index.m3u8
+
+# SOURCE: iptv-org India
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-cartoon-network-02" tvg-name="Cartoon Network REPAIR TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Cartoon Network REPAIR TEST 02
+https://drk6xq0vhn.gpcdn.net/live/cn_sd_abr/index.m3u8
+
+# SOURCE: iptv-org India
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-cartoon-network-03" tvg-name="Cartoon Network REPAIR TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Cartoon Network REPAIR TEST 03
+http://103.135.253.32:8080/CN-NETWORK/index.m3u8
+
+# SOURCE: SM-IPTV Cartoon
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-cartoon-network-04" tvg-name="Cartoon Network REPAIR TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Cartoon Network REPAIR TEST 04
+https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/playlist.m3u8
+
+# SOURCE: Raisanbd toffee
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-cartoon-network-05" tvg-name="Cartoon Network REPAIR TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Cartoon Network REPAIR TEST 05
+https://allottplay.com/tv/toffee/live.php?id=cartoon_network_hd&e=.m3u8
+
+# SOURCE: Raisanbd toffee
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-cartoon-network-06" tvg-name="Cartoon Network REPAIR TEST 06" group-title="TEST CHANNELS - SINGLE GROUP",Cartoon Network REPAIR TEST 06
+https://allottplay.com/tv/toffee/live.php?id=cartoon_network_sd&e=.m3u8
+
+# SOURCE: merajcs8799 IPTV
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-channel-24-01" tvg-name="Channel 24 REPAIR TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Channel 24 REPAIR TEST 01
+https://robi.iptv.digijadoo.net/live/channel_24/chunks.m3u8
+
+# SOURCE: mahmudul339 BD IPTV
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-channel-24-02" tvg-name="Channel 24 REPAIR TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Channel 24 REPAIR TEST 02
+https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8
+
+# SOURCE: SM-IPTV Combined
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-channel-24-03" tvg-name="Channel 24 REPAIR TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Channel 24 REPAIR TEST 03
+https://drk6xq0vhn.gpcdn.net/live/channel_24_abr/index.m3u8
+
+# SOURCE: SM-IPTV Combined
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-channel-24-04" tvg-name="Channel 24 REPAIR TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Channel 24 REPAIR TEST 04
+https://stream.ottplus.live/live/channel_24_abr/index.m3u8
+
+# SOURCE: SM-IPTV Combined
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-channel-24-05" tvg-name="Channel 24 REPAIR TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Channel 24 REPAIR TEST 05
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel24-sg-e8e.stream/playlist.m3u8
+
+# SOURCE: SM-IPTV Combined
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-channel-24-06" tvg-name="Channel 24 REPAIR TEST 06" group-title="TEST CHANNELS - SINGLE GROUP",Channel 24 REPAIR TEST 06
+http://103.135.253.32:8080/Channel-24/index.m3u8
+
+# SOURCE: iptv-org Bangladesh
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-duronto-tv-01" tvg-name="Duronto TV REPAIR TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Duronto TV REPAIR TEST 01
+https://box.bbaria.net/DurontoTV/index.m3u8
+
+# SOURCE: iptv-org Bangladesh
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-duronto-tv-02" tvg-name="Duronto TV REPAIR TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Duronto TV REPAIR TEST 02
+https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8
+
+# SOURCE: iptv-org Bangladesh
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-duronto-tv-03" tvg-name="Duronto TV REPAIR TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Duronto TV REPAIR TEST 03
+https://livetv.shamon-cable.net:8443/Duronto/index.m3u8
+
+# SOURCE: Raisanbd Sports
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-duronto-tv-04" tvg-name="Duronto TV REPAIR TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Duronto TV REPAIR TEST 04
+https://tvsen4.aynaott.com/durontotv/index.m3u8
+
+# SOURCE: zeroflixxyz livestream
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-duronto-tv-05" tvg-name="Duronto TV REPAIR TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Duronto TV REPAIR TEST 05
+https://edge01.iptv.digijadoo.net/live/duronto_tv/chunks.m3u8
+
+# SOURCE: zeroflixxyz livestream
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-duronto-tv-06" tvg-name="Duronto TV REPAIR TEST 06" group-title="TEST CHANNELS - SINGLE GROUP",Duronto TV REPAIR TEST 06
+http://103.141.66.36/bpk-tv/10226/default/index.m3u8
+
+# SOURCE: Raisanbd toffee
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-hungama-backup-01" tvg-name="Hungama Backup REPAIR TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Hungama Backup REPAIR TEST 01
+https://live.dinesh29.com.np/stream/jiotvplus/hungama/master.m3u8
+
+# SOURCE: ttmttm India IPTV
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-hungama-backup-02" tvg-name="Hungama Backup REPAIR TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Hungama Backup REPAIR TEST 02
+https://mini.allinonereborn.fun/tata.php?id=11647
+
+# SOURCE: arshdeep1112 IPTV Kids
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-hungama-backup-03" tvg-name="Hungama Backup REPAIR TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Hungama Backup REPAIR TEST 03
+http://103.153.39.36:8000/play/a01x
+
+# SOURCE: mahmud31132 BDIX tv
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-hungama-backup-04" tvg-name="Hungama Backup REPAIR TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Hungama Backup REPAIR TEST 04
+http://103.179.246.243:8000/play/a01x
+
+# SOURCE: Raisanbd Sports - labelled Super Hungama, DIFFERENT channel
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-hungama-backup-05" tvg-name="Hungama Backup REPAIR TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Hungama Backup REPAIR TEST 05
+http://103.175.73.12:8080/live/128/128_0.m3u8
+
+# SOURCE: tg-aadi Sony Liv
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-max-hd-01" tvg-name="Sony MAX HD REPAIR TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Sony MAX HD REPAIR TEST 01
+https://sliv.tgaadi.workers.dev/sonymaxhd.m3u8
+
+# SOURCE: Raisanbd toffee
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-max-hd-02" tvg-name="Sony MAX HD REPAIR TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Sony MAX HD REPAIR TEST 02
+https://allottplay.com/tv/toffee/live.php?id=sony_max_hd&e=.m3u8
+
+# SOURCE: arafat-anowar IPTV
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-max-hd-03" tvg-name="Sony MAX HD REPAIR TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Sony MAX HD REPAIR TEST 03
+https://sonamul3535.vercel.app/Sony-max-HD.m3u8
+
+# SOURCE: iptv-org India
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-max-hd-04" tvg-name="Sony MAX HD REPAIR TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Sony MAX HD REPAIR TEST 04
+http://103.135.253.32:8080/Sony-Max-HD/index.m3u8
+
+# SOURCE: Raisanbd Sports
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-max-hd-05" tvg-name="Sony MAX HD REPAIR TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Sony MAX HD REPAIR TEST 05
+https://stream.ottplus.bd/live/max_hd_abr/live/max_hd_720/index.m3u8
+
+# SOURCE: ttmttm India IPTV — reportedly geo-blocked
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-max-hd-06" tvg-name="Sony MAX HD REPAIR TEST 06" group-title="TEST CHANNELS - SINGLE GROUP",Sony MAX HD REPAIR TEST 06
+https://sl.vodep39240327.workers.dev/channel/SONY%20MAX%20HD.m3u8
+
+# SOURCE: ttmttm India IPTV - NatGeo HD; Bangla unverified
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-nat-geo-hd-bangla-01" tvg-name="Nat Geo HD Bangla REPAIR TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Nat Geo HD Bangla REPAIR TEST 01
+http://103.157.248.140:8000/play/a012/index.m3u8
+
+# SOURCE: Raisanbd toffee - NatGeo; Bangla unverified
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-nat-geo-hd-bangla-02" tvg-name="Nat Geo HD Bangla REPAIR TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Nat Geo HD Bangla REPAIR TEST 02
+https://tvsen6.aynaott.com/natgeo/index.m3u8
+
+# SOURCE: SM-IPTV Combined - NatGeo; Bangla unverified
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-nat-geo-hd-bangla-03" tvg-name="Nat Geo HD Bangla REPAIR TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Nat Geo HD Bangla REPAIR TEST 03
+https://tvsen3.aynaott.com/7mm4pwCy/index.m3u8
+
+# SOURCE: SM-IPTV Combined - NatGeo; Bangla unverified
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-nat-geo-hd-bangla-04" tvg-name="Nat Geo HD Bangla REPAIR TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Nat Geo HD Bangla REPAIR TEST 04
+http://iptv.prosto.tv:7000/ch83/video.m3u8
+
+# SOURCE: arafat-anowar IPTV
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-nick-bangla-01" tvg-name="Nick Bangla REPAIR TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Nick Bangla REPAIR TEST 01
+http://103.229.254.25:7001/play/a07b/index.m3u8
+
+# SOURCE: arshdeep1112 IPTV Kids
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-nick-bangla-02" tvg-name="Nick Bangla REPAIR TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Nick Bangla REPAIR TEST 02
+https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Nick_Bangla&q=800&e=junk.m3u8
+
+# SOURCE: Raisanbd Sports
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-nick-bangla-03" tvg-name="Nick Bangla REPAIR TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Nick Bangla REPAIR TEST 03
+https://madanitv.assadikb.workers.dev/live.php?id=1341&e=.m3u8
+
+# SOURCE: SM-IPTV Cartoon
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-nick-bangla-04" tvg-name="Nick Bangla REPAIR TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Nick Bangla REPAIR TEST 04
+http://live.balajibroadband.com:3500/live/1341.m3u8
+
+# SOURCE: mahmudul339 BD IPTV
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-somoy-tv-01" tvg-name="Somoy TV REPAIR TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Somoy TV REPAIR TEST 01
+https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
+
+# SOURCE: Raisanbd Sports
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-somoy-tv-02" tvg-name="Somoy TV REPAIR TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Somoy TV REPAIR TEST 02
+https://live.thebosstv.com:30443/dwlive/Somoy-TV/playlist.m3u8
+
+# SOURCE: SM-IPTV Combined
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-somoy-tv-03" tvg-name="Somoy TV REPAIR TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Somoy TV REPAIR TEST 03
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/somoyt000011226615544544.stream/playlist.m3u8
+
+# SOURCE: SM-IPTV Combined
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-somoy-tv-04" tvg-name="Somoy TV REPAIR TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Somoy TV REPAIR TEST 04
+https://iptvlive.ahmed-bd-org.workers.dev/somoy-tv-2/index.m3u8
+
+# SOURCE: zeroflixxyz livestream
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-somoy-tv-05" tvg-name="Somoy TV REPAIR TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Somoy TV REPAIR TEST 05
+http://103.205.133.14/hls/somoy.m3u8
+
+# SOURCE: zeroflixxyz livestream
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-somoy-tv-06" tvg-name="Somoy TV REPAIR TEST 06" group-title="TEST CHANNELS - SINGLE GROUP",Somoy TV REPAIR TEST 06
+http://103.205.133.19/hls/somoy.m3u8
+
+# SOURCE: tg-aadi Sony Liv
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-aath-01" tvg-name="Sony Aath REPAIR TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Sony Aath REPAIR TEST 01
+https://sliv.tgaadi.workers.dev/sonyaathsd.m3u8
+
+# SOURCE: Raisanbd toffee
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-aath-02" tvg-name="Sony Aath REPAIR TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Sony Aath REPAIR TEST 02
+https://allottplay.com/tv/toffee/live.php?id=sonyaath&e=.m3u8
+
+# SOURCE: SM-IPTV Combined
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-aath-03" tvg-name="Sony Aath REPAIR TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Sony Aath REPAIR TEST 03
+https://drk6xq0vhn.gpcdn.net/live/sony_aath_abr/index.m3u8
+
+# SOURCE: iptv-org India
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-aath-04" tvg-name="Sony Aath REPAIR TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Sony Aath REPAIR TEST 04
+http://103.165.93.31:8095/sonyAath/index.m3u8
+
+# SOURCE: iptv-org India
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-aath-05" tvg-name="Sony Aath REPAIR TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Sony Aath REPAIR TEST 05
+https://livetv.shamon-cable.net:8443/Sony-8/index.m3u8
+
+# SOURCE: SM-IPTV Combined
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-aath-06" tvg-name="Sony Aath REPAIR TEST 06" group-title="TEST CHANNELS - SINGLE GROUP",Sony Aath REPAIR TEST 06
+https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8
+
+# SOURCE: tg-aadi Sony Liv
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-ten-1-hd-01" tvg-name="Sony Ten 1 HD REPAIR TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 1 HD REPAIR TEST 01
+https://sliv.tgaadi.workers.dev/ten1hd.m3u8
+
+# SOURCE: Raisanbd toffee
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-ten-1-hd-02" tvg-name="Sony Ten 1 HD REPAIR TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 1 HD REPAIR TEST 02
+https://allottplay.com/tv/toffee/live.php?id=sony_sports_1_hd&e=.m3u8
+
+# SOURCE: ttmttm India IPTV — reportedly geo-blocked
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-ten-1-hd-03" tvg-name="Sony Ten 1 HD REPAIR TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 1 HD REPAIR TEST 03
+https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%201%20HD.m3u8
+
+# SOURCE: MRTHAKER tv_channels
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-ten-1-hd-04" tvg-name="Sony Ten 1 HD REPAIR TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 1 HD REPAIR TEST 04
+https://pubads.g.doubleclick.net/ssai/event/yeYP86THQ4yl7US8Zx5eug/master.m3u8
+
+# SOURCE: tg-aadi Sony Liv
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-ten-3-hd-01" tvg-name="Sony Ten 3 HD REPAIR TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 3 HD REPAIR TEST 01
+https://sliv.tgaadi.workers.dev/ten3hd.m3u8
+
+# SOURCE: ttmttm India IPTV — reportedly geo-blocked
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-ten-3-hd-02" tvg-name="Sony Ten 3 HD REPAIR TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 3 HD REPAIR TEST 02
+https://sl.vodep39240327.workers.dev/channel/SONY%20TEN%203%20HD.m3u8
+
+# SOURCE: MRTHAKER tv_channels
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-sony-ten-3-hd-03" tvg-name="Sony Ten 3 HD REPAIR TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Sony Ten 3 HD REPAIR TEST 03
+https://pubads.g.doubleclick.net/ssai/event/nmQFuHURTYGQBNdUG-2Qdw/master.m3u8
+
+# SOURCE: mahmudul339 BD IPTV
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-independent-tv-01" tvg-name="Independent TV REPAIR TEST 01" group-title="TEST CHANNELS - SINGLE GROUP",Independent TV REPAIR TEST 01
+https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8
+
+# SOURCE: SM-IPTV Combined
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-independent-tv-02" tvg-name="Independent TV REPAIR TEST 02" group-title="TEST CHANNELS - SINGLE GROUP",Independent TV REPAIR TEST 02
+https://tvsen6.aynaott.com/Wef2Vj67njeYGDqQNFB9/index.m3u8
+
+# SOURCE: SM-IPTV Combined
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-independent-tv-03" tvg-name="Independent TV REPAIR TEST 03" group-title="TEST CHANNELS - SINGLE GROUP",Independent TV REPAIR TEST 03
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/independent-8-org.stream/playlist.m3u8
+
+# SOURCE: SM-IPTV Combined
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-independent-tv-04" tvg-name="Independent TV REPAIR TEST 04" group-title="TEST CHANNELS - SINGLE GROUP",Independent TV REPAIR TEST 04
+http://103.135.253.32:8080/Indipendent/index.m3u8
+
+# SOURCE: wukuy IPTV2021
+# STATUS: UNVERIFIED public candidate; Link3 video/audio not confirmed.
+#EXTINF:-1 tvg-id="main-repair-20261110-independent-tv-05" tvg-name="Independent TV REPAIR TEST 05" group-title="TEST CHANNELS - SINGLE GROUP",Independent TV REPAIR TEST 05
+https://bdsl.jagobd.com:444/cZVydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZT00U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/independent-8-org.stream/chunks.m3u8
