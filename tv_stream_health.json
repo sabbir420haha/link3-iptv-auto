@@ -1,82 +1,70 @@
 {
-  "checked_utc": "2026-11-10T07:41:47.619475+00:00",
-  "checked": 24,
-  "manifest_reachable": 9,
-  "two_segment_checks_passed": 9,
+  "checked_utc": "2026-11-10T10:37:49.901206+00:00",
+  "checked": 15,
+  "manifest_reachable": 13,
+  "two_segment_checks_passed": 13,
   "live_progress_window_seconds": 18,
   "live_progress_checks": [
     {
       "name": "Zee Bangla HD",
       "status": "advanced",
-      "first_sequence": 84545,
-      "second_sequence": 84547,
-      "elapsed_seconds": 20.6,
+      "first_sequence": 85718,
+      "second_sequence": 85720,
+      "elapsed_seconds": 21.0,
       "note": "Source manifest progress only; not a test of IPTV Pro decoder"
     },
     {
       "name": "Zee Bangla",
-      "status": "unreachable_from_github",
-      "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found",
-      "elapsed_seconds": 1.9
+      "status": "advanced",
+      "first_sequence": 194517,
+      "second_sequence": 194521,
+      "elapsed_seconds": 18.1,
+      "note": "Source manifest progress only; not a test of IPTV Pro decoder"
     },
     {
       "name": "Channel 24",
-      "status": "unreachable_from_github",
-      "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found",
-      "elapsed_seconds": 1.5
+      "status": "advanced",
+      "first_sequence": 74298,
+      "second_sequence": 74300,
+      "elapsed_seconds": 20.9,
+      "note": "Source manifest progress only; not a test of IPTV Pro decoder"
     },
     {
       "name": "Discovery Bangla",
       "status": "unreachable_from_github",
       "error": "ValueError: No HLS playlist from GitHub runner",
-      "elapsed_seconds": 0.7
+      "elapsed_seconds": 1.4
     },
     {
       "name": "Hungama",
       "status": "unreachable_from_github",
       "error": "ValueError: No HLS playlist from GitHub runner",
-      "elapsed_seconds": 1.0
+      "elapsed_seconds": 0.9
     },
     {
       "name": "Jamuna TV",
       "status": "advanced",
-      "first_sequence": 84976,
-      "second_sequence": 84978,
-      "elapsed_seconds": 20.6,
+      "first_sequence": 86146,
+      "second_sequence": 86148,
+      "elapsed_seconds": 21.0,
       "note": "Source manifest progress only; not a test of IPTV Pro decoder"
     },
     {
-      "name": "Nat Geo HD Bangla",
-      "status": "unreachable_from_github",
-      "error": "ValueError: No readable HLS data: <urlopen error [Errno 111] Connection refused>",
-      "elapsed_seconds": 0.5
-    },
-    {
       "name": "Somoy TV",
-      "status": "unreachable_from_github",
-      "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found",
-      "elapsed_seconds": 1.9
-    },
-    {
-      "name": "Sony Ten 1 HD",
-      "status": "unreachable_from_github",
-      "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found",
-      "elapsed_seconds": 1.9
-    },
-    {
-      "name": "Independent TV",
-      "status": "unreachable_from_github",
-      "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found",
-      "elapsed_seconds": 1.8
+      "status": "advanced",
+      "first_sequence": 144092,
+      "second_sequence": 144095,
+      "elapsed_seconds": 20.3,
+      "note": "Source manifest progress only; not a test of IPTV Pro decoder"
     },
     {
       "name": "Sony Yay",
       "status": "unreachable_from_github",
       "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found",
-      "elapsed_seconds": 1.4
+      "elapsed_seconds": 1.5
     }
   ],
-  "live_progress_advanced": 2,
+  "live_progress_advanced": 5,
   "note": "This tests from GitHub, not Link3. A result is a snapshot of HLS availability, not proof of continuous TV playback or zero buffering. No channel URLs are modified by this diagnostic.",
   "streams": [
     {
@@ -85,27 +73,27 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 7.1,
+      "elapsed_seconds": 7.6,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
     {
       "name": "Zee Bangla",
-      "host": "drk6xq0vhn.gpcdn.net",
-      "manifest_ok": false,
-      "segment_check_1": false,
-      "segment_check_2": false,
-      "elapsed_seconds": 4.1,
+      "host": "d1rc86nwwc9fag.cloudfront.net",
+      "manifest_ok": true,
+      "segment_check_1": true,
+      "segment_check_2": true,
+      "elapsed_seconds": 2.5,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
     {
       "name": "ATN Bangla",
-      "host": "tvsen5.aynaott.com",
+      "host": "app24.jagobd.com.bd",
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 6.9,
+      "elapsed_seconds": 5.1,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -115,27 +103,27 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 6.8,
+      "elapsed_seconds": 7.5,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
     {
       "name": "Cartoon Network",
-      "host": "live20.bozztv.com",
-      "manifest_ok": false,
-      "segment_check_1": false,
-      "segment_check_2": false,
-      "elapsed_seconds": 2.3,
+      "host": "vodzong.mjunoon.tv",
+      "manifest_ok": true,
+      "segment_check_1": true,
+      "segment_check_2": true,
+      "elapsed_seconds": 6.6,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
     {
       "name": "Channel 24",
-      "host": "iptvlive.ahmed-bd-org.workers.dev",
-      "manifest_ok": false,
-      "segment_check_1": false,
-      "segment_check_2": false,
-      "elapsed_seconds": 3.8,
+      "host": "tvsen6.aynaott.com",
+      "manifest_ok": true,
+      "segment_check_1": true,
+      "segment_check_2": true,
+      "elapsed_seconds": 7.6,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -145,7 +133,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 6.8,
+      "elapsed_seconds": 7.5,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -155,7 +143,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 3.6,
+      "elapsed_seconds": 4.6,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -165,17 +153,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 3.9,
-      "error": null,
-      "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
-    },
-    {
-      "name": "Duronto TV",
-      "host": "103.135.253.32",
-      "manifest_ok": false,
-      "segment_check_1": false,
-      "segment_check_2": false,
-      "elapsed_seconds": 2.6,
+      "elapsed_seconds": 4.0,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -185,27 +163,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 6.4,
-      "error": null,
-      "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
-    },
-    {
-      "name": "Hungama Backup",
-      "host": "103.135.253.32",
-      "manifest_ok": false,
-      "segment_check_1": false,
-      "segment_check_2": false,
-      "elapsed_seconds": 2.6,
-      "error": null,
-      "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
-    },
-    {
-      "name": "Sony MAX HD",
-      "host": "stream.ottplus.live",
-      "manifest_ok": false,
-      "segment_check_1": false,
-      "segment_check_2": false,
-      "elapsed_seconds": 3.4,
+      "elapsed_seconds": 5.7,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -215,27 +173,7 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 6.6,
-      "error": null,
-      "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
-    },
-    {
-      "name": "Nat Geo HD Bangla",
-      "host": "103.135.253.32",
-      "manifest_ok": false,
-      "segment_check_1": false,
-      "segment_check_2": false,
-      "elapsed_seconds": 2.5,
-      "error": null,
-      "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
-    },
-    {
-      "name": "Nick Bangla",
-      "host": "103.135.253.32",
-      "manifest_ok": false,
-      "segment_check_1": false,
-      "segment_check_2": false,
-      "elapsed_seconds": 2.5,
+      "elapsed_seconds": 7.5,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -245,57 +183,17 @@
       "manifest_ok": true,
       "segment_check_1": true,
       "segment_check_2": true,
-      "elapsed_seconds": 2.4,
+      "elapsed_seconds": 3.0,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
     {
       "name": "Somoy TV",
-      "host": "drk6xq0vhn.gpcdn.net",
-      "manifest_ok": false,
-      "segment_check_1": false,
-      "segment_check_2": false,
-      "elapsed_seconds": 3.9,
-      "error": null,
-      "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
-    },
-    {
-      "name": "Sony Aath",
-      "host": "stream.ottplus.live",
-      "manifest_ok": false,
-      "segment_check_1": false,
-      "segment_check_2": false,
-      "elapsed_seconds": 3.4,
-      "error": null,
-      "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
-    },
-    {
-      "name": "Sony Ten 1 HD",
-      "host": "drk6xq0vhn.gpcdn.net",
-      "manifest_ok": false,
-      "segment_check_1": false,
-      "segment_check_2": false,
-      "elapsed_seconds": 3.9,
-      "error": null,
-      "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
-    },
-    {
-      "name": "Sony Ten 3 HD",
-      "host": "103.135.253.32",
-      "manifest_ok": false,
-      "segment_check_1": false,
-      "segment_check_2": false,
-      "elapsed_seconds": 2.5,
-      "error": null,
-      "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
-    },
-    {
-      "name": "Independent TV",
-      "host": "drk6xq0vhn.gpcdn.net",
-      "manifest_ok": false,
-      "segment_check_1": false,
-      "segment_check_2": false,
-      "elapsed_seconds": 3.9,
+      "host": "116.204.149.16",
+      "manifest_ok": true,
+      "segment_check_1": true,
+      "segment_check_2": true,
+      "elapsed_seconds": 5.8,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -305,7 +203,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 3.4,
+      "elapsed_seconds": 3.7,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     },
@@ -315,7 +213,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 3.9,
+      "elapsed_seconds": 4.0,
       "error": null,
       "scope": "GitHub Actions runner; NOT the user's Link3 / TV connection"
     }

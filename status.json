@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-11-10T07:38:13.716854+00:00",
+  "updated_utc": "2026-11-10T10:37:13.583163+00:00",
   "channels": 77,
   "target_channels": 99,
   "groups": {
@@ -13,11 +13,119 @@
     "07 | Documentaries": 2,
     "08 | Hindi Entertainment": 1
   },
-  "remote_manifests_probed": 308,
-  "media_segments_probed": 1,
+  "remote_manifests_probed": 327,
+  "media_segments_probed": 5,
   "experimental_unverified": 0,
   "backup_streams": [],
   "candidate_audit": [
+    {
+      "name": "Independent TV",
+      "candidates": [
+        {
+          "source": "SM-IPTV",
+          "url": "https://tvsen6.aynaott.com/Wef2Vj67njeYGDqQNFB9/index.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "Zaman-Active",
+          "url": "https://bozztv.com/rongo/rongo-IndependentTV/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "Bengali-public-collection",
+          "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_independent_tvPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "public-SonyLIV-candidates",
+          "url": "http://12.1.1.1:8082/Independent-Tv/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        }
+      ],
+      "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
+    },
+    {
+      "name": "Sony Aath",
+      "candidates": [
+        {
+          "source": "iptv-org-india-raw",
+          "url": "http://103.135.253.32:8080/SONY_AATH/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "iptv-org-india-raw",
+          "url": "https://livetv.shamon-cable.net:8443/Sony-8/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "iptv-in",
+          "url": "http://103.165.93.31:8095/sonyAath/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "Zaman-Active",
+          "url": "https://cloudplay-sonyliv.pages.dev/aath.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "SM-IPTV",
+          "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "public-SonyLIV-candidates",
+          "url": "https://dai.google.com/linear/hls/event/j-YEIDwORxubtP_967VcZg/master.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "public-Indian-family-candidates",
+          "url": "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sony_aath",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "Bengali-public-collection",
+          "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sony_aathPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "Zaman-Active",
+          "url": "http://163.172.29.246:8081/globalbd/sonyaath/chunks.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        }
+      ],
+      "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
+    },
+    {
+      "name": "Hungama Backup",
+      "candidates": [],
+      "note": "Checked from GitHub Actions, not Link3. No DRM/geo bypass."
+    },
     {
       "name": "Sony Yay",
       "candidates": [
@@ -396,8 +504,15 @@
       "name": "Nick Bangla",
       "candidates": [
         {
-          "source": "SM-IPTV",
-          "url": "http://103.135.253.32:8080/NICK/index.m3u8",
+          "source": "indian-kids-special",
+          "url": "https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Nick_Bangla&q=800&e=junk.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "Bengali-public-collection",
+          "url": "https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_nickelodeonPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -410,7 +525,63 @@
       "candidates": [
         {
           "source": "curated-candidate",
-          "url": "http://103.135.253.32:8080/DORONTU-TV/index.m3u8",
+          "url": "https://tvsen4.aynaott.com/durontotv/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://tvsen5.aynaott.com/durontotv/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://tvsen5.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.fmp4.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/tracks-v1a1/mono.ts.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://box.bbaria.net/DurontoTV/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/duronto.stream/tracks-v1a1/mono.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.106.243.163:8989/duronto-tv/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://89.187.185.89:3232/ban-duronto/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://27.147.156.14:1935/Durunto-TV/Duronto-TV.stream/playlist.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -423,7 +594,56 @@
       "candidates": [
         {
           "source": "curated-candidate",
-          "url": "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_abr/index.m3u8",
+          "url": "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/chunks.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://feed.play.mv/live/10005200/fMLTkj4OJC/master.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.162.136.235:4500/play/a018/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.185.24.134:3001/SonyTenSports1/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "Zaman-Active",
+          "url": "https://cloudplay-sonyliv.pages.dev/ten1hd.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "public-Indian-family-candidates",
+          "url": "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sony_ten1_hd",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "Zaman-Active",
+          "url": "http://103.49.168.172:8081/ebox/ten1/chunks.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -436,7 +656,63 @@
       "candidates": [
         {
           "source": "curated-candidate",
-          "url": "http://103.135.253.32:8080/TEN-3/index.m3u8",
+          "url": "https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://feed.play.mv/live/10005200/RG2fKR6d9p/master.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://cloudplay-sonyliv.pages.dev/ten3.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://66.102.120.18:8000/play/a00z/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.84.57.155:8000/play/a02q/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.162.136.235:4500/play/a01d/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.122.74.6:8888/hls/SONY.SPORTS.3.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "Zaman-Active",
+          "url": "https://cloudplay-sonyliv.pages.dev/ten3hd.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "public-Indian-family-candidates",
+          "url": "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=sony_ten3_hd",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -462,7 +738,42 @@
       "candidates": [
         {
           "source": "curated-candidate",
-          "url": "http://103.135.253.32:8080/NATGEO-HD/index.m3u8",
+          "url": "https://tvsen6.aynaott.com/natgeo/index.m3u8",
+          "manifest_ok": true,
+          "segment_ok": true,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.81.104.222/live/national-geographic/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.167.167.5:8111/play/a036/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.89.248.130:8082/National-geo-graphy-bangla/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.55.144.46/hls/ngohd.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://103.153.175.254:8080/hls/stream13.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -475,7 +786,63 @@
       "candidates": [
         {
           "source": "curated-candidate",
-          "url": "https://stream.ottplus.live/live/max_hd_abr/index.m3u8",
+          "url": "https://drk6xq0vhn.gpcdn.net/live/max_hd_abr/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://stream.ottplus.live/live/max_hd_abr/live/max_hd_720/chunks.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://stream.ottplus.bd/live/max_hd_abr/live/max_hd_720/chunks.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://stream.ottplus.bd/live/max_hd_abr/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://stream.ottplus.bd/live/sony_max_sd_abr/live/sony_max_sd_720/chunks.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://nitro-x-methods.shop/NITRO-X-TOFFEE/master.m3u8/?id=set_max_hd",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "https://cdn.rangdhanu.live/SonyMaxHD/video.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://208.86.19.13:81/7066.stream/index.m3u8",
+          "manifest_ok": false,
+          "segment_ok": false,
+          "manifest_height": 0
+        },
+        {
+          "source": "curated-candidate",
+          "url": "http://dx3.gcdn.co/hindi-SONYMAXHD/index.m3u8",
           "manifest_ok": false,
           "segment_ok": false,
           "manifest_height": 0
@@ -1149,7 +1516,7 @@
     {
       "name": "Channel 24",
       "state": "PINNED_USER_WORKING",
-      "stream": "https://iptvlive.ahmed-bd-org.workers.dev/channel-24-hd-1/index.m3u8",
+      "stream": "https://tvsen6.aynaott.com/YrVDF8gujkdh/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1162,15 +1529,15 @@
     },
     {
       "name": "Independent TV",
-      "state": "PINNED_USER_WORKING",
+      "state": "AWAITING_LINK3_CONFIRMATION_LAST_KNOWN_RETAINED",
       "stream": "https://drk6xq0vhn.gpcdn.net/live/independent_tv_abr/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Somoy TV",
-      "state": "CURRENT_LINK3_STABLE_RETAINED",
-      "stream": "https://drk6xq0vhn.gpcdn.net/live/somoy_tv_abr/index.m3u8",
+      "state": "PINNED_USER_WORKING",
+      "stream": "http://116.204.149.16/somoytv/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1281,8 +1648,8 @@
     },
     {
       "name": "ATN Bangla",
-      "state": "CURRENT_LINK3_STABLE_RETAINED",
-      "stream": "https://tvsen5.aynaott.com/atnbangla/index.m3u8",
+      "state": "PINNED_USER_WORKING",
+      "stream": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/atnbd-8-org.stream/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1491,15 +1858,15 @@
     },
     {
       "name": "Sony Aath",
-      "state": "PINNED_USER_WORKING",
+      "state": "AWAITING_LINK3_CONFIRMATION_LAST_KNOWN_RETAINED",
       "stream": "https://stream.ottplus.live/live/sony_aath_abr/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Zee Bangla",
-      "state": "CURRENT_LINK3_STABLE_RETAINED",
-      "stream": "https://drk6xq0vhn.gpcdn.net/live/zee_bangla_720/index.m3u8",
+      "state": "PINNED_USER_WORKING",
+      "stream": "https://d1rc86nwwc9fag.cloudfront.net/260723/smil:zeebangla.smil/chunklist_b896000.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1610,7 +1977,7 @@
     },
     {
       "name": "Hungama Backup",
-      "state": "PINNED_USER_WORKING",
+      "state": "AWAITING_LINK3_CONFIRMATION_LAST_KNOWN_RETAINED",
       "stream": "http://103.135.253.32:8080/HUNGAMA/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -1645,8 +2012,8 @@
     },
     {
       "name": "Cartoon Network",
-      "state": "CURRENT_LINK3_STABLE_RETAINED",
-      "stream": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8",
+      "state": "PINNED_USER_WORKING",
+      "stream": "https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/playlist.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
@@ -1701,14 +2068,14 @@
     },
     {
       "name": "Nick Bangla",
-      "state": "PINNED_USER_WORKING",
+      "state": "AWAITING_LINK3_CONFIRMATION_LAST_KNOWN_RETAINED",
       "stream": "http://103.135.253.32:8080/NICK/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Duronto TV",
-      "state": "PINNED_USER_WORKING",
+      "state": "AWAITING_LINK3_CONFIRMATION_LAST_KNOWN_RETAINED",
       "stream": "http://103.135.253.32:8080/DORONTU-TV/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -1806,14 +2173,14 @@
     },
     {
       "name": "Sony Ten 1 HD",
-      "state": "PINNED_USER_WORKING",
+      "state": "AWAITING_LINK3_CONFIRMATION_LAST_KNOWN_RETAINED",
       "stream": "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_abr/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Sony Ten 3 HD",
-      "state": "PINNED_USER_WORKING",
+      "state": "AWAITING_LINK3_CONFIRMATION_LAST_KNOWN_RETAINED",
       "stream": "http://103.135.253.32:8080/TEN-3/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -1827,14 +2194,14 @@
     },
     {
       "name": "Nat Geo HD Bangla",
-      "state": "PINNED_USER_WORKING",
+      "state": "AWAITING_LINK3_CONFIRMATION_LAST_KNOWN_RETAINED",
       "stream": "http://103.135.253.32:8080/NATGEO-HD/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
     },
     {
       "name": "Sony MAX HD",
-      "state": "PINNED_USER_WORKING",
+      "state": "AWAITING_LINK3_CONFIRMATION_LAST_KNOWN_RETAINED",
       "stream": "https://stream.ottplus.live/live/max_hd_abr/index.m3u8",
       "manifest_height": 0,
       "media_segment_checked": false
@@ -1852,13 +2219,13 @@
   },
   "local_logos": {
     "total": 77,
-    "from_image_sources": 57,
-    "clear_name_fallbacks": 20,
+    "from_image_sources": 58,
+    "clear_name_fallbacks": 19,
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
   "bd_geo_trials": {
-    "updated_utc": "2026-11-10T07:38:21.155545+00:00",
+    "updated_utc": "2026-11-10T10:37:20.506945+00:00",
     "channel_count": 26,
     "entries": 475,
     "by_name": {

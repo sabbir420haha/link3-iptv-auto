@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-10T07:42:53.624679+00:00",
+  "checked_utc": "2026-11-10T10:39:02.941452+00:00",
   "scope": "GitHub network ONLY; not Link3/mobile/TV",
   "relay_active": false,
   "changed_playlist": false,
@@ -7,60 +7,87 @@
   "streams": [
     {
       "name": "Channel 24",
-      "status": "manifest_unreachable",
-      "successful_polls": 0,
+      "status": "advancing_on_github",
+      "successful_polls": 9,
       "attempted_polls": 9,
-      "observed_changes": 0,
+      "observed_changes": 6,
       "media_sequence_regressions": 0,
       "old_segment_replays": 0,
-      "max_stalled_observation_seconds": 0.0,
-      "target_duration_seconds": null,
-      "media_host": null,
+      "max_stalled_observation_seconds": 8.0,
+      "target_duration_seconds": 9,
+      "media_host": "tvsen6.aynaott.com",
       "samples": [
         {
-          "at_seconds": 1.5,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+          "at_seconds": 1.6,
+          "seq": 74301,
+          "latest_segment_fingerprint": "9c2f68ce4295e268",
+          "target_duration_seconds": 9,
+          "media_host": "tvsen6.aynaott.com",
+          "ok": true
         },
         {
-          "at_seconds": 9.6,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+          "at_seconds": 9.5,
+          "seq": 74303,
+          "latest_segment_fingerprint": "e9dca8b96aa86a62",
+          "target_duration_seconds": 9,
+          "media_host": "tvsen6.aynaott.com",
+          "ok": true
         },
         {
-          "at_seconds": 17.4,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+          "at_seconds": 17.5,
+          "seq": 74303,
+          "latest_segment_fingerprint": "e9dca8b96aa86a62",
+          "target_duration_seconds": 9,
+          "media_host": "tvsen6.aynaott.com",
+          "ok": true
         },
         {
           "at_seconds": 25.5,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+          "seq": 74304,
+          "latest_segment_fingerprint": "b5f26d67352c6077",
+          "target_duration_seconds": 9,
+          "media_host": "tvsen6.aynaott.com",
+          "ok": true
         },
         {
-          "at_seconds": 33.6,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+          "at_seconds": 33.5,
+          "seq": 74305,
+          "latest_segment_fingerprint": "4722e93dbc1c2767",
+          "target_duration_seconds": 9,
+          "media_host": "tvsen6.aynaott.com",
+          "ok": true
         },
         {
           "at_seconds": 41.5,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+          "seq": 74306,
+          "latest_segment_fingerprint": "f68a3edb59b76d4f",
+          "target_duration_seconds": 9,
+          "media_host": "tvsen6.aynaott.com",
+          "ok": true
         },
         {
-          "at_seconds": 49.7,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+          "at_seconds": 49.5,
+          "seq": 74306,
+          "latest_segment_fingerprint": "f68a3edb59b76d4f",
+          "target_duration_seconds": 9,
+          "media_host": "tvsen6.aynaott.com",
+          "ok": true
         },
         {
-          "at_seconds": 57.8,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+          "at_seconds": 57.5,
+          "seq": 74308,
+          "latest_segment_fingerprint": "9b61798c8c881127",
+          "target_duration_seconds": 9,
+          "media_host": "tvsen6.aynaott.com",
+          "ok": true
         },
         {
-          "at_seconds": 65.7,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+          "at_seconds": 65.5,
+          "seq": 74309,
+          "latest_segment_fingerprint": "a77ff0d87c85f67d",
+          "target_duration_seconds": 9,
+          "media_host": "tvsen6.aynaott.com",
+          "ok": true
         }
       ],
       "note": "GitHub vantage point only; no guarantee of IPTV Pro or Link3 playback"
@@ -78,47 +105,47 @@
       "media_host": null,
       "samples": [
         {
-          "at_seconds": 1.0,
+          "at_seconds": 0.9,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 9.0,
+          "at_seconds": 8.8,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 17.7,
+          "at_seconds": 16.8,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 25.0,
+          "at_seconds": 24.9,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 33.0,
+          "at_seconds": 32.9,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 41.7,
+          "at_seconds": 40.8,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 49.0,
+          "at_seconds": 48.8,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 57.2,
+          "at_seconds": 56.9,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         },
         {
-          "at_seconds": 65.1,
+          "at_seconds": 64.9,
           "ok": false,
           "error": "ValueError: HLS manifest unavailable to GitHub"
         }
@@ -127,60 +154,87 @@
     },
     {
       "name": "Zee Bangla",
-      "status": "manifest_unreachable",
-      "successful_polls": 0,
+      "status": "advancing_on_github",
+      "successful_polls": 9,
       "attempted_polls": 9,
-      "observed_changes": 0,
+      "observed_changes": 8,
       "media_sequence_regressions": 0,
       "old_segment_replays": 0,
       "max_stalled_observation_seconds": 0.0,
-      "target_duration_seconds": null,
-      "media_host": null,
+      "target_duration_seconds": 12,
+      "media_host": "d1rc86nwwc9fag.cloudfront.net",
       "samples": [
         {
-          "at_seconds": 1.9,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+          "at_seconds": 0.1,
+          "seq": 194524,
+          "latest_segment_fingerprint": "75e3886686af35df",
+          "target_duration_seconds": 12,
+          "media_host": "d1rc86nwwc9fag.cloudfront.net",
+          "ok": true
         },
         {
-          "at_seconds": 9.8,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+          "at_seconds": 8.1,
+          "seq": 194526,
+          "latest_segment_fingerprint": "bc45ae1b261846d7",
+          "target_duration_seconds": 12,
+          "media_host": "d1rc86nwwc9fag.cloudfront.net",
+          "ok": true
         },
         {
-          "at_seconds": 17.8,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+          "at_seconds": 16.1,
+          "seq": 194528,
+          "latest_segment_fingerprint": "2e254fae909c7987",
+          "target_duration_seconds": 12,
+          "media_host": "d1rc86nwwc9fag.cloudfront.net",
+          "ok": true
         },
         {
-          "at_seconds": 25.8,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+          "at_seconds": 24.2,
+          "seq": 194530,
+          "latest_segment_fingerprint": "5f38c3bae8dba2b7",
+          "target_duration_seconds": 12,
+          "media_host": "d1rc86nwwc9fag.cloudfront.net",
+          "ok": true
         },
         {
-          "at_seconds": 34.9,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+          "at_seconds": 32.1,
+          "seq": 194532,
+          "latest_segment_fingerprint": "2efcf36946804785",
+          "target_duration_seconds": 12,
+          "media_host": "d1rc86nwwc9fag.cloudfront.net",
+          "ok": true
         },
         {
-          "at_seconds": 41.9,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+          "at_seconds": 40.1,
+          "seq": 194534,
+          "latest_segment_fingerprint": "86694558f7d1af91",
+          "target_duration_seconds": 12,
+          "media_host": "d1rc86nwwc9fag.cloudfront.net",
+          "ok": true
         },
         {
-          "at_seconds": 49.9,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+          "at_seconds": 48.1,
+          "seq": 194536,
+          "latest_segment_fingerprint": "cab1da58d7005411",
+          "target_duration_seconds": 12,
+          "media_host": "d1rc86nwwc9fag.cloudfront.net",
+          "ok": true
         },
         {
-          "at_seconds": 57.9,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+          "at_seconds": 56.1,
+          "seq": 194538,
+          "latest_segment_fingerprint": "0f7062eea17bb19e",
+          "target_duration_seconds": 12,
+          "media_host": "d1rc86nwwc9fag.cloudfront.net",
+          "ok": true
         },
         {
-          "at_seconds": 65.9,
-          "ok": false,
-          "error": "ValueError: No readable HLS data: HTTP Error 404: Not Found"
+          "at_seconds": 64.1,
+          "seq": 194540,
+          "latest_segment_fingerprint": "dfb8e31b60c4ade2",
+          "target_duration_seconds": 12,
+          "media_host": "d1rc86nwwc9fag.cloudfront.net",
+          "ok": true
         }
       ],
       "note": "GitHub vantage point only; no guarantee of IPTV Pro or Link3 playback"
