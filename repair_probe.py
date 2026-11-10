@@ -154,7 +154,10 @@ def collect_candidates(main_text: str, test_text: str, catalog: list[dict]) -> t
             source_map = data.get("sources", {})
         for target, keys in REGISTRY_KEYS.items():
             for key in keys:
-                for index, candidate in enumerate(source_map.get(key, []) or [], 1):
+                raw_candidates = source_map.get(key, []) or []
+                if isinstance(raw_candidates, dict):
+                    raw_candidates = raw_candidates.get("candidates", []) or []
+                for index, candidate in enumerate(raw_candidates, 1):
                     if isinstance(candidate, str):
                         url = candidate
                         origin = f"{path.name}:{key}:candidate-{index:02d}"
