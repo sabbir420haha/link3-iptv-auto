@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-12T10:36:04.920813+00:00",
+  "checked_utc": "2026-11-12T13:50:41.851103+00:00",
   "scope": "GitHub runner only; not Link3 Broadband or IPTV Pro",
   "main_playlist_changed": false,
   "channels_expected": [
@@ -52,7 +52,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 2.9,
+      "elapsed_seconds": 2.7,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -68,7 +68,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 5.5,
+      "elapsed_seconds": 4.5,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -84,7 +84,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 2.9,
+      "elapsed_seconds": 2.8,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -100,7 +100,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 2.9,
+      "elapsed_seconds": 2.8,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -116,7 +116,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 5.9,
+      "elapsed_seconds": 4.5,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -148,7 +148,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 2.9,
+      "elapsed_seconds": 2.8,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -203,7 +203,7 @@
       "name": "Sony Aath",
       "status": "UNREACHABLE_FROM_GITHUB",
       "error": "ValueError:No readable HLS data: HTTP Error 404: Not Found",
-      "elapsed_seconds": 1.6
+      "elapsed_seconds": 1.5
     },
     {
       "name": "Sony Ten 1 HD",
