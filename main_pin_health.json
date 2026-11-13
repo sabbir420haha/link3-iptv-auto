@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-13T07:52:26.322369+00:00",
+  "checked_utc": "2026-11-13T10:34:20.089356+00:00",
   "scope": "GitHub runner only; not Link3 Broadband or IPTV Pro",
   "main_playlist_changed": false,
   "channels_expected": [
@@ -64,11 +64,11 @@
         "103.106.118.22"
       ],
       "http_ok": false,
-      "http_error": "HTTP_404",
+      "http_error": "TimeoutError:timed out",
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 4.7,
+      "elapsed_seconds": 15.9,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -116,7 +116,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 4.7,
+      "elapsed_seconds": 4.6,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -160,11 +160,11 @@
         "103.163.72.168"
       ],
       "http_ok": false,
-      "http_error": "HTTP_404",
+      "http_error": "TimeoutError:timed out",
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 5.1,
+      "elapsed_seconds": 16.3,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     }
   ],
@@ -184,8 +184,8 @@
     {
       "name": "Sony MAX HD",
       "status": "UNREACHABLE_FROM_GITHUB",
-      "error": "ValueError:No readable HLS data: HTTP Error 404: Not Found",
-      "elapsed_seconds": 1.6
+      "error": "ValueError:No readable HLS data: <urlopen error timed out>",
+      "elapsed_seconds": 9.8
     },
     {
       "name": "Nat Geo HD Bangla",
@@ -209,7 +209,7 @@
       "name": "Sony Ten 1 HD",
       "status": "UNREACHABLE_FROM_GITHUB",
       "error": "ValueError:No readable HLS data: HTTP Error 404: Not Found",
-      "elapsed_seconds": 1.9
+      "elapsed_seconds": 2.1
     },
     {
       "name": "Sony Ten 3 HD",
