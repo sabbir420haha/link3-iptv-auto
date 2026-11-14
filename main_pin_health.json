@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-14T01:42:40.817770+00:00",
+  "checked_utc": "2026-11-14T04:29:06.428398+00:00",
   "scope": "GitHub runner only; not Link3 Broadband or IPTV Pro",
   "main_playlist_changed": false,
   "channels_expected": [
@@ -68,7 +68,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 4.8,
+      "elapsed_seconds": 4.6,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -116,7 +116,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 4.8,
+      "elapsed_seconds": 4.6,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -132,7 +132,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 5.5,
+      "elapsed_seconds": 5.3,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -164,7 +164,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 5.5,
+      "elapsed_seconds": 5.3,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     }
   ],
@@ -209,7 +209,7 @@
       "name": "Sony Ten 1 HD",
       "status": "UNREACHABLE_FROM_GITHUB",
       "error": "ValueError:No readable HLS data: HTTP Error 404: Not Found",
-      "elapsed_seconds": 2.2
+      "elapsed_seconds": 2.1
     },
     {
       "name": "Sony Ten 3 HD",
@@ -221,7 +221,7 @@
       "name": "Independent TV",
       "status": "UNREACHABLE_FROM_GITHUB",
       "error": "ValueError:No readable HLS data: HTTP Error 404: Not Found",
-      "elapsed_seconds": 2.2
+      "elapsed_seconds": 2.1
     }
   ],
   "interpretation": "A GitHub failure identifies an origin/DNS/HTTP issue visible from GitHub. A GitHub pass does not prove Link3 access or IPTV Pro playback. No playlist URL is changed."
