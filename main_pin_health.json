@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-15T07:42:48.461437+00:00",
+  "checked_utc": "2026-11-15T10:22:31.841726+00:00",
   "scope": "GitHub runner only; not Link3 Broadband or IPTV Pro",
   "main_playlist_changed": false,
   "channels_expected": [
@@ -36,7 +36,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 2.9,
+      "elapsed_seconds": 2.8,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -52,7 +52,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 2.9,
+      "elapsed_seconds": 2.8,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -68,7 +68,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 4.5,
+      "elapsed_seconds": 4.1,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -84,7 +84,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 2.9,
+      "elapsed_seconds": 2.8,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -100,7 +100,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 2.9,
+      "elapsed_seconds": 2.8,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -116,7 +116,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 4.5,
+      "elapsed_seconds": 4.1,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -132,7 +132,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 5.1,
+      "elapsed_seconds": 5.0,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -148,7 +148,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 2.9,
+      "elapsed_seconds": 2.8,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -164,7 +164,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 5.2,
+      "elapsed_seconds": 5.0,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     }
   ],
@@ -185,7 +185,7 @@
       "name": "Sony MAX HD",
       "status": "UNREACHABLE_FROM_GITHUB",
       "error": "ValueError:No readable HLS data: HTTP Error 404: Not Found",
-      "elapsed_seconds": 1.6
+      "elapsed_seconds": 1.4
     },
     {
       "name": "Nat Geo HD Bangla",
@@ -203,7 +203,7 @@
       "name": "Sony Aath",
       "status": "UNREACHABLE_FROM_GITHUB",
       "error": "ValueError:No readable HLS data: HTTP Error 404: Not Found",
-      "elapsed_seconds": 1.5
+      "elapsed_seconds": 1.4
     },
     {
       "name": "Sony Ten 1 HD",
