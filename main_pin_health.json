@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-19T13:53:08.973588+00:00",
+  "checked_utc": "2026-11-19T16:40:02.001041+00:00",
   "scope": "GitHub runner only; not Link3 Broadband or IPTV Pro",
   "main_playlist_changed": false,
   "channels_expected": [
@@ -36,7 +36,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 2.8,
+      "elapsed_seconds": 2.9,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -52,7 +52,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 2.8,
+      "elapsed_seconds": 2.9,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -68,7 +68,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 4.5,
+      "elapsed_seconds": 5.0,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -116,7 +116,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 4.5,
+      "elapsed_seconds": 5.0,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -164,7 +164,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 5.3,
+      "elapsed_seconds": 5.2,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     }
   ],
@@ -173,13 +173,13 @@
       "name": "Duronto TV",
       "status": "UNREACHABLE_FROM_GITHUB",
       "error": "ValueError:No readable HLS data: <urlopen error [Errno 111] Connection refused>",
-      "elapsed_seconds": 0.5
+      "elapsed_seconds": 0.6
     },
     {
       "name": "Hungama Backup",
       "status": "UNREACHABLE_FROM_GITHUB",
       "error": "ValueError:No readable HLS data: <urlopen error [Errno 111] Connection refused>",
-      "elapsed_seconds": 0.5
+      "elapsed_seconds": 0.6
     },
     {
       "name": "Sony MAX HD",
@@ -191,13 +191,13 @@
       "name": "Nat Geo HD Bangla",
       "status": "UNREACHABLE_FROM_GITHUB",
       "error": "ValueError:No readable HLS data: <urlopen error [Errno 111] Connection refused>",
-      "elapsed_seconds": 0.5
+      "elapsed_seconds": 0.6
     },
     {
       "name": "Nick Bangla",
       "status": "UNREACHABLE_FROM_GITHUB",
       "error": "ValueError:No readable HLS data: <urlopen error [Errno 111] Connection refused>",
-      "elapsed_seconds": 0.5
+      "elapsed_seconds": 0.6
     },
     {
       "name": "Sony Aath",
@@ -215,7 +215,7 @@
       "name": "Sony Ten 3 HD",
       "status": "UNREACHABLE_FROM_GITHUB",
       "error": "ValueError:No readable HLS data: <urlopen error [Errno 111] Connection refused>",
-      "elapsed_seconds": 0.5
+      "elapsed_seconds": 0.6
     },
     {
       "name": "Independent TV",
