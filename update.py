@@ -101,6 +101,8 @@ EXTRA_CANDIDATES = {
         "https://ccntv.anytv.live/discoverybangla/index.m3u8",
     ],
     "Disney HD Hindi": [
+        # 2026-11-20 public GitHub-listed candidate, audit only; not Link3-confirmed.
+        "https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/19741.ts",
         # 2026-10-31 GitHub labels Disney Channel India; strict HD + media audit only.
         "http://45.249.187.238:8081/hls/live0.m3u8",
         # 2026-10-29 independently named public GitHub candidates. Audit only;
