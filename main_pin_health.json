@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-21T10:25:53.869741+00:00",
+  "checked_utc": "2026-11-21T13:37:38.298390+00:00",
   "scope": "GitHub runner only; not Link3 Broadband or IPTV Pro",
   "main_playlist_changed": false,
   "channels_expected": [
@@ -68,7 +68,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 4.4,
+      "elapsed_seconds": 4.6,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -100,7 +100,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 2.7,
+      "elapsed_seconds": 2.8,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -116,7 +116,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 4.4,
+      "elapsed_seconds": 4.6,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -148,7 +148,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 2.8,
+      "elapsed_seconds": 2.7,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
