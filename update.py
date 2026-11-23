@@ -211,6 +211,8 @@ EXTRA_CANDIDATES = {
         "http://ctgiptv.kitv.live:1935/live/ASNet/asnetwork/12.m3u8",
     ],
     "Sonic Hindi": [
+        # Publicly listed candidate found 2026-11-24; audit only pending segment and identity verification.
+        "https://basic.t-tvbd.xyz:8880/play/F1dKljmCfGHGcvtooUiLoBm_-1Gy5V690IhOf8ea8HE/ts",
         # 2026-11-23 fresh public GitHub sources; audit only, no publication without verified segment and audio.
         "https://jc.drmlive-01.workers.dev/815.m3u8",
 
