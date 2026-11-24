@@ -310,7 +310,7 @@ def main():
             filename,_=mapping[name]
             # Versioned URL refreshes IPTV Pro logo cache when image layout changes.
             if name in TV_CONTRAST_LOGOS:
-                uri=ROOT_URL+filename+"?v=contrast-brand-20261124"
+                uri=ROOT_URL+filename+"?v=contrast-brand-20261124a"
             elif name in ZEE_ARCHIVE_LOGOS:
                 uri=ROOT_URL+filename+"?v=zee-original-clear-20261023"
             else:
