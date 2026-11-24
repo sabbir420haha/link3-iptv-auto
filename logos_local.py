@@ -114,6 +114,9 @@ OTHER={
     "Islamic TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/islamic-tv-bd.png",
     "Mohona TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/mohona-tv-bd.png",
     "T Sports":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/t-sports-bd.png",
+    "beIN Sports XTRA":"https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/beinsports/old/stacked/bein-sports-xtra-int.png",
+    "Red Bull TV":"https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/red-bull-tv-int.png",
+    "FITE 24/7":"https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/international/fite-tv-int.png",
     "Discovery Bangla":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/India/Discovery-Bangla.png",
     "Disney HD Hindi":"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL_HD/images/LOGO_HD/image.png",
 }
