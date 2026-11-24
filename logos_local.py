@@ -37,14 +37,14 @@ TV_CONTRAST_LOGOS = {
     # These eight entries currently have dark/transparent artwork that blends
     # into IPTV Pro's dark channel tiles. Keep each existing mark and place it
     # on a light, high-contrast branded field; no stream metadata is changed.
-    "ATN Bangla": [],
-    "BanglaVision": [],
-    "Duronto TV": [],
-    "Hungama TEST 113": [],
-    "Hungama Backup": [],
-    "Maasranga TV": [],
-    "NTV": [],
-    "Somoy TV": [],
+    "ATN Bangla": ["https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/atn-bangla-bd.png"],
+    "BanglaVision": ["https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/banglavision-bd.png"],
+    "Duronto TV": ["https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/duronto-bd.png"],
+    "Hungama TEST 113": [INDIAN_LOGOS+"hungama-in.png"],
+    "Hungama Backup": [INDIAN_LOGOS+"hungama-in.png"],
+    "Maasranga TV": ["https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/maasranga-hd-bd.png", "https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/maasranga-bd.jpg"],
+    "NTV": ["https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/n-tv-hd-bd.png", "https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/n-tv-bd.png"],
+    "Somoy TV": ["https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/somoy-bd.png"],
     "Discovery Bangla": [
         "https://jiotvimages.cdn.jio.com/dare_images/images/DiscoveryHDBen.png",
         "https://otapp.store/uploads/tv_image/sm/discovery-channel-bengali.png",
@@ -310,7 +310,7 @@ def main():
             filename,_=mapping[name]
             # Versioned URL refreshes IPTV Pro logo cache when image layout changes.
             if name in TV_CONTRAST_LOGOS:
-                uri=ROOT_URL+filename+"?v=contrast-brand-20261124a"
+                uri=ROOT_URL+filename+"?v=real-channel-art-20261124b"
             elif name in ZEE_ARCHIVE_LOGOS:
                 uri=ROOT_URL+filename+"?v=zee-original-clear-20261023"
             else:
