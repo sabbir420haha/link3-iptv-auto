@@ -1,0 +1,34 @@
+name: Refresh Main playlist logos
+on:
+  push:
+    branches: [main]
+    paths:
+      - logos_local.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: link3-iptv-logo-refresh
+  cancel-in-progress: true
+jobs:
+  logos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install image tools
+        run: python -m pip install Pillow==11.3.0
+      - name: Build clear high-contrast Main channel logos
+        run: python logos_local.py
+      - name: Commit logo assets and refreshed Main metadata
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add playlist.m3u status.json logos/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh high-contrast Main playlist logos'
+            git push
+          fi
