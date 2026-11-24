@@ -2220,7 +2220,8 @@
   "local_logos": {
     "total": 77,
     "from_image_sources": 59,
-    "clear_name_fallbacks": 18,
+    "custom_logo_artwork": 18,
+    "clear_name_fallbacks": 0,
     "brand_channels": [
       "Zee Bangla HD",
       "Zee Bangla",
@@ -2282,7 +2283,7 @@
       "Star Sports 2",
       "FITE 24/7"
     ],
-    "fallback_channels": [
+    "custom_logo_channels": [
       "News 21 Bangla TV",
       "NAN TV",
       "Enter TV",
@@ -2302,8 +2303,9 @@
       "Sports First TV",
       "Cricket Gold"
     ],
-    "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
-    "note": "Brand artwork is sourced from channel/provider logo images; fallback_channels are text-only and must not be represented as official logos."
+    "fallback_channels": [],
+    "size": "TV-tile optimized transparent PNG assets",
+    "note": "Official artwork is used when a valid source exists; otherwise a distinct custom channel identity mark is generated."
   },
   "bd_geo_trials": {
     "updated_utc": "2026-11-10T10:37:20.506945+00:00",
