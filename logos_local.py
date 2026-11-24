@@ -321,8 +321,11 @@ def main():
     if STATUS.exists():
         status=json.loads(STATUS.read_text(encoding="utf-8"))
         status["local_logos"]={"total":len(result),"from_image_sources":statuses["brand"],
-                "clear_name_fallbacks":statuses["fallback"],"size":"variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
-                "note":"Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."}
+                "clear_name_fallbacks":statuses["fallback"],
+                "brand_channels":[name for name,filename,kind in result if kind=="brand"],
+                "fallback_channels":[name for name,filename,kind in result if kind=="fallback"],
+                "size":"variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
+                "note":"Brand artwork is sourced from channel/provider logo images; fallback_channels are text-only and must not be represented as official logos."}
         STATUS.write_text(json.dumps(status,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     print("Local channel logos:",dict(statuses),"total",len(result))
 
