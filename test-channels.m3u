@@ -1,27 +1,96 @@
 #EXTM3U
-# LINK3 | TEST CHANNELS — separate from main playlist
-# Candidate links collected from public GitHub M3U playlists; playback needs user-side testing.
-#EXTINF:-1 tvg-name="ATN News" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=test-20261125" group-title="TEST CHANNELS",ATN News
-https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png?v=test-20261125" group-title="TEST CHANNELS",Discovery Bangla
-https://streamitv.multitvsolution.in/idvo/discoverybengali.m3u8
-#EXTINF:-1 tvg-name="Duronto TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=test-20261125" group-title="TEST CHANNELS",Duronto TV
-https://tvsen4.aynaott.com/durontotv/index.m3u8
-#EXTINF:-1 tvg-name="Hungama Backup" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama-backup.png?v=test-20261125" group-title="TEST CHANNELS",Hungama Backup
-https://live.hungama.com/linear/dil-se/playlist.m3u8
-#EXTINF:-1 tvg-name="Sony MAX HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=test-20261125" group-title="TEST CHANNELS",Sony MAX HD
-https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sony_max_2PQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
-#EXTINF:-1 tvg-name="Nat Geo HD Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png?v=test-20261125" group-title="TEST CHANNELS",Nat Geo HD Bangla
-https://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Nick Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=test-20261125" group-title="TEST CHANNELS",Nick Bangla
-https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_nickelodeonPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
-#EXTINF:-1 tvg-name="NTV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=test-20261125" group-title="TEST CHANNELS",NTV
+# LINK3 | EXPANDED TEST PLAYLIST
+# Sources collected from public GitHub M3U lists. Stream availability is not guaranteed.
+# Requested channels - alternate candidates
+#EXTINF:-1 tvg-name="ATN News" group-title="Requested - News",ATN News
+https://ccntv.anytv.live/atnnews/index.m3u8
+#EXTINF:-1 tvg-name="ATN News Backup" group-title="Requested - News",ATN News Backup
+http://103.205.133.20/hls/atnnews.m3u8
+#EXTINF:-1 tvg-name="NTV" group-title="Requested - News",NTV
+https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
+#EXTINF:-1 tvg-name="NTV Backup" group-title="Requested - News",NTV Backup
 https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
-#EXTINF:-1 tvg-name="Somoy TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=test-20261125" group-title="TEST CHANNELS",Somoy TV
+#EXTINF:-1 tvg-name="Somoy TV" group-title="Requested - News",Somoy TV
+https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
+#EXTINF:-1 tvg-name="Somoy TV Backup" group-title="Requested - News",Somoy TV Backup
 https://ccntv.anytv.live/somoy/index.m3u8
-#EXTINF:-1 tvg-name="Sony Aath" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=test-20261125" group-title="TEST CHANNELS",Sony Aath
+#EXTINF:-1 tvg-name="Duronto TV" group-title="Requested - Kids",Duronto TV
+https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8
+#EXTINF:-1 tvg-name="Duronto TV Backup" group-title="Requested - Kids",Duronto TV Backup
+https://box.bbaria.net/DurontoTV/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla" group-title="Requested - Entertainment",Discovery Bangla
+https://streamitv.multitvsolution.in/idvo/discoverybengali.m3u8
+#EXTINF:-1 tvg-name="Hungama Backup" group-title="Requested - Entertainment",Hungama Backup
+https://live.hungama.com/linear/dil-se/playlist.m3u8
+#EXTINF:-1 tvg-name="Sony Aath" group-title="Requested - Entertainment",Sony Aath
 https://ccntv.anytv.live/sonyaath/index.m3u8
-#EXTINF:-1 tvg-name="Sony Ten 1 HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=test-20261125" group-title="TEST CHANNELS",Sony Ten 1 HD
+#EXTINF:-1 tvg-name="Sony Aath Backup" group-title="Requested - Entertainment",Sony Aath Backup
+http://master.beeiptv.com:8081/LAW/sonyaath/playlist.m3u8
+#EXTINF:-1 tvg-name="Nat Geo HD Bangla" group-title="Requested - Documentary",Nat Geo HD Bangla
+https://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Nick Bangla" group-title="Requested - Kids",Nick Bangla
+https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_nickelodeonPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
+#EXTINF:-1 tvg-name="Sony MAX HD" group-title="Requested - Movies",Sony MAX HD
+https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sony_max_2PQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
+#EXTINF:-1 tvg-name="Sony Ten 1 HD" group-title="Requested - Sports",Sony Ten 1 HD
 https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sony_ten_1PQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
-#EXTINF:-1 tvg-name="Sony Ten 3 HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=test-20261125" group-title="TEST CHANNELS",Sony Ten 3 HD
+#EXTINF:-1 tvg-name="Sony Ten 3 HD" group-title="Requested - Sports",Sony Ten 3 HD
 https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sony_ten_3PQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
+# Bangladesh FTA channels
+#EXTINF:-1 tvg-name="Ananda TV" group-title="Bangladesh",Ananda TV
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8
+#EXTINF:-1 tvg-name="ATN Bangla" group-title="Bangladesh",ATN Bangla
+https://tvsen5.aynaott.com/atnbangla/index.m3u8
+#EXTINF:-1 tvg-name="Bangla Vision" group-title="Bangladesh",Bangla Vision
+https://tvsen5.aynaott.com/banglavision/index.m3u8
+#EXTINF:-1 tvg-name="Boishakhi TV" group-title="Bangladesh",Boishakhi TV
+https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
+#EXTINF:-1 tvg-name="Channel S" group-title="Bangladesh",Channel S
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8
+#EXTINF:-1 tvg-name="DBC News" group-title="Bangladesh - News",DBC News
+http://tvn3.chowdhury-shaheb.com/dbc/index.m3u8
+#EXTINF:-1 tvg-name="Deepto TV" group-title="Bangladesh",Deepto TV
+https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8
+#EXTINF:-1 tvg-name="Deshi TV" group-title="Bangladesh",Deshi TV
+https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
+#EXTINF:-1 tvg-name="Ekushey TV" group-title="Bangladesh",Ekushey TV
+https://ekusheyserver.com/etvlivesn.m3u8
+#EXTINF:-1 tvg-name="Gazi TV" group-title="Bangladesh",Gazi TV
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8
+#EXTINF:-1 tvg-name="Green TV" group-title="Bangladesh",Green TV
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8
+#EXTINF:-1 tvg-name="Maasranga TV" group-title="Bangladesh",Maasranga TV
+https://tvsen5.aynaott.com/maasrangatv/index.m3u8
+#EXTINF:-1 tvg-name="Matribhumi TV" group-title="Bangladesh",Matribhumi TV
+http://live.playmax.live/matribhumi/index.m3u8
+#EXTINF:-1 tvg-name="Movie Bangla" group-title="Bangladesh - Movies",Movie Bangla
+http://alvetv.com/moviebanglatv/8080/index.m3u8
+#EXTINF:-1 tvg-name="My TV" group-title="Bangladesh",My TV
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8
+#EXTINF:-1 tvg-name="Nexus TV" group-title="Bangladesh",Nexus TV
+https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8
+#EXTINF:-1 tvg-name="RTV" group-title="Bangladesh",RTV
+https://tvsen5.aynaott.com/RtvHD/index.m3u8
+#EXTINF:-1 tvg-name="Rajdhani TV" group-title="Bangladesh",Rajdhani TV
+https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
+#EXTINF:-1 tvg-name="T Sports" group-title="Bangladesh - Sports",T Sports
+https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8
+#EXTINF:-1 tvg-name="Vokta TV" group-title="Bangladesh",Vokta TV
+https://vokta.raytahost.com/live/voktatv/index.m3u8
+# India Bangla FTA
+#EXTINF:-1 tvg-name="ABP Ananda" group-title="India Bangla - News",ABP Ananda
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-name="DD Bangla" group-title="India Bangla",DD Bangla
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index_3.m3u8
+#EXTINF:-1 tvg-name="TV9 Bangla" group-title="India Bangla - News",TV9 Bangla
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-name="Zee 24 Ghanta" group-title="India Bangla - News",Zee 24 Ghanta
+https://d2dsoyvkr33m05.cloudfront.net/index_1.m3u8
+#EXTINF:-1 tvg-name="Enterr10 Bangla" group-title="India Bangla",Enterr10 Bangla
+https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-name="News18 Bangla" group-title="India Bangla - News",News18 Bangla
+https://amg01448-samsungin-news18bangla-samsungin-ad-qy.amagi.tv/playlist/amg01448-samsungin-news18bangla-samsungin/playlist.m3u8
+#EXTINF:-1 tvg-name="Zee Bangla Cinema" group-title="India Bangla - Movies",Zee Bangla Cinema
+https://load.airtelxstream.in/zeebanglacinema/smil:common.smil/chunklist.m3u8
+#EXTINF:-1 tvg-name="Sangeet Bangla" group-title="India Bangla - Music",Sangeet Bangla
+https://cdn-4.pishow.tv/live/1143/master.m3u8
