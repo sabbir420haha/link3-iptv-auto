@@ -2219,8 +2219,8 @@
   },
   "local_logos": {
     "total": 77,
-    "from_image_sources": 58,
-    "clear_name_fallbacks": 19,
+    "from_image_sources": 19,
+    "clear_name_fallbacks": 58,
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Full broadcaster marks closely cropped to content; IPTV Pro supplies its own tile. Missing-brand fallbacks are labeled text."
   },
