@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-24T02:32:55.302116+00:00",
+  "checked_utc": "2026-11-24T14:13:27.625877+00:00",
   "scope": "GitHub runner only; not Link3 Broadband or IPTV Pro",
   "main_playlist_changed": false,
   "channels_expected": [
@@ -36,7 +36,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 2.8,
+      "elapsed_seconds": 2.9,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -52,7 +52,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 2.8,
+      "elapsed_seconds": 2.9,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -68,7 +68,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 4.3,
+      "elapsed_seconds": 4.4,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -84,7 +84,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 2.8,
+      "elapsed_seconds": 2.9,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -100,7 +100,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 2.8,
+      "elapsed_seconds": 2.9,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -116,7 +116,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 4.3,
+      "elapsed_seconds": 4.4,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -132,7 +132,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 5.2,
+      "elapsed_seconds": 5.1,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -148,7 +148,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 2.8,
+      "elapsed_seconds": 2.9,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     },
     {
@@ -164,7 +164,7 @@
       "manifest_ok": false,
       "segment_check_1": false,
       "segment_check_2": false,
-      "elapsed_seconds": 5.2,
+      "elapsed_seconds": 5.1,
       "source_note": "Current Main URL, read-only check from GitHub runner; not Link3"
     }
   ],
@@ -197,7 +197,7 @@
       "name": "Nick Bangla",
       "status": "UNREACHABLE_FROM_GITHUB",
       "error": "ValueError:No readable HLS data: <urlopen error [Errno 111] Connection refused>",
-      "elapsed_seconds": 0.5
+      "elapsed_seconds": 0.6
     },
     {
       "name": "Sony Aath",
