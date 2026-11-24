@@ -94,3 +94,50 @@ https://amg01448-samsungin-news18bangla-samsungin-ad-qy.amagi.tv/playlist/amg014
 https://load.airtelxstream.in/zeebanglacinema/smil:common.smil/chunklist.m3u8
 #EXTINF:-1 tvg-name="Sangeet Bangla" group-title="India Bangla - Music",Sangeet Bangla
 https://cdn-4.pishow.tv/live/1143/master.m3u8
+# Additional public GitHub playlist candidates (not playback-verified)
+#EXTINF:-1 tvg-name="ATN News alternate" group-title="Requested - News",ATN News Alternate
+https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8
+#EXTINF:-1 tvg-name="ATN News alternate" group-title="Requested - News",ATN News Alternate
+https://tempsignature.jagobd.com:444/cZVydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZT00U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnws-sg.stream/chunks.m3u8
+#EXTINF:-1 tvg-name="Somoy TV alternate" group-title="Requested - News",Somoy TV Alternate
+https://tempsignature.jagobd.com:444/cZVydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZT00U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/somoyt000011226615544544.stream/chunks.m3u8
+#EXTINF:-1 tvg-name="Somoy TV alternate" group-title="Requested - News",Somoy TV Alternate
+https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_somoy_newsPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
+#EXTINF:-1 tvg-name="Duronto TV alternate" group-title="Requested - Kids",Duronto TV Alternate
+https://edge01.iptv.digijadoo.net/live/duronto_tv/chunks.m3u8
+#EXTINF:-1 tvg-name="Duronto TV alternate" group-title="Requested - Kids",Duronto TV Alternate
+http://master.beeiptv.com:8081/LAW/duronto/playlist.m3u8
+#EXTINF:-1 tvg-name="Duronto TV alternate" group-title="Requested - Kids",Duronto TV Alternate
+https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_duronto_tvPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla alternate" group-title="Requested - Documentary",Discovery Bangla Alternate
+https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8
+#EXTINF:-1 tvg-name="Hungama Backup alternate" group-title="Requested - Entertainment",Hungama Backup Alternate
+https://sangamp94.github.io/filmaxxplay/filmaxxlivehungama.m3u8
+#EXTINF:-1 tvg-name="Sony Aath alternate" group-title="Requested - Entertainment",Sony Aath Alternate
+https://tataplay.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8
+#EXTINF:-1 tvg-name="Sony Aath alternate" group-title="Requested - Entertainment",Sony Aath Alternate
+https://dai.google.com/linear/hls/event/j-YEIDwORxubtP_967VcZg/master.m3u8
+#EXTINF:-1 tvg-name="Sony Aath alternate" group-title="Requested - Entertainment",Sony Aath Alternate
+https://pubads.g.doubleclick.net/ssai/event/pSVzGmMpQR6jdmwwJg87OQ/master.m3u8
+#EXTINF:-1 tvg-name="Sony Aath alternate" group-title="Requested - Entertainment",Sony Aath Alternate
+https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyaath/playlist.m3u8
+#EXTINF:-1 tvg-name="Sony Aath alternate" group-title="Requested - Entertainment",Sony Aath Alternate
+https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sony_aathPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
+#EXTINF:-1 tvg-name="Nick Bangla alternate" group-title="Requested - Kids",Nick Bangla Alternate
+http://14.102.123.50:5001/live/1341.m3u8
+#EXTINF:-1 tvg-name="Nick Bangla alternate" group-title="Requested - Kids",Nick Bangla Alternate
+https://sar.pages.dev/nick_bangla.m3u8
+#EXTINF:-1 tvg-name="Nick Bangla alternate" group-title="Requested - Kids",Nick Bangla Alternate
+http://103.229.254.25:7001/play/a07b/index.m3u8
+#EXTINF:-1 tvg-name="Nick Bangla alternate" group-title="Requested - Kids",Nick Bangla Alternate
+http://103.109.56.116/live/funtime110/index.m3u8
+#EXTINF:-1 tvg-name="Sony MAX HD alternate" group-title="Requested - Movies",Sony MAX HD Alternate
+https://tataplay.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8
+#EXTINF:-1 tvg-name="Sony MAX HD alternate" group-title="Requested - Movies",Sony MAX HD Alternate
+https://dai.google.com/linear/hls/event/UcjHNJmCQ1WRlGKlZm73QA/master.m3u8
+#EXTINF:-1 tvg-name="Sony MAX HD alternate" group-title="Requested - Movies",Sony MAX HD Alternate
+https://dai.google.com/linear/hls/event/Qyqz40bSQriqSuAC7R8_Fw/master.m3u8
+#EXTINF:-1 tvg-name="Sony Ten 1 HD alternate" group-title="Requested - Sports",Sony Ten 1 HD Alternate
+https://tataplay.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8
+#EXTINF:-1 tvg-name="Sony Ten 3 HD alternate" group-title="Requested - Sports",Sony Ten 3 HD Alternate
+https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8
