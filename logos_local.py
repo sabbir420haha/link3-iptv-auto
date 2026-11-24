@@ -5,6 +5,7 @@ sources; otherwise use a clearly labelled custom channel-name placeholder.
 """
 import concurrent.futures
 import io
+import hashlib
 import json
 import re
 import textwrap
@@ -63,6 +64,7 @@ TV_CONTRAST_LOGOS = {
 # Hand-selected exact channel identity matches from the logo library.
 INDIAN={
     "Sun Bangla":"sun-bangla-in.png",
+    "Enterr10 Bangla":"enter10-bangla-in.png",
     "Cartoon Network":"cartoon-network-in.png",
     "Sony Aath":"sony-aath-in.png",
     "Star Jalsha":"star-jalsha-in.png",
@@ -192,30 +194,34 @@ def card(name, img):
             result.alpha_composite(artwork, (padding, padding))
             return result, "brand"
 
-    # No genuine image? Keep an honest readable text fallback, also tightly
-    # cropped and transparent rather than manufacturing a white logo card.
-    rows = textwrap.wrap(name, width=18, break_long_words=False)[:3]
-    label = "\n".join(rows)
-    chosen = font(31 if len(name) < 20 else 24 if len(name) < 31 else 19)
-    measure = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
-    bbox = measure.multiline_textbbox((0, 0), label, font=chosen,
-                                      spacing=5, align="center")
-    w = int(max(88, min(314, round(bbox[2]-bbox[0]+14))))
-    h = int(max(38, min(198, round(bbox[3]-bbox[1]+14))))
-    # Keep unresolved channels visible on IPTV Pro's dark tiles.
-    # This is an explicit labelled fallback, NOT represented as official artwork.
-    w = min(314, max(132, w + 26))
-    h = min(198, max(58, h + 18))
-    result = Image.new("RGBA", (w, h), (244, 248, 253, 255))
+    # No official image source: generate a distinct, polished channel identity
+    # mark instead of a plain text label. This is custom artwork, not an official
+    # broadcaster logo, and it remains legible on IPTV Pro's dark tiles.
+    digest = hashlib.sha256(name.encode("utf-8")).digest()
+    palette = [
+        (16, 74, 120, 255), (151, 28, 48, 255), (20, 112, 92, 255),
+        (105, 57, 145, 255), (189, 92, 24, 255), (34, 76, 155, 255),
+        (130, 43, 91, 255), (40, 104, 112, 255)
+    ]
+    base = palette[digest[0] % len(palette)]
+    accent = (min(base[0]+75,255), min(base[1]+75,255), min(base[2]+75,255),255)
+    w,h = 320,178
+    result = Image.new("RGBA",(w,h),(0,0,0,0))
     painter = ImageDraw.Draw(result)
-    painter.rounded_rectangle((1, 1, w-2, h-2), radius=10,
-                              fill=(244, 248, 253, 255),
-                              outline=(32, 83, 130, 255), width=3)
-    painter.multiline_text((w//2, h//2), label, font=chosen,
-                            fill=(18, 43, 73, 255), anchor="mm",
-                            spacing=5, align="center",
-                            stroke_width=0)
-    return result, "fallback"
+    painter.rounded_rectangle((2,2,w-3,h-3),radius=18,fill=base,
+                              outline=accent,width=3)
+    initials = "".join(word[0] for word in re.findall(r"[A-Za-z0-9]+",name)[:3]).upper()
+    if len(initials)<2:
+        initials = name[:2].upper()
+    painter.ellipse((14,35,122,143),fill=accent,outline=(255,255,255,220),width=3)
+    painter.text((68,89),initials,anchor="mm",font=font(40),fill=(255,255,255,255))
+    rows = textwrap.wrap(name, width=22, break_long_words=False)[:2]
+    label = "\\n".join(rows)
+    label_font = font(27 if len(name)<20 else 22)
+    painter.multiline_text((137,89),label,font=label_font,fill=(255,255,255,255),
+                           anchor="lm",spacing=5,align="left",
+                           stroke_width=1,stroke_fill=(0,0,0,90))
+    return result, "custom"
 
 
 def contrast_brand_logo(name, previous_path):
@@ -358,7 +364,7 @@ def main():
             elif name in ZEE_ARCHIVE_LOGOS:
                 uri=ROOT_URL+filename+"?v=zee-original-clear-20261023"
             else:
-                uri=ROOT_URL+filename+"?v=main-logo-visibility-20261125"
+                uri=ROOT_URL+filename+"?v=complete-channel-logos-20261125"
             if 'tvg-logo="' in line:
                 line=re.sub(r'tvg-logo="[^"]*"',f'tvg-logo="{uri}"',line,count=1)
             else:
@@ -369,11 +375,12 @@ def main():
     if STATUS.exists():
         status=json.loads(STATUS.read_text(encoding="utf-8"))
         status["local_logos"]={"total":len(result),"from_image_sources":statuses["brand"],
-                "clear_name_fallbacks":statuses["fallback"],
+                "custom_logo_artwork":statuses["custom"],"clear_name_fallbacks":statuses["fallback"],
                 "brand_channels":[name for name,filename,kind in result if kind=="brand"],
+                "custom_logo_channels":[name for name,filename,kind in result if kind=="custom"],
                 "fallback_channels":[name for name,filename,kind in result if kind=="fallback"],
-                "size":"variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
-                "note":"Brand artwork is sourced from channel/provider logo images; fallback_channels are text-only and must not be represented as official logos."}
+                "size":"TV-tile optimized transparent PNG assets",
+                "note":"Official artwork is used when a valid source exists; otherwise a distinct custom channel identity mark is generated."}
         STATUS.write_text(json.dumps(status,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
     print("Local channel logos:",dict(statuses),"total",len(result))
 
