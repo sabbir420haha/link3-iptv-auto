@@ -34,6 +34,17 @@ ZEE_ARCHIVE_LOGOS = {
 # Only these three user-requested logos get a stronger TV-visible treatment.
 # Exact brand artwork is preferred to old plain-name fallback images.
 TV_CONTRAST_LOGOS = {
+    # These eight entries currently have dark/transparent artwork that blends
+    # into IPTV Pro's dark channel tiles. Keep each existing mark and place it
+    # on a light, high-contrast branded field; no stream metadata is changed.
+    "ATN Bangla": [],
+    "BanglaVision": [],
+    "Duronto TV": [],
+    "Hungama TEST 113": [],
+    "Hungama Backup": [],
+    "Maasranga TV": [],
+    "NTV": [],
+    "Somoy TV": [],
     "Discovery Bangla": [
         "https://jiotvimages.cdn.jio.com/dare_images/images/DiscoveryHDBen.png",
         "https://otapp.store/uploads/tv_image/sm/discovery-channel-bengali.png",
@@ -299,7 +310,7 @@ def main():
             filename,_=mapping[name]
             # Versioned URL refreshes IPTV Pro logo cache when image layout changes.
             if name in TV_CONTRAST_LOGOS:
-                uri=ROOT_URL+filename+"?v=contrast-brand-20261023"
+                uri=ROOT_URL+filename+"?v=contrast-brand-20261124"
             elif name in ZEE_ARCHIVE_LOGOS:
                 uri=ROOT_URL+filename+"?v=zee-original-clear-20261023"
             else:
