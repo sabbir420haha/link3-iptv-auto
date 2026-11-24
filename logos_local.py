@@ -87,6 +87,7 @@ INDIAN={
 }
 # Avoid substituting incorrect logos from similarly named foreign channels.
 OTHER={
+    "Sun Bangla":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/India/sun-bangla-in.png",
     "ATN News":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/atn-news-bd.png",
     "Channel 24":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/channel-24-bd.png",
     "Channel i":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/channel-i-bd.png",
