@@ -62,6 +62,14 @@ TV_CONTRAST_LOGOS = {
 
 # Hand-selected exact channel identity matches from the logo library.
 INDIAN={
+    "Cartoon Network":"cartoon-network-in.png",
+    "Sony Aath":"sony-aath-in.png",
+    "Star Jalsha":"star-jalsha-in.png",
+    "Zee 24 Ghanta":"zee-24-ghanta-in.png",
+    "Pogo":"pogo-in.png",
+    "Discovery Kids":"discovery-kids-in.png",
+    "DD Sports":"dd-sports-in.png",
+    "Star Sports 2":"star-sports-2-in.png",
     "Zee Bangla":"zee-bangla-in.png",
     "Zee Bangla HD":"zee-bangla-hd-in.png",
     "Sony MAX HD":"sony-max-hd-in.png",
@@ -78,6 +86,34 @@ INDIAN={
 }
 # Avoid substituting incorrect logos from similarly named foreign channels.
 OTHER={
+    "ATN News":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/atn-news-bd.png",
+    "Channel 24":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/channel-24-bd.png",
+    "Channel i":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/channel-i-bd.png",
+    "DBC News":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/dbc-news-bd.png",
+    "Independent TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/independent-bd.png",
+    "Ekattor TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/ekattor-tv-bd.png",
+    "News 24":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/news-24-bd.png",
+    "BTV News":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/btv-news-bd.png",
+    "Desh TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/desh-tv-bd.png",
+    "Ekhon TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/ekhon-bd.png",
+    "Bijoy TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/bijoy-tv-bd.png",
+    "Ekushey TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/ekushey-tv-bd.png",
+    "BTV Chattogram":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/btv-chattogram-bd.png",
+    "Boishakhi TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/boishakhi-tv-bd.png",
+    "Deepto TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/deepto-tv-bd.png",
+    "RTV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/r-tv-bd.png",
+    "Gazi TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/gtv-bd.png",
+    "My TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/my-tv-bd.png",
+    "Asian TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/asian-tv-bd.png",
+    "SA TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/sa-tv-bd.png",
+    "Ananda TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/ananda-tv-bd.png",
+    "Rajdhani TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/rajdhani-bd.png",
+    "Deshi TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/deshi-tv-bd.png",
+    "Channel S":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/channel-s-bd.png",
+    "Deshe Bideshe TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/deshebideshe-tv-bd.png",
+    "Islamic TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/islamic-tv-bd.png",
+    "Mohona TV":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/mohona-tv-bd.png",
+    "T Sports":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/Bangladesh/t-sports-bd.png",
     "Discovery Bangla":"https://raw.githubusercontent.com/AsimDipto/Logo-box/main/India/Discovery-Bangla.png",
     "Disney HD Hindi":"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_DISNEY_CHANNEL_HD/images/LOGO_HD/image.png",
 }
@@ -310,7 +346,7 @@ def main():
             elif name in ZEE_ARCHIVE_LOGOS:
                 uri=ROOT_URL+filename+"?v=zee-original-clear-20261023"
             else:
-                uri=ROOT_URL+filename+"?v=iptv-tightfit-20261023"
+                uri=ROOT_URL+filename+"?v=real-logo-audit-20261125"
             if 'tvg-logo="' in line:
                 line=re.sub(r'tvg-logo="[^"]*"',f'tvg-logo="{uri}"',line,count=1)
             else:
