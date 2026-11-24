@@ -1,0 +1,27 @@
+#EXTM3U
+# LINK3 | TEST CHANNELS — separate from main playlist
+# Candidate links collected from public GitHub M3U playlists; playback needs user-side testing.
+#EXTINF:-1 tvg-name="ATN News" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/atn-news.png?v=test-20261125" group-title="TEST CHANNELS",ATN News
+https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/discovery-bangla.png?v=test-20261125" group-title="TEST CHANNELS",Discovery Bangla
+https://streamitv.multitvsolution.in/idvo/discoverybengali.m3u8
+#EXTINF:-1 tvg-name="Duronto TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/duronto-tv.png?v=test-20261125" group-title="TEST CHANNELS",Duronto TV
+https://tvsen4.aynaott.com/durontotv/index.m3u8
+#EXTINF:-1 tvg-name="Hungama Backup" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/hungama-backup.png?v=test-20261125" group-title="TEST CHANNELS",Hungama Backup
+https://live.hungama.com/linear/dil-se/playlist.m3u8
+#EXTINF:-1 tvg-name="Sony MAX HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-max-hd.png?v=test-20261125" group-title="TEST CHANNELS",Sony MAX HD
+https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sony_max_2PQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
+#EXTINF:-1 tvg-name="Nat Geo HD Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nat-geo-hd-bangla.png?v=test-20261125" group-title="TEST CHANNELS",Nat Geo HD Bangla
+https://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-name="Nick Bangla" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/nick-bangla.png?v=test-20261125" group-title="TEST CHANNELS",Nick Bangla
+https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_nickelodeonPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
+#EXTINF:-1 tvg-name="NTV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/ntv.png?v=test-20261125" group-title="TEST CHANNELS",NTV
+https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
+#EXTINF:-1 tvg-name="Somoy TV" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/somoy-tv.png?v=test-20261125" group-title="TEST CHANNELS",Somoy TV
+https://ccntv.anytv.live/somoy/index.m3u8
+#EXTINF:-1 tvg-name="Sony Aath" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-aath.png?v=test-20261125" group-title="TEST CHANNELS",Sony Aath
+https://ccntv.anytv.live/sonyaath/index.m3u8
+#EXTINF:-1 tvg-name="Sony Ten 1 HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-1-hd.png?v=test-20261125" group-title="TEST CHANNELS",Sony Ten 1 HD
+https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sony_ten_1PQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
+#EXTINF:-1 tvg-name="Sony Ten 3 HD" tvg-logo="https://raw.githubusercontent.com/sabbir420haha/link3-iptv-auto/main/logos/sony-ten-3-hd.png?v=test-20261125" group-title="TEST CHANNELS",Sony Ten 3 HD
+https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sony_ten_3PQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
