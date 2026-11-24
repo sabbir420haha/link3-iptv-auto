@@ -62,6 +62,7 @@ TV_CONTRAST_LOGOS = {
 
 # Hand-selected exact channel identity matches from the logo library.
 INDIAN={
+    "Sun Bangla":"sun-bangla-in.png",
     "Cartoon Network":"cartoon-network-in.png",
     "Sony Aath":"sony-aath-in.png",
     "Star Jalsha":"star-jalsha-in.png",
@@ -200,10 +201,17 @@ def card(name, img):
                                       spacing=5, align="center")
     w = int(max(88, min(314, round(bbox[2]-bbox[0]+14))))
     h = int(max(38, min(198, round(bbox[3]-bbox[1]+14))))
-    result = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    # Keep unresolved channels visible on IPTV Pro's dark tiles.
+    # This is an explicit labelled fallback, NOT represented as official artwork.
+    w = min(314, max(132, w + 26))
+    h = min(198, max(58, h + 18))
+    result = Image.new("RGBA", (w, h), (244, 248, 253, 255))
     painter = ImageDraw.Draw(result)
+    painter.rounded_rectangle((1, 1, w-2, h-2), radius=10,
+                              fill=(244, 248, 253, 255),
+                              outline=(32, 83, 130, 255), width=3)
     painter.multiline_text((w//2, h//2), label, font=chosen,
-                            fill=(30, 51, 79, 255), anchor="mm",
+                            fill=(18, 43, 73, 255), anchor="mm",
                             spacing=5, align="center",
                             stroke_width=0)
     return result, "fallback"
@@ -349,7 +357,7 @@ def main():
             elif name in ZEE_ARCHIVE_LOGOS:
                 uri=ROOT_URL+filename+"?v=zee-original-clear-20261023"
             else:
-                uri=ROOT_URL+filename+"?v=real-logo-audit-20261125"
+                uri=ROOT_URL+filename+"?v=main-logo-visibility-20261125"
             if 'tvg-logo="' in line:
                 line=re.sub(r'tvg-logo="[^"]*"',f'tvg-logo="{uri}"',line,count=1)
             else:
