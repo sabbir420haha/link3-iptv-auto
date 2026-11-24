@@ -2219,8 +2219,8 @@
   },
   "local_logos": {
     "total": 77,
-    "from_image_sources": 55,
-    "clear_name_fallbacks": 22,
+    "from_image_sources": 58,
+    "clear_name_fallbacks": 19,
     "brand_channels": [
       "Zee Bangla HD",
       "Zee Bangla",
@@ -2276,7 +2276,10 @@
       "Discovery Kids",
       "T Sports",
       "DD Sports",
-      "Star Sports 2"
+      "beIN Sports XTRA",
+      "Red Bull TV",
+      "Star Sports 2",
+      "FITE 24/7"
     ],
     "fallback_channels": [
       "News 21 Bangla TV",
@@ -2296,11 +2299,8 @@
       "Bangla Plus",
       "PTV Sports",
       "A Sports",
-      "beIN Sports XTRA",
       "Sports First TV",
-      "Red Bull TV",
-      "Cricket Gold",
-      "FITE 24/7"
+      "Cricket Gold"
     ],
     "size": "variable-aspect transparent PNG; tightly trimmed, 4px safety edge",
     "note": "Brand artwork is sourced from channel/provider logo images; fallback_channels are text-only and must not be represented as official logos."
