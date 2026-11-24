@@ -180,14 +180,10 @@ def contrast_brand_logo(name, previous_path):
                    if (pic := read_image(uri)) is not None), None)
 
     if source is None:
-        if previous_path.exists():
-            # Network image source unavailable? Keep the previous file and
-            # avoid killing the entire auto-generated M3U update.
-            with Image.open(previous_path) as prev:
-                prev.load()
-                source = prev.convert("RGBA")
-        else:
-            source = None
+        raise RuntimeError(
+            f"No genuine broadcaster artwork could be downloaded for {name}; "
+            "refusing to publish a text-only placeholder as a channel logo."
+        )
 
     # The channel's native mark is tightly contained, NEVER stretched.
     mark,kind = card(name, source)
