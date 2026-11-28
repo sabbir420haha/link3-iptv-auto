@@ -141,3 +141,48 @@ https://dai.google.com/linear/hls/event/Qyqz40bSQriqSuAC7R8_Fw/master.m3u8
 https://tataplay.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8
 #EXTINF:-1 tvg-name="Sony Ten 3 HD alternate" group-title="Requested - Sports",Sony Ten 3 HD Alternate
 https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8
+# ============================================================
+# DISCOVERY BANGLA | 20 SOURCE TEST
+# Candidates gathered from different public playlist repositories.
+# These are unverified candidates; availability, rights and Link3 playback are NOT guaranteed.
+# Test one by one. Do not copy to Main until it plays reliably on your Link3 connection.
+#EXTINF:-1 tvg-name="Discovery Bangla Test 01" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 01 - 01 • StreamiTV
+https://streamitv.multitvsolution.in/idvo/discoverybengali.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 02" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 02 - 02 • Varun IPTV
+https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 03" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 03 - 03 • CDN1 FreeIPTV
+https://cdn1-freeiptv25.vercel.app/m3u/discoverybengali.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 04" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 04 - 04 • Bosta Live
+https://bosta-live.vercel.app/DiscoveryBengali.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 05" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 05 - 05 • CCNTV Discovery
+https://ccntv.anytv.live/discovery/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 06" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 06 - 06 • CCNTV Discovery Bangla
+https://ccntv.anytv.live/discoverybangla/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 07" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 07 - 07 • KhulnaLive AnyTV
+https://khulnalive.anytv.live/discoverybangla/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 08" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 08 - 08 • OTV FTPBD
+http://otv.ftpbd.net/streams/121/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 09" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 09 - 09 • Discovery CH Server
+http://103.81.104.222/live/discovery-ch/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 10" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 10 - 10 • Discovery Bangla Server 180
+http://180.94.28.28:8097/DISCOVERY-BANGLA/index.fmp4.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 11" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 11 - 11 • Discovery Bangla Server 103
+http://103.89.248.130:8082/DISCOVERY-BANGLA/index.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 12" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 12 - 12 • Shadhin TV
+http://103.102.27.173:84/DISCOVERY-BANGLA/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 13" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 13 - 13 • Tiger Hub
+https://tiger-hub.vercel.app/Discovery-bangla/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 14" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 14 - 14 • Durbin Live
+https://tv.durbinlive.com/api/dc/Discovery_Bangla.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 15" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 15 - 15 • StarPlay2
+https://starplay2.netlify.app/m3u/discoverybengali.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 16" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 16 - 16 • RocketCDN Delta
+https://s4v4r3k4.rocketcdn.me/delta/discovery/api/Discovery_Bangla.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 17" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 17 - 17 • MHDTV World Delta
+https://mhdtvworld.me/delta/discovery/api/Discovery_Bangla.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 18" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 18 - 18 • MHDTV Max Delta
+https://mhdtvmax.net/delta/discovery/api/Discovery_Bangla.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 19" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 19 - 19 • FaridMahmud GitHub
+https://raw.githubusercontent.com/FaridMahmud/Channel/Stream/Discovery_bn.m3u8
+#EXTINF:-1 tvg-name="Discovery Bangla Test 20" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 20 - 20 • KaziTV GitHub
+https://raw.githubusercontent.com/kaziemamul/html1/main/KaziTV/Discovery_Bangla.m3u8
