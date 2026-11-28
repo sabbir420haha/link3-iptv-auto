@@ -1,188 +1,139 @@
 #EXTM3U
-# LINK3 | EXPANDED TEST PLAYLIST
-# Sources collected from public GitHub M3U lists. Stream availability is not guaranteed.
-# Requested channels - alternate candidates
-#EXTINF:-1 tvg-name="ATN News" group-title="Requested - News",ATN News
-https://ccntv.anytv.live/atnnews/index.m3u8
-#EXTINF:-1 tvg-name="ATN News Backup" group-title="Requested - News",ATN News Backup
-http://103.205.133.20/hls/atnnews.m3u8
-#EXTINF:-1 tvg-name="NTV" group-title="Requested - News",NTV
-https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
-#EXTINF:-1 tvg-name="NTV Backup" group-title="Requested - News",NTV Backup
-https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
-#EXTINF:-1 tvg-name="Somoy TV" group-title="Requested - News",Somoy TV
-https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
-#EXTINF:-1 tvg-name="Somoy TV Backup" group-title="Requested - News",Somoy TV Backup
-https://ccntv.anytv.live/somoy/index.m3u8
-#EXTINF:-1 tvg-name="Duronto TV" group-title="Requested - Kids",Duronto TV
-https://tvsen6.aynaott.com/6xyZ3N4oHv2KBJdB6W4p/index.m3u8
-#EXTINF:-1 tvg-name="Duronto TV Backup" group-title="Requested - Kids",Duronto TV Backup
-https://box.bbaria.net/DurontoTV/index.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla" group-title="Requested - Entertainment",Discovery Bangla
+# LINK3 | DISCOVERY BANGLA ONLY TEST PLAYLIST
+# 45 candidates gathered from public GitHub playlists and CDN/OTT endpoints.
+# BDIX/private-LAN/IPTV-LAN hosts excluded. Playback is not yet verified on Link3 Wi-Fi.
+# SOURCE: GP CDN Bangladesh SD
+#EXTINF:-1 tvg-name="Test 1" group-title="Discovery Bangla Test",Test 1
+https://drk6xq0vhn.gpcdn.net/live/discovery_sd_abr/index.m3u8
+# SOURCE: GP CDN Bangladesh HD
+#EXTINF:-1 tvg-name="Test 2" group-title="Discovery Bangla Test",Test 2
+https://drk6xq0vhn.gpcdn.net/live/discovery_hd_abr/index.m3u8
+# SOURCE: AynaOTT Bangla HD
+#EXTINF:-1 tvg-name="Test 3" group-title="Discovery Bangla Test",Test 3
+https://tvsen6.aynaott.com/discovery_hd_bangla/index.m3u8
+# SOURCE: AynaOTT Bangla mono TS
+#EXTINF:-1 tvg-name="Test 4" group-title="Discovery Bangla Test",Test 4
+https://tvsen6.aynaott.com/discovery_hd_bangla/mono.ts.m3u8
+# SOURCE: AynaOTT Bangla tracks mono TS
+#EXTINF:-1 tvg-name="Test 5" group-title="Discovery Bangla Test",Test 5
+https://tvsen6.aynaott.com/discovery_hd_bangla/tracks-v1a1/mono.ts.m3u8
+# SOURCE: StreamiTV Bengali
+#EXTINF:-1 tvg-name="Test 6" group-title="Discovery Bangla Test",Test 6
 https://streamitv.multitvsolution.in/idvo/discoverybengali.m3u8
-#EXTINF:-1 tvg-name="Hungama Backup" group-title="Requested - Entertainment",Hungama Backup
-https://live.hungama.com/linear/dil-se/playlist.m3u8
-#EXTINF:-1 tvg-name="Sony Aath" group-title="Requested - Entertainment",Sony Aath
-https://ccntv.anytv.live/sonyaath/index.m3u8
-#EXTINF:-1 tvg-name="Sony Aath Backup" group-title="Requested - Entertainment",Sony Aath Backup
-http://master.beeiptv.com:8081/LAW/sonyaath/playlist.m3u8
-#EXTINF:-1 tvg-name="Nat Geo HD Bangla" group-title="Requested - Documentary",Nat Geo HD Bangla
-https://admdn2.cdn.mangomolo.com/nagtv/smil:nagtv.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="Nick Bangla" group-title="Requested - Kids",Nick Bangla
-https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_nickelodeonPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
-#EXTINF:-1 tvg-name="Sony MAX HD" group-title="Requested - Movies",Sony MAX HD
-https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sony_max_2PQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
-#EXTINF:-1 tvg-name="Sony Ten 1 HD" group-title="Requested - Sports",Sony Ten 1 HD
-https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sony_ten_1PQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
-#EXTINF:-1 tvg-name="Sony Ten 3 HD" group-title="Requested - Sports",Sony Ten 3 HD
-https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sony_ten_3PQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
-# Bangladesh FTA channels
-#EXTINF:-1 tvg-name="Ananda TV" group-title="Bangladesh",Ananda TV
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="ATN Bangla" group-title="Bangladesh",ATN Bangla
-https://tvsen5.aynaott.com/atnbangla/index.m3u8
-#EXTINF:-1 tvg-name="Bangla Vision" group-title="Bangladesh",Bangla Vision
-https://tvsen5.aynaott.com/banglavision/index.m3u8
-#EXTINF:-1 tvg-name="Boishakhi TV" group-title="Bangladesh",Boishakhi TV
-https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8
-#EXTINF:-1 tvg-name="Channel S" group-title="Bangladesh",Channel S
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="DBC News" group-title="Bangladesh - News",DBC News
-http://tvn3.chowdhury-shaheb.com/dbc/index.m3u8
-#EXTINF:-1 tvg-name="Deepto TV" group-title="Bangladesh",Deepto TV
-https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8
-#EXTINF:-1 tvg-name="Deshi TV" group-title="Bangladesh",Deshi TV
-https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
-#EXTINF:-1 tvg-name="Ekushey TV" group-title="Bangladesh",Ekushey TV
-https://ekusheyserver.com/etvlivesn.m3u8
-#EXTINF:-1 tvg-name="Gazi TV" group-title="Bangladesh",Gazi TV
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Green TV" group-title="Bangladesh",Green TV
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Maasranga TV" group-title="Bangladesh",Maasranga TV
-https://tvsen5.aynaott.com/maasrangatv/index.m3u8
-#EXTINF:-1 tvg-name="Matribhumi TV" group-title="Bangladesh",Matribhumi TV
-http://live.playmax.live/matribhumi/index.m3u8
-#EXTINF:-1 tvg-name="Movie Bangla" group-title="Bangladesh - Movies",Movie Bangla
-http://alvetv.com/moviebanglatv/8080/index.m3u8
-#EXTINF:-1 tvg-name="My TV" group-title="Bangladesh",My TV
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8
-#EXTINF:-1 tvg-name="Nexus TV" group-title="Bangladesh",Nexus TV
-https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8
-#EXTINF:-1 tvg-name="RTV" group-title="Bangladesh",RTV
-https://tvsen5.aynaott.com/RtvHD/index.m3u8
-#EXTINF:-1 tvg-name="Rajdhani TV" group-title="Bangladesh",Rajdhani TV
-https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
-#EXTINF:-1 tvg-name="T Sports" group-title="Bangladesh - Sports",T Sports
-https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8
-#EXTINF:-1 tvg-name="Vokta TV" group-title="Bangladesh",Vokta TV
-https://vokta.raytahost.com/live/voktatv/index.m3u8
-# India Bangla FTA
-#EXTINF:-1 tvg-name="ABP Ananda" group-title="India Bangla - News",ABP Ananda
-https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8
-#EXTINF:-1 tvg-name="DD Bangla" group-title="India Bangla",DD Bangla
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/7ff57cc9046b4c188b51a0d506f36e7f/index_3.m3u8
-#EXTINF:-1 tvg-name="TV9 Bangla" group-title="India Bangla - News",TV9 Bangla
-https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8
-#EXTINF:-1 tvg-name="Zee 24 Ghanta" group-title="India Bangla - News",Zee 24 Ghanta
-https://d2dsoyvkr33m05.cloudfront.net/index_1.m3u8
-#EXTINF:-1 tvg-name="Enterr10 Bangla" group-title="India Bangla",Enterr10 Bangla
-https://amg01448-samsungin-enterr10bangla-samsungin-ad-gg.amagi.tv/playlist/amg01448-samsungin-enterr10bangla-samsungin/playlist.m3u8
-#EXTINF:-1 tvg-name="News18 Bangla" group-title="India Bangla - News",News18 Bangla
-https://amg01448-samsungin-news18bangla-samsungin-ad-qy.amagi.tv/playlist/amg01448-samsungin-news18bangla-samsungin/playlist.m3u8
-#EXTINF:-1 tvg-name="Zee Bangla Cinema" group-title="India Bangla - Movies",Zee Bangla Cinema
-https://load.airtelxstream.in/zeebanglacinema/smil:common.smil/chunklist.m3u8
-#EXTINF:-1 tvg-name="Sangeet Bangla" group-title="India Bangla - Music",Sangeet Bangla
-https://cdn-4.pishow.tv/live/1143/master.m3u8
-# Additional public GitHub playlist candidates (not playback-verified)
-#EXTINF:-1 tvg-name="ATN News alternate" group-title="Requested - News",ATN News Alternate
-https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8
-#EXTINF:-1 tvg-name="ATN News alternate" group-title="Requested - News",ATN News Alternate
-https://tempsignature.jagobd.com:444/cZVydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZT00U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnws-sg.stream/chunks.m3u8
-#EXTINF:-1 tvg-name="Somoy TV alternate" group-title="Requested - News",Somoy TV Alternate
-https://tempsignature.jagobd.com:444/cZVydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZT00U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/somoyt000011226615544544.stream/chunks.m3u8
-#EXTINF:-1 tvg-name="Somoy TV alternate" group-title="Requested - News",Somoy TV Alternate
-https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_somoy_newsPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
-#EXTINF:-1 tvg-name="Duronto TV alternate" group-title="Requested - Kids",Duronto TV Alternate
-https://edge01.iptv.digijadoo.net/live/duronto_tv/chunks.m3u8
-#EXTINF:-1 tvg-name="Duronto TV alternate" group-title="Requested - Kids",Duronto TV Alternate
-http://master.beeiptv.com:8081/LAW/duronto/playlist.m3u8
-#EXTINF:-1 tvg-name="Duronto TV alternate" group-title="Requested - Kids",Duronto TV Alternate
-https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_duronto_tvPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla alternate" group-title="Requested - Documentary",Discovery Bangla Alternate
+# SOURCE: Varun IPTV Bengali
+#EXTINF:-1 tvg-name="Test 7" group-title="Discovery Bangla Test",Test 7
 https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8
-#EXTINF:-1 tvg-name="Hungama Backup alternate" group-title="Requested - Entertainment",Hungama Backup Alternate
-https://sangamp94.github.io/filmaxxplay/filmaxxlivehungama.m3u8
-#EXTINF:-1 tvg-name="Sony Aath alternate" group-title="Requested - Entertainment",Sony Aath Alternate
-https://tataplay.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8
-#EXTINF:-1 tvg-name="Sony Aath alternate" group-title="Requested - Entertainment",Sony Aath Alternate
-https://dai.google.com/linear/hls/event/j-YEIDwORxubtP_967VcZg/master.m3u8
-#EXTINF:-1 tvg-name="Sony Aath alternate" group-title="Requested - Entertainment",Sony Aath Alternate
-https://pubads.g.doubleclick.net/ssai/event/pSVzGmMpQR6jdmwwJg87OQ/master.m3u8
-#EXTINF:-1 tvg-name="Sony Aath alternate" group-title="Requested - Entertainment",Sony Aath Alternate
-https://bldcmprod-cdn.toffeelive.com/cdn/live/sonyaath/playlist.m3u8
-#EXTINF:-1 tvg-name="Sony Aath alternate" group-title="Requested - Entertainment",Sony Aath Alternate
-https://ott.bingebd.com/live/ngrp:ZXOrtTn-asdt-s78TYU34GTX-03as-f7as-1ffd2-t1682a-sgh32x-zp3e-dsf-3b7aa-ort_621h_sWT564hQW_AQTY1025_sony_aathPQRT_9653SDE_s9023FGWQ_uiou_f36erxty_fort63_DH/playlist.m3u8
-#EXTINF:-1 tvg-name="Nick Bangla alternate" group-title="Requested - Kids",Nick Bangla Alternate
-http://14.102.123.50:5001/live/1341.m3u8
-#EXTINF:-1 tvg-name="Nick Bangla alternate" group-title="Requested - Kids",Nick Bangla Alternate
-https://sar.pages.dev/nick_bangla.m3u8
-#EXTINF:-1 tvg-name="Nick Bangla alternate" group-title="Requested - Kids",Nick Bangla Alternate
-http://103.229.254.25:7001/play/a07b/index.m3u8
-#EXTINF:-1 tvg-name="Nick Bangla alternate" group-title="Requested - Kids",Nick Bangla Alternate
-http://103.109.56.116/live/funtime110/index.m3u8
-#EXTINF:-1 tvg-name="Sony MAX HD alternate" group-title="Requested - Movies",Sony MAX HD Alternate
-https://tataplay.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8
-#EXTINF:-1 tvg-name="Sony MAX HD alternate" group-title="Requested - Movies",Sony MAX HD Alternate
-https://dai.google.com/linear/hls/event/UcjHNJmCQ1WRlGKlZm73QA/master.m3u8
-#EXTINF:-1 tvg-name="Sony MAX HD alternate" group-title="Requested - Movies",Sony MAX HD Alternate
-https://dai.google.com/linear/hls/event/Qyqz40bSQriqSuAC7R8_Fw/master.m3u8
-#EXTINF:-1 tvg-name="Sony Ten 1 HD alternate" group-title="Requested - Sports",Sony Ten 1 HD Alternate
-https://tataplay.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8
-#EXTINF:-1 tvg-name="Sony Ten 3 HD alternate" group-title="Requested - Sports",Sony Ten 3 HD Alternate
-https://tataplay.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8
-# ============================================================
-# DISCOVERY BANGLA | 20 SOURCE TEST
-# Candidates gathered from different public playlist repositories.
-# These are unverified candidates; availability, rights and Link3 playback are NOT guaranteed.
-# Test one by one. Do not copy to Main until it plays reliably on your Link3 connection.
-#EXTINF:-1 tvg-name="Discovery Bangla Test 01" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 01 - 01 • StreamiTV
-https://streamitv.multitvsolution.in/idvo/discoverybengali.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 02" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 02 - 02 • Varun IPTV
-https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 03" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 03 - 03 • CDN1 FreeIPTV
+# SOURCE: CDN1 FreeIPTV Bengali
+#EXTINF:-1 tvg-name="Test 8" group-title="Discovery Bangla Test",Test 8
 https://cdn1-freeiptv25.vercel.app/m3u/discoverybengali.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 04" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 04 - 04 • Bosta Live
+# SOURCE: Bosta Live Bengali
+#EXTINF:-1 tvg-name="Test 9" group-title="Discovery Bangla Test",Test 9
 https://bosta-live.vercel.app/DiscoveryBengali.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 05" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 05 - 05 • CCNTV Discovery
-https://ccntv.anytv.live/discovery/index.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 06" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 06 - 06 • CCNTV Discovery Bangla
+# SOURCE: CCNTV AnyTV Bangla
+#EXTINF:-1 tvg-name="Test 10" group-title="Discovery Bangla Test",Test 10
 https://ccntv.anytv.live/discoverybangla/index.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 07" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 07 - 07 • KhulnaLive AnyTV
+# SOURCE: KhulnaLive AnyTV Bangla
+#EXTINF:-1 tvg-name="Test 11" group-title="Discovery Bangla Test",Test 11
 https://khulnalive.anytv.live/discoverybangla/index.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 08" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 08 - 08 • OTV FTPBD
-http://otv.ftpbd.net/streams/121/index.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 09" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 09 - 09 • Discovery CH Server
-http://103.81.104.222/live/discovery-ch/index.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 10" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 10 - 10 • Discovery Bangla Server 180
-http://180.94.28.28:8097/DISCOVERY-BANGLA/index.fmp4.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 11" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 11 - 11 • Discovery Bangla Server 103
-http://103.89.248.130:8082/DISCOVERY-BANGLA/index.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 12" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 12 - 12 • Shadhin TV
-http://103.102.27.173:84/DISCOVERY-BANGLA/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 13" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 13 - 13 • Tiger Hub
-https://tiger-hub.vercel.app/Discovery-bangla/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 14" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 14 - 14 • Durbin Live
+# SOURCE: Durbin Live Bangla
+#EXTINF:-1 tvg-name="Test 12" group-title="Discovery Bangla Test",Test 12
 https://tv.durbinlive.com/api/dc/Discovery_Bangla.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 15" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 15 - 15 • StarPlay2
+# SOURCE: StarPlay2 Bengali
+#EXTINF:-1 tvg-name="Test 13" group-title="Discovery Bangla Test",Test 13
 https://starplay2.netlify.app/m3u/discoverybengali.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 16" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 16 - 16 • RocketCDN Delta
+# SOURCE: RocketCDN Delta Bangla
+#EXTINF:-1 tvg-name="Test 14" group-title="Discovery Bangla Test",Test 14
 https://s4v4r3k4.rocketcdn.me/delta/discovery/api/Discovery_Bangla.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 17" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 17 - 17 • MHDTV World Delta
+# SOURCE: MHDTV World Delta Bangla
+#EXTINF:-1 tvg-name="Test 15" group-title="Discovery Bangla Test",Test 15
 https://mhdtvworld.me/delta/discovery/api/Discovery_Bangla.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 18" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 18 - 18 • MHDTV Max Delta
+# SOURCE: MHDTV Max Delta Bangla
+#EXTINF:-1 tvg-name="Test 16" group-title="Discovery Bangla Test",Test 16
 https://mhdtvmax.net/delta/discovery/api/Discovery_Bangla.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 19" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 19 - 19 • FaridMahmud GitHub
+# SOURCE: FaridMahmud GitHub
+#EXTINF:-1 tvg-name="Test 17" group-title="Discovery Bangla Test",Test 17
 https://raw.githubusercontent.com/FaridMahmud/Channel/Stream/Discovery_bn.m3u8
-#EXTINF:-1 tvg-name="Discovery Bangla Test 20" group-title="Discovery Bangla | 20 Source Test",Discovery Bangla Test 20 - 20 • KaziTV GitHub
+# SOURCE: KaziTV Bangla GitHub
+#EXTINF:-1 tvg-name="Test 18" group-title="Discovery Bangla Test",Test 18
 https://raw.githubusercontent.com/kaziemamul/html1/main/KaziTV/Discovery_Bangla.m3u8
+# SOURCE: KaziTV Channel GitHub
+#EXTINF:-1 tvg-name="Test 19" group-title="Discovery Bangla Test",Test 19
+https://raw.githubusercontent.com/kaziemamul/html1/main/KaziTV/Discovery_Channel.m3u8
+# SOURCE: Subir Kumar GitHub
+#EXTINF:-1 tvg-name="Test 20" group-title="Discovery Bangla Test",Test 20
+https://raw.githubusercontent.com/subirkumarpaul/My-iptv/main/Discovery.m3u8
+# SOURCE: FunctionError GitHub Bengali
+#EXTINF:-1 tvg-name="Test 21" group-title="Discovery Bangla Test",Test 21
+https://raw.githubusercontent.com/functionerror/channels/main/information/discoverybengali.m3u8
+# SOURCE: SM Monirul Bangla API
+#EXTINF:-1 tvg-name="Test 22" group-title="Discovery Bangla Test",Test 22
+http://sm-monirul.xyz/@monirul_Islam_SM/exp.php?id=discovery_bangla&sm=.m3u8
+# SOURCE: SM Monirul Toffee Discovery HD
+#EXTINF:-1 tvg-name="Test 23" group-title="Discovery Bangla Test",Test 23
+https://sm-monirul.top/toffee/play/discovery_hd.m3u8
+# SOURCE: Toffee CDN Discovery SD
+#EXTINF:-1 tvg-name="Test 24" group-title="Discovery Bangla Test",Test 24
+https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_sd/playlist.m3u8
+# SOURCE: Toffee CDN Discovery HD
+#EXTINF:-1 tvg-name="Test 25" group-title="Discovery Bangla Test",Test 25
+https://bldcmprod-cdn.toffeelive.com/cdn/live/discovery_hd/playlist.m3u8
+# SOURCE: GoogleDriveLinks Jio Bengali 480p
+#EXTINF:-1 tvg-name="Test 26" group-title="Discovery Bangla Test",Test 26
+https://tv.googledrivelinks.com/live.php?c=Discovery_Channel_Bengali&q=800&e=junk.m3u8
+# SOURCE: GoogleDriveLinks Jio Bengali 720p
+#EXTINF:-1 tvg-name="Test 27" group-title="Discovery Bangla Test",Test 27
+https://tv.googledrivelinks.com/live.php?c=Discovery_Channel_Bengali&q=1200&e=.m3u8
+# SOURCE: TechieSneh Jio Bengali
+#EXTINF:-1 tvg-name="Test 28" group-title="Discovery Bangla Test",Test 28
+https://techiesneh.in1.bitmana.io/snehapi/jioapi/snehjioxx.php?c=Discovery_Channel_Bengali&q=800&e=junk.m3u8
+# SOURCE: SnehAPI Jio Bengali
+#EXTINF:-1 tvg-name="Test 29" group-title="Discovery Bangla Test",Test 29
+https://snehapi.in1.bitmana.io/jioapi/snehjioxx.php?c=Discovery_Channel_Bengali&q=800&e=junk.m3u8
+# SOURCE: ServerTV Jio Bengali 360p
+#EXTINF:-1 tvg-name="Test 30" group-title="Discovery Bangla Test",Test 30
+https://servertv.ml/JIO/live.php?c=Discovery_Channel_Bengali&q=600&e=junk.m3u8
+# SOURCE: TSJioTV Bengali 144p
+#EXTINF:-1 tvg-name="Test 31" group-title="Discovery Bangla Test",Test 31
+https://tsjiotv.herokuapp.com/live.php?c=Discovery_Channel_Bengali&q=250&e=junk.m3u8
+# SOURCE: TSJioTV Bengali 240p
+#EXTINF:-1 tvg-name="Test 32" group-title="Discovery Bangla Test",Test 32
+https://tsjiotv.herokuapp.com/live.php?c=Discovery_Channel_Bengali&q=400&e=junk.m3u8
+# SOURCE: TSJioTV Bengali 360p
+#EXTINF:-1 tvg-name="Test 33" group-title="Discovery Bangla Test",Test 33
+https://tsjiotv.herokuapp.com/live.php?c=Discovery_Channel_Bengali&q=600&e=junk.m3u8
+# SOURCE: TSJioTV Bengali 480p
+#EXTINF:-1 tvg-name="Test 34" group-title="Discovery Bangla Test",Test 34
+https://tsjiotv.herokuapp.com/live.php?c=Discovery_Channel_Bengali&q=800&e=junk.m3u8
+# SOURCE: TSJioTV Bengali 720p
+#EXTINF:-1 tvg-name="Test 35" group-title="Discovery Bangla Test",Test 35
+https://tsjiotv.herokuapp.com/live.php?c=Discovery_Channel_Bengali&q=1200&e=junk.m3u8
+# SOURCE: Dinesh JioTV+ Bengali Master
+#EXTINF:-1 tvg-name="Test 36" group-title="Discovery Bangla Test",Test 36
+https://live.dinesh29.com.np/stream/jiotvplus/discoverybengali/master.m3u8
+# SOURCE: Dinesh JioTV+ Bengali Stream 0
+#EXTINF:-1 tvg-name="Test 37" group-title="Discovery Bangla Test",Test 37
+https://live.dinesh29.com.np/stream/jiotvplus/discoverybengali/stream_0.m3u8
+# SOURCE: Dinesh JioTV Bengali Stream 0
+#EXTINF:-1 tvg-name="Test 38" group-title="Discovery Bangla Test",Test 38
+https://live.dinesh29.com.np/stream/jiotv/discoverybengali/stream_0.m3u8
+# SOURCE: Dinesh Jio Universal Bengali
+#EXTINF:-1 tvg-name="Test 39" group-title="Discovery Bangla Test",Test 39
+https://jio.dinesh29.com.np/live/jio-universal/discovery-bengali/index.ts
+# SOURCE: DRMLive Jio Bengali fallback
+#EXTINF:-1 tvg-name="Test 40" group-title="Discovery Bangla Test",Test 40
+https://jio.drmlive.au/jio/bpk-tv/Discovery_Channel_Bengali_MOB/Fallback/index.m3u8
+# SOURCE: OTTPlus GP CDN mirror
+#EXTINF:-1 tvg-name="Test 41" group-title="Discovery Bangla Test",Test 41
+https://stream.ottplus.bd/live/discovery_sd_abr/live/discovery_sd/chunks.m3u8
+# SOURCE: CCNTV Discovery alternate
+#EXTINF:-1 tvg-name="Test 42" group-title="Discovery Bangla Test",Test 42
+https://ccntv.anytv.live/discovery/index.m3u8
+# SOURCE: GoogleDriveLinks Jio Bengali 720p alt
+#EXTINF:-1 tvg-name="Test 43" group-title="Discovery Bangla Test",Test 43
+https://tv.googledrivelinks.com/live.php?c=Discovery_Channel_Bengali&q=1200&e=junk.m3u8
+# SOURCE: TSJioTV Bengali 480p alt path
+#EXTINF:-1 tvg-name="Test 44" group-title="Discovery Bangla Test",Test 44
+https://tsjiotv.herokuapp.com/live.php?c=Discovery_Channel_Bengali&q=800&e=.m3u8
+# SOURCE: SM Monirul Toffee Bangla alt
+#EXTINF:-1 tvg-name="Test 45" group-title="Discovery Bangla Test",Test 45
+https://sm-monirul.top/Toffee/live.php?id=discovery_hd&e=.m3u8
