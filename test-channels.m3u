@@ -1,14 +1,14 @@
 #EXTM3U
 # LINK3 | DISCOVERY BANGLA FRESH TEST
-# Replaced the previous 45 candidates; none of those URLs are repeated here.
-# Sources found in public IPTV playlists. Endpoint reachability is not proof of Link3 playback.
-# Test 1 is the Discovery Bangla URL currently configured in the main playlist.
-# SOURCE: Current main-playlist Discovery Bangla endpoint
-#EXTINF:-1 tvg-name="Test 1" group-title="Discovery Bangla Fresh Test",Test 1
-https://app-re.sm-monirul-islam-rs.workers.dev/discovery-bangla/index.m3u8
-# SOURCE: BongoFlix Toffee Discovery HD proxy
-#EXTINF:-1 tvg-name="Test 2" group-title="Discovery Bangla Fresh Test",Test 2
-https://tv.bongoflix.top/toffee/live.php?id=discovery_hd&e=.m3u8
-# SOURCE: OTT Bangla Platform Toffee Discovery HD proxy
-#EXTINF:-1 tvg-name="Test 3" group-title="Discovery Bangla Fresh Test",Test 3
-https://ottbanglaplatform.com/tv/toffee/live.php?id=discovery_hd&e=.m3u8
+# New, unique candidates sourced from public IPTV playlists on GitHub.
+# All entries are TEST ONLY; Link3 playback and Bengali audio are not yet confirmed.
+# Previously failed URLs and the current main-playlist URL are intentionally excluded.
+# SOURCE: Public playlist references (alemran0/fors; diptosaha007/check; skmasum98/IPTV)
+#EXTINF:-1 tvg-name="Discovery Bangla TEST 01" group-title="Discovery Bangla Fresh Test",Discovery Bangla TEST 01
+https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8
+# SOURCE: Public playlist reference (skmasum98/IPTV)
+#EXTINF:-1 tvg-name="Discovery Bangla TEST 02" group-title="Discovery Bangla Fresh Test",Discovery Bangla TEST 02
+https://streamitv.multitvsolution.in/idvo/discoverybengali.m3u8
+# SOURCE: Public playlist reference (sumonhasan007/Sumon_network)
+#EXTINF:-1 tvg-name="Discovery Bangla TEST 03" group-title="Discovery Bangla Fresh Test",Discovery Bangla TEST 03
+https://cdn1-freeiptv25.vercel.app/m3u/discoverybengali.m3u8
