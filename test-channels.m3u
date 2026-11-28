@@ -1,14 +1,14 @@
 #EXTM3U
-# LINK3 | DISCOVERY BANGLA FRESH TEST
-# New, unique candidates sourced from public IPTV playlists on GitHub.
-# All entries are TEST ONLY; Link3 playback and Bengali audio are not yet confirmed.
-# Previously failed URLs and the current main-playlist URL are intentionally excluded.
-# SOURCE: Public playlist references (alemran0/fors; diptosaha007/check; skmasum98/IPTV)
-#EXTINF:-1 tvg-name="Discovery Bangla TEST 01" group-title="Discovery Bangla Fresh Test",Discovery Bangla TEST 01
-https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8
-# SOURCE: Public playlist reference (skmasum98/IPTV)
-#EXTINF:-1 tvg-name="Discovery Bangla TEST 02" group-title="Discovery Bangla Fresh Test",Discovery Bangla TEST 02
-https://streamitv.multitvsolution.in/idvo/discoverybengali.m3u8
-# SOURCE: Public playlist reference (sumonhasan007/Sumon_network)
-#EXTINF:-1 tvg-name="Discovery Bangla TEST 03" group-title="Discovery Bangla Fresh Test",Discovery Bangla TEST 03
-https://cdn1-freeiptv25.vercel.app/m3u/discoverybengali.m3u8
+# LINK3 | DISCOVERY BANGLA FRESH TEST ROUND 2
+# New candidates only. Previous failed round-1 URLs are removed and not repeated.
+# Sources are public playlist/repository references; Link3 playback and Bengali audio still require user confirmation.
+# BDIX-only sources, previously failed URLs, and main-playlist URL are excluded.
+# SOURCE: fahadskt/IPTV-Playlists public listing (Discovery HD Bangla 540p)
+#EXTINF:-1 tvg-name="Discovery Bangla TEST 04" group-title="Discovery Bangla Fresh Test",Discovery Bangla TEST 04
+https://itvorigin.multitvsolution.com:443/idvo/discoverybengali_540p/index.m3u8
+# SOURCE: Joyanto005/My-1st public playlist
+#EXTINF:-1 tvg-name="Discovery Bangla TEST 05" group-title="Discovery Bangla Fresh Test",Discovery Bangla TEST 05
+https://starplay2.netlify.app/m3u/discoverybengali.m3u8
+# SOURCE: AshrafulMahbeer/bdiptv.code public player configuration
+#EXTINF:-1 tvg-name="Discovery Bangla TEST 06" group-title="Discovery Bangla Fresh Test",Discovery Bangla TEST 06
+https://bosta-live.vercel.app/DiscoveryBengali.m3u8
